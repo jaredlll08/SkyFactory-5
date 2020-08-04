@@ -1,0 +1,29 @@
+{
+  "name": "skyfactory-5",
+  "version": "5.0.0",
+  "private": true,
+  "description": "",
+  "author": "DarkPacks",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkPacks/SkyFactory-5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DarkPacks/SkyFactory-5/issues"
+  },
+  "homepage": "https://github.com/DarkPacks/SkyFactory-5#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,md}": "prettier --write"
+  }
+}
