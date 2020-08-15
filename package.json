@@ -24,6 +24,6 @@
     }
   },
   "lint-staged": {
-    "*.{js,md}": "prettier --write"
+    "*.{json,js,md}": "prettier --write"
   }
 }
