@@ -1,4 +1,4 @@
-# SkyFactory 5
+# SkyFactory 5 [![Curseforge][curseimg]][curselink]
 
 [![Twitch Status](https://img.shields.io/twitch/status/darkosto?color=411145&label=Darkosto&logo=twitch)](https://twitch.tv/darkosto) [![Discord][discordimg]][discordlink]
 
