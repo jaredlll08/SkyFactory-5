@@ -1,0 +1,30 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "eslint.validate": ["javascript", "typescript"],
+  "files.exclude": {
+    ".eslintcache": true,
+    ".git": true,
+    "node_modules": true,
+    ".tmp": true,
+    ".husky": true
+  },
+  "prettier.prettierPath": "./node_modules/prettier",
+  "prettier.enable": true,
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/.tmp": true,
+    "./minecraft": true
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["./mc-package.json"],
+      "url": "./schemas/mc-package.json"
+    }
+  ]
+}

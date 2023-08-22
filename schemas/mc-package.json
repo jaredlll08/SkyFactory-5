@@ -1,0 +1,48 @@
+{
+  "title": "Minecraft Package",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "The name of the modpack",
+      "type": "string"
+    },
+    "version": {
+      "description": "The version of the Minecraft modpack",
+      "type": "string"
+    },
+    "minecraftVersion": {
+      "description": "The version of Minecraft the modpack will use",
+      "type": "string"
+    },
+    "forgeVersion": {
+      "description": "The version of forge the modpack will use",
+      "type": "string"
+    },
+    "mods": {
+      "$ref": "#/$defs/mods"
+    },
+    "devMods": {
+      "$ref": "#/$defs/mods"
+    }
+  },
+  "required": ["name", "version", "minecraftVersion", "forgeVersion"],
+  "additionalProperties": false,
+
+  "$defs": {
+    "mods": {
+      "title": "Minecraft Package Mods",
+      "type": "object",
+      "patternProperties": {
+        ".*": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "number" },
+            "version": { "type": "string" }
+          },
+          "required": ["id", "version"],
+          "additionalProperties": false
+        }
+      }
+    }
+  }
+}
