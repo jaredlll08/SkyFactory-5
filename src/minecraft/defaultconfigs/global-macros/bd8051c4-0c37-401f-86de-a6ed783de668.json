@@ -1,0 +1,11 @@
+{
+  "uuid": "bd8051c4-0c37-401f-86de-a6ed783de668",
+  "name": "Spectator",
+  "actionText": "/function dev_tools:debug/start",
+  "key": 320,
+  "keyName": "Keypad 0",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692559222452
+}

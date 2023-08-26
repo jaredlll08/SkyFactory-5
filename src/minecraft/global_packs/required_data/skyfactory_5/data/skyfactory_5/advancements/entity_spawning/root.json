@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": {
+      "translate": "Entity Spawning Root"
+    },
+    "description": "This is a test",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed"
+    },
+
+    "any_location": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "requirements": [["crafting_table", "any_location"]],
+  "rewards": {
+    "function": "skyfactory_5:entity_stages/entity_stage_setup"
+  }
+}

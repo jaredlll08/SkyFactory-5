@@ -1,0 +1,11 @@
+{
+  "uuid": "f7a2ab94-0e7c-4d23-a4e9-6d3256f72b7e",
+  "name": "Test",
+  "actionText": "/say This is a test",
+  "key": 321,
+  "keyName": "Keypad 1",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692558711924
+}

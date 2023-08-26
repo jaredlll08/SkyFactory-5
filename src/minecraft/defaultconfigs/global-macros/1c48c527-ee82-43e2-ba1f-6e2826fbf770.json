@@ -1,0 +1,11 @@
+{
+  "uuid": "1c48c527-ee82-43e2-ba1f-6e2826fbf770",
+  "name": "Night Time",
+  "actionText": "/time set night",
+  "key": 326,
+  "keyName": "Keypad 6",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692560736020
+}

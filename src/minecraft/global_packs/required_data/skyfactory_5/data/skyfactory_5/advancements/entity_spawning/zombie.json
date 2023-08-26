@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "title": "Zombie Game Stage Test",
+    "description": "This is a test",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:entity_spawning/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["obtrophies:trophy"],
+              "nbt": "{BlockEntityTag:{entity: \"minecraft:zombie\"}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "skyfactory_5:entity_stages/zombie/zombie_stage_enable"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "uuid": "7f9c7b23-2e5a-48e3-9b64-bc9383152a8e",
+  "name": "Reload Datapacks",
+  "actionText": "/reload",
+  "key": 328,
+  "keyName": "Keypad 8",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692565119091
+}

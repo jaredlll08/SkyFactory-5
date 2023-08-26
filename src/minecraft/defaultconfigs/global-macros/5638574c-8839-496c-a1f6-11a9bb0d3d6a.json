@@ -1,0 +1,11 @@
+{
+  "uuid": "5638574c-8839-496c-a1f6-11a9bb0d3d6a",
+  "name": "OP Sword",
+  "actionText": "/function dev_tools:debug/op_sword",
+  "key": 322,
+  "keyName": "Keypad 2",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692561491574
+}

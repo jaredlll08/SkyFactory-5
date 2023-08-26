@@ -1,0 +1,5 @@
+{
+  "type": "exdeorum:lava_crucible",
+  "fluid": { "Amount": 500, "FluidName": "minecraft:lava" },
+  "ingredient": { "tag": "forge:netherrack" }
+}

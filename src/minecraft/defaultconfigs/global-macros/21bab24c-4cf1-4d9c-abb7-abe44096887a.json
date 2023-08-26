@@ -1,0 +1,11 @@
+{
+  "uuid": "21bab24c-4cf1-4d9c-abb7-abe44096887a",
+  "name": "Creative Mode",
+  "actionText": "/function dev_tools:debug/creative_mode",
+  "key": 329,
+  "keyName": "Keypad 9",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692560381701
+}

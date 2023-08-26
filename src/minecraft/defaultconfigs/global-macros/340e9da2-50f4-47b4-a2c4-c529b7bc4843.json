@@ -1,0 +1,11 @@
+{
+  "uuid": "340e9da2-50f4-47b4-a2c4-c529b7bc4843",
+  "name": "Survival Mode",
+  "actionText": "/function dev_tools:debug/survival_mode",
+  "key": 327,
+  "keyName": "Keypad 7",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692559451166
+}

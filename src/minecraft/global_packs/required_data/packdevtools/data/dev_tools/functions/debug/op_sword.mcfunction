@@ -1,0 +1,1 @@
+give @p netherite_sword{Enchantments:[{id:"minecraft:sharpness",lvl:32000s}]} 1

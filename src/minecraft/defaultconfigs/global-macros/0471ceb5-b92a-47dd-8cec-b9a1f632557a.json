@@ -1,0 +1,11 @@
+{
+  "uuid": "0471ceb5-b92a-47dd-8cec-b9a1f632557a",
+  "name": "InControl Reload",
+  "actionText": "/incontrol reload",
+  "key": 325,
+  "keyName": "Keypad 5",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692561862963
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "mob": ["minecraft:zombie"],
+    "gamestage": "zombie",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:skeleton"],
+    "gamestage": "skeleton",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:creeper"],
+    "gamestage": "creeper",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:enderman"],
+    "gamestage": "enderman",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:phantom"],
+    "gamestage": "phantom",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:spider"],
+    "gamestage": "spider",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:husk"],
+    "gamestage": "husk",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:stray"],
+    "gamestage": "stray",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:zombie_villager"],
+    "gamestage": "zombie_villager",
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:warden"],
+    "gamestage": "warden",
+    "result": "allow"
+  },
+  {
+    "mob": [
+      "minecraft:blaze",
+      "minecraft:creeper",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:phantom",
+      "minecraft:skeleton",
+      "minecraft:spider",
+      "minecraft:stray",
+      "minecraft:warden",
+      "minecraft:witch",
+      "minecraft:zombie",
+      "minecraft:zombie_villager"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "minecraft:creeper",
+      "minecraft:enderman",
+      "minecraft:husk",
+      "minecraft:phantom",
+      "minecraft:skeleton",
+      "minecraft:spider",
+      "minecraft:stray",
+      "minecraft:warden",
+      "minecraft:witch",
+      "minecraft:zombie",
+      "minecraft:zombie_villager"
+    ],
+    "spawner": "true",
+    "result": "allow"
+  }
+]

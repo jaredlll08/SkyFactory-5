@@ -1,0 +1,11 @@
+{
+  "uuid": "34fec29a-fffd-450a-a6d8-90a9ee9f9518",
+  "name": "CT Hand",
+  "actionText": "/ct hand vanilla",
+  "key": 321,
+  "keyName": "Keypad 1",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692561700575
+}

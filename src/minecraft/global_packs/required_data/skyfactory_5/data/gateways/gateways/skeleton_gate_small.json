@@ -1,0 +1,55 @@
+{
+  "size": "small",
+  "color": "#D3D3D3",
+  "failures": [
+    {
+      "type": "command",
+      "command": "execute as <summoner> run function skyfactory_5:entity_stages/skeleton/skeleton_stage_disable",
+      "desc": ""
+    }
+  ],
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "minecraft:skeleton"
+        },
+        {
+          "entity": "minecraft:skeleton"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "minecraft:skeleton",
+          "rolls": 3
+        }
+      ],
+      "max_wave_time": 750,
+      "setup_time": 150
+    }
+  ],
+  "rewards": [
+    {
+      "type": "stack",
+      "stack": {
+        "item": "obtrophies:trophy",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "VariantID": 0,
+            "SpecialCycleVariant": 0,
+            "entity": "minecraft:skeleton"
+          }
+        }
+      }
+    },
+    {
+      "type": "command",
+      "command": "execute as <summoner> run function skyfactory_5:entity_stages/skeleton/skeleton_stage_disable",
+      "desc": ""
+    }
+  ],
+  "completion_xp": 250,
+  "spawn_range": 5
+}
