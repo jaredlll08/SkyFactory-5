@@ -35,7 +35,8 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
   });
 
   plop.setGenerator("JSON Schema Types", {
-    description: "Generates JSON Schema Types",
+    description:
+      "Generates JSON schema types for files defined in scripts/generator/json-schema-types/schema-files.ts",
     prompts: [],
     actions: [
       {
