@@ -1,0 +1,39 @@
+{
+  "size": "large",
+  "leash_range": 50000000,
+  "color": "#71955B",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "minecraft:bat"
+        },
+        {
+          "entity": "minecraft:bat"
+        }
+      ],
+      "modifiers": [],
+      "rewards": [],
+      "max_wave_time": 750,
+      "setup_time": 150
+    }
+  ],
+  "rewards": [
+    {
+      "type": "stack",
+      "stack": {
+        "item": "obtrophies:trophy",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "VariantID": 0,
+            "SpecialCycleVariant": 0,
+            "entity": "minecraft:bat"
+          }
+        }
+      }
+    }
+  ],
+  "completion_xp": 250,
+  "spawn_range": 5
+}

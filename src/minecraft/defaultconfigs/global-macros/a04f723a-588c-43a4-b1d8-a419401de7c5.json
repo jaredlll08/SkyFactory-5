@@ -1,0 +1,11 @@
+{
+  "uuid": "a04f723a-588c-43a4-b1d8-a419401de7c5",
+  "name": "[Num 6] Gamestage",
+  "actionText": "/gamestage info @s",
+  "key": 326,
+  "keyName": "Keypad 6",
+  "action": "COMMAND",
+  "enable": true,
+  "macroType": "SIMPLE",
+  "createdTime": 1692997782293
+}
