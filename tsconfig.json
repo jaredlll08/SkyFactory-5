@@ -15,11 +15,12 @@
       "scripts/*": ["scripts/*"]
     }
   },
-  "include": ["schemas/**/*", "src/**/*", "scripts/**/*"],
+  "include": ["schemas/**/*", "src/**/*", "scripts/**/*", "./types"],
   "typeRoots": [
     "./schemas",
     "node_modules/@types",
-    "./minecraft/kubejs/probe/generated"
+    "./minecraft/kubejs/probe/generated",
+    "./types"
   ],
 
   "ts-node": {
@@ -35,6 +36,6 @@
       // compilerOptions specified here will override those declared below,
       // but *only* in ts-node.  Useful if you want ts-node and tsc to use
       // different options with a single tsconfig.json.
-    }
+    },
   }
 }

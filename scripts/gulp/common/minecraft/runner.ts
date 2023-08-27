@@ -3,20 +3,12 @@ import { mkdir } from "fs/promises";
 import { Client, ILauncherOptions, IUser } from "minecraft-launcher-core";
 import { Auth, Minecraft } from "msmc";
 import { MinecraftPackage } from "schemas/mc-package";
-import { readMinecraftPackage } from "scripts/utils/mc-package";
-import { ForgeManager } from "./forge";
+import { ForgeManager } from "./forge-manager";
 import "dotenv/config";
 
 const mcDirectory = "./minecraft";
 
-(async function main() {
-  const mcPackage = await readMinecraftPackage();
-
-  const main = new Main(mcPackage);
-  main.start();
-})();
-
-class Main {
+export class MinecraftRunner {
   private mcPackage: MinecraftPackage;
   private forgeManager: ForgeManager;
 
@@ -64,10 +56,10 @@ class Main {
       javaPath: process.env.MC_JAVA_PATH || undefined,
     };
 
-    launcher.launch(opts);
-
     launcher.on("debug", this.onLauncherMessage.bind(this));
     launcher.on("data", this.onLauncherMessage.bind(this));
+
+    await launcher.launch(opts);
   }
 
   private onLauncherMessage(msg: string) {

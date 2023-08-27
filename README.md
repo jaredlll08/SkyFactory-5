@@ -39,5 +39,6 @@ Once installed, run `nvm install 20.5.1` then `nvm use 20.5.1` once the installa
 
 These are additional scripts that are provided for easing development processes.
 
+- `npm run cli` starts a prompt for common build tasks
 - `npm run generate` starts a prompt to generate certain project files.
 - `npm run symlink` generates symlinks between the repo and a minecraft instance.
