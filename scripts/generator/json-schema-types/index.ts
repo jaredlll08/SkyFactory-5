@@ -14,16 +14,20 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
 
     await Promise.all(
       files.map(async (filePath) => {
-        const fileName = filePath.replace(`${schemaPath}/`, "");
+        const fileSubPath = filePath.replace(`${schemaPath}/`, "");
 
-        if (!schemaFiles.has(fileName)) {
+        if (!schemaFiles.has(fileSubPath)) {
           return;
         }
 
-        const compiled = await compileFromFile(path.join(schemaPath, fileName));
+        const compiled = await compileFromFile(
+          path.join(schemaPath, fileSubPath),
+        );
+
+        const parsedPath = path.parse(fileSubPath);
 
         await fs.writeFile(
-          path.join(schemaPath, `${path.parse(fileName).name}.d.ts`),
+          path.join(schemaPath, parsedPath.dir, `${parsedPath.name}.d.ts`),
           compiled,
         );
 
