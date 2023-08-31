@@ -25,6 +25,18 @@
     {
       "fileMatch": ["./mc-package.json"],
       "url": "./schemas/mc-package.json"
+    },
+    {
+      "fileMatch": ["./src/minecraft/config/incontrol/loot.json"],
+      "url": "./schemas/minecraft/incontrol/loot.json"
+    },
+    {
+      "fileMatch": ["./src/minecraft/config/incontrol/spawn.json"],
+      "url": "./schemas/minecraft/incontrol/spawn.json"
+    },
+    {
+      "fileMatch": ["./src/minecraft/config/incontrol/spawner.json"],
+      "url": "./schemas/minecraft/incontrol/spawner.json"
     }
   ]
 }
