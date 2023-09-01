@@ -1,6 +1,8 @@
 import * as fs from "fs";
-import { access, readdir, readFile, unlink } from "fs/promises";
+import { access, readdir, readFile, unlink, writeFile } from "fs/promises";
+import JSON5 from "json5";
 import * as path from "path";
+import * as prettier from "prettier";
 
 export async function checkFileExists(filePath: string): Promise<boolean> {
   try {
@@ -22,7 +24,24 @@ export async function readJSONFile<T extends object>(
   filePath: string,
 ): Promise<T> {
   const file = await readFile(filePath, "utf-8");
-  const parsedFile = JSON.parse(file);
+  const parsedFile = JSON5.parse(file);
 
   return parsedFile;
+}
+
+export async function writeJSONFile<T extends object>(
+  filePath: string,
+  jsonData: T,
+  parser: "json" | "json5",
+): Promise<void> {
+  const stringifiedData = JSON5.stringify(jsonData, undefined, 2);
+
+  const prettierConfig = await prettier.resolveConfig(filePath);
+
+  const formattedData = await prettier.format(stringifiedData, {
+    ...prettierConfig,
+    parser,
+  });
+
+  await writeFile(filePath, formattedData);
 }
