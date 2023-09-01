@@ -8,118 +8,113 @@
 /**
  * A list of spawn entries for InControl mod
  */
-export type InControlSpawn = (
-  | {
-      result: "deny";
-    }
-  | {
-      result?: "default" | "allow";
-      nbt?: {
+export type InControlSpawn = {
+  result?: "deny" | "allow" | "default";
+  nbt?: {
+    [k: string]: unknown;
+  };
+  customname?: string;
+  healthmultiply?: number;
+  healthadd?: number;
+  speedmultiply?: number;
+  speedadd?: number;
+  damagemultiply?: number;
+  damageadd?: number;
+  angry?: boolean;
+  potion?: string | string[];
+  helditem?:
+    | string
+    | (
+        | string
+        | {
+            item: string;
+            nbt?: {
+              [k: string]: unknown;
+            };
+          }
+      )[];
+  armorboots?: string | string[];
+  armorhelmet?: string | string[];
+  armorlegs?: string | string[];
+  armorchest?: string | string[];
+  baby?: boolean;
+  biome?: string | string[];
+  biometags?: string | string[];
+  biometype?: string | string[];
+  block?:
+    | string
+    | string[]
+    | {
         [k: string]: unknown;
       };
-      customname?: string;
-      healthmultiply?: number;
-      healthadd?: number;
-      speedmultiply?: number;
-      speedadd?: number;
-      damagemultiply?: number;
-      damageadd?: number;
-      angry?: boolean;
-      potion?: string | string[];
-      helditem?:
-        | string
-        | (
-            | string
-            | {
-                item: string;
-                nbt?: {
-                  [k: string]: unknown;
-                };
-              }
-          )[];
-      armorboots?: string | string[];
-      armorhelmet?: string | string[];
-      armorlegs?: string | string[];
-      armorchest?: string | string[];
-      baby?: boolean;
-      biome?: string | string[];
-      biometags?: string | string[];
-      biometype?: string | string[];
-      block?:
-        | string
-        | string[]
-        | {
-            [k: string]: unknown;
-          };
-      blockoffset?: {
+  blockoffset?: {
+    [k: string]: unknown;
+  };
+  bothhandsitem?:
+    | string
+    | string[]
+    | {
         [k: string]: unknown;
       };
-      bothhandsitem?:
-        | string
-        | string[]
-        | {
-            [k: string]: unknown;
-          };
-      canspawnhere?: boolean;
-      category?: string | string[];
-      daycount?: number;
-      difficulty?: "easy" | "normal" | "hard" | "peaceful";
-      dimension?: string | string[];
-      dimensionmod?: string | string[];
-      gamestage?: string;
-      hostile?: boolean;
-      inbuilding?: boolean;
-      incity?: boolean;
-      incontrol?: boolean;
-      insphere?: boolean;
-      instreet?: boolean;
-      isnotcolliding?: boolean;
-      maxcount?:
-        | string
-        | number
-        | {
-            [k: string]: unknown;
-          };
-      maxdaycount?: number;
-      maxdifficulty?: number;
-      maxheight?: number;
-      maxlight?: number;
-      maxspawndist?: number;
-      maxtime?: number;
-      mincount?:
-        | string
-        | number
-        | {
-            [k: string]: unknown;
-          };
-      mindaycount?: number;
-      mindifficulty?: number;
-      minheight?: number;
-      minlight?: number;
-      minspawndist?: number;
-      mintime?: number;
-      mob?: string | string[];
-      mod?: string | string[];
-      offhanditem?:
-        | string
-        | string[]
-        | {
-            [k: string]: unknown;
-          };
-      onjoin?: boolean;
-      passive?: boolean;
-      phase?: string | string[];
-      playerhelditem?:
-        | string
-        | string[]
-        | {
-            [k: string]: unknown;
-          };
-      random?: number;
-      seesky?: boolean;
-      slime?: boolean;
-      spawner?: boolean;
-      structure?: string;
-      weather?: "rain" | "thunder";
-    }
-)[];
+  canspawnhere?: boolean;
+  category?: string | string[];
+  daycount?: number;
+  difficulty?: "easy" | "normal" | "hard" | "peaceful";
+  dimension?: string | string[];
+  dimensionmod?: string | string[];
+  gamestage?: string;
+  hostile?: boolean;
+  inbuilding?: boolean;
+  incity?: boolean;
+  incontrol?: boolean;
+  insphere?: boolean;
+  instreet?: boolean;
+  isnotcolliding?: boolean;
+  maxcount?:
+    | string
+    | number
+    | {
+        [k: string]: unknown;
+      };
+  maxdaycount?: number;
+  maxdifficulty?: number;
+  maxheight?: number;
+  maxlight?: number;
+  maxspawndist?: number;
+  maxtime?: number;
+  mincount?:
+    | string
+    | number
+    | {
+        [k: string]: unknown;
+      };
+  mindaycount?: number;
+  mindifficulty?: number;
+  minheight?: number;
+  minlight?: number;
+  minspawndist?: number;
+  mintime?: number;
+  mob?: string | string[];
+  mod?: string | string[];
+  offhanditem?:
+    | string
+    | string[]
+    | {
+        [k: string]: unknown;
+      };
+  onjoin?: boolean;
+  passive?: boolean;
+  phase?: string | string[];
+  playerhelditem?:
+    | string
+    | string[]
+    | {
+        [k: string]: unknown;
+      };
+  random?: number;
+  seesky?: boolean;
+  slime?: boolean;
+  spawner?: boolean;
+  structure?: string;
+  weather?: "rain" | "thunder";
+}[];
