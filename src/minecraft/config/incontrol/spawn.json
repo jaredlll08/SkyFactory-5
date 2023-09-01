@@ -335,7 +335,7 @@
       "minecraft:villager",
       "minecraft:wandering_trader"
     ],
-    "spawner": "true",
+    "spawner": true,
     "result": "allow"
   }
 ]
