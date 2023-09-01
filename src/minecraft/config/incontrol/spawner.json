@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "mob": ["minecraft:drowned"],
+    "persecond": 2,
+    "attempts": 20,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  }
+]

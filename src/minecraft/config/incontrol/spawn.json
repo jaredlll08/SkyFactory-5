@@ -1,4 +1,13 @@
 [
+  {
+    "hostile": true,
+    "mincount": {
+      "amount": 7,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
   { "mob": ["minecraft:blaze"], "gamestage": "blaze", "result": "allow" },
   {
     "mob": ["minecraft:cave_spider"],
@@ -6,6 +15,12 @@
     "result": "allow"
   },
   { "mob": ["minecraft:creeper"], "gamestage": "creeper", "result": "allow" },
+  {
+    "mob": ["minecraft:drowned"],
+    "gamestage": "drowned",
+    "armorhelmet": ["minecraft:turtle_helmet"],
+    "result": "allow"
+  },
   { "mob": ["minecraft:enderman"], "gamestage": "enderman", "result": "allow" },
   {
     "mob": ["minecraft:endermite"],
@@ -168,6 +183,7 @@
       "minecraft:blaze",
       "minecraft:cave_spider",
       "minecraft:creeper",
+      "minecraft:drowned",
       "minecraft:enderman",
       "minecraft:endermite",
       "minecraft:evoker",
@@ -244,6 +260,7 @@
       "minecraft:blaze",
       "minecraft:cave_spider",
       "minecraft:creeper",
+      "minecraft:drowned",
       "minecraft:enderman",
       "minecraft:endermite",
       "minecraft:evoker",

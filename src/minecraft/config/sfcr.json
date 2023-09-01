@@ -20,7 +20,7 @@
   "cloudBlockSize": 8,
   "cloudLayerThickness": 10,
   "sampleSteps": 1,
-  "cloudColor": 16711680,
+  "cloudColor": 255,
   "cloudBrightMultiplier": 0.1,
   "densityThreshold": 1.0,
   "thresholdMultiplier": 1.2,

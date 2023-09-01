@@ -2,12 +2,6 @@
 
 
 //mods.recipestages.Recipes.setRecipeStage("hoe", <item:minecraft:stone_hoe>);
-
-
-
-
-
-
 import crafttweaker.api.block.entity.BlockEntity;
 import crafttweaker.api.entity.type.player.Player;
 import crafttweaker.api.text.Component;
@@ -45,6 +39,7 @@ val mobs = {
     "minecraft:blaze": new TrophyMob("blaze", "Blazes"),  
     "minecraft:cave_spider": new TrophyMob("cave_spider", "Cave Spiders"),
     "minecraft:creeper": new TrophyMob("creeper", "Creepers"),
+    "minecraft:drowned": new TrophyMob("drowned", "Drowned"),
     "minecraft:enderman": new TrophyMob("enderman", "Endermen"),
     "minecraft:endermite": new TrophyMob("endermite", "Endermites"),
     "minecraft:evoker": new TrophyMob("evoker", "Evokers"),
@@ -158,10 +153,6 @@ events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>(even
 
 
 
-
-
-
-
 //Zombie Staging
 mods.recipestages.Recipes.addShaped("zombie", "zombie_gateway", <item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie_gate_small"}),[[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>]]);
 
@@ -205,13 +196,6 @@ events.register<EntityInteractEvent>(event => {
 
 
 
-
-
-
-
-
-
-
 //Debug recipes for testing
 //mods.recipestages.Recipes.addShaped("debug_stage", "silent_tools_test", <item:minecraft:iron_leggings>,[[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:silentgear:pickaxe>.withTag({SGear_UUID: [-1513530654, 2097039455, -1343663264, 537535244], SGear_Data: {Construction: {Parts: [{Item: {id: "silentgear:pickaxe_head", Count: 1, tag: {Damage: 0, Materials: [{Item: {id: "minecraft:diamond", Count: 1}, ID: "silentgear:diamond", Count: 3}]}}, ID: "silentgear:pickaxe_head"}, {Item: {id: "silentgear:rod", Count: 1, tag: {Materials: [{Item: {id: "minecraft:bamboo_planks", Count: 1}, ID: "silentgear:wood"}]}}, ID: "silentgear:rod"}]}, Properties: {ModVersion: "3.5.0", Stats: {"silentgear:charging_value": 0.8, "silentgear:enchantment_value": 10.0, "silentgear:harvest_speed": 8.0, "silentgear:attack_reach": 3.0, "silentgear:harvest_level": 3.0, "silentgear:durability": 1561.0, "silentgear:melee_damage": 4.0, "silentgear:magic_damage": 1.0, "silentgear:rarity": 69.99999, "silentgear:attack_speed": -2.8, "silentgear:repair_efficiency": 1.0}, LockStats: 0, Traits: [{Level: 2, Name: "silentgear:brittle"}, {Level: 1, Name: "silentgear:lustrous"}, {Level: 2, Name: "silentgear:flexible"}]}, Rendering: {Model: 3, ModelKey: "pickaxe:pickaxe_head{diamond,diamond,diamond},rod{wood},"}}})]]);
 
@@ -221,17 +205,6 @@ events.register<EntityInteractEvent>(event => {
 var solidifier = <recipetype:cyclic:solidifier>;
 
 solidifier.addRecipe("megaman1", [<item:minecraft:sand>,<item:minecraft:birch_trapdoor>,<item:minecraft:sand>], <fluid:cyclic:honey>*100, <item:minecraft:stone_hoe>, 200, 8);
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -273,4 +246,17 @@ for recipe in craftingTable.allRecipes {
         craftingTable.addShapeless("shapeless_" + craftingRecipe.id.path, craftingRecipe.resultItem, ingredients);
     }
 }
+*/
+
+
+//Stage helper for staging loot tables
+//Examples for how to give player's stages on events
+/*
+import mods.gamestages.StageHelper;
+
+StageHelper.grantStageWhenCrafting(<item:minecraft:stick>, "craft_example_one");
+StageHelper.grantStageOnKill(<entitytype:minecraft:creeper>, "kill_example_one");
+StageHelper.grantStageOnAdvancement("minecraft:story/enter_the_nether", "advancement_example_one");
+
+//OnAdvancement, OnCraft, OnDimension, OnJoin, OnKill, and OnLevel
 */
