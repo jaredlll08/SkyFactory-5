@@ -11,6 +11,7 @@ function getTestMatches() {
     "[jt]sx",
     "json",
     "json[c5]",
+    "mcmeta",
     "toml",
     "yaml",
     "yml",

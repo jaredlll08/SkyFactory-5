@@ -15,6 +15,9 @@
     "typescript",
     "yaml"
   ],
+  "files.associations": {
+    "*.mcmeta": "json"
+  },
   "files.exclude": {
     ".eslintcache": true,
     ".git": true,
