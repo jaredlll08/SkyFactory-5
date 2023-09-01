@@ -60,59 +60,58 @@
             "type": ["string", "array"],
             "items": {
               "type": "string"
-            },
-
-            "mindaycount": {
-              "type": "number"
-            },
-            "maxdaycount": {
-              "type": "number"
-            },
-            "mindist": {
-              "type": "number"
-            },
-            "maxdist": {
-              "type": "number"
-            },
-            "minheight": {
-              "type": "number"
-            },
-            "maxheight": {
-              "type": "number"
-            },
-            "norestrictions": {
-              "type": "boolean"
-            },
-            "inliquid": {
-              "type": "boolean"
-            },
-            "inwater": {
-              "type": "boolean"
-            },
-            "inlava": {
-              "type": "boolean"
-            },
-            "inair": {
-              "type": "boolean"
-            },
-            "maxthis": {
-              "type": "number"
-            },
-            "maxtotal": {
-              "type": "number"
-            },
-            "maxpeaceful": {
-              "type": "number"
-            },
-            "maxhostile": {
-              "type": "number"
-            },
-            "maxneutral": {
-              "type": "number"
-            },
-            "maxlocal": {
-              "type": "number"
             }
+          },
+          "mindaycount": {
+            "type": "number"
+          },
+          "maxdaycount": {
+            "type": "number"
+          },
+          "mindist": {
+            "type": "number"
+          },
+          "maxdist": {
+            "type": "number"
+          },
+          "minheight": {
+            "type": "number"
+          },
+          "maxheight": {
+            "type": "number"
+          },
+          "norestrictions": {
+            "type": "boolean"
+          },
+          "inliquid": {
+            "type": "boolean"
+          },
+          "inwater": {
+            "type": "boolean"
+          },
+          "inlava": {
+            "type": "boolean"
+          },
+          "inair": {
+            "type": "boolean"
+          },
+          "maxthis": {
+            "type": "number"
+          },
+          "maxtotal": {
+            "type": "number"
+          },
+          "maxpeaceful": {
+            "type": "number"
+          },
+          "maxhostile": {
+            "type": "number"
+          },
+          "maxneutral": {
+            "type": "number"
+          },
+          "maxlocal": {
+            "type": "number"
           }
         },
         "additionalProperties": false

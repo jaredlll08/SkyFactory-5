@@ -27,5 +27,22 @@ export type InControlSpawner = {
   };
   conditions: {
     dimension: string | string[];
+    mindaycount?: number;
+    maxdaycount?: number;
+    mindist?: number;
+    maxdist?: number;
+    minheight?: number;
+    maxheight?: number;
+    norestrictions?: boolean;
+    inliquid?: boolean;
+    inwater?: boolean;
+    inlava?: boolean;
+    inair?: boolean;
+    maxthis?: number;
+    maxtotal?: number;
+    maxpeaceful?: number;
+    maxhostile?: number;
+    maxneutral?: number;
+    maxlocal?: number;
   };
 }[];
