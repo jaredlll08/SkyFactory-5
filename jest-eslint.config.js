@@ -17,9 +17,10 @@ function getTestMatches() {
   ];
 
   const globs = [
-    `<rootDir>/schemas/**/*`,
-    `<rootDir>/scripts/**/*`,
-    `<rootDir>/src/**/*`,
+    "<rootDir>/schemas/**/*",
+    "<rootDir>/scripts/**/*",
+    "<rootDir>/src/**/*",
+    "<rootDir>/*",
   ];
 
   const testMatches = [];
