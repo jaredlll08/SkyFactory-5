@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json-schema.org/draft-07/schema",
   "title": "InControl Loot",
   "description": "A list of loot entries for InControl mod",
   "type": "array",
