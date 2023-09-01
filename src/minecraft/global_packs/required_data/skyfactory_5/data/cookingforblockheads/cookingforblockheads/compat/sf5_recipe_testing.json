@@ -1,0 +1,7 @@
+{
+  "modid": "minecraft",
+  "foods": {
+    "GENERAL": ["minecraft:iron_pickaxe"],
+    "INGREDIENTS": ["minecraft:stick", "minecraft:iron_ingot"]
+  }
+}

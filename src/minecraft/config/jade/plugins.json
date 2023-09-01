@@ -65,8 +65,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "firecrafting": {
-    "fire": true
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -75,6 +77,19 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "milk_jar": true,
+    "toaster": true
+  },
+  "multibeds": {
+    "hud": true
+  },
+  "melter": {
+    "melter_data": true
   },
   "ae2": {
     "part_icon": true,

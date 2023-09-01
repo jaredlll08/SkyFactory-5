@@ -1,6 +1,6 @@
 {
   "uuid": "340e9da2-50f4-47b4-a2c4-c529b7bc4843",
-  "name": "Survival Mode",
+  "name": "[Num 7] Survival Mode",
   "actionText": "/function dev_tools:debug/survival_mode",
   "key": 327,
   "keyName": "Keypad 7",

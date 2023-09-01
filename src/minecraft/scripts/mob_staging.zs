@@ -165,26 +165,19 @@ events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>(even
 //Zombie Staging
 mods.recipestages.Recipes.addShaped("zombie", "zombie_gateway", <item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie_gate_small"}),[[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>]]);
 
-/*
-events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>(event => {
-    var player = event.entity;
-    var hasStage = player.hasGameStage("zombie");
-    if !player.level.isClientSide && player.level.getBlockState(event.blockPos).block.registryName == <resource:obtrophies:trophy> {
-      if hasStage {
-        player.removeGameStage("zombie");
-        player.sendMessage("Zombies will no longer spawn!");
-      } else {
-        player.addGameStage("zombie");
-        player.sendMessage("Zombies will now spawn!");
-      }
-    }
-});
-*/
 
+
+////
+//Block attributes
+////
+//Trophy protection from explosions
 <block:obtrophies:trophy>.setExplosionResistance(1200);
 
 
-
+////
+//Blocking breedable entities from being fed
+//when they spawn from a Gateway
+////
 import crafttweaker.forge.api.event.interact.EntityInteractEvent;
 import crafttweaker.api.entity.type.animal.Animal;
 
@@ -207,6 +200,65 @@ events.register<EntityInteractEvent>(event => {
 });
 
 
+//Recipe removal test for Cooking for Blockheads debug
+//craftingTable.removeByName("crafttweaker:shapeless_iron_axe");
+
+
+
+
+
+
+
+
+
+
+//Debug recipes for testing
+//mods.recipestages.Recipes.addShaped("debug_stage", "silent_tools_test", <item:minecraft:iron_leggings>,[[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:silentgear:pickaxe>.withTag({SGear_UUID: [-1513530654, 2097039455, -1343663264, 537535244], SGear_Data: {Construction: {Parts: [{Item: {id: "silentgear:pickaxe_head", Count: 1, tag: {Damage: 0, Materials: [{Item: {id: "minecraft:diamond", Count: 1}, ID: "silentgear:diamond", Count: 3}]}}, ID: "silentgear:pickaxe_head"}, {Item: {id: "silentgear:rod", Count: 1, tag: {Materials: [{Item: {id: "minecraft:bamboo_planks", Count: 1}, ID: "silentgear:wood"}]}}, ID: "silentgear:rod"}]}, Properties: {ModVersion: "3.5.0", Stats: {"silentgear:charging_value": 0.8, "silentgear:enchantment_value": 10.0, "silentgear:harvest_speed": 8.0, "silentgear:attack_reach": 3.0, "silentgear:harvest_level": 3.0, "silentgear:durability": 1561.0, "silentgear:melee_damage": 4.0, "silentgear:magic_damage": 1.0, "silentgear:rarity": 69.99999, "silentgear:attack_speed": -2.8, "silentgear:repair_efficiency": 1.0}, LockStats: 0, Traits: [{Level: 2, Name: "silentgear:brittle"}, {Level: 1, Name: "silentgear:lustrous"}, {Level: 2, Name: "silentgear:flexible"}]}, Rendering: {Model: 3, ModelKey: "pickaxe:pickaxe_head{diamond,diamond,diamond},rod{wood},"}}})]]);
+
+
+
+//Testing recipes using Cyclic Solidifier
+var solidifier = <recipetype:cyclic:solidifier>;
+
+solidifier.addRecipe("megaman1", [<item:minecraft:sand>,<item:minecraft:birch_trapdoor>,<item:minecraft:sand>], <fluid:cyclic:honey>*100, <item:minecraft:stone_hoe>, 200, 8);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Recipes made for player convenience
+craftingTable.addShaped("hopper_logs", <item:minecraft:hopper>, [
+    [<item:minecraft:iron_ingot>, <tag:items:minecraft:logs>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:iron_ingot>, <tag:items:minecraft:logs>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>]]);
+
+craftingTable.addShaped("chest_logs", <item:minecraft:chest> * 4, [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:air>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
+
+//craftingTable.addShapeless("chop_ingot", <item:minecraft:gold_nugget> * 10, [<item:minecraft:gold_ingot>, <item:minecraft:flint>]);
+/*
+craftingTable.addShapeless("cfb_test", <item:minecraft:iron_pickaxe>, [
+    <item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]);
+*/
+
+
+
+/*
+////
+//Converts all recipes in-game to be shapeless recipes
+////
 import crafttweaker.api.recipe.type.Recipe;
 import crafttweaker.api.world.Container;
 import crafttweaker.api.recipe.type.ShapedRecipe;
@@ -221,28 +273,4 @@ for recipe in craftingTable.allRecipes {
         craftingTable.addShapeless("shapeless_" + craftingRecipe.id.path, craftingRecipe.resultItem, ingredients);
     }
 }
-
-
-
-
-//Camel
-//Chickens (eggs)
-//Cows
-//Fox
-//Frog
-//Goat
-//Hoglins
-//Llama
-//Mooshrooms
-//Panda
-//Pig
-//Rabbits
-//Sheep
-//Striders
-//Turtle
-//Wolf/dog
-//axolotl
-//cat
-//donkey
-//horse
-//villagers
+*/

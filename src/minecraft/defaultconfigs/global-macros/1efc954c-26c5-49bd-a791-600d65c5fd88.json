@@ -1,6 +1,6 @@
 {
   "uuid": "1efc954c-26c5-49bd-a791-600d65c5fd88",
-  "name": "Kill All",
+  "name": "[Num 4] Kill All",
   "actionText": "/function dev_tools:debug/kill_all",
   "key": 324,
   "keyName": "Keypad 4",

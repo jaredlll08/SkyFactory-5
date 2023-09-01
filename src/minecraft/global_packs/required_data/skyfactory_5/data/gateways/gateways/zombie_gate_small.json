@@ -1,7 +1,7 @@
 {
-  "size": "small",
+  "size": "large",
   "leash_range": 50000000,
-  "color": "#71955B",
+  "color": "#0080ff",
   "waves": [
     {
       "entities": [
@@ -33,8 +33,13 @@
           }
         }
       }
+    },
+    {
+      "type": "command",
+      "command": "/function skyfactory_5:rain",
+      "desc": "Discovers the color Blue"
     }
   ],
   "completion_xp": 250,
-  "spawn_range": 5
+  "spawn_range": 1
 }

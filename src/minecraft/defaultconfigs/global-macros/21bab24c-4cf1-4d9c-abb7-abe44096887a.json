@@ -1,6 +1,6 @@
 {
   "uuid": "21bab24c-4cf1-4d9c-abb7-abe44096887a",
-  "name": "Creative Mode",
+  "name": "[Num 9] Creative Mode",
   "actionText": "/function dev_tools:debug/creative_mode",
   "key": 329,
   "keyName": "Keypad 9",

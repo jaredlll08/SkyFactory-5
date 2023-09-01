@@ -3,14 +3,14 @@
     {
       "name": "A Set of Macro\u0027s",
       "macro0": "function dev_tools:debug/start",
-      "macro1": "ct hand vanilla",
-      "macro2": "function dev_tools:debug/op_sword",
-      "macro3": "",
+      "macro1": "pdt hand",
+      "macro2": "pdt hotbar",
+      "macro3": "pdt inventory",
       "macro4": "function dev_tools:debug/kill_all",
       "macro5": "function dev_tools:debug/reload",
       "macro6": "gamestage info @s",
       "macro7": "function dev_tools:debug/survival_mode",
-      "macro8": "fill ~40 ~-1 ~40 ~-40 ~-1 ~-40 minecraft:oak_planks",
+      "macro8": "function dev_tools:debug/op_sword",
       "macro9": "function dev_tools:debug/creative_mode"
     }
   ],

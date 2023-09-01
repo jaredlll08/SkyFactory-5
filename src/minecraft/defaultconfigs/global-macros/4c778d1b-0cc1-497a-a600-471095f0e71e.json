@@ -1,7 +1,7 @@
 {
   "uuid": "4c778d1b-0cc1-497a-a600-471095f0e71e",
-  "name": "Platform",
-  "actionText": "/fill ~40 ~ ~40 ~-40 ~ ~-40 minecraft:oak_planks",
+  "name": "[Num 3] Platform",
+  "actionText": "/fill ~40 ~-1 ~40 ~-40 ~-1 ~-40 minecraft:oak_planks",
   "key": 323,
   "keyName": "Keypad 3",
   "action": "COMMAND",

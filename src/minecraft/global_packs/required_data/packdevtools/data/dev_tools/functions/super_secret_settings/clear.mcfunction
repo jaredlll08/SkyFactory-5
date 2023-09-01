@@ -1,1 +1,0 @@
-weirdcommands effect @p clear
