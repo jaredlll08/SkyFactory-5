@@ -1,0 +1,10 @@
+// GENERATOR START
+  return [
+    {{#each schemaEntries}}
+    {
+      fileMatch: {{{fileMatch}}},
+      schema: {{{schema}}}
+    },
+    {{/each}}
+  ]
+  // GENERATOR END

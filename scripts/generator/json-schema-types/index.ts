@@ -14,7 +14,39 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
     description:
       "Generates JSON schema types for files defined in scripts/generator/json-schema-types/schema-files.ts",
     prompts: [],
-    actions: [generateSchemaTypes, updateVSCodeSchemas],
+    actions: [
+      generateSchemaTypes,
+      updateVSCodeSchemas,
+      {
+        type: "modify",
+        path: "./.eslintrc.cjs",
+        pattern: /\/\/ GENERATOR START[\W\w]*\/\/ GENERATOR END/g,
+        templateFile: path.join(__dirname, "eslintrc.template.txt"),
+        data: {
+          schemaEntries: Array.from(schemaFiles).map(
+            ([schemaPath, fileMatches]) => {
+              fileMatches = fileMatches.map((fileMatch) =>
+                fileMatch.substring(1),
+              );
+              return {
+                fileMatch: JSON.stringify(fileMatches, undefined, 2),
+                schema: `"./schemas/${schemaPath}"`,
+              };
+            },
+          ),
+        },
+        transform: async (fileContents) => {
+          const prettierConfig =
+            await prettier.resolveConfig("./.eslintrc.cjs");
+          const formatted = await prettier.format(fileContents, {
+            ...prettierConfig,
+            parser: "babel",
+          });
+
+          return formatted;
+        },
+      },
+    ],
   });
 };
 

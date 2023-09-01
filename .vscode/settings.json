@@ -5,7 +5,16 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
-  "eslint.validate": ["javascript", "typescript"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "json5",
+    "jsonc",
+    "toml",
+    "typescript",
+    "yaml"
+  ],
   "files.exclude": {
     ".eslintcache": true,
     ".git": true,

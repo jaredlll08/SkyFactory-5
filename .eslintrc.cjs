@@ -9,6 +9,7 @@ const config = {
     "plugin:@typescript-eslint/recommended",
     "plugin:editorconfig/noconflict",
     "plugin:typescript-paths/recommended",
+    "plugin:json-schema-validator/recommended",
     "prettier",
   ],
   env: {
@@ -49,9 +50,45 @@ const config = {
       },
     ],
 
+    "json-schema-validator/no-invalid": [
+      "error",
+      {
+        schemas: [...getGeneratedSchemaValidatorRules()],
+      },
+    ],
+
     "typescript-paths/absolute-import": ["error", { enableAlias: false }],
     "typescript-paths/absolute-parent-import": "error",
   },
+  overrides: [
+    {
+      files: ["*.json", "*.json5", "*.jsonc", "*.mcmeta"],
+      parser: "jsonc-eslint-parser",
+    },
+  ],
 };
+
+function getGeneratedSchemaValidatorRules() {
+  // GENERATOR START
+  return [
+    {
+      fileMatch: ["mc-package.json"],
+      schema: "./schemas/mc-package.json",
+    },
+    {
+      fileMatch: ["src/minecraft/config/incontrol/loot.json"],
+      schema: "./schemas/minecraft/incontrol/loot.json",
+    },
+    {
+      fileMatch: ["src/minecraft/config/incontrol/spawn.json"],
+      schema: "./schemas/minecraft/incontrol/spawn.json",
+    },
+    {
+      fileMatch: ["src/minecraft/config/incontrol/spawner.json"],
+      schema: "./schemas/minecraft/incontrol/spawner.json",
+    },
+  ];
+  // GENERATOR END
+}
 
 module.exports = config;
