@@ -1,11 +1,13 @@
 const moduleFileExtensions = [
   "bak",
+  "cjs",
   "js",
   "json",
   "json5",
   "jsonc",
   "jsx",
   "mcmeta",
+  "mjs",
   "toml",
   "ts",
   "tsx",
@@ -25,6 +27,7 @@ const config = {
     `<rootDir>/*.${supportedFileEndings}`,
   ],
   moduleFileExtensions,
+  reporters: ["jest-silent-reporter"],
 };
 
 module.exports = config;
