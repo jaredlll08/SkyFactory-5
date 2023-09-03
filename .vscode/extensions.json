@@ -4,6 +4,7 @@
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
+    "mrmlnc.vscode-json5",
     "tamasfe.even-better-toml",
     "zerodegress.zencode-highlight"
   ]
