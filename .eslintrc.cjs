@@ -2,7 +2,7 @@
 const config = {
   root: true,
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "editorconfig", "import"],
+  plugins: ["@typescript-eslint", "editorconfig", "import", "unicorn"],
   extends: [
     "eslint:recommended",
     "plugin:toml/recommended",
@@ -63,6 +63,8 @@ const config = {
     "typescript-paths/absolute-parent-import": "error",
 
     "toml/spaced-comment": "error",
+
+    "unicorn/no-empty-file": ["error"],
   },
   overrides: [
     {
@@ -72,6 +74,44 @@ const config = {
     {
       files: ["*.json", "*.json5", "*.jsonc", "*.mcmeta"],
       parser: "jsonc-eslint-parser",
+    },
+    {
+      files: ["!src/minecraft/**/*"],
+      rules: {
+        "unicorn/filename-case": [
+          "error",
+          {
+            case: "kebabCase",
+          },
+        ],
+      },
+    },
+    {
+      files: "*.zs",
+      parser: "any-eslint-parser",
+      plugins: ["regex"],
+      extends: ["plugin:editorconfig/all"],
+      rules: {
+        "unicorn/filename-case": [
+          "error",
+          {
+            case: "kebabCase",
+          },
+        ],
+        "regex/invalid": [
+          "error",
+          [
+            {
+              id: "zenscript/spaced-comment",
+              message: "Expected space or tab after '//' in comment",
+              regex: "//([\\S])",
+              replacement: {
+                function: "return `// ${captured[0]}`",
+              },
+            },
+          ],
+        ],
+      },
     },
     {
       files: ["*.bak"],

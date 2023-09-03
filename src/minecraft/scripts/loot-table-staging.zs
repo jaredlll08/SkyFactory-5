@@ -15,7 +15,7 @@ import stdlib.List;
 
 
 
-//Stages Loot Tables based on Gamestages
+// Stages Loot Tables based on Gamestages
 loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
     if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
         var player as Player = (ctx.thisEntity as Entity) as Player;
@@ -26,13 +26,13 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
     return drops;
 });
 
-//Loot table modifications
-//When mining Diamond Ore Dirt has a 75% chance to drop
-//<block:minecraft:diamond_ore>.addLootModifier("cyanite", CommonLootModifiers.addWithChance(<item:minecraft:dirt> % 75));
+// Loot table modifications
+// When mining Diamond Ore Dirt has a 75% chance to drop
+// <block:minecraft:diamond_ore>.addLootModifier("cyanite", CommonLootModifiers.addWithChance(<item:minecraft:dirt> % 75));
 
 
-//Drops Zombie Gateway Pearl when breaking leaves
-//<block:minecraft:oak_leaves>.addLootModifier("leaves_test", CommonLootModifiers.addWithChance(<item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie"}) % 75));
+// Drops Zombie Gateway Pearl when breaking leaves
+// <block:minecraft:oak_leaves>.addLootModifier("leaves_test", CommonLootModifiers.addWithChance(<item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie"}) % 75));
 
 
 
@@ -52,8 +52,8 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
 
 
 
-//Increases Sapling drops when breaking leaves
-//<block:minecraft:oak_leaves>.addLootModifier("sapling_bonus_drops_0", CommonLootModifiers.addWithChance(<item:minecraft:oak_sapling> % 20));
+// Increases Sapling drops when breaking leaves
+// <block:minecraft:oak_leaves>.addLootModifier("sapling_bonus_drops_0", CommonLootModifiers.addWithChance(<item:minecraft:oak_sapling> % 20));
 <block:minecraft:spruce_leaves>.addLootModifier("sapling_bonus_drops_1", CommonLootModifiers.addWithChance(<item:minecraft:spruce_sapling> % 20));
 <block:minecraft:birch_leaves>.addLootModifier("sapling_bonus_drops_2", CommonLootModifiers.addWithChance(<item:minecraft:birch_sapling> % 20));
 <block:minecraft:jungle_leaves>.addLootModifier("sapling_bonus_drops_3", CommonLootModifiers.addWithChance(<item:minecraft:jungle_sapling> % 20));
@@ -64,7 +64,7 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
 
 
 
-//Loot drops attempts: Necron's work
+// Loot drops attempts: Necron's work
 /*
 <block:minecraft:oak_leaves>.addLootModifier("bonus_drops_oak", (drops, ctx) => {
     if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
@@ -82,7 +82,7 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
 });
 */
 
-//Jared's script
+// Jared's script
 <block:minecraft:oak_leaves>.addLootModifier("bonus_drops_oak", (drops, ctx) => {
     if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
         var player as Player = (ctx.thisEntity as Entity) as Player;

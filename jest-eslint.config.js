@@ -9,6 +9,7 @@ const moduleFileExtensions = [
   "toml",
   "ts",
   "tsx",
+  "zs",
 ];
 
 const supportedFileEndings = `{${moduleFileExtensions.join(",")}}`;

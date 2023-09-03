@@ -9,7 +9,8 @@
   "eslint.lintTask.enable": true,
   "eslint.rules.customizations": [
     { "rule": "*", "severity": "default" },
-    { "rule": "toml/spaced-comment", "severity": "off" }
+    { "rule": "toml/spaced-comment", "severity": "off" },
+    { "rule": "editorconfig/*", "severity": "off" }
   ],
   "eslint.probe": [
     "plaintext",
@@ -20,7 +21,8 @@
     "jsonc",
     "toml",
     "typescript",
-    "yaml"
+    "yaml",
+    "zencode"
   ],
   "eslint.validate": [
     "plaintext",
@@ -31,7 +33,8 @@
     "jsonc",
     "toml",
     "typescript",
-    "yaml"
+    "yaml",
+    "zencode"
   ],
   "files.associations": {
     "*.mcmeta": "json"
