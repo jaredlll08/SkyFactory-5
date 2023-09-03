@@ -1,11 +1,11 @@
 [blocks]
-#The explosion resistance of explosion resistant blocks.
+# The explosion resistance of explosion resistant blocks.
 explosionResistance = 1200.0
-#The speed boost granted by the Dark Steel ladder.
+# The speed boost granted by the Dark Steel ladder.
 darkSteelLadderBoost = 0.15
 
 [blocks.brokenSpawner]
-#The chance of a spawner dropping a broken spawner.
+# The chance of a spawner dropping a broken spawner.
 dropChance = 1.0
 
 [enchantments]
@@ -55,9 +55,9 @@ minCostPerLevel = 10
 [items]
 
 [items.food]
-#The chance of enderios teleporting the player
+# The chance of enderios teleporting the player
 enderioChance = 0.3
-#The range of an enderio teleport
+# The range of an enderio teleport
 enderioRange = 16.0
 
 [items.electromagnet]
@@ -71,16 +71,16 @@ energyUse = 1
 maxEnergy = 1000
 
 [items.travelling]
-#Range: 4 ~ 512
+# Range: 4 ~ 512
 blinkRange = 24
-#Range: 0 ~ 1200
+# Range: 0 ~ 1200
 disabledTime = 5
 energyUse = 1000
 maxEnergy = 100000
-#the following config values are only used if EIOMachines is loaded
-#Range: 4 ~ 512
+# the following config values are only used if EIOMachines is loaded
+# Range: 4 ~ 512
 itemToBlockRange = 192
-#Range: 4 ~ 512
+# Range: 4 ~ 512
 blockToBlockRange = 96
 
 [darksteel]
@@ -126,8 +126,8 @@ explosivePenetrationActivationCostII = 12
 explosivePenetrationII = 2
 
 [grainsOfInfinity]
-#Should it make a sound when Grains of Infinity drops from a fire?
+# Should it make a sound when Grains of Infinity drops from a fire?
 makesSound = true
-#How old (in ticks) does a fire have to be to be able to spawn Infinity Powder?
-#Range: 1 ~ 1000
+# How old (in ticks) does a fire have to be to be able to spawn Infinity Powder?
+# Range: 1 ~ 1000
 fireMinAge = 260

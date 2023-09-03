@@ -1,6 +1,6 @@
-#General configuration options.
+# General configuration options.
 [General]
-#Enable tag list tooltips for blocks/items?
+# Enable tag list tooltips for blocks/items?
 tagTooltips = true
-#Enable NBT tooltips for items?
+# Enable NBT tooltips for items?
 nbtTooltips = false

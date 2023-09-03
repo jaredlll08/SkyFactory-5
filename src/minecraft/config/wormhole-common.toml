@@ -1,7 +1,7 @@
 # Power consumption will be calculated as follows:
-#Idle power drain = idlePowerDrain + portal size * sizePowerDrain
-#Interdimensional teleport power drain = travelPowerDrain + dimensionPowerDrain
-#Same dimension teleport power drain = travelPowerDrain + (target distance)^(1/2) * distancePowerDrain
+# Idle power drain = idlePowerDrain + portal size * sizePowerDrain
+# Interdimensional teleport power drain = travelPowerDrain + dimensionPowerDrain
+# Same dimension teleport power drain = travelPowerDrain + (target distance)^(1/2) * distancePowerDrain
 ["Power Consumption"]
 # If false, a portal will not require power.
 # Allowed values: true, false - Default: true

@@ -1,4 +1,4 @@
-#Client settings.
+# Client settings.
 [General]
-#Should the Quantum Compressor render the result item above it?
+# Should the Quantum Compressor render the result item above it?
 enableCompressorRenderer = true
