@@ -1,8 +1,10 @@
 {
   "recommendations": [
+    "arcensoth.language-mcfunction",
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
+    "tamasfe.even-better-toml",
     "zerodegress.zencode-highlight"
   ]
 }
