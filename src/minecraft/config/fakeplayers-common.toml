@@ -1,5 +1,3 @@
-
 ["Configs for Duzo's Fake Players Mod"]
-	#Defines if the fake players drog eggs on death
-	"Does drop eggs" = true
-
+#Defines if the fake players drog eggs on death
+"Does drop eggs" = true

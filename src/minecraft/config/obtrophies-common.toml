@@ -9,4 +9,3 @@ any_kill_drops = false
 #Set this value to -1 to disable.
 #Range: -1.0 ~ 1.0
 trophy_drop_override = -1.0
-

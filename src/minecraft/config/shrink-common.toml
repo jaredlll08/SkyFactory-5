@@ -14,4 +14,3 @@ maxSize = 10.0
 minSize = 0.21
 #Set the amount of power the personal shrinking device can store
 setShrinkingDeviceCapacity = 100000
-

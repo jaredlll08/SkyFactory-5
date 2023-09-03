@@ -1,9 +1,7 @@
-
 #General settings
 [general]
-	#The drop chance of limbs when a compatible mob is killed (Default: 0.01)
-	#Range: 0.0 ~ 1.0
-	limbDropChance = 0.01
-	#If true, mobs have a chance of dropping their head [Should be disabled when using the Heads mod] (Default: true)
-	dropHeads = true
-
+#The drop chance of limbs when a compatible mob is killed (Default: 0.01)
+#Range: 0.0 ~ 1.0
+limbDropChance = 0.01
+#If true, mobs have a chance of dropping their head [Should be disabled when using the Heads mod] (Default: true)
+dropHeads = true

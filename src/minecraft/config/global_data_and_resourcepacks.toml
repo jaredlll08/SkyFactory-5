@@ -12,16 +12,10 @@ enable_system_global_packs = false
 #With the current config you can place a Datapack into '.minecraft/global_packs/required_data' to force enable a datapack.
 [resourcepacks]
 required = [
-    #"other_folder/random_pack.zip" # You can also point at specific files!
-    "global_packs/required_resources/"
+  #"other_folder/random_pack.zip" # You can also point at specific files!
+  "global_packs/required_resources/"
 ]
 
 [datapacks]
-required = [
-    "resourcepacks/",
-    "global_packs/required_data/"
-]
-
-optional = [
-    "global_packs/optional_data/"
-]
+required = ["resourcepacks/", "global_packs/required_data/"]
+optional = ["global_packs/optional_data/"]

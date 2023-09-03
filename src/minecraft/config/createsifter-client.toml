@@ -1,6 +1,4 @@
-
 #Settings for the mechanical sifter
 [sifter]
-	#Render sifted block
-	renderSiftedBlock = true
-
+#Render sifted block
+renderSiftedBlock = true

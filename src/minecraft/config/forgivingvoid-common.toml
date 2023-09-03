@@ -21,4 +21,3 @@ disableVanillaAntiCheatWhileFalling = true
 dimensionAllowList = []
 #List of additional dimension ids to be deny-listed from Forgiving Void. Options triggerInOverworld etc. take priority. Ignored if dimensionAllowList is set.
 dimensionDenyList = []
-

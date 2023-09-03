@@ -14,4 +14,3 @@ scrollTick = 1.0
 selectionDisplayRequireShift = false
 #Scroll for selection only when pressing shift
 selectionScrollRequireShift = true
-

@@ -2,4 +2,3 @@
 showTabs = true
 #Show inventory tabs only in curio page. Only works when showTabs is true and curio is installed.
 showTabsOnlyCurio = false
-

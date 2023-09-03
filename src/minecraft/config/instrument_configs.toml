@@ -26,4 +26,3 @@ midi_octave_shift = 0
 #Defines the MIDI split behaviour of the Arataki's Great and Glorious Drum
 #Allowed Values: DON, KA, BOTH
 dominent_drum_type = "BOTH"
-
