@@ -9,6 +9,8 @@ retrieveDistance = 64
 #Max distance to retrieve all golems
 #Range: 1 ~ 1000
 retrieveRange = 20
+#Only owner can pickup
+ownerPickupOnly = true
 
 [modifiers]
 	#Percentage damage reflection per level of thorn
@@ -80,4 +82,7 @@ retrieveRange = 20
 	#Mending Xp Cost per health point
 	#Range: 1 ~ 10000
 	mendingXpCost = 2
+	#Teleport cooldown in ticks for avoiding physical damage
+	#Range: 1 ~ 10000
+	teleportCooldown = 40
 

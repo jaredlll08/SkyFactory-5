@@ -8,6 +8,16 @@
     },
     "result": "deny"
   },
+  {
+    "passive": true,
+    "mincount": {
+      "amount": 4,
+      "passive": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+
   { "mob": ["minecraft:blaze"], "gamestage": "blaze", "result": "allow" },
   {
     "mob": ["minecraft:cave_spider"],
@@ -95,10 +105,16 @@
   { "mob": ["minecraft:bee"], "gamestage": "bee", "result": "allow" },
   { "mob": ["minecraft:camel"], "gamestage": "camel", "result": "allow" },
   { "mob": ["minecraft:cat"], "gamestage": "cat", "result": "allow" },
-  { "mob": ["minecraft:chicken"], "gamestage": "chicken", "result": "allow" },
+  {
+    "mob": ["minecraft:chicken"],
+    "gamestage": "chicken",
+    "block": "minecraft:grass_block",
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:cow"],
     "gamestage": "cow",
+    "block": "minecraft:grass_block",
     "result": "allow"
   },
 
@@ -107,17 +123,33 @@
   { "mob": ["minecraft:frog"], "gamestage": "frog", "result": "allow" },
   { "mob": ["minecraft:goat"], "gamestage": "goat", "result": "allow" },
   { "mob": ["minecraft:horse"], "gamestage": "horse", "result": "allow" },
-  { "mob": ["minecraft:llama"], "gamestage": "llama", "result": "allow" },
+  {
+    "mob": ["minecraft:llama"],
+    "gamestage": "llama",
+    "block": "minecraft:grass_block",
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:mooshroom"],
     "gamestage": "mooshroom",
+    "block": "minecraft:grass_block",
     "result": "allow"
   },
   { "mob": ["minecraft:ocelot"], "gamestage": "ocelot", "result": "allow" },
   { "mob": ["minecraft:panda"], "gamestage": "panda", "result": "allow" },
-  { "mob": ["minecraft:pig"], "gamestage": "pig", "result": "allow" },
+  {
+    "mob": ["minecraft:pig"],
+    "gamestage": "pig",
+    "block": "minecraft:grass_block",
+    "result": "allow"
+  },
   { "mob": ["minecraft:rabbit"], "gamestage": "rabbit", "result": "allow" },
-  { "mob": ["minecraft:sheep"], "gamestage": "sheep", "result": "allow" },
+  {
+    "mob": ["minecraft:sheep"],
+    "gamestage": "sheep",
+    "block": "minecraft:grass_block",
+    "result": "allow"
+  },
   { "mob": ["minecraft:sniffer"], "gamestage": "sniffer", "result": "allow" },
   { "mob": ["minecraft:strider"], "gamestage": "strider", "result": "allow" },
   { "mob": ["minecraft:wolf"], "gamestage": "wolf", "result": "allow" },
@@ -157,7 +189,12 @@
     "gamestage": "skeleton_horse",
     "result": "allow"
   },
-  { "mob": ["minecraft:turtle"], "gamestage": "turtle", "result": "allow" },
+  {
+    "mob": ["minecraft:turtle"],
+    "gamestage": "turtle",
+    "block": ["minecraft:sand", "minecraft:grass_block"],
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:zombie_horse"],
     "gamestage": "zombie_horse",

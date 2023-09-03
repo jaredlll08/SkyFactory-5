@@ -3,15 +3,28 @@
     {
       "name": "A Set of Macro\u0027s",
       "macro0": "function dev_tools:debug/start",
-      "macro1": "pdt hand",
+      "macro1": "pdt inventory",
       "macro2": "pdt hotbar",
-      "macro3": "pdt inventory",
+      "macro3": "pdt hand",
       "macro4": "function dev_tools:debug/kill_all",
       "macro5": "function dev_tools:debug/reload",
       "macro6": "gamestage info @s",
       "macro7": "function dev_tools:debug/survival_mode",
       "macro8": "function dev_tools:debug/op_sword",
       "macro9": "function dev_tools:debug/creative_mode"
+    },
+    {
+      "name": "A Set of Macro\u0027s",
+      "macro0": "",
+      "macro1": "",
+      "macro2": "",
+      "macro3": "",
+      "macro4": "execute in minecraft:the_end run tp Darkosto ~ ~ ~",
+      "macro5": "",
+      "macro6": "",
+      "macro7": "",
+      "macro8": "",
+      "macro9": ""
     }
   ],
   "timed_macros": []

@@ -1,8 +1,8 @@
 [
   {
-    "mob": ["minecraft:drowned"],
-    "persecond": 2,
-    "attempts": 20,
+    "mob": ["minecraft:drowned", "minecraft:husk", "minecraft:enderman"],
+    "persecond": 1,
+    "attempts": 15,
     "amount": {
       "minimum": 4,
       "maximum": 4
@@ -10,6 +10,72 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": [
+      "minecraft:cow",
+      "minecraft:sheep",
+      "minecraft:llama",
+      "minecraft:pig",
+      "minecraft:chicken",
+      "minecraft:mooshroom"
+    ],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:turtle"],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:strider"],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inlava": true,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:slime"],
+    "persecond": 1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
       "mindist": 24,
       "maxdist": 96
     }

@@ -1,0 +1,16 @@
+{
+  "behavior": {
+    "type": "obtrophies:item",
+    "cooldown": 20000,
+    "item": "minecraft:wheat"
+  },
+
+  "entity": "minecraft:horse",
+  "offset": 0.0,
+  "scale": 0.9,
+  "variants": [
+    {
+      "Variant": "2"
+    }
+  ]
+}

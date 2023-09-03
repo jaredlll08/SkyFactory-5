@@ -86,17 +86,16 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
 <block:minecraft:oak_leaves>.addLootModifier("bonus_drops_oak", (drops, ctx) => {
     if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
         var player as Player = (ctx.thisEntity as Entity) as Player;
-        if player.canEat(true) {
-            if ctx.random.nextIntBetweenInclusive(0, 100) < 20 {
+        if !player.isFakePlayer && player.canEat(true) {
+            if ctx.random.nextIntBetweenInclusive(0, 99) < 15 {
               drops.add(<item:minecraft:oak_sapling>);
             }
-            if ctx.random.nextIntBetweenInclusive(0, 100) < 75 {
-              drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie"}));
+            if ctx.random.nextIntBetweenInclusive(0, 99) < 4{
+              drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:drowned"}));
             }
         }
-    } else {
-      return new stdlib.List<IItemStack>();
     }
+
     return drops;
 });
 
@@ -104,7 +103,7 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
 
 
 
-
+/*
 import crafttweaker.api.text.Component;
 <block:minecraft:oak_leaves>.addLootModifier("test", (drops, ctx) => {
     if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
@@ -113,3 +112,4 @@ import crafttweaker.api.text.Component;
     }
     return drops;
 });
+*/
