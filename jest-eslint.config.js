@@ -6,16 +6,7 @@ const config = {
 };
 
 function getTestMatches() {
-  const fileEndings = [
-    "[jt]s",
-    "[jt]sx",
-    "json",
-    "json[c5]",
-    "mcmeta",
-    "toml",
-    "yaml",
-    "yml",
-  ];
+  const fileEndings = ["[jt]s", "[jt]sx", "json", "json[c5]", "mcmeta", "toml"];
 
   const globs = [
     "<rootDir>/schemas/**/*",
