@@ -6,8 +6,8 @@
   "author": "DarkPacks",
   "scripts": {
     "generate": "npm install && ts-node ./node_modules/plop/bin/plop.js",
-    "lint:direct": "jest --config jest-eslint.config.js",
-    "lint:fix:direct": "cross-env FIX=true jest --config jest-eslint.config.js",
+    "lint:direct": "cross-env IS_CI=true jest --config jest-eslint.config.js",
+    "lint:fix:direct": "cross-env FIX=true IS_CI=true jest --config jest-eslint.config.js",
     "lint:fix": "npm install && npm run lint:fix:direct",
     "lint": "npm install && npm run lint:direct",
     "prepare": "husky install",

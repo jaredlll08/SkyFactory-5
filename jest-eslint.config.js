@@ -1,28 +1,28 @@
+const moduleFileExtensions = [
+  "js",
+  "jsx",
+  "ts",
+  "tsx",
+  "json",
+  "jsonc",
+  "json5",
+  "mcmeta",
+  "toml",
+];
+
+const supportedFileEndings = `{${moduleFileExtensions.join(",")}}`;
+
 /** @type {import('jest').Config} */
 const config = {
   runner: "jest-runner-eslint",
   displayName: "ESLint",
-  testMatch: [...getTestMatches()],
+  testMatch: [
+    `<rootDir>/schemas/**/*.${supportedFileEndings}`,
+    `<rootDir>/scripts/**/*.${supportedFileEndings}`,
+    `<rootDir>/src/**/*.${supportedFileEndings}`,
+    `<rootDir>/*.${supportedFileEndings}`,
+  ],
+  moduleFileExtensions,
 };
-
-function getTestMatches() {
-  const fileEndings = ["[jt]s", "[jt]sx", "json", "json[c5]", "mcmeta", "toml"];
-
-  const globs = [
-    "<rootDir>/schemas/**/*",
-    "<rootDir>/scripts/**/*",
-    "<rootDir>/src/**/*",
-    "<rootDir>/*",
-  ];
-
-  const testMatches = [];
-  globs.forEach((glob) => {
-    fileEndings.forEach((fileEnding) => {
-      testMatches.push(`${glob}.${fileEnding}`);
-    });
-  });
-
-  return testMatches;
-}
 
 module.exports = config;

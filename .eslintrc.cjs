@@ -61,6 +61,8 @@ const config = {
 
     "typescript-paths/absolute-import": ["error", { enableAlias: false }],
     "typescript-paths/absolute-parent-import": "error",
+
+    ...getTomlRules(),
   },
   overrides: [
     {
@@ -95,6 +97,19 @@ function getGeneratedSchemaValidatorRules() {
     },
   ];
   // GENERATOR END
+}
+
+/**
+ * @returns {Partial<import('eslint').Linter.RulesRecord>}
+ */
+function getTomlRules() {
+  const rules = {};
+
+  if (process.env.IS_CI === "true") {
+    rules["toml/spaced-comment"] = "error";
+  }
+
+  return rules;
 }
 
 module.exports = config;
