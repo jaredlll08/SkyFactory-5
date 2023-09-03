@@ -56,6 +56,6 @@
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write",
-    "*.{js,jsx,ts,tsx,json,jsonc,json5,mcmeta,toml}": "npm run lint:direct"
+    "*.{js,jsx,ts,tsx,json,jsonc,json5,mcmeta,toml}": "cross-env IS_CI=true eslint --fix --quiet"
   }
 }
