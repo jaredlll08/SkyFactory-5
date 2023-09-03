@@ -1,13 +1,14 @@
 const moduleFileExtensions = [
+  "bak",
   "js",
-  "jsx",
-  "ts",
-  "tsx",
   "json",
-  "jsonc",
   "json5",
+  "jsonc",
+  "jsx",
   "mcmeta",
   "toml",
+  "ts",
+  "tsx",
 ];
 
 const supportedFileEndings = `{${moduleFileExtensions.join(",")}}`;

@@ -1,0 +1,5 @@
+**/*.txt
+
+# Ignored directories
+/minecraft
+/node_modules

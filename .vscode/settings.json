@@ -5,7 +5,25 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnSaveMode": "file",
+  "eslint.codeActionsOnSave.rules": ["*"],
+  "eslint.lintTask.enable": true,
+  "eslint.rules.customizations": [
+    { "rule": "*", "severity": "default" },
+    { "rule": "toml/spaced-comment", "severity": "off" }
+  ],
+  "eslint.probe": [
+    "plaintext",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "json5",
+    "jsonc",
+    "toml",
+    "typescript",
+    "yaml"
+  ],
   "eslint.validate": [
+    "plaintext",
     "javascript",
     "javascriptreact",
     "json",

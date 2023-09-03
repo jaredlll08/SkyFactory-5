@@ -6,8 +6,8 @@
   "author": "DarkPacks",
   "scripts": {
     "generate": "npm install && ts-node ./node_modules/plop/bin/plop.js",
-    "lint:direct": "cross-env IS_CI=true jest --config jest-eslint.config.js",
-    "lint:fix:direct": "cross-env FIX=true IS_CI=true jest --config jest-eslint.config.js",
+    "lint:direct": "jest --config jest-eslint.config.js",
+    "lint:fix:direct": "cross-env FIX=true jest --config jest-eslint.config.js",
     "lint:fix": "npm install && npm run lint:fix:direct",
     "lint": "npm install && npm run lint:direct",
     "prepare": "husky install",
@@ -27,6 +27,7 @@
     "@types/node": "^18.17.6",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
+    "any-eslint-parser": "^1.0.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
@@ -35,6 +36,7 @@
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-json-schema-validator": "^4.6.0",
     "eslint-plugin-jsonc": "^2.9.0",
+    "eslint-plugin-regex": "^1.10.0",
     "eslint-plugin-toml": "^0.5.0",
     "eslint-plugin-typescript-paths": "^0.0.33",
     "glob": "^7.2.3",
@@ -56,6 +58,6 @@
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write",
-    "*.{js,jsx,ts,tsx,json,jsonc,json5,mcmeta,toml}": "cross-env IS_CI=true eslint --fix --quiet"
+    "*.{bak,js,jsx,ts,tsx,json,jsonc,json5,mcmeta,toml}": "eslint --fix --quiet"
   }
 }

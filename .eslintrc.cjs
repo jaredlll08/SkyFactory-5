@@ -62,7 +62,7 @@ const config = {
     "typescript-paths/absolute-import": ["error", { enableAlias: false }],
     "typescript-paths/absolute-parent-import": "error",
 
-    ...getTomlRules(),
+    "toml/spaced-comment": "error",
   },
   overrides: [
     {
@@ -72,6 +72,23 @@ const config = {
     {
       files: ["*.json", "*.json5", "*.jsonc", "*.mcmeta"],
       parser: "jsonc-eslint-parser",
+    },
+    {
+      files: ["*.bak"],
+      plugins: ["regex"],
+      parser: "any-eslint-parser",
+      rules: {
+        "regex/invalid": [
+          "error",
+          [
+            {
+              id: "no-bak-files",
+              message: ".bak file should not exist",
+              regex: "[\\W\\w\\S\\s]*",
+            },
+          ],
+        ],
+      },
     },
   ],
 };
@@ -97,19 +114,6 @@ function getGeneratedSchemaValidatorRules() {
     },
   ];
   // GENERATOR END
-}
-
-/**
- * @returns {Partial<import('eslint').Linter.RulesRecord>}
- */
-function getTomlRules() {
-  const rules = {};
-
-  if (process.env.IS_CI === "true") {
-    rules["toml/spaced-comment"] = "error";
-  }
-
-  return rules;
 }
 
 module.exports = config;
