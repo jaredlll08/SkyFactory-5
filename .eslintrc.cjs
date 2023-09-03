@@ -5,6 +5,8 @@ const config = {
   plugins: ["@typescript-eslint", "editorconfig", "import"],
   extends: [
     "eslint:recommended",
+    "plugin:toml/recommended",
+    "plugin:jsonc/prettier",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:editorconfig/noconflict",
@@ -61,6 +63,10 @@ const config = {
     "typescript-paths/absolute-parent-import": "error",
   },
   overrides: [
+    {
+      files: "*.toml",
+      parser: "toml-eslint-parser",
+    },
     {
       files: ["*.json", "*.json5", "*.jsonc", "*.mcmeta"],
       parser: "jsonc-eslint-parser",
