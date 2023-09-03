@@ -1,5 +1,5 @@
 import * as fs from "fs";
-import { access, readdir, readFile, unlink, writeFile } from "fs/promises";
+import { access, readdir, readFile, rm, writeFile } from "fs/promises";
 import JSON5 from "json5";
 import * as path from "path";
 import * as prettier from "prettier";
@@ -17,7 +17,9 @@ export async function checkFileExists(filePath: string): Promise<boolean> {
 export async function emptyDirectory(directory: string): Promise<void> {
   const files = await readdir(directory);
 
-  await Promise.all(files.map((file) => unlink(path.join(directory, file))));
+  await Promise.all(
+    files.map((file) => rm(path.join(directory, file), { recursive: true })),
+  );
 }
 
 export async function readJSONFile<T extends object>(

@@ -2,6 +2,7 @@ import { createWriteStream } from "fs";
 import { mkdir, rename } from "fs/promises";
 import * as https from "https";
 import * as path from "path";
+import { checkFileExists } from "./file";
 
 const downloadPath = "./.tmp";
 
@@ -11,7 +12,9 @@ export async function downloadFile(
   filename: string = path.basename(url),
 ): Promise<void> {
   const tmpPath = path.join(downloadPath, filename);
-  await mkdir(downloadPath);
+  if (!checkFileExists(downloadPath)) {
+    await mkdir(downloadPath);
+  }
 
   return new Promise((resolve, reject) => {
     https.get(url, (res) => {
