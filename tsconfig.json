@@ -21,7 +21,6 @@
   "ts-node": {
     "require": ["tsconfig-paths/register"],
     "swc": true,
-    "esm": true,
     "pretty": true,
     // It is faster to skip typechecking.
     // Remove if you want ts-node to do typechecking.

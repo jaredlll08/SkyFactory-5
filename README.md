@@ -25,7 +25,7 @@ When first starting development, make sure you go through these steps to get you
 
 To get started, make sure you have Node.js installed. For easier management of your Node.js version, we recommend installing NVM (Node Version Manager) instead. For Windows you can install from the latest release [here](https://github.com/coreybutler/nvm-windows/releases) and for OSX/Linux follow the steps [here](https://github.com/nvm-sh/nvm#installing-and-updating).
 
-Once installed, run `nvm install 16.16.0` then `nvm use 16.16.0` once the installation completes.
+Once installed, run `nvm install 20.5.1` then `nvm use 20.5.1` once the installation completes.
 
 ### Development Loop
 
