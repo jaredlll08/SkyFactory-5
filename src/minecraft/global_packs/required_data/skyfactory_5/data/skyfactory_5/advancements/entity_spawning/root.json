@@ -17,7 +17,6 @@
     "crafting_table": {
       "trigger": "minecraft:inventory_changed"
     },
-
     "any_location": {
       "trigger": "minecraft:location"
     }

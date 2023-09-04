@@ -5,7 +5,6 @@
     "effect": "minecraft:darkness",
     "time": 200
   },
-
   "entity": "minecraft:warden",
   "offset": 0.0,
   "scale": 0.75

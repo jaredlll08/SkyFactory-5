@@ -4,7 +4,6 @@
     "cooldown": 20000,
     "item": "minecraft:golden_axe"
   },
-
   "entity": "minecraft:piglin_brute",
   "offset": 0.0,
   "scale": 1.0

@@ -13,6 +13,7 @@ const config = {
     "plugin:typescript-paths/recommended",
     "plugin:json-schema-validator/recommended",
     "prettier",
+    "./.eslintrc.minecraft.cjs",
   ],
   env: {
     es2020: true,

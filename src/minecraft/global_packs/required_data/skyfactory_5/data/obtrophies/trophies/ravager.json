@@ -4,7 +4,6 @@
     "cooldown": 50000,
     "item": "minecraft:saddle"
   },
-
   "entity": "minecraft:ravager",
   "offset": 0.0,
   "scale": 0.75

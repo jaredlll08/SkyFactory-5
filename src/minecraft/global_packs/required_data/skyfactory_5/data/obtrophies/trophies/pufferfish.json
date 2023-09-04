@@ -5,7 +5,6 @@
     "effect": "minecraft:nausea",
     "time": 100
   },
-
   "entity": "minecraft:pufferfish",
   "offset": 0.0,
   "scale": 2.0,

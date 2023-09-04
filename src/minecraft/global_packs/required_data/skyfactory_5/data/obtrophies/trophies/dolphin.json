@@ -5,7 +5,6 @@
     "effect": "minecraft:dolphins_grace",
     "time": 300
   },
-
   "entity": "minecraft:dolphin",
   "offset": 0.0,
   "scale": 1.0

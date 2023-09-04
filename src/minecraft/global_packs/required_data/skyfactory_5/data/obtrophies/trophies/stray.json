@@ -4,7 +4,6 @@
     "amount": 1,
     "effect": "minecraft:slowness"
   },
-
   "entity": "minecraft:stray",
   "offset": 0.0,
   "scale": 1.0

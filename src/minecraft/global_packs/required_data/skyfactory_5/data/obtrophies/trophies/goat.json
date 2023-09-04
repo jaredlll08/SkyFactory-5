@@ -9,7 +9,6 @@
     "shrink_item_stack": true,
     "sound": "minecraft:entity.goat.milk"
   },
-
   "entity": "minecraft:goat",
   "offset": 0.0,
   "scale": 1.0

@@ -4,7 +4,6 @@
     "cooldown": 50000,
     "item": "minecraft:wither_skeleton_skull"
   },
-
   "entity": "minecraft:wither_skeleton",
   "offset": 0.0,
   "scale": 1.0

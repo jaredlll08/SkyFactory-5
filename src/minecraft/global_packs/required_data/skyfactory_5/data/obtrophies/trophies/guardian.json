@@ -2,7 +2,6 @@
   "behavior": {
     "type": "obtrophies:guardian_curse"
   },
-
   "entity": "minecraft:guardian",
   "offset": 0.0,
   "scale": 1.0

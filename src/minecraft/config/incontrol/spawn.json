@@ -17,7 +17,6 @@
     },
     "result": "deny"
   },
-
   { "mob": ["minecraft:blaze"], "gamestage": "blaze", "result": "allow" },
   {
     "mob": ["minecraft:cave_spider"],
@@ -107,17 +106,16 @@
   { "mob": ["minecraft:cat"], "gamestage": "cat", "result": "allow" },
   {
     "mob": ["minecraft:chicken"],
-    "gamestage": "chicken",
     "block": "minecraft:grass_block",
+    "gamestage": "chicken",
     "result": "allow"
   },
   {
     "mob": ["minecraft:cow"],
-    "gamestage": "cow",
     "block": "minecraft:grass_block",
+    "gamestage": "cow",
     "result": "allow"
   },
-
   { "mob": ["minecraft:donkey"], "gamestage": "donkey", "result": "allow" },
   { "mob": ["minecraft:fox"], "gamestage": "fox", "result": "allow" },
   { "mob": ["minecraft:frog"], "gamestage": "frog", "result": "allow" },
@@ -125,29 +123,29 @@
   { "mob": ["minecraft:horse"], "gamestage": "horse", "result": "allow" },
   {
     "mob": ["minecraft:llama"],
-    "gamestage": "llama",
     "block": "minecraft:grass_block",
+    "gamestage": "llama",
     "result": "allow"
   },
   {
     "mob": ["minecraft:mooshroom"],
-    "gamestage": "mooshroom",
     "block": "minecraft:grass_block",
+    "gamestage": "mooshroom",
     "result": "allow"
   },
   { "mob": ["minecraft:ocelot"], "gamestage": "ocelot", "result": "allow" },
   { "mob": ["minecraft:panda"], "gamestage": "panda", "result": "allow" },
   {
     "mob": ["minecraft:pig"],
-    "gamestage": "pig",
     "block": "minecraft:grass_block",
+    "gamestage": "pig",
     "result": "allow"
   },
   { "mob": ["minecraft:rabbit"], "gamestage": "rabbit", "result": "allow" },
   {
     "mob": ["minecraft:sheep"],
-    "gamestage": "sheep",
     "block": "minecraft:grass_block",
+    "gamestage": "sheep",
     "result": "allow"
   },
   { "mob": ["minecraft:sniffer"], "gamestage": "sniffer", "result": "allow" },
@@ -191,8 +189,8 @@
   },
   {
     "mob": ["minecraft:turtle"],
-    "gamestage": "turtle",
     "block": ["minecraft:sand", "minecraft:grass_block"],
+    "gamestage": "turtle",
     "result": "allow"
   },
   {

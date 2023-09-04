@@ -4,7 +4,6 @@
     "cooldown": 20000,
     "item": "minecraft:slime_ball"
   },
-
   "entity": "minecraft:frog",
   "offset": 0.0,
   "scale": 1.5,

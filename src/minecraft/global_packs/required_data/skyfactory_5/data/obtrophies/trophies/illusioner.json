@@ -5,7 +5,6 @@
     "effect": "minecraft:blindness",
     "time": 100
   },
-
   "entity": "minecraft:illusioner",
   "offset": 0.0,
   "scale": 1.0

@@ -4,7 +4,6 @@
     "cooldown": 20000,
     "item": "minecraft:feather"
   },
-
   "entity": "minecraft:husk",
   "offset": 0.0,
   "scale": 1.0

@@ -9,7 +9,6 @@
     "shrink_item_stack": true,
     "sound": "minecraft:item.bottle.fill"
   },
-
   "entity": "minecraft:bee",
   "offset": 0.0,
   "scale": 1.5

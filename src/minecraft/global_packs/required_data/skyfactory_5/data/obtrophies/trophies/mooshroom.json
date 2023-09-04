@@ -4,7 +4,6 @@
     "block": "minecraft:red_mushroom",
     "place_around_trophy": true
   },
-
   "entity": "minecraft:mooshroom",
   "offset": 0.0,
   "scale": 1.0,

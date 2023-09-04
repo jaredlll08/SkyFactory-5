@@ -4,7 +4,6 @@
     "cooldown": 10000,
     "item": "minecraft:rotten_flesh"
   },
-
   "entity": "minecraft:zoglin",
   "offset": 0.0,
   "scale": 0.85

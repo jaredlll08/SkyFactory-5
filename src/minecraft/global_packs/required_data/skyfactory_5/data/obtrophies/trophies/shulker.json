@@ -5,7 +5,6 @@
     "effect": "minecraft:levitation",
     "time": 100
   },
-
   "entity": "minecraft:shulker",
   "offset": 0.0,
   "scale": 1.0

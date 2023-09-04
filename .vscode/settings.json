@@ -9,8 +9,9 @@
   "eslint.lintTask.enable": true,
   "eslint.rules.customizations": [
     { "rule": "*", "severity": "default" },
-    { "rule": "toml/spaced-comment", "severity": "off" },
-    { "rule": "editorconfig/*", "severity": "off" }
+    { "rule": "editorconfig/*", "severity": "off" },
+    { "rule": "no-multiple-empty-lines", "severity": "off" },
+    { "rule": "toml/spaced-comment", "severity": "off" }
   ],
   "eslint.probe": [
     "plaintext",

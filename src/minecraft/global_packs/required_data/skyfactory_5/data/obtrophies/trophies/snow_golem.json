@@ -4,7 +4,6 @@
     "block": "minecraft:snow",
     "place_around_trophy": true
   },
-
   "entity": "minecraft:snow_golem",
   "offset": 0.0,
   "scale": 1.0,

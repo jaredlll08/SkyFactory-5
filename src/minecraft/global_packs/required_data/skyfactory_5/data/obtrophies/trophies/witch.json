@@ -5,7 +5,6 @@
     "effect": "minecraft:blindness",
     "time": 70
   },
-
   "entity": "minecraft:witch",
   "offset": 0.0,
   "scale": 0.9

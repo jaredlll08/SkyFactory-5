@@ -5,7 +5,6 @@
     "item": "minecraft:egg",
     "sound": "minecraft:entity.chicken.egg"
   },
-
   "entity": "minecraft:chicken",
   "offset": 0.0,
   "scale": 1.5

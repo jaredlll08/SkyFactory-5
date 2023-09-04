@@ -4,7 +4,6 @@
     "cooldown": 20000,
     "item": "minecraft:bamboo"
   },
-
   "entity": "minecraft:panda",
   "offset": 0.0,
   "scale": 0.75,
