@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:oak_leaves",
+  "type": "leaves",
+  "material": "minecraft:oak_leaves",
+  "map_color": "color_light_gray",
+  "properties": {
+    "facing": "horizontal_facing",
+    "powered": { "type": "boolean" },
+    "str": { "type": "string", "values": ["value1", "value2"] },
+    "num": { "type": "int", "min": 0, "max": 5 }
+  },
+  "default_state": {
+    "facing": "east",
+    "powered": false,
+    "str": "value1",
+    "num": 0
+  },
+  "shape": [0, 0, 0, 16, 16, 16],
+  "replaceable": false,
+  "item": {
+    "group": "decorations"
+  }
+}

@@ -13,6 +13,7 @@ const symlinkDirs = new Set([
   "config",
   "defaultconfigs",
   "global_packs",
+  "thingpacks",
   "scripts",
 ]);
 
