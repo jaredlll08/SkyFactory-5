@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "arcensoth.language-mcfunction",
+    "circlecodesolution.ccs-flutter-color",
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
