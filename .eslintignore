@@ -1,6 +1,7 @@
 **/*.txt
 
 # Ignored directories
+/build
 /minecraft
 /node_modules
 
