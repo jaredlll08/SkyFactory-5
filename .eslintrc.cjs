@@ -45,6 +45,21 @@ const config = {
         },
       },
     ],
+    "import/no-restricted-paths": [
+      "error",
+      {
+        zones: [
+          {
+            target: "./scripts/**/*",
+            from: "./src/**/*",
+          },
+          {
+            target: "./src/**/*",
+            from: "./scripts/**/*",
+          },
+        ],
+      },
+    ],
     "sort-imports": [
       "error",
       {
