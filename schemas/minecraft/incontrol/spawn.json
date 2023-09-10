@@ -76,9 +76,18 @@
         }
       },
       "armorhelmet": {
-        "type": ["string", "array"],
+        "type": ["string", "array", "object"],
         "items": {
           "type": "string"
+        },
+        "properties": {
+          "item": {
+            "type": "string",
+            "pattern": "^\\w+:\\w+$"
+          },
+          "nbt": {
+            "type": "object"
+          }
         }
       },
       "armorlegs": {

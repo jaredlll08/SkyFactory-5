@@ -34,7 +34,16 @@ export type InControlSpawn = {
           }
       )[];
   armorboots?: string | string[];
-  armorhelmet?: string | string[];
+  armorhelmet?:
+    | string
+    | string[]
+    | {
+        item?: string;
+        nbt?: {
+          [k: string]: unknown;
+        };
+        [k: string]: unknown;
+      };
   armorlegs?: string | string[];
   armorchest?: string | string[];
   baby?: boolean;
