@@ -1,0 +1,303 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "JsonThings Block",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "parent": {
+      "description": "Defines another block to copy properties from.",
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    },
+    "type": {
+      "description": "Defines the type of block to construct. Each type has additional properties.",
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    },
+    "material": {
+      "description": "Defines the base properties of the block, along with the color that will be used in maps.",
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    },
+    "map_color": {
+      "description": "Defines the color displayed in a map, from the choices available in the map color palette.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 63
+        }
+      ]
+    },
+    "properties": {
+      "description": "Defines the blockstate properties contained in the mod.",
+      "type": "object",
+      "patternProperties": {
+        "^[a-z]+$": {
+          "anyOf": [
+            {
+              "description": "The name of a stock property provided by vanilla minecraft. New stock properties can be added via mod code.",
+              "type": "string"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "const": "boolean"
+                },
+                "values": {
+                  "type": "boolean"
+                }
+              },
+              "required": ["type"],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "const": "int"
+                },
+                "min": {
+                  "type": "number"
+                },
+                "max": {
+                  "type": "number"
+                }
+              },
+              "required": ["type", "min", "max"],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "const": "string"
+                },
+                "values": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": ["type", "values"],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "const": "direction"
+                },
+                "values": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": ["type"],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "const": "enum"
+                },
+                "values": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "class": {
+                  "type": "string"
+                }
+              },
+              "required": ["type", "class"],
+              "additionalProperties": false
+            }
+          ]
+        }
+      }
+    },
+    "default_state": {
+      "description": "Defines the default value of each property, when the value is not provided explicitly.",
+      "type": "object"
+    },
+    "shape_rotation": {
+      "description": "Defines the name of a property that is used to rotate the voxel shapes used in collision and hit checks.",
+      "type": "string"
+    },
+    "shape": {
+      "description": "Defines the general shape of the block, which should roughly match the model's shape.",
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "x1": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 16
+            },
+            "y1": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 16
+            },
+            "z1": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 16
+            },
+            "x2": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 16
+            },
+            "y2": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 16
+            },
+            "z2": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 16
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 16
+          },
+          "minLength": 6,
+          "maxLength": 6
+        }
+      ]
+    },
+    "not_solid": {
+      "description": "Defines that the block is see-through and neighbour face culling should not be performed.",
+      "type": "boolean"
+    },
+    "requires_tool_for_drops": {
+      "description": "Defines that the block requires using the right tool to drop loot.",
+      "type": "boolean"
+    },
+    "is_air": {
+      "description": "Defines that the block is equivalent to air.",
+      "type": "boolean"
+    },
+    "has_collision": {
+      "description": "Defines that the block prevents entities from passing through the collision box.",
+      "type": "boolean"
+    },
+    "ticks_randomly": {
+      "description": "Defines that the block receives random ticks. Not relevant until the scripting system is in place.",
+      "type": "boolean"
+    },
+    "light_emission": {
+      "description": "Defines the amount of light emitted by the block.",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 15
+    },
+    "explosion_resistance": {
+      "description": "Defines the amount explosion power required to break the block.",
+      "type": "number",
+      "minimum": 0
+    },
+    "destroy_time": {
+      "description": "Defines the amount time needed to mine the block without a tool.",
+      "type": "number",
+      "minimum": 0
+    },
+    "friction": {
+      "description": "Defines the friction coeficient applied to changes in movement. Values close to 0 mean fast changes (high friction), while values close to 1 mean slow changes (low friction).",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "speed_factor": {
+      "description": "Defines the speed factor applied to the maximum movement speed. A value of 1 means default speed.",
+      "type": "number",
+      "minimum": 0
+    },
+    "jump_factor": {
+      "description": "Defines the jump factor applied to the maximum jump height. A value of 1 means default jump height.",
+      "type": "number",
+      "minimum": 0
+    },
+    "color_handler": {
+      "description": "Defines a color handler for the block. Color handler provides tint values based on context.",
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    },
+    "sound_type": {
+      "description": "Defines the sound type used to define the sound events that play when the block is placed, broken, or stepped on.",
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    },
+    "item": {
+      "description": "Defines the block's item form.",
+      "oneOf": [
+        {
+          "description": "If true, the block item will have all the default properties.",
+          "type": "boolean"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    },
+    "ignited_by_lava": {
+      "description": "Defines that the block will be set on fire by nearby lava.",
+      "type": "boolean"
+    },
+    "force_solid": {
+      "description": "Defines that the block must be considered solid regardless of its voxel shape. If true, the \"blocks_motion\" option is not used.",
+      "type": "boolean"
+    },
+    "blocks_motion": {
+      "description": "If false, defines that the block must be considered non-solid regardless of its voxel shape. This option is not used if force_solid is true.",
+      "type": "boolean"
+    },
+    "replaceable": {
+      "description": "Defines that the block can be deleted when placing other blocks in the same space. By default, block placement is prevented.",
+      "type": "boolean"
+    },
+    "push_reaction": {
+      "description": "Defines how the block reacts when pushed by a piston.",
+      "type": "string",
+      "enum": ["normal", "block", "destroy", "push_only"]
+    },
+    "tree_feature": {
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "parent": {
+            "pattern": "\\w+"
+          }
+        }
+      },
+      "else": {
+        "required": ["material"]
+      }
+    }
+  ]
+}

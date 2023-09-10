@@ -8,10 +8,22 @@
   "eslint.codeActionsOnSave.rules": ["*"],
   "eslint.lintTask.enable": true,
   "eslint.rules.customizations": [
-    { "rule": "*", "severity": "default" },
-    { "rule": "editorconfig/*", "severity": "off" },
-    { "rule": "no-multiple-empty-lines", "severity": "off" },
-    { "rule": "toml/spaced-comment", "severity": "off" }
+    {
+      "rule": "*",
+      "severity": "default"
+    },
+    {
+      "rule": "editorconfig/*",
+      "severity": "off"
+    },
+    {
+      "rule": "no-multiple-empty-lines",
+      "severity": "off"
+    },
+    {
+      "rule": "toml/spaced-comment",
+      "severity": "off"
+    }
   ],
   "eslint.probe": [
     "plaintext",
@@ -79,6 +91,30 @@
     {
       "fileMatch": ["/src/minecraft/config/incontrol/spawner.json"],
       "url": "./schemas/minecraft/incontrol/spawner.json"
+    },
+    {
+      "fileMatch": ["/src/minecraft/thingpacks/*/things/*/item/**/*.json"],
+      "url": "./schemas/minecraft/jsonthings/item.json"
+    },
+    {
+      "fileMatch": ["/src/minecraft/thingpacks/*/things/*/block/**/*.json"],
+      "url": "./schemas/minecraft/jsonthings/block.json"
+    },
+    {
+      "fileMatch": [
+        "/src/minecraft/thingpacks/*/things/*/block_set_type/**/*.json"
+      ],
+      "url": "./schemas/minecraft/jsonthings/block-set-type.json"
+    },
+    {
+      "fileMatch": [
+        "/src/minecraft/thingpacks/*/things/*/creative_mode_tab/**/*.json"
+      ],
+      "url": "./schemas/minecraft/jsonthings/creative-mode-tab.json"
+    },
+    {
+      "fileMatch": ["/src/minecraft/thingpacks/*/things/*/food/**/*.json"],
+      "url": "./schemas/minecraft/jsonthings/food.json"
     }
   ]
 }

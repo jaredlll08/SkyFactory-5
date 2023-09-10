@@ -13,4 +13,24 @@ export const schemaFiles = new Map<string, string[]>([
     "minecraft/incontrol/spawner.json",
     ["/src/minecraft/config/incontrol/spawner.json"],
   ],
+  [
+    "minecraft/jsonthings/block.json",
+    ["/src/minecraft/thingpacks/*/things/*/block/**/*.json"],
+  ],
+  [
+    "minecraft/jsonthings/block-set-type.json",
+    ["/src/minecraft/thingpacks/*/things/*/block_set_type/**/*.json"],
+  ],
+  [
+    "minecraft/jsonthings/creative-mode-tab.json",
+    ["/src/minecraft/thingpacks/*/things/*/creative_mode_tab/**/*.json"],
+  ],
+  [
+    "minecraft/jsonthings/food.json",
+    ["/src/minecraft/thingpacks/*/things/*/food/**/*.json"],
+  ],
+  [
+    "minecraft/jsonthings/item.json",
+    ["/src/minecraft/thingpacks/*/things/*/item/**/*.json"],
+  ],
 ]);

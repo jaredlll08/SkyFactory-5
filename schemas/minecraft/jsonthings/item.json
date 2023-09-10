@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "JsonThings Item",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "parent": {
+      "description": "Defines another item to copy properties from.",
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    },
+    "type": {
+      "description": "Defines the type of item to construct. Each type has additional properties.",
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    },
+    "max_stack_size": {
+      "description": "Defines how much the item stacks. Defaults to 0",
+      "type": "number",
+      "minimum": 0,
+      "maximum": 127
+    },
+    "max_damage": {
+      "description": "Defines how many uses (without Unbreaking) the item has before breaking.",
+      "type": "number",
+      "minimum": 0
+    },
+    "container": {
+      "description": "Defines the item that will be left behind in the crafting table after crafting, or in the furnace when the fuel is spent.",
+      "type": "string"
+    },
+    "food": {
+      "description": "Defines the item to be edible."
+    },
+
+    "attribute_modifiers": {
+      "description": "Defines the attribute changes that are applied when this item is equipped.",
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "color_handler": {
+      "description": "Defines a color handler for the stack. Color handler provides tint values based on context.",
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    },
+    "lore": {
+      "description": "Defines a list of lines of lore text to show in the tooltip box.",
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string"
+              },
+              "italic": {
+                "type": "boolean"
+              },
+              "color": {
+                "type": "string"
+              },
+              "additionalProperties": false
+            }
+          }
+        ]
+      }
+    },
+    "tool_actions": {
+      "description": "Defines a list of tool actions to present to the game. This doesn't make an item able to perform those actions unless it's scripted to do so, without scripting it only declares the item as a kind of tool.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "burn_duration": {
+      "description": "Defines the amount of time this item can burn when used as fuel for a furnace.",
+      "type": "number"
+    },
+    "group": {
+      "description": "Defines which creative tab to have the item in.",
+      "type": "string"
+    },
+    "creative_menu_stacks": {
+      "description": "Defines which stacks of this item will be added to the creative menu. Each stack can be added to one or more tabs.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tabs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "nbt": {
+            "type": "object"
+          }
+        },
+        "required": ["tabs"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

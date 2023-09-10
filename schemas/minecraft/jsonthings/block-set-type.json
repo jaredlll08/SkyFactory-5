@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "JsonThings Block Set Type",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "sound_type": {
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    },
+    "door_close": {
+      "type": "string",
+      "pattern": "^\\w+:\\w[\\w.]+\\w$"
+    },
+    "door_open": {
+      "type": "string",
+      "pattern": "^\\w+:\\w[\\w.]+\\w$"
+    },
+    "trapdoor_close": {
+      "type": "string",
+      "pattern": "^\\w+:\\w[\\w.]+\\w$"
+    },
+    "trapdoor_open": {
+      "type": "string",
+      "pattern": "^\\w+:\\w[\\w.]+\\w$"
+    },
+    "pressure_plate_off": {
+      "type": "string",
+      "pattern": "^\\w+:\\w[\\w.]+\\w$"
+    },
+    "pressure_plate_on": {
+      "type": "string",
+      "pattern": "^\\w+:\\w[\\w.]+\\w$"
+    },
+    "button_off": {
+      "type": "string",
+      "pattern": "^\\w+:\\w[\\w.]+\\w$"
+    },
+    "button_on": {
+      "type": "string",
+      "pattern": "^\\w+:\\w[\\w.]+\\w$"
+    },
+    "is_wood": {
+      "type": "boolean"
+    },
+    "hanging_sign_sound_type": {
+      "type": "string",
+      "pattern": "^\\w+:\\w+$"
+    },
+    "fence_gate_close": {
+      "type": "string",
+      "pattern": "^\\w+:\\w[\\w.]+\\w$"
+    },
+    "fence_gate_open": {
+      "type": "string",
+      "pattern": "^\\w+:\\w[\\w.]+\\w$"
+    }
+  },
+  "additionalProperties": false
+}

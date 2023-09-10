@@ -153,6 +153,30 @@ function getGeneratedSchemaValidatorRules() {
       fileMatch: ["src/minecraft/config/incontrol/spawner.json"],
       schema: "./schemas/minecraft/incontrol/spawner.json",
     },
+    {
+      fileMatch: ["src/minecraft/thingpacks/*/things/*/block/**/*.json"],
+      schema: "./schemas/minecraft/jsonthings/block.json",
+    },
+    {
+      fileMatch: [
+        "src/minecraft/thingpacks/*/things/*/block_set_type/**/*.json",
+      ],
+      schema: "./schemas/minecraft/jsonthings/block-set-type.json",
+    },
+    {
+      fileMatch: [
+        "src/minecraft/thingpacks/*/things/*/creative_mode_tab/**/*.json",
+      ],
+      schema: "./schemas/minecraft/jsonthings/creative-mode-tab.json",
+    },
+    {
+      fileMatch: ["src/minecraft/thingpacks/*/things/*/food/**/*.json"],
+      schema: "./schemas/minecraft/jsonthings/food.json",
+    },
+    {
+      fileMatch: ["src/minecraft/thingpacks/*/things/*/item/**/*.json"],
+      schema: "./schemas/minecraft/jsonthings/item.json",
+    },
   ];
   // GENERATOR END
 }

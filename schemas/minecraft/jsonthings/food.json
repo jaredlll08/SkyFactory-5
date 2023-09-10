@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "JsonThings Food",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "nutrition": {
+      "description": "Defines how much hunger this food restores.",
+      "type": "number",
+      "minimum": 1
+    },
+    "saturation": {
+      "description": "Defines how much saturation this food adds. Saturation is the delay until hunger restarts.",
+      "type": "number",
+      "minimum": 0
+    },
+    "meat": {
+      "description": "Defines if the food is considered meat. Meats are appealing to carnivores like wolves.",
+      "type": "boolean"
+    },
+    "fast": {
+      "description": "Defines if the food can be eaten fast.",
+      "type": "boolean"
+    },
+    "always_eat": {
+      "description": "Defines if the food can be eaten with a full stomach. Should only be used for snack foods and not big meals.",
+      "type": "boolean"
+    },
+    "effects": {
+      "description": "Defines a list of effects that are applied when the food is eaten.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "effect": {
+            "type": "string",
+            "pattern": "^\\w+:\\w+$"
+          },
+          "duration": {
+            "description": "Defines how long the effect lasts, in ingame ticks (20ths of a second).",
+            "type": "number",
+            "minimum": 1
+          },
+          "amplifier": {
+            "description": "Defines how strong the effect is. Higher numbers increase the potency of the effect further.",
+            "type": "number",
+            "minimum": 0
+          },
+          "ambient": {
+            "description": "Defines if the effect should be considered an ambient effect such as coming from a beacon. Ambient effects appear in a different color and without a countdown. It is advised not to set the \"ambient\" property to true for foods and other contextual effects.",
+            "type": "boolean"
+          },
+          "show_particles": {
+            "description": "Defines if the effect produces particles around the player.",
+            "type": "boolean"
+          },
+          "show_icon": {
+            "description": "Defines if the effect has an icon in the top right of the HUD.",
+            "type": "boolean"
+          }
+        },
+        "required": ["effect", "duration"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["nutrition", "saturation"],
+  "additionalProperties": false
+}
