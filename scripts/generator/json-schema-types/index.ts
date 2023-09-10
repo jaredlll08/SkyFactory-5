@@ -37,7 +37,7 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
         },
         transform: async (fileContents) => {
           const prettierConfig =
-            await prettier.resolveConfig("./.eslintrc.cjs");
+            await prettier.resolveConfig("./.prettierrc.cjs");
           const formatted = await prettier.format(fileContents, {
             ...prettierConfig,
             parser: "babel",
