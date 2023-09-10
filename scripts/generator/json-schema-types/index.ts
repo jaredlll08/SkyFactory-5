@@ -127,7 +127,7 @@ const updateVSCodeSchemas: CustomActionFunction = async () => {
 
     schemasEntry.push({
       fileMatch,
-      url: path.join("./schemas", entry),
+      url: `./schemas/${entry}`,
     });
   });
 
