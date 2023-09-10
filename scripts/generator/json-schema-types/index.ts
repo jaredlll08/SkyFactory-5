@@ -1,8 +1,8 @@
+import { CustomActionFunction } from "@crutchcorn/plop";
 import fs from "fs/promises";
 import glob from "glob-promise";
 import { compileFromFile } from "json-schema-to-typescript";
 import path from "path";
-import { CustomActionFunction } from "plop";
 import * as prettier from "prettier";
 import { RegisterGeneratorFn } from "scripts/generator/models";
 import { readJSONFile, writeJSONFile } from "scripts/utils/file";

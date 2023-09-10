@@ -1,5 +1,5 @@
+import type { NodePlopAPI } from "@crutchcorn/plop";
 import glob from "glob-promise";
-import type { NodePlopAPI } from "plop";
 import { GeneratorModule } from "./models";
 
 export async function rootGenerator(plop: NodePlopAPI) {

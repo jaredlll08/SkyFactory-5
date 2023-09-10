@@ -7,7 +7,7 @@
   "scripts": {
     "format:fix:direct": "prettier --ignore-unknown --write --log-level=warn \"**/*.@(cjs|js|json|json5|jsonc|jsx|mcmeta|mjs|properties|toml|ts|tsx)\"",
     "format:validate:direct": "prettier --ignore-unknown --check --log-level=warn \"**/*.@(cjs|js|json|json5|jsonc|jsx|mcmeta|mjs|properties|toml|ts|tsx)\"",
-    "generate": "npm install && ts-node ./node_modules/plop/bin/plop.js",
+    "generate": "npm install && plop",
     "lint:direct": "npm run format:validate:direct && jest --config jest-eslint.config.js",
     "lint:fix:direct": "npm run format:fix:direct && cross-env FIX=true jest --config jest-eslint.config.js",
     "lint:fix": "npm install && npm run lint:fix:direct",
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/DarkPacks/SkyFactory-5#readme",
   "type": "commonjs",
   "devDependencies": {
+    "@crutchcorn/plop": "^4.1.0-alpha.1",
     "@swc/core": "^1.3.78",
     "@types/node": "^18.17.6",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
@@ -56,7 +57,6 @@
     "lint-staged": "^14.0.1",
     "minecraft-launcher-core": "3.17.2",
     "msmc": "4.1.0",
-    "plop": "^3.1.2",
     "prettier": "^3.0.2",
     "prettier-plugin-properties": "^0.2.0",
     "prettier-plugin-toml": "^1.0.0",

@@ -1,4 +1,4 @@
-import { NodePlopAPI } from "plop";
+import { NodePlopAPI } from "@crutchcorn/plop";
 
 export type Metadata = {
   rootGeneratorPath: string;
