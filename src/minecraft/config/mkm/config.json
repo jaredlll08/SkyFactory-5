@@ -16,7 +16,7 @@
     {
       "name": "A Set of Macro\u0027s",
       "macro0": "",
-      "macro1": "",
+      "macro1": "summon sheep",
       "macro2": "",
       "macro3": "",
       "macro4": "execute in minecraft:the_end run tp Darkosto ~ ~ ~",

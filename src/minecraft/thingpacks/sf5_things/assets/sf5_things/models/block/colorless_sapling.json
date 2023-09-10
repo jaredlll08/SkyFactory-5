@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "sf5_things:block/minecraft_colorless_sapling"
+  },
+  "render_type": "cutout"
+}

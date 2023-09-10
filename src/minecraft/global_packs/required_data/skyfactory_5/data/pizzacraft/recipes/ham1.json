@@ -1,0 +1,10 @@
+{
+  "type": "pizzacraft:chopping_recipe",
+  "input": {
+    "item": "minecraft:porkchop"
+  },
+  "result": {
+    "item": "pizzacraft:ham",
+    "count": 2
+  }
+}

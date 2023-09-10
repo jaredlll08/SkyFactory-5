@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:sapling",
+  "tree_feature": "sf5_things:colorless_tree",
+  "material": "minecraft:plant",
+  "shape": [2, 0, 2, 14, 12, 14],
+  "has_collision": false,
+  "sound_type": "minecraft:grass",
+  "item": {
+    "group": "sf5_things:colorless_wood",
+    "lore": [
+      {
+        "text": "Muddr was right.",
+        "italic": true,
+        "color": "gray"
+      }
+    ]
+  }
+}

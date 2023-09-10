@@ -1,0 +1,10 @@
+{
+  "type": "pizzacraft:chopping_recipe",
+  "input": {
+    "tag": "forge:crops/cucumber"
+  },
+  "result": {
+    "item": "pizzacraft:cucumber_slice",
+    "count": 2
+  }
+}

@@ -9,6 +9,7 @@
     "minecraft:moss_block",
     "minecraft:mud",
     "minecraft:muddy_mangrove_roots",
-    "#minecraft:wool"
+    "#minecraft:wool",
+    "sf5_things:colorless_dirt"
   ]
 }

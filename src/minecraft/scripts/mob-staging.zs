@@ -116,12 +116,15 @@ val mobs = {
     "minecraft:wandering_trader": new TrophyMob("wandering_trader", "Wandering Traders"),
     // Golems
     "minecraft:iron_golem": new TrophyMob("iron_golem", "Iron Golems"),
-    "minecraft:snow_golem": new TrophyMob("snow_golem", "Snow Golems")
+    "minecraft:snow_golem": new TrophyMob("snow_golem", "Snow Golems"),
     // Mules have not been added to this list because I don't know
     // if I really need to care or have the desire to add them
     // does anybody really care if I don't add them? Seriously
     // let me know in the comments if you care and don't forget
     // to ring that bell and hit that like button
+
+    // Modded Entities
+    "energeticsheep:energetic_sheep": new TrophyMob("energetic_sheep", "Energetic Sheep")
 
 
 } as TrophyMob[string];

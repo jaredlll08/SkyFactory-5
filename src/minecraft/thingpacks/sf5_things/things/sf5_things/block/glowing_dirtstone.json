@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:cobblestone",
-  "type": "plain",
-  "material": "dirt",
+  "type": "minecraft:plain",
+  "material": "minecraft:dirt",
   "map_color": "dirt",
   "properties": {
     "facing": "horizontal_facing",

@@ -24,18 +24,45 @@
     "nbt": {
       "Team": "sf5_gold_team"
     },
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:cave_spider"],
     "gamestage": "cave_spider",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:creeper"], "gamestage": "creeper", "result": "allow" },
+  {
+    "mob": ["minecraft:creeper"],
+    "gamestage": "creeper",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:drowned"],
     "gamestage": "drowned",
-    "armorhelmet": ["minecraft:turtle_helmet"],
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
@@ -45,62 +72,305 @@
     "nbt": {
       "Team": "sf5_black_team"
     },
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:endermite"],
     "gamestage": "endermite",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:evoker"], "gamestage": "evoker", "result": "allow" },
-  { "mob": ["minecraft:ghast"], "gamestage": "ghast", "result": "allow" },
-  { "mob": ["minecraft:guardian"], "gamestage": "guardian", "result": "allow" },
-  { "mob": ["minecraft:hoglin"], "gamestage": "hoglin", "result": "allow" },
-  { "mob": ["minecraft:husk"], "gamestage": "husk", "result": "allow" },
+  {
+    "mob": ["minecraft:evoker"],
+    "gamestage": "evoker",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:ghast"],
+    "gamestage": "ghast",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:guardian"],
+    "gamestage": "guardian",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:hoglin"],
+    "gamestage": "hoglin",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:husk"],
+    "gamestage": "husk",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:illusioner"],
     "gamestage": "illusioner",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:magma_cube"],
     "gamestage": "magma_cube",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:phantom"], "gamestage": "phantom", "result": "allow" },
-  { "mob": ["minecraft:piglin"], "gamestage": "piglin", "result": "allow" },
+  {
+    "mob": ["minecraft:phantom"],
+    "gamestage": "phantom",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:piglin"],
+    "gamestage": "piglin",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:piglin_brute"],
     "gamestage": "piglin_brute",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:pillager"], "gamestage": "pillager", "result": "allow" },
-  { "mob": ["minecraft:ravager"], "gamestage": "ravager", "result": "allow" },
-  { "mob": ["minecraft:shulker"], "gamestage": "shulker", "result": "allow" },
+  {
+    "mob": ["minecraft:pillager"],
+    "gamestage": "pillager",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:ravager"],
+    "gamestage": "ravager",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:shulker"],
+    "gamestage": "shulker",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:silverfish"],
     "gamestage": "silverfish",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:skeleton"], "gamestage": "skeleton", "result": "allow" },
-  { "mob": ["minecraft:slime"], "gamestage": "slime", "result": "allow" },
-  { "mob": ["minecraft:spider"], "gamestage": "spider", "result": "allow" },
-  { "mob": ["minecraft:stray"], "gamestage": "stray", "result": "allow" },
-  { "mob": ["minecraft:vex"], "gamestage": "vex", "result": "allow" },
+  {
+    "mob": ["minecraft:skeleton"],
+    "gamestage": "skeleton",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "helditem": [
+      "5=xercapaint:item_palette",
+      "5=minecraft:brush",
+      "95=minecraft:bow"
+    ],
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:slime"],
+    "gamestage": "slime",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:spider"],
+    "gamestage": "spider",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:stray"],
+    "gamestage": "stray",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:vex"],
+    "gamestage": "vex",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:vindicator"],
     "gamestage": "vindicator",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:warden"], "gamestage": "warden", "result": "allow" },
-  { "mob": ["minecraft:witch"], "gamestage": "witch", "result": "allow" },
-  { "mob": ["minecraft:wither"], "gamestage": "wither", "result": "allow" },
+  {
+    "mob": ["minecraft:warden"],
+    "gamestage": "warden",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:witch"],
+    "gamestage": "witch",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:wither"],
+    "gamestage": "wither",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:wither_skeleton"],
     "gamestage": "wither_skeleton",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:zoglin"], "gamestage": "zoglin", "result": "allow" },
+  {
+    "mob": ["minecraft:zoglin"],
+    "gamestage": "zoglin",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:zombie"],
     "gamestage": "zombie",
@@ -108,133 +378,471 @@
     "nbt": {
       "Team": "sf5_green_team"
     },
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "helditem": ["xercapaint:item_palette", "minecraft:brush"],
     "result": "allow"
   },
   {
     "mob": ["minecraft:zombie_villager"],
     "gamestage": "zombie_villager",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:zombified_piglin"],
     "gamestage": "zombified_piglin",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:axolotl"],
     "gamestage": "axolotl",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:bee"], "gamestage": "bee", "result": "allow" },
-  { "mob": ["minecraft:camel"], "gamestage": "camel", "result": "allow" },
-  { "mob": ["minecraft:cat"], "gamestage": "cat", "result": "allow" },
+  {
+    "mob": ["minecraft:bee"],
+    "gamestage": "bee",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:camel"],
+    "gamestage": "camel",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:cat"],
+    "gamestage": "cat",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:chicken"],
     "block": "minecraft:grass_block",
     "gamestage": "chicken",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:cow"],
     "block": "minecraft:grass_block",
     "gamestage": "cow",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:donkey"], "gamestage": "donkey", "result": "allow" },
-  { "mob": ["minecraft:fox"], "gamestage": "fox", "result": "allow" },
-  { "mob": ["minecraft:frog"], "gamestage": "frog", "result": "allow" },
-  { "mob": ["minecraft:goat"], "gamestage": "goat", "result": "allow" },
-  { "mob": ["minecraft:horse"], "gamestage": "horse", "result": "allow" },
+  {
+    "mob": ["minecraft:donkey"],
+    "gamestage": "donkey",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:fox"],
+    "gamestage": "fox",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:frog"],
+    "gamestage": "frog",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:goat"],
+    "gamestage": "goat",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:horse"],
+    "gamestage": "horse",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:llama"],
     "block": "minecraft:grass_block",
     "gamestage": "llama",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:mooshroom"],
     "block": "minecraft:grass_block",
     "gamestage": "mooshroom",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:ocelot"], "gamestage": "ocelot", "result": "allow" },
-  { "mob": ["minecraft:panda"], "gamestage": "panda", "result": "allow" },
+  {
+    "mob": ["minecraft:ocelot"],
+    "gamestage": "ocelot",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:panda"],
+    "gamestage": "panda",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:pig"],
     "block": "minecraft:grass_block",
     "gamestage": "pig",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:rabbit"], "gamestage": "rabbit", "result": "allow" },
+  {
+    "mob": ["minecraft:rabbit"],
+    "gamestage": "rabbit",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:sheep"],
     "block": "minecraft:grass_block",
     "gamestage": "sheep",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:sniffer"], "gamestage": "sniffer", "result": "allow" },
-  { "mob": ["minecraft:strider"], "gamestage": "strider", "result": "allow" },
-  { "mob": ["minecraft:wolf"], "gamestage": "wolf", "result": "allow" },
-  { "mob": ["minecraft:cod"], "gamestage": "cod", "result": "allow" },
+  {
+    "mob": ["minecraft:sniffer"],
+    "gamestage": "sniffer",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:strider"],
+    "gamestage": "strider",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:wolf"],
+    "gamestage": "wolf",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:cod"],
+    "gamestage": "cod",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:glow_squid"],
     "gamestage": "glow_squid",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:pufferfish"],
     "gamestage": "pufferfish",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:salmon"], "gamestage": "salmon", "result": "allow" },
-  { "mob": ["minecraft:squid"], "gamestage": "squid", "result": "allow" },
-  { "mob": ["minecraft:tadpole"], "gamestage": "tadpole", "result": "allow" },
+  {
+    "mob": ["minecraft:salmon"],
+    "gamestage": "salmon",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:squid"],
+    "gamestage": "squid",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:tadpole"],
+    "gamestage": "tadpole",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:tropical_fish"],
     "gamestage": "tropical_fish",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:dolphin"],
     "gamestage": "dolphin",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
-  { "mob": ["minecraft:allay"], "gamestage": "allay", "result": "allow" },
-  { "mob": ["minecraft:parrot"], "gamestage": "parrot", "result": "allow" },
+  {
+    "mob": ["minecraft:allay"],
+    "gamestage": "allay",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:parrot"],
+    "gamestage": "parrot",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
   {
     "mob": ["minecraft:polar_bear"],
     "gamestage": "polar_bear",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:skeleton_horse"],
     "gamestage": "skeleton_horse",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:turtle"],
     "block": ["minecraft:sand", "minecraft:grass_block"],
     "gamestage": "turtle",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:zombie_horse"],
     "gamestage": "zombie_horse",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:bat"],
     "gamestage": "bat",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:villager"],
     "gamestage": "villager",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
     "mob": ["minecraft:wandering_trader"],
     "gamestage": "wandering_trader",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["energeticsheep:energetic_sheep"],
+    "gamestage": "wandering_trader",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   },
   {
@@ -310,7 +918,8 @@
       "minecraft:zombie_horse",
       "minecraft:bat",
       "minecraft:villager",
-      "minecraft:wandering_trader"
+      "minecraft:wandering_trader",
+      "energeticsheep:energetic_sheep"
     ],
     "result": "deny"
   },
@@ -392,9 +1001,16 @@
       "minecraft:zombie_horse",
       "minecraft:bat",
       "minecraft:villager",
-      "minecraft:wandering_trader"
+      "minecraft:wandering_trader",
+      "energeticsheep:energetic_sheep"
     ],
     "spawner": true,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
     "result": "allow"
   }
 ]

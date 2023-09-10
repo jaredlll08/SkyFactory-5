@@ -2,9 +2,7 @@
   basics: {
     favorites: [],
     hiddenFavorites: [],
-    displayHistory: [
-      '{DisplayHistoryCategory:"roughlyenoughitems:plugins/information",DisplayHistoryContains:1b,DisplayHistoryData:{descriptions:[\'{"translate":"info.gateways.gate_pearl"}\',\'{"translate":"info.gateways.gate_pearl.2"}\'],name:\'{"text":""}\',stacks:[{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:bat"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:blaze_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:blaze_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:blaze_gate_small"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:chicken"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:cow"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:creeper_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:creeper_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:creeper_gate_small"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:drowned"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:enderman_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:enderman_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:enderman_gate_small"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:ghast_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:ghast_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:ghast_gate_small"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:magma_cube_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:magma_cube_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:magma_cube_gate_small"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:sheep"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:shulker_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:shulker_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:shulker_gate_small"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:skeleton"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:skeleton_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:skeleton_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:skeleton_gate_small"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:slime_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:slime_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:slime_gate_small"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:spider_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:spider_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:spider_gate_small"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:squid"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:turtle"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:villager"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:witch_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:witch_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:witch_gate_small"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:zombie"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:zombie_gate_large"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:zombie_gate_normal"},type:"minecraft:item"},{Count:1b,id:"gateways:gate_pearl",tag:{gateway:"gateways:zombie_gate_small"},type:"minecraft:item"}]},DisplayHistoryUUID:"338e9dfb-85ab-4606-ad2d-20571efd369f"}',
-    ],
+    displayHistory: [],
     // Declares whether cheating mode is on.
     cheating: true,
     favoritesEnabled: true,
@@ -105,7 +103,7 @@
       // Declares whether search time should be debugged.
       debugSearchTimeRequired: false,
       // Declares whether REI should search async.
-      asyncSearch: false,
+      asyncSearch: true,
       // Declares how many entries should be grouped one async search.
       asyncSearchPartitionSize: 100,
       patchAsyncThreadCrash: true,
@@ -134,7 +132,7 @@
     },
   },
   appearance: {
-    recipeScreenType: "ORIGINAL",
+    recipeScreenType: "COMPOSITE",
     // Declares the appearance of REI windows.
     theme: "DARK",
     layout: {
@@ -165,7 +163,7 @@
     // Declares whether mob effects should be on the left side instead of the right side.
     leftSideMobEffects: false,
     // Declares whether subsets is enabled.
-    isSubsetsEnabled: false,
+    isSubsetsEnabled: true,
     allowInventoryHighlighting: true,
     itemCheatingMode: "REI_LIKE",
   },

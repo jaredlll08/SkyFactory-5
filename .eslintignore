@@ -3,3 +3,7 @@
 # Ignored directories
 /minecraft
 /node_modules
+
+# Minecraft Source Files
+## Sample data
+/src/minecraft/thingpacks/sandwood

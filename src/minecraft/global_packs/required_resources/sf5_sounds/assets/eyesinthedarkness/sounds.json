@@ -1,0 +1,26 @@
+{
+  "mob.eyes.laugh": {
+    "category": "entity",
+    "subtitle": "sound.eyesinthedarkness.eyes.laugh",
+    "replace": true,
+    "sounds": [
+      "eyesinthedarkness:tickle1",
+      "eyesinthedarkness:tickle2",
+      "eyesinthedarkness:tickle3",
+      "eyesinthedarkness:tickle4",
+      "eyesinthedarkness:tickle5"
+    ]
+  },
+  "mob.eyes.disappear": {
+    "category": "entity",
+    "subtitle": "sound.eyesinthedarkness.eyes.disappear",
+    "replace": true,
+    "sounds": ["eyesinthedarkness:screech"]
+  },
+  "mob.eyes.jumpscare": {
+    "category": "entity",
+    "subtitle": "sound.eyesinthedarkness.eyes.jumpscare",
+    "replace": true,
+    "sounds": ["eyesinthedarkness:screech2"]
+  }
+}

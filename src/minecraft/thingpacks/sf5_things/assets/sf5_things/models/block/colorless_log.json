@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "sf5_things:block/minecraft_colorless_log_top",
+    "side": "sf5_things:block/minecraft_colorless_log"
+  }
+}

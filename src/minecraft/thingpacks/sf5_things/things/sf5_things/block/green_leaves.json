@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:leaves",
+  "type": "minecraft:leaves",
+  "sound_type": "minecraft:grass",
+  "ticks_randomly": true,
+  "explosion_resistance": 0.2,
+  "destroy_time": 0.2,
+  "shape": [0, 0, 0, 16, 16, 16],
+  "replaceable": false,
+  "item": {
+    "group": "sf5_things:green"
+  }
+}

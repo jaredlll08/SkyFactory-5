@@ -78,6 +78,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "tcbm": {
+    "crate": true
+  },
   "cookingforblockheads": {
     "fridge": true,
     "oven": true,

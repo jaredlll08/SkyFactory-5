@@ -61,8 +61,8 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
 <block:minecraft:cherry_leaves>.addLootModifier("sapling_bonus_drops_5", CommonLootModifiers.addWithChance(<item:minecraft:cherry_sapling> % 20));
 <block:minecraft:dark_oak_leaves>.addLootModifier("sapling_bonus_drops_6", CommonLootModifiers.addWithChance(<item:minecraft:dark_oak_sapling> % 20));
 <block:minecraft:mangrove_leaves>.addLootModifier("sapling_bonus_drops_7", CommonLootModifiers.addWithChance(<item:minecraft:mangrove_propagule> % 20));
-
-
+<block:sf5_things:colorless_leaves>.addLootModifier("sapling_bonus_drops_8", CommonLootModifiers.addWithChance(<item:sf5_things:colorless_sapling> % 20));
+<block:sf5_things:green_leaves>.addLootModifier("sapling_bonus_drops_9", CommonLootModifiers.addWithChance(<item:sf5_things:green_sapling> % 20));
 
 // Loot drops attempts: Necron's work
 /*
@@ -83,6 +83,8 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
 */
 
 // Jared's script
+// //
+// Adds a Drowned Gateway Pearl to Leaves drops for players only
 <block:minecraft:oak_leaves>.addLootModifier("bonus_drops_oak", (drops, ctx) => {
     if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
         var player as Player = (ctx.thisEntity as Entity) as Player;
@@ -99,8 +101,19 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
     return drops;
 });
 
+// Adds Zombies Gateway Pearl to Green Leaves drop for players only
+<block:sf5_things:green_leaves>.addLootModifier("bonus_drops_green_leaves", (drops, ctx) => {
+    if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
+        var player as Player = (ctx.thisEntity as Entity) as Player;
+        if !player.isFakePlayer && player.canEat(true) {
+            if ctx.random.nextIntBetweenInclusive(0, 99) < 4{
+              drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie"}));
+            }
+        }
+    }
 
-
+    return drops;
+});
 
 
 /*

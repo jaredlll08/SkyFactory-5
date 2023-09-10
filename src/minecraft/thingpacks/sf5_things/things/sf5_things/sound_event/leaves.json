@@ -1,8 +1,0 @@
-{
-  "volume": 1.0,
-  "pitch": 1.0,
-  "break_sound": "minecraft:grass.break",
-  "step_sound": "minecraft:grass.break",
-  "hit_sound": "minecraft:grass.break",
-  "fall_sound": "minecraft:grass.break"
-}

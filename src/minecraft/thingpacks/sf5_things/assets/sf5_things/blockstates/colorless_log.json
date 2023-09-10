@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sf5_things:block/colorless_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "sf5_things:block/colorless_log"
+    },
+    "axis=z": {
+      "model": "sf5_things:block/colorless_log_horizontal",
+      "x": 90
+    }
+  }
+}

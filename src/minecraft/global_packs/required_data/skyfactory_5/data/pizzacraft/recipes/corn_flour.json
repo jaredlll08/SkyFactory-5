@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["XX", "XX"],
+  "key": {
+    "X": {
+      "item": "pizzacraft:corn"
+    }
+  },
+  "result": {
+    "item": "pizzacraft:corn_flour",
+    "count": 2
+  }
+}

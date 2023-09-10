@@ -1,0 +1,5 @@
+{
+  "type": "exdeorum:barrel_compost",
+  "ingredient": { "item": "sf5_things:green_apple" },
+  "volume": 100
+}

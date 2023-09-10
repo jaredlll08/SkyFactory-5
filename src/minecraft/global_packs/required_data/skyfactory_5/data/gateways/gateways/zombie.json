@@ -1,15 +1,17 @@
 {
   "size": "large",
   "leash_range": 50000000,
-  "color": "rainbow",
+  "color": "#23cb0a",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
-          "entity": "minecraft:zombie"
+          "entity": "minecraft:zombie",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
       "rewards": [],
@@ -31,11 +33,6 @@
           }
         }
       }
-    },
-    {
-      "type": "command",
-      "command": "/function skyfactory_5:rain",
-      "desc": "Discovers the color Blue"
     }
   ],
   "completion_xp": 250,

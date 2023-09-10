@@ -7,6 +7,8 @@
 # Minecraft Source Files
 ## Temporary Minecraft textures
 /src/minecraft/thingpacks/sf5_things/assets/sf5_things/textures/**/minecraft_*
+## Sample data
+/src/minecraft/thingpacks/sandwood
 
 # OS
 .DS_Store

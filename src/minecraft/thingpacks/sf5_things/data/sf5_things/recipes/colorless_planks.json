@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "sf5_things:colorless_logs"
+    }
+  ],
+  "result": {
+    "item": "colouredstuff:planks",
+    "count": 4
+  }
+}

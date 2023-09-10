@@ -53,14 +53,11 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=minecraft:wandering_trader",
   "obtrophies:trophy+&entity=minecraft:trader_llama"
 ]
-"#00FF00" = [
-  "obtrophies:trophy+&entity=minecraft:creeper",
+"#165F16" = [
   "obtrophies:trophy+&entity=minecraft:zombie",
   "obtrophies:trophy+&entity=minecraft:zombie_horse",
   "obtrophies:trophy+&entity=minecraft:zombie_villager",
-  "obtrophies:trophy+&entity=minecraft:slime",
   "obtrophies:trophy+&entity=minecraft:frog",
-  "obtrophies:trophy+&entity=minecraft:turtle",
   "obtrophies:trophy+&entity=goblintraders:goblin_trader",
   "obtrophies:trophy+&entity=minecraft:sniffer"
 ]
@@ -151,4 +148,9 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=minecraft:witch",
   "obtrophies:trophy+&entity=minecraft:wolf",
   "obtrophies:trophy+&entity=minecraft:stray"
+]
+"#02FD02" = [
+  "obtrophies:trophy+&entity=minecraft:creeper",
+  "obtrophies:trophy+&entity=minecraft:slime",
+  "obtrophies:trophy+&entity=minecraft:turtle"
 ]

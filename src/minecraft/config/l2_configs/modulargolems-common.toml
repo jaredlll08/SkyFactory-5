@@ -11,6 +11,18 @@ retrieveDistance = 64
 retrieveRange = 20
 # Only owner can pickup
 ownerPickupOnly = true
+# Max golem activity radius before following player in follow mode
+# Range: 1.0 ~ 100.0
+startFollowRadius = 10.0
+# Max golem activity radius before willing to go back to origin in wander mode
+# Range: 1.0 ~ 100.0
+stopWanderRadius = 20.0
+# Max golem activity radius before being teleported back
+# Range: 1.0 ~ 100.0
+maxWanderRadius = 30.0
+# Speed factor for dog golem when ridden by entities
+# Range: 0.0 ~ 2.0
+riddenSpeedFactor = 0.8
 
 [modifiers]
 # Percentage damage reflection per level of thorn

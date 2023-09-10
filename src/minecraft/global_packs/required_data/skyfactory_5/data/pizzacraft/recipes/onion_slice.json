@@ -1,0 +1,10 @@
+{
+  "type": "pizzacraft:chopping_recipe",
+  "input": {
+    "tag": "forge:crops/onion"
+  },
+  "result": {
+    "item": "pizzacraft:onion_slice",
+    "count": 2
+  }
+}

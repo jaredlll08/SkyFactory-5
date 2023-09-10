@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "pattern": ["###"],
+  "key": {
+    "#": {
+      "item": "colouredstuff:planks"
+    }
+  },
+  "result": {
+    "item": "sf5_things:colorless_slab",
+    "count": 6
+  }
+}

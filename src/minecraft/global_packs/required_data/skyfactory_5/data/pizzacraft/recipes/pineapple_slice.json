@@ -1,0 +1,10 @@
+{
+  "type": "pizzacraft:chopping_recipe",
+  "input": {
+    "tag": "forge:crops/pineapple"
+  },
+  "result": {
+    "item": "pizzacraft:pineapple_slice",
+    "count": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "pizzacraft:chopping_recipe",
+  "input": {
+    "item": "minecraft:stone"
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 2
+  }
+}
