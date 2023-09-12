@@ -12,7 +12,7 @@ export async function downloadFile(
   filename: string = path.basename(url),
 ): Promise<void> {
   const tmpPath = path.join(downloadPath, filename);
-  if (!checkFileExists(downloadPath)) {
+  if (!(await checkFileExists(downloadPath))) {
     await mkdir(downloadPath);
   }
 

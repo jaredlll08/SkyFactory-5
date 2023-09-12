@@ -7,7 +7,7 @@ import * as prettier from "prettier";
 export async function checkFileExists(filePath: string): Promise<boolean> {
   try {
     await access(filePath, fs.constants.F_OK);
-  } catch (err) {
+  } catch {
     return false;
   }
 
