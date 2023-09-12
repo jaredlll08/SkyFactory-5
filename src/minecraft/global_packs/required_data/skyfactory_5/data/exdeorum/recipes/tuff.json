@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": { "#": { "item": "exdeorum:tuff_pebble" } },
-  "pattern": ["##", "##"],
-  "result": { "item": "minecraft:tuff" },
-  "show_notification": true
-}

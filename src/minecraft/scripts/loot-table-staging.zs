@@ -13,8 +13,6 @@ import crafttweaker.api.predicate.EntityPredicate;
 import crafttweaker.api.predicate.ItemPredicate;
 import stdlib.List;
 
-
-
 // Stages Loot Tables based on Gamestages
 loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
     if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
@@ -27,29 +25,6 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
 });
 
 // Loot table modifications
-// When mining Diamond Ore Dirt has a 75% chance to drop
-// <block:minecraft:diamond_ore>.addLootModifier("cyanite", CommonLootModifiers.addWithChance(<item:minecraft:dirt> % 75));
-
-
-// Drops Zombie Gateway Pearl when breaking leaves
-// <block:minecraft:oak_leaves>.addLootModifier("leaves_test", CommonLootModifiers.addWithChance(<item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie"}) % 75));
-
-
-
-/*
-<block:minecraft:oak_leaves>.addLootModifier("bonus_drops_oak", (drops, ctx) => {
-    if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
-        var player as Player = (ctx.thisEntity as Entity) as Player;
-        if player.canEat(true) {
-            drops.add(<item:minecraft:oak_sapling> % 20);
-            drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie"}) % 75)
-        }
-    }
-});
-*/
-
-
-
 
 
 // Increases Sapling drops when breaking leaves
@@ -64,24 +39,6 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
 <block:sf5_things:colorless_leaves>.addLootModifier("sapling_bonus_drops_8", CommonLootModifiers.addWithChance(<item:sf5_things:colorless_sapling> % 20));
 <block:sf5_things:green_leaves>.addLootModifier("sapling_bonus_drops_9", CommonLootModifiers.addWithChance(<item:sf5_things:green_sapling> % 20));
 
-// Loot drops attempts: Necron's work
-/*
-<block:minecraft:oak_leaves>.addLootModifier("bonus_drops_oak", (drops, ctx) => {
-    if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
-        var player as Player = (ctx.thisEntity as Entity) as Player;
-        if player.canEat(true) {
-            if ctx.random.nextIntBetweenInclusive(0, 100) < 20 {
-              drops.add(<item:minecraft:oak_sapling>);
-            }
-            if ctx.random.nextIntBetweenInclusive(0, 100) < 8 {
-              drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:drowned"}));
-            }
-        }
-    }
-    return drops;
-});
-*/
-
 // Jared's script
 // //
 // Adds a Drowned Gateway Pearl to Leaves drops for players only
@@ -89,9 +46,9 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
     if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
         var player as Player = (ctx.thisEntity as Entity) as Player;
         if !player.isFakePlayer && player.canEat(true) {
-            if ctx.random.nextIntBetweenInclusive(0, 99) < 15 {
-              drops.add(<item:minecraft:oak_sapling>);
-            }
+//            if ctx.random.nextIntBetweenInclusive(0, 99) < 15 {
+//              drops.add(<item:minecraft:oak_sapling>);
+//            }
             if ctx.random.nextIntBetweenInclusive(0, 99) < 4{
               drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:drowned"}));
             }
@@ -115,14 +72,38 @@ loot.modifiers.register("game_stage", LootConditions.none(), (drops, ctx) => {
     return drops;
 });
 
+// Loot table additions for Coloured Stuff Mod that are differentiated via Blockstate tags
+<block:colouredstuff:leaves>.addLootModifier("colored_block_drops", (drops, ctx) => {
+  if ctx.thisEntity != null && ctx.blockState != null && (ctx.thisEntity as Entity) is Player {
+    var player as Player = (ctx.thisEntity as Entity) as Player;
 
-/*
-import crafttweaker.api.text.Component;
-<block:minecraft:oak_leaves>.addLootModifier("test", (drops, ctx) => {
-    if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
-        var player as Player = (ctx.thisEntity as Entity) as Player;
-        println(player.getRegistryName().toString());
+    if !player.isFakePlayer {
+      var color as string = ctx.blockState.getProperties()["color"];
+
+        // red drops red sapling, etc... at 15% chance
+        if ctx.random.nextIntBetweenInclusive(0, 99) < 15 {
+          // TODO: Add sapling info
+          drops.add(<item:colouredstuff:sapling>.withTag({BlockStateTag: {color: color}}));
+        }
+
+        // colorless leaves drop colorless stick
+        if ctx.random.nextIntBetweenInclusive(0, 99) < 5 {
+          // TODO: Add sapling info
+          drops.add(<item:colouredstuff:sapling>.withTag({BlockStateTag: {color: color}}));
+        }
+
+                // red drops red sapling, etc... at 15% chance
+        if ctx.random.nextIntBetweenInclusive(0, 99) < 15 {
+          // TODO: Add sapling info
+          drops.add(<item:sf5_things:colorless_stick>);
+        }
+
+        if ctx.random.nextIntBetweenInclusive(0, 99) < 4 {
+          // TODO: Gateway pearl based on pearl
+          // drops.add();
+        }
     }
-    return drops;
+  }
+
+  return drops;
 });
-*/

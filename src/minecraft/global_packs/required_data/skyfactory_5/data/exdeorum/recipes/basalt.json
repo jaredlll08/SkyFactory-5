@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": { "#": { "item": "exdeorum:basalt_pebble" } },
-  "pattern": ["##", "##"],
-  "result": { "item": "minecraft:basalt" },
-  "show_notification": true
-}

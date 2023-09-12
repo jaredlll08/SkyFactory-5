@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": { "#": { "item": "exdeorum:deepslate_pebble" } },
-  "pattern": ["##", "##"],
-  "result": { "item": "minecraft:cobbled_deepslate" },
-  "show_notification": true
-}

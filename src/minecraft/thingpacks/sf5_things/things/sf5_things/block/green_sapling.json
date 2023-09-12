@@ -5,6 +5,7 @@
   "shape": [2, 0, 2, 14, 12, 14],
   "has_collision": false,
   "sound_type": "minecraft:grass",
+  "replaceable": false,
   "item": {
     "group": "sf5_things:green",
     "lore": [

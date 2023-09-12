@@ -2,7 +2,9 @@
   basics: {
     favorites: [],
     hiddenFavorites: [],
-    displayHistory: [],
+    displayHistory: [
+      '{DisplayHistoryCategory:"create:item_application",DisplayHistoryContains:1b,DisplayHistoryData:{JEISerializer:"create:item_application",data:"AgEBLAEAAQEjAQAAAQHLggEBCgAACgANQmxvY2tTdGF0ZVRhZwgABWNvbG9yAANyZWQAAD+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",id:"skyfactory_5:item_application_recipes/test_recipe"},DisplayHistoryUUID:"a37e8be1-8743-48ed-905b-15714c5f29e8"}',
+    ],
     // Declares whether cheating mode is on.
     cheating: true,
     favoritesEnabled: true,

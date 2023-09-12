@@ -1,11 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": ["s s", "s s", "sms"],
   "category": "misc",
   "key": {
-    "m": { "item": "minecraft:bamboo_slab" },
-    "s": { "item": "minecraft:bamboo_planks" }
+    "m": { "item": "sf5_things:colorless_slab" },
+    "s": {
+      "item": "colouredstuff:planks",
+      "nbt": {
+        "BlockStateTag": {
+          "color": "none"
+        }
+      }
+    }
   },
-  "pattern": ["s s", "s s", "sms"],
-  "result": { "item": "exdeorum:bamboo_barrel" },
-  "show_notification": true
+  "result": { "item": "exdeorum:bamboo_barrel" }
 }

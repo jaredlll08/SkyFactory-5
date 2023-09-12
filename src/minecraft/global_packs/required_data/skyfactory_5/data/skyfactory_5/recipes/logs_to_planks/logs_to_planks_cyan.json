@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "__comment": "depends on https://www.curseforge.com/minecraft/mc-mods/recipes-library",
+  "ingredients": [
+    {
+      "item": "colouredstuff:log",
+      "type": "recipes_lib:nbt",
+      "matchType": "CONTAINS",
+      "nbt": "{BlockStateTag:{color:\"cyan\"}}"
+    }
+  ],
+  "result": {
+    "item": "colouredstuff:planks",
+    "count": 4,
+    "nbt": {
+      "BlockStateTag": { "color": "cyan" }
+    }
+  }
+}

@@ -3,11 +3,21 @@
   "group": "planks",
   "ingredients": [
     {
-      "tag": "sf5_things:colorless_logs"
+      "item": "colouredstuff:log",
+      "nbt": {
+        "BlockStateTag": {
+          "color": "none"
+        }
+      }
     }
   ],
   "result": {
     "item": "colouredstuff:planks",
-    "count": 4
+    "count": 4,
+    "nbt": {
+      "BlockStateTag": {
+        "color": "none"
+      }
+    }
   }
 }

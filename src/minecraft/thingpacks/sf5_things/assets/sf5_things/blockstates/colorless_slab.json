@@ -4,7 +4,7 @@
       "model": "sf5_things:block/colorless_slab"
     },
     "type=double": {
-      "model": "colouredstuff:block/planks_white"
+      "model": "colouredstuff:block/planks_none"
     },
     "type=top": {
       "model": "sf5_things:block/colorless_slab_top"

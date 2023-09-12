@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "key": { "#": { "item": "exdeorum:grass_seeds" } },
-  "pattern": ["##", "##"],
-  "result": { "item": "minecraft:moss_block" },
-  "show_notification": true
-}
