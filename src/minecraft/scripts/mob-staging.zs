@@ -1,5 +1,9 @@
+// Example scripts for using gamestages with recipes
 // mods.recipestages.Recipes.addShaped("one", "name_one", <item:minecraft:iron_leggings>,[[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>]]);
 // mods.recipestages.Recipes.setRecipeStage("hoe", <item:minecraft:stone_hoe>);
+
+
+// Handles trophies giving entity stages
 import crafttweaker.api.block.entity.BlockEntity;
 import crafttweaker.api.entity.type.player.Player;
 import crafttweaker.api.text.Component;
@@ -202,14 +206,13 @@ events.register<EntityInteractEvent>(event => {
 
 
 // Testing recipes using Cyclic Solidifier
-var solidifier = <recipetype:cyclic:solidifier>;
-
-solidifier.addRecipe("megaman1", [<item:minecraft:sand>,<item:minecraft:birch_trapdoor>,<item:minecraft:sand>], <fluid:cyclic:honey>*100, <item:minecraft:stone_hoe>, 200, 8);
-
-
+// keep for modpack debug and testing
+// var solidifier = <recipetype:cyclic:solidifier>;
+// solidifier.addRecipe("megaman1", [<item:minecraft:sand>,<item:minecraft:birch_trapdoor>,<item:minecraft:sand>], <fluid:cyclic:honey>*100, <item:minecraft:stone_hoe>, 200, 8);
 
 
 // Recipes made for player convenience
+// NEEDS TO ADDED TO A SEPARATE FILE NAMED "Convenience Recipes"
 craftingTable.addShaped("hopper_logs", <item:minecraft:hopper>, [
     [<item:minecraft:iron_ingot>, <tag:items:minecraft:logs>, <item:minecraft:iron_ingot>],
     [<item:minecraft:iron_ingot>, <tag:items:minecraft:logs>, <item:minecraft:iron_ingot>],
@@ -221,42 +224,42 @@ craftingTable.addShaped("chest_logs", <item:minecraft:chest> * 4, [
     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
 
 // craftingTable.addShapeless("chop_ingot", <item:minecraft:gold_nugget> * 10, [<item:minecraft:gold_ingot>, <item:minecraft:flint>]);
-/*
-craftingTable.addShapeless("cfb_test", <item:minecraft:iron_pickaxe>, [
-    <item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]);
-*/
+
+// craftingTable.addShapeless("cfb_test", <item:minecraft:iron_pickaxe>, [
+//    <item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]);
 
 
 
-/*
+
+
 // //
 // Converts all recipes in-game to be shapeless recipes
 // //
-import crafttweaker.api.recipe.type.Recipe;
-import crafttweaker.api.world.Container;
-import crafttweaker.api.recipe.type.ShapedRecipe;
-import stdlib.List;
-import crafttweaker.api.ingredient.IIngredient;
+// import crafttweaker.api.recipe.type.Recipe;
+// import crafttweaker.api.world.Container;
+// import crafttweaker.api.recipe.type.ShapedRecipe;
+// import stdlib.List;
+// import crafttweaker.api.ingredient.IIngredient;
+//
+// for recipe in craftingTable.allRecipes {
+//    var craftingRecipe = recipe as Recipe<Container>;
+//    if craftingRecipe is ShapedRecipe {
+//        var ingredients = (craftingRecipe.ingredients as IIngredient[]).filter(ingr => !ingr.empty);
+//        craftingTable.removeByName(craftingRecipe.id);
+//        craftingTable.addShapeless("shapeless_" + craftingRecipe.id.path, craftingRecipe.resultItem, ingredients);
+//    }
+// }
 
-for recipe in craftingTable.allRecipes {
-    var craftingRecipe = recipe as Recipe<Container>;
-    if craftingRecipe is ShapedRecipe {
-        var ingredients = (craftingRecipe.ingredients as IIngredient[]).filter(ingr => !ingr.empty);
-        craftingTable.removeByName(craftingRecipe.id);
-        craftingTable.addShapeless("shapeless_" + craftingRecipe.id.path, craftingRecipe.resultItem, ingredients);
-    }
-}
-*/
 
 
 // Stage helper for staging loot tables
 // Examples for how to give player's stages on events
-/*
-import mods.gamestages.StageHelper;
 
-StageHelper.grantStageWhenCrafting(<item:minecraft:stick>, "craft_example_one");
-StageHelper.grantStageOnKill(<entitytype:minecraft:creeper>, "kill_example_one");
-StageHelper.grantStageOnAdvancement("minecraft:story/enter_the_nether", "advancement_example_one");
+// import mods.gamestages.StageHelper;
+//
+// StageHelper.grantStageWhenCrafting(<item:minecraft:stick>, "craft_example_one");
+// StageHelper.grantStageOnKill(<entitytype:minecraft:creeper>, "kill_example_one");
+// StageHelper.grantStageOnAdvancement("minecraft:story/enter_the_nether", "advancement_example_one");
 
 // OnAdvancement, OnCraft, OnDimension, OnJoin, OnKill, and OnLevel
-*/
+
