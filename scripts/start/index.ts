@@ -4,6 +4,7 @@ import { Auth, Minecraft } from "msmc";
 import { MinecraftPackage } from "schemas/mc-package";
 import { readMinecraftPackage } from "scripts/utils/mc-package";
 import { ForgeManager } from "./forge";
+import "dotenv/config";
 
 const mcDirectory = "./minecraft";
 
@@ -55,10 +56,11 @@ class Main {
         type: "release",
       },
       memory: {
-        max: "8G",
-        min: "4G",
+        max: process.env.MC_MEM_MAX || "8G",
+        min: process.env.MC_MEM_MIN || "4G",
       },
       forge: forgeFilePath,
+      javaPath: process.env.MC_JAVA_PATH || undefined,
     };
 
     launcher.launch(opts);
