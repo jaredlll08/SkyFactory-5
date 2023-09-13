@@ -1,3 +1,4 @@
+import chalk from "chalk";
 import { mkdir } from "fs/promises";
 import { Client, ILauncherOptions, IUser } from "minecraft-launcher-core";
 import { Auth, Minecraft } from "msmc";
@@ -65,7 +66,29 @@ class Main {
 
     launcher.launch(opts);
 
-    launcher.on("debug", (e) => console.log(e));
-    launcher.on("data", (e) => console.log(e));
+    launcher.on("debug", this.onLauncherMessage.bind(this));
+    launcher.on("data", this.onLauncherMessage.bind(this));
+  }
+
+  private onLauncherMessage(msg: string) {
+    msg = msg.replace(/^\s+|\s+$/, "");
+
+    const matches = msg.match(/^\[\d\d:\d\d:\d\d.\d\d\d\] \[\w+\/([A-Z]+)\]/i);
+
+    if (matches && matches[1]) {
+      const level = matches[1].toLowerCase();
+      if (level === "warn") {
+        return console.log(chalk.yellow(msg));
+      }
+      if (level === "error") {
+        return console.log(chalk.red(msg));
+      }
+    }
+
+    if (msg.startsWith("Exception")) {
+      return console.log(chalk.red(msg));
+    }
+
+    return console.log(msg);
   }
 }
