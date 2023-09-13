@@ -25,5 +25,13 @@ export const getActionsForFood: ActionGetter = (data) => {
       templateFile: getTemplatePath("./things/food.food.json"),
       data,
     },
+    {
+      type: "add",
+      path: getSrcPath(
+        `./assets/${packNamespace}/models/item/{{snakeCase path}}.json`,
+      ),
+      templateFile: getTemplatePath("./assets/model.food.json"),
+      data,
+    },
   ];
 };

@@ -23,6 +23,14 @@ export const getActionsForStick: ActionGetter = (data) => {
       templateFile: getTemplatePath("./things/item.stick.json"),
       data,
     },
+    {
+      type: "add",
+      path: getSrcPath(
+        `./assets/${packNamespace}/models/item/{{snakeCase path}}.json`,
+      ),
+      templateFile: getTemplatePath("./assets/model.stick.json"),
+      data,
+    },
     createUpsertTagAction("item", "forge", "rods"),
   ];
 };
