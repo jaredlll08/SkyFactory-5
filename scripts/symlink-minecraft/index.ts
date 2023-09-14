@@ -9,20 +9,23 @@ const rl = readline.createInterface(process.stdin, process.stdout);
 const buildDir = path.join(process.cwd(), "src", "minecraft");
 const minecraftPath = path.join(process.cwd(), "minecraft");
 
-const symlinkDirs = new Set([
-  "config",
-  "defaultconfigs",
-  "global_packs",
-  "thingpacks",
-  "scripts",
+// Maps a symlinked directory to the base target path
+const symlinkDirs = new Map([
+  [".vscode", process.cwd()],
+  ["config", buildDir],
+  ["defaultconfigs", buildDir],
+  ["global_packs", buildDir],
+  ["kubejs", buildDir],
+  ["scripts", buildDir],
+  ["thingpacks", buildDir],
 ]);
 
 main();
 
 async function main() {
-  if (!checkBuildExists()) {
+  if (!checkTargetDirsExist()) {
     console.error(
-      "Build directory or sub directories do not exist. Ensure you've built the project before running this command.",
+      "Base directories do not exist. Ensure you've built the project before running this command.",
     );
     process.exit(-1);
   }
@@ -63,13 +66,29 @@ function ask(query: string): Promise<string> {
  * Checks if the build directory and all expected sub directories exist.
  * @returns false if anything is missing
  */
-function checkBuildExists(): boolean {
-  if (!fs.existsSync(buildDir)) {
+function checkTargetDirsExist(): boolean {
+  const checkedDirs = new Set();
+
+  const missingBaseDirs = [];
+
+  symlinkDirs.forEach((baseDir) => {
+    if (checkedDirs.has(baseDir)) {
+      return;
+    }
+
+    checkedDirs.add(baseDir);
+
+    if (!fs.existsSync(baseDir)) {
+      missingBaseDirs.push(baseDir);
+    }
+  });
+
+  if (missingBaseDirs.length > 0) {
     return false;
   }
 
-  return Array.from(symlinkDirs).every((dir) =>
-    fs.existsSync(path.join(buildDir, dir)),
+  return Array.from(symlinkDirs).every(([dir, baseDir]) =>
+    fs.existsSync(path.join(baseDir, dir)),
   );
 }
 
@@ -103,7 +122,7 @@ async function createSymlinks(mcDir: string) {
     return;
   }
 
-  symlinkDirs.forEach((dir) => {
+  symlinkDirs.forEach((baseDir, dir) => {
     const newSymlinkPath = path.join(mcDir, dir);
 
     if (fs.existsSync(newSymlinkPath)) {
@@ -118,6 +137,6 @@ async function createSymlinks(mcDir: string) {
       }
     }
 
-    fs.symlinkSync(path.join(buildDir, dir), newSymlinkPath, "junction");
+    fs.symlinkSync(path.join(baseDir, dir), newSymlinkPath, "junction");
   });
 }

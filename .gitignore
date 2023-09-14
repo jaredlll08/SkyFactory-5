@@ -4,11 +4,26 @@
 # Download path
 /.tmp
 
+## ProbeJS generated vscode files
+/.vscode/fluid-attributes.json
+/.vscode/item-attributes.json
+/.vscode/item-tag-attributes.json
+/.vscode/lang-keys.json
+/.vscode/probe.class-definitions.json
+/.vscode/probe.code-snippets
+/.vscode/probe.doc-schema.json
+/.vscode/probe.lang-schema.json
+/.vscode/probe.lang_key-definitions.json
+/.vscode/probe.registry-definitions.json
+
 # Minecraft Source Files
 ## Temporary Minecraft textures
 /src/minecraft/thingpacks/sf5_things/assets/sf5_things/textures/**/minecraft_*
 ## Sample data
 /src/minecraft/thingpacks/sandwood
+## Kubejs Generated
+/src/minecraft/kubejs/jsconfig.json
+/src/minecraft/kubejs/probe
 
 # OS
 .DS_Store

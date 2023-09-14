@@ -16,7 +16,11 @@
     }
   },
   "include": ["schemas/**/*", "src/**/*", "scripts/**/*"],
-  "typeRoots": ["./schemas", "node_modules/@types"],
+  "typeRoots": [
+    "./schemas",
+    "node_modules/@types",
+    "./minecraft/kubejs/probe/generated"
+  ],
 
   "ts-node": {
     "require": ["tsconfig-paths/register"],

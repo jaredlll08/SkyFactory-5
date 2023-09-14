@@ -6,6 +6,7 @@
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
     "mrmlnc.vscode-json5",
+    "Prunoideae.probejs",
     "tamasfe.even-better-toml",
     "zerodegress.zencode-highlight"
   ]

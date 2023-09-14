@@ -7,3 +7,5 @@
 # Minecraft Source Files
 ## Sample data
 /src/minecraft/thingpacks/sandwood
+## ProbeJS generated files
+/src/minecraft/kubejs/probe
