@@ -8,11 +8,5 @@
       "item": "minecraft:oak_sapling"
     }
   ],
-  "results": [
-    {
-      "item": "colouredstuff:log",
-      "nbt": "{BlockStateTag:{color:\"red\"}}",
-      "merge_nbt": false
-    }
-  ]
+  "results": [{ "item": "colouredstuff:log_pink" }]
 }

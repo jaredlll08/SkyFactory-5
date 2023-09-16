@@ -5,12 +5,7 @@
   "key": {
     "m": { "item": "sf5_things:colorless_slab" },
     "s": {
-      "item": "colouredstuff:planks",
-      "nbt": {
-        "BlockStateTag": {
-          "color": "none"
-        }
-      }
+      "item": "colouredstuff:planks_none"
     }
   },
   "result": { "item": "exdeorum:bamboo_barrel" }

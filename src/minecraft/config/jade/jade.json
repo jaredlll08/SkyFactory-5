@@ -1,6 +1,7 @@
 {
   "general": {
     "hintOverlayToggle": false,
+    "hintNarratorToggle": true,
     "previewOverlay": true,
     "displayTooltip": true,
     "displayBlocks": true,
@@ -30,7 +31,8 @@
     "autoScaleThreshold": 0.4,
     "alpha": 0.8,
     "iconMode": "TOP",
-    "animation": true
+    "animation": true,
+    "disappearingDelay": 0.0
   },
   "formatting": {
     "modName": "§9§o%s"
