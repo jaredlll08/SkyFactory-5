@@ -39,7 +39,7 @@ import stdlib.List;
     return drops;
 });
 
- Adds Zombies Gateway Pearl to Green Leaves drop for players only
+// Adds Zombies Gateway Pearl to Green Leaves drop for players only
 <block:sf5_things:green_leaves>.addLootModifier("bonus_drops_green_leaves", (drops, ctx) => {
     if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
         var player as Player = (ctx.thisEntity as Entity) as Player;
