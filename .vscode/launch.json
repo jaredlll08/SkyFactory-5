@@ -6,11 +6,12 @@
   "configurations": [
     {
       "name": "Start Minecraft",
-      "type": "node-terminal",
+      "type": "node",
       "request": "launch",
-      "skipFiles": ["<node_internals>/**"],
       "cwd": "${workspaceRoot}",
-      "command": "npm run start"
+      "skipFiles": ["<node_internals>/**"],
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run-script", "start"]
     }
   ]
 }
