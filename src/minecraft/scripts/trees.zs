@@ -5,26 +5,34 @@ import crafttweaker.api.entity.Entity;
 import crafttweaker.api.entity.type.player.Player;
 
 public class Tree {
-  public val color as string : get;
+  val color as string;
 
-  public this(color as string) {
+  public this(color: string) {
     this.color = color;
   }
 
-  public getLeaves() as Block {
+  public getLeaves(): Block {
     return BracketHandlers.getBlock("colouredstuff:leaves_" + this.color);
   }
 
-  public getSapling() as IItemStack {
+  public getSapling(): IItemStack {
     return BracketHandlers.getItem("colouredstuff:sapling_" + this.color);
   }
 
-  public registerLootModifier() as void {
-    var sapling as IItemStack = this.getSapling();
+  public getPlankItem(): IItemStack {
+    return BracketHandlers.getItem("colouredstuff:planks_" + this.color);
+  }
+
+  public getCraftingTableItem(): IItemStack {
+    return BracketHandlers.getItem("colouredstuff:crafting_table_" + this.color);
+  }
+
+  public registerLootModifier(): void {
+    var sapling: IItemStack = this.getSapling();
 
     this.getLeaves().addLootModifier("colored_leaves_" + this.color, (drops, ctx) => {
       if ctx.thisEntity != null && ctx.blockState != null && (ctx.thisEntity as Entity) is Player {
-        var player as Player = (ctx.thisEntity as Entity) as Player;
+        var player: Player = (ctx.thisEntity as Entity) as Player;
 
         if !player.isFakePlayer {
             if rollsChance(ctx.random, 15) {
