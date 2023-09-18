@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_concrete_powder"
+    },
+    "title": "Brown Stage",
+    "description": "This is a test",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:entity_spawning/root",
+  "criteria": {
+    "eat_green_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:dirt"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "skyfactory_5:stages/brown_stage"
+  }
+}

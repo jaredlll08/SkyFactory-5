@@ -3,7 +3,7 @@
   "pattern": ["s s", "s s", "sms"],
   "category": "misc",
   "key": {
-    "m": { "item": "sf5_things:colorless_slab" },
+    "m": { "item": "colouredstuff:slab_planks_none" },
     "s": {
       "item": "colouredstuff:planks_none"
     }

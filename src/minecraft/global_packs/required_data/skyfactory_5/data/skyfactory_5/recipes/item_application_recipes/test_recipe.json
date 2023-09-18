@@ -2,11 +2,11 @@
   "type": "create:item_application",
   "ingredients": [
     {
-      "item": "minecraft:sand"
+      "item": "colouredstuff:leaves_none"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "item": "sf5_things:silk_worm"
     }
   ],
-  "results": [{ "item": "colouredstuff:log_pink" }]
+  "results": [{ "item": "colouredstuff:leaves_green" }]
 }

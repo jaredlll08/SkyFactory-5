@@ -52,3 +52,48 @@ import stdlib.List;
 
     return drops;
 });
+
+
+// Drops Colorless Apples and Worms from Colorless Leaves
+<block:sf5_things:colorless_leaves>.addLootModifier("colorless_apple_from_colorless_leaves2", (drops, ctx) => {
+    if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
+        var player as Player = (ctx.thisEntity as Entity) as Player;
+        if !player.isFakePlayer && player.canEat(true) {
+            if ctx.random.nextIntBetweenInclusive(0, 99) < 5{
+              drops.add(<item:sf5_things:colorless_apple>);
+            }
+        }
+    }
+
+    return drops;
+
+});
+
+
+<block:colouredstuff:leaves_none>.addLootModifier("colorless_apple_from_colorless_leaves1", (drops, ctx) => {
+    if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
+        var player as Player = (ctx.thisEntity as Entity) as Player;
+        if !player.isFakePlayer && player.canEat(true) {
+            if ctx.random.nextIntBetweenInclusive(0, 99) < 5{
+              drops.add(<item:sf5_things:colorless_apple>);
+            }
+        }
+    }
+
+    return drops;
+
+});
+
+<block:colouredstuff:leaves_none>.addLootModifier("green_apple_from_colorless_leaves", (drops, ctx) => {
+    if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
+        var player as Player = (ctx.thisEntity as Entity) as Player;
+        if !player.isFakePlayer && player.canEat(true) {
+            if ctx.random.nextIntBetweenInclusive(0, 99) < 3{
+              drops.add(<item:sf5_things:green_apple>);
+            }
+        }
+    }
+
+    return drops;
+
+});

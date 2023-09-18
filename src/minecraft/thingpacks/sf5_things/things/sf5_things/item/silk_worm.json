@@ -1,0 +1,6 @@
+{
+  "parent": "exdeorum:silk_worm",
+  "type": "minecraft:plain",
+  "max_stack_size": 64,
+  "group": "decorations"
+}

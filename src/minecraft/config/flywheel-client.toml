@@ -5,4 +5,3 @@ backend = "INSTANCING"
 debugNormals = false
 # Enable or disable instance update limiting with distance.
 limitUpdates = true
-

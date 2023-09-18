@@ -40,7 +40,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "sf5_things:colorless_sapling",
+              "name": "colouredstuff:sapling_none",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"

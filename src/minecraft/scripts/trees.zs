@@ -62,3 +62,19 @@ val trees as Tree[] = [
 for tree in trees {
   tree.registerLootModifier();
 }
+
+
+// Increases drops from 1st tree on worldgen
+<block:sf5_things:colorless_leaves>.addLootModifier("bonus_drops_first_tree", (drops, ctx) => {
+  if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
+    var player as Player = (ctx.thisEntity as Entity) as Player;
+
+    if !player.isFakePlayer {
+      if rollsChance(ctx.random, 15) {
+        drops.add(<item:colouredstuff:sapling_none>);
+      }
+    }
+  }
+
+  return drops;
+});

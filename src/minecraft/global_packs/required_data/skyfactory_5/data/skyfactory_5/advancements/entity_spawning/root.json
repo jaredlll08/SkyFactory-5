@@ -23,6 +23,6 @@
   },
   "requirements": [["crafting_table", "any_location"]],
   "rewards": {
-    "function": "skyfactory_5:entity_stages/entity_stage_setup"
+    "function": "skyfactory_5:stages/colorless_stage"
   }
 }

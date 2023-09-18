@@ -12,10 +12,10 @@
     "hideFromTabList": true,
     "enableTextToSpeech": false,
     "ttsMode": "PRESS",
-    "fluidMode": "ANY",
+    "fluidMode": "NONE",
     "reachDistance": 0.0,
     "debug": false,
-    "itemModNameTooltip": false,
+    "itemModNameTooltip": true,
     "bossBarOverlapMode": "PUSH_DOWN"
   },
   "overlay": {
@@ -35,6 +35,6 @@
     "disappearingDelay": 0.0
   },
   "formatting": {
-    "modName": "§9§o%s"
+    "modName": "§7§o%s"
   }
 }

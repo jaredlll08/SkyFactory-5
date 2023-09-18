@@ -59,7 +59,8 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=minecraft:zombie_villager",
   "obtrophies:trophy+&entity=minecraft:frog",
   "obtrophies:trophy+&entity=goblintraders:goblin_trader",
-  "obtrophies:trophy+&entity=minecraft:sniffer"
+  "obtrophies:trophy+&entity=minecraft:sniffer",
+  "colouredstuff:sapling_green"
 ]
 "#FF10F0" = [
   "obtrophies:trophy+&entity=minecraft:zombified_piglin",

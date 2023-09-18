@@ -2,9 +2,7 @@
   basics: {
     favorites: [],
     hiddenFavorites: [],
-    displayHistory: [
-      '{DisplayHistoryCategory:"create:item_application",DisplayHistoryContains:1b,DisplayHistoryData:{JEISerializer:"create:item_application",data:"AgEBLAEAAQEjAQAAAQHshAEBAD+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",id:"skyfactory_5:item_application_recipes/test_recipe"},DisplayHistoryUUID:"8661f61a-a3ae-475d-91c3-493d95bf9be1"}',
-    ],
+    displayHistory: [],
     // Declares whether cheating mode is on.
     cheating: true,
     favoritesEnabled: true,
@@ -134,7 +132,7 @@
     },
   },
   appearance: {
-    recipeScreenType: "COMPOSITE",
+    recipeScreenType: "ORIGINAL",
     // Declares the appearance of REI windows.
     theme: "DARK",
     layout: {

@@ -1,8 +1,3 @@
-// Example scripts for using gamestages with recipes
-// mods.recipestages.Recipes.addShaped("one", "name_one", <item:minecraft:iron_leggings>,[[<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>],[<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>]]);
-// mods.recipestages.Recipes.setRecipeStage("hoe", <item:minecraft:stone_hoe>);
-
-
 // Handles trophies giving entity stages
 import crafttweaker.api.block.entity.BlockEntity;
 import crafttweaker.api.entity.type.player.Player;
