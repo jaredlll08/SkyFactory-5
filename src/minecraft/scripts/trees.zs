@@ -31,14 +31,12 @@ public class Tree {
     var sapling: IItemStack = this.getSapling();
 
     this.getLeaves().addLootModifier("colored_leaves_" + this.color, (drops, ctx) => {
-      if ctx.thisEntity != null && ctx.blockState != null && (ctx.thisEntity as Entity) is Player {
-        var player: Player = (ctx.thisEntity as Entity) as Player;
+      if !isRealPlayerLooting(ctx) {
+        return drops;
+      }
 
-        if !player.isFakePlayer {
-            if rollsChance(ctx.random, 15) {
-              drops.add(sapling);
-            }
-        }
+      if rollsChance(ctx.random, 15) {
+        drops.add(sapling);
       }
 
       return drops;
@@ -74,14 +72,12 @@ for tree in trees {
 
 // Increases drops from 1st tree on worldgen
 <block:sf5_things:colorless_leaves>.addLootModifier("bonus_drops_first_tree", (drops, ctx) => {
-  if ctx.thisEntity != null && (ctx.thisEntity as Entity) is Player {
-    var player as Player = (ctx.thisEntity as Entity) as Player;
+  if !isRealPlayerLooting(ctx) {
+    return drops;
+  }
 
-    if !player.isFakePlayer {
-      if rollsChance(ctx.random, 15) {
-        drops.add(<item:colouredstuff:sapling_none>);
-      }
-    }
+  if rollsChance(ctx.random, 15) {
+    drops.add(<item:colouredstuff:sapling_none>);
   }
 
   return drops;

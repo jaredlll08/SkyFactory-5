@@ -1,4 +1,6 @@
 public enum Stage {
+  Colorless = "colorless",
+
   Brown = "brown",
   Black = "black"
 }

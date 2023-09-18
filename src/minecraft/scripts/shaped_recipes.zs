@@ -1,4 +1,3 @@
-
 // Recipe to make a Colorless Paintbrush / Golden Watering Can
 craftingTable.addShaped(
   "colorless_paintbrush",
