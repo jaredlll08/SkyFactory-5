@@ -125,6 +125,21 @@
       "url": "./.vscode/probe.doc-schema.json"
     }
   ],
+  "cSpell.enabledLanguageIds": [
+    "javascript",
+    "json",
+    "json5",
+    "jsonc",
+    "markdown",
+    "mcfunction",
+    "plaintext",
+    "toml",
+    "typescript",
+    "yaml",
+    "yml",
+    "zencode",
+    "zenscript"
+  ],
   "cSpell.words": [
     "abyssalcraft",
     "adpother",
