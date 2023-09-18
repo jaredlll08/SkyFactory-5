@@ -88,17 +88,22 @@ const config = {
       },
     },
     {
+      files: ["src/minecraft/**/*.js", "src/minecraft/**/*.zs"],
+      rules: {
+        "unicorn/filename-case": [
+          "error",
+          {
+            case: "snakeCase",
+          },
+        ],
+      },
+    },
+    {
       files: "*.zs",
       parser: "any-eslint-parser",
       plugins: ["regex"],
       extends: ["plugin:editorconfig/all"],
       rules: {
-        "unicorn/filename-case": [
-          "error",
-          {
-            case: "kebabCase",
-          },
-        ],
         "regex/invalid": [
           "error",
           [
