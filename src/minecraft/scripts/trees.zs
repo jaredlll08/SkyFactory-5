@@ -70,15 +70,3 @@ for tree in trees {
 }
 
 
-// Increases drops from 1st tree on worldgen
-<block:sf5_things:colorless_leaves>.addLootModifier("bonus_drops_first_tree", (drops, ctx) => {
-  if !isRealPlayerLooting(ctx) {
-    return drops;
-  }
-
-  if rollsChance(ctx.random, 15) {
-    drops.add(<item:colouredstuff:sapling_none>);
-  }
-
-  return drops;
-});
