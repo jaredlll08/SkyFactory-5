@@ -1,6 +1,6 @@
 {
-  "nutrition": 1,
-  "saturation": 0.5,
+  "nutrition": 2,
+  "saturation": 1.5,
   "meat": false,
   "fast": false,
   "always_eat": false,
