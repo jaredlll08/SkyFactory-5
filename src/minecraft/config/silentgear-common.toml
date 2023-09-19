@@ -8,7 +8,7 @@ typesAllowed = "BOTH"
 # When joining a new world, should players be given a blueprint package?
 # The blueprint package gives some blueprints when used (right-click).
 # To change what is given, override the starter_blueprints loot table.
-spawnWithStarterBlueprints = true
+spawnWithStarterBlueprints = false
 
 # Repair kit configs.
 [item.repairKits]
@@ -222,7 +222,7 @@ stats = true
 # This is intended to help find and fix rare issues that some users are experiencing.
 modelAndTexture = false
 # Log details about certain features being adding to biomes and other world generator details
-worldGen = true
+worldGen = false
 
 [other]
 # Shows a "WIP" (work in progress) label in the tooltip of certain unfinished, but usable blocks and items
