@@ -1,8 +1,22 @@
 public enum Stage {
   Colorless = "colorless",
 
+  Red = "red",
+  Green = "green",
+  Lime = "lime",
+  Blue = "blue",
+  LightBlue = "light_blue",
+  Gray = "gray",
+  LightGray = "light_gray",
+  Yellow = "yellow",
+  Purple = "purple",
+  Magenta = "magenta",
+  Pink = "pink",
+  White = "white",
+  Black = "black",
   Brown = "brown",
-  Black = "black"
+  Cyan = "cyan",
+  Orange = "orange";
 }
 
 public enum MobStage {
