@@ -1,0 +1,15 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "colouredstuff:log_red"
+    },
+    {
+      "tag": "skyfactory_5:tool_axes"
+    }
+  ],
+  "results": [
+    { "item": "colouredstuff:log_stripped_red" },
+    { "item": "silentgear:template_board", "count": 4 }
+  ]
+}
