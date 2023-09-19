@@ -27,6 +27,7 @@ const config = {
       globals: {
         BlockEvents: "readonly",
         ItemEvents: "readonly",
+        Platform: "readonly",
         StartupEvents: "readonly",
         WorldgenEvents: "readonly",
       },
