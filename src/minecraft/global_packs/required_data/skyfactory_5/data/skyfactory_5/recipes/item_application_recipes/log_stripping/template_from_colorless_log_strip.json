@@ -1,0 +1,15 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "colouredstuff:log_none"
+    },
+    {
+      "tag": "forge:axes"
+    }
+  ],
+  "results": [
+    { "item": "colouredstuff:log_stripped_none" },
+    { "item": "silentgear:template_board", "count": 4 }
+  ]
+}
