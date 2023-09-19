@@ -1,16 +1,17 @@
 # Beam Config
 ["Loot Beams"]
 # If beams should be colored the same as the Items name (excludes name colors from rarity). This has priority over render_rarity_color.
-render_name_color = true
+render_name_color = false
 # If beams should be colored the same as the Items rarity.
-render_rarity_color = true
+render_rarity_color = false
 # How close the player has to be to see the beam. (note: ItemEntities stop rendering at 24 blocks, so that is the limit for beams)
 # Range: 0.0 ~ 24.0
 render_distance = 24.0
 # Overrides an item's beam color with hex color. Must follow the specific format: (registryname=hexcolor) Or (#tagname=hexcolor). Example: "minecraft:stone=0xFFFFFF". This also accepts modids.
 color_overrides = [
   "sf5_things:green_apple=0x06A800",
-  "colouredstuff:sapling_green=0x06A800"
+  "colouredstuff:sapling_green=0x06A800",
+  "colouredstuff:planks_magenta=0xFF00FF"
 ]
 
 # Beam Configuration
@@ -103,13 +104,18 @@ trail_frequency = 1
 # Item Config
 ["Loot Beams".Items]
 # If all Items Loot Beams should be rendered. Has priority over only_equipment and only_rare.
-all_items = true
+all_items = false
 # If Loot Beams should only be rendered on items with rarity.
 only_rare = false
 # If Loot Beams should only be rendered on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
 only_equipment = false
 # Registry names of items that Loot Beams should render on. Example: "minecraft:stone", "minecraft:iron_ingot", You can also specify modids for a whole mod's items.
-whitelist = []
+whitelist = [
+  "colouredstuff:planks_magenta",
+  "obtrophies:trophy",
+  "sf5_things:green_apple",
+  "colouredstuff:sapling_green"
+]
 # Registry names of items that Loot Beams should NOT render on. This has priority over everything. You can also specify modids for a whole mod's items.
 blacklist = []
 # If items should glow.
@@ -147,7 +153,7 @@ custom_rarities = []
 # If rarities should ignore color and render as white (This is really only used for modpacks)
 white_rarities = false
 # If vanilla rarities should be rendered.
-vanilla_rarities = true
+vanilla_rarities = false
 # If vanilla tooltips should be rendered on items in world.
 advanced_tooltips = false
 # If tooltips should be rendered in world.
