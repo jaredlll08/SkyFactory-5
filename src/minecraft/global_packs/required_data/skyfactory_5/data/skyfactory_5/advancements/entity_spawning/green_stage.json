@@ -17,8 +17,7 @@
       "conditions": {
         "player": [],
         "item": {
-          "items": ["sf5_things:green_apple"],
-          "count": 1
+          "items": ["sf5_things:green_apple"]
         }
       }
     }
