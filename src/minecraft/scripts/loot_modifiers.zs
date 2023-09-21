@@ -36,9 +36,24 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
   return drops;
 });
 
+<block:sf5_things:colorless_leaves>.addLootModifier("first_colorless_leaves", (drops, ctx) => {
+  if !isRealPlayerLooting(ctx) {
+    return drops;
+  }
 
-// Drops Colorless Apples and Worms from Colorless Leaves
-<block:colouredstuff:leaves_none>.addLootModifier("worm_from_colorless_leaves", (drops, ctx) => {
+  // Increases drops from 1st tree on worldgen
+  if rollsChance(ctx.random, 15) {
+    drops.add(<item:colouredstuff:sapling_none>);
+  }
+
+  if rollsChance(ctx.random, 5) {
+    drops.add(<item:sf5_things:colorless_apple>);
+  }
+
+  return drops;
+});
+
+<block:colouredstuff:leaves_none>.addLootModifier("colorless_leaves", (drops, ctx) => {
   if !isRealPlayerLooting(ctx) {
     return drops;
   }
@@ -47,39 +62,11 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
     drops.add(<item:exdeorum:silk_worm>);
   }
 
-  return drops;
-});
-
-<block:sf5_things:colorless_leaves>.addLootModifier("colorless_apple_from_colorless_leaves2", (drops, ctx) => {
-  if !isRealPlayerLooting(ctx) {
-    return drops;
-  }
-
   if rollsChance(ctx.random, 5) {
     drops.add(<item:sf5_things:colorless_apple>);
   }
 
-  return drops;
-});
-
-<block:colouredstuff:leaves_none>.addLootModifier("colorless_apple_from_colorless_leaves1", (drops, ctx) => {
-  if !isRealPlayerLooting(ctx) {
-    return drops;
-  }
-
-  if rollsChance(ctx.random, 5) {
-    drops.add(<item:sf5_things:colorless_apple>);
-  }
-
-  return drops;
-});
-
-<block:colouredstuff:leaves_none>.addLootModifier("green_apple_from_colorless_leaves", (drops, ctx) => {
-  if !isRealPlayerLooting(ctx) {
-    return drops;
-  }
-
-  if rollsChance(ctx.random, 3) {
+  if !ctx.player.hasGameStage(Stage.Green) && rollsChance(ctx.random, 3) {
     drops.add(<item:sf5_things:green_apple>);
   }
 
@@ -87,7 +74,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
 });
 
 // Drops Green Sticks from Green leaves
-<block:colouredstuff:leaves_green>.addLootModifier("green_stick_from_green_leaves", (drops, ctx) => {
+<block:colouredstuff:leaves_green>.addLootModifier("green_leaves", (drops, ctx) => {
   if !isRealPlayerLooting(ctx) {
     return drops;
   }
@@ -96,17 +83,8 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
     drops.add(<item:sf5_things:green_stick>);
   }
 
-  return drops;
-});
-
-// Increases drops from 1st tree on worldgen
-<block:sf5_things:colorless_leaves>.addLootModifier("bonus_drops_first_tree", (drops, ctx) => {
-  if !isRealPlayerLooting(ctx) {
-    return drops;
-  }
-
-  if rollsChance(ctx.random, 15) {
-    drops.add(<item:colouredstuff:sapling_none>);
+  if rollsChance(ctx.random, 5) {
+    drops.add(<item:sf5_things:green_apple>);
   }
 
   return drops;
