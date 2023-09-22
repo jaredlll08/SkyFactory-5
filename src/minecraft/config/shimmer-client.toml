@@ -15,7 +15,7 @@
 "enable bloom effect" = true
 # using additive blend for colored lights
 # true - vivid, false - realistic
-"additive effect" = false
+"additive effect" = true
 # the color attachment number used for store bloom information
 # range from 1 (0 for vanilla use) to GL_MAX_COLOR_ATTACHMENTS-1, at least 8-1
 #
