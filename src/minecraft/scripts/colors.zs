@@ -14,6 +14,7 @@ public enum ColorName {
   White = "WHITE",
   Black = "BLACK",
   Brown = "BROWN",
+  LightBrown = "LIGHT_BROWN",
   Cyan = "CYAN",
   Orange = "ORANGE";
 }

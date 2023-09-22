@@ -14,7 +14,8 @@ public class Globals {
     ColorName.Pink: new Color(ColorName.Pink, "pink", 16761035), // #FFC0CB
     ColorName.White: new Color(ColorName.White, "white", 16777215), // #FFFFFF
     ColorName.Black: new Color(ColorName.Black, "black", 0), // #000000
-    ColorName.Brown: new Color(ColorName.Brown, "brown", 9849600), // #964B00
+    ColorName.Brown: new Color(ColorName.Brown, "brown", 5847071), // #59381f
+    ColorName.LightBrown: new Color(ColorName.LightBrown, "brown", 9849600), // #964B00
     ColorName.Cyan: new Color(ColorName.Cyan, "cyan", 3203513), // #30e1b9
     ColorName.Orange: new Color(ColorName.Orange, "orange", 16476957) // #fb6b1d
   };
