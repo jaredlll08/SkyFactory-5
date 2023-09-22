@@ -26,7 +26,7 @@ export const getActionsForStick: ActionGetter = (data) => {
     {
       type: "add",
       path: getSrcPath(
-        `./assets/${packNamespace}/models/item/{{snakeCase path}}.json`,
+        `./assets/${packNamespace}/models/item/{{snakeCase path}}_stick.json`,
       ),
       templateFile: getTemplatePath("./assets/model.stick.json"),
       data,
