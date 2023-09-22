@@ -1,0 +1,4 @@
+{
+  "parent": "exdeorum:block/template_barrel",
+  "textures": { "barrel": "colouredstuff:block/planks_none" }
+}
