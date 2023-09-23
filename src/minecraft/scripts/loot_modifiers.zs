@@ -70,7 +70,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
 
   val player: Player = (ctx.thisEntity as Entity) as Player;
 
-  if !player.hasGameStage(Stage.Green) && rollsChance(ctx.random, 3) {
+  if !player.hasGameStage(Stage.Green) && rollsChance(ctx.random, 2) {
     drops.add(<item:sf5_things:green_apple>);
   }
 
@@ -90,6 +90,64 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
   if rollsChance(ctx.random, 5) {
     drops.add(<item:sf5_things:green_apple>);
   }
+
+  if rollsChance(ctx.random, 10) {
+    drops.add(<item:minecraft:green_dye>);
+  }
+
+  if rollsChance(ctx.random, 1) {
+    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/green", BagType: "treasurebags:green"}}));
+  }
+
+  return drops;
+});
+
+// Drops Brown Sticks from Brown leaves
+<block:colouredstuff:leaves_brown>.addLootModifier("brown_leaves", (drops, ctx) => {
+  if !isRealPlayerLooting(ctx) {
+    return drops;
+  }
+
+  if rollsChance(ctx.random, 5) {
+    drops.add(<item:sf5_things:brown_stick>);
+  }
+
+  if rollsChance(ctx.random, 5) {
+    drops.add(<item:sf5_things:brown_apple>);
+  }
+
+  if rollsChance(ctx.random, 10) {
+    drops.add(<item:minecraft:brown_dye>);
+  }
+
+  if rollsChance(ctx.random, 1) {
+    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/brown", BagType: "treasurebags:brown"}}));
+  }
+
+  return drops;
+});
+
+// Drops Brown Sticks from Brown leaves
+<block:colouredstuff:leaves_white>.addLootModifier("white_leaves", (drops, ctx) => {
+  if !isRealPlayerLooting(ctx) {
+    return drops;
+  }
+
+  if rollsChance(ctx.random, 5) {
+    drops.add(<item:sf5_things:white_stick>);
+  }
+
+  if rollsChance(ctx.random, 5) {
+    drops.add(<item:sf5_things:white_apple>);
+  }
+
+  if rollsChance(ctx.random, 10) {
+    drops.add(<item:minecraft:white_dye>);
+  }
+
+ // if rollsChance(ctx.random, 1) {
+ //  drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/brown", BagType: "treasurebags:brown"}}));
+ // }
 
   return drops;
 });
