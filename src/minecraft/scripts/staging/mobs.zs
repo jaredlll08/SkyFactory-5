@@ -128,7 +128,8 @@ val mobs: TrophyMob[string] = {
   // to ring that bell and hit that like button
 
   // Modded Entities
-  "energeticsheep:energetic_sheep": new TrophyMob(MobStage.EnergeticSheep, "Energetic Sheep")
+  "energeticsheep:energetic_sheep": new TrophyMob(MobStage.EnergeticSheep, "Energetic Sheep"),
+  "goblintraders:goblin_trader": new TrophyMob(MobStage.GoblinTrader, "Goblin Traders")
 };
 
 events.register<RightClickBlockEvent>(event => {

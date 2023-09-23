@@ -836,7 +836,7 @@
   },
   {
     "mob": ["energeticsheep:energetic_sheep"],
-    "gamestage": "wandering_trader",
+    "gamestage": "energetic_sheep",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -848,6 +848,17 @@
   {
     "mob": ["giacomos_gigglers:giggler"],
     "gamestage": "giggler",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["goblintraders:goblin_trader"],
+    "gamestage": "goblin_trader",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -931,7 +942,8 @@
       "minecraft:zombie",
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
-      "minecraft:zombified_piglin"
+      "minecraft:zombified_piglin",
+      "goblintraders:goblin_trader"
     ],
     "result": "deny"
   },
@@ -1015,7 +1027,8 @@
       "minecraft:zombie",
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
-      "minecraft:zombified_piglin"
+      "minecraft:zombified_piglin",
+      "goblintraders:goblin_trader"
     ],
     "spawner": true,
     "armorhelmet": {

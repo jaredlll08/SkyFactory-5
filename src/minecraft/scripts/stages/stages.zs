@@ -44,6 +44,7 @@ public enum MobStage {
   Giggler = "giggler",
   GlowSquid = "glow_squid",
   Goat = "goat",
+  GoblinTrader = "goblin_trader",
   Guardian = "guardian",
   Hoglin = "hoglin",
   Horse = "horse",
