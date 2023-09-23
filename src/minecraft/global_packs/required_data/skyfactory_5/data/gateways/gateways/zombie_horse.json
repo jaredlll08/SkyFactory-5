@@ -1,16 +1,16 @@
 {
   "size": "large",
   "leash_range": 50000000,
-  "color": "#59381f",
+  "color": "#165F16",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:villager",
+          "entity": "minecraft:zombie_horse",
           "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
-          "entity": "minecraft:villager",
+          "entity": "minecraft:zombie_horse",
           "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
@@ -29,12 +29,12 @@
           "BlockEntityTag": {
             "VariantID": 0,
             "SpecialCycleVariant": 0,
-            "entity": "minecraft:villager"
+            "entity": "minecraft:zombie_horse"
           }
         }
       }
     }
   ],
   "completion_xp": 250,
-  "spawn_range": 5
+  "spawn_range": 1
 }
