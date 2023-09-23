@@ -1,3 +1,8 @@
 {
-  "values": ["sf5_things:green", "sf5_things:green_stick"]
+  "values": [
+    "sf5_things:colorless_stick",
+    "sf5_things:green_stick",
+    "sf5_things:brown_stick",
+    "sf5_things:white_stick"
+  ]
 }
