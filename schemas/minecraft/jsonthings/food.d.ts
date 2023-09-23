@@ -51,5 +51,6 @@ export interface JsonThingsFood {
      * Defines if the effect has an icon in the top right of the HUD.
      */
     show_icon?: boolean;
+    visible?: boolean;
   }[];
 }

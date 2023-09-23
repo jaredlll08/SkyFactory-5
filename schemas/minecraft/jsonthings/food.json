@@ -57,6 +57,9 @@
           "show_icon": {
             "description": "Defines if the effect has an icon in the top right of the HUD.",
             "type": "boolean"
+          },
+          "visible": {
+            "type": "boolean"
           }
         },
         "required": ["effect", "duration"],
