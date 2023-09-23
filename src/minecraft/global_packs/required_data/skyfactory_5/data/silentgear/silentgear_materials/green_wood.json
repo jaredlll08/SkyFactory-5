@@ -53,12 +53,20 @@
       {
         "name": "silentgear:lustrous",
         "level": 1
+      },
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
       }
     ],
     "rod": [
       {
         "name": "silentgear:lustrous",
         "level": 2
+      },
+      {
+        "name": "silentgear:indestructible",
+        "level": 1
       }
     ]
   },
