@@ -2,15 +2,22 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [{ "function": "exdeorum:infested_string" }],
           "name": "minecraft:string"
+        },
+        {
+          "type": "item",
+          "name": "minecraft:white_dye"
+        },
+        {
+          "type": "item",
+          "name": "exdeorum:silk_worm"
         }
-      ],
-      "rolls": 1
+      ]
     }
   ],
   "random_sequence": "exdeorum:blocks/infested_leaves"
