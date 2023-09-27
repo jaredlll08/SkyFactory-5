@@ -1,5 +1,50 @@
 [
   {
+    "mob": ["minecraft:wither_skeleton"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:witch"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:zombie_villager"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
     "mob": ["minecraft:drowned", "minecraft:husk", "minecraft:enderman"],
     "persecond": 1,
     "attempts": 15,
@@ -37,6 +82,21 @@
     }
   },
   {
+    "mob": ["energeticsheep:energetic_sheep"],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
     "mob": ["minecraft:turtle"],
     "persecond": 10,
     "attempts": 50,
@@ -53,7 +113,7 @@
   },
   {
     "mob": ["minecraft:strider"],
-    "persecond": 10,
+    "persecond": 5,
     "attempts": 50,
     "amount": {
       "minimum": 4,
@@ -73,6 +133,143 @@
     "amount": {
       "minimum": 4,
       "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:skeleton_horse", "minecraft:zombie_horse"],
+    "persecond": 1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": [
+      "minecraft:ocelot",
+      "minecraft:cat",
+      "minecraft:fox",
+      "minecraft:wolf",
+      "minecraft:polar_bear"
+    ],
+    "persecond": 1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:snow_golem", "minecraft:iron_golem"],
+    "persecond": 1,
+    "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:villager", "goblintraders:goblin_trader"],
+    "persecond": 1,
+    "attempts": 25,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:blaze"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": [
+      "minecraft:cod",
+      "minecraft:pufferfish",
+      "minecraft:tropical_fish",
+      "minecraft:salmon"
+    ],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:squid", "minecraft:dolphin", "minecraft:glow_squid"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:allay"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:ghast"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
     },
     "conditions": {
       "dimension": "minecraft:overworld",

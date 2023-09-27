@@ -1,17 +1,17 @@
 {
   "size": "large",
   "leash_range": 50000000,
-  "color": "#59381f",
+  "color": "#fb6b1d",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:donkey",
-          "nbt": "{DyeMobDyeColor: 12b, ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "entity": "minecraft:blaze",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
-          "entity": "minecraft:donkey",
-          "nbt": "{DyeMobDyeColor: 12b, ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "entity": "minecraft:blaze",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
       "modifiers": [],
@@ -30,7 +30,7 @@
           "BlockEntityTag": {
             "VariantID": 0,
             "SpecialCycleVariant": 0,
-            "entity": "minecraft:donkey"
+            "entity": "minecraft:blaze"
           }
         }
       }

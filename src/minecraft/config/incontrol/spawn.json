@@ -34,7 +34,7 @@
   },
   {
     "mob": ["minecraft:cave_spider"],
-    "gamestage": "cave_spider",
+    "gamestage": "cavespider",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -159,7 +159,7 @@
   },
   {
     "mob": ["minecraft:magma_cube"],
-    "gamestage": "magma_cube",
+    "gamestage": "magmacube",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -192,7 +192,7 @@
   },
   {
     "mob": ["minecraft:piglin_brute"],
-    "gamestage": "piglin_brute",
+    "gamestage": "piglinbrute",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -351,7 +351,7 @@
   },
   {
     "mob": ["minecraft:wither_skeleton"],
-    "gamestage": "wither_skeleton",
+    "gamestage": "witherskeleton",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -389,7 +389,7 @@
   },
   {
     "mob": ["minecraft:zombie_villager"],
-    "gamestage": "zombie_villager",
+    "gamestage": "zombievillager",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -400,7 +400,7 @@
   },
   {
     "mob": ["minecraft:zombified_piglin"],
-    "gamestage": "zombified_piglin",
+    "gamestage": "zombifiedpiglin",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -455,7 +455,9 @@
   },
   {
     "mob": ["minecraft:chicken"],
-    "block": "minecraft:grass_block",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "chicken",
     "armorhelmet": {
       "item": "simplehats:fro",
@@ -467,7 +469,9 @@
   },
   {
     "mob": ["minecraft:cow"],
-    "block": "minecraft:grass_block",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "cow",
     "armorhelmet": {
       "item": "simplehats:fro",
@@ -533,8 +537,21 @@
     "result": "allow"
   },
   {
+    "mob": ["minecraft:iron_golem"],
+    "gamestage": "irongolem",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
     "mob": ["minecraft:llama"],
-    "block": "minecraft:grass_block",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "llama",
     "armorhelmet": {
       "item": "simplehats:fro",
@@ -546,7 +563,9 @@
   },
   {
     "mob": ["minecraft:mooshroom"],
-    "block": "minecraft:grass_block",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "mooshroom",
     "armorhelmet": {
       "item": "simplehats:fro",
@@ -580,7 +599,9 @@
   },
   {
     "mob": ["minecraft:pig"],
-    "block": "minecraft:grass_block",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "pig",
     "armorhelmet": {
       "item": "simplehats:fro",
@@ -603,7 +624,9 @@
   },
   {
     "mob": ["minecraft:sheep"],
-    "block": "minecraft:grass_block",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "sheep",
     "armorhelmet": {
       "item": "simplehats:fro",
@@ -616,6 +639,17 @@
   {
     "mob": ["minecraft:sniffer"],
     "gamestage": "sniffer",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["minecraft:snow_golem"],
+    "gamestage": "snowgolem",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -659,7 +693,7 @@
   },
   {
     "mob": ["minecraft:glow_squid"],
-    "gamestage": "glow_squid",
+    "gamestage": "glowsquid",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -714,7 +748,7 @@
   },
   {
     "mob": ["minecraft:tropical_fish"],
-    "gamestage": "tropical_fish",
+    "gamestage": "tropicalfish",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -736,6 +770,9 @@
   },
   {
     "mob": ["minecraft:allay"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "allay",
     "armorhelmet": {
       "item": "simplehats:fro",
@@ -758,7 +795,7 @@
   },
   {
     "mob": ["minecraft:polar_bear"],
-    "gamestage": "polar_bear",
+    "gamestage": "polarbear",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -769,7 +806,7 @@
   },
   {
     "mob": ["minecraft:skeleton_horse"],
-    "gamestage": "skeleton_horse",
+    "gamestage": "skeletonhorse",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -780,7 +817,9 @@
   },
   {
     "mob": ["minecraft:turtle"],
-    "block": ["minecraft:sand", "minecraft:grass_block"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "turtle",
     "armorhelmet": {
       "item": "simplehats:fro",
@@ -792,7 +831,7 @@
   },
   {
     "mob": ["minecraft:zombie_horse"],
-    "gamestage": "zombie_horse",
+    "gamestage": "zombiehorse",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -825,7 +864,7 @@
   },
   {
     "mob": ["minecraft:wandering_trader"],
-    "gamestage": "wandering_trader",
+    "gamestage": "wanderingtrader",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -836,7 +875,10 @@
   },
   {
     "mob": ["energeticsheep:energetic_sheep"],
-    "gamestage": "energetic_sheep",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "energeticsheep",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -858,7 +900,7 @@
   },
   {
     "mob": ["goblintraders:goblin_trader"],
-    "gamestage": "goblin_trader",
+    "gamestage": "goblintrader",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -922,6 +964,7 @@
       "minecraft:skeleton_horse",
       "minecraft:slime",
       "minecraft:sniffer",
+      "minecraft:snow_golem",
       "minecraft:spider",
       "minecraft:squid",
       "minecraft:stray",
@@ -943,7 +986,8 @@
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
       "minecraft:zombified_piglin",
-      "goblintraders:goblin_trader"
+      "goblintraders:goblin_trader",
+      "minecraft:iron_golem"
     ],
     "result": "deny"
   },
@@ -1005,6 +1049,7 @@
       "minecraft:skeleton_horse",
       "minecraft:slime",
       "minecraft:sniffer",
+      "minecraft:snow_golem",
       "minecraft:spider",
       "minecraft:spider",
       "minecraft:squid",
@@ -1028,7 +1073,8 @@
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
       "minecraft:zombified_piglin",
-      "goblintraders:goblin_trader"
+      "goblintraders:goblin_trader",
+      "minecraft:iron_golem"
     ],
     "spawner": true,
     "armorhelmet": {

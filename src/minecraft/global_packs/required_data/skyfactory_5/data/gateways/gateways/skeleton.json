@@ -1,32 +1,20 @@
 {
   "size": "small",
-  "color": "#D3D3D3",
-  "failures": [
-    {
-      "type": "command",
-      "command": "execute as <summoner> run function skyfactory_5:entity_stages/skeleton/skeleton_stage_disable",
-      "desc": ""
-    }
-  ],
+  "leash_range": 50000000,
+  "color": "#ffffff",
   "waves": [
     {
       "entities": [
         {
           "entity": "minecraft:skeleton",
-          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
           "entity": "minecraft:skeleton",
-          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
-      "rewards": [
-        {
-          "type": "entity_loot",
-          "entity": "minecraft:skeleton",
-          "rolls": 3
-        }
-      ],
+      "rewards": [],
       "max_wave_time": 750,
       "setup_time": 150
     }
@@ -45,11 +33,6 @@
           }
         }
       }
-    },
-    {
-      "type": "command",
-      "command": "execute as <summoner> run function skyfactory_5:entity_stages/skeleton/skeleton_stage_disable",
-      "desc": ""
     }
   ],
   "completion_xp": 250,
