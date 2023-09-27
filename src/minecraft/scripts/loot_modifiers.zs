@@ -145,9 +145,60 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
     drops.add(<item:minecraft:white_dye>);
   }
 
- // if rollsChance(ctx.random, 1) {
- //  drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/brown", BagType: "treasurebags:brown"}}));
- // }
+  if rollsChance(ctx.random, 1) {
+   drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/white", BagType: "treasurebags:white"}}));
+  }
+
+  return drops;
+});
+
+
+// Drops Yellow Sticks from Yellow leaves
+<block:colouredstuff:leaves_yellow>.addLootModifier("yellow_leaves", (drops, ctx) => {
+  if !isRealPlayerLooting(ctx) {
+    return drops;
+  }
+
+  if rollsChance(ctx.random, 5) {
+    drops.add(<item:sf5_things:yellow_stick>);
+  }
+
+  // if rollsChance(ctx.random, 5) {
+  //  drops.add(<item:sf5_things:yellow_apple>);
+  // }
+
+  if rollsChance(ctx.random, 10) {
+    drops.add(<item:minecraft:yellow_dye>);
+  }
+
+  if rollsChance(ctx.random, 1) {
+   drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/yellow", BagType: "treasurebags:yellow"}}));
+  }
+
+  return drops;
+});
+
+// Drops Orange Sticks from Orange leaves
+<block:colouredstuff:leaves_orange>.addLootModifier("orange_leaves", (drops, ctx) => {
+  if !isRealPlayerLooting(ctx) {
+    return drops;
+  }
+
+  if rollsChance(ctx.random, 5) {
+    drops.add(<item:sf5_things:orange_stick>);
+  }
+
+  // if rollsChance(ctx.random, 5) {
+  //  drops.add(<item:sf5_things:orange_apple>);
+  // }
+
+  if rollsChance(ctx.random, 10) {
+    drops.add(<item:minecraft:orange_dye>);
+  }
+
+  if rollsChance(ctx.random, 1) {
+   drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/orange", BagType: "treasurebags:orange"}}));
+  }
 
   return drops;
 });

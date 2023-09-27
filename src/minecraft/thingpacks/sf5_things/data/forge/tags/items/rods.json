@@ -3,6 +3,19 @@
     "sf5_things:colorless_stick",
     "sf5_things:green_stick",
     "sf5_things:brown_stick",
-    "sf5_things:white_stick"
+    "sf5_things:white_stick",
+    "sf5_things:black",
+    "sf5_things:blue",
+    "sf5_things:cyan",
+    "sf5_things:gray",
+    "sf5_things:light_blue",
+    "sf5_things:light_gray",
+    "sf5_things:lime",
+    "sf5_things:magenta",
+    "sf5_things:orange",
+    "sf5_things:pink",
+    "sf5_things:purple",
+    "sf5_things:red",
+    "sf5_things:yellow"
   ]
 }
