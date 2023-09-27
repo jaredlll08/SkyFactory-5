@@ -41,43 +41,13 @@
     ],
     "creature": [
       {
-        "type": "minecraft:sheep",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
         "type": "minecraft:bee",
         "weight": 100,
         "minCount": 4,
         "maxCount": 4
       },
       {
-        "type": "minecraft:pig",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:chicken",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cow",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
         "type": "minecraft:wolf",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:allay",
         "weight": 100,
         "minCount": 4,
         "maxCount": 4
@@ -95,52 +65,10 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:polar_bear",
+        "type": "minecraft:sniffer",
         "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:skeleton_horse",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:turtle",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:zombie_horse",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:strider",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:fox",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:ocelot",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:cat",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "misc": [],
@@ -164,12 +92,6 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:zombie_villager",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
         "type": "minecraft:skeleton",
         "weight": 100,
         "minCount": 4,
@@ -182,34 +104,16 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:slime",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
         "type": "minecraft:enderman",
-        "weight": 10,
+        "weight": 100,
         "minCount": 1,
         "maxCount": 4
-      },
-      {
-        "type": "minecraft:witch",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
       },
       {
         "type": "minecraft:warden",
         "weight": 100,
         "minCount": 1,
         "maxCount": 1
-      },
-      {
-        "type": "minecraft:blaze",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 4
       },
       {
         "type": "minecraft:phantom",
@@ -261,18 +165,6 @@
       },
       {
         "type": "minecraft:zombified_piglin",
-        "weight": 100,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:wither_skeleton",
-        "weight": 100,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "energeticsheep:energetic_sheep",
         "weight": 100,
         "minCount": 1,
         "maxCount": 4
