@@ -97,6 +97,7 @@ val mobs: TrophyMob[string] = {
   "minecraft:squid": new TrophyMob(MobStage.Squid, "Squid"),
   "minecraft:tadpole": new TrophyMob(MobStage.Tadpole, "Tadpoles"),
   "minecraft:tropical_fish": new TrophyMob(MobStage.TropicalFish, "Tropical Fish"),
+  "minecraft:dolphin": new TrophyMob(MobStage.Dolphin, "Dolphin"),
 
   // Entities not normally naturally spawned in Forest/in general
   "minecraft:allay": new TrophyMob(MobStage.Allay, "Allays"),

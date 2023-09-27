@@ -32,6 +32,7 @@ public enum MobStage {
   Cod = "cod",
   Cow = "cow",
   Creeper = "creeper",
+  Dolphin = "dolphin",
   Donkey = "donkey",
   Drowned = "drowned",
   Enderman = "enderman",
