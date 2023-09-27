@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["d", "s"],
+  "key": {
+    "s": {
+      "tag": "forge:rods"
+    },
+    "d": {
+      "tag": "forge:dyes/yellow"
+    }
+  },
+  "result": {
+    "item": "tinted_torches:yellow_torch",
+    "count": 4
+  }
+}
