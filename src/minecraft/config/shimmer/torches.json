@@ -1,0 +1,137 @@
+{
+  "Enable": true,
+  "LightBlock": [
+    {
+      "block": "tinted_torches:lime_torch",
+      "r": 57,
+      "g": 240,
+      "b": 14,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:red_torch",
+      "r": 255,
+      "g": 0,
+      "b": 0,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:blue_torch",
+      "r": 0,
+      "g": 0,
+      "b": 255,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:black_torch",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:brown_torch",
+      "r": 89,
+      "g": 56,
+      "b": 31,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:cyan_torch",
+      "r": 48,
+      "g": 225,
+      "b": 185,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:gray_torch",
+      "r": 51,
+      "g": 51,
+      "b": 51,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:green_torch",
+      "r": 22,
+      "g": 95,
+      "b": 22,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:light_blue_torch",
+      "r": 143,
+      "g": 211,
+      "b": 255,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:light_gray_torch",
+      "r": 211,
+      "g": 211,
+      "b": 211,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:magenta_torch",
+      "r": 255,
+      "g": 0,
+      "b": 255,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:orange_torch",
+      "r": 251,
+      "g": 107,
+      "b": 29,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:pink_torch",
+      "r": 255,
+      "g": 100,
+      "b": 255,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:purple_torch",
+      "r": 128,
+      "g": 0,
+      "b": 128,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:white_torch",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255,
+      "radius": 8.0
+    },
+    {
+      "block": "tinted_torches:yellow_torch",
+      "r": 255,
+      "g": 255,
+      "b": 0,
+      "a": 255,
+      "radius": 8.0
+    }
+  ],
+  "LightItem": [],
+  "Bloom": [],
+  "ColorReference": {},
+  "BuildIn": false
+}
