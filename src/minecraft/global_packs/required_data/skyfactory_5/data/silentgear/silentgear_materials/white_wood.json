@@ -10,16 +10,16 @@
   },
   "crafting_items": {
     "main": {
-      "item": "colouredstuff:planks_brown"
+      "item": "colouredstuff:planks_white"
     },
     "subs": {
       "rod": {
-        "item": "sf5_things:brown_stick"
+        "item": "sf5_things:white_stick"
       }
     }
   },
   "name": {
-    "translate": "Brown"
+    "translate": "White"
   },
   "stats": {
     "main": {
@@ -51,7 +51,7 @@
   "traits": {
     "main": [
       {
-        "name": "silentgear:bastion",
+        "name": "silentgear:holy",
         "level": 1
       },
       {
@@ -61,7 +61,7 @@
     ],
     "rod": [
       {
-        "name": "silentgear:bastion",
+        "name": "silentgear:holy",
         "level": 2
       },
       {
@@ -74,25 +74,25 @@
     "main/all": [
       {
         "texture": "silentgear:main_generic_lc",
-        "color": "#59381f"
+        "color": "#ffffff"
       }
     ],
     "main/fragment": [
       {
         "texture": "silentgear:wood",
-        "color": "#59381f"
+        "color": "#ffffff"
       }
     ],
     "rod/all": [
       {
         "texture": "silentgear:rod_generic_lc",
-        "color": "#59381f"
+        "color": "#ffffff"
       }
     ],
     "rod/part": [
       {
         "texture": "silentgear:rod",
-        "color": "#59381f"
+        "color": "#ffffff"
       }
     ]
   }
