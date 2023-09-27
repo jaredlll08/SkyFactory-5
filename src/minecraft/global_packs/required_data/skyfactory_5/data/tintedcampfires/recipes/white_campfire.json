@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" S ", "STS", "LLL"],
+  "key": {
+    "S": {
+      "item": "sf5_things:white_stick"
+    },
+    "T": {
+      "item": "tinted_torches:white_torch"
+    },
+    "L": {
+      "item": "colouredstuff:log_white"
+    }
+  },
+  "result": {
+    "item": "tintedcampfires:white_campfire"
+  }
+}

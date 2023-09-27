@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" S ", "STS", "LLL"],
+  "key": {
+    "S": {
+      "item": "sf5_things:black_stick"
+    },
+    "T": {
+      "item": "tinted_torches:black_torch"
+    },
+    "L": {
+      "item": "colouredstuff:log_black"
+    }
+  },
+  "result": {
+    "item": "tintedcampfires:black_campfire"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" S ", "STS", "LLL"],
+  "key": {
+    "S": {
+      "item": "sf5_things:yellow_stick"
+    },
+    "T": {
+      "item": "tinted_torches:yellow_torch"
+    },
+    "L": {
+      "item": "colouredstuff:log_yellow"
+    }
+  },
+  "result": {
+    "item": "tintedcampfires:yellow_campfire"
+  }
+}

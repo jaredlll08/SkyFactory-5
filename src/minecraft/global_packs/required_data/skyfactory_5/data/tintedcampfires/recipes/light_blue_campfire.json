@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" S ", "STS", "LLL"],
+  "key": {
+    "S": {
+      "item": "sf5_things:light_blue_stick"
+    },
+    "T": {
+      "item": "tinted_torches:light_blue_torch"
+    },
+    "L": {
+      "item": "colouredstuff:log_light_blue"
+    }
+  },
+  "result": {
+    "item": "tintedcampfires:light_blue_campfire"
+  }
+}

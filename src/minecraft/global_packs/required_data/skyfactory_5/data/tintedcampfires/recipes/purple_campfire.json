@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" S ", "STS", "LLL"],
+  "key": {
+    "S": {
+      "item": "sf5_things:purple_stick"
+    },
+    "T": {
+      "item": "tinted_torches:purple_torch"
+    },
+    "L": {
+      "item": "colouredstuff:log_purple"
+    }
+  },
+  "result": {
+    "item": "tintedcampfires:purple_campfire"
+  }
+}

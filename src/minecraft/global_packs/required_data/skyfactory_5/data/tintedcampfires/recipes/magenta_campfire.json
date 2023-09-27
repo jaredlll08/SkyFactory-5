@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" S ", "STS", "LLL"],
+  "key": {
+    "S": {
+      "item": "sf5_things:magenta_stick"
+    },
+    "T": {
+      "item": "tinted_torches:magenta_torch"
+    },
+    "L": {
+      "item": "colouredstuff:log_magenta"
+    }
+  },
+  "result": {
+    "item": "tintedcampfires:magenta_campfire"
+  }
+}
