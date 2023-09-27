@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:mineable/pickaxe",
+    "#minecraft:mineable/shovel",
+    "#minecraft:planks",
+    "#minecraft:logs"
+  ]
+}
