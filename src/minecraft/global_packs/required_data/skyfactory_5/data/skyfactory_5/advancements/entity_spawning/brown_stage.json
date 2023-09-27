@@ -12,7 +12,7 @@
   },
   "parent": "skyfactory_5:entity_spawning/root",
   "criteria": {
-    "eat_green_apple": {
+    "obtain_dirt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

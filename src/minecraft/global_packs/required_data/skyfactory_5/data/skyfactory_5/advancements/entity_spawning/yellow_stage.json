@@ -1,0 +1,77 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_concrete_powder"
+    },
+    "title": "Yellow Stage",
+    "description": "This is a test",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:entity_spawning/root",
+  "criteria": {
+    "honeycomb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:honeycomb"]
+          }
+        ]
+      }
+    },
+    "honeycomb_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:honeycomb_block"]
+          }
+        ]
+      }
+    },
+    "honey_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:honey_bottle"]
+          }
+        ]
+      }
+    },
+    "honey_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:honey_block"]
+          }
+        ]
+      }
+    },
+    "wheat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:wheat"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["honeycomb", "honeycomb_block", "honey_bottle", "honey_block", "wheat"]
+  ],
+  "rewards": {
+    "function": "skyfactory_5:stages/yellow_stage"
+  }
+}
