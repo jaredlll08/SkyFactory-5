@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torchflower_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pitcher_pod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potato"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sf5_things:silk_worm"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "silentgear:template_board"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_dye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sea_pickle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplehats:hatbag_common"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplehats:hatbag_uncommon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplehats:hatbag_rare"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplehats:hatbag_epic"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplehats:hatscraps_common"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplehats:hatbag_summer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "simplehats:hatscraps_uncommon"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/sniffer_digging"
+}
