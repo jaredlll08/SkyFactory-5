@@ -1,6 +1,46 @@
 /** @type {import('eslint').Linter.Config} */
 const config = {
-  // globals: {},
+  globals: {
+    // Constants
+    SECOND: "readonly",
+    MINUTE: "readonly",
+    HOUR: "readonly",
+
+    // Classes
+    Platform: "readonly",
+    ResourceLocation: "readonly",
+    Utils: "readonly",
+    Java: "readonly",
+    Text: "readonly",
+    UUID: "readonly",
+    JsonIO: "readonly",
+    Block: "readonly",
+    Item: "readonly",
+    Ingredient: "readonly",
+    IngredientHelper: "readonly",
+    NBT: "readonly",
+    NBTIO: "readonly",
+    Direction: "readonly",
+    Facing: "readonly",
+    AABB: "readonly",
+    Fluid: "readonly",
+    Color: "readonly",
+    BlockStatePredicate: "readonly",
+
+    // Wrapped Classes
+    JavaMath: "readonly",
+    Blocks: "readonly",
+    Items: "readonly",
+    Stats: "readonly",
+    DecorationGenerationStep: "readonly",
+    CarvingGenerationStep: "readonly",
+    BlockPos: "readonly",
+    DamageSource: "readonly",
+    BlockProperties: "readonly",
+    Vec3: "readonly",
+    Vec3d: "readonly",
+    Vec3i: "readonly",
+  },
   overrides: [
     {
       files: "client_scripts/**/*",
