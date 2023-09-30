@@ -48,6 +48,9 @@ const config = {
         ClientEvents: "readonly",
         ItemEvents: "readonly",
         NetworkEvents: "readonly",
+
+        // Mods
+        REIEvents: "readonly",
       },
     },
     {
@@ -60,6 +63,9 @@ const config = {
         NetworkEvents: "readonly",
         PlayerEvents: "readonly",
         ServerEvents: "readonly",
+
+        // Mods
+        GameStageEvents: "readonly",
       },
     },
     {
