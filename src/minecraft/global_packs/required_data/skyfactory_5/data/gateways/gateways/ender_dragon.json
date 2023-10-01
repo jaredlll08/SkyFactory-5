@@ -1,16 +1,16 @@
 {
   "size": "large",
   "leash_range": 50000000,
-  "color": "#0000ff",
+  "color": "#000000",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:squid",
+          "entity": "minecraft:ender_dragon",
           "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
-          "entity": "minecraft:squid",
+          "entity": "minecraft:ender_dragon",
           "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
@@ -30,7 +30,7 @@
           "BlockEntityTag": {
             "VariantID": 0,
             "SpecialCycleVariant": 0,
-            "entity": "minecraft:squid"
+            "entity": "minecraft:ender_dragon"
           }
         }
       }
