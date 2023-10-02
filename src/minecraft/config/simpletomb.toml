@@ -29,7 +29,7 @@ search_range = 8
 #
 # Keep parts of the inventory
 # Allowed Values: NONE, HOTBAR, ARMOR, HOTBAR_AND_ARMOR
-keep_parts = "NONE"
+keep_parts = "HOTBAR_AND_ARMOR"
 
 # ####################################################################################
 [simpletomb.key]
