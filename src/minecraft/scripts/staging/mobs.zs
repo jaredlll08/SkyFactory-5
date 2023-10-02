@@ -1,5 +1,5 @@
-// Handles trophies giving entity stages
 import crafttweaker.api.block.entity.BlockEntity;
+import crafttweaker.api.bracket.BracketHandlers;
 import crafttweaker.api.entity.type.player.Player;
 import crafttweaker.api.text.Component;
 import crafttweaker.forge.api.event.interact.RightClickBlockEvent;
@@ -189,3 +189,18 @@ events.register<RightClickBlockEvent>(event => {
     }
   }
 });
+
+// Used as a deny list for the following loop. Value should be true
+val lootModifierDenyList: bool[string] = {};
+
+for mob, trophyMob in mobs {
+  val entity = BracketHandlers.getEntityType(mob);
+
+  if !(mob in lootModifierDenyList) {
+    entity.addLootModifier("extra_drops_" + mob.replace(":", "_"), (drops, ctx) => {
+      drops.add(<item:minecraft:bone>);
+
+      return drops;
+    });
+  }
+}
