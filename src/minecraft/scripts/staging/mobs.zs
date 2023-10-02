@@ -128,9 +128,41 @@ val mobs: TrophyMob[string] = {
   // let me know in the comments if you care and don't forget
   // to ring that bell and hit that like button
 
-  // Modded Entities
   "energeticsheep:energetic_sheep": new TrophyMob(MobStage.EnergeticSheep, "Energetic Sheep"),
-  "goblintraders:goblin_trader": new TrophyMob(MobStage.GoblinTrader, "Goblin Traders")
+
+  // Earth Mobs Mod Entities
+  "earthmobsmod:albino_cow": new TrophyMob(MobStage.Albino_Cow, "Albino Cow"),
+  "earthmobsmod:jolly_llama": new TrophyMob(MobStage.JollyLlama, "Jolly Llama"),
+  "earthmobsmod:skeleton_wolf": new TrophyMob(MobStage.SkeletonWolf, "Skeleton Wolf"),
+  "earthmobsmod:melon_golem": new TrophyMob(MobStage.MelonGolem, "Melon Golem"),
+  "earthmobsmod:wooly_cow": new TrophyMob(MobStage.WoolyCow, "Wooly Cow"),
+  "earthmobsmod:hyper_rabbit": new TrophyMob(MobStage.HyperRabbit, "Hyper Rabbit"),
+  "earthmobsmod:magma_cow": new TrophyMob(MobStage.MagmaCow, "Magma Cow"),
+  "earthmobsmod:moobloom": new TrophyMob(MobStage.Moobloom, "Moobloom"),
+  "earthmobsmod:cream_cow": new TrophyMob(MobStage.CreamCow, "Cream Cow"),
+  "earthmobsmod:baby_ghast": new TrophyMob(MobStage.BabyGhast, "Baby Ghast"),
+  "earthmobsmod:zombified_pig": new TrophyMob(MobStage.ZombifiedPig, "Zombified Pig"),
+  "earthmobsmod:jumbo_rabbit": new TrophyMob(MobStage.JumboRabbit, "Jumbo Rabbit"),
+  "earthmobsmod:moolip": new TrophyMob(MobStage.Moolip, "Moolip"),
+  "earthmobsmod:teacup_pig": new TrophyMob(MobStage.TeacupPig, "Teacup Pig"),
+  "earthmobsmod:bouldering_zombie": new TrophyMob(MobStage.BoulderingZombie, "Bouldering Zombie"),
+  "earthmobsmod:furnace_golem": new TrophyMob(MobStage.FurnaceGolem, "Furnace Golem"),
+  "earthmobsmod:lobber_zombie": new TrophyMob(MobStage.LobberZombie, "Lobber Zombie"),
+  "earthmobsmod:tropical_slime": new TrophyMob(MobStage.TropicalSlime, "Tropical Slime"),
+  "earthmobsmod:stray_bone_spider": new TrophyMob(MobStage.StrayBoneSpider, "Stray Bone Spider"),
+  "earthmobsmod:fancy_chicken": new TrophyMob(MobStage.FancyChicken, "Fancy Chicken"),
+  "earthmobsmod:bone_spider": new TrophyMob(MobStage.BoneSpider, "Bone Spider"),
+  "earthmobsmod:lobber_drowned": new TrophyMob(MobStage.LobberDrowned, "Lobber Drowned"),
+  "earthmobsmod:bouldering_drowned": new TrophyMob(MobStage.BoulderingDrowned, "Bouldering Drowned"),
+  "earthmobsmod:viler_witch": new TrophyMob(MobStage.VilerWitch, "Viler Witch"),
+  "earthmobsmod:duck": new TrophyMob(MobStage.Duck, "Duck"),
+  "earthmobsmod:cluck_shroom": new TrophyMob(MobStage.CluckShroom, "Cluck Shroom"),
+  "earthmobsmod:wither_skeleton_wolf": new TrophyMob(MobStage.WitherSkeletonWolf, "Wither Skeleton Wolf"),
+  "earthmobsmod:umbra_cow": new TrophyMob(MobStage.UmbraCow, "Umbra Cow")
+
+
+
+
 };
 
 events.register<RightClickBlockEvent>(event => {
