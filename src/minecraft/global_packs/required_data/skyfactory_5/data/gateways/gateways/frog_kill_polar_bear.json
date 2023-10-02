@@ -1,0 +1,40 @@
+{
+  "size": "large",
+  "leash_range": 50000000,
+  "color": "#ffffff",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "minecraft:polar_bear",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+        },
+        {
+          "entity": "minecraft:polar_bear",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 750,
+      "setup_time": 150
+    }
+  ],
+  "rewards": [
+    {
+      "type": "stack",
+      "stack": {
+        "item": "obtrophies:trophy",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "VariantID": 0,
+            "SpecialCycleVariant": 0,
+            "entity": "minecraft:polar_bear"
+          }
+        }
+      }
+    }
+  ],
+  "completion_xp": 250,
+  "spawn_range": 5
+}
