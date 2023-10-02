@@ -4,11 +4,15 @@ import crafttweaker.api.loot.LootContext;
 import crafttweaker.api.util.math.RandomSource;
 
 public function rollsChance(random: RandomSource, percent: float): bool {
+  if percent <= 0.0 {
+    return false;
+  }
+
   if percent >= 100.0 {
     return true;
   }
 
-  return random.nextFloat() * 100 < percent;
+  return random.nextFloat() < percent / 100;
 }
 
 public function isRealPlayerLooting(ctx: LootContext): bool {
