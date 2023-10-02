@@ -198,6 +198,13 @@ REIEvents.groupEntries((event) => {
     /^exdeorum:.*sieve$/,
   ]);
 
+  // Frog Kill Gateway Pearls
+  event.groupItems(
+    "kubejs:rei_groups/frog_kill_pearls",
+    "Defeated by Frog Gateway Pearls",
+    [/^frog_kill_.*/],
+  );
+
   // Spawn Eggs
   event.groupItems("kubejs:rei_groups/spawn_eggs", "Spawn Eggs", [/spawn_egg/]);
 
