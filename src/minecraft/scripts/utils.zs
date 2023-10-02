@@ -3,8 +3,12 @@ import crafttweaker.api.entity.type.player.Player;
 import crafttweaker.api.loot.LootContext;
 import crafttweaker.api.util.math.RandomSource;
 
-public function rollsChance(random: RandomSource, percent: int): bool {
-  return random.nextIntBetweenInclusive(0, 99) < percent;
+public function rollsChance(random: RandomSource, percent: float): bool {
+  if percent >= 100.0 {
+    return true;
+  }
+
+  return random.nextFloat() * 100 < percent;
 }
 
 public function isRealPlayerLooting(ctx: LootContext): bool {
