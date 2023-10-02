@@ -6,7 +6,7 @@ import {
 import { createUpsertLangAction } from "scripts/generator/minecraft-json-things/custom-actions/upsert-lang";
 import { ActionGetter } from "scripts/generator/minecraft-json-things/models";
 
-export const getActionsForFood: ActionGetter = (data) => {
+export const getActionsForItem: ActionGetter = (data) => {
   return [
     createUpsertLangAction("item"),
     {

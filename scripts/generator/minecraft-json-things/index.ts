@@ -4,6 +4,7 @@ import { genEnsureConfirmedAction } from "scripts/generator/common";
 import { RegisterGeneratorFn } from "scripts/generator/models";
 import { getActionsForBlockAndItem } from "./action-getters/block-and-item";
 import { getActionsForFood } from "./action-getters/food";
+import { getActionsForItem } from "./action-getters/item";
 import { getActionsForStick } from "./action-getters/stick";
 import { packNamespace, PromptName, Thing } from "./constants";
 import { ActionData } from "./models";
@@ -96,6 +97,9 @@ const getActionsForThing: DynamicActionsFunction = (answers) => {
       break;
     case Thing.Food:
       actions.push(...getActionsForFood(actionData));
+      break;
+    case Thing.Item:
+      actions.push(...getActionsForItem(actionData));
       break;
     case Thing.Stick:
       actions.push(...getActionsForStick(actionData));
