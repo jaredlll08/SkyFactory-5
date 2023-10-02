@@ -1,0 +1,107 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_concrete_powder"
+    },
+    "title": "Red Stage",
+    "description": "This is a test",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:entity_spawning/root",
+  "criteria": {
+    "spider_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:spider_eye"]
+          }
+        ]
+      }
+    },
+    "melon_slice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:melon_slice"]
+          }
+        ]
+      }
+    },
+    "apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:apple"]
+          }
+        ]
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:salmon"]
+          }
+        ]
+      }
+    },
+    "beetroot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:beetroot"]
+          }
+        ]
+      }
+    },
+    "sweet_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:sweet_berries"]
+          }
+        ]
+      }
+    },
+    "poppy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:poppy"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "spider_eye",
+      "melon_slice",
+      "apple",
+      "salmon",
+      "beetroot",
+      "sweet_berries",
+      "poppy"
+    ]
+  ],
+  "rewards": {
+    "function": "skyfactory_5:stages/red_stage"
+  }
+}

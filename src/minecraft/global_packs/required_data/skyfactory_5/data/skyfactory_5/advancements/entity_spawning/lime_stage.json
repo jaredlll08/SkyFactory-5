@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:lime_concrete_powder"
     },
-    "title": "White Stage",
+    "title": "Lime Stage",
     "description": "This is a test",
     "frame": "task",
     "show_toast": true,
@@ -12,42 +12,53 @@
   },
   "parent": "skyfactory_5:entity_spawning/root",
   "criteria": {
-    "obtain_string": {
+    "limestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:string"]
+            "items": ["create:limestone"]
           }
         ]
       }
     },
-    "obtain_bone": {
+    "slime_ball": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:bone"]
+            "items": ["minecraft:slime_ball"]
           }
         ]
       }
     },
-    "obtain_bone_meal": {
+    "scute": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:bone_meal"]
+            "items": ["minecraft:scute"]
+          }
+        ]
+      }
+    },
+    "turtle_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:turtle_helmet"]
           }
         ]
       }
     }
   },
-  "requirements": [["obtain_bone_meal", "obtain_bone", "obtain_string"]],
+  "requirements": [["limestone", "slime_ball", "scute", "turtle_helmet"]],
   "rewards": {
-    "function": "skyfactory_5:stages/white_stage"
+    "function": "skyfactory_5:stages/lime_stage"
   }
 }

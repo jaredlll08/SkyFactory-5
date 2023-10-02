@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:light_gray_concrete_powder"
     },
-    "title": "White Stage",
+    "title": "Light Gray Stage",
     "description": "This is a test",
     "frame": "task",
     "show_toast": true,
@@ -12,42 +12,31 @@
   },
   "parent": "skyfactory_5:entity_spawning/root",
   "criteria": {
-    "obtain_string": {
+    "goat_horn": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:string"]
+            "items": ["minecraft:goat_horn"]
           }
         ]
       }
     },
-    "obtain_bone": {
+    "lodestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:bone"]
-          }
-        ]
-      }
-    },
-    "obtain_bone_meal": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "player": [],
-        "items": [
-          {
-            "items": ["minecraft:bone_meal"]
+            "items": ["minecraft:lodestone"]
           }
         ]
       }
     }
   },
-  "requirements": [["obtain_bone_meal", "obtain_bone", "obtain_string"]],
+  "requirements": [["goat_horn", "lodestone"]],
   "rewards": {
-    "function": "skyfactory_5:stages/white_stage"
+    "function": "skyfactory_5:stages/light_gray_stage"
   }
 }

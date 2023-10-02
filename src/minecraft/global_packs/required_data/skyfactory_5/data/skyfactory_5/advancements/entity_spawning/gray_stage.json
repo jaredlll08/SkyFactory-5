@@ -1,9 +1,9 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:gray_concrete_powder"
     },
-    "title": "White Stage",
+    "title": "Gray Stage",
     "description": "This is a test",
     "frame": "task",
     "show_toast": true,
@@ -12,42 +12,42 @@
   },
   "parent": "skyfactory_5:entity_spawning/root",
   "criteria": {
-    "obtain_string": {
+    "cobblestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:string"]
+            "items": ["minecraft:cobblestone"]
           }
         ]
       }
     },
-    "obtain_bone": {
+    "gravel": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:bone"]
+            "items": ["minecraft:gravel"]
           }
         ]
       }
     },
-    "obtain_bone_meal": {
+    "stone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:bone_meal"]
+            "items": ["minecraft:stone"]
           }
         ]
       }
     }
   },
-  "requirements": [["obtain_bone_meal", "obtain_bone", "obtain_string"]],
+  "requirements": [["cobblestone", "gravel", "stone"]],
   "rewards": {
-    "function": "skyfactory_5:stages/white_stage"
+    "function": "skyfactory_5:stages/gray_stage"
   }
 }

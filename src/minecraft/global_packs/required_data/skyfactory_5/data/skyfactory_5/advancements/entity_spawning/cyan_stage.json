@@ -1,0 +1,83 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    "title": "Cyan Stage",
+    "description": "This is a test",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:entity_spawning/root",
+  "criteria": {
+    "warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:warped_stem"]
+          }
+        ]
+      }
+    },
+    "stripped_warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:stripped_warped_stem"]
+          }
+        ]
+      }
+    },
+    "oxidized_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:oxidized_copper"]
+          }
+        ]
+      }
+    },
+    "warped_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:warped_planks"]
+          }
+        ]
+      }
+    },
+    "warped_wart_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:warped_wart_block"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "warped_stem",
+      "stripped_warped_stem",
+      "oxidized_copper",
+      "warped_planks",
+      "warped_wart_block"
+    ]
+  ],
+  "rewards": {
+    "function": "skyfactory_5:stages/cyan_stage"
+  }
+}

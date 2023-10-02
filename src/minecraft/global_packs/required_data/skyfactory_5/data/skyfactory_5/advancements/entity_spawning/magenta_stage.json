@@ -1,0 +1,95 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magenta_concrete_powder"
+    },
+    "title": "Magenta Stage",
+    "description": "This is a test",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:entity_spawning/root",
+  "criteria": {
+    "allium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:allium"]
+          }
+        ]
+      }
+    },
+    "allium_bush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["overweight_farming:allium_bush"]
+          }
+        ]
+      }
+    },
+    "peeled_overweight_onion_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["overweight_farming:peeled_overweight_onion_block"]
+          }
+        ]
+      }
+    },
+    "overweight_onion_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["overweight_farming:overweight_onion_block"]
+          }
+        ]
+      }
+    },
+    "onion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["pizzacraft:onion"]
+          }
+        ]
+      }
+    },
+    "onion_slice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["pizzacraft:onion_slice"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "allium",
+      "allium_bush",
+      "peeled_overweight_onion_block",
+      "overweight_onion_block",
+      "onion",
+      "onion_slice"
+    ]
+  ],
+  "rewards": {
+    "function": "skyfactory_5:stages/magenta_stage"
+  }
+}

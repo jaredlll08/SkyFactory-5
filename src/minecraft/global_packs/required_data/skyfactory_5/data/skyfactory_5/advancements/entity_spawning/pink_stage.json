@@ -1,0 +1,131 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_concrete_powder"
+    },
+    "title": "Pink Stage",
+    "description": "This is a test",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:entity_spawning/root",
+  "criteria": {
+    "porkchop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:porkchop"]
+          }
+        ]
+      }
+    },
+    "beef": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:beef"]
+          }
+        ]
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:chicken"]
+          }
+        ]
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:rabbit"]
+          }
+        ]
+      }
+    },
+    "mutton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:mutton"]
+          }
+        ]
+      }
+    },
+    "wing": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["pizzacraft:wing"]
+          }
+        ]
+      }
+    },
+    "cherry_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:cherry_sapling"]
+          }
+        ]
+      }
+    },
+    "cherry_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:cherry_planks"]
+          }
+        ]
+      }
+    },
+    "cherry_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:cherry_log"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "porkchop",
+      "beef",
+      "chicken",
+      "rabbit",
+      "mutton",
+      "wing",
+      "cherry_sapling",
+      "cherry_planks",
+      "cherry_log"
+    ]
+  ],
+  "rewards": {
+    "function": "skyfactory_5:stages/pink_stage"
+  }
+}

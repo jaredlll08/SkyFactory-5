@@ -1,0 +1,71 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_concrete_powder"
+    },
+    "title": "Blue Stage",
+    "description": "This is a test",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:entity_spawning/root",
+  "criteria": {
+    "water_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:water_bucket"]
+          }
+        ]
+      }
+    },
+    "porcelain_water_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["exdeorum:porcelain_water_bucket"]
+          }
+        ]
+      }
+    },
+    "water_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:potion"],
+            "nbt": "{Potion:\"minecraft:water\"}"
+          }
+        ]
+      }
+    },
+    "wooden_bucket_water": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["woodenbucket:wooden_bucket"],
+            "nbt": "{Fluid:{Amount:1000,FluidName:\"minecraft:water\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "water_bucket",
+      "porcelain_water_bucket",
+      "water_bottle",
+      "wooden_bucket_water"
+    ]
+  ],
+  "rewards": {
+    "function": "skyfactory_5:stages/blue_stage"
+  }
+}
