@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:shulker\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:endermite\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

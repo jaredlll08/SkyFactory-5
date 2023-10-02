@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie\"}"
+              "tag": "{gateway:\"gateways:zombified_piglin\"}"
             }
           ]
         },
@@ -19,7 +19,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie_horse\"}"
+              "tag": "{gateway:\"gateways:pig\"}"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie_villager\"}"
+              "tag": "{gateway:\"gateways:axolotl\"}"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:frog\"}"
+              "tag": "{gateway:\"gateways:zoglin\"}"
             }
           ]
         },
@@ -49,7 +49,27 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:sniffer\"}"
+              "tag": "{gateway:\"gateways:hoglin\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:piglin\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:piglin_brute\"}"
             }
           ]
         }

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie\"}"
+              "tag": "{gateway:\"gateways:drowned\"}"
             }
           ]
         },
@@ -19,7 +19,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie_horse\"}"
+              "tag": "{gateway:\"gateways:squid\"}"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie_villager\"}"
+              "tag": "{gateway:\"gateways:wandering_trader\"}"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:frog\"}"
+              "tag": "{gateway:\"gateways:trader_llama\"}"
             }
           ]
         },
@@ -49,7 +49,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:sniffer\"}"
+              "tag": "{gateway:\"gateways:phantom\"}"
             }
           ]
         }

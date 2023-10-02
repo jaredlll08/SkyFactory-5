@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:allay\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:dolphin\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:vex\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

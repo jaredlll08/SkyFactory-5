@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie\"}"
+              "tag": "{gateway:\"gateways:silverfish\"}"
             }
           ]
         },
@@ -19,7 +19,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie_horse\"}"
+              "tag": "{gateway:\"gateways:evoker\"}"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie_villager\"}"
+              "tag": "{gateway:\"gateways:cat\"}"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:frog\"}"
+              "tag": "{gateway:\"gateways:pillager\"}"
             }
           ]
         },
@@ -49,7 +49,27 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:sniffer\"}"
+              "tag": "{gateway:\"gateways:ravager\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:vindicator\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:illusioner\"}"
             }
           ]
         }

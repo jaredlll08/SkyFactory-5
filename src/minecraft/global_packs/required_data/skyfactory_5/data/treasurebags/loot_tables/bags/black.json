@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie\"}"
+              "tag": "{gateway:\"gateways:enderman\"}"
             }
           ]
         },
@@ -19,7 +19,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie_horse\"}"
+              "tag": "{gateway:\"gateways:spider\"}"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie_villager\"}"
+              "tag": "{gateway:\"gateways:wither_skeleton\"}"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:frog\"}"
+              "tag": "{gateway:\"gateways:wither\"}"
             }
           ]
         },
@@ -49,7 +49,27 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:sniffer\"}"
+              "tag": "{gateway:\"gateways:cave_spider\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:ender_dragon\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:adelie_penguin\"}"
             }
           ]
         }

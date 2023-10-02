@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie\"}"
+              "tag": "{gateway:\"gateways:mooshroom\"}"
             }
           ]
         },
@@ -19,7 +19,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie_horse\"}"
+              "tag": "{gateway:\"gateways:parrot\"}"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombie_villager\"}"
+              "tag": "{gateway:\"gateways:strider\"}"
             }
           ]
         },
@@ -39,17 +39,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:frog\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{gateway:\"gateways:sniffer\"}"
+              "tag": "{gateway:\"gateways:salmon\"}"
             }
           ]
         }
