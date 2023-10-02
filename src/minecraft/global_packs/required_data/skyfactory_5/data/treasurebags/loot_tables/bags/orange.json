@@ -52,6 +52,16 @@
               "tag": "{gateway:\"gateways:tropical_fish\"}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:wooly_cow\"}"
+            }
+          ]
         }
       ]
     }

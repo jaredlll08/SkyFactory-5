@@ -22,6 +22,16 @@
               "tag": "{gateway:\"gateways:endermite\"}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:bone_spider\"}"
+            }
+          ]
         }
       ]
     }
