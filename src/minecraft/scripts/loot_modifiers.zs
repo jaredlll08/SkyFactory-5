@@ -18,7 +18,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
     return drops;
   }
 
-  if rollsChance(ctx.random, 4) {
+  if rollsChance(ctx.random, 0.69) {
     drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:drowned"}));
   }
 
@@ -31,7 +31,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
     return drops;
   }
 
-  if rollsChance(ctx.random, 4) {
+  if rollsChance(ctx.random, 0.69) {
     drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie"}));
   }
 
@@ -99,6 +99,15 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
     drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/green", BagType: "treasurebags:green"}}));
   }
 */
+
+  if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:frog"}));
+  }
+
+  if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie"}));
+  }
+
   return drops;
 });
 
@@ -124,6 +133,11 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
     drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/brown", BagType: "treasurebags:brown"}}));
   }
 */
+
+  if rollsChance(ctx.random, 0.69) {
+    drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:cow"}));
+  }
+
   return drops;
 });
 
@@ -149,6 +163,11 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/white", BagType: "treasurebags:white"}}));
   }
 */
+
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:skeleton"}));
+  }
+
   return drops;
 });
 
@@ -175,6 +194,13 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/yellow", BagType: "treasurebags:yellow"}}));
   }
 */
+
+
+
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:bee"}));
+  }
+
   return drops;
 });
 
@@ -200,6 +226,11 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/orange", BagType: "treasurebags:orange"}}));
   }
 */
+
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:wooly_cow"}));
+  }
+
   return drops;
 });
 
@@ -226,6 +257,15 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/black", BagType: "treasurebags:black"}}));
   }
 */
+
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:enderman"}));
+  }
+
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:spider"}));
+  }
+
   return drops;
 });
 
@@ -254,13 +294,13 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/red", BagType: "treasurebags:red"}}));
   }
 */
+
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:cluckshroom"}));
+  }
+
   return drops;
 });
-
-
-
-
-
 
 // Drops Blue Items from Blue leaves
 <block:colouredstuff:leaves_blue>.addLootModifier("blue_leaves", (drops, ctx) => {
@@ -284,6 +324,14 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/blue", BagType: "treasurebags:blue"}}));
   }
 */
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:drowned"}));
+  }
+
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:squid"}));
+  }
+
   return drops;
 });
 
@@ -309,6 +357,11 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/cyan", BagType: "treasurebags:cyan"}}));
   }
 */
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:glow_squid"}));
+  }
+
+
   return drops;
 });
 
@@ -337,6 +390,10 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/gray", BagType: "treasurebags:gray"}}));
   }
 */
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:cat"}));
+  }
+
   return drops;
 });
 
@@ -364,6 +421,11 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/light_blue", BagType: "treasurebags:light_blue"}}));
   }
 */
+
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:allay"}));
+  }
+
   return drops;
 });
 
@@ -389,6 +451,11 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/light_gray", BagType: "treasurebags:light_gray"}}));
   }
 */
+
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:iron_golem"}));
+  }
+
   return drops;
 });
 
@@ -410,10 +477,14 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
     drops.add(<item:minecraft:lime_dye>);
   }
 /*
-  if rollsChance(ctx.random, 1) {
+  if rollsChance(ctx.random, 0.69) {
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/lime", BagType: "treasurebags:lime"}}));
   }
 */
+    if rollsChance(ctx.random, 1) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:creeper"}));
+  }
+
   return drops;
 });
 
@@ -439,6 +510,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/magenta", BagType: "treasurebags:magenta"}}));
   }
 */
+
   return drops;
 });
 
@@ -466,6 +538,10 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/pink", BagType: "treasurebags:pink"}}));
   }
 */
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:pig"}));
+  }
+
   return drops;
 });
 
@@ -491,6 +567,11 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
    drops.add(<item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/purple", BagType: "treasurebags:purple"}}));
   }
 */
+
+    if rollsChance(ctx.random, 0.69) {
+   drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:bone_spider"}));
+  }
+
   return drops;
 });
 
