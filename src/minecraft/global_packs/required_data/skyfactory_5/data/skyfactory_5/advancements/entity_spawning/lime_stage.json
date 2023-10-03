@@ -55,9 +55,22 @@
           }
         ]
       }
+    },
+    "seagrass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:seagrass"]
+          }
+        ]
+      }
     }
   },
-  "requirements": [["limestone", "slime_ball", "scute", "turtle_helmet"]],
+  "requirements": [
+    ["limestone", "slime_ball", "scute", "turtle_helmet", "seagrass"]
+  ],
   "rewards": {
     "function": "skyfactory_5:stages/lime_stage"
   }

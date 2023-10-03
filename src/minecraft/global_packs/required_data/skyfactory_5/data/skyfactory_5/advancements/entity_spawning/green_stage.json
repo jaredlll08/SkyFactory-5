@@ -20,8 +20,20 @@
           "items": ["sf5_things:green_apple"]
         }
       }
+    },
+    "bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:bamboo"]
+          }
+        ]
+      }
     }
   },
+  "requirements": [["eat_green_apple", "bamboo"]],
   "rewards": {
     "function": "skyfactory_5:stages/green_stage"
   }
