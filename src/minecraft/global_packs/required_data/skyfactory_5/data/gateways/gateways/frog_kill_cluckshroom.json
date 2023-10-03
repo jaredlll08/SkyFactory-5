@@ -1,0 +1,41 @@
+{
+  "size": "large",
+  "leash_range": 50000000,
+  "color": "#ff0000",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "earthmobsmod:cluck_shroom",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+        },
+        {
+          "entity": "earthmobsmod:cluck_shroom",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+        }
+      ],
+      "modifiers": [],
+      "rewards": [],
+      "max_wave_time": 750,
+      "setup_time": 150
+    }
+  ],
+  "rewards": [
+    {
+      "type": "stack",
+      "stack": {
+        "item": "obtrophies:trophy",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "VariantID": 0,
+            "SpecialCycleVariant": 0,
+            "entity": "earthmobsmod:cluck_shroom"
+          }
+        }
+      }
+    }
+  ],
+  "completion_xp": 250,
+  "spawn_range": 5
+}
