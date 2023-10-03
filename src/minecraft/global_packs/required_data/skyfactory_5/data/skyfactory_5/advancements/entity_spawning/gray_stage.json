@@ -44,9 +44,20 @@
           }
         ]
       }
+    },
+    "gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:gunpowder"]
+          }
+        ]
+      }
     }
   },
-  "requirements": [["cobblestone", "gravel", "stone"]],
+  "requirements": [["cobblestone", "gravel", "stone", "gunpowder"]],
   "rewards": {
     "function": "skyfactory_5:stages/gray_stage"
   }
