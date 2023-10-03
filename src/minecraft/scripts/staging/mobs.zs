@@ -189,7 +189,7 @@ events.register<RightClickBlockEvent>(event => {
     }
   }
 });
-
+/*
 // Used as a deny list for the following loop. Value should be true
 val lootModifierDenyList: bool[string] = {};
 
@@ -204,3 +204,4 @@ for mob, trophyMob in mobs {
     });
   }
 }
+*/
