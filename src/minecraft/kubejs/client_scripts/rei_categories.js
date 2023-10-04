@@ -109,7 +109,14 @@ REIEvents.groupEntries((event) => {
     "skyfactory_5:colors/yellow",
   );
 
-  // Hides Potions, Enchanted Books, Tipped Arrows, Wooden Buckets (NEED TO FIX WOODEN BUCKETS THEY DONT HIDE IN REI)
+  // Trophies
+  event.groupItemsByTag(
+    "skyfactory_5:rei_groups/trophies",
+    "Trophies",
+    "skyfactory_5:trophies",
+  );
+
+  // Hides Potions, Enchanted Books, Tipped Arrows, Wooden Buckets
   const useNbt = [
     "potion",
     "painting",
@@ -202,7 +209,7 @@ REIEvents.groupEntries((event) => {
   event.groupItems(
     "kubejs:rei_groups/frog_kill_pearls",
     "Defeated by Frog Gateway Pearls",
-    [/^frog_kill_.*/],
+    [/.*frog_kill.*/],
   );
 
   // Spawn Eggs
@@ -253,6 +260,37 @@ REIEvents.groupEntries((event) => {
     "silentgear:template_board",
   ]);
 
+  // Disabled items
+  event.groupItems("kubejs:rei_groups/disabled_items", "Disabled Items", [
+    "minecraft:command_block",
+    "minecraft:barrier",
+    "minecraft:light",
+    "minecraft:structure_void",
+    "silentgear:coating_smithing_template",
+    "phosphophyllite:debug_tool",
+    "citadel:fancy_item",
+    "citadel:icon_item",
+    "citadel:effect_item",
+    "citadel:debug",
+    "sophisticatedstorage:inaccessible_slot",
+    "create:copper_backtank_placeable",
+    "create:netherite_backtank_placeable",
+  ]);
+
+  //Creative items
+  event.groupItems("kubejs:rei_groups/creative_items", "Creative Items", [
+    "ae2:creative_energy_cell",
+    "ae2:creative_item_cell",
+    "ae2:creative_fluid_cell",
+    "wormhole:creative_energy_cell",
+    "cyclic:battery_infinite",
+    "spelled:creative_tome",
+    "create:creative_motor",
+    "create:creative_fluid_tank",
+    "create:creative_crate",
+    "create:creative_blaze_cake",
+    "create:handheld_worldshaper",
+  ]);
   /*
   // Items can also be grouped using anything that can be expressed as an IngredientJS,
   // including for example regular expressions or lists of ingredients
