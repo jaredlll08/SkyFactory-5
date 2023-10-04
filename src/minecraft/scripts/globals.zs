@@ -1,3 +1,5 @@
+#priority 100
+
 public class Globals {
   public static val colors as Color[ColorName] = {
     ColorName.None: new Color(ColorName.None, "none", 9539985), // #919191

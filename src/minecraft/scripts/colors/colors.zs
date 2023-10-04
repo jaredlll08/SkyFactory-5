@@ -1,3 +1,5 @@
+#priority 100
+
 public enum ColorName {
   None = "NONE",
   Red = "RED",
@@ -24,10 +26,14 @@ public class Color {
   private val resourceName as string;
   private val decimalValue as int;
 
-  this(colorName: ColorName, resourceName: string, decimalValue: int) {
+  public this(colorName: ColorName, resourceName: string, decimalValue: int) {
     this.colorName = colorName;
     this.resourceName = resourceName;
     this.decimalValue = decimalValue;
+  }
+
+  public getName(): ColorName {
+    return this.colorName;
   }
 
   public getResourceName(): string {
