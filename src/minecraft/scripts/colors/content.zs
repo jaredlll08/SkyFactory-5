@@ -21,10 +21,12 @@ public class ColoredContent {
   }
 
   public getApple(): IItemStack? {
-    if this.color.getName() != ColorName.None ||
-      this.color.getName() != ColorName.Green ||
-      this.color.getName() != ColorName.Brown ||
-      this.color.getName() != ColorName.White {
+    if this.color.getName() == ColorName.BLACK ||
+      this.color.getName() == ColorName.LIGHT_BROWN ||
+      this.color.getName() == ColorName.LIGHT_GRAY ||
+      this.color.getName() == ColorName.LIME ||
+      this.color.getName() == ColorName.PURPLE ||
+      this.color.getName() == ColorName.YELLOW {
       return null;
     }
 
