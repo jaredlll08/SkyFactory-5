@@ -41,6 +41,20 @@ const config = {
     Vec3d: "readonly",
     Vec3i: "readonly",
   },
+  rules: {
+    "@typescript-eslint/no-restricted-imports": [
+      "error",
+      {
+        patterns: [
+          {
+            group: ["[A-Z]*"],
+            message: "Imports are not allowed in KubeJS files",
+            allowTypeImports: true,
+          },
+        ],
+      },
+    ],
+  },
   overrides: [
     {
       files: "client_scripts/**/*",
