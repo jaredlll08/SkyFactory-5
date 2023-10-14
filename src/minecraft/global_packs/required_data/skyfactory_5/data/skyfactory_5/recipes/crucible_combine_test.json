@@ -1,0 +1,13 @@
+{
+  "type": "sf5stuff:crucible_combine",
+  "fluid": {
+    "fluid": "minecraft:water",
+    "amount": 1000
+  },
+  "input": {
+    "item": "minecraft:sand"
+  },
+  "result": {
+    "item": "minecraft:clay"
+  }
+}
