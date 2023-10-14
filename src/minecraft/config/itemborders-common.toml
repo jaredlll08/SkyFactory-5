@@ -47,6 +47,7 @@ legendary_tooltips_sync = false
 #   Combining selectors - Any number of selectors can be combined by separating them with a plus sign.  Examples: "minecraft:diamond_sword+&Enchantments", "minecraft:stick+~!common+&Damage=0"
 [client.options.manual_borders]
 "#0080ff" = [
+  "obtrophies:trophy+&entity=veincreeper:blue",
   "obtrophies:trophy+&entity=minecraft:drowned",
   "obtrophies:trophy+&entity=minecraft:squid",
   "obtrophies:trophy+&entity=minecraft:phantom",
@@ -57,6 +58,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:viler_witch"
 ]
 "#165F16" = [
+  "obtrophies:trophy+&entity=veincreeper:green",
   "obtrophies:trophy+&entity=minecraft:zombie",
   "obtrophies:trophy+&entity=minecraft:zombie_horse",
   "obtrophies:trophy+&entity=minecraft:zombie_villager",
@@ -65,6 +67,7 @@ legendary_tooltips_sync = false
   "colouredstuff:sapling_green"
 ]
 "#FF10F0" = [
+  "obtrophies:trophy+&entity=veincreeper:pink",
   "obtrophies:trophy+&entity=minecraft:zombified_piglin",
   "obtrophies:trophy+&entity=minecraft:pig",
   "obtrophies:trophy+&entity=minecraft:axolotl",
@@ -79,6 +82,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:teacup_pig"
 ]
 "#c7dcd0" = [
+  "obtrophies:trophy+&entity=veincreeper:white",
   "obtrophies:trophy+&entity=minecraft:chicken",
   "obtrophies:trophy+&entity=minecraft:ghast",
   "obtrophies:trophy+&entity=minecraft:polar_bear",
@@ -95,6 +99,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:melon_golem"
 ]
 "#000000" = [
+  "obtrophies:trophy+&entity=veincreeper:black",
   "obtrophies:trophy+&entity=minecraft:enderman",
   "obtrophies:trophy+&entity=minecraft:spider",
   "obtrophies:trophy+&entity=minecraft:wither_skeleton",
@@ -106,6 +111,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:umbra_cow"
 ]
 "#ff0000" = [
+  "obtrophies:trophy+&entity=veincreeper:red",
   "obtrophies:trophy+&entity=minecraft:mooshroom",
   "obtrophies:trophy+&entity=minecraft:parrot",
   "obtrophies:trophy+&entity=minecraft:strider",
@@ -113,6 +119,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:cluck_shroom"
 ]
 "#ffff00" = [
+  "obtrophies:trophy+&entity=veincreeper:yellow",
   "obtrophies:trophy+&entity=minecraft:camel",
   "obtrophies:trophy+&entity=minecraft:bee",
   "obtrophies:trophy+&entity=minecraft:ocelot",
@@ -120,6 +127,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:cream_cow"
 ]
 "#fb6b1d" = [
+  "obtrophies:trophy+&entity=veincreeper:orange",
   "obtrophies:trophy+&entity=minecraft:blaze",
   "obtrophies:trophy+&entity=minecraft:fox",
   "obtrophies:trophy+&entity=minecraft:tropical_fish",
@@ -130,11 +138,13 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:magma_cow"
 ]
 "#800080" = [
+  "obtrophies:trophy+&entity=veincreeper:purple",
   "obtrophies:trophy+&entity=minecraft:shulker",
   "obtrophies:trophy+&entity=minecraft:endermite",
   "obtrophies:trophy+&entity=earthmobsmod:bone_spider"
 ]
 "#30e1b9" = [
+  "obtrophies:trophy+&entity=veincreeper:cyan",
   "obtrophies:trophy+&entity=minecraft:glow_squid",
   "obtrophies:trophy+&entity=minecraft:warden",
   "obtrophies:trophy+&entity=earthmobsmod:tropical_slime",
@@ -142,6 +152,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:fancy_chicken"
 ]
 "#333333" = [
+  "obtrophies:trophy+&entity=veincreeper:gray",
   "obtrophies:trophy+&entity=minecraft:silverfish",
   "obtrophies:trophy+&entity=minecraft:evoker",
   "obtrophies:trophy+&entity=minecraft:cat",
@@ -152,11 +163,13 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:bouldering_zombie"
 ]
 "#8fd3ff" = [
+  "obtrophies:trophy+&entity=veincreeper:light_blue",
   "obtrophies:trophy+&entity=minecraft:allay",
   "obtrophies:trophy+&entity=minecraft:dolphin",
   "obtrophies:trophy+&entity=minecraft:vex"
 ]
 "#964B00" = [
+  "obtrophies:trophy+&entity=veincreeper:brown",
   "obtrophies:trophy+&entity=minecraft:tadpole",
   "obtrophies:trophy+&entity=minecraft:bat",
   "obtrophies:trophy+&entity=minecraft:cow",
@@ -170,6 +183,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:duck"
 ]
 "#D3D3D3" = [
+  "obtrophies:trophy+&entity=veincreeper:light_gray",
   "obtrophies:trophy+&entity=minecraft:iron_golem",
   "obtrophies:trophy+&entity=minecraft:elder_guardian",
   "obtrophies:trophy+&entity=minecraft:witch",
@@ -179,7 +193,9 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=earthmobsmod:lobber_zombie"
 ]
 "#02FD02" = [
+  "obtrophies:trophy+&entity=veincreeper:lime",
   "obtrophies:trophy+&entity=minecraft:creeper",
   "obtrophies:trophy+&entity=minecraft:slime",
   "obtrophies:trophy+&entity=minecraft:turtle"
 ]
+"#FF00FF" = ["obtrophies:trophy+&entity=veincreeper:magenta"]
