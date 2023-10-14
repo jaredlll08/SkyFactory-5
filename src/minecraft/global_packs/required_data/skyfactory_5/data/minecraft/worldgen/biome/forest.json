@@ -3,12 +3,12 @@
   "downfall": 0.8,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 11250603,
-    "fog_color": 11250603,
-    "water_color": 11250603,
-    "water_fog_color": 11250603,
-    "grass_color": 11250603,
-    "foliage_color": 11250603,
+    "sky_color": 7972607,
+    "fog_color": 7972607,
+    "water_color": 7972607,
+    "water_fog_color": 7972607,
+    "grass_color": 5035577,
+    "foliage_color": 5035577,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
