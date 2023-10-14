@@ -31,8 +31,8 @@
   },
   {
     "mob": ["minecraft:zombie", "minecraft:zombie_villager"],
-    "persecond": 1,
-    "attempts": 15,
+    "persecond": 10,
+    "attempts": 50,
     "amount": {
       "minimum": 1,
       "maximum": 4
@@ -41,7 +41,26 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["minecraft:skeleton", "minecraft:stray"],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -66,8 +85,25 @@
       "minecraft:llama",
       "minecraft:pig",
       "minecraft:chicken",
-      "minecraft:mooshroom"
+      "minecraft:mooshroom",
+      "earthmobsmod:cluck_shroom",
+      "earthmobsmod:wooly_cow"
     ],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:goat"],
     "persecond": 10,
     "attempts": 50,
     "amount": {
@@ -97,7 +133,7 @@
     }
   },
   {
-    "mob": ["minecraft:turtle"],
+    "mob": ["minecraft:turtle", "minecraft:frog"],
     "persecond": 10,
     "attempts": 50,
     "amount": {
@@ -121,7 +157,7 @@
     },
     "conditions": {
       "dimension": "minecraft:overworld",
-      "inlava": true,
+      "inlava": false,
       "mindist": 24,
       "maxdist": 96
     }
@@ -163,7 +199,7 @@
       "minecraft:polar_bear"
     ],
     "persecond": 1,
-    "attempts": 5,
+    "attempts": 20,
     "amount": {
       "minimum": 1,
       "maximum": 4
@@ -189,7 +225,7 @@
     }
   },
   {
-    "mob": ["minecraft:villager", "goblintraders:goblin_trader"],
+    "mob": ["minecraft:villager"],
     "persecond": 1,
     "attempts": 25,
     "amount": {
@@ -265,6 +301,51 @@
   },
   {
     "mob": ["minecraft:ghast"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:bee"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": [
+      "veincreeper:magenta",
+      "veincreeper:pink",
+      "veincreeper:yellow",
+      "veincreeper:cyan",
+      "veincreeper:red",
+      "veincreeper:gray",
+      "veincreeper:white",
+      "veincreeper:green",
+      "veincreeper:light_gray",
+      "veincreeper:lime",
+      "veincreeper:black",
+      "veincreeper:light_blue",
+      "veincreeper:brown",
+      "veincreeper:orange",
+      "veincreeper:blue",
+      "veincreeper:purple"
+    ],
     "persecond": 1,
     "attempts": 15,
     "amount": {

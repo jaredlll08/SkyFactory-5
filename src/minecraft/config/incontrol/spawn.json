@@ -18,8 +18,17 @@
     "result": "deny"
   },
   {
+    "hostile": true,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 11999,
+    "result": "deny"
+  },
+  {
     "mob": ["minecraft:blaze"],
     "gamestage": "blaze",
+    "minlight": 0,
+    "maxlight": 7,
     "potion": "minecraft:glowing,10000,1",
     "nbt": {
       "Team": "sf5_gold_team"
@@ -35,6 +44,8 @@
   {
     "mob": ["minecraft:cave_spider"],
     "gamestage": "cavespider",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -46,6 +57,8 @@
   {
     "mob": ["minecraft:creeper"],
     "gamestage": "creeper",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -57,6 +70,8 @@
   {
     "mob": ["minecraft:drowned"],
     "gamestage": "drowned",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -68,6 +83,8 @@
   {
     "mob": ["minecraft:enderman"],
     "gamestage": "enderman",
+    "minlight": 0,
+    "maxlight": 7,
     "potion": "minecraft:glowing,10000,1",
     "nbt": {
       "Team": "sf5_black_team"
@@ -83,6 +100,8 @@
   {
     "mob": ["minecraft:endermite"],
     "gamestage": "endermite",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -94,6 +113,8 @@
   {
     "mob": ["minecraft:evoker"],
     "gamestage": "evoker",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -105,6 +126,8 @@
   {
     "mob": ["minecraft:ghast"],
     "gamestage": "ghast",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -116,6 +139,8 @@
   {
     "mob": ["minecraft:guardian"],
     "gamestage": "guardian",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -127,6 +152,8 @@
   {
     "mob": ["minecraft:hoglin"],
     "gamestage": "hoglin",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -138,6 +165,8 @@
   {
     "mob": ["minecraft:husk"],
     "gamestage": "husk",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -149,6 +178,8 @@
   {
     "mob": ["minecraft:illusioner"],
     "gamestage": "illusioner",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -160,6 +191,8 @@
   {
     "mob": ["minecraft:magma_cube"],
     "gamestage": "magmacube",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -171,6 +204,8 @@
   {
     "mob": ["minecraft:phantom"],
     "gamestage": "phantom",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -182,6 +217,8 @@
   {
     "mob": ["minecraft:piglin"],
     "gamestage": "piglin",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -193,6 +230,8 @@
   {
     "mob": ["minecraft:piglin_brute"],
     "gamestage": "piglinbrute",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -204,6 +243,8 @@
   {
     "mob": ["minecraft:pillager"],
     "gamestage": "pillager",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -215,6 +256,8 @@
   {
     "mob": ["minecraft:ravager"],
     "gamestage": "ravager",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -226,6 +269,8 @@
   {
     "mob": ["minecraft:shulker"],
     "gamestage": "shulker",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -237,6 +282,8 @@
   {
     "mob": ["minecraft:silverfish"],
     "gamestage": "silverfish",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -248,6 +295,8 @@
   {
     "mob": ["minecraft:skeleton"],
     "gamestage": "skeleton",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -264,6 +313,8 @@
   {
     "mob": ["minecraft:slime"],
     "gamestage": "slime",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -275,6 +326,8 @@
   {
     "mob": ["minecraft:spider"],
     "gamestage": "spider",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -286,6 +339,8 @@
   {
     "mob": ["minecraft:stray"],
     "gamestage": "stray",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -297,6 +352,8 @@
   {
     "mob": ["minecraft:vex"],
     "gamestage": "vex",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -308,6 +365,8 @@
   {
     "mob": ["minecraft:vindicator"],
     "gamestage": "vindicator",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -319,6 +378,8 @@
   {
     "mob": ["minecraft:warden"],
     "gamestage": "warden",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -330,6 +391,8 @@
   {
     "mob": ["minecraft:witch"],
     "gamestage": "witch",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -341,6 +404,8 @@
   {
     "mob": ["minecraft:wither"],
     "gamestage": "wither",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -352,6 +417,8 @@
   {
     "mob": ["minecraft:wither_skeleton"],
     "gamestage": "witherskeleton",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -363,6 +430,8 @@
   {
     "mob": ["minecraft:zoglin"],
     "gamestage": "zoglin",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -374,7 +443,8 @@
   {
     "mob": ["minecraft:zombie"],
     "gamestage": "zombie",
-    "potion": "minecraft:glowing,10000,1",
+    "minlight": 0,
+    "maxlight": 7,
     "nbt": {
       "Team": "sf5_green_team"
     },
@@ -390,6 +460,8 @@
   {
     "mob": ["minecraft:zombie_villager"],
     "gamestage": "zombievillager",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -401,6 +473,8 @@
   {
     "mob": ["minecraft:zombified_piglin"],
     "gamestage": "zombifiedpiglin",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -412,6 +486,8 @@
   {
     "mob": ["minecraft:axolotl"],
     "gamestage": "axolotl",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -422,7 +498,12 @@
   },
   {
     "mob": ["minecraft:bee"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "bee",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -434,6 +515,8 @@
   {
     "mob": ["minecraft:camel"],
     "gamestage": "camel",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -445,6 +528,8 @@
   {
     "mob": ["minecraft:cat"],
     "gamestage": "cat",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -459,6 +544,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "chicken",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -473,6 +560,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "cow",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -484,6 +573,8 @@
   {
     "mob": ["minecraft:donkey"],
     "gamestage": "donkey",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -494,7 +585,20 @@
   },
   {
     "mob": ["minecraft:fox"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "fox",
+    "minlight": 7,
+    "maxlight": 15,
+    "helditem": [
+      "50=minecraft:bone",
+      "5=minecraft:orange_dye",
+      "5=ars_nouveau:blue_archwood_sapling",
+      "5=ars_nouveau:green_archwood_sapling",
+      "5=ars_nouveau:red_archwood_sapling",
+      "5=ars_nouveau:purple_archwood_sapling"
+    ],
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -506,6 +610,8 @@
   {
     "mob": ["minecraft:frog"],
     "gamestage": "frog",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -516,7 +622,12 @@
   },
   {
     "mob": ["minecraft:goat"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "goat",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -528,6 +639,8 @@
   {
     "mob": ["minecraft:horse"],
     "gamestage": "horse",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -539,6 +652,8 @@
   {
     "mob": ["minecraft:iron_golem"],
     "gamestage": "irongolem",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -553,6 +668,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "llama",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -567,6 +684,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "mooshroom",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -578,6 +697,8 @@
   {
     "mob": ["minecraft:ocelot"],
     "gamestage": "ocelot",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -589,6 +710,8 @@
   {
     "mob": ["minecraft:panda"],
     "gamestage": "panda",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -603,6 +726,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "pig",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -614,6 +739,8 @@
   {
     "mob": ["minecraft:rabbit"],
     "gamestage": "rabbit",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -628,6 +755,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "sheep",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -639,6 +768,8 @@
   {
     "mob": ["minecraft:sniffer"],
     "gamestage": "sniffer",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -650,6 +781,8 @@
   {
     "mob": ["minecraft:snow_golem"],
     "gamestage": "snowgolem",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -661,6 +794,8 @@
   {
     "mob": ["minecraft:strider"],
     "gamestage": "strider",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -672,6 +807,8 @@
   {
     "mob": ["minecraft:wolf"],
     "gamestage": "wolf",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -683,6 +820,8 @@
   {
     "mob": ["minecraft:cod"],
     "gamestage": "cod",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -694,6 +833,8 @@
   {
     "mob": ["minecraft:glow_squid"],
     "gamestage": "glowsquid",
+    "minlight": 0,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -705,6 +846,8 @@
   {
     "mob": ["minecraft:pufferfish"],
     "gamestage": "pufferfish",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -716,6 +859,8 @@
   {
     "mob": ["minecraft:salmon"],
     "gamestage": "salmon",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -727,6 +872,8 @@
   {
     "mob": ["minecraft:squid"],
     "gamestage": "squid",
+    "minlight": 0,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -738,6 +885,8 @@
   {
     "mob": ["minecraft:tadpole"],
     "gamestage": "tadpole",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -749,6 +898,8 @@
   {
     "mob": ["minecraft:tropical_fish"],
     "gamestage": "tropicalfish",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -760,6 +911,8 @@
   {
     "mob": ["minecraft:dolphin"],
     "gamestage": "dolphin",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -774,6 +927,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "allay",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -785,6 +940,8 @@
   {
     "mob": ["minecraft:parrot"],
     "gamestage": "parrot",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -796,6 +953,8 @@
   {
     "mob": ["minecraft:polar_bear"],
     "gamestage": "polarbear",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -807,6 +966,8 @@
   {
     "mob": ["minecraft:skeleton_horse"],
     "gamestage": "skeletonhorse",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -821,6 +982,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "turtle",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -832,6 +995,8 @@
   {
     "mob": ["minecraft:zombie_horse"],
     "gamestage": "zombiehorse",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -843,6 +1008,8 @@
   {
     "mob": ["minecraft:bat"],
     "gamestage": "bat",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -854,6 +1021,8 @@
   {
     "mob": ["minecraft:villager"],
     "gamestage": "villager",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -865,6 +1034,8 @@
   {
     "mob": ["minecraft:wandering_trader"],
     "gamestage": "wanderingtrader",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -879,6 +1050,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "energeticsheep",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -890,6 +1063,8 @@
   {
     "mob": ["giacomos_gigglers:giggler"],
     "gamestage": "giggler",
+    "minlight": 7,
+    "maxlight": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -899,8 +1074,572 @@
     "result": "allow"
   },
   {
-    "mob": ["goblintraders:goblin_trader"],
-    "gamestage": "goblintrader",
+    "mob": ["earthmobsmod:albino_cow"],
+    "gamestage": "albinocow",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:jolly_llama"],
+    "gamestage": "jollyllama",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:skeleton_wolf"],
+    "gamestage": "skeletonwolf",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:melon_golem"],
+    "gamestage": "melongolem",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:wooly_cow"],
+    "gamestage": "woolycow",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:hyper_rabbit"],
+    "gamestage": "hyperrabbit",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:magma_cow"],
+    "gamestage": "magmacow",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:moobloom"],
+    "gamestage": "moobloom",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:cream_cow"],
+    "gamestage": "creamcow",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:baby_ghast"],
+    "gamestage": "babyghast",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:zombified_pig"],
+    "gamestage": "zombifiedpig",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:jumbo_rabbit"],
+    "gamestage": "jumborabbit",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:moolip"],
+    "gamestage": "moolip",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:teacup_pig"],
+    "gamestage": "teacuppig",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:bouldering_zombie"],
+    "gamestage": "boulderingzombie",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:furnace_golem"],
+    "gamestage": "furnacegolem",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:lobber_zombie"],
+    "gamestage": "lobberzombie",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:tropical_slime"],
+    "gamestage": "tropicalslime",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:stray_bone_spider"],
+    "gamestage": "straybonespider",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:fancy_chicken"],
+    "gamestage": "fancychicken",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:bone_spider"],
+    "gamestage": "bonespider",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:lobber_drowned"],
+    "gamestage": "lobberdrowned",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:bouldering_drowned"],
+    "gamestage": "boulderingdrowned",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:viler_witch"],
+    "gamestage": "vilerwitch",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:duck"],
+    "gamestage": "duck",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:cluck_shroom"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "cluckshroom",
+    "minlight": 7,
+    "maxlight": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:wither_skeleton_wolf"],
+    "gamestage": "witherskeletonwolf",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["earthmobsmod:umbra_cow"],
+    "gamestage": "umbracow",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:black"],
+    "gamestage": "blackveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:blue"],
+    "gamestage": "blueveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:brown"],
+    "gamestage": "brownveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:cyan"],
+    "gamestage": "cyanveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:gray"],
+    "gamestage": "grayveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:green"],
+    "gamestage": "greenveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:light_blue"],
+    "gamestage": "lightblueveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:light_gray"],
+    "gamestage": "lightgrayveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:lime"],
+    "gamestage": "limeveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:magenta"],
+    "gamestage": "magentaveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:orange"],
+    "gamestage": "orangeveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:pink"],
+    "gamestage": "pinkveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:purple"],
+    "gamestage": "purpleveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:red"],
+    "gamestage": "redveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:white"],
+    "gamestage": "whiteveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["veincreeper:yellow"],
+    "gamestage": "yellowveincreeper",
+    "minlight": 0,
+    "maxlight": 7,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -986,8 +1725,51 @@
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
       "minecraft:zombified_piglin",
-      "goblintraders:goblin_trader",
-      "minecraft:iron_golem"
+      "minecraft:iron_golem",
+      "earthmobsmod:albino_cow",
+      "earthmobsmod:jolly_llama",
+      "earthmobsmod:skeleton_wolf",
+      "earthmobsmod:melon_golem",
+      "earthmobsmod:wooly_cow",
+      "earthmobsmod:hyper_rabbit",
+      "earthmobsmod:magma_cow",
+      "earthmobsmod:moobloom",
+      "earthmobsmod:cream_cow",
+      "earthmobsmod:baby_ghast",
+      "earthmobsmod:zombified_pig",
+      "earthmobsmod:jumbo_rabbit",
+      "earthmobsmod:moolip",
+      "earthmobsmod:teacup_pig",
+      "earthmobsmod:bouldering_zombie",
+      "earthmobsmod:furnace_golem",
+      "earthmobsmod:lobber_zombie",
+      "earthmobsmod:tropical_slime",
+      "earthmobsmod:stray_bone_spider",
+      "earthmobsmod:fancy_chicken",
+      "earthmobsmod:bone_spider",
+      "earthmobsmod:lobber_drowned",
+      "earthmobsmod:bouldering_drowned",
+      "earthmobsmod:viler_witch",
+      "earthmobsmod:duck",
+      "earthmobsmod:cluck_shroom",
+      "earthmobsmod:wither_skeleton_wolf",
+      "earthmobsmod:umbra_cow",
+      "veincreeper:black",
+      "veincreeper:blue",
+      "veincreeper:brown",
+      "veincreeper:cyan",
+      "veincreeper:gray",
+      "veincreeper:green",
+      "veincreeper:light_blue",
+      "veincreeper:light_gray",
+      "veincreeper:lime",
+      "veincreeper:magenta",
+      "veincreeper:orange",
+      "veincreeper:pink",
+      "veincreeper:purple",
+      "veincreeper:red",
+      "veincreeper:white",
+      "veincreeper:yellow"
     ],
     "result": "deny"
   },
@@ -1073,8 +1855,51 @@
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
       "minecraft:zombified_piglin",
-      "goblintraders:goblin_trader",
-      "minecraft:iron_golem"
+      "minecraft:iron_golem",
+      "earthmobsmod:albino_cow",
+      "earthmobsmod:jolly_llama",
+      "earthmobsmod:skeleton_wolf",
+      "earthmobsmod:melon_golem",
+      "earthmobsmod:wooly_cow",
+      "earthmobsmod:hyper_rabbit",
+      "earthmobsmod:magma_cow",
+      "earthmobsmod:moobloom",
+      "earthmobsmod:cream_cow",
+      "earthmobsmod:baby_ghast",
+      "earthmobsmod:zombified_pig",
+      "earthmobsmod:jumbo_rabbit",
+      "earthmobsmod:moolip",
+      "earthmobsmod:teacup_pig",
+      "earthmobsmod:bouldering_zombie",
+      "earthmobsmod:furnace_golem",
+      "earthmobsmod:lobber_zombie",
+      "earthmobsmod:tropical_slime",
+      "earthmobsmod:stray_bone_spider",
+      "earthmobsmod:fancy_chicken",
+      "earthmobsmod:bone_spider",
+      "earthmobsmod:lobber_drowned",
+      "earthmobsmod:bouldering_drowned",
+      "earthmobsmod:viler_witch",
+      "earthmobsmod:duck",
+      "earthmobsmod:cluck_shroom",
+      "earthmobsmod:wither_skeleton_wolf",
+      "earthmobsmod:umbra_cow",
+      "veincreeper:black",
+      "veincreeper:blue",
+      "veincreeper:brown",
+      "veincreeper:cyan",
+      "veincreeper:gray",
+      "veincreeper:green",
+      "veincreeper:light_blue",
+      "veincreeper:light_gray",
+      "veincreeper:lime",
+      "veincreeper:magenta",
+      "veincreeper:orange",
+      "veincreeper:pink",
+      "veincreeper:purple",
+      "veincreeper:red",
+      "veincreeper:white",
+      "veincreeper:yellow"
     ],
     "spawner": true,
     "armorhelmet": {
