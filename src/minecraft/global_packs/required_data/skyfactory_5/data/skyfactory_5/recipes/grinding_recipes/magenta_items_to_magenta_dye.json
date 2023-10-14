@@ -2,18 +2,18 @@
   "type": "create:milling",
   "ingredients": [
     {
-      "tag": "skyfactory_5:colors/processing_items/orange"
+      "tag": "skyfactory_5:colors/processing_items/magenta"
     }
   ],
   "processingTime": 100,
   "results": [
     {
       "count": 1,
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:magenta_dye"
     },
     {
       "chance": 0.1,
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:magenta_dye"
     }
   ]
 }
