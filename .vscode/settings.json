@@ -315,5 +315,6 @@
     "zamites",
     "zoglin",
     "zombified"
-  ]
+  ],
+  "evenBetterToml.schema.enabled": false
 }
