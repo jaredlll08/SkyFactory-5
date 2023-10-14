@@ -6,6 +6,7 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
+          "weight": 75,
           "functions": [
             {
               "function": "set_nbt",
@@ -16,6 +17,7 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
+          "weight": 50,
           "functions": [
             {
               "function": "set_nbt",
@@ -26,6 +28,7 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
+          "weight": 75,
           "functions": [
             {
               "function": "set_nbt",
@@ -36,6 +39,7 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
+          "weight": 20,
           "functions": [
             {
               "function": "set_nbt",
@@ -46,6 +50,7 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
+          "weight": 20,
           "functions": [
             {
               "function": "set_nbt",
@@ -56,10 +61,22 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
+          "weight": 60,
           "functions": [
             {
               "function": "set_nbt",
               "tag": "{gateway:\"gateways:wooly_cow\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:\"vein_creeper_orange\"}"
             }
           ]
         }

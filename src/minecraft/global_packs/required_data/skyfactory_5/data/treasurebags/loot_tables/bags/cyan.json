@@ -6,6 +6,7 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
@@ -16,10 +17,22 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
+          "weight": 5,
           "functions": [
             {
               "function": "set_nbt",
               "tag": "{gateway:\"gateways:warden\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:\"vein_creeper_cyan\"}"
             }
           ]
         }
