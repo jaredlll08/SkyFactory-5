@@ -24,30 +24,32 @@ public class Tree {
     val treeColoredContent = this.coloredContent;
 
     this.getLeaves().addLootModifier("colored_leaves_" + this.color.getResourceName(), (drops, ctx) => {
-      if !isRealPlayerLooting(ctx) {
-        return drops;
-      }
+      val saplingDropChance = isRealPlayerLooting(ctx) ? 15 : 15;
+      val appleDropChance = isRealPlayerLooting(ctx) ? 5 : 5;
+      val dyeDropChance = isRealPlayerLooting(ctx) ? 10 : 10;
+      val stickDropChance = isRealPlayerLooting(ctx) ? 5 : 5;
+      val gatewayDropChance = isRealPlayerLooting(ctx) ? 0.69 : 0.69;
 
-      if rollsChance(ctx.random, 15) {
+      if rollsChance(ctx.random, saplingDropChance) {
         drops.add(tree.getSapling());
       }
 
       val apple = treeColoredContent.getApple();
-      if apple != null && rollsChance(ctx.random, 5) {
+      if apple != null && rollsChance(ctx.random, appleDropChance) {
         drops.add(apple as IItemStack);
       }
 
       val dye = treeColoredContent.getDye();
-      if dye != null && rollsChance(ctx.random, 10) {
+      if dye != null && rollsChance(ctx.random, dyeDropChance) {
         drops.add(dye as IItemStack);
       }
 
-      if rollsChance(ctx.random, 5) {
+      if rollsChance(ctx.random, stickDropChance) {
         drops.add(treeColoredContent.getStick());
       }
 
       for gateway in treeColoredContent.getGateways() {
-        if rollsChance(ctx.random, 0.69) {
+        if rollsChance(ctx.random, gatewayDropChance) {
           drops.add(<item:gateways:gate_pearl>.withTag({gateway: gateway}));
         }
       }
