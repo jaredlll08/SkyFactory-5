@@ -37,11 +37,6 @@ public class Tree {
         drops.add(apple as IItemStack);
       }
 
-      // val bag = treeColoredContent.getBag();
-      // if bag != null && rollsChance(ctx.random, 1) {
-      //   drops.add(bag as IItemStack);
-      // }
-
       val dye = treeColoredContent.getDye();
       if dye != null && rollsChance(ctx.random, 10) {
         drops.add(dye as IItemStack);

@@ -21,14 +21,7 @@ public class ColoredContent {
   }
 
   public getApple(): IItemStack? {
-    if this.color.getName() == ColorName.BLACK ||
-      this.color.getName() == ColorName.LIGHT_BROWN ||
-      this.color.getName() == ColorName.LIGHT_GRAY ||
-      this.color.getName() == ColorName.LIME ||
-      this.color.getName() == ColorName.PURPLE ||
-      this.color.getName() == ColorName.YELLOW {
-      return null;
-    }
+
 
     if this.color.getName() == ColorName.Red {
       return <item:minecraft:apple>;
@@ -121,15 +114,15 @@ public class ColoredContent {
     }
 
     if (this.color.getName() == ColorName.Purple) {
-      return ["gateways:bone_spider"];
+      return ["gateways:bone_spider","gateways:shulker"];
     }
 
     if (this.color.getName() == ColorName.Red) {
-      return ["gateways:cluckshroom"];
+      return ["gateways:cluckshroom", "gateways:strider"];
     }
 
     if (this.color.getName() == ColorName.White) {
-      return ["gateways:skeleton"];
+      return ["gateways:skeleton", "gateways:goat"];
     }
 
     if (this.color.getName() == ColorName.Yellow) {

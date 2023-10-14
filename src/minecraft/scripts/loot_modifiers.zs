@@ -75,3 +75,9 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
 
 // Sets up drops from Tall Grass
 <block:minecraft:spruce_leaves>.addLootModifier("wheat_seeds_from_tall_grass", CommonLootModifiers.addWithChance(<item:minecraft:wheat_seeds> % 12.5));
+
+// Adds Ars Nouveau Sapling Drops to Color Trees
+<block:colouredstuff:leaves_blue>.addLootModifier("ars_sapling_blue", CommonLootModifiers.addWithChance(<item:ars_nouveau:blue_archwood_sapling> % 0.5));
+<block:colouredstuff:leaves_green>.addLootModifier("ars_sapling_green", CommonLootModifiers.addWithChance(<item:ars_nouveau:green_archwood_sapling> % 0.5));
+<block:colouredstuff:leaves_red>.addLootModifier("ars_sapling_red", CommonLootModifiers.addWithChance(<item:ars_nouveau:red_archwood_sapling> % 0.5));
+<block:colouredstuff:leaves_purple>.addLootModifier("ars_sapling_purple", CommonLootModifiers.addWithChance(<item:ars_nouveau:purple_archwood_sapling> % 0.5));

@@ -158,7 +158,28 @@ val mobs: TrophyMob[string] = {
   "earthmobsmod:duck": new TrophyMob(MobStage.Duck, "Duck"),
   "earthmobsmod:cluck_shroom": new TrophyMob(MobStage.CluckShroom, "Cluck Shroom"),
   "earthmobsmod:wither_skeleton_wolf": new TrophyMob(MobStage.WitherSkeletonWolf, "Wither Skeleton Wolf"),
-  "earthmobsmod:umbra_cow": new TrophyMob(MobStage.UmbraCow, "Umbra Cow")
+  "earthmobsmod:umbra_cow": new TrophyMob(MobStage.UmbraCow, "Umbra Cow"),
+
+// Vein Creepers
+  "veincreeper:black": new TrophyMob(MobStage.BlackVeinCreeper, "Black Vein Creeper"),
+  "veincreeper:blue": new TrophyMob(MobStage.BlueVeinCreeper, "Blue Vein Creeper"),
+  "veincreeper:brown": new TrophyMob(MobStage.BrownVeinCreeper, "Brown Vein Creeper"),
+  "veincreeper:cyan": new TrophyMob(MobStage.CyanVeinCreeper, "Cyan Vein Creeper"),
+  "veincreeper:gray": new TrophyMob(MobStage.GrayVeinCreeper, "Gray Vein Creeper"),
+  "veincreeper:green": new TrophyMob(MobStage.GreenVeinCreeper, "Green Vein Creeper"),
+  "veincreeper:light_blue": new TrophyMob(MobStage.LightBlueVeinCreeper, "Light Blue Vein Creeper"),
+  "veincreeper:light_gray": new TrophyMob(MobStage.LightGrayVeinCreeper, "Light Gray Vein Creeper"),
+  "veincreeper:lime": new TrophyMob(MobStage.LimeVeinCreeper, "Lime Vein Creeper"),
+  "veincreeper:magenta": new TrophyMob(MobStage.MagentaVeinCreeper, "Magenta Vein Creeper"),
+  "veincreeper:orange": new TrophyMob(MobStage.OrangeVeinCreeper, "Orange Vein Creeper"),
+  "veincreeper:pink": new TrophyMob(MobStage.PinkVeinCreeper, "Pink Vein Creeper"),
+  "veincreeper:purple": new TrophyMob(MobStage.PurpleVeinCreeper, "Purple Vein Creeper"),
+  "veincreeper:red": new TrophyMob(MobStage.RedVeinCreeper, "Red Vein Creeper"),
+  "veincreeper:white": new TrophyMob(MobStage.WhiteVeinCreeper, "White Vein Creeper"),
+  "veincreeper:yellow": new TrophyMob(MobStage.YellowVeinCreeper, "Yellow Vein Creeper")
+
+
+
 
 
 
