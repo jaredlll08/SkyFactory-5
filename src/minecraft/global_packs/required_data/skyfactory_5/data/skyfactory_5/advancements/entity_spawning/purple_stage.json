@@ -110,6 +110,138 @@
           }
         ]
       }
+    },
+    "powdered_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["create:powdered_obsidian"]
+          }
+        ]
+      }
+    },
+    "regen_potion_1": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:regeneration"
+      }
+    },
+    "regen_potion_2": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:long_regeneration"
+      }
+    },
+    "regen_potion_3": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:strong_regeneration"
+      }
+    },
+    "regen_potion_inventory_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:potion"],
+            "potion": "minecraft:regeneration"
+          }
+        ]
+      }
+    },
+    "regen_potion_inventory_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:potion"],
+            "potion": "minecraft:long_regeneration"
+          }
+        ]
+      }
+    },
+    "regen_potion_inventory_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:potion"],
+            "potion": "minecraft:strong_regeneration"
+          }
+        ]
+      }
+    },
+    "regen_splash_potion_inventory_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:splash_potion"],
+            "potion": "minecraft:regeneration"
+          }
+        ]
+      }
+    },
+    "regen_splash_potion_inventory_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:splash_potion"],
+            "potion": "minecraft:long_regeneration"
+          }
+        ]
+      }
+    },
+    "regen_splash_potion_inventory_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:splash_potion"],
+            "potion": "minecraft:strong_regeneration"
+          }
+        ]
+      }
+    },
+    "regen_lingering_potion_inventory_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:lingering_potion"],
+            "potion": "minecraft:regeneration"
+          }
+        ]
+      }
+    },
+    "regen_lingering_potion_inventory_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:lingering_potion"],
+            "potion": "minecraft:long_regeneration"
+          }
+        ]
+      }
+    },
+    "regen_lingering_potion_inventory_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:lingering_potion"],
+            "potion": "minecraft:strong_regeneration"
+          }
+        ]
+      }
+    },
+    "enchanted_item": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {}
     }
   },
   "requirements": [
@@ -122,7 +254,21 @@
       "purpur_stairs",
       "purpur_slab",
       "amethyst_shard",
-      "shulker_shell"
+      "shulker_shell",
+      "powdered_obsidian",
+      "regen_potion_1",
+      "regen_potion_2",
+      "regen_potion_3",
+      "regen_potion_inventory_1",
+      "regen_potion_inventory_2",
+      "regen_potion_inventory_3",
+      "regen_splash_potion_inventory_1",
+      "regen_splash_potion_inventory_2",
+      "regen_splash_potion_inventory_3",
+      "regen_lingering_potion_inventory_1",
+      "regen_lingering_potion_inventory_2",
+      "regen_lingering_potion_inventory_3",
+      "enchanted_item"
     ]
   ],
   "rewards": {

@@ -77,6 +77,17 @@
           }
         ]
       }
+    },
+    "source_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["ars_nouveau:source_gem"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -86,7 +97,8 @@
       "peeled_overweight_onion_block",
       "overweight_onion_block",
       "onion",
-      "onion_slice"
+      "onion_slice",
+      "source_gem"
     ]
   ],
   "rewards": {

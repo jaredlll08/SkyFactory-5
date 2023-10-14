@@ -66,6 +66,17 @@
           }
         ]
       }
+    },
+    "ender_pearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:ender_pearl"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -74,7 +85,8 @@
       "stripped_warped_stem",
       "oxidized_copper",
       "warped_planks",
-      "warped_wart_block"
+      "warped_wart_block",
+      "ender_pearl"
     ]
   ],
   "rewards": {
