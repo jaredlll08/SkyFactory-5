@@ -44,5 +44,7 @@ export type InControlSpawner = {
     maxhostile?: number;
     maxneutral?: number;
     maxlocal?: number;
+    validspawn?: boolean;
+    sturdy?: boolean;
   };
 }[];

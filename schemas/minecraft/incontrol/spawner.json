@@ -113,6 +113,12 @@
           },
           "maxlocal": {
             "type": "number"
+          },
+          "validspawn": {
+            "type": "boolean"
+          },
+          "sturdy": {
+            "type": "boolean"
           }
         },
         "additionalProperties": false
