@@ -147,5 +147,21 @@
   "gateways.zombie": "Zombie Gateway",
   "gateways.zombie_horse": "Zombie Horse Gateway",
   "gateways.zombie_villager": "Zombie Villager Gateway",
-  "gateways.zombified_piglin": "Zombified Piglin Gateway"
+  "gateways.zombified_piglin": "Zombified Piglin Gateway",
+  "entity.veincreeper.black": "Black Creeper",
+  "entity.veincreeper.blue": "Blue Creeper",
+  "entity.veincreeper.brown": "Brown Creeper",
+  "entity.veincreeper.cyan": "Cyan Creeper",
+  "entity.veincreeper.gray": "Gray Creeper",
+  "entity.veincreeper.green": "Green Creeper",
+  "entity.veincreeper.light_blue": "Light Blue Creeper",
+  "entity.veincreeper.light_gray": "Light Gray Creeper",
+  "entity.veincreeper.lime": "Lime Creeper",
+  "entity.veincreeper.magenta": "Magenta Creeper",
+  "entity.veincreeper.orange": "Orange Creeper",
+  "entity.veincreeper.pink": "Pink Creeper",
+  "entity.veincreeper.purple": "Purple Creeper",
+  "entity.veincreeper.red": "Red Creeper",
+  "entity.veincreeper.white": "White Creeper",
+  "entity.veincreeper.yellow": "Yellow Creeper"
 }
