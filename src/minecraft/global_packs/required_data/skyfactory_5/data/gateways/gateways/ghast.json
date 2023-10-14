@@ -7,16 +7,16 @@
       "entities": [
         {
           "entity": "minecraft:ghast",
-          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
           "entity": "minecraft:ghast",
-          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
       "rewards": [],
-      "max_wave_time": 750,
-      "setup_time": 150
+      "max_wave_time": 1200,
+      "setup_time": 200
     }
   ],
   "rewards": [

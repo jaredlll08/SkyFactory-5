@@ -13,8 +13,8 @@
         }
       ],
       "rewards": [],
-      "max_wave_time": 750,
-      "setup_time": 150
+      "max_wave_time": 1200,
+      "setup_time": 200
     }
   ],
   "rewards": [
