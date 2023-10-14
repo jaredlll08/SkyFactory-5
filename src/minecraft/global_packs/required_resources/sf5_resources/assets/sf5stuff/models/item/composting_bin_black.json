@@ -1,0 +1,7 @@
+{
+  "parent": "sf5stuff:block/composting_bin_base",
+  "textures": {
+    "texture": "colouredstuff:block/planks_black",
+    "particle": "colouredstuff:block/planks_black"
+  }
+}

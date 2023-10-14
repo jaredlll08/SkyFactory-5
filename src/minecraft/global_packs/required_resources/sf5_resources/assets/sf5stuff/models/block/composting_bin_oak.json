@@ -1,0 +1,7 @@
+{
+  "parent": "sf5stuff:block/composting_bin_base",
+  "textures": {
+    "texture": "minecraft:block/oak_planks",
+    "particle": "minecraft:block/oak_planks"
+  }
+}
