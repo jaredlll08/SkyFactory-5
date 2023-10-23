@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:\"vein_creeper_black\"}"
+              "tag": "{gateway:\"gateways:vein_creeper_black\"}"
             }
           ]
         }

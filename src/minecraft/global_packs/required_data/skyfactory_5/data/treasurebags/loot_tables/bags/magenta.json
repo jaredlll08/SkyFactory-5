@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:\"vein_creeper_magenta\"}"
+              "tag": "{gateway:\"gateways:vein_creeper_magenta\"}"
             }
           ]
         }

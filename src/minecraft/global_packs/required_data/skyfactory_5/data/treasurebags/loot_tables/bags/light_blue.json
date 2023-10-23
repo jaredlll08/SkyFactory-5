@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:\"vein_creeper_light_blue\"}"
+              "tag": "{gateway:\"gateways:vein_creeper_light_blue\"}"
             }
           ]
         }
