@@ -1,0 +1,17 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:sand"
+    },
+    {
+      "amount": 1000,
+      "fluid": "colored_water:blue_fluid"
+    }
+  ],
+  "results": [
+    {
+      "item": "sf5_things:block_of_blue_dye"
+    }
+  ]
+}
