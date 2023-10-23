@@ -25,23 +25,11 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
   return drops;
 });
 
-// Adds Zombies Gateway Pearl to Green Leaves drop for players only
-<block:sf5_things:green_leaves>.addLootModifier("bonus_drops_green_leaves", (drops, ctx) => {
-  if !isRealPlayerLooting(ctx) {
-    return drops;
-  }
-
-  if rollsChance(ctx.random, 0.69) {
-    drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie"}));
-  }
-
-  return drops;
-});
-
 <block:sf5_things:colorless_leaves>.addLootModifier("first_colorless_leaves", (drops, ctx) => {
   if !isRealPlayerLooting(ctx) {
     return drops;
   }
+
 
   // Increases drops from 1st tree on worldgen
   if rollsChance(ctx.random, 15) {
