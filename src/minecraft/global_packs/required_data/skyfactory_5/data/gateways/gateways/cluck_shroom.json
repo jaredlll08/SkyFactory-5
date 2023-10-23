@@ -1,22 +1,22 @@
 {
   "size": "large",
   "leash_range": 50000000,
-  "color": "#165F16",
+  "color": "#ff0000",
   "waves": [
     {
       "entities": [
         {
-          "entity": "veincreeper:green",
+          "entity": "earthmobsmod:cluck_shroom",
           "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
-          "entity": "veincreeper:green",
+          "entity": "earthmobsmod:cluck_shroom",
           "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
       "modifiers": [],
       "rewards": [],
-      "max_wave_time": 900,
+      "max_wave_time": 1200,
       "setup_time": 200
     }
   ],
@@ -30,7 +30,7 @@
           "BlockEntityTag": {
             "VariantID": 0,
             "SpecialCycleVariant": 0,
-            "entity": "veincreeper:green"
+            "entity": "earthmobsmod:cluck_shroom"
           }
         }
       }
