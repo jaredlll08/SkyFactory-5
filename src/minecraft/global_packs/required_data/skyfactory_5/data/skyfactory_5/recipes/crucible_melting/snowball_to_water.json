@@ -1,5 +1,0 @@
-{
-  "type": "exdeorum:water_crucible",
-  "fluid": { "Amount": 25, "FluidName": "minecraft:water" },
-  "ingredient": { "item": "minecraft:snowball" }
-}
