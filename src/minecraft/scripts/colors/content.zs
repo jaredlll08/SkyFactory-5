@@ -136,6 +136,10 @@ public class ColoredContent {
     return BracketHandlers.getItem("colouredstuff:planks_" + this.color.getResourceName());
   }
 
+  public getSlabItem(): IItemStack {
+    return BracketHandlers.getItem("colouredstuff:slab_planks_" + this.color.getResourceName());
+  }
+
   public getStick(): IItemStack {
     var resourceName = this.color.getResourceName();
     if this.color.getName() == ColorName.None {
@@ -147,6 +151,18 @@ public class ColoredContent {
 
   public getStorageChest(): IItemStack {
     return <item:sophisticatedstorage:chest>.withTag({mainColor: this.color.asDecimal(), accentColor: 6710886});
+  }
+
+  public getLimitedStorageBarrel(): IItemStack {
+    return <item:sophisticatedstorage:limited_barrel_1>.withTag({mainColor: this.color.asDecimal(), accentColor: 6710886});
+  }
+
+  public getLimitedStorageBarrel2(): IItemStack {
+    return <item:sophisticatedstorage:limited_barrel_2>.withTag({mainColor: this.color.asDecimal(), accentColor: 6710886});
+  }
+
+    public getLimitedStorageBarrel4(): IItemStack {
+    return <item:sophisticatedstorage:limited_barrel_4>.withTag({mainColor: this.color.asDecimal(), accentColor: 6710886});
   }
 
   public getWool(): IItemStack? {
@@ -162,6 +178,7 @@ public class ColoredContent {
     val stick = this.getStick();
     val treasureBag = this.getBag();
     val wool = this.getWool();
+    val slabItem = this.getSlabItem();
 
     craftingTable.addShaped(
       this.color.getResourceName() + "_chest_shaped",
@@ -172,6 +189,39 @@ public class ColoredContent {
         [plankItem, plankItem, plankItem],
       ]
     );
+// Sophisticated Storage Limited Barrel 1
+    craftingTable.addShaped(
+      this.color.getResourceName() + "_limited_barrel_shaped",
+      this.getLimitedStorageBarrel(),
+      [
+        [plankItem, slabItem, plankItem],
+        [plankItem, <item:minecraft:redstone_torch>, plankItem],
+        [plankItem, plankItem, plankItem],
+      ]
+    );
+
+// Sophisticated Storage Limited Barrel 2
+    craftingTable.addShaped(
+      this.color.getResourceName() + "_limited_barrel_shaped2",
+      this.getLimitedStorageBarrel2(),
+      [
+        [plankItem, plankItem, plankItem],
+        [slabItem, <item:minecraft:redstone_torch>, slabItem],
+        [plankItem, plankItem, plankItem],
+      ]
+    );
+
+// Sophisticated Storage Limited Barrel 4
+    craftingTable.addShaped(
+      this.color.getResourceName() + "_limited_barrel_shaped4",
+      this.getLimitedStorageBarrel4(),
+      [
+        [plankItem, slabItem, plankItem],
+        [slabItem, <item:minecraft:redstone_torch>, slabItem],
+        [plankItem, slabItem, plankItem],
+      ]
+    );
+
 
     craftingTable.addShaped(
       "stick_" + this.color.getResourceName(),
