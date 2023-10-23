@@ -1,8 +1,10 @@
 {
   "values": [
-    "#minecraft:mineable/pickaxe",
-    "#minecraft:mineable/shovel",
+    "#minecraft:animals_spawnable_on",
+    "#minecraft:goats_spawnable_on",
     "#minecraft:planks",
-    "#minecraft:logs"
+    "#minecraft:logs",
+    "#forge:sand",
+    "#forge:cobblestone"
   ]
 }
