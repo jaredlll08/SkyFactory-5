@@ -24,11 +24,11 @@ public class Tree {
     val treeColoredContent = this.coloredContent;
 
     this.getLeaves().addLootModifier("colored_leaves_" + this.color.getResourceName(), (drops, ctx) => {
-      val saplingDropChance = isRealPlayerLooting(ctx) ? 15 : 15;
-      val appleDropChance = isRealPlayerLooting(ctx) ? 5 : 5;
-      val dyeDropChance = isRealPlayerLooting(ctx) ? 10 : 10;
-      val stickDropChance = isRealPlayerLooting(ctx) ? 5 : 5;
-      val gatewayDropChance = isRealPlayerLooting(ctx) ? 0.69 : 0.69;
+      val saplingDropChance = isRealPlayerLooting(ctx) ? 15 : 10;
+      val appleDropChance = isRealPlayerLooting(ctx) ? 5 : 1;
+      val dyeDropChance = isRealPlayerLooting(ctx) ? 10 : 5;
+      val stickDropChance = isRealPlayerLooting(ctx) ? 5 : 1;
+      val gatewayDropChance = isRealPlayerLooting(ctx) ? 0.69 : 0.25;
 
       if rollsChance(ctx.random, saplingDropChance) {
         drops.add(tree.getSapling());
