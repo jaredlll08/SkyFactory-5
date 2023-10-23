@@ -361,3 +361,151 @@ craftingTable.addShaped(
     [<item:exdeorum:porcelain_clay_ball>, <item:exdeorum:porcelain_clay_ball>, <item:exdeorum:porcelain_clay_ball>]
   ]
 );
+
+
+// Color Crafting Tables
+craftingTable.addShaped(
+  "crafting_table_black",
+  <item:colouredstuff:crafting_table_black>,
+  [
+    [<item:colouredstuff:planks_black>, <item:colouredstuff:planks_black>],
+    [<item:colouredstuff:planks_black>, <item:colouredstuff:planks_black>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_blue",
+  <item:colouredstuff:crafting_table_blue>,
+  [
+    [<item:colouredstuff:planks_blue>, <item:colouredstuff:planks_blue>],
+    [<item:colouredstuff:planks_blue>, <item:colouredstuff:planks_blue>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_brown",
+  <item:colouredstuff:crafting_table_brown>,
+  [
+    [<item:colouredstuff:planks_brown>, <item:colouredstuff:planks_brown>],
+    [<item:colouredstuff:planks_brown>, <item:colouredstuff:planks_brown>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_cyan",
+  <item:colouredstuff:crafting_table_cyan>,
+  [
+    [<item:colouredstuff:planks_cyan>, <item:colouredstuff:planks_cyan>],
+    [<item:colouredstuff:planks_cyan>, <item:colouredstuff:planks_cyan>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_gray",
+  <item:colouredstuff:crafting_table_gray>,
+  [
+    [<item:colouredstuff:planks_gray>, <item:colouredstuff:planks_gray>],
+    [<item:colouredstuff:planks_gray>, <item:colouredstuff:planks_gray>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_green",
+  <item:colouredstuff:crafting_table_green>,
+  [
+    [<item:colouredstuff:planks_green>, <item:colouredstuff:planks_green>],
+    [<item:colouredstuff:planks_green>, <item:colouredstuff:planks_green>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_light_blue",
+  <item:colouredstuff:crafting_table_light_blue>,
+  [
+    [<item:colouredstuff:planks_light_blue>, <item:colouredstuff:planks_light_blue>],
+    [<item:colouredstuff:planks_light_blue>, <item:colouredstuff:planks_light_blue>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_light_gray",
+  <item:colouredstuff:crafting_table_light_gray>,
+  [
+    [<item:colouredstuff:planks_light_gray>, <item:colouredstuff:planks_light_gray>],
+    [<item:colouredstuff:planks_light_gray>, <item:colouredstuff:planks_light_gray>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_lime",
+  <item:colouredstuff:crafting_table_lime>,
+  [
+    [<item:colouredstuff:planks_lime>, <item:colouredstuff:planks_lime>],
+    [<item:colouredstuff:planks_lime>, <item:colouredstuff:planks_lime>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_magenta",
+  <item:colouredstuff:crafting_table_magenta>,
+  [
+    [<item:colouredstuff:planks_magenta>, <item:colouredstuff:planks_magenta>],
+    [<item:colouredstuff:planks_magenta>, <item:colouredstuff:planks_magenta>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_none",
+  <item:colouredstuff:crafting_table_none>,
+  [
+    [<item:colouredstuff:planks_none>, <item:colouredstuff:planks_none>],
+    [<item:colouredstuff:planks_none>, <item:colouredstuff:planks_none>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_orange",
+  <item:colouredstuff:crafting_table_orange>,
+  [
+    [<item:colouredstuff:planks_orange>, <item:colouredstuff:planks_orange>],
+    [<item:colouredstuff:planks_orange>, <item:colouredstuff:planks_orange>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_pink",
+  <item:colouredstuff:crafting_table_pink>,
+  [
+    [<item:colouredstuff:planks_pink>, <item:colouredstuff:planks_pink>],
+    [<item:colouredstuff:planks_pink>, <item:colouredstuff:planks_pink>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_purple",
+  <item:colouredstuff:crafting_table_purple>,
+  [
+    [<item:colouredstuff:planks_purple>, <item:colouredstuff:planks_purple>],
+    [<item:colouredstuff:planks_purple>, <item:colouredstuff:planks_purple>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_red",
+  <item:colouredstuff:crafting_table_red>,
+  [
+    [<item:colouredstuff:planks_red>, <item:colouredstuff:planks_red>],
+    [<item:colouredstuff:planks_red>, <item:colouredstuff:planks_red>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_white",
+  <item:colouredstuff:crafting_table_white>,
+  [
+    [<item:colouredstuff:planks_white>, <item:colouredstuff:planks_white>],
+    [<item:colouredstuff:planks_white>, <item:colouredstuff:planks_white>]
+  ]
+);
+craftingTable.addShaped(
+  "crafting_table_yellow",
+  <item:colouredstuff:crafting_table_yellow>,
+  [
+    [<item:colouredstuff:planks_yellow>, <item:colouredstuff:planks_yellow>],
+    [<item:colouredstuff:planks_yellow>, <item:colouredstuff:planks_yellow>]
+  ]
+);
+
+// Stick conversion recipe
+craftingTable.addShaped(
+  "stick_conversion",
+  <item:minecraft:stick>,
+  [
+    [<tag:items:forge:rods>]
+  ]
+);

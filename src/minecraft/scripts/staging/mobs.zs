@@ -178,7 +178,8 @@ val mobs: TrophyMob[string] = {
   "veincreeper:white": new TrophyMob(MobStage.WhiteVeinCreeper, "White Vein Creeper"),
   "veincreeper:yellow": new TrophyMob(MobStage.YellowVeinCreeper, "Yellow Vein Creeper")
 
-
+// Lava Monsters
+  "lava_monster:lava_monster": new TrophyMob(MobStage.LavaMonster, "Lava Monster")
 
 
 

@@ -14,8 +14,8 @@ mods.recipestages.Recipes.addShapeless(
 );
 
 // Stages the vanilla crafting table after the 'brown' stage is obtained
-mods.recipestages.Recipes.setRecipeStage(Stage.Brown, <item:minecraft:crafting_table>);
-
+// mods.recipestages.Recipes.setRecipeStage(Stage.Brown, <item:minecraft:crafting_table>);
+/*
 mods.recipestages.Recipes.addShaped(
   Stage.Colorless,
   "colorless_crafting_table",
@@ -25,3 +25,4 @@ mods.recipestages.Recipes.addShaped(
     [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
   ]
 );
+*/
