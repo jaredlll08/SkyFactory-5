@@ -148,4 +148,8 @@ public enum MobStage {
   OrangeVeinCreeper = "orange_vein_creeper",
   BlueVeinCreeper = "blue_vein_creeper",
   PurpleVeinCreeper = "purple_vein_creeper",
+
+// Lava Monsters
+  LavaMonster = "lava_monster",
+
 }
