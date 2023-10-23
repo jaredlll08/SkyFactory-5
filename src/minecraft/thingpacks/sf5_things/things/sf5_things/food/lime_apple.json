@@ -3,6 +3,16 @@
   "saturation": 0.0,
   "meat": false,
   "fast": false,
-  "always_eat": false,
-  "effects": []
+  "always_eat": true,
+  "effects": [
+    {
+      "effect": "cyclic:attack_range",
+      "duration": 400,
+      "amplifier": 0,
+      "ambient": false,
+      "visible": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  ]
 }

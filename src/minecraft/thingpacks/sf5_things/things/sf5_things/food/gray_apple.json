@@ -6,13 +6,13 @@
   "always_eat": true,
   "effects": [
     {
-      "effect": "minecraft:glowing",
-      "duration": 500,
-      "amplifier": 0,
-      "ambient": true,
-      "visible": false,
+      "effect": "cyclic:magnetic",
+      "duration": 400,
+      "amplifier": 1,
+      "ambient": false,
+      "visible": true,
       "show_particles": false,
-      "show_icon": false
+      "show_icon": true
     }
   ]
 }
