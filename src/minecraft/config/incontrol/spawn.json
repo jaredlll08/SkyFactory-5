@@ -897,9 +897,15 @@
   },
   {
     "mob": ["minecraft:tropical_fish"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "tropicalfish",
     "minlight": 7,
     "maxlight": 15,
+    "nbt": {
+      "Variant": "16844033"
+    },
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {

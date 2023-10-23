@@ -259,8 +259,8 @@
       "minecraft:tropical_fish",
       "minecraft:salmon"
     ],
-    "persecond": 1,
-    "attempts": 15,
+    "persecond": 2,
+    "attempts": 20,
     "amount": {
       "minimum": 1,
       "maximum": 1
