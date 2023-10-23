@@ -126,3 +126,123 @@ craftingTable.addShaped(
 // OnAdvancement, OnCraft, OnDimension, OnJoin, OnKill, and OnLevel
 
 
+// Adds slab to planks recipe for Colourful Stuff mod
+craftingTable.addShaped(
+  "black_slabs_to_plank",
+  <item:colouredstuff:planks_black>,
+  [
+  [<item:colouredstuff:slab_planks_black>],
+  [<item:colouredstuff:slab_planks_black>]]
+);
+craftingTable.addShaped(
+  "blue_slabs_to_plank",
+  <item:colouredstuff:planks_blue>,
+  [
+  [<item:colouredstuff:slab_planks_blue>],
+  [<item:colouredstuff:slab_planks_blue>]]
+);
+craftingTable.addShaped(
+  "brown_slabs_to_plank",
+  <item:colouredstuff:planks_brown>,
+  [
+  [<item:colouredstuff:slab_planks_brown>],
+  [<item:colouredstuff:slab_planks_brown>]]
+);
+craftingTable.addShaped(
+  "cyan_slabs_to_plank",
+  <item:colouredstuff:planks_cyan>,
+  [
+  [<item:colouredstuff:slab_planks_cyan>],
+  [<item:colouredstuff:slab_planks_cyan>]]
+);
+craftingTable.addShaped(
+  "gray_slabs_to_plank",
+  <item:colouredstuff:planks_gray>,
+  [
+  [<item:colouredstuff:slab_planks_gray>],
+  [<item:colouredstuff:slab_planks_gray>]]
+);
+craftingTable.addShaped(
+  "green_slabs_to_plank",
+  <item:colouredstuff:planks_green>,
+  [
+  [<item:colouredstuff:slab_planks_green>],
+  [<item:colouredstuff:slab_planks_green>]]
+);
+craftingTable.addShaped(
+  "light_blue_slabs_to_plank",
+  <item:colouredstuff:planks_light_blue>,
+  [
+  [<item:colouredstuff:slab_planks_light_blue>],
+  [<item:colouredstuff:slab_planks_light_blue>]]
+);
+craftingTable.addShaped(
+  "light_gray_slabs_to_plank",
+  <item:colouredstuff:planks_light_gray>,
+  [
+  [<item:colouredstuff:slab_planks_light_gray>],
+  [<item:colouredstuff:slab_planks_light_gray>]]
+);
+craftingTable.addShaped(
+  "lime_slabs_to_plank",
+  <item:colouredstuff:planks_lime>,
+  [
+  [<item:colouredstuff:slab_planks_lime>],
+  [<item:colouredstuff:slab_planks_lime>]]
+);
+craftingTable.addShaped(
+  "magenta_slabs_to_plank",
+  <item:colouredstuff:planks_magenta>,
+  [
+  [<item:colouredstuff:slab_planks_magenta>],
+  [<item:colouredstuff:slab_planks_magenta>]]
+);
+craftingTable.addShaped(
+  "none_slabs_to_plank",
+  <item:colouredstuff:planks_none>,
+  [
+  [<item:colouredstuff:slab_planks_none>],
+  [<item:colouredstuff:slab_planks_none>]]
+);
+craftingTable.addShaped(
+  "orange_slabs_to_plank",
+  <item:colouredstuff:planks_orange>,
+  [
+  [<item:colouredstuff:slab_planks_orange>],
+  [<item:colouredstuff:slab_planks_orange>]]
+);
+craftingTable.addShaped(
+  "pink_slabs_to_plank",
+  <item:colouredstuff:planks_pink>,
+  [
+  [<item:colouredstuff:slab_planks_pink>],
+  [<item:colouredstuff:slab_planks_pink>]]
+);
+craftingTable.addShaped(
+  "purple_slabs_to_plank",
+  <item:colouredstuff:planks_purple>,
+  [
+  [<item:colouredstuff:slab_planks_purple>],
+  [<item:colouredstuff:slab_planks_purple>]]
+);
+craftingTable.addShaped(
+  "red_slabs_to_plank",
+  <item:colouredstuff:planks_red>,
+  [
+  [<item:colouredstuff:slab_planks_red>],
+  [<item:colouredstuff:slab_planks_red>]]
+);
+craftingTable.addShaped(
+  "white_slabs_to_plank",
+  <item:colouredstuff:planks_white>,
+  [
+  [<item:colouredstuff:slab_planks_white>],
+  [<item:colouredstuff:slab_planks_white>]]
+);
+craftingTable.addShaped(
+  "yellow_slabs_to_plank",
+  <item:colouredstuff:planks_yellow>,
+  [
+  [<item:colouredstuff:slab_planks_yellow>],
+  [<item:colouredstuff:slab_planks_yellow>]]
+);
