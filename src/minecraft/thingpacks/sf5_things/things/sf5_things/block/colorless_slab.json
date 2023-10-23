@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:slab",
-  "parent": "sf5_things:colorless_planks",
-  "item": {
-    "group": "sf5_things:colorless_wood"
-  },
-  "explosion_resistance": 2,
-  "destroy_time": 1.5
-}
