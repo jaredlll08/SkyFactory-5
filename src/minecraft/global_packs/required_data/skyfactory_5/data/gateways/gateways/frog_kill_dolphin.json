@@ -7,15 +7,21 @@
       "entities": [
         {
           "entity": "minecraft:dolphin",
-          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
           "entity": "minecraft:dolphin",
-          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
       "modifiers": [],
-      "rewards": [],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "minecraft:dolphin",
+          "rolls": 10
+        }
+      ],
       "max_wave_time": 1200,
       "setup_time": 200
     }

@@ -1,18 +1,26 @@
 {
   "size": "large",
   "leash_range": 50000000,
-  "color": "#71955B",
+  "color": "#02FD02",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:turtle"
+          "entity": "minecraft:turtle",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
-          "entity": "minecraft:turtle"
+          "entity": "minecraft:turtle",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "minecraft:turtle",
+          "rolls": 10
+        }
+      ],
       "max_wave_time": 1200,
       "setup_time": 200
     }

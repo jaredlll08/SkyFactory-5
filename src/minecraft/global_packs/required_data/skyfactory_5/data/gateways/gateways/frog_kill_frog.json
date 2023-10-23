@@ -7,14 +7,20 @@
       "entities": [
         {
           "entity": "minecraft:frog",
-          "nbt": "{DyeMobDyeColor: 13b, DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{DyeMobDyeColor: 13b,  ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
           "entity": "minecraft:frog",
-          "nbt": "{DyeMobDyeColor: 13b, DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{DyeMobDyeColor: 13b,  ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "type": "entity_loot",
+          "entity": "minecraft:frog",
+          "rolls": 10
+        }
+      ],
       "max_wave_time": 1200,
       "setup_time": 200
     }
