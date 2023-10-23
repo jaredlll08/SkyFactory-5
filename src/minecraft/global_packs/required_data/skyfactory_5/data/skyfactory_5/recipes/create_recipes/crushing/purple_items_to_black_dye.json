@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "skyfactory_5:colors/processing_items/purple"
+    }
+  ],
+  "processingTime": 75,
+  "results": [
+    {
+      "count": 1,
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "chance": 0.15,
+      "item": "minecraft:purple_dye"
+    }
+  ]
+}
