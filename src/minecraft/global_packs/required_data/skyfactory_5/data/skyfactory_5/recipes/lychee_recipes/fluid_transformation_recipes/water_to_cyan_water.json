@@ -1,0 +1,15 @@
+{
+  "type": "lychee:item_inside",
+  "item_in": {
+    "item": "minecraft:cyan_dye"
+  },
+  "block_in": {
+    "blocks": ["water"]
+  },
+  "post": [
+    {
+      "type": "place",
+      "block": "colored_water:cyan_fluid_block"
+    }
+  ]
+}

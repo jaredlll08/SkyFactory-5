@@ -1,0 +1,15 @@
+{
+  "type": "lychee:item_inside",
+  "item_in": {
+    "item": "minecraft:sand"
+  },
+  "block_in": {
+    "blocks": ["colored_water:white_fluid_block"]
+  },
+  "post": [
+    {
+      "type": "place",
+      "block": "sf5_things:block_of_white_dye"
+    }
+  ]
+}
