@@ -34,65 +34,6 @@
     ]
   },
   {
-    "id": "spruce",
-    "texture": "minecraft:block/spruce_planks",
-    "solid": "minecraft:spruce_leaves",
-    "fluid": "minecraft:lava",
-    "inputs": [
-      { "id": "minecraft:oak_leaves" },
-      { "id": "minecraft:spruce_leaves" },
-      { "id": "minecraft:birch_leaves" },
-      { "id": "minecraft:jungle_leaves" },
-      { "id": "minecraft:acacia_leaves" },
-      { "id": "minecraft:cherry_leaves" },
-      { "id": "minecraft:dark_oak_leaves" },
-      { "id": "minecraft:mangrove_leaves" },
-      { "id": "minecraft:azalea_leaves" },
-      { "id": "minecraft:flowering_azalea_leaves" },
-      { "id": "colouredstuff:leaves_none" },
-      { "id": "colouredstuff:leaves_black" },
-      { "id": "colouredstuff:leaves_brown" },
-      { "id": "colouredstuff:leaves_cyan" },
-      { "id": "colouredstuff:leaves_gray" },
-      { "id": "colouredstuff:leaves_green" },
-      { "id": "colouredstuff:leaves_light_blue" },
-      { "id": "colouredstuff:leaves_light_gray" },
-      { "id": "colouredstuff:leaves_lime" },
-      { "id": "colouredstuff:leaves_magenta" },
-      { "id": "colouredstuff:leaves_orange" },
-      { "id": "colouredstuff:leaves_pink" },
-      { "id": "colouredstuff:leaves_purple" },
-      { "id": "colouredstuff:leaves_red" },
-      { "id": "colouredstuff:leaves_white" },
-      { "id": "colouredstuff:leaves_yellow" },
-      { "id": "minecraft:oak_sapling" },
-      { "id": "minecraft:spruce_sapling" },
-      { "id": "minecraft:birch_sapling" },
-      { "id": "minecraft:jungle_sapling" },
-      { "id": "minecraft:acacia_sapling" },
-      { "id": "minecraft:cherry_sapling" },
-      { "id": "minecraft:dark_oak_sapling" },
-      { "id": "woolytrees:wooly_sapling" },
-      { "id": "colouredstuff:sapling_none" },
-      { "id": "colouredstuff:sapling_black" },
-      { "id": "colouredstuff:sapling_blue" },
-      { "id": "colouredstuff:sapling_brown" },
-      { "id": "colouredstuff:sapling_cyan" },
-      { "id": "colouredstuff:sapling_gray" },
-      { "id": "colouredstuff:sapling_green" },
-      { "id": "colouredstuff:sapling_light_blue" },
-      { "id": "colouredstuff:sapling_light_gray" },
-      { "id": "colouredstuff:sapling_lime" },
-      { "id": "colouredstuff:sapling_magenta" },
-      { "id": "colouredstuff:sapling_orange" },
-      { "id": "colouredstuff:sapling_pink" },
-      { "id": "colouredstuff:sapling_purple" },
-      { "id": "colouredstuff:sapling_red" },
-      { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
-    ]
-  },
-  {
     "id": "black",
     "texture": "colouredstuff:block/planks_black",
     "solid": "sf5_things:black_leaves",
@@ -148,7 +89,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -207,7 +151,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -266,7 +213,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -325,7 +275,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -384,7 +337,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -443,7 +399,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -502,7 +461,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -561,7 +523,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -620,7 +585,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -679,7 +647,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -738,7 +709,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -797,7 +771,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -856,7 +833,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -915,7 +895,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -974,7 +957,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -1033,7 +1019,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   },
   {
@@ -1092,7 +1081,10 @@
       { "id": "colouredstuff:sapling_purple" },
       { "id": "colouredstuff:sapling_red" },
       { "id": "colouredstuff:sapling_white" },
-      { "id": "colouredstuff:sapling_yellow" }
+      { "id": "colouredstuff:sapling_yellow" },
+      { "id": "minecraft:snowball" },
+      { "id": "minecraft:snow" },
+      { "id": "minecraft:snow_block" }
     ]
   }
 ]
