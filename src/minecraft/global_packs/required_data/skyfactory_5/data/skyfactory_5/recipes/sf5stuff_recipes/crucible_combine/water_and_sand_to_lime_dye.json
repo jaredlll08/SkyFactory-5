@@ -5,7 +5,7 @@
     "amount": 1000
   },
   "input": {
-    "item": "minecraft:sand"
+    "tag": "forge:sand"
   },
   "result": {
     "item": "sf5_things:block_of_lime_dye"
