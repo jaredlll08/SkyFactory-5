@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_wool"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "count": 1,
+      "item": "minecraft:string"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:orange_dye"
+    }
+  ]
+}
