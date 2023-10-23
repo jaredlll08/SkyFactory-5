@@ -1,3 +1,10 @@
 {
-  "values": ["colouredstuff:sapling_red"]
+  "values": [
+    "colouredstuff:sapling_red",
+    "minecraft:red_mushroom",
+    "minecraft:nether_wart",
+    "minecraft:fire_coral",
+    "minecraft:fire_coral_fan",
+    "minecraft:apple"
+  ]
 }
