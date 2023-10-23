@@ -71,6 +71,11 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "name": "minecraft:kelp"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
           "name": "minecraft:bowl"
         },
         {
