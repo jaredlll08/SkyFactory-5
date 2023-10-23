@@ -1,3 +1,7 @@
 {
-  "values": ["colouredstuff:sapling_green", "sf5_things:green_apple"]
+  "values": [
+    "colouredstuff:sapling_green",
+    "sf5_things:green_apple",
+    "minecraft:bamboo"
+  ]
 }
