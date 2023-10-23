@@ -1,0 +1,12 @@
+{
+  "type": "sf5stuff:crucible_fluid_transform",
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "input": {
+    "item": "minecraft:light_gray_dye"
+  },
+  "result": {
+    "fluid": "colored_water:light_gray_fluid"
+  }
+}

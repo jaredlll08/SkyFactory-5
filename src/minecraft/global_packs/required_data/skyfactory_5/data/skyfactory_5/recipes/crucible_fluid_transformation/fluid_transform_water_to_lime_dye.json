@@ -1,0 +1,12 @@
+{
+  "type": "sf5stuff:crucible_fluid_transform",
+  "fluid": {
+    "fluid": "minecraft:water"
+  },
+  "input": {
+    "item": "minecraft:lime_dye"
+  },
+  "result": {
+    "fluid": "colored_water:lime_fluid"
+  }
+}

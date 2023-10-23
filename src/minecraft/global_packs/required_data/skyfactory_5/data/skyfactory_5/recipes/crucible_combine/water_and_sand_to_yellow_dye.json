@@ -1,0 +1,13 @@
+{
+  "type": "sf5stuff:crucible_combine",
+  "fluid": {
+    "fluid": "colored_water:yellow_fluid",
+    "amount": 1000
+  },
+  "input": {
+    "item": "minecraft:sand"
+  },
+  "result": {
+    "item": "sf5_things:block_of_yellow_dye"
+  }
+}
