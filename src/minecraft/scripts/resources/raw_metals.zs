@@ -83,3 +83,38 @@ craftingTable.addShapeless(
   <item:minecraft:quartz> * 2,
   [<tag:items:forge:dyes/white>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/light_gray>]
 );
+
+// Raw Aluminum
+craftingTable.addShapeless(
+  "raw_aluminum_from_dye",
+  <item:immersiveengineering:raw_aluminum>,
+  [<tag:items:forge:dyes/white>, <tag:items:forge:dyes/orange>, <tag:items:forge:dyes/orange>, <tag:items:forge:dyes/orange>]
+);
+
+// Raw Lead
+craftingTable.addShapeless(
+  "raw_lead_from_dye",
+  <item:immersiveengineering:raw_lead>,
+  [<tag:items:forge:dyes/purple>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>]
+);
+
+// Raw Silver
+craftingTable.addShapeless(
+  "raw_silver_from_dye",
+  <item:immersiveengineering:raw_silver>,
+  [<tag:items:forge:dyes/white>, <tag:items:forge:dyes/light_gray>, <tag:items:forge:dyes/light_gray>, <tag:items:forge:dyes/light_gray>]
+);
+
+// Raw Nickel
+craftingTable.addShapeless(
+  "raw_nickel_from_dye",
+  <item:immersiveengineering:raw_nickel>,
+  [<tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/white>]
+);
+
+// Raw Uranium
+craftingTable.addShapeless(
+  "raw_uranium_from_dye",
+  <item:immersiveengineering:raw_uranium>,
+  [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>]
+);
