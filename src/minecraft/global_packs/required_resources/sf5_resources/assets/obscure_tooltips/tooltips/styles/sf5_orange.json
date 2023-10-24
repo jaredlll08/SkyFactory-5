@@ -1,0 +1,9 @@
+{
+  "priority": 69421,
+  "panel": "obscure_tooltips:sf5",
+  "icon": "obscure_tooltips:sf5_orange",
+  "effects": ["obscure_tooltips:sf5_orange"],
+  "filter": {
+    "items": ["sf5_things:orange_apple"]
+  }
+}
