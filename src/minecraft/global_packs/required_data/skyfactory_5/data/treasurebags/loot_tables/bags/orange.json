@@ -79,6 +79,17 @@
               "tag": "{gateway:\"gateways:vein_creeper_orange\"}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 60,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:lava_monster\"}"
+            }
+          ]
         }
       ]
     }
