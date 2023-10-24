@@ -32,3 +32,7 @@ for item in loadedMods["monsterplus"].itemStacks {
 for item in loadedMods["ae2"].itemStacks {
   item.maxDamage = -1;
 }
+for item in loadedMods["constructionwand"].itemStacks {
+  item.maxDamage = -1;
+}
+
