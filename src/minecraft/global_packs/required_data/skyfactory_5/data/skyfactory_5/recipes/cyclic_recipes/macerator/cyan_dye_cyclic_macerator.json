@@ -1,0 +1,19 @@
+{
+  "type": "cyclic:crusher",
+  "input": {
+    "tag": "skyfactory_5:colors/processing_items/cyan"
+  },
+  "energy": {
+    "ticks": 100,
+    "rfpertick": 5
+  },
+  "result": {
+    "item": "minecraft:cyan_dye",
+    "count": 1
+  },
+  "percent": 65,
+  "bonus": {
+    "item": "minecraft:cyan_dye",
+    "count": 1
+  }
+}

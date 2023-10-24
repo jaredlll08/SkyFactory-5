@@ -1,0 +1,20 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 500,
+  "input": {
+    "tag": "skyfactory_5:colors/processing_items/cyan"
+  },
+  "outputs": [
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "chance": 0.15,
+      "item": "minecraft:cyan_dye"
+    }
+  ]
+}

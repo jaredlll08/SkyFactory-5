@@ -1,0 +1,19 @@
+{
+  "type": "cyclic:crusher",
+  "input": {
+    "tag": "skyfactory_5:colors/processing_items/purple"
+  },
+  "energy": {
+    "ticks": 100,
+    "rfpertick": 5
+  },
+  "result": {
+    "item": "minecraft:purple_dye",
+    "count": 1
+  },
+  "percent": 65,
+  "bonus": {
+    "item": "minecraft:purple_dye",
+    "count": 1
+  }
+}

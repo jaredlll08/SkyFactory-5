@@ -1,0 +1,20 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 500,
+  "input": {
+    "tag": "skyfactory_5:colors/processing_items/orange"
+  },
+  "outputs": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "chance": 0.15,
+      "item": "minecraft:orange_dye"
+    }
+  ]
+}
