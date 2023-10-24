@@ -1422,6 +1422,9 @@
   },
   {
     "mob": ["earthmobsmod:wither_skeleton_wolf"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "witherskeletonwolf",
     "minlight": 0,
     "maxlight": 7,
@@ -1435,6 +1438,9 @@
   },
   {
     "mob": ["earthmobsmod:umbra_cow"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "umbracow",
     "minlight": 0,
     "maxlight": 7,
@@ -1655,6 +1661,22 @@
     "result": "allow"
   },
   {
+    "mob": ["lava_monster:lava_monster"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "lavamonster",
+    "minlight": 0,
+    "maxlight": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
     "mob": [
       "energeticsheep:energetic_sheep",
       "giacomos_gigglers:giggler",
@@ -1775,7 +1797,8 @@
       "veincreeper:purple",
       "veincreeper:red",
       "veincreeper:white",
-      "veincreeper:yellow"
+      "veincreeper:yellow",
+      "lava_monster:lava_monster"
     ],
     "result": "deny"
   },
@@ -1905,7 +1928,8 @@
       "veincreeper:purple",
       "veincreeper:red",
       "veincreeper:white",
-      "veincreeper:yellow"
+      "veincreeper:yellow",
+      "lava_monster:lava_monster"
     ],
     "spawner": true,
     "armorhelmet": {

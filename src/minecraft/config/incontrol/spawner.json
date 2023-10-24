@@ -239,7 +239,7 @@
     }
   },
   {
-    "mob": ["minecraft:blaze"],
+    "mob": ["minecraft:blaze", "lava_monster:lava_monster"],
     "persecond": 1,
     "attempts": 15,
     "amount": {

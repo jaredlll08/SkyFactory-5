@@ -176,14 +176,10 @@ val mobs: TrophyMob[string] = {
   "veincreeper:purple": new TrophyMob(MobStage.PurpleVeinCreeper, "Purple Vein Creeper"),
   "veincreeper:red": new TrophyMob(MobStage.RedVeinCreeper, "Red Vein Creeper"),
   "veincreeper:white": new TrophyMob(MobStage.WhiteVeinCreeper, "White Vein Creeper"),
-  "veincreeper:yellow": new TrophyMob(MobStage.YellowVeinCreeper, "Yellow Vein Creeper")
+  "veincreeper:yellow": new TrophyMob(MobStage.YellowVeinCreeper, "Yellow Vein Creeper"),
 
 // Lava Monsters
   "lava_monster:lava_monster": new TrophyMob(MobStage.LavaMonster, "Lava Monster")
-
-
-
-
 
 };
 
