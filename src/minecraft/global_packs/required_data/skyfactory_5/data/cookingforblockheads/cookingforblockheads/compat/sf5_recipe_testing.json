@@ -81,7 +81,12 @@
       "exdeorum:grass_seeds",
       "create:raw_zinc",
       "minecraft:quartz",
-      "minecraft:sugar_cane"
+      "minecraft:sugar_cane",
+      "immersiveengineering:raw_aluminum",
+      "immersiveengineering:raw_lead",
+      "immersiveengineering:raw_silver",
+      "immersiveengineering:raw_nickel",
+      "immersiveengineering:raw_uranium"
     ],
     "INGREDIENTS": []
   }
