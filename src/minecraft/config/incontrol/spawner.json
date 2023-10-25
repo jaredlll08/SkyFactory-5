@@ -30,6 +30,21 @@
     }
   },
   {
+    "mob": ["minecraft:warden"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
     "mob": ["minecraft:zombie", "minecraft:zombie_villager"],
     "persecond": 10,
     "attempts": 50,
@@ -64,9 +79,45 @@
     }
   },
   {
+    "mob": ["minecraft:spider", "minecraft:cave_spider"],
+    "persecond": 5,
+    "attempts": 30,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
     "mob": ["minecraft:drowned", "minecraft:husk", "minecraft:enderman"],
     "persecond": 1,
     "attempts": 15,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": [
+      "minecraft:piglin",
+      "minecraft:piglin_brute",
+      "minecraft:zombified_piglin"
+    ],
+    "persecond": 2,
+    "attempts": 20,
     "amount": {
       "minimum": 4,
       "maximum": 4
@@ -180,6 +231,20 @@
     "mob": ["minecraft:skeleton_horse", "minecraft:zombie_horse"],
     "persecond": 1,
     "attempts": 5,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:hoglin", "minecraft:zoglin"],
+    "persecond": 5,
+    "attempts": 15,
     "amount": {
       "minimum": 1,
       "maximum": 4
@@ -306,6 +371,20 @@
     "amount": {
       "minimum": 1,
       "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:phantom"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
     },
     "conditions": {
       "dimension": "minecraft:overworld",
