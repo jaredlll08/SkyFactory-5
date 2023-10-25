@@ -1,0 +1,43 @@
+{
+  "priority": 69421,
+  "panel": "obscure_tooltips:sf5_red",
+  "icon": "obscure_tooltips:sf5_red",
+  "effects": ["obscure_tooltips:sf5_red"],
+  "filter": {
+    "items": [
+      "minecraft:red_dye",
+      "minecraft:apple",
+      "colouredstuff:sapling_red",
+      "colouredstuff:planks_red",
+      "colouredstuff:log_red",
+      "colouredstuff:log_stripped_red",
+      "colouredstuff:crafting_table_red",
+      "colouredstuff:sapling_red",
+      "colouredstuff:cobblestone_red",
+      "colouredstuff:stone_bricks_red",
+      "colouredstuff:dirt_red",
+      "colouredstuff:path_red",
+      "colouredstuff:farmland_red",
+      "colouredstuff:smooth_sandstone_red",
+      "colouredstuff:brick_red",
+      "colouredstuff:chiseled_sandstone_red",
+      "colouredstuff:slab_planks_red",
+      "colouredstuff:slab_cobblestone_red",
+      "colouredstuff:slab_stone_red",
+      "colouredstuff:slab_stone_bricks_red",
+      "colouredstuff:slab_sandstone_red",
+      "colouredstuff:slab_brick_red",
+      "colouredstuff:stairs_brick_red",
+      "colouredstuff:stairs_planks_red",
+      "colouredstuff:stairs_stone_red",
+      "colouredstuff:stairs_cobblestone_red",
+      "colouredstuff:stairs_stone_bricks_red",
+      "colouredstuff:wall_stone_red",
+      "colouredstuff:wall_sandstone_red",
+      "colouredstuff:wall_cobblestone_red",
+      "colouredstuff:wall_stone_bricks_red",
+      "colouredstuff:fence_planks_red",
+      "colouredstuff:gate_planks_red"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "priority": 69421,
+  "panel": "obscure_tooltips:sf5_yellow",
+  "icon": "obscure_tooltips:sf5_yellow",
+  "effects": ["obscure_tooltips:sf5_yellow"],
+  "filter": {
+    "items": [
+      "minecraft:yellow_dye",
+      "sf5_things:yellow_apple",
+      "colouredstuff:planks_yellow",
+      "colouredstuff:log_yellow",
+      "colouredstuff:log_stripped_yellow",
+      "colouredstuff:crafting_table_yellow",
+      "colouredstuff:sapling_yellow",
+      "colouredstuff:cobblestone_yellow",
+      "colouredstuff:stone_bricks_yellow",
+      "colouredstuff:dirt_yellow",
+      "colouredstuff:path_yellow",
+      "colouredstuff:farmland_yellow",
+      "colouredstuff:smooth_sandstone_yellow",
+      "colouredstuff:brick_yellow",
+      "colouredstuff:chiseled_sandstone_yellow",
+      "colouredstuff:slab_planks_yellow",
+      "colouredstuff:slab_cobblestone_yellow",
+      "colouredstuff:slab_stone_yellow",
+      "colouredstuff:slab_stone_bricks_yellow",
+      "colouredstuff:slab_sandstone_yellow",
+      "colouredstuff:slab_brick_yellow",
+      "colouredstuff:stairs_brick_yellow",
+      "colouredstuff:stairs_planks_yellow",
+      "colouredstuff:stairs_stone_yellow",
+      "colouredstuff:stairs_cobblestone_yellow",
+      "colouredstuff:stairs_stone_bricks_yellow",
+      "colouredstuff:wall_stone_yellow",
+      "colouredstuff:wall_sandstone_yellow",
+      "colouredstuff:wall_cobblestone_yellow",
+      "colouredstuff:wall_stone_bricks_yellow",
+      "colouredstuff:fence_planks_yellow",
+      "colouredstuff:gate_planks_yellow"
+    ]
+  }
+}

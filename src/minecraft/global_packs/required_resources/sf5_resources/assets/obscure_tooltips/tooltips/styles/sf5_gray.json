@@ -1,0 +1,42 @@
+{
+  "priority": 69421,
+  "panel": "obscure_tooltips:sf5_gray",
+  "icon": "obscure_tooltips:sf5_gray",
+  "effects": ["obscure_tooltips:sf5_gray"],
+  "filter": {
+    "items": [
+      "minecraft:gray_dye",
+      "sf5_things:gray_apple",
+      "colouredstuff:planks_gray",
+      "colouredstuff:log_gray",
+      "colouredstuff:log_stripped_gray",
+      "colouredstuff:crafting_table_gray",
+      "colouredstuff:sapling_gray",
+      "colouredstuff:cobblestone_gray",
+      "colouredstuff:stone_bricks_gray",
+      "colouredstuff:dirt_gray",
+      "colouredstuff:path_gray",
+      "colouredstuff:farmland_gray",
+      "colouredstuff:smooth_sandstone_gray",
+      "colouredstuff:brick_gray",
+      "colouredstuff:chiseled_sandstone_gray",
+      "colouredstuff:slab_planks_gray",
+      "colouredstuff:slab_cobblestone_gray",
+      "colouredstuff:slab_stone_gray",
+      "colouredstuff:slab_stone_bricks_gray",
+      "colouredstuff:slab_sandstone_gray",
+      "colouredstuff:slab_brick_gray",
+      "colouredstuff:stairs_brick_gray",
+      "colouredstuff:stairs_planks_gray",
+      "colouredstuff:stairs_stone_gray",
+      "colouredstuff:stairs_cobblestone_gray",
+      "colouredstuff:stairs_stone_bricks_gray",
+      "colouredstuff:wall_stone_gray",
+      "colouredstuff:wall_sandstone_gray",
+      "colouredstuff:wall_cobblestone_gray",
+      "colouredstuff:wall_stone_bricks_gray",
+      "colouredstuff:fence_planks_gray",
+      "colouredstuff:gate_planks_gray"
+    ]
+  }
+}

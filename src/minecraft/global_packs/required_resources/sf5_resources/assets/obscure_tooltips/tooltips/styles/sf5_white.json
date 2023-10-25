@@ -1,0 +1,43 @@
+{
+  "priority": 69421,
+  "panel": "obscure_tooltips:sf5_white",
+  "icon": "obscure_tooltips:sf5_white",
+  "effects": ["obscure_tooltips:sf5_white"],
+  "filter": {
+    "items": [
+      "minecraft:white_dye",
+      "sf5_things:white_apple",
+      "colouredstuff:sapling_white",
+      "colouredstuff:planks_white",
+      "colouredstuff:log_white",
+      "colouredstuff:log_stripped_white",
+      "colouredstuff:crafting_table_white",
+      "colouredstuff:sapling_white",
+      "colouredstuff:cobblestone_white",
+      "colouredstuff:stone_bricks_white",
+      "colouredstuff:dirt_white",
+      "colouredstuff:path_white",
+      "colouredstuff:farmland_white",
+      "colouredstuff:smooth_sandstone_white",
+      "colouredstuff:brick_white",
+      "colouredstuff:chiseled_sandstone_white",
+      "colouredstuff:slab_planks_white",
+      "colouredstuff:slab_cobblestone_white",
+      "colouredstuff:slab_stone_white",
+      "colouredstuff:slab_stone_bricks_white",
+      "colouredstuff:slab_sandstone_white",
+      "colouredstuff:slab_brick_white",
+      "colouredstuff:stairs_brick_white",
+      "colouredstuff:stairs_planks_white",
+      "colouredstuff:stairs_stone_white",
+      "colouredstuff:stairs_cobblestone_white",
+      "colouredstuff:stairs_stone_bricks_white",
+      "colouredstuff:wall_stone_white",
+      "colouredstuff:wall_sandstone_white",
+      "colouredstuff:wall_cobblestone_white",
+      "colouredstuff:wall_stone_bricks_white",
+      "colouredstuff:fence_planks_white",
+      "colouredstuff:gate_planks_white"
+    ]
+  }
+}

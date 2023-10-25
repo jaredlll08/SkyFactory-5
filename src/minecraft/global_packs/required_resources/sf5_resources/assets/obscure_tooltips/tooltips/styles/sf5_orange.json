@@ -1,9 +1,43 @@
 {
   "priority": 69421,
-  "panel": "obscure_tooltips:sf5",
+  "panel": "obscure_tooltips:sf5_orange",
   "icon": "obscure_tooltips:sf5_orange",
   "effects": ["obscure_tooltips:sf5_orange"],
   "filter": {
-    "items": ["sf5_things:orange_apple"]
+    "items": [
+      "minecraft:orange_dye",
+      "sf5_things:orange_apple",
+      "colouredstuff:sapling_orange",
+      "colouredstuff:planks_orange",
+      "colouredstuff:log_orange",
+      "colouredstuff:log_stripped_orange",
+      "colouredstuff:crafting_table_orange",
+      "colouredstuff:sapling_orange",
+      "colouredstuff:cobblestone_orange",
+      "colouredstuff:stone_bricks_orange",
+      "colouredstuff:dirt_orange",
+      "colouredstuff:path_orange",
+      "colouredstuff:farmland_orange",
+      "colouredstuff:smooth_sandstone_orange",
+      "colouredstuff:brick_orange",
+      "colouredstuff:chiseled_sandstone_orange",
+      "colouredstuff:slab_planks_orange",
+      "colouredstuff:slab_cobblestone_orange",
+      "colouredstuff:slab_stone_orange",
+      "colouredstuff:slab_stone_bricks_orange",
+      "colouredstuff:slab_sandstone_orange",
+      "colouredstuff:slab_brick_orange",
+      "colouredstuff:stairs_brick_orange",
+      "colouredstuff:stairs_planks_orange",
+      "colouredstuff:stairs_stone_orange",
+      "colouredstuff:stairs_cobblestone_orange",
+      "colouredstuff:stairs_stone_bricks_orange",
+      "colouredstuff:wall_stone_orange",
+      "colouredstuff:wall_sandstone_orange",
+      "colouredstuff:wall_cobblestone_orange",
+      "colouredstuff:wall_stone_bricks_orange",
+      "colouredstuff:fence_planks_orange",
+      "colouredstuff:gate_planks_orange"
+    ]
   }
 }

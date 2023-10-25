@@ -1,0 +1,42 @@
+{
+  "priority": 69421,
+  "panel": "obscure_tooltips:sf5_brown",
+  "icon": "obscure_tooltips:sf5_brown",
+  "effects": ["obscure_tooltips:sf5_brown"],
+  "filter": {
+    "items": [
+      "minecraft:brown_dye",
+      "sf5_things:brown_apple",
+      "colouredstuff:planks_brown",
+      "colouredstuff:log_brown",
+      "colouredstuff:log_stripped_brown",
+      "colouredstuff:crafting_table_brown",
+      "colouredstuff:sapling_brown",
+      "colouredstuff:cobblestone_brown",
+      "colouredstuff:stone_bricks_brown",
+      "colouredstuff:dirt_brown",
+      "colouredstuff:path_brown",
+      "colouredstuff:farmland_brown",
+      "colouredstuff:smooth_sandstone_brown",
+      "colouredstuff:brick_brown",
+      "colouredstuff:chiseled_sandstone_brown",
+      "colouredstuff:slab_planks_brown",
+      "colouredstuff:slab_cobblestone_brown",
+      "colouredstuff:slab_stone_brown",
+      "colouredstuff:slab_stone_bricks_brown",
+      "colouredstuff:slab_sandstone_brown",
+      "colouredstuff:slab_brick_brown",
+      "colouredstuff:stairs_brick_brown",
+      "colouredstuff:stairs_planks_brown",
+      "colouredstuff:stairs_stone_brown",
+      "colouredstuff:stairs_cobblestone_brown",
+      "colouredstuff:stairs_stone_bricks_brown",
+      "colouredstuff:wall_stone_brown",
+      "colouredstuff:wall_sandstone_brown",
+      "colouredstuff:wall_cobblestone_brown",
+      "colouredstuff:wall_stone_bricks_brown",
+      "colouredstuff:fence_planks_brown",
+      "colouredstuff:gate_planks_brown"
+    ]
+  }
+}

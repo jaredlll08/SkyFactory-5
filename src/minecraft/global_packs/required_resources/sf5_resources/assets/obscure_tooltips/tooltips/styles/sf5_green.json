@@ -1,0 +1,43 @@
+{
+  "priority": 69421,
+  "panel": "obscure_tooltips:sf5_green",
+  "icon": "obscure_tooltips:sf5_green",
+  "effects": ["obscure_tooltips:sf5_green"],
+  "filter": {
+    "items": [
+      "minecraft:green_dye",
+      "sf5_things:green_apple",
+      "colouredstuff:sapling_green",
+      "colouredstuff:planks_green",
+      "colouredstuff:log_green",
+      "colouredstuff:log_stripped_green",
+      "colouredstuff:crafting_table_green",
+      "colouredstuff:sapling_green",
+      "colouredstuff:cobblestone_green",
+      "colouredstuff:stone_bricks_green",
+      "colouredstuff:dirt_green",
+      "colouredstuff:path_green",
+      "colouredstuff:farmland_green",
+      "colouredstuff:smooth_sandstone_green",
+      "colouredstuff:brick_green",
+      "colouredstuff:chiseled_sandstone_green",
+      "colouredstuff:slab_planks_green",
+      "colouredstuff:slab_cobblestone_green",
+      "colouredstuff:slab_stone_green",
+      "colouredstuff:slab_stone_bricks_green",
+      "colouredstuff:slab_sandstone_green",
+      "colouredstuff:slab_brick_green",
+      "colouredstuff:stairs_brick_green",
+      "colouredstuff:stairs_planks_green",
+      "colouredstuff:stairs_stone_green",
+      "colouredstuff:stairs_cobblestone_green",
+      "colouredstuff:stairs_stone_bricks_green",
+      "colouredstuff:wall_stone_green",
+      "colouredstuff:wall_sandstone_green",
+      "colouredstuff:wall_cobblestone_green",
+      "colouredstuff:wall_stone_bricks_green",
+      "colouredstuff:fence_planks_green",
+      "colouredstuff:gate_planks_green"
+    ]
+  }
+}

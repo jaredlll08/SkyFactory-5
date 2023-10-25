@@ -1,0 +1,42 @@
+{
+  "priority": 69421,
+  "panel": "obscure_tooltips:sf5_magenta",
+  "icon": "obscure_tooltips:sf5_magenta",
+  "effects": ["obscure_tooltips:sf5_magenta"],
+  "filter": {
+    "items": [
+      "minecraft:magenta_dye",
+      "sf5_things:magenta_apple",
+      "colouredstuff:planks_magenta",
+      "colouredstuff:log_magenta",
+      "colouredstuff:log_stripped_magenta",
+      "colouredstuff:crafting_table_magenta",
+      "colouredstuff:sapling_magenta",
+      "colouredstuff:cobblestone_magenta",
+      "colouredstuff:stone_bricks_magenta",
+      "colouredstuff:dirt_magenta",
+      "colouredstuff:path_magenta",
+      "colouredstuff:farmland_magenta",
+      "colouredstuff:smooth_sandstone_magenta",
+      "colouredstuff:brick_magenta",
+      "colouredstuff:chiseled_sandstone_magenta",
+      "colouredstuff:slab_planks_magenta",
+      "colouredstuff:slab_cobblestone_magenta",
+      "colouredstuff:slab_stone_magenta",
+      "colouredstuff:slab_stone_bricks_magenta",
+      "colouredstuff:slab_sandstone_magenta",
+      "colouredstuff:slab_brick_magenta",
+      "colouredstuff:stairs_brick_magenta",
+      "colouredstuff:stairs_planks_magenta",
+      "colouredstuff:stairs_stone_magenta",
+      "colouredstuff:stairs_cobblestone_magenta",
+      "colouredstuff:stairs_stone_bricks_magenta",
+      "colouredstuff:wall_stone_magenta",
+      "colouredstuff:wall_sandstone_magenta",
+      "colouredstuff:wall_cobblestone_magenta",
+      "colouredstuff:wall_stone_bricks_magenta",
+      "colouredstuff:fence_planks_magenta",
+      "colouredstuff:gate_planks_magenta"
+    ]
+  }
+}
