@@ -45,6 +45,21 @@
     }
   },
   {
+    "mob": ["minecraft:wither"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
     "mob": ["minecraft:zombie", "minecraft:zombie_villager"],
     "persecond": 10,
     "attempts": 50,
