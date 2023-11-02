@@ -77,6 +77,23 @@
     }
   },
   {
+    "mob": ["minecraft:creeper", "forcecraft:creeper_tot"],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
     "mob": ["minecraft:skeleton", "minecraft:stray"],
     "persecond": 10,
     "attempts": 50,
@@ -111,8 +128,13 @@
     }
   },
   {
-    "mob": ["minecraft:drowned", "minecraft:husk", "minecraft:enderman"],
-    "persecond": 1,
+    "mob": [
+      "minecraft:drowned",
+      "minecraft:husk",
+      "minecraft:enderman",
+      "forcecraft:ender_tot"
+    ],
+    "persecond": 5,
     "attempts": 15,
     "amount": {
       "minimum": 4,
@@ -229,9 +251,15 @@
     }
   },
   {
-    "mob": ["minecraft:slime"],
-    "persecond": 1,
-    "attempts": 5,
+    "mob": [
+      "minecraft:slime",
+      "forcecraft:blue_chu_chu",
+      "forcecraft:gold_chu_chu",
+      "forcecraft:green_chu_chu",
+      "forcecraft:red_chu_chu"
+    ],
+    "persecond": 2,
+    "attempts": 10,
     "amount": {
       "minimum": 4,
       "maximum": 4
@@ -366,7 +394,7 @@
     }
   },
   {
-    "mob": ["minecraft:allay"],
+    "mob": ["minecraft:allay", "forcecraft:fairy"],
     "persecond": 1,
     "attempts": 15,
     "amount": {
