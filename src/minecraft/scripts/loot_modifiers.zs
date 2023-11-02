@@ -37,7 +37,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
   }
 
   if rollsChance(ctx.random, 5) {
-    drops.add(<item:sf5_things:colorless_apple>);
+    drops.add(<item:sf5_things:none_apple>);
   }
 
   return drops;
