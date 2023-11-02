@@ -1,0 +1,21 @@
+{
+  "type": "lychee:dripstone_dripping",
+  "source_block": "colored_water:brown_fluid_block",
+  "target_block": {
+    "blocks": ["colored_water:brown_water_cauldron"],
+    "state": {
+      "level": "1"
+    }
+  },
+  "post": [
+    {
+      "type": "place",
+      "block": {
+        "blocks": ["colored_water:brown_water_cauldron"],
+        "state": {
+          "level": "2"
+        }
+      }
+    }
+  ]
+}
