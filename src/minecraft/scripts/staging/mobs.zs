@@ -179,7 +179,24 @@ val mobs: TrophyMob[string] = {
   "veincreeper:yellow": new TrophyMob(MobStage.YellowVeinCreeper, "Yellow Vein Creeper"),
 
 // Lava Monsters
-  "lava_monster:lava_monster": new TrophyMob(MobStage.LavaMonster, "Lava Monster")
+  "lava_monster:lava_monster": new TrophyMob(MobStage.LavaMonster, "Lava Monster"),
+
+// ForceCraft
+
+"forcecraft:blue_chu_chu": new TrophyMob(MobStage.BlueChuChu, "Blue Chu Chu"),
+"forcecraft:cold_chicken": new TrophyMob(MobStage.ColdChicken, "Cold Chicken"),
+"forcecraft:cold_cow": new TrophyMob(MobStage.ColdCow, "Cold Cow"),
+"forcecraft:cold_pig": new TrophyMob(MobStage.ColdPig, "Cold Pig"),
+"forcecraft:creeper_tot": new TrophyMob(MobStage.CreeperTot, "Creeper Tot"),
+"forcecraft:ender_tot": new TrophyMob(MobStage.EnderTot, "Ender Tot"),
+"forcecraft:fairy": new TrophyMob(MobStage.Fairy, "Fairy"),
+"forcecraft:gold_chu_chu": new TrophyMob(MobStage.GoldChuChu, "Gold Chu Chu"),
+"forcecraft:green_chu_chu": new TrophyMob(MobStage.GreenChuChu, "Green Chu Chu"),
+"forcecraft:red_chu_chu": new TrophyMob(MobStage.RedChuChu, "Red Chu Chu"),
+
+// Luggage
+"luggage:luggage": new TrophyMob(MobStage.Luggage, "Luggage"),
+"luggage:ender_luggage": new TrophyMob(MobStage.EnderLuggage, "Ender Luggage")
 
 };
 
