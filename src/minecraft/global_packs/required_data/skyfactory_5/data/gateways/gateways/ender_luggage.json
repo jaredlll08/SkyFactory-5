@@ -1,0 +1,41 @@
+{
+  "size": "large",
+  "leash_range": 50000000,
+  "color": "#30e1b9",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "luggage:ender_luggage",
+          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+        },
+        {
+          "entity": "luggage:ender_luggage",
+          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+        }
+      ],
+      "modifiers": [],
+      "rewards": [],
+      "max_wave_time": 1200,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "stack",
+      "stack": {
+        "item": "obtrophies:trophy",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "VariantID": 0,
+            "SpecialCycleVariant": 0,
+            "entity": "luggage:ender_luggage"
+          }
+        }
+      }
+    }
+  ],
+  "completion_xp": 250,
+  "spawn_range": 5
+}

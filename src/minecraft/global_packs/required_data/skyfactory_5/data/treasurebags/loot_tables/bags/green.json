@@ -68,6 +68,17 @@
               "tag": "{gateway:\"gateways:vein_creeper_green\"}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:green_chu_chu\"}"
+            }
+          ]
         }
       ]
     }

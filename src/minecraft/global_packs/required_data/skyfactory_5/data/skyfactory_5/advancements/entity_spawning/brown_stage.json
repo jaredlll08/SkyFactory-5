@@ -22,8 +22,20 @@
           }
         ]
       }
+    },
+    "obtain_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:leather"]
+          }
+        ]
+      }
     }
   },
+  "requirements": [["obtain_dirt", "obtain_leather"]],
   "rewards": {
     "function": "skyfactory_5:stages/brown_stage"
   }
