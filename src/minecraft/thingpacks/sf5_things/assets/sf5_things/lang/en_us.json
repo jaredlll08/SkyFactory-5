@@ -23,7 +23,7 @@
   "item.sf5_things.blue_stick": "Blue Stick",
   "item.sf5_things.brown_apple": "Brown Apple",
   "item.sf5_things.brown_stick": "Brown Stick",
-  "item.sf5_things.colorless_apple": "Colorless Apple",
+  "item.sf5_things.none_apple": "Colorless Apple",
   "item.sf5_things.colorless_stick": "Colorless Stick",
   "item.sf5_things.cyan_apple": "Cyan Apple",
   "item.sf5_things.cyan_stick": "Cyan Stick",
@@ -53,5 +53,5 @@
   "item.sf5_things.white_stick": "White Stick",
   "item.sf5_things.yellow_apple": "Yellow Apple",
   "item.sf5_things.yellow_stick": "Yellow Stick",
-  "jade.modName.sf5_things": "SkyFactory 5"
+  "jade.modname.sf5_things": "SkyFactory 5"
 }

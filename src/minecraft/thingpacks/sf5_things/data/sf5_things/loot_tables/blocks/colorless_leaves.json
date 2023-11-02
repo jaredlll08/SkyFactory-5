@@ -122,7 +122,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sf5_things:colorless_apple",
+          "name": "sf5_things:none_apple",
           "conditions": [
             {
               "condition": "minecraft:survives_explosion"
