@@ -1,275 +1,283 @@
 import crafttweaker.api.bracket.BracketHandlers;
 import crafttweaker.api.block.Block;
-import crafttweaker.api.item.IItemStack;
 
-public class ColoredContent {
-  private val color as Color;
-  private val tree as Tree;
+val contentFactory = new ColoredContentFactory();
 
-  public this(color: Color) {
-    this.color = color;
+// Register Blocks
+public enum ColoredBlock {
+  Leaves = "leaves"
+}
 
-    this.tree = new Tree(this);
-  }
+// TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
+// contentFactory
+//   .registerBlock(ColoredBlock.Leaves, (color) => {
+//     return BracketHandlers.getBlock("colouredstuff:leaves_" + color.getResourceName());
+//   });
 
-  public getColor(): Color {
-    return this.color;
-  }
+// Regsiter Items
+public enum ColoredItem {
+  Apple = "apple",
+  CraftingTable = "crafting_table",
+  Dye = "dye",
+  LimitedStorageBarrel1 = "limited_storage_barrel_1",
+  LimitedStorageBarrel2 = "limited_storage_barrel_2",
+  LimitedStorageBarrel4 = "limited_storage_barrel_4",
+  Plank = "plank",
+  PlankSlab = "plank_slab",
+  Sapling = "sapling",
+  Stick = "stick",
+  StorageChest = "storage_chest",
+  TreasureBag = "treasure_bag",
+  Wool = "wool",
+}
 
-  public getTree(): Tree {
-    return this.tree;
-  }
-
-  public getApple(): IItemStack? {
-
-
-    if this.color.getName() == ColorName.Red {
+contentFactory
+  .registerItem(ColoredItem.Apple, (color) => {
+    if color.getName() == ColorName.Red {
       return <item:minecraft:apple>;
     }
 
-    return BracketHandlers.getItem("sf5_things:" + this.color.getResourceName() + "_apple");
-  }
+    return BracketHandlers.getItem("sf5_things:" + color.getResourceName() + "_apple");
+  })
+  .registerItem(ColoredItem.CraftingTable, (color) => {
+    return BracketHandlers.getItem("colouredstuff:crafting_table_" + color.getResourceName());
+  })
+  .registerItem(ColoredItem.Dye, (color) => {
+    if color.getName() == ColorName.None {
+      return null;
+    }
 
-  public getBag(): IItemStack? {
-    if this.color.getName() == ColorName.None {
+    return BracketHandlers.getItem("minecraft:" + color.getResourceName() + "_dye");
+  })
+  .registerItem(ColoredItem.Plank, (color) => {
+    return BracketHandlers.getItem("colouredstuff:planks_" + color.getResourceName());
+  })
+  .registerItem(ColoredItem.PlankSlab, (color) => {
+    return BracketHandlers.getItem("colouredstuff:slab_planks_" + color.getResourceName());
+  })
+  .registerItem(ColoredItem.Sapling, (color) => {
+    return BracketHandlers.getItem("colouredstuff:sapling_" + color.getResourceName());
+  })
+  .registerItem(ColoredItem.Stick, (color) => {
+    var resourceName = color.getResourceName();
+    if color.getName() == ColorName.None {
+      resourceName = "colorless";
+    }
+
+    return BracketHandlers.getItem("sf5_things:" + resourceName + "_stick");
+  })
+  .registerItem(ColoredItem.StorageChest, (color) => {
+    return <item:sophisticatedstorage:chest>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
+  })
+  .registerItem(ColoredItem.LimitedStorageBarrel1, (color) => {
+    return <item:sophisticatedstorage:limited_barrel_1>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
+  })
+  .registerItem(ColoredItem.LimitedStorageBarrel2, (color) => {
+    return <item:sophisticatedstorage:limited_barrel_2>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
+  })
+  .registerItem(ColoredItem.LimitedStorageBarrel4, (color) => {
+    return <item:sophisticatedstorage:limited_barrel_4>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
+  })
+  .registerItem(ColoredItem.TreasureBag, (color) => {
+    if color.getName() == ColorName.None {
       return null;
     }
 
     return <item:treasurebags:treasure_bag>.withTag({
       "silentlib.LootContainer": {
-        LootTable: "treasurebags:bags/" + this.color.getResourceName(),
-        BagType: "treasurebags:" + this.color.getResourceName()
+        LootTable: "treasurebags:bags/" + color.getResourceName(),
+        BagType: "treasurebags:" + color.getResourceName()
       }
     });
-  }
-
-  public getCraftingTableItem(): IItemStack {
-    return BracketHandlers.getItem("colouredstuff:crafting_table_" + this.color.getResourceName());
-  }
-
-  public getDye(): IItemStack? {
-    if this.color.getName() == ColorName.None {
+  })
+  .registerItem(ColoredItem.Wool, (color) => {
+    if color.getName() == ColorName.None {
       return null;
     }
 
-    return BracketHandlers.getItem("minecraft:" + this.color.getResourceName() + "_dye");
-  }
+    return BracketHandlers.getItem("minecraft:" + color.getResourceName() + "_wool");
+  });
 
-  public getGateways(): string[] {
-    if (this.color.getName() == ColorName.Black) {
-      return [
-        "gateways:enderman",
-        "gateways:spider"
-      ];
+// Register Loot Modifiers
+contentFactory
+  .addLootModifierGenerator("colored_leaves_", (baseName, color, blocks, items) => {
+    // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
+    // val leaves = blocks[ColoredBlock.Leaves];
+    val leaves = BracketHandlers.getBlock("colouredstuff:leaves_" + color.getResourceName()) as Block?;
+
+    val apple = items[ColoredItem.Apple];
+    val dye = items[ColoredItem.Dye];
+    val sapling = items[ColoredItem.Sapling];
+    val stick = items[ColoredItem.Stick];
+
+    val gateways = getGatewaysForColor(color);
+
+    if leaves == null {
+      return;
     }
 
-    if (this.color.getName() == ColorName.Blue) {
-      return [
-        "gateways:drowned",
-        "gateways:squid"
-      ];
+    leaves.addLootModifier(baseName + color.getResourceName(), (drops, ctx) => {
+      val realPlayerLooting = isRealPlayerLooting(ctx);
+
+      val saplingDropChance = realPlayerLooting ? 15 : 10;
+      val appleDropChance = realPlayerLooting ? 5 : 1;
+      val dyeDropChance = realPlayerLooting ? 10 : 5;
+      val stickDropChance = realPlayerLooting ? 5 : 1;
+      val gatewayDropChance = realPlayerLooting ? 0.69 : 0.25;
+
+      if apple != null && rollsChance(ctx.random, appleDropChance) {
+        drops.add(apple);
+      }
+
+      if dye != null && rollsChance(ctx.random, dyeDropChance) {
+        drops.add(dye);
+      }
+
+      if sapling != null && rollsChance(ctx.random, saplingDropChance) {
+        drops.add(sapling);
+      }
+
+      if stick != null && rollsChance(ctx.random, stickDropChance) {
+        drops.add(stick);
+      }
+
+      for gateway in gateways {
+        if rollsChance(ctx.random, gatewayDropChance) {
+          drops.add(<item:gateways:gate_pearl>.withTag({gateway: gateway}));
+        }
+      }
+
+      return drops;
+    });
+  });
+
+// Register Recipes
+contentFactory
+  .addRecipeGenerator("_apple_to_dye", (baseName, color, items) => {
+    val apple = items[ColoredItem.Apple];
+    val dye = items[ColoredItem.Dye];
+
+    if apple == null || dye == null {
+      return;
     }
 
-    if (this.color.getName() == ColorName.Brown) {
-      return ["gateways:cow"];
+    craftingTable.addShapeless(
+      color.getResourceName() + baseName,
+      dye,
+      [apple]
+    );
+  })
+  .addRecipeGenerator("_chest_shaped", (baseName, color, items) => {
+    val plankItem = items[ColoredItem.Plank];
+    val storageChest = items[ColoredItem.StorageChest];
+
+    if plankItem == null || storageChest == null {
+      return;
     }
-
-    if (this.color.getName() == ColorName.Cyan) {
-      return ["gateways:glow_squid"];
-    }
-
-    if (this.color.getName() == ColorName.Gray) {
-      return ["gateways:cat"];
-    }
-
-    if (this.color.getName() == ColorName.Green) {
-      return [
-        "gateways:frog",
-        "gateways:zombie"
-      ];
-    }
-
-    if (this.color.getName() == ColorName.LightBlue) {
-      return ["gateways:allay"];
-    }
-
-    if (this.color.getName() == ColorName.LightGray) {
-      return ["gateways:iron_golem"];
-    }
-
-    if (this.color.getName() == ColorName.Lime) {
-      return ["gateways:creeper"];
-    }
-
-    if (this.color.getName() == ColorName.Magenta) {
-      return [];
-    }
-
-    if (this.color.getName() == ColorName.Orange) {
-      return ["gateways:wooly_cow"];
-    }
-
-    if (this.color.getName() == ColorName.Pink) {
-      return ["gateways:pig"];
-    }
-
-    if (this.color.getName() == ColorName.Purple) {
-      return ["gateways:bone_spider","gateways:shulker"];
-    }
-
-    if (this.color.getName() == ColorName.Red) {
-      return ["gateways:cluckshroom", "gateways:strider"];
-    }
-
-    if (this.color.getName() == ColorName.White) {
-      return ["gateways:skeleton", "gateways:goat"];
-    }
-
-    if (this.color.getName() == ColorName.Yellow) {
-      return ["gateways:bee"];
-    }
-
-    return [];
-  }
-
-  public getPlankItem(): IItemStack {
-    return BracketHandlers.getItem("colouredstuff:planks_" + this.color.getResourceName());
-  }
-
-  public getSlabItem(): IItemStack {
-    return BracketHandlers.getItem("colouredstuff:slab_planks_" + this.color.getResourceName());
-  }
-
-  public getStick(): IItemStack {
-    var resourceName = this.color.getResourceName();
-    if this.color.getName() == ColorName.None {
-      resourceName = "colorless";
-    }
-
-    return BracketHandlers.getItem("sf5_things:" + resourceName + "_stick");
-  }
-
-  public getStorageChest(): IItemStack {
-    return <item:sophisticatedstorage:chest>.withTag({mainColor: this.color.asDecimal(), accentColor: 6710886});
-  }
-
-  public getLimitedStorageBarrel(): IItemStack {
-    return <item:sophisticatedstorage:limited_barrel_1>.withTag({mainColor: this.color.asDecimal(), accentColor: 6710886});
-  }
-
-  public getLimitedStorageBarrel2(): IItemStack {
-    return <item:sophisticatedstorage:limited_barrel_2>.withTag({mainColor: this.color.asDecimal(), accentColor: 6710886});
-  }
-
-    public getLimitedStorageBarrel4(): IItemStack {
-    return <item:sophisticatedstorage:limited_barrel_4>.withTag({mainColor: this.color.asDecimal(), accentColor: 6710886});
-  }
-
-  public getWool(): IItemStack? {
-    if this.color.getName() == ColorName.None {
-      return null;
-    }
-
-    return BracketHandlers.getItem("minecraft:" + this.color.getResourceName() + "_wool");
-  }
-
-  public registerRecipes(): void {
-    val plankItem = this.getPlankItem();
-    val stick = this.getStick();
-    val treasureBag = this.getBag();
-    val wool = this.getWool();
-    val slabItem = this.getSlabItem();
 
     craftingTable.addShaped(
-      this.color.getResourceName() + "_chest_shaped",
-      this.getStorageChest(),
+      color.getResourceName() + baseName,
+      storageChest,
       [
         [plankItem, plankItem, plankItem],
         [plankItem, <item:minecraft:air>, plankItem],
         [plankItem, plankItem, plankItem],
       ]
     );
-// Sophisticated Storage Limited Barrel 1
+  })
+  .addRecipeGenerator("_limited_barrel_shaped", (baseName, color, items) => {
+    val barrel = items[ColoredItem.LimitedStorageBarrel1];
+    val plankItem = items[ColoredItem.Plank];
+    val slabItem = items[ColoredItem.PlankSlab];
+
+    if barrel == null || plankItem == null || slabItem == null {
+      return;
+    }
+
     craftingTable.addShaped(
-      this.color.getResourceName() + "_limited_barrel_shaped",
-      this.getLimitedStorageBarrel(),
+      color.getResourceName() + baseName,
+      barrel,
       [
         [plankItem, slabItem, plankItem],
         [plankItem, <item:minecraft:redstone_torch>, plankItem],
         [plankItem, plankItem, plankItem],
       ]
     );
+  })
+  .addRecipeGenerator("_limited_barrel_shaped2", (baseName, color, items) => {
+    val barrel = items[ColoredItem.LimitedStorageBarrel2];
+    val plankItem = items[ColoredItem.Plank];
+    val slabItem = items[ColoredItem.PlankSlab];
 
-// Sophisticated Storage Limited Barrel 2
+    if barrel == null || plankItem == null || slabItem == null {
+      return;
+    }
+
     craftingTable.addShaped(
-      this.color.getResourceName() + "_limited_barrel_shaped2",
-      this.getLimitedStorageBarrel2(),
+      color.getResourceName() + baseName,
+      barrel,
       [
         [plankItem, plankItem, plankItem],
         [slabItem, <item:minecraft:redstone_torch>, slabItem],
         [plankItem, plankItem, plankItem],
       ]
     );
+  })
+  .addRecipeGenerator("_limited_barrel_shaped4", (baseName, color, items) => {
+    val barrel = items[ColoredItem.LimitedStorageBarrel4];
+    val plankItem = items[ColoredItem.Plank];
+    val slabItem = items[ColoredItem.PlankSlab];
 
-// Sophisticated Storage Limited Barrel 4
+    if barrel == null || plankItem == null || slabItem == null {
+      return;
+    }
+
     craftingTable.addShaped(
-      this.color.getResourceName() + "_limited_barrel_shaped4",
-      this.getLimitedStorageBarrel4(),
+      color.getResourceName() + baseName,
+      barrel,
       [
         [plankItem, slabItem, plankItem],
         [slabItem, <item:minecraft:redstone_torch>, slabItem],
         [plankItem, slabItem, plankItem],
       ]
     );
+  })
+  .addRecipeGenerator("stick_", (baseName, color, items) => {
+    val plankItem = items[ColoredItem.Plank];
+    val stick = items[ColoredItem.Stick];
 
+    if plankItem == null || stick == null {
+      return;
+    }
 
     craftingTable.addShaped(
-      "stick_" + this.color.getResourceName(),
+      baseName + color.getResourceName(),
       stick * 4,
       [
         [plankItem],
         [plankItem]
       ]
     );
+  })
+  .addRecipeGenerator("treasure_bag_", (baseName, color, items) => {
+    val treasureBag = items[ColoredItem.TreasureBag];
+    val wool = items[ColoredItem.Wool];
 
-    if treasureBag != null && wool != null {
-      val safeWool = wool as IItemStack;
-
-      craftingTable.addShaped(
-        "treasure_bag_" + this.color.getResourceName(),
-        treasureBag as IItemStack,
-        [
-          [safeWool, safeWool, safeWool],
-          [safeWool, <item:sf5_things:treasure_bag_template>, safeWool],
-          [safeWool, safeWool, safeWool]
-        ]
-      );
+    if treasureBag == null || wool == null {
+      return;
     }
-  }
-}
 
-val coloredContents as ColoredContent[] = [
-  new ColoredContent(Globals.colors[ColorName.None]),
+    craftingTable.addShaped(
+      baseName + color.getResourceName(),
+      treasureBag,
+      [
+        [wool, wool, wool],
+        [wool, <item:sf5_things:treasure_bag_template>, wool],
+        [wool, wool, wool]
+      ]
+    );
+  });
 
-  new ColoredContent(Globals.colors[ColorName.Black]),
-  new ColoredContent(Globals.colors[ColorName.Blue]),
-  new ColoredContent(Globals.colors[ColorName.Brown]),
-  new ColoredContent(Globals.colors[ColorName.Cyan]),
-  new ColoredContent(Globals.colors[ColorName.Gray]),
-  new ColoredContent(Globals.colors[ColorName.Green]),
-  new ColoredContent(Globals.colors[ColorName.LightBlue]),
-  new ColoredContent(Globals.colors[ColorName.LightGray]),
-  new ColoredContent(Globals.colors[ColorName.Lime]),
-  new ColoredContent(Globals.colors[ColorName.Magenta]),
-  new ColoredContent(Globals.colors[ColorName.Orange]),
-  new ColoredContent(Globals.colors[ColorName.Pink]),
-  new ColoredContent(Globals.colors[ColorName.Purple]),
-  new ColoredContent(Globals.colors[ColorName.Red]),
-  new ColoredContent(Globals.colors[ColorName.White]),
-  new ColoredContent(Globals.colors[ColorName.Yellow])
-];
+// Build Colors
 
-for coloredContent in coloredContents {
-  coloredContent.registerRecipes();
-  coloredContent.getTree().registerLootModifier();
-}
+contentFactory.build();
