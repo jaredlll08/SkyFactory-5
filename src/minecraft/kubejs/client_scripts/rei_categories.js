@@ -154,67 +154,29 @@ REIEvents.groupEntries((event) => {
 
   // Categorization by mod
 
-  // Chipped Mod
-  event.groupItems("kubejs:rei_groups/chipped_mod", "Chipped Mod", [
-    /^chipped.*/,
-  ]);
+  /** @type {{modName: string; modID: Special.Mod}[]} */
+  const mods = [
+    { modName: "Additional Lanterns", modID: "additionallanterns" },
+    { modName: "Chipped", modID: "chipped" },
+    { modName: "Cluttered", modID: "luphieclutteredmod" },
+    { modName: "Crayfish Furniture", modID: "cfm" },
+    { modName: "Heads", modID: "heads" },
+    { modName: "Industrial Foregoing", modID: "industrialforegoing" },
+    { modName: "Macaw Lights", modID: "mcwlights" },
+    { modName: "Multi Beds", modID: "multibeds" },
+    { modName: "Rechiseled", modID: "rechiseled" },
+    { modName: "Simple Hats", modID: "simplehats" },
+    { modName: "Wooden Buckets", modID: "woodenbucket" },
+    { modName: "X Tones", modID: "xtonesreworked" },
+  ];
 
-  // Rechiseled Mod
-  event.groupItems("kubejs:rei_groups/rechiseled_mod", "Rechiseled Mod", [
-    /^rechiseled.*/,
-  ]);
-
-  // Cluttered Mod
-  event.groupItems("kubejs:rei_groups/cluttered_mod", "Cluttered Mod", [
-    /^luphieclutteredmod.*/,
-  ]);
-
-  // Crayfish Furniture Mod
-  event.groupItems("kubejs:rei_groups/cfm_mod", "Crayfish Furniture Mod", [
-    /^cfm.*/,
-  ]);
-
-  // Macaw Lights Furniture Mod
-  event.groupItems("kubejs:rei_groups/mcwlights_mod", "Macaw Lights Mod", [
-    /^mcwlights.*/,
-  ]);
-
-  // Industrial Foregoing Mod
-  event.groupItems(
-    "kubejs:rei_groups/industrialforegoing_mod",
-    "Industrial Foregoing",
-    [/^industrialforegoing.*/],
-  );
-
-  // Xtones
-  event.groupItems("kubejs:rei_groups/xtonesreworked_mod", "X Tones", [
-    /^xtonesreworked.*/,
-  ]);
-
-  // Multibeds
-  event.groupItems("kubejs:rei_groups/multibeds_mod", "Multi Beds", [
-    /^multibeds.*/,
-  ]);
-
-  // Simple Hats
-  event.groupItems("kubejs:rei_groups/simplehats_mod", "Simple Hats", [
-    /^simplehats.*/,
-  ]);
-
-  // Heads mod
-  event.groupItems("kubejs:rei_groups/heads_mod", "Heads", [/^heads.*/]);
-
-  // Additional Lanterns
-  event.groupItems(
-    "kubejs:rei_groups/additionallanterns_mod",
-    "Additional Lanterns",
-    [/^additionallanterns.*/],
-  );
-
-  // Wooden Buckets
-  event.groupItems("kubejs:rei_groups/wooden_bucket_mod", "Wooden Buckets", [
-    /^woodenbucket.*/,
-  ]);
+  mods.forEach((entry) => {
+    event.groupItems(
+      `kubejs:rei_groups/${entry.modID}`,
+      entry.modName,
+      `@${entry.modID}`,
+    );
+  });
 
   // Ex Deorum Sieves
   event.groupItems("kubejs:rei_groups/sieves", "Sieves", [
