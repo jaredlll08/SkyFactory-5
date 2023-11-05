@@ -31,9 +31,110 @@
           }
         ]
       }
+    },
+    "cucumber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sushigocrafting:cucumber"]
+          }
+        ]
+      }
+    },
+    "soy_bean": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sushigocrafting:soy_bean"]
+          }
+        ]
+      }
+    },
+    "wasabi_root": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sushigocrafting:wasabi_root"]
+          }
+        ]
+      }
+    },
+    "avocado": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sushigocrafting:avocado"]
+          }
+        ]
+      }
+    },
+    "cucumber_slices": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sushigocrafting:cucumber_slices"]
+          }
+        ]
+      }
+    },
+    "avocado_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sushigocrafting:avocado_sapling"]
+          }
+        ]
+      }
+    },
+    "avocado_leaves": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sushigocrafting:avocado_leaves"]
+          }
+        ]
+      }
+    },
+    "nori_sheets": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sushigocrafting:nori_sheets"]
+          }
+        ]
+      }
     }
   },
-  "requirements": [["eat_green_apple", "bamboo"]],
+  "requirements": [
+    [
+      "eat_green_apple",
+      "bamboo",
+      "cucumber",
+      "soy_bean",
+      "wasabi_root",
+      "avocado",
+      "cucumber_slices",
+      "avocado_sapling",
+      "avocado_leaves",
+      "nori_sheets"
+    ]
+  ],
   "rewards": {
     "function": "skyfactory_5:stages/green_stage"
   }
