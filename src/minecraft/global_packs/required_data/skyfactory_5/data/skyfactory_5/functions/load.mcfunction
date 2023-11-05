@@ -1,4 +1,5 @@
 scoreboard objectives add testing dummy
+execute unless score spawn_tree testing matches 0.. run gamerule spawnRadius 0
 execute unless score spawn_tree testing matches 0.. run function skyfactory_5:spawn_structure
 execute unless score spawn_tree testing matches 0.. run gamerule doWeatherCycle false
 execute unless score spawn_tree testing matches 0.. run gamerule doInsomnia false
