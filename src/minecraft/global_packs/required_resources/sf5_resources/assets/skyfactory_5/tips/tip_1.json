@@ -1,6 +1,6 @@
 {
   "tip": {
-    "text": "This tip is green and bold.",
+    "text": "This tip is purple and italicized.",
     "bold": true,
     "color": "green"
   }
