@@ -8,7 +8,7 @@ typesAllowed = "BOTH"
 # When joining a new world, should players be given a blueprint package?
 # The blueprint package gives some blueprints when used (right-click).
 # To change what is given, override the starter_blueprints loot table.
-spawnWithStarterBlueprints = true
+spawnWithStarterBlueprints = false
 
 # Repair kit configs.
 [item.repairKits]
@@ -55,7 +55,7 @@ burn_time = 2400
 # Changes require a restart!
 [nerfedItems]
 # Enable this feature. If false, the other settings in this category are ignored.
-enabled = false
+enabled = true
 # Multiplies max durability by this value. If the result would be zero, a value of 1 is assigned.
 # Range: 0.0 ~ 1.0
 durabilityMultiplier = 0.05
@@ -103,17 +103,17 @@ dropsFrom = ["minecraft:cow", "minecraft:pig", "minecraft:sheep"]
 [gear]
 # Allow parts to be crafted with mixed materials in a crafting grid, like earlier versions.
 # In 1.17, mixing is normally only allowed in compound-crafting blocks.
-allowLegacyMaterialMixing = false
+allowLegacyMaterialMixing = true
 # If set to false all conversion recipes (type 'silentgear:conversion') will be disabled
 # An example of a conversion recipe is placing a vanilla stone pickaxe into a crafting grid to make a Silent Gear stone pickaxe
 # Note: This also affects conversion recipes added by data packs and other mods
 allowConversionRecipes = true
 # Displays a message in chat, notifying the player that an item broke and hinting that it can be repaired
-sendBrokenMessage = true
+sendBrokenMessage = false
 # How frequently gear will recalcute stats as damaged
 # Higher numbers will cause more recalculations, allowing traits to update stat values more often
 # Range: > 1
-damageFactorLevels = 10
+damageFactorLevels = 1
 # If true, gear breaks permanently, like vanilla tools and armor
 breaksPermanently = false
 # The item tier assigned to gear tool items.
@@ -227,4 +227,4 @@ worldGen = true
 [other]
 # Shows a "WIP" (work in progress) label in the tooltip of certain unfinished, but usable blocks and items
 # Set to false to remove the text from tooltips
-showWipText = true
+showWipText = false
