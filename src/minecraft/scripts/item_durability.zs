@@ -38,3 +38,6 @@ for item in loadedMods["constructionwand"].itemStacks {
 for item in loadedMods["sophisticatedstorage"].itemStacks {
   item.maxDamage = 9999;
 }
+for item in loadedMods["create"].itemStacks {
+  item.maxDamage = 9999;
+}
