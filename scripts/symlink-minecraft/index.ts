@@ -18,6 +18,7 @@ const symlinkDirs = new Map([
   ["kubejs", buildDir],
   ["scripts", buildDir],
   ["thingpacks", buildDir],
+  ["packmenu", buildDir],
 ]);
 
 main();
