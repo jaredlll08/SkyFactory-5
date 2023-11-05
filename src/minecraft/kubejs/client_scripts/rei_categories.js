@@ -116,24 +116,52 @@ REIEvents.groupEntries((event) => {
     "skyfactory_5:trophies",
   );
 
-  // Hides Potions, Enchanted Books, Tipped Arrows, Wooden Buckets
-  const useNbt = [
-    "potion",
-    "painting",
-    "enchanted_book",
-    "splash_potion",
-    "tipped_arrow",
-    "lingering_potion",
-    "broken_spawner",
-    "filled_soul_vial",
+  /**
+   * Groups items given the item ID. This is most commonly useful for grouping items with different NBT data.
+   *
+   * @type {{groupNameTranslationKey: string; item: Special.Item}[]}
+   */
+  const itemGroups = [
+    {
+      groupNameTranslationKey: "rei_groups.minecraft.potions",
+      item: "minecraft:potion",
+    },
+    {
+      groupNameTranslationKey: "rei_groups.minecraft.painting",
+      item: "minecraft:painting",
+    },
+    {
+      groupNameTranslationKey: "rei_groups.minecraft.enchanted_books",
+      item: "minecraft:enchanted_book",
+    },
+    {
+      groupNameTranslationKey: "rei_groups.minecraft.splash_potions",
+      item: "minecraft:splash_potion",
+    },
+    {
+      groupNameTranslationKey: "rei_groups.minecraft.tipped_arrows",
+      item: "minecraft:tipped_arrow",
+    },
+    {
+      groupNameTranslationKey: "rei_groups.minecraft.lingering_potions",
+      item: "minecraft:lingering_potion",
+    },
+    {
+      groupNameTranslationKey: "rei_groups.enderio.broken_spawners",
+      item: "enderio:broken_spawner",
+    },
+    {
+      groupNameTranslationKey: "rei_groups.enderio.filled_soul_vials",
+      item: "enderio:filled_soul_vial",
+    },
   ];
 
-  useNbt.forEach((id) => {
-    const item = Item.of(id);
+  itemGroups.forEach((entry) => {
+    const item = Item.of(entry.item);
     const { namespace, path } = Utils.id(item.id);
     event.groupSameItem(
       `kubejs:rei_groups/${namespace}/${path}`,
-      item.name,
+      Component.translate(entry.groupNameTranslationKey),
       item,
     );
   });

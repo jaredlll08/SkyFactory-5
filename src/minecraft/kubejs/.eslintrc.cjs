@@ -26,6 +26,7 @@ const config = {
     Fluid: "readonly",
     Color: "readonly",
     BlockStatePredicate: "readonly",
+    Component: "readonly",
 
     // Wrapped Classes
     JavaMath: "readonly",
