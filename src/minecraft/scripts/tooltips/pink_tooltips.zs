@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Pink
 <item:minecraft:rabbit>.addTooltip(Component.literal("Pink").withStyle(style => style.withColor(0xFFC0CB)));
 <item:minecraft:porkchop>.addTooltip(Component.literal("Pink").withStyle(style => style.withColor(0xFFC0CB)));

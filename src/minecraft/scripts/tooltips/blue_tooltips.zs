@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Blue
 
       <item:minecraft:blue_dye>.addTooltip(Component.literal("Blue").withStyle(style => style.withColor(0x0080ff)));

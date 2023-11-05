@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Brown
 
 <item:minecraft:dirt>.addTooltip(Component.literal("Brown").withStyle(style => style.withColor(0xFFFFFF)));

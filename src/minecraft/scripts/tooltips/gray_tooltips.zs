@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Gray
 <item:minecraft:stone>.addTooltip(Component.literal("Gray").withStyle(style => style.withColor(0xFFFFFF)));
 <item:minecraft:cobblestone>.addTooltip(Component.literal("Gray").withStyle(style => style.withColor(0xFFFFFF)));

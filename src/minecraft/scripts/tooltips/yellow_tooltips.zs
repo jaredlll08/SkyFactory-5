@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Yellow
     <item:minecraft:honey_block>.addTooltip(Component.literal("Yellow").withStyle(style => style.withColor(0xFFFFFF)));
     <item:minecraft:honeycomb>.addTooltip(Component.literal("Yellow").withStyle(style => style.withColor(0xFFFFFF)));
@@ -102,8 +103,6 @@
     <item:forcecraft:force_wrench>.addTooltip(Component.literal("Yellow").withStyle(style => style.withColor(0xFFFFFF)));
     <item:forcecraft:force_gear>.addTooltip(Component.literal("Yellow").withStyle(style => style.withColor(0xFFFFFF)));
     <item:forcecraft:force_pack>.addTooltip(Component.literal("Yellow").withStyle(style => style.withColor(0xFFFFFF)));
-    <item:forcecraft:force_pack>.addTooltip(Component.literal("Yellow").withStyle(style => style.withColor(0xFFFFFF)));
-    <item:forcecraft:force_belt>.addTooltip(Component.literal("Yellow").withStyle(style => style.withColor(0xFFFFFF)));
     <item:forcecraft:force_belt>.addTooltip(Component.literal("Yellow").withStyle(style => style.withColor(0xFFFFFF)));
     <item:forcecraft:treasure_core>.addTooltip(Component.literal("Yellow").withStyle(style => style.withColor(0xFFFFFF)));
     <item:forcecraft:force_arrow>.addTooltip(Component.literal("Yellow").withStyle(style => style.withColor(0xFFFFFF)));

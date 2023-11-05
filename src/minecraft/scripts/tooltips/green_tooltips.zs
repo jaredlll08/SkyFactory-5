@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Green
 <item:minecraft:sugar_cane>.addTooltip(Component.literal("Green").withStyle(style => style.withColor(0xFFFFFF)));
 <item:minecraft:bamboo>.addTooltip(Component.literal("Green").withStyle(style => style.withColor(0xFFFFFF)));

@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Cyan
 <item:obtrophies:trophy>.withTag({BlockEntityTag: {VariantID: 0, entity: "veincreeper:cyan"}}).addTooltip(Component.literal("Cyan").withStyle(style => style.withColor(0xFFFFFF)));
 <item:minecraft:cyan_dye>.addTooltip(Component.literal("Cyan").withStyle(style => style.withColor(0xFFFFFF)));

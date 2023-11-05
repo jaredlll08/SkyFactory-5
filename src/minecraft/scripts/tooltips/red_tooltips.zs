@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Red
 <item:minecraft:spider_eye>.addTooltip(Component.literal("Red").withStyle(style => style.withColor(0xFFFFFF)));
 <item:minecraft:fermented_spider_eye>.addTooltip(Component.literal("Red").withStyle(style => style.withColor(0xFFFFFF)));

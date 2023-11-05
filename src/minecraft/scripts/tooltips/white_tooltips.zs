@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // White
 <item:minecraft:bone_block>.addTooltip(Component.literal("White").withStyle(style => style.withColor(0x000000)));
 <item:minecraft:bone_meal>.addTooltip(Component.literal("White").withStyle(style => style.withColor(0x000000)));

@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Orange
 <item:minecraft:pumpkin>.addTooltip(Component.literal("Orange").withStyle(style => style.withColor(0xFFFFFF)));
 <item:minecraft:carved_pumpkin>.addTooltip(Component.literal("Orange").withStyle(style => style.withColor(0xFFFFFF)));

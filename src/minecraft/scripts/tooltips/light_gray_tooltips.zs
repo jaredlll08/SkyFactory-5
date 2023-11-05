@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Light Gray
 <item:minecraft:goat_horn>.addTooltip(Component.literal("Light Gray").withStyle(style => style.withColor(0xFFFFFF)));
 <item:minecraft:lodestone>.addTooltip(Component.literal("Light Gray").withStyle(style => style.withColor(0xFFFFFF)));

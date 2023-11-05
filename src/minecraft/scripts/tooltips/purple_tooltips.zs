@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Purple
 <item:minecraft:amethyst_block>.addTooltip(Component.literal("Purple").withStyle(style => style.withColor(0xFFFFFF)));
 <item:minecraft:budding_amethyst>.addTooltip(Component.literal("Purple").withStyle(style => style.withColor(0xFFFFFF)));

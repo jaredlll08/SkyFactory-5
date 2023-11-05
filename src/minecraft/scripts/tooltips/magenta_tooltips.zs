@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Magenta
 <item:minecraft:allium>.addTooltip(Component.literal("Magenta").withStyle(style => style.withColor(0xFFFFFF)));
 <item:overweight_farming:allium_bush>.addTooltip(Component.literal("Magenta").withStyle(style => style.withColor(0xFFFFFF)));

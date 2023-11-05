@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Lime
 <item:create:limestone>.addTooltip(Component.literal("Lime").withStyle(style => style.withColor(0xFFFFFF)));
 <item:create:cut_limestone>.addTooltip(Component.literal("Lime").withStyle(style => style.withColor(0xFFFFFF)));

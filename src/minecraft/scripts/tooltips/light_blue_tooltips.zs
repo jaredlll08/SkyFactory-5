@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Light Blue
 <item:minecraft:clay>.addTooltip(Component.literal("Light Blue").withStyle(style => style.withColor(0xFFFFFF)));
 <item:minecraft:clay_ball>.addTooltip(Component.literal("Light Blue").withStyle(style => style.withColor(0xFFFFFF)));

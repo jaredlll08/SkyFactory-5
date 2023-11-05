@@ -1,3 +1,4 @@
+import crafttweaker.api.text.Component;
 // Black
 <item:minecraft:music_disc_13>.addTooltip(Component.literal("Black").withStyle(style => style.withColor(0xFFFFFF)));
 <item:minecraft:music_disc_cat>.addTooltip(Component.literal("Black").withStyle(style => style.withColor(0xFFFFFF)));
