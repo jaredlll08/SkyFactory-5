@@ -4,6 +4,7 @@ execute unless score spawn_tree testing matches 0.. run gamerule doWeatherCycle 
 execute unless score spawn_tree testing matches 0.. run gamerule doInsomnia false
 execute unless score spawn_tree testing matches 0.. run gamerule doTraderSpawning false
 execute unless score spawn_tree testing matches 0.. run function skyfactory_5:spawn_tree_score_update
+
 #Loads teams for color glow effect
 
 team add sf5_dark_red_team
