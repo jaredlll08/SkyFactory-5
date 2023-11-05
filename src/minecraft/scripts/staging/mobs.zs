@@ -120,8 +120,6 @@ val mobs: TrophyMob[string] = {
   "minecraft:snow_golem": new TrophyMob(MobStage.SnowGolem, "Snow Golems"),
 
   // Modded Entities
-  "giacomos_gigglers:giggler": new TrophyMob(MobStage.Giggler, "Gigglers"),
-
   // Mules have not been added to this list because I don't know
   // if I really need to care or have the desire to add them
   // does anybody really care if I don't add them? Seriously
