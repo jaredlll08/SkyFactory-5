@@ -20,9 +20,6 @@ craftingTable.addShapeless(
   [<item:minecraft:clay_ball>, <item:minecraft:bone_meal>]
 );
 
-
-craftingTable.remove(<item:minecraft:orange_dye>);
-
 craftingTable.remove(<item:exnihilosequentia:string_mesh>);
 craftingTable.remove(<item:exnihilosequentia:flint_mesh>);
 craftingTable.remove(<item:exnihilosequentia:iron_mesh>);
