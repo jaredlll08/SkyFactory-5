@@ -167,12 +167,75 @@
     }
   },
   {
+    "mob": ["minecraft:sheep"],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["minecraft:llama"],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["minecraft:pig"],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["minecraft:chicken"],
+    "persecond": 10,
+    "attempts": 50,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
     "mob": [
-      "minecraft:cow",
-      "minecraft:sheep",
-      "minecraft:llama",
-      "minecraft:pig",
-      "minecraft:chicken",
       "minecraft:mooshroom",
       "earthmobsmod:cluck_shroom",
       "earthmobsmod:wooly_cow"
@@ -187,7 +250,43 @@
       "dimension": "minecraft:overworld",
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["minecraft:parrot"],
+    "persecond": 2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["minecraft:cow"],
+    "persecond": 20,
+    "attempts": 5,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -271,6 +370,20 @@
     }
   },
   {
+    "mob": ["minecraft:horse", "minecraft:donkey"],
+    "persecond": 1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
     "mob": ["minecraft:skeleton_horse", "minecraft:zombie_horse"],
     "persecond": 1,
     "attempts": 5,
@@ -319,6 +432,20 @@
     }
   },
   {
+    "mob": ["minecraft:sniffer"],
+    "persecond": 1,
+    "attempts": 20,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
     "mob": ["minecraft:snow_golem", "minecraft:iron_golem"],
     "persecond": 1,
     "attempts": 5,
@@ -348,14 +475,14 @@
   },
   {
     "mob": ["minecraft:blaze", "lava_monster:lava_monster"],
-    "persecond": 1,
+    "persecond": 2,
     "attempts": 15,
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": ["minecraft:the_nether"],
       "mindist": 24,
       "maxdist": 96
     }
@@ -372,6 +499,20 @@
     "amount": {
       "minimum": 1,
       "maximum": 1
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 24,
+      "maxdist": 96
+    }
+  },
+  {
+    "mob": ["minecraft:bat"],
+    "persecond": 1,
+    "attempts": 15,
+    "amount": {
+      "minimum": 8,
+      "maximum": 8
     },
     "conditions": {
       "dimension": "minecraft:overworld",

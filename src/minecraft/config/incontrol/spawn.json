@@ -28,7 +28,7 @@
     "mob": ["minecraft:blaze"],
     "gamestage": "blaze",
     "minlight": 0,
-    "maxlight": 7,
+    "maxlight": 15,
     "potion": "minecraft:glowing,10000,1",
     "nbt": {
       "Team": "sf5_gold_team"
@@ -486,8 +486,8 @@
   {
     "mob": ["minecraft:axolotl"],
     "gamestage": "axolotl",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -502,8 +502,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "bee",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -515,8 +515,8 @@
   {
     "mob": ["minecraft:camel"],
     "gamestage": "camel",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -528,8 +528,8 @@
   {
     "mob": ["minecraft:cat"],
     "gamestage": "cat",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -544,8 +544,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "chicken",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -560,8 +560,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "cow",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 8,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -573,8 +573,8 @@
   {
     "mob": ["minecraft:donkey"],
     "gamestage": "donkey",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -589,8 +589,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "fox",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "helditem": [
       "50=minecraft:bone",
       "5=minecraft:orange_dye",
@@ -610,8 +610,8 @@
   {
     "mob": ["minecraft:frog"],
     "gamestage": "frog",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -626,8 +626,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "goat",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -642,8 +642,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "horse",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -658,8 +658,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "irongolem",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -674,8 +674,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "llama",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -690,8 +690,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "mooshroom",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -703,8 +703,8 @@
   {
     "mob": ["minecraft:ocelot"],
     "gamestage": "ocelot",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -716,8 +716,8 @@
   {
     "mob": ["minecraft:panda"],
     "gamestage": "panda",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -732,8 +732,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "pig",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -745,8 +745,8 @@
   {
     "mob": ["minecraft:rabbit"],
     "gamestage": "rabbit",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -761,8 +761,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "sheep",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -774,8 +774,8 @@
   {
     "mob": ["minecraft:sniffer"],
     "gamestage": "sniffer",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -787,8 +787,8 @@
   {
     "mob": ["minecraft:snow_golem"],
     "gamestage": "snowgolem",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -800,8 +800,8 @@
   {
     "mob": ["minecraft:strider"],
     "gamestage": "strider",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -813,8 +813,8 @@
   {
     "mob": ["minecraft:wolf"],
     "gamestage": "wolf",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -826,8 +826,8 @@
   {
     "mob": ["minecraft:cod"],
     "gamestage": "cod",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -839,8 +839,8 @@
   {
     "mob": ["minecraft:glow_squid"],
     "gamestage": "glowsquid",
-    "minlight": 0,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -852,8 +852,8 @@
   {
     "mob": ["minecraft:pufferfish"],
     "gamestage": "pufferfish",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -865,8 +865,8 @@
   {
     "mob": ["minecraft:salmon"],
     "gamestage": "salmon",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -878,8 +878,8 @@
   {
     "mob": ["minecraft:squid"],
     "gamestage": "squid",
-    "minlight": 0,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -891,8 +891,8 @@
   {
     "mob": ["minecraft:tadpole"],
     "gamestage": "tadpole",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -907,8 +907,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "tropicalfish",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "nbt": {
       "Variant": "16844033"
     },
@@ -923,8 +923,8 @@
   {
     "mob": ["minecraft:dolphin"],
     "gamestage": "dolphin",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -939,8 +939,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "allay",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -952,8 +952,8 @@
   {
     "mob": ["minecraft:parrot"],
     "gamestage": "parrot",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -965,8 +965,8 @@
   {
     "mob": ["minecraft:polar_bear"],
     "gamestage": "polarbear",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -978,8 +978,8 @@
   {
     "mob": ["minecraft:skeleton_horse"],
     "gamestage": "skeletonhorse",
-    "minlight": 0,
-    "maxlight": 7,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -994,8 +994,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "turtle",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1007,8 +1007,8 @@
   {
     "mob": ["minecraft:zombie_horse"],
     "gamestage": "zombiehorse",
-    "minlight": 0,
-    "maxlight": 7,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1033,8 +1033,8 @@
   {
     "mob": ["minecraft:villager"],
     "gamestage": "villager",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1046,8 +1046,8 @@
   {
     "mob": ["minecraft:wandering_trader"],
     "gamestage": "wanderingtrader",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1062,24 +1062,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "energeticsheep",
-    "minlight": 7,
-    "maxlight": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": { "color": 16352035 }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": ["giacomos_gigglers:giggler"],
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "giggler",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1094,8 +1078,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "albinocow",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1110,8 +1094,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "jollyllama",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1126,8 +1110,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "skeletonwolf",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1142,8 +1126,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "melongolem",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1158,8 +1142,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "woolycow",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1174,8 +1158,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "hyperrabbit",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1190,8 +1174,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "magmacow",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1206,8 +1190,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "moobloom",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1222,8 +1206,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "creamcow",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1235,8 +1219,8 @@
   {
     "mob": ["earthmobsmod:baby_ghast"],
     "gamestage": "babyghast",
-    "minlight": 0,
-    "maxlight": 7,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1251,8 +1235,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "zombifiedpig",
-    "minlight": 0,
-    "maxlight": 7,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1267,8 +1251,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "jumborabbit",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1283,8 +1267,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "moolip",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1299,8 +1283,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "teacuppig",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1331,8 +1315,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "furnacegolem",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1395,8 +1379,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "fancychicken",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1460,8 +1444,8 @@
   {
     "mob": ["earthmobsmod:duck"],
     "gamestage": "duck",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1476,8 +1460,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "cluckshroom",
-    "minlight": 7,
-    "maxlight": 15,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1508,8 +1492,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "umbracow",
-    "minlight": 0,
-    "maxlight": 7,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1844,8 +1828,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "fairy",
-    "minlight": 0,
-    "maxlight": 7,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1908,8 +1892,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "enderluggage",
-    "minlight": 0,
-    "maxlight": 7,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1924,8 +1908,8 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "luggage",
-    "minlight": 0,
-    "maxlight": 7,
+    "minlight_full": 7,
+    "maxlight_full": 15,
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1937,7 +1921,6 @@
   {
     "mob": [
       "energeticsheep:energetic_sheep",
-      "giacomos_gigglers:giggler",
       "minecraft:allay",
       "minecraft:axolotl",
       "minecraft:bat",
@@ -2075,7 +2058,6 @@
   {
     "mob": [
       "energeticsheep:energetic_sheep",
-      "giacomos_gigglers:giggler",
       "minecraft:allay",
       "minecraft:axolotl",
       "minecraft:bat",
