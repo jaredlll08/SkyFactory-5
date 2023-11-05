@@ -21,6 +21,79 @@ public enum Stage {
   Orange = "orange";
 }
 
+public function getStageForColor(color as Color) as Stage? {
+  if color.getName() == ColorName.None {
+    return Stage.Colorless;
+  }
+
+  if color.getName() == ColorName.Red {
+    return Stage.Red;
+  }
+
+  if color.getName() == ColorName.Green {
+    return Stage.Green;
+  }
+
+  if color.getName() == ColorName.Lime {
+    return Stage.Lime;
+  }
+
+  if color.getName() == ColorName.Blue {
+    return Stage.Blue;
+  }
+
+  if color.getName() == ColorName.LightBlue {
+    return Stage.Light_Blue;
+  }
+
+  if color.getName() == ColorName.Gray {
+    return Stage.Gray;
+  }
+
+  if color.getName() == ColorName.LightGray {
+    return Stage.Light_Gray;
+  }
+
+  if color.getName() == ColorName.Yellow {
+    return Stage.Yellow;
+  }
+
+  if color.getName() == ColorName.Purple {
+    return Stage.Purple;
+  }
+
+  if color.getName() == ColorName.Magenta {
+    return Stage.Magenta;
+  }
+
+  if color.getName() == ColorName.Pink {
+    return Stage.Pink;
+  }
+
+  if color.getName() == ColorName.White {
+    return Stage.White;
+  }
+
+  if color.getName() == ColorName.Black {
+    return Stage.Black;
+  }
+
+  if color.getName() == ColorName.Brown {
+    return Stage.Brown;
+  }
+
+  if color.getName() == ColorName.Cyan {
+    return Stage.Cyan;
+  }
+
+  if color.getName() == ColorName.Orange {
+    return Stage.Orange;
+  }
+
+
+  return null;
+}
+
 public enum MobStage {
   Allay = "allay",
   Axolotl = "axolotl",
