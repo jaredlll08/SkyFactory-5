@@ -1,15 +1,27 @@
-#§l§5E§6x§9a§8§bmp§cle Title
-Task 1
-Task
-Test
-§1Dark Blue
-§6Testing
+#Welcome to SkyFactory 5
 
-§mThis is a Test
+===
+===
+Discover §0(§0Black§0)
+Discover §1(§0Blue§1)
+Discover §6(§0Brown§6)
+Discover §3(§0Cyan§3)
+Discover §8(§0Gray§8)
+Discover §2(§0Green§2)
+Discover §b(§0Light Blue§b)
+Discover §7(§0Light Gray§7)
+Discover §a(§0Lime§a)
+Discover §5(§0Magenta§5)
+Discover §6(§0Orange§6)
+Discover §d(§0Pink§d)
+Discover §5(§0Purple§5)
+Discover §c(§0Red§c)
+Discover §f(§0White§f)
+Discover §e(§0Yellow§e)
 
-§kTesting testing
-
-=== This is a new page
 
 
-Discover Green
+
+
+
+
