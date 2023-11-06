@@ -37,6 +37,7 @@
     "block_states": false,
     "lectern": true,
     "entity_armor": true,
+    "harvest_tool.creative": false,
     "horse_stats": true,
     "item_tooltip": true,
     "entity_health": true,
@@ -50,10 +51,25 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "exnihilosequentia": {
+    "barrel": true,
+    "crucible": true,
+    "sieve": true,
+    "infesting_leaves": true
+  },
   "shetiphiancore": {
     "hud.rgb16": true,
     "hud": true,
     "hud.redstone": true
+  },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
+  "appliedcooking": {
+    "kitchen_station": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -62,9 +78,6 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
-  },
-  "tcbm": {
-    "crate": true
   },
   "cookingforblockheads": {
     "fridge": true,
