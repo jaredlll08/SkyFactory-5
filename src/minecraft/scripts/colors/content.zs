@@ -26,6 +26,7 @@ public enum ColoredItem {
   LimitedStorageBarrel1 = "limited_storage_barrel_1",
   LimitedStorageBarrel2 = "limited_storage_barrel_2",
   LimitedStorageBarrel4 = "limited_storage_barrel_4",
+  Log = "log",
   Plank = "plank",
   PlankSlab = "plank_slab",
   Sapling = "sapling",
@@ -95,6 +96,9 @@ contentFactory
   })
   .registerItem(ColoredItem.LimitedStorageBarrel4, (color) => {
     return <item:sophisticatedstorage:limited_barrel_4>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
+  })
+  .registerItem(ColoredItem.Log, (color) => {
+    return BracketHandlers.getItem("colouredstuff:log_" + color.getResourceName());
   })
   .registerItem(ColoredItem.TreasureBag, (color) => {
     if color.getName() == ColorName.None {
@@ -275,6 +279,24 @@ contentFactory
         [plankItem, plankItem, plankItem],
         [plankItem, <item:minecraft:air>, plankItem],
         [plankItem, plankItem, plankItem],
+      ]
+    );
+  })
+  .addRecipeGenerator("_chest_shaped_from_logs", (baseName, args) => {
+    val logItem = args.items[ColoredItem.Log];
+    val storageChest = args.items[ColoredItem.StorageChest];
+
+    if logItem == null || storageChest == null {
+      return;
+    }
+
+    craftingTable.addShaped(
+      args.color.getResourceName() + baseName,
+      storageChest * 4,
+      [
+        [logItem, logItem, logItem],
+        [logItem, <item:minecraft:air>, logItem],
+        [logItem, logItem, logItem],
       ]
     );
   })
