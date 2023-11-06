@@ -1,1 +1,7 @@
-{ "item.minecraft.apple": "Red Apple" }
+{
+  "item.minecraft.apple": "Red Apple",
+  "rarity.common.name": " ",
+  "rarity.uncommon.name": " ",
+  "rarity.rare.name": " ",
+  "rarity.epic.name": " "
+}
