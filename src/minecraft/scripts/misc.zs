@@ -1,16 +1,5 @@
-// Zombie Staging
-mods.recipestages.Recipes.addShaped(
-  MobStage.Zombie,
-  "zombie_gateway",
-  <item:gateways:gate_pearl>.withTag({gateway: "gateways:zombie_gate_small"}),
-  [
-    [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:iron_ingot>],
-    [<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>],
-    [<item:minecraft:iron_ingot>, <item:minecraft:air>, <item:minecraft:iron_ingot>]
-  ]
-);
-
-
+import crafttweaker.forge.api.event.interact.EntityInteractEvent;
+import crafttweaker.api.entity.type.animal.Animal;
 
 // //
 // Block attributes
@@ -23,8 +12,7 @@ mods.recipestages.Recipes.addShaped(
 // Blocking breedable entities from being fed
 // when they spawn from a Gateway
 // //
-import crafttweaker.forge.api.event.interact.EntityInteractEvent;
-import crafttweaker.api.entity.type.animal.Animal;
+
 
 events.register<EntityInteractEvent>(event => {
   var entity = event.target;
@@ -72,16 +60,6 @@ craftingTable.addShaped(
     [<item:minecraft:iron_ingot>, <tag:items:minecraft:logs>, <item:minecraft:iron_ingot>],
     [<item:minecraft:iron_ingot>, <tag:items:minecraft:logs>, <item:minecraft:iron_ingot>],
     [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>]
-  ]
-);
-
-craftingTable.addShaped(
-  "chest_logs",
-  <item:minecraft:chest> * 4,
-  [
-    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
-    [<tag:items:minecraft:logs>, <item:minecraft:air>, <tag:items:minecraft:logs>],
-    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
   ]
 );
 
