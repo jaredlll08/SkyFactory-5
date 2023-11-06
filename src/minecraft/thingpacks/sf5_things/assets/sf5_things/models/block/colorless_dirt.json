@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "sf5_things:block/minecraft_colorless_dirt"
-  }
-}
