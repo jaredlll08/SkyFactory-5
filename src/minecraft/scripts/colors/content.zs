@@ -1,5 +1,6 @@
-import crafttweaker.api.bracket.BracketHandlers;
 import crafttweaker.api.block.Block;
+import crafttweaker.api.bracket.BracketHandlers;
+import crafttweaker.api.bracket.ResourceLocationBracketHandler;
 
 val contentFactory = new ColoredContentFactory();
 
@@ -21,6 +22,7 @@ public enum ColoredItem {
   CraftingTable = "crafting_table",
   Crucible = "crucible",
   Dye = "dye",
+  DyeBlock = "dye_block",
   LimitedStorageBarrel1 = "limited_storage_barrel_1",
   LimitedStorageBarrel2 = "limited_storage_barrel_2",
   LimitedStorageBarrel4 = "limited_storage_barrel_4",
@@ -56,6 +58,14 @@ contentFactory
     }
 
     return BracketHandlers.getItem("minecraft:" + color.getResourceName() + "_dye");
+  })
+  .registerItem(ColoredItem.DyeBlock, (color) => {
+    var resourceName = color.getResourceName();
+    if color.getName() == ColorName.None {
+      resourceName = "colorless";
+    }
+
+    return BracketHandlers.getItem("sf5_things:block_of_" + resourceName + "_dye");
   })
   .registerItem(ColoredItem.Plank, (color) => {
     return BracketHandlers.getItem("colouredstuff:planks_" + color.getResourceName());
@@ -105,6 +115,37 @@ contentFactory
 
     return BracketHandlers.getItem("minecraft:" + color.getResourceName() + "_wool");
   });
+
+// Register Fluid Tags
+public enum ColoredFluidTag {
+  Water = "water"
+}
+
+contentFactory
+  .registerFluidTag(ColoredFluidTag.Water, (color) => {
+    val resourceLocation = ResourceLocationBracketHandler.getResourceLocation("skyfactory_5:" + color.getResourceName() + "_water");
+    return <tagmanager:fluids>.tag(resourceLocation);
+  });
+
+// Register Item Tags
+public enum ColoredItemTag {
+  ColoredProcessingItem = "colored_processing_item",
+}
+
+contentFactory
+  .registerItemTag(ColoredItemTag.ColoredProcessingItem, (color) => {
+    val resourceLocation = ResourceLocationBracketHandler.getResourceLocation("skyfactory_5:colors/processing_items/" + color.getResourceName());
+    return <tagmanager:items>.tag(resourceLocation);
+  });
+
+// Register Water
+contentFactory.registerWater((color) => {
+  if color.getName() == ColorName.None {
+    return null;
+  }
+
+  return BracketHandlers.getFluidStack("colored_water:" + color.getResourceName() + "_fluid");
+});
 
 // Register Loot Modifiers
 contentFactory
@@ -159,7 +200,7 @@ contentFactory
     });
   });
 
-// Register Recipes
+// Register Crafting Table Recipes
 contentFactory
   .addRecipeGenerator("_apple_to_dye", (baseName, args) => {
     val apple = args.items[ColoredItem.Apple];
@@ -357,6 +398,59 @@ contentFactory
         [wool, <item:sf5_things:treasure_bag_template>, wool],
         [wool, wool, wool]
       ]
+    );
+  });
+
+// Register Immersive Engineering Recipes
+contentFactory
+  .addRecipeGenerator("_dye_water_ie_bottling", (baseName, args) => {
+    val dyeBlockItem = args.items[ColoredItem.DyeBlock];
+    val coloredWaterFluidTag = args.fluidTags[ColoredFluidTag.Water];
+
+    if dyeBlockItem == null || coloredWaterFluidTag == null {
+      return;
+    }
+
+    <recipetype:immersiveengineering:bottling_machine>.addRecipe(
+      args.color.getResourceName() + baseName,
+      [<tag:items:forge:sand>],
+      coloredWaterFluidTag * 1000,
+      [dyeBlockItem]
+    );
+  })
+  .addRecipeGenerator("_dye_ie_crusher", (baseName, args) => {
+    val dye = args.items[ColoredItem.Dye];
+    val coloredProcessingItemTag = args.itemTags[ColoredItemTag.ColoredProcessingItem];
+
+    if dye == null || coloredProcessingItemTag == null {
+      return;
+    }
+
+    <recipetype:immersiveengineering:crusher>.addRecipe(
+      args.color.getResourceName() + baseName,
+      coloredProcessingItemTag.asIIngredient(),
+      500,
+      dye,
+      dye % 50,
+      dye % 15
+    );
+  })
+  .addRecipeGenerator("_dye_ie_mixer", (baseName, args) => {
+    val dye = args.items[ColoredItem.Dye];
+    val coloredProcessingItemTag = args.itemTags[ColoredItemTag.ColoredProcessingItem];
+    val water = args.water;
+
+    if dye == null || coloredProcessingItemTag == null || water == null {
+      return;
+    }
+
+    <recipetype:immersiveengineering:mixer>.addRecipe(
+      args.color.getResourceName() + baseName,
+      <tag:fluids:skyfactory_5:water>,
+      [coloredProcessingItemTag.asIIngredient()],
+      500,
+      water,
+      1000
     );
   });
 
