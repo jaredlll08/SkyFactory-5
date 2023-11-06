@@ -47,38 +47,41 @@ public class ColoredContentFactory {
 
   public addLootModifierGenerator(
     baseName: string,
-    generator: function(baseName as string, color as Color, blocks as Block?[ColoredBlock], items as IItemStack?[ColoredItem]) as void
+    generator: function(baseName as string, args as ColoredContentGeneratorCallbackArgs) as void
   ): ColoredContentFactory {
     lootModifierGenerators.add(new LootModifierEntry(baseName, generator));
 
     return this;
   }
 
-  public addRecipeGenerator(baseName: string, recipeGenerator: function(baseName as string, color as Color, items as IItemStack?[ColoredItem]) as void): ColoredContentFactory {
-    recipeGenerators.add(new RecipeEntry(baseName, recipeGenerator));
+  public addRecipeGenerator(
+    baseName: string,
+    generator: function(baseName as string, args as ColoredContentGeneratorCallbackArgs) as void
+  ): ColoredContentFactory {
+    recipeGenerators.add(new RecipeEntry(baseName, generator));
 
     return this;
   }
 
   public build() as void {
     for color in ColoredContentFactory.supportedColors {
-      val blocks as Block?[ColoredBlock] = {} as Block?[ColoredBlock];
+      val args = new ColoredContentGeneratorCallbackArgs(color);
+
       // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
       // for block, entry in this.blockGetters {
-      //   blocks[block] = entry.callCallback(color);
+      //   args.blocks[block] = entry.callCallback(color);
       // }
 
-      val items as IItemStack?[ColoredItem] = {} as IItemStack?[ColoredItem];
       for item, entry in this.itemGetters {
-        items[item] = entry.callCallback(color);
+        args.items[item] = entry.callCallback(color);
       }
 
       for lootModifierGenerator in lootModifierGenerators {
-        lootModifierGenerator.callCallback(color, blocks, items);
+        lootModifierGenerator.callCallback(args);
       }
 
       for recipeGenerator in recipeGenerators {
-        recipeGenerator.callCallback(color, items);
+        recipeGenerator.callCallback(args);
       }
     }
   }

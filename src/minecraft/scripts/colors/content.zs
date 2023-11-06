@@ -108,23 +108,23 @@ contentFactory
 
 // Register Loot Modifiers
 contentFactory
-  .addLootModifierGenerator("colored_leaves_", (baseName, color, blocks, items) => {
+  .addLootModifierGenerator("colored_leaves_", (baseName, args) => {
     // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
-    // val leaves = blocks[ColoredBlock.Leaves];
-    val leaves = BracketHandlers.getBlock("colouredstuff:leaves_" + color.getResourceName()) as Block?;
+    // val leaves = args.blocks[ColoredBlock.Leaves];
+    val leaves = BracketHandlers.getBlock("colouredstuff:leaves_" + args.color.getResourceName()) as Block?;
 
-    val apple = items[ColoredItem.Apple];
-    val dye = items[ColoredItem.Dye];
-    val sapling = items[ColoredItem.Sapling];
-    val stick = items[ColoredItem.Stick];
+    val apple = args.items[ColoredItem.Apple];
+    val dye = args.items[ColoredItem.Dye];
+    val sapling = args.items[ColoredItem.Sapling];
+    val stick = args.items[ColoredItem.Stick];
 
-    val gateways = getGatewaysForColor(color);
+    val gateways = getGatewaysForColor(args.color);
 
     if leaves == null {
       return;
     }
 
-    leaves.addLootModifier(baseName + color.getResourceName(), (drops, ctx) => {
+    leaves.addLootModifier(baseName + args.color.getResourceName(), (drops, ctx) => {
       val realPlayerLooting = isRealPlayerLooting(ctx);
 
       val saplingDropChance = realPlayerLooting ? 15 : 10;
@@ -161,10 +161,10 @@ contentFactory
 
 // Register Recipes
 contentFactory
-  .addRecipeGenerator("_apple_to_dye", (baseName, color, items) => {
-    val apple = items[ColoredItem.Apple];
-    val dye = items[ColoredItem.Dye];
-    val stage = getStageForColor(color);
+  .addRecipeGenerator("_apple_to_dye", (baseName, args) => {
+    val apple = args.items[ColoredItem.Apple];
+    val dye = args.items[ColoredItem.Dye];
+    val stage = getStageForColor(args.color);
 
     if apple == null || dye == null || stage == null {
       return;
@@ -172,21 +172,21 @@ contentFactory
 
     mods.recipestages.Recipes.addShapeless(
       stage,
-      color.getResourceName() + baseName,
+      args.color.getResourceName() + baseName,
       dye,
       [apple]
     );
   })
-  .addRecipeGenerator("_chest_shaped", (baseName, color, items) => {
-    val plankItem = items[ColoredItem.Plank];
-    val storageChest = items[ColoredItem.StorageChest];
+  .addRecipeGenerator("_chest_shaped", (baseName, args) => {
+    val plankItem = args.items[ColoredItem.Plank];
+    val storageChest = args.items[ColoredItem.StorageChest];
 
     if plankItem == null || storageChest == null {
       return;
     }
 
     craftingTable.addShaped(
-      color.getResourceName() + baseName,
+      args.color.getResourceName() + baseName,
       storageChest,
       [
         [plankItem, plankItem, plankItem],
@@ -195,17 +195,17 @@ contentFactory
       ]
     );
   })
-  .addRecipeGenerator("_composting_bin", (baseName, color, items) => {
-    val plankItem = items[ColoredItem.Plank];
-    val slabItem = items[ColoredItem.PlankSlab];
-    val compostingBin = items[ColoredItem.CompostingBin];
+  .addRecipeGenerator("_composting_bin", (baseName, args) => {
+    val plankItem = args.items[ColoredItem.Plank];
+    val slabItem = args.items[ColoredItem.PlankSlab];
+    val compostingBin = args.items[ColoredItem.CompostingBin];
 
     if plankItem == null || slabItem == null || compostingBin == null {
       return;
     }
 
     craftingTable.addShaped(
-      color.getResourceName() + baseName,
+      args.color.getResourceName() + baseName,
       compostingBin,
       [
         [plankItem, <item:minecraft:air>, plankItem],
@@ -214,16 +214,16 @@ contentFactory
       ]
     );
   })
-  .addRecipeGenerator("_crafting_table", (baseName, color, items) => {
-    val plankItem = items[ColoredItem.Plank];
-    val craftingTableItem = items[ColoredItem.CraftingTable];
+  .addRecipeGenerator("_crafting_table", (baseName, args) => {
+    val plankItem = args.items[ColoredItem.Plank];
+    val craftingTableItem = args.items[ColoredItem.CraftingTable];
 
     if plankItem == null || craftingTableItem == null {
       return;
     }
 
     craftingTable.addShaped(
-      color.getResourceName() + baseName,
+      args.color.getResourceName() + baseName,
       craftingTableItem,
       [
         [plankItem, plankItem],
@@ -231,17 +231,17 @@ contentFactory
       ]
     );
   })
-  .addRecipeGenerator("_crucible", (baseName, color, items) => {
-    val plankItem = items[ColoredItem.Plank];
-    val slabItem = items[ColoredItem.PlankSlab];
-    val crucible = items[ColoredItem.Crucible];
+  .addRecipeGenerator("_crucible", (baseName, args) => {
+    val plankItem = args.items[ColoredItem.Plank];
+    val slabItem = args.items[ColoredItem.PlankSlab];
+    val crucible = args.items[ColoredItem.Crucible];
 
     if plankItem == null || slabItem == null || crucible == null {
       return;
     }
 
     craftingTable.addShaped(
-      color.getResourceName() + baseName,
+      args.color.getResourceName() + baseName,
       crucible,
       [
         [plankItem, <item:minecraft:air>, plankItem],
@@ -250,17 +250,17 @@ contentFactory
       ]
     );
   })
-  .addRecipeGenerator("_limited_barrel_shaped", (baseName, color, items) => {
-    val barrel = items[ColoredItem.LimitedStorageBarrel1];
-    val plankItem = items[ColoredItem.Plank];
-    val slabItem = items[ColoredItem.PlankSlab];
+  .addRecipeGenerator("_limited_barrel_shaped", (baseName, args) => {
+    val barrel = args.items[ColoredItem.LimitedStorageBarrel1];
+    val plankItem = args.items[ColoredItem.Plank];
+    val slabItem = args.items[ColoredItem.PlankSlab];
 
     if barrel == null || plankItem == null || slabItem == null {
       return;
     }
 
     craftingTable.addShaped(
-      color.getResourceName() + baseName,
+      args.color.getResourceName() + baseName,
       barrel,
       [
         [plankItem, slabItem, plankItem],
@@ -269,17 +269,17 @@ contentFactory
       ]
     );
   })
-  .addRecipeGenerator("_limited_barrel_shaped2", (baseName, color, items) => {
-    val barrel = items[ColoredItem.LimitedStorageBarrel2];
-    val plankItem = items[ColoredItem.Plank];
-    val slabItem = items[ColoredItem.PlankSlab];
+  .addRecipeGenerator("_limited_barrel_shaped2", (baseName, args) => {
+    val barrel = args.items[ColoredItem.LimitedStorageBarrel2];
+    val plankItem = args.items[ColoredItem.Plank];
+    val slabItem = args.items[ColoredItem.PlankSlab];
 
     if barrel == null || plankItem == null || slabItem == null {
       return;
     }
 
     craftingTable.addShaped(
-      color.getResourceName() + baseName,
+      args.color.getResourceName() + baseName,
       barrel,
       [
         [plankItem, plankItem, plankItem],
@@ -288,17 +288,17 @@ contentFactory
       ]
     );
   })
-  .addRecipeGenerator("_limited_barrel_shaped4", (baseName, color, items) => {
-    val barrel = items[ColoredItem.LimitedStorageBarrel4];
-    val plankItem = items[ColoredItem.Plank];
-    val slabItem = items[ColoredItem.PlankSlab];
+  .addRecipeGenerator("_limited_barrel_shaped4", (baseName, args) => {
+    val barrel = args.items[ColoredItem.LimitedStorageBarrel4];
+    val plankItem = args.items[ColoredItem.Plank];
+    val slabItem = args.items[ColoredItem.PlankSlab];
 
     if barrel == null || plankItem == null || slabItem == null {
       return;
     }
 
     craftingTable.addShaped(
-      color.getResourceName() + baseName,
+      args.color.getResourceName() + baseName,
       barrel,
       [
         [plankItem, slabItem, plankItem],
@@ -307,16 +307,16 @@ contentFactory
       ]
     );
   })
-  .addRecipeGenerator("_slabs_to_plank", (baseName, color, items) => {
-    val plankItem = items[ColoredItem.Plank];
-    val slabItem = items[ColoredItem.PlankSlab];
+  .addRecipeGenerator("_slabs_to_plank", (baseName, args) => {
+    val plankItem = args.items[ColoredItem.Plank];
+    val slabItem = args.items[ColoredItem.PlankSlab];
 
     if plankItem == null || slabItem == null {
       return;
     }
 
     craftingTable.addShaped(
-      color.getResourceName() + baseName,
+      args.color.getResourceName() + baseName,
       plankItem,
       [
         [slabItem],
@@ -324,16 +324,16 @@ contentFactory
       ]
     );
   })
-  .addRecipeGenerator("stick_", (baseName, color, items) => {
-    val plankItem = items[ColoredItem.Plank];
-    val stick = items[ColoredItem.Stick];
+  .addRecipeGenerator("stick_", (baseName, args) => {
+    val plankItem = args.items[ColoredItem.Plank];
+    val stick = args.items[ColoredItem.Stick];
 
     if plankItem == null || stick == null {
       return;
     }
 
     craftingTable.addShaped(
-      baseName + color.getResourceName(),
+      baseName + args.color.getResourceName(),
       stick * 4,
       [
         [plankItem],
@@ -341,16 +341,16 @@ contentFactory
       ]
     );
   })
-  .addRecipeGenerator("treasure_bag_", (baseName, color, items) => {
-    val treasureBag = items[ColoredItem.TreasureBag];
-    val wool = items[ColoredItem.Wool];
+  .addRecipeGenerator("treasure_bag_", (baseName, args) => {
+    val treasureBag = args.items[ColoredItem.TreasureBag];
+    val wool = args.items[ColoredItem.Wool];
 
     if treasureBag == null || wool == null {
       return;
     }
 
     craftingTable.addShaped(
-      baseName + color.getResourceName(),
+      baseName + args.color.getResourceName(),
       treasureBag,
       [
         [wool, wool, wool],
