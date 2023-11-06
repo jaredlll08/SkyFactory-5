@@ -218,6 +218,48 @@ contentFactory
       [apple]
     );
   })
+  .addRecipeGenerator("_dye_block_from_dye", (baseName, args) => {
+    val dyeBlockItem = args.items[ColoredItem.DyeBlock];
+    val dye = args.items[ColoredItem.Dye];
+    val stage = getStageForColor(args.color);
+
+    if dyeBlockItem == null || dye == null || stage == null {
+      return;
+    }
+
+    mods.recipestages.Recipes.addShapeless(
+      stage,
+      args.color.getResourceName() + baseName,
+      dyeBlockItem,
+      [
+        dye,
+        dye,
+        dye,
+        dye,
+        dye,
+        dye,
+        dye,
+        dye,
+        dye
+      ]
+    );
+  })
+  .addRecipeGenerator("_dye_from_dye_block", (baseName, args) => {
+    val dyeBlockItem = args.items[ColoredItem.DyeBlock];
+    val dye = args.items[ColoredItem.Dye];
+    val stage = getStageForColor(args.color);
+
+    if dyeBlockItem == null || dye == null || stage == null {
+      return;
+    }
+
+    mods.recipestages.Recipes.addShapeless(
+      stage,
+      args.color.getResourceName() + baseName,
+      dye * 9,
+      [dyeBlockItem]
+    );
+  })
   .addRecipeGenerator("_chest_shaped", (baseName, args) => {
     val plankItem = args.items[ColoredItem.Plank];
     val storageChest = args.items[ColoredItem.StorageChest];
