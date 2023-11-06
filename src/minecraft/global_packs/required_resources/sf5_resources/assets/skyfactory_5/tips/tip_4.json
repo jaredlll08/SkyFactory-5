@@ -1,7 +1,7 @@
 {
   "tip": {
     "text": "This tip is yellow",
-    "bold": true,
+    "bold": false,
     "color": "magenta"
   }
 }

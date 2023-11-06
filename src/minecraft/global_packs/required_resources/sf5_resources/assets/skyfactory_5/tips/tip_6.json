@@ -1,7 +1,7 @@
 {
   "tip": {
     "text": "What starts with a W, and has 3 letters, but ends with a T",
-    "bold": true,
+    "bold": false,
     "color": "green"
   }
 }
