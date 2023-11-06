@@ -2,7 +2,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.text.Component;
 
 val color = Globals.colors[ColorName.Pink];
-val textColor = 0xFFC0CB;
+val textColor = 0xFFFFFF;
 
 val items as IItemStack[] = [
   // GENERATOR START
