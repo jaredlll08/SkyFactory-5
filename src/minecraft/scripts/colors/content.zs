@@ -17,7 +17,9 @@ public enum ColoredBlock {
 // Regsiter Items
 public enum ColoredItem {
   Apple = "apple",
+  CompostingBin = "composting_bin",
   CraftingTable = "crafting_table",
+  Crucible = "crucible",
   Dye = "dye",
   LimitedStorageBarrel1 = "limited_storage_barrel_1",
   LimitedStorageBarrel2 = "limited_storage_barrel_2",
@@ -39,8 +41,14 @@ contentFactory
 
     return BracketHandlers.getItem("sf5_things:" + color.getResourceName() + "_apple");
   })
+  .registerItem(ColoredItem.CompostingBin, (color) => {
+    return BracketHandlers.getItem("sf5stuff:composting_bin_" + color.getResourceName());
+  })
   .registerItem(ColoredItem.CraftingTable, (color) => {
     return BracketHandlers.getItem("colouredstuff:crafting_table_" + color.getResourceName());
+  })
+  .registerItem(ColoredItem.Crucible, (color) => {
+    return BracketHandlers.getItem("sf5stuff:crucible_" + color.getResourceName());
   })
   .registerItem(ColoredItem.Dye, (color) => {
     if color.getName() == ColorName.None {
@@ -187,6 +195,61 @@ contentFactory
       ]
     );
   })
+  .addRecipeGenerator("_composting_bin", (baseName, color, items) => {
+    val plankItem = items[ColoredItem.Plank];
+    val slabItem = items[ColoredItem.PlankSlab];
+    val compostingBin = items[ColoredItem.CompostingBin];
+
+    if plankItem == null || slabItem == null || compostingBin == null {
+      return;
+    }
+
+    craftingTable.addShaped(
+      color.getResourceName() + baseName,
+      compostingBin,
+      [
+        [plankItem, <item:minecraft:air>, plankItem],
+        [plankItem, <item:minecraft:air>, plankItem],
+        [plankItem, slabItem, plankItem]
+      ]
+    );
+  })
+  .addRecipeGenerator("_crafting_table", (baseName, color, items) => {
+    val plankItem = items[ColoredItem.Plank];
+    val craftingTableItem = items[ColoredItem.CraftingTable];
+
+    if plankItem == null || craftingTableItem == null {
+      return;
+    }
+
+    craftingTable.addShaped(
+      color.getResourceName() + baseName,
+      craftingTableItem,
+      [
+        [plankItem, plankItem],
+        [plankItem, plankItem]
+      ]
+    );
+  })
+  .addRecipeGenerator("_crucible", (baseName, color, items) => {
+    val plankItem = items[ColoredItem.Plank];
+    val slabItem = items[ColoredItem.PlankSlab];
+    val crucible = items[ColoredItem.Crucible];
+
+    if plankItem == null || slabItem == null || crucible == null {
+      return;
+    }
+
+    craftingTable.addShaped(
+      color.getResourceName() + baseName,
+      crucible,
+      [
+        [plankItem, <item:minecraft:air>, plankItem],
+        [plankItem, <item:minecraft:air>, plankItem],
+        [slabItem, slabItem, slabItem]
+      ]
+    );
+  })
   .addRecipeGenerator("_limited_barrel_shaped", (baseName, color, items) => {
     val barrel = items[ColoredItem.LimitedStorageBarrel1];
     val plankItem = items[ColoredItem.Plank];
@@ -241,6 +304,23 @@ contentFactory
         [plankItem, slabItem, plankItem],
         [slabItem, <item:minecraft:redstone_torch>, slabItem],
         [plankItem, slabItem, plankItem],
+      ]
+    );
+  })
+  .addRecipeGenerator("_slabs_to_plank", (baseName, color, items) => {
+    val plankItem = items[ColoredItem.Plank];
+    val slabItem = items[ColoredItem.PlankSlab];
+
+    if plankItem == null || slabItem == null {
+      return;
+    }
+
+    craftingTable.addShaped(
+      color.getResourceName() + baseName,
+      plankItem,
+      [
+        [slabItem],
+        [slabItem]
       ]
     );
   })
