@@ -26,6 +26,9 @@
   },
   {
     "mob": ["minecraft:blaze"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
+    },
     "gamestage": "blaze",
     "minlight": 0,
     "maxlight": 15,
@@ -43,6 +46,9 @@
   },
   {
     "mob": ["minecraft:cave_spider"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "cavespider",
     "minlight": 0,
     "maxlight": 7,
@@ -56,6 +62,9 @@
   },
   {
     "mob": ["minecraft:creeper"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "creeper",
     "minlight": 0,
     "maxlight": 7,
@@ -69,6 +78,9 @@
   },
   {
     "mob": ["minecraft:drowned"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "drowned",
     "minlight": 0,
     "maxlight": 7,
@@ -82,6 +94,9 @@
   },
   {
     "mob": ["minecraft:enderman"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "enderman",
     "minlight": 0,
     "maxlight": 7,
@@ -99,6 +114,9 @@
   },
   {
     "mob": ["minecraft:endermite"],
+    "block": {
+      "tag": "skyfactory_5:spawn_blocks_for_end_entities"
+    },
     "gamestage": "endermite",
     "minlight": 0,
     "maxlight": 7,
@@ -112,6 +130,9 @@
   },
   {
     "mob": ["minecraft:evoker"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "evoker",
     "minlight": 0,
     "maxlight": 7,
@@ -125,6 +146,9 @@
   },
   {
     "mob": ["minecraft:ghast"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
+    },
     "gamestage": "ghast",
     "minlight": 0,
     "maxlight": 7,
@@ -138,6 +162,9 @@
   },
   {
     "mob": ["minecraft:guardian"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "guardian",
     "minlight": 0,
     "maxlight": 7,
@@ -151,6 +178,9 @@
   },
   {
     "mob": ["minecraft:hoglin"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "hoglin",
     "minlight": 0,
     "maxlight": 7,
@@ -164,6 +194,9 @@
   },
   {
     "mob": ["minecraft:husk"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "husk",
     "minlight": 0,
     "maxlight": 7,
@@ -177,6 +210,9 @@
   },
   {
     "mob": ["minecraft:illusioner"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "illusioner",
     "minlight": 0,
     "maxlight": 7,
@@ -190,6 +226,9 @@
   },
   {
     "mob": ["minecraft:magma_cube"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
+    },
     "gamestage": "magmacube",
     "minlight": 0,
     "maxlight": 7,
@@ -216,6 +255,9 @@
   },
   {
     "mob": ["minecraft:piglin"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
+    },
     "gamestage": "piglin",
     "minlight": 0,
     "maxlight": 7,
@@ -229,6 +271,9 @@
   },
   {
     "mob": ["minecraft:piglin_brute"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
+    },
     "gamestage": "piglinbrute",
     "minlight": 0,
     "maxlight": 7,
@@ -242,6 +287,9 @@
   },
   {
     "mob": ["minecraft:pillager"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "pillager",
     "minlight": 0,
     "maxlight": 7,
@@ -255,6 +303,9 @@
   },
   {
     "mob": ["minecraft:ravager"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "ravager",
     "minlight": 0,
     "maxlight": 7,
@@ -268,6 +319,9 @@
   },
   {
     "mob": ["minecraft:shulker"],
+    "block": {
+      "tag": "skyfactory_5:spawn_blocks_for_end_entities"
+    },
     "gamestage": "shulker",
     "minlight": 0,
     "maxlight": 7,
@@ -281,6 +335,9 @@
   },
   {
     "mob": ["minecraft:silverfish"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "silverfish",
     "minlight": 0,
     "maxlight": 7,
@@ -294,6 +351,9 @@
   },
   {
     "mob": ["minecraft:skeleton"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "skeleton",
     "minlight": 0,
     "maxlight": 7,
@@ -312,6 +372,9 @@
   },
   {
     "mob": ["minecraft:slime"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "slime",
     "minlight": 0,
     "maxlight": 7,
@@ -325,6 +388,9 @@
   },
   {
     "mob": ["minecraft:spider"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "spider",
     "minlight": 0,
     "maxlight": 7,
@@ -338,6 +404,9 @@
   },
   {
     "mob": ["minecraft:stray"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "stray",
     "minlight": 0,
     "maxlight": 7,
@@ -351,6 +420,9 @@
   },
   {
     "mob": ["minecraft:vex"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "vex",
     "minlight": 0,
     "maxlight": 7,
@@ -364,6 +436,9 @@
   },
   {
     "mob": ["minecraft:vindicator"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "vindicator",
     "minlight": 0,
     "maxlight": 7,
@@ -377,6 +452,9 @@
   },
   {
     "mob": ["minecraft:warden"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "warden",
     "minlight": 0,
     "maxlight": 7,
@@ -390,6 +468,9 @@
   },
   {
     "mob": ["minecraft:witch"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "witch",
     "minlight": 0,
     "maxlight": 7,
@@ -403,6 +484,9 @@
   },
   {
     "mob": ["minecraft:wither"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "wither",
     "minlight": 0,
     "maxlight": 7,
@@ -416,6 +500,9 @@
   },
   {
     "mob": ["minecraft:wither_skeleton"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
+    },
     "gamestage": "witherskeleton",
     "minlight": 0,
     "maxlight": 7,
@@ -429,6 +516,9 @@
   },
   {
     "mob": ["minecraft:zoglin"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
+    },
     "gamestage": "zoglin",
     "minlight": 0,
     "maxlight": 7,
@@ -442,6 +532,9 @@
   },
   {
     "mob": ["minecraft:zombie"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "zombie",
     "minlight": 0,
     "maxlight": 7,
@@ -459,6 +552,9 @@
   },
   {
     "mob": ["minecraft:zombie_villager"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "zombievillager",
     "minlight": 0,
     "maxlight": 7,
@@ -472,6 +568,9 @@
   },
   {
     "mob": ["minecraft:zombified_piglin"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
+    },
     "gamestage": "zombifiedpiglin",
     "minlight": 0,
     "maxlight": 7,
@@ -485,6 +584,9 @@
   },
   {
     "mob": ["minecraft:axolotl"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "axolotl",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -514,6 +616,9 @@
   },
   {
     "mob": ["minecraft:camel"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "camel",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -527,6 +632,9 @@
   },
   {
     "mob": ["minecraft:cat"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "cat",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -572,6 +680,9 @@
   },
   {
     "mob": ["minecraft:donkey"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "donkey",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -609,6 +720,9 @@
   },
   {
     "mob": ["minecraft:frog"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "frog",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -702,6 +816,9 @@
   },
   {
     "mob": ["minecraft:ocelot"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "ocelot",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -715,6 +832,9 @@
   },
   {
     "mob": ["minecraft:panda"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "panda",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -744,6 +864,9 @@
   },
   {
     "mob": ["minecraft:rabbit"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "rabbit",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -773,6 +896,9 @@
   },
   {
     "mob": ["minecraft:sniffer"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "sniffer",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -786,6 +912,9 @@
   },
   {
     "mob": ["minecraft:snow_golem"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "snowgolem",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -799,6 +928,9 @@
   },
   {
     "mob": ["minecraft:strider"],
+    "block": {
+      "tag": "skyfactory_5:wet_nether_mobs_need_liquid_and_also_possibly_solid_blocks"
+    },
     "gamestage": "strider",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -812,6 +944,9 @@
   },
   {
     "mob": ["minecraft:wolf"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "wolf",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -825,6 +960,9 @@
   },
   {
     "mob": ["minecraft:cod"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "cod",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -838,6 +976,9 @@
   },
   {
     "mob": ["minecraft:glow_squid"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "glowsquid",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -851,6 +992,9 @@
   },
   {
     "mob": ["minecraft:pufferfish"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "pufferfish",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -864,6 +1008,9 @@
   },
   {
     "mob": ["minecraft:salmon"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "salmon",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -877,6 +1024,9 @@
   },
   {
     "mob": ["minecraft:squid"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "squid",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -890,6 +1040,9 @@
   },
   {
     "mob": ["minecraft:tadpole"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "tadpole",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -904,7 +1057,7 @@
   {
     "mob": ["minecraft:tropical_fish"],
     "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
     },
     "gamestage": "tropicalfish",
     "minlight_full": 7,
@@ -922,6 +1075,9 @@
   },
   {
     "mob": ["minecraft:dolphin"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "dolphin",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -951,6 +1107,9 @@
   },
   {
     "mob": ["minecraft:parrot"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "parrot",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -964,6 +1123,9 @@
   },
   {
     "mob": ["minecraft:polar_bear"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "polarbear",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -977,6 +1139,9 @@
   },
   {
     "mob": ["minecraft:skeleton_horse"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "skeletonhorse",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -1006,6 +1171,9 @@
   },
   {
     "mob": ["minecraft:zombie_horse"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "zombiehorse",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -1019,6 +1187,9 @@
   },
   {
     "mob": ["minecraft:bat"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "bat",
     "minlight": 0,
     "maxlight": 7,
@@ -1032,6 +1203,9 @@
   },
   {
     "mob": ["minecraft:villager"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "villager",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -1045,6 +1219,9 @@
   },
   {
     "mob": ["minecraft:wandering_trader"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "wanderingtrader",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -1171,7 +1348,7 @@
   {
     "mob": ["earthmobsmod:magma_cow"],
     "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
     },
     "gamestage": "magmacow",
     "minlight_full": 7,
@@ -1232,7 +1409,7 @@
   {
     "mob": ["earthmobsmod:zombified_pig"],
     "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
     },
     "gamestage": "zombifiedpig",
     "minlight_full": 7,
@@ -1391,6 +1568,9 @@
   },
   {
     "mob": ["earthmobsmod:bone_spider"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "bonespider",
     "minlight": 0,
     "maxlight": 7,
@@ -1404,6 +1584,9 @@
   },
   {
     "mob": ["earthmobsmod:lobber_drowned"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "lobberdrowned",
     "minlight": 0,
     "maxlight": 7,
@@ -1417,6 +1600,9 @@
   },
   {
     "mob": ["earthmobsmod:bouldering_drowned"],
+    "block": {
+      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
+    },
     "gamestage": "boulderingdrowned",
     "minlight": 0,
     "maxlight": 7,
@@ -1430,6 +1616,9 @@
   },
   {
     "mob": ["earthmobsmod:viler_witch"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "vilerwitch",
     "minlight": 0,
     "maxlight": 7,
@@ -1443,6 +1632,9 @@
   },
   {
     "mob": ["earthmobsmod:duck"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
     "gamestage": "duck",
     "minlight_full": 7,
     "maxlight_full": 15,
@@ -1473,7 +1665,7 @@
   {
     "mob": ["earthmobsmod:wither_skeleton_wolf"],
     "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
     },
     "gamestage": "witherskeletonwolf",
     "minlight": 0,
@@ -1761,7 +1953,7 @@
   {
     "mob": ["lava_monster:lava_monster"],
     "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+      "tag": "skyfactory_5:wet_nether_mobs_need_liquid_and_also_possibly_solid_blocks"
     },
     "gamestage": "lavamonster",
     "minlight": 0,
