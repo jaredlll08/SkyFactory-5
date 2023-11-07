@@ -3,6 +3,7 @@
     "#minecraft:animals_spawnable_on",
     "#minecraft:goats_spawnable_on",
     "#minecraft:planks",
+    "#minecraft:slabs",
     "#minecraft:logs",
     "#forge:sand",
     "#forge:cobblestone",
@@ -20,6 +21,8 @@
     "minecraft:gilded_blackstone",
     "minecraft:magma_block",
     "minecraft:soul_sand",
-    "minecraft:soul_soil"
+    "minecraft:soul_soil",
+    "minecraft:obsidian",
+    "minecraft:end_stone"
   ]
 }

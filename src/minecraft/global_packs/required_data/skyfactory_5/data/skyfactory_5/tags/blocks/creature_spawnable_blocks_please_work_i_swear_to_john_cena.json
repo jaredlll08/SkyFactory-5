@@ -3,8 +3,12 @@
     "#minecraft:animals_spawnable_on",
     "#minecraft:goats_spawnable_on",
     "#minecraft:planks",
+    "#minecraft:slabs",
     "#minecraft:logs",
     "#forge:sand",
-    "#forge:cobblestone"
+    "#forge:cobblestone",
+    "minecraft:obsidian",
+    "minecraft:end_stone",
+    "colouredstuff:slab_planks_green"
   ]
 }
