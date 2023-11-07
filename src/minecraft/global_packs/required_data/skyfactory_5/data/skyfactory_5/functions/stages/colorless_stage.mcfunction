@@ -8,3 +8,9 @@ execute as @e[type=player,distance=..64] run colorfulskies color @s sunrise 9191
 
 #Reloads inControl until a fix is pushed from mcjty
 function skyfactory_5:incontrol_reload
+
+#Sets Curios slots
+curios set back @s 1
+curios set belt @s 1
+curios set quiver @s 1
+curios set charm @s 2
