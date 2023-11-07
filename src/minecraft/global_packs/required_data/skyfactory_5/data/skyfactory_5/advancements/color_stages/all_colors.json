@@ -1,0 +1,215 @@
+{
+  "display": {
+    "icon": {
+      "item": "enderio:confusing_powder"
+    },
+    "title": "All Colors",
+    "description": "All Colors Unlocked",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:color_stages/root",
+  "criteria": {
+    "sapling_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_black"]
+          }
+        ]
+      }
+    },
+    "sapling_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_blue"]
+          }
+        ]
+      }
+    },
+    "sapling_brown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_brown"]
+          }
+        ]
+      }
+    },
+    "sapling_cyan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_cyan"]
+          }
+        ]
+      }
+    },
+    "sapling_gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_gray"]
+          }
+        ]
+      }
+    },
+    "sapling_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_green"]
+          }
+        ]
+      }
+    },
+    "sapling_light_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_light_blue"]
+          }
+        ]
+      }
+    },
+    "sapling_light_gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_light_gray"]
+          }
+        ]
+      }
+    },
+    "sapling_lime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_lime"]
+          }
+        ]
+      }
+    },
+    "sapling_magenta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_magenta"]
+          }
+        ]
+      }
+    },
+    "sapling_orange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_orange"]
+          }
+        ]
+      }
+    },
+    "sapling_purple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_purple"]
+          }
+        ]
+      }
+    },
+    "sapling_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_red"]
+          }
+        ]
+      }
+    },
+    "sapling_white": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_white"]
+          }
+        ]
+      }
+    },
+    "sapling_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_yellow"]
+          }
+        ]
+      }
+    },
+    "sapling_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colouredstuff:sapling_pink"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sapling_black",
+      "sapling_blue",
+      "sapling_brown",
+      "sapling_cyan",
+      "sapling_gray",
+      "sapling_green",
+      "sapling_light_blue",
+      "sapling_light_gray",
+      "sapling_lime",
+      "sapling_magenta",
+      "sapling_orange",
+      "sapling_purple",
+      "sapling_red",
+      "sapling_white",
+      "sapling_yellow",
+      "sapling_pink"
+    ]
+  ],
+  "rewards": {
+    "function": "skyfactory_5:stages/all_colors"
+  }
+}
