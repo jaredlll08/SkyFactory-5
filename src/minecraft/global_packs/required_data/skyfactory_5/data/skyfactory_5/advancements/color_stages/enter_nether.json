@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:entity_spawning/root",
+  "parent": "skyfactory_5:color_stages/root",
   "criteria": {
     "entered_nether": {
       "trigger": "minecraft:changed_dimension",

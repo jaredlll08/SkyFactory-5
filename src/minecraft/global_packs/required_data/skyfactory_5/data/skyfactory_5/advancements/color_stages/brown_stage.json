@@ -1,42 +1,42 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:brown_concrete_powder"
     },
-    "title": "Light Blue Stage",
+    "title": "Brown Color Stage",
     "description": "This is a test",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:entity_spawning/root",
+  "parent": "skyfactory_5:color_stages/root",
   "criteria": {
-    "clay_ball": {
+    "obtain_dirt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:clay_ball"]
+            "items": ["minecraft:dirt"]
           }
         ]
       }
     },
-    "clay": {
+    "obtain_leather": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:clay"]
+            "items": ["minecraft:leather"]
           }
         ]
       }
     }
   },
-  "requirements": [["clay_ball", "clay"]],
+  "requirements": [["obtain_dirt", "obtain_leather"]],
   "rewards": {
-    "function": "skyfactory_5:stages/light_blue_stage"
+    "function": "skyfactory_5:stages/brown_stage"
   }
 }

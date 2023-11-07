@@ -1,77 +1,95 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:cyan_concrete_powder"
     },
-    "title": "Lime Stage",
+    "title": "Cyan Color Stage",
     "description": "This is a test",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:entity_spawning/root",
+  "parent": "skyfactory_5:color_stages/root",
   "criteria": {
-    "limestone": {
+    "warped_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["create:limestone"]
+            "items": ["minecraft:warped_stem"]
           }
         ]
       }
     },
-    "slime_ball": {
+    "stripped_warped_stem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:slime_ball"]
+            "items": ["minecraft:stripped_warped_stem"]
           }
         ]
       }
     },
-    "scute": {
+    "oxidized_copper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:scute"]
+            "items": ["minecraft:oxidized_copper"]
           }
         ]
       }
     },
-    "turtle_helmet": {
+    "warped_planks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:turtle_helmet"]
+            "items": ["minecraft:warped_planks"]
           }
         ]
       }
     },
-    "seagrass": {
+    "warped_wart_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:seagrass"]
+            "items": ["minecraft:warped_wart_block"]
+          }
+        ]
+      }
+    },
+    "ender_pearl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:ender_pearl"]
           }
         ]
       }
     }
   },
   "requirements": [
-    ["limestone", "slime_ball", "scute", "turtle_helmet", "seagrass"]
+    [
+      "warped_stem",
+      "stripped_warped_stem",
+      "oxidized_copper",
+      "warped_planks",
+      "warped_wart_block",
+      "ender_pearl"
+    ]
   ],
   "rewards": {
-    "function": "skyfactory_5:stages/lime_stage"
+    "function": "skyfactory_5:stages/cyan_stage"
   }
 }

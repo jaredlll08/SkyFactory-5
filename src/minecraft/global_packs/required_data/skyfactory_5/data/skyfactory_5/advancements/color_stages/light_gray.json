@@ -3,14 +3,14 @@
     "icon": {
       "item": "minecraft:light_gray_concrete_powder"
     },
-    "title": "Light Gray Stage",
+    "title": "Light Gray Color Stage",
     "description": "This is a test",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:entity_spawning/root",
+  "parent": "skyfactory_5:color_stages/root",
   "criteria": {
     "goat_horn": {
       "trigger": "minecraft:inventory_changed",

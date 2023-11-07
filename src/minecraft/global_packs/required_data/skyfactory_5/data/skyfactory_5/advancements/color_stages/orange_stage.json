@@ -1,53 +1,53 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:orange_concrete_powder"
     },
-    "title": "Blue Stage",
+    "title": "Orange Color Stage",
     "description": "This is a test",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:entity_spawning/root",
+  "parent": "skyfactory_5:color_stages/root",
   "criteria": {
-    "water_bucket": {
+    "carved_pumpkin": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:water_bucket"]
+            "items": ["minecraft:carved_pumpkin"]
           }
         ]
       }
     },
-    "water_bottle": {
+    "pumpkin": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
+        "player": [],
         "items": [
           {
-            "items": ["minecraft:potion"],
-            "nbt": "{Potion:\"minecraft:water\"}"
+            "items": ["minecraft:pumpkin"]
           }
         ]
       }
     },
-    "wooden_bucket_water": {
+    "carrot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
+        "player": [],
         "items": [
           {
-            "items": ["woodenbucket:wooden_bucket"],
-            "nbt": "{Fluid:{Amount:1000,FluidName:\"minecraft:water\"}}"
+            "items": ["minecraft:carrot"]
           }
         ]
       }
     }
   },
-  "requirements": [["water_bucket", "water_bottle", "wooden_bucket_water"]],
+  "requirements": [["carved_pumpkin", "pumpkin", "carrot"]],
   "rewards": {
-    "function": "skyfactory_5:stages/blue_stage"
+    "function": "skyfactory_5:stages/orange_stage"
   }
 }

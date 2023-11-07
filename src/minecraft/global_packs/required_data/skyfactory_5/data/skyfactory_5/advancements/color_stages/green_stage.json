@@ -1,112 +1,121 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:green_concrete_powder"
     },
-    "title": "Pink Stage",
+    "title": "Green Color Stage",
     "description": "This is a test",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:entity_spawning/root",
+  "parent": "skyfactory_5:color_stages/root",
   "criteria": {
-    "porkchop": {
+    "eat_green_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": [],
+        "item": {
+          "items": ["sf5_things:green_apple"]
+        }
+      }
+    },
+    "bamboo": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:porkchop"]
+            "items": ["minecraft:bamboo"]
           }
         ]
       }
     },
-    "beef": {
+    "cucumber": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:beef"]
+            "items": ["sushigocrafting:cucumber"]
           }
         ]
       }
     },
-    "chicken": {
+    "soy_bean": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:chicken"]
+            "items": ["sushigocrafting:soy_bean"]
           }
         ]
       }
     },
-    "rabbit": {
+    "wasabi_root": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:rabbit"]
+            "items": ["sushigocrafting:wasabi_root"]
           }
         ]
       }
     },
-    "mutton": {
+    "avocado": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:mutton"]
+            "items": ["sushigocrafting:avocado"]
           }
         ]
       }
     },
-    "wing": {
+    "cucumber_slices": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["pizzacraft:wing"]
+            "items": ["sushigocrafting:cucumber_slices"]
           }
         ]
       }
     },
-    "cherry_sapling": {
+    "avocado_sapling": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:cherry_sapling"]
+            "items": ["sushigocrafting:avocado_sapling"]
           }
         ]
       }
     },
-    "cherry_planks": {
+    "avocado_leaves": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:cherry_planks"]
+            "items": ["sushigocrafting:avocado_leaves"]
           }
         ]
       }
     },
-    "cherry_log": {
+    "nori_sheets": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:cherry_log"]
+            "items": ["sushigocrafting:nori_sheets"]
           }
         ]
       }
@@ -114,18 +123,19 @@
   },
   "requirements": [
     [
-      "porkchop",
-      "beef",
-      "chicken",
-      "rabbit",
-      "mutton",
-      "wing",
-      "cherry_sapling",
-      "cherry_planks",
-      "cherry_log"
+      "eat_green_apple",
+      "bamboo",
+      "cucumber",
+      "soy_bean",
+      "wasabi_root",
+      "avocado",
+      "cucumber_slices",
+      "avocado_sapling",
+      "avocado_leaves",
+      "nori_sheets"
     ]
   ],
   "rewards": {
-    "function": "skyfactory_5:stages/pink_stage"
+    "function": "skyfactory_5:stages/green_stage"
   }
 }

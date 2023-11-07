@@ -1,79 +1,90 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:red_concrete_powder"
     },
-    "title": "Cyan Stage",
+    "title": "Red Color Stage",
     "description": "This is a test",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:entity_spawning/root",
+  "parent": "skyfactory_5:color_stages/root",
   "criteria": {
-    "warped_stem": {
+    "spider_eye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:warped_stem"]
+            "items": ["minecraft:spider_eye"]
           }
         ]
       }
     },
-    "stripped_warped_stem": {
+    "melon_slice": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:stripped_warped_stem"]
+            "items": ["minecraft:melon_slice"]
           }
         ]
       }
     },
-    "oxidized_copper": {
+    "apple": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:oxidized_copper"]
+            "items": ["minecraft:apple"]
           }
         ]
       }
     },
-    "warped_planks": {
+    "salmon": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:warped_planks"]
+            "items": ["minecraft:salmon"]
           }
         ]
       }
     },
-    "warped_wart_block": {
+    "beetroot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:warped_wart_block"]
+            "items": ["minecraft:beetroot"]
           }
         ]
       }
     },
-    "ender_pearl": {
+    "sweet_berries": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:ender_pearl"]
+            "items": ["minecraft:sweet_berries"]
+          }
+        ]
+      }
+    },
+    "poppy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:poppy"]
           }
         ]
       }
@@ -81,15 +92,16 @@
   },
   "requirements": [
     [
-      "warped_stem",
-      "stripped_warped_stem",
-      "oxidized_copper",
-      "warped_planks",
-      "warped_wart_block",
-      "ender_pearl"
+      "spider_eye",
+      "melon_slice",
+      "apple",
+      "salmon",
+      "beetroot",
+      "sweet_berries",
+      "poppy"
     ]
   ],
   "rewards": {
-    "function": "skyfactory_5:stages/cyan_stage"
+    "function": "skyfactory_5:stages/red_stage"
   }
 }
