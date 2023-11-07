@@ -1,9 +1,9 @@
 # General settings
 [general]
 # Enable Force Ore generation [Default: true]
-generateForceOre = true
+generateForceOre = false
 # Enable Force Tree generation [Default: true]
-generateForceTree = true
+generateForceTree = false
 # Enable Time Torch [Default: true]
 timeTorchEnabled = true
 # Print in Log when Time Torch is placed and by who [Default: true]
