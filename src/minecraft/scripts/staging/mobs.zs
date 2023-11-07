@@ -13,19 +13,38 @@ public class TrophyMob {
     this.mobDisplayName = mobDisplayName;
   }
 
-  public toggleStage(player: Player): void {
-    var hasStage = player.hasGameStage(this.stageName);
+  public toggleStage(player: Player): bool {
+    val newEnabled = !player.hasGameStage(this.stageName);
 
-    if hasStage {
-      player.removeGameStage(this.stageName);
-      player.sendMessage(Component.literal(this.mobDisplayName + " will no longer spawn!").withStyle(style => style.withColor(<constant:minecraft:formatting:red>)));
-    } else {
-      player.addGameStage(this.stageName);
-      player.sendMessage(Component.literal(this.mobDisplayName + " will now spawn!").withStyle(style => style.withColor(<constant:minecraft:formatting:green>)));
+    this.setStageStateForPlayer(player, newEnabled);
+
+    return newEnabled;
+  }
+
+  public setStageStateForPlayers(players: Player[], enabled: bool): void {
+    for player in players {
+      this.setStageStateForPlayer(player, enabled);
+    }
+  }
+
+  private setStageStateForPlayer(player: Player, enabled: bool): void {
+    // Skip giving stage if player already has it.
+    if enabled && player.hasGameStage(this.stageName) {
+      return;
     }
 
-    // Pick a sound source: https:// docs.blamejared.com/1.20.1/en/vanilla/api/sound/SoundSource#enum-constants
-    player.level.playSound(player, player.blockPosition, <soundevent:minecraft:event.raid.horn>, <constant:minecraft:sound/source:master>);
+    // Skip removing stage if player already doesn't have it.
+    if !enabled && !player.hasGameStage(this.stageName) {
+      return;
+    }
+
+    if enabled {
+      player.addGameStage(this.stageName);
+      player.sendMessage(Component.literal(this.mobDisplayName + " will now spawn!").withStyle(style => style.withColor(<constant:minecraft:formatting:green>)));
+    } else {
+      player.removeGameStage(this.stageName);
+      player.sendMessage(Component.literal(this.mobDisplayName + " will no longer spawn!").withStyle(style => style.withColor(<constant:minecraft:formatting:red>)));
+    }
   }
 }
 
@@ -198,10 +217,12 @@ val mobs: TrophyMob[string] = {
 
 };
 
+val playerRadius = 64;
+
 events.register<RightClickBlockEvent>(event => {
-  var player = event.entity;
-  var level = player.level;
-  var pos = event.blockPos;
+  val player = event.entity;
+  val level = player.level;
+  val pos = event.blockPos;
 
   if level.isClientSide {
     // Do nothing on the client
@@ -209,19 +230,27 @@ events.register<RightClickBlockEvent>(event => {
   }
 
   if level.getBlockState(pos).block == <block:obtrophies:trophy> {
-    var mayBe = level.getBlockEntity(pos);
+    val blockEntity = level.getBlockEntity(pos);
 
-    if mayBe != null {
-      var be = mayBe as BlockEntity;
-      var data = be.data;
-      var type = data["entity"].getAsString();
+    if blockEntity != null {
+      val data = blockEntity.data;
+      val type = data["entity"].getAsString();
 
       if type in mobs {
-        mobs[type].toggleStage(player);
+        val trophyMob = mobs[type];
+        val newEnabledState = trophyMob.toggleStage(player);
+
+        val entities = level.getEntitiesInArea<Player>(
+          pos.north(playerRadius).east(playerRadius).above(playerRadius),
+          pos.south(playerRadius).west(playerRadius).below(playerRadius)
+        );
+
+        trophyMob.setStageStateForPlayers(entities, newEnabledState);
       }
     }
   }
 });
+
 /*
 // Used as a deny list for the following loop. Value should be true
 val lootModifierDenyList: bool[string] = {};
