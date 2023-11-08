@@ -49,7 +49,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
   }
 
   if rollsChance(ctx.random, 10) {
-    drops.add(<item:exdeorum:silk_worm>);
+    drops.add(<item:exnihilosequentia:silkworm>);
   }
 
   val player: Player = (ctx.thisEntity as Entity) as Player;
