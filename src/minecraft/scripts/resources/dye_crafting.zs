@@ -93,7 +93,7 @@ mods.recipestages.Recipes.addShapeless(
   Stage.Cyan,
   "cyan_dye_combo",
   <item:minecraft:cyan_dye> * 2,
-  [<item:minecraft:purple_dye>, <item:minecraft:pink_dye>]
+  [<item:minecraft:blue_dye>, <item:minecraft:green_dye>]
 );
 
 // Light Blue Dye Combination
