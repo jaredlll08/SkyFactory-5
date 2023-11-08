@@ -35,9 +35,13 @@ for item in loadedMods["ae2"].itemStacks {
 for item in loadedMods["constructionwand"].itemStacks {
   item.maxDamage = -1;
 }
+/*
 for item in loadedMods["sophisticatedstorage"].itemStacks {
   item.maxDamage = 9999;
 }
 for item in loadedMods["create"].itemStacks {
   item.maxDamage = 9999;
 }
+*/
+
+// <item:item_id>.maxDamage = -1;
