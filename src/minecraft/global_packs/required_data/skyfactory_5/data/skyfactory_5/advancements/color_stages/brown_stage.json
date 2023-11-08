@@ -6,7 +6,7 @@
     "title": "Brown Color Stage",
     "description": "This is a test",
     "frame": "task",
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },
