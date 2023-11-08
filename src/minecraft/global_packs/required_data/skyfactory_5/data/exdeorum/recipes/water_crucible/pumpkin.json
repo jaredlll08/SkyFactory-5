@@ -1,5 +1,0 @@
-{
-  "type": "exdeorum:water_crucible",
-  "fluid": { "Amount": 100, "FluidName": "colored_water:orange_fluid" },
-  "ingredient": { "item": "minecraft:pumpkin" }
-}

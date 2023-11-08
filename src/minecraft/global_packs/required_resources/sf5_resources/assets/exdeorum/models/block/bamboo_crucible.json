@@ -1,9 +1,0 @@
-{
-  "parent": "exdeorum:block/template_crucible",
-  "textures": {
-    "bottom": "colouredstuff:block/planks_none",
-    "inside": "colouredstuff:block/planks_none",
-    "side": "colouredstuff:block/planks_none",
-    "top": "colouredstuff:block/planks_none"
-  }
-}

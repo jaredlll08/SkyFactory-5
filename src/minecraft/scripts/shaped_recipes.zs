@@ -1,13 +1,3 @@
-// Recipe to make a Colorless Paintbrush / Golden Watering Can
-craftingTable.addShaped(
-  "colorless_paintbrush",
-  <item:exdeorum:golden_watering_can>.withTag({Fluid: {FluidName: "minecraft:water", Amount: 4000}}),
-  [
-    [<item:minecraft:air>, <item:colouredstuff:sapling_none>],
-    [<item:minecraft:stick>, <item:minecraft:air>]
-  ]
-);
-
 // Treasure Bag Template
 craftingTable.addShaped(
   "treasure_bag_template",
@@ -19,26 +9,6 @@ craftingTable.addShaped(
   ]
 );
 
-
-craftingTable.remove(<item:exdeorum:oak_crucible>);
-craftingTable.remove(<item:exdeorum:spruce_crucible>);
-craftingTable.remove(<item:exdeorum:birch_crucible>);
-craftingTable.remove(<item:exdeorum:jungle_crucible>);
-craftingTable.remove(<item:exdeorum:acacia_crucible>);
-craftingTable.remove(<item:exdeorum:dark_oak_crucible>);
-craftingTable.remove(<item:exdeorum:mangrove_crucible>);
-craftingTable.remove(<item:exdeorum:cherry_crucible>);
-craftingTable.remove(<item:exdeorum:bamboo_crucible>);
-craftingTable.remove(<item:exdeorum:fir_crucible>);
-craftingTable.remove(<item:exdeorum:redwood_crucible>);
-craftingTable.remove(<item:exdeorum:mahogany_crucible>);
-craftingTable.remove(<item:exdeorum:jacaranda_crucible>);
-craftingTable.remove(<item:exdeorum:palm_crucible>);
-craftingTable.remove(<item:exdeorum:willow_crucible>);
-craftingTable.remove(<item:exdeorum:dead_crucible>);
-craftingTable.remove(<item:exdeorum:magic_crucible>);
-craftingTable.remove(<item:exdeorum:umbran_crucible>);
-
 // Stick conversion recipe
 craftingTable.addShaped(
   "stick_conversion",
@@ -47,3 +17,15 @@ craftingTable.addShaped(
     [<tag:items:forge:rods>]
   ]
 );
+
+craftingTable.addShaped(
+  "porcelain_clay_crucible",
+  <item:sf5stuff:crucible_porcelain_clay>,
+  [
+    [<item:exnihilosequentia:porcelain_clay>, <item:minecraft:air>, <item:exnihilosequentia:porcelain_clay>],
+    [<item:exnihilosequentia:porcelain_clay>, <item:minecraft:air>, <item:exnihilosequentia:porcelain_clay>],
+    [<item:exnihilosequentia:porcelain_clay>, <item:exnihilosequentia:porcelain_clay>, <item:exnihilosequentia:porcelain_clay>]
+  ]
+);
+
+

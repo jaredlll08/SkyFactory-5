@@ -189,26 +189,6 @@
       }
     }
   },
-  "requirements": [
-    [
-      "sapling_black",
-      "sapling_blue",
-      "sapling_brown",
-      "sapling_cyan",
-      "sapling_gray",
-      "sapling_green",
-      "sapling_light_blue",
-      "sapling_light_gray",
-      "sapling_lime",
-      "sapling_magenta",
-      "sapling_orange",
-      "sapling_purple",
-      "sapling_red",
-      "sapling_white",
-      "sapling_yellow",
-      "sapling_pink"
-    ]
-  ],
   "rewards": {
     "function": "skyfactory_5:stages/all_colors"
   }

@@ -1,5 +1,3 @@
-import crafttweaker.api.entity.Entity;
-import crafttweaker.api.entity.type.player.Player;
 import crafttweaker.api.loot.modifier.CommonLootModifiers;
 
 // Increases Sapling drops when breaking leaves
@@ -49,13 +47,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
   }
 
   if rollsChance(ctx.random, 10) {
-    drops.add(<item:exdeorum:silk_worm>);
-  }
-
-  val player: Player = (ctx.thisEntity as Entity) as Player;
-
-  if !player.hasGameStage(Stage.Green) && rollsChance(ctx.random, 1) {
-    drops.add(<item:sf5_things:green_apple>);
+    drops.add(<item:exnihilosequentia:silkworm>);
   }
 
   return drops;

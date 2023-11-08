@@ -1,6 +1,8 @@
 import crafttweaker.api.block.Block;
 import crafttweaker.api.bracket.BracketHandlers;
 import crafttweaker.api.bracket.ResourceLocationBracketHandler;
+import crafttweaker.api.entity.Entity;
+import crafttweaker.api.entity.type.player.Player;
 
 val contentFactory = new ColoredContentFactory();
 
@@ -198,6 +200,37 @@ contentFactory
         if rollsChance(ctx.random, gatewayDropChance) {
           drops.add(<item:gateways:gate_pearl>.withTag({gateway: gateway}));
         }
+      }
+
+      return drops;
+    });
+  })
+  .addLootModifierGenerator("_colored_leaves_green_apple", (baseName, args) => {
+    if args.color.getName() == ColorName.Green {
+      return;
+    }
+
+    // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
+    // val leaves = args.blocks[ColoredBlock.Leaves];
+    val leaves = BracketHandlers.getBlock("colouredstuff:leaves_" + args.color.getResourceName()) as Block?;
+
+    if leaves == null {
+      return;
+    }
+
+    leaves.addLootModifier(args.color.getResourceName() + baseName, (drops, ctx) => {
+      val realPlayerLooting = isRealPlayerLooting(ctx);
+
+      if !realPlayerLooting {
+        return drops;
+      }
+
+      val appleDropChance = 5;
+
+      val player: Player = (ctx.thisEntity as Entity) as Player;
+
+      if !player.hasGameStage(Stage.Green) && rollsChance(ctx.random, appleDropChance) {
+        drops.add(<item:sf5_things:green_apple>);
       }
 
       return drops;

@@ -5,6 +5,18 @@
       {
         "type": "minecraft:beehive",
         "probability": 0.02
+      },
+      {
+        "type": "minecraft:cocoa",
+        "probability": 0.15
+      },
+      {
+        "type": "minecraft:trunk_vine",
+        "probability": 0.03
+      },
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.02
       }
     ],
     "dirt_provider": {

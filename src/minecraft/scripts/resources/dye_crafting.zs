@@ -82,7 +82,7 @@ mods.recipestages.Recipes.addShapeless(
   Stage.Pink,
   "pink_dye_combo",
   <item:minecraft:pink_dye> * 2,
-  [<item:minecraft:purple_dye>, <item:minecraft:pink_dye>]
+  [<item:minecraft:white_dye>, <item:minecraft:red_dye>]
 );
 
 // Cyan Dye Combination
@@ -93,7 +93,7 @@ mods.recipestages.Recipes.addShapeless(
   Stage.Cyan,
   "cyan_dye_combo",
   <item:minecraft:cyan_dye> * 2,
-  [<item:minecraft:purple_dye>, <item:minecraft:pink_dye>]
+  [<item:minecraft:blue_dye>, <item:minecraft:green_dye>]
 );
 
 // Light Blue Dye Combination
@@ -104,7 +104,7 @@ mods.recipestages.Recipes.addShapeless(
   Stage.Light_Blue,
   "light_blue_dye_combo",
   <item:minecraft:light_blue_dye> * 2,
-  [<item:minecraft:purple_dye>, <item:minecraft:pink_dye>]
+  [<item:minecraft:blue_dye>, <item:minecraft:white_dye>]
 );
 
 // Bonemeal from Dye
