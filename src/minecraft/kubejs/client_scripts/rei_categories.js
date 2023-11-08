@@ -482,6 +482,7 @@ REIEvents.groupEntries((event) => {
     ],
   );
 
+  /*
   // Items already color via tooltip
 
   event.groupItems("kubejs:rei_groups/finished", "Items Finished", [
@@ -1866,6 +1867,8 @@ REIEvents.groupEntries((event) => {
     "sushigocrafting:cucumber_slices",
     "sushigocrafting:nori_sheets",
   ]);
+
+*/
 
   /*
   // Items can also be grouped using anything that can be expressed as an IngredientJS,
