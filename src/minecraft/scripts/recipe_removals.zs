@@ -114,3 +114,20 @@ craftingTable.remove(<item:cyclic:shield_leather>);
 craftingTable.remove(<item:cyclic:shield_flint>);
 craftingTable.remove(<item:cyclic:shield_obsidian>);
 craftingTable.remove(<item:cyclic:shield_bone>);
+
+
+// Cyclic Apples
+craftingTable.remove(<item:cyclic:apple_ender>);
+craftingTable.remove(<item:cyclic:apple_lofty_stature>);
+craftingTable.remove(<item:cyclic:apple_honey>);
+craftingTable.remove(<item:cyclic:apple_chorus>);
+craftingTable.remove(<item:cyclic:apple_bone>);
+craftingTable.remove(<item:cyclic:apple_prismarine>);
+craftingTable.remove(<item:cyclic:apple_lapis>);
+craftingTable.remove(<item:cyclic:apple_iron>);
+craftingTable.remove(<item:cyclic:apple_diamond>);
+craftingTable.remove(<item:cyclic:apple_emerald>);
+craftingTable.remove(<item:cyclic:apple_chocolate>);
+craftingTable.remove(<item:cyclic:apple_sprout>);
+craftingTable.remove(<item:cyclic:apple_sprout_diamond>);
+craftingTable.remove(<item:cyclic:apple_sprout_emerald>);
