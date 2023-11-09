@@ -20,6 +20,7 @@ public enum ColoredBlock {
 // Regsiter Items
 public enum ColoredItem {
   Apple = "apple",
+  Campfire = "campfire",
   CompostingBin = "composting_bin",
   CraftingTable = "crafting_table",
   Crucible = "crucible",
@@ -34,6 +35,7 @@ public enum ColoredItem {
   Sapling = "sapling",
   Stick = "stick",
   StorageChest = "storage_chest",
+  Torch = "torch",
   TreasureBag = "treasure_bag",
   Wool = "wool",
 }
@@ -45,6 +47,13 @@ contentFactory
     }
 
     return BracketHandlers.getItem("sf5_things:" + color.getResourceName() + "_apple");
+  })
+  .registerItem(ColoredItem.Campfire, (color) => {
+    if color.getName() == ColorName.None {
+      return null;
+    }
+
+    return BracketHandlers.getItem("tintedcampfires:" + color.getResourceName() + "_campfire");
   })
   .registerItem(ColoredItem.CompostingBin, (color) => {
     return BracketHandlers.getItem("sf5stuff:composting_bin_" + color.getResourceName());
@@ -101,6 +110,13 @@ contentFactory
   })
   .registerItem(ColoredItem.Log, (color) => {
     return BracketHandlers.getItem("colouredstuff:log_" + color.getResourceName());
+  })
+  .registerItem(ColoredItem.Torch, (color) => {
+    if color.getName() == ColorName.None {
+      return null;
+    }
+
+    return BracketHandlers.getItem("tinted_torches:" + color.getResourceName() + "_torch");
   })
   .registerItem(ColoredItem.TreasureBag, (color) => {
     if color.getName() == ColorName.None {
@@ -297,6 +313,25 @@ contentFactory
       [dyeBlockItem]
     );
   })
+  .addRecipeGenerator("_campfire", (baseName, args) => {
+    val logItem = args.items[ColoredItem.Log];
+    val torchItem = args.items[ColoredItem.Torch];
+    val campfireItem = args.items[ColoredItem.Campfire];
+
+    if logItem == null || torchItem == null || campfireItem == null {
+      return;
+    }
+
+    craftingTable.addShaped(
+      args.color.getResourceName() + baseName,
+      campfireItem,
+      [
+        [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>],
+        [<item:minecraft:stick>, torchItem, <item:minecraft:stick>],
+        [logItem, logItem, logItem],
+      ]
+    );
+  })
   .addRecipeGenerator("_chest_shaped", (baseName, args) => {
     val plankItem = args.items[ColoredItem.Plank];
     val storageChest = args.items[ColoredItem.StorageChest];
@@ -476,6 +511,23 @@ contentFactory
       [
         [plankItem],
         [plankItem]
+      ]
+    );
+  })
+  .addRecipeGenerator("_torch", (baseName, args) => {
+    val dye = args.items[ColoredItem.Dye];
+    val torchItem = args.items[ColoredItem.Torch];
+
+    if dye == null || torchItem == null {
+      return;
+    }
+
+    craftingTable.addShaped(
+      args.color.getResourceName() + baseName,
+      torchItem * 4,
+      [
+        [dye],
+        [<tag:items:forge:rods>]
       ]
     );
   })
