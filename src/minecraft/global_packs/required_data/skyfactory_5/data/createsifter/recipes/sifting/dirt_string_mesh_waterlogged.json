@@ -1,0 +1,43 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "createsifter:string_mesh"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.2,
+      "item": "minecraft:lime_dye"
+    },
+    {
+      "chance": 0.3,
+      "item": "minecraft:green_dye"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "chance": 0.05,
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "waterlogged": true
+}

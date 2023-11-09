@@ -1,0 +1,42 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.2,
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "chance": 0.15,
+      "item": "minecraft:yellow_dye"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:gray_dye"
+    },
+    {
+      "chance": 0.2,
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:black_dye"
+    },
+    {
+      "chance": 0.15,
+      "item": "create:experience_nugget"
+    }
+  ]
+}
