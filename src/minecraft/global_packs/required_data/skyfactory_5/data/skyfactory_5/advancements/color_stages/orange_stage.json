@@ -44,9 +44,33 @@
           }
         ]
       }
+    },
+    "lava_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:lava_bucket"]
+          }
+        ]
+      }
+    },
+    "wooden_lava_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["woodenbucket:wooden_bucket"]
+          }
+        ]
+      }
     }
   },
-  "requirements": [["carved_pumpkin", "pumpkin", "carrot"]],
+  "requirements": [
+    ["carved_pumpkin", "pumpkin", "carrot", "lava_bucket", "wooden_lava_bucket"]
+  ],
   "rewards": {
     "function": "skyfactory_5:stages/orange_stage"
   }
