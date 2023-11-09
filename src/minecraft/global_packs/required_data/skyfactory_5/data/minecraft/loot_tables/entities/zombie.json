@@ -74,8 +74,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "tinted_torches:green_torch",
-          "name": "minecraft:torch",
+          "type": "minecraft:item",
+          "name": "tinted_torches:green_torch",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
