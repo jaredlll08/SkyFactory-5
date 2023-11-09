@@ -313,6 +313,20 @@ REIEvents.groupEntries((event) => {
     "cyclic:shield_flint",
     "cyclic:shield_obsidian",
     "cyclic:shield_bone",
+    "cyclic:apple_ender",
+    "cyclic:apple_lofty_stature",
+    "cyclic:apple_honey",
+    "cyclic:apple_chorus",
+    "cyclic:apple_bone",
+    "cyclic:apple_prismarine",
+    "cyclic:apple_lapis",
+    "cyclic:apple_iron",
+    "cyclic:apple_diamond",
+    "cyclic:apple_emerald",
+    "cyclic:apple_chocolate",
+    "cyclic:apple_sprout",
+    "cyclic:apple_sprout_diamond",
+    "cyclic:apple_sprout_emerald",
   ]);
 
   //Creative items
