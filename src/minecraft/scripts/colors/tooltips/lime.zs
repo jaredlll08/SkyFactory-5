@@ -94,7 +94,6 @@ val items as IItemStack[] = [
   <item:minecraft:turtle_helmet>,
   <item:scarecrowsterritory:lime_scarecrow>,
   <item:sf5_things:lime_apple>,
-  <item:sf5_things:lime_stick>,
   <item:sf5stuff:composting_bin_lime>,
   <item:sf5stuff:crucible_lime>,
   <item:supplementaries:candle_holder_lime>,

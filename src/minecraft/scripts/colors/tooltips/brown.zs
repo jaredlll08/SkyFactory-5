@@ -72,7 +72,6 @@ val items as IItemStack[] = [
   <item:colouredstuff:gate_planks_brown>,
   <item:tintedcampfires:brown_campfire>,
   <item:sf5_things:brown_apple>,
-  <item:sf5_things:brown_stick>,
   <item:minecraft:leather>
 
   // GENERATOR END

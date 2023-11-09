@@ -33,7 +33,6 @@ public enum ColoredItem {
   Plank = "plank",
   PlankSlab = "plank_slab",
   Sapling = "sapling",
-  Stick = "stick",
   StorageChest = "storage_chest",
   Torch = "torch",
   TreasureBag = "treasure_bag",
@@ -87,14 +86,6 @@ contentFactory
   })
   .registerItem(ColoredItem.Sapling, (color) => {
     return BracketHandlers.getItem("colouredstuff:sapling_" + color.getResourceName());
-  })
-  .registerItem(ColoredItem.Stick, (color) => {
-    var resourceName = color.getResourceName();
-    if color.getName() == ColorName.None {
-      resourceName = "colorless";
-    }
-
-    return BracketHandlers.getItem("sf5_things:" + resourceName + "_stick");
   })
   .registerItem(ColoredItem.StorageChest, (color) => {
     return <item:sophisticatedstorage:chest>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
@@ -179,7 +170,6 @@ contentFactory
     val apple = args.items[ColoredItem.Apple];
     val dye = args.items[ColoredItem.Dye];
     val sapling = args.items[ColoredItem.Sapling];
-    val stick = args.items[ColoredItem.Stick];
 
     val gateways = getGatewaysForColor(args.color);
 
@@ -208,8 +198,8 @@ contentFactory
         drops.add(sapling);
       }
 
-      if stick != null && rollsChance(ctx.random, stickDropChance) {
-        drops.add(stick);
+      if rollsChance(ctx.random, stickDropChance) {
+        drops.add(<item:minecraft:stick>);
       }
 
       for gateway in gateways {
@@ -494,23 +484,6 @@ contentFactory
       [
         [slabItem],
         [slabItem]
-      ]
-    );
-  })
-  .addRecipeGenerator("stick_", (baseName, args) => {
-    val plankItem = args.items[ColoredItem.Plank];
-    val stick = args.items[ColoredItem.Stick];
-
-    if plankItem == null || stick == null {
-      return;
-    }
-
-    craftingTable.addShaped(
-      baseName + args.color.getResourceName(),
-      stick * 4,
-      [
-        [plankItem],
-        [plankItem]
       ]
     );
   })

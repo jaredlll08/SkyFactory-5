@@ -127,8 +127,6 @@ val items as IItemStack[] = [
   <item:scarecrowsterritory:orange_scarecrow>,
   <item:sf5_things:orange_apple>,
   <item:sf5_things:orange_apple>,
-  <item:sf5_things:orange_stick>,
-  <item:sf5_things:orange_stick>,
   <item:sf5stuff:composting_bin_orange>,
   <item:sf5stuff:crucible_orange>,
   <item:supplementaries:candle_holder_orange>,

@@ -88,7 +88,6 @@ val items as IItemStack[] = [
   <item:scarecrowsterritory:green_scarecrow>,
   <item:sf5_things:block_of_green_dye>,
   <item:sf5_things:green_apple>,
-  <item:sf5_things:green_stick>,
   <item:sf5stuff:composting_bin_green>,
   <item:sf5stuff:crucible_green>,
   <item:silentgear:green_fluffy_block>,

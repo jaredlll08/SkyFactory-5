@@ -73,7 +73,6 @@ val items as IItemStack[] = [
   <item:scarecrowsterritory:white_scarecrow>,
   <item:sf5_things:block_of_white_dye>,
   <item:sf5_things:white_apple>,
-  <item:sf5_things:white_stick>,
   <item:sf5stuff:composting_bin_white>,
   <item:sf5stuff:crucible_white>,
   <item:supplementaries:candle_holder_white>,

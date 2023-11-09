@@ -81,7 +81,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "sf5_things:light_gray_stick",
+          "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_count",

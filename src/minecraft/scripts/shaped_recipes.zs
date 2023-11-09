@@ -9,15 +9,6 @@ craftingTable.addShaped(
   ]
 );
 
-// Stick conversion recipe
-craftingTable.addShaped(
-  "stick_conversion",
-  <item:minecraft:stick>,
-  [
-    [<tag:items:forge:rods>]
-  ]
-);
-
 craftingTable.addShaped(
   "porcelain_clay_crucible",
   <item:sf5stuff:crucible_porcelain_clay>,

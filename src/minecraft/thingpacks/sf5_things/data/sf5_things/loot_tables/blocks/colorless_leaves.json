@@ -62,7 +62,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sf5_things:colorless_stick",
+          "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_count",

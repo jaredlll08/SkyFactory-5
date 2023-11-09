@@ -14,7 +14,7 @@
     },
     "subs": {
       "rod": {
-        "item": "sf5_things:light_blue_stick"
+        "item": "minecraft:stick"
       }
     }
   },
