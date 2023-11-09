@@ -29,3 +29,44 @@ craftingTable.addShaped(
 );
 
 
+// Dimensional Paintings Mod
+craftingTable.remove(<item:dimpaintings:nether_painting>);
+craftingTable.remove(<item:dimpaintings:end_painting>);
+craftingTable.remove(<item:dimpaintings:overworld_painting>);
+craftingTable.addShaped(
+  "dimensional_painting_nether",
+  <item:dimpaintings:nether_painting>,
+  [
+    [<item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_red_dye>],
+    [<item:sf5_things:block_of_purple_dye>, <item:minecraft:painting>, <item:sf5_things:block_of_purple_dye>],
+    [<item:sf5_things:block_of_light_gray_dye>, <item:sf5_things:block_of_light_gray_dye>, <item:sf5_things:block_of_light_gray_dye>]
+  ]
+);
+
+craftingTable.addShaped(
+  "dimensional_painting_end",
+  <item:dimpaintings:end_painting>,
+  [
+    [<item:sf5_things:block_of_black_dye>, <item:sf5_things:block_of_cyan_dye>, <item:sf5_things:block_of_black_dye>],
+    [<item:sf5_things:block_of_purple_dye>, <item:minecraft:painting>, <item:sf5_things:block_of_purple_dye>],
+    [<item:sf5_things:block_of_black_dye>, <item:sf5_things:block_of_cyan_dye>, <item:sf5_things:block_of_black_dye>]
+  ]
+);
+
+craftingTable.addShaped(
+  "dimensional_painting_overworld",
+  <item:dimpaintings:overworld_painting>,
+  [
+    [<item:sf5_things:block_of_green_dye>, <item:sf5_things:block_of_green_dye>, <item:sf5_things:block_of_green_dye>],
+    [<item:sf5_things:block_of_blue_dye>, <item:minecraft:painting>, <item:sf5_things:block_of_blue_dye>],
+    [<item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_yellow_dye>]
+  ]
+);
+
+
+
+
+
+
+
+
