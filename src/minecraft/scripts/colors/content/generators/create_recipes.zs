@@ -1,6 +1,28 @@
+// Crushing Recipes
+ContentBuilder.factory
+  .addRecipeGenerator("_items_to_dye_crushing", (baseName, args) => {
+    val dye = args.items[ColoredItem.Dye];
+    val coloredProcessingItemTag = args.itemTags[ColoredItemTag.ColoredProcessingItem];
+
+    if dye == null || coloredProcessingItemTag == null {
+      return;
+    }
+
+    <recipetype:create:crushing>.addRecipe(
+      args.color.getResourceName() + baseName,
+      [
+        dye,
+        dye % 50,
+        dye % 15
+      ],
+      coloredProcessingItemTag.asIIngredient(),
+      75
+    );
+  });
+
 // Milling Recipes
 ContentBuilder.factory
-  .addRecipeGenerator("_items_to_dye", (baseName, args) => {
+  .addRecipeGenerator("_items_to_dye_milling", (baseName, args) => {
     val dye = args.items[ColoredItem.Dye];
     val coloredProcessingItemTag = args.itemTags[ColoredItemTag.ColoredProcessingItem];
 
