@@ -1,16 +1,18 @@
 import crafttweaker.api.block.entity.BlockEntity;
 import crafttweaker.api.bracket.BracketHandlers;
+import crafttweaker.api.entity.Entity;
+import crafttweaker.api.entity.EntityType;
 import crafttweaker.api.entity.type.player.Player;
 import crafttweaker.api.text.Component;
 import crafttweaker.forge.api.event.interact.RightClickBlockEvent;
 
 public class TrophyMob {
+  public val entityType as EntityType<Entity> : get;
   public val stageName as MobStage : get;
-  public val mobDisplayName as string : get;
 
-  public this(stageName: MobStage, mobDisplayName: string) {
+  public this(entityType: EntityType<Entity>, stageName: MobStage) {
+    this.entityType = entityType;
     this.stageName = stageName;
-    this.mobDisplayName = mobDisplayName;
   }
 
   public toggleStage(player: Player): bool {
@@ -40,103 +42,113 @@ public class TrophyMob {
 
     if enabled {
       player.addGameStage(this.stageName);
-      player.sendMessage(Component.literal(this.mobDisplayName + " will now spawn!").withStyle(style => style.withColor(<constant:minecraft:formatting:green>)));
+      player.sendMessage(
+        Component.empty()
+          .append(this.entityType.getDescription())
+          .append(Component.literal(" will now spawn!"))
+          .withStyle(style => style.withColor(<constant:minecraft:formatting:green>))
+      );
     } else {
       player.removeGameStage(this.stageName);
-      player.sendMessage(Component.literal(this.mobDisplayName + " will no longer spawn!").withStyle(style => style.withColor(<constant:minecraft:formatting:red>)));
+      player.sendMessage(
+        Component.empty()
+          .append(this.entityType.getDescription())
+          .append(Component.literal(" will no longer spawn!"))
+          .withStyle(style => style.withColor(<constant:minecraft:formatting:red>))
+      );
     }
   }
 }
 
-val mobs: TrophyMob[string] = {
+val mobs: TrophyMob[EntityType<Entity>] = {
   // Hostile Entities
-  "minecraft:blaze": new TrophyMob(MobStage.Blaze, "Blazes"),
-  "minecraft:cave_spider": new TrophyMob(MobStage.CaveSpider, "Cave Spiders"),
-  "minecraft:creeper": new TrophyMob(MobStage.Creeper, "Creepers"),
-  "minecraft:drowned": new TrophyMob(MobStage.Drowned, "Drowned"),
-  "minecraft:enderman": new TrophyMob(MobStage.Enderman, "Endermen"),
-  "minecraft:endermite": new TrophyMob(MobStage.Endermite, "Endermites"),
-  "minecraft:evoker": new TrophyMob(MobStage.Evoker, "Evokers"),
-  "minecraft:ghast": new TrophyMob(MobStage.Ghast, "Ghasts"),
-  "minecraft:guardian": new TrophyMob(MobStage.Guardian, "Guardians"),
-  "minecraft:hoglin": new TrophyMob(MobStage.Hoglin, "Hoglins"),
-  "minecraft:husk": new TrophyMob(MobStage.Husk, "Husks"),
-  "minecraft:illusioner": new TrophyMob(MobStage.Illusioner, "Illusioners"),
-  "minecraft:magma_cube": new TrophyMob(MobStage.MagmaCube, "Magma Cubes"),
-  "minecraft:phantom": new TrophyMob(MobStage.Phantom, "Phantoms"),
-  "minecraft:piglin": new TrophyMob(MobStage.Piglin, "Piglins"),
-  "minecraft:piglin_brute": new TrophyMob(MobStage.PiglinBrute, "Piglin Brutes"),
-  "minecraft:pillager": new TrophyMob(MobStage.Pillager, "Pillagers"),
-  "minecraft:ravager": new TrophyMob(MobStage.Ravager, "Ravagers"),
-  "minecraft:shulker": new TrophyMob(MobStage.Shulker, "Shulkers"),
-  "minecraft:silverfish": new TrophyMob(MobStage.Silverfish, "Silverfish"),
-  "minecraft:skeleton": new TrophyMob(MobStage.Skeleton, "Skeletons"),
-  "minecraft:slime": new TrophyMob(MobStage.Slime, "Slimes"),
-  "minecraft:spider": new TrophyMob(MobStage.Spider, "Spiders"),
-  "minecraft:stray": new TrophyMob(MobStage.Stray, "Strays"),
-  "minecraft:vex": new TrophyMob(MobStage.Vex, "Vexes"),
-  "minecraft:vindicator": new TrophyMob(MobStage.Vindicator, "Vindicators"),
-  "minecraft:warden": new TrophyMob(MobStage.Warden, "Wardens"),
-  "minecraft:witch": new TrophyMob(MobStage.Witch, "Witches"),
-  "minecraft:wither": new TrophyMob(MobStage.Wither, "Withers"),
-  "minecraft:wither_skeleton": new TrophyMob(MobStage.WitherSkeleton, "Wither Skeletons"),
-  "minecraft:zoglin": new TrophyMob(MobStage.Zoglin, "Zoglins"),
-  "minecraft:zombie": new TrophyMob(MobStage.Zombie, "Zombies"),
-  "minecraft:zombie_villager": new TrophyMob(MobStage.ZombieVillager, "Zombie Villagers"),
-  "minecraft:zombified_piglin": new TrophyMob(MobStage.ZombifiedPiglin, "Zombified Piglins"),
+  <entitytype:minecraft:blaze>: new TrophyMob(<entitytype:minecraft:blaze>, MobStage.Blaze),
+  <entitytype:minecraft:cave_spider>: new TrophyMob(<entitytype:minecraft:cave_spider>, MobStage.CaveSpider),
+  <entitytype:minecraft:creeper>: new TrophyMob(<entitytype:minecraft:creeper>, MobStage.Creeper),
+  <entitytype:minecraft:drowned>: new TrophyMob(<entitytype:minecraft:drowned>, MobStage.Drowned),
+  <entitytype:minecraft:enderman>: new TrophyMob(<entitytype:minecraft:enderman>, MobStage.Enderman),
+  <entitytype:minecraft:endermite>: new TrophyMob(<entitytype:minecraft:endermite>, MobStage.Endermite),
+  <entitytype:minecraft:evoker>: new TrophyMob(<entitytype:minecraft:evoker>, MobStage.Evoker),
+  <entitytype:minecraft:ghast>: new TrophyMob(<entitytype:minecraft:ghast>, MobStage.Ghast),
+  <entitytype:minecraft:guardian>: new TrophyMob(<entitytype:minecraft:guardian>, MobStage.Guardian),
+  <entitytype:minecraft:hoglin>: new TrophyMob(<entitytype:minecraft:hoglin>, MobStage.Hoglin),
+  <entitytype:minecraft:husk>: new TrophyMob(<entitytype:minecraft:husk>, MobStage.Husk),
+  <entitytype:minecraft:illusioner>: new TrophyMob(<entitytype:minecraft:illusioner>, MobStage.Illusioner),
+  <entitytype:minecraft:magma_cube>: new TrophyMob(<entitytype:minecraft:magma_cube>, MobStage.MagmaCube),
+  <entitytype:minecraft:phantom>: new TrophyMob(<entitytype:minecraft:phantom>, MobStage.Phantom),
+  <entitytype:minecraft:piglin>: new TrophyMob(<entitytype:minecraft:piglin>, MobStage.Piglin),
+  <entitytype:minecraft:piglin_brute>: new TrophyMob(<entitytype:minecraft:piglin_brute>, MobStage.PiglinBrute),
+  <entitytype:minecraft:pillager>: new TrophyMob(<entitytype:minecraft:pillager>, MobStage.Pillager),
+  <entitytype:minecraft:ravager>: new TrophyMob(<entitytype:minecraft:ravager>, MobStage.Ravager),
+  <entitytype:minecraft:shulker>: new TrophyMob(<entitytype:minecraft:shulker>, MobStage.Shulker),
+  <entitytype:minecraft:silverfish>: new TrophyMob(<entitytype:minecraft:silverfish>, MobStage.Silverfish),
+  <entitytype:minecraft:skeleton>: new TrophyMob(<entitytype:minecraft:skeleton>, MobStage.Skeleton),
+  <entitytype:minecraft:slime>: new TrophyMob(<entitytype:minecraft:slime>, MobStage.Slime),
+  <entitytype:minecraft:spider>: new TrophyMob(<entitytype:minecraft:spider>, MobStage.Spider),
+  <entitytype:minecraft:stray>: new TrophyMob(<entitytype:minecraft:stray>, MobStage.Stray),
+  <entitytype:minecraft:vex>: new TrophyMob(<entitytype:minecraft:vex>, MobStage.Vex),
+  <entitytype:minecraft:vindicator>: new TrophyMob(<entitytype:minecraft:vindicator>, MobStage.Vindicator),
+  <entitytype:minecraft:warden>: new TrophyMob(<entitytype:minecraft:warden>, MobStage.Warden),
+  <entitytype:minecraft:witch>: new TrophyMob(<entitytype:minecraft:witch>, MobStage.Witch),
+  <entitytype:minecraft:wither>: new TrophyMob(<entitytype:minecraft:wither>, MobStage.Wither),
+  <entitytype:minecraft:wither_skeleton>: new TrophyMob(<entitytype:minecraft:wither_skeleton>, MobStage.WitherSkeleton),
+  <entitytype:minecraft:zoglin>: new TrophyMob(<entitytype:minecraft:zoglin>, MobStage.Zoglin),
+  <entitytype:minecraft:zombie>: new TrophyMob(<entitytype:minecraft:zombie>, MobStage.Zombie),
+  <entitytype:minecraft:zombie_villager>: new TrophyMob(<entitytype:minecraft:zombie_villager>, MobStage.ZombieVillager),
+  <entitytype:minecraft:zombified_piglin>: new TrophyMob(<entitytype:minecraft:zombified_piglin>, MobStage.ZombifiedPiglin),
 
   // Passive Breedable Entities
-  "minecraft:axolotl": new TrophyMob(MobStage.Axolotl, "Axolotls"),
-  "minecraft:bee": new TrophyMob(MobStage.Bee, "Bees"),
-  "minecraft:camel": new TrophyMob(MobStage.Camel, "Camels"),
-  "minecraft:cat": new TrophyMob(MobStage.Cat, "Cats"),
-  "minecraft:chicken": new TrophyMob(MobStage.Chicken, "Chickens"),
-  "minecraft:cow": new TrophyMob(MobStage.Cow, "Cows"),
-  "minecraft:donkey": new TrophyMob(MobStage.Donkey, "Donkeys"),
-  "minecraft:fox": new TrophyMob(MobStage.Fox, "Foxes"),
-  "minecraft:frog": new TrophyMob(MobStage.Frog, "Frogs"),
-  "minecraft:goat": new TrophyMob(MobStage.Goat, "Goats"),
-  "minecraft:horse": new TrophyMob(MobStage.Horse, "Horses"),
-  "minecraft:llama": new TrophyMob(MobStage.Llama, "Llamas"),
-  "minecraft:mooshroom": new TrophyMob(MobStage.Mooshroom, "Mooshrooms"),
-  "minecraft:ocelot": new TrophyMob(MobStage.Ocelot, "Ocelots"),
-  "minecraft:panda": new TrophyMob(MobStage.Panda, "Pandas"),
-  "minecraft:pig": new TrophyMob(MobStage.Pig, "Pigs"),
-  "minecraft:rabbit": new TrophyMob(MobStage.Rabbit, "Rabbits"),
-  "minecraft:sheep": new TrophyMob(MobStage.Sheep, "Sheep"),
-  "minecraft:sniffer": new TrophyMob(MobStage.Sniffer, "Sniffers"),
-  "minecraft:strider": new TrophyMob(MobStage.Strider, "Striders"),
-  "minecraft:wolf": new TrophyMob(MobStage.Wolf, "Wolves"),
+  <entitytype:minecraft:axolotl>: new TrophyMob(<entitytype:minecraft:axolotl>, MobStage.Axolotl),
+  <entitytype:minecraft:bee>: new TrophyMob(<entitytype:minecraft:bee>, MobStage.Bee),
+  <entitytype:minecraft:camel>: new TrophyMob(<entitytype:minecraft:camel>, MobStage.Camel),
+  <entitytype:minecraft:cat>: new TrophyMob(<entitytype:minecraft:cat>, MobStage.Cat),
+  <entitytype:minecraft:chicken>: new TrophyMob(<entitytype:minecraft:chicken>, MobStage.Chicken),
+  <entitytype:minecraft:cow>: new TrophyMob(<entitytype:minecraft:cow>, MobStage.Cow),
+  <entitytype:minecraft:donkey>: new TrophyMob(<entitytype:minecraft:donkey>, MobStage.Donkey),
+  <entitytype:minecraft:fox>: new TrophyMob(<entitytype:minecraft:fox>, MobStage.Fox),
+  <entitytype:minecraft:frog>: new TrophyMob(<entitytype:minecraft:frog>, MobStage.Frog),
+  <entitytype:minecraft:goat>: new TrophyMob(<entitytype:minecraft:goat>, MobStage.Goat),
+  <entitytype:minecraft:horse>: new TrophyMob(<entitytype:minecraft:horse>, MobStage.Horse),
+  <entitytype:minecraft:llama>: new TrophyMob(<entitytype:minecraft:llama>, MobStage.Llama),
+  <entitytype:minecraft:mooshroom>: new TrophyMob(<entitytype:minecraft:mooshroom>, MobStage.Mooshroom),
+  <entitytype:minecraft:ocelot>: new TrophyMob(<entitytype:minecraft:ocelot>, MobStage.Ocelot),
+  <entitytype:minecraft:panda>: new TrophyMob(<entitytype:minecraft:panda>, MobStage.Panda),
+  <entitytype:minecraft:pig>: new TrophyMob(<entitytype:minecraft:pig>, MobStage.Pig),
+  <entitytype:minecraft:rabbit>: new TrophyMob(<entitytype:minecraft:rabbit>, MobStage.Rabbit),
+  <entitytype:minecraft:sheep>: new TrophyMob(<entitytype:minecraft:sheep>, MobStage.Sheep),
+  <entitytype:minecraft:sniffer>: new TrophyMob(<entitytype:minecraft:sniffer>, MobStage.Sniffer),
+  <entitytype:minecraft:strider>: new TrophyMob(<entitytype:minecraft:strider>, MobStage.Strider),
+  <entitytype:minecraft:wolf>: new TrophyMob(<entitytype:minecraft:wolf>, MobStage.Wolf),
 
   // Fishy Entities
-  "minecraft:cod": new TrophyMob(MobStage.Cod, "Cod"),
-  "minecraft:glow_squid": new TrophyMob(MobStage.GlowSquid, "Glow Squid"),
-  "minecraft:pufferfish": new TrophyMob(MobStage.Pufferfish, "Pufferfish"),
-  "minecraft:salmon": new TrophyMob(MobStage.Salmon, "Salmon"),
-  "minecraft:squid": new TrophyMob(MobStage.Squid, "Squid"),
-  "minecraft:tadpole": new TrophyMob(MobStage.Tadpole, "Tadpoles"),
-  "minecraft:tropical_fish": new TrophyMob(MobStage.TropicalFish, "Tropical Fish"),
-  "minecraft:dolphin": new TrophyMob(MobStage.Dolphin, "Dolphin"),
+  <entitytype:minecraft:cod>: new TrophyMob(<entitytype:minecraft:cod>, MobStage.Cod),
+  <entitytype:minecraft:glow_squid>: new TrophyMob(<entitytype:minecraft:glow_squid>, MobStage.GlowSquid),
+  <entitytype:minecraft:pufferfish>: new TrophyMob(<entitytype:minecraft:pufferfish>, MobStage.Pufferfish),
+  <entitytype:minecraft:salmon>: new TrophyMob(<entitytype:minecraft:salmon>, MobStage.Salmon),
+  <entitytype:minecraft:squid>: new TrophyMob(<entitytype:minecraft:squid>, MobStage.Squid),
+  <entitytype:minecraft:tadpole>: new TrophyMob(<entitytype:minecraft:tadpole>, MobStage.Tadpole),
+  <entitytype:minecraft:tropical_fish>: new TrophyMob(<entitytype:minecraft:tropical_fish>, MobStage.TropicalFish),
+  <entitytype:minecraft:dolphin>: new TrophyMob(<entitytype:minecraft:dolphin>, MobStage.Dolphin),
 
   // Entities not normally naturally spawned in Forest/in general
-  "minecraft:allay": new TrophyMob(MobStage.Allay, "Allays"),
-  "minecraft:parrot": new TrophyMob(MobStage.Parrot, "Parrots"),
-  "minecraft:polar_bear": new TrophyMob(MobStage.PolarBear, "Polar Bears"),
-  "minecraft:skeleton_horse": new TrophyMob(MobStage.SkeletonHorse, "Skeleton Horses"),
-  "minecraft:turtle": new TrophyMob(MobStage.Turtle, "Turtles"),
-  "minecraft:zombie_horse": new TrophyMob(MobStage.ZombieHorse, "Zombie Horses"),
+  <entitytype:minecraft:allay>: new TrophyMob(<entitytype:minecraft:allay>, MobStage.Allay),
+  <entitytype:minecraft:parrot>: new TrophyMob(<entitytype:minecraft:parrot>, MobStage.Parrot),
+  <entitytype:minecraft:polar_bear>: new TrophyMob(<entitytype:minecraft:polar_bear>, MobStage.PolarBear),
+  <entitytype:minecraft:skeleton_horse>: new TrophyMob(<entitytype:minecraft:skeleton_horse>, MobStage.SkeletonHorse),
+  <entitytype:minecraft:turtle>: new TrophyMob(<entitytype:minecraft:turtle>, MobStage.Turtle),
+  <entitytype:minecraft:zombie_horse>: new TrophyMob(<entitytype:minecraft:zombie_horse>, MobStage.ZombieHorse),
 
   // Entities that are annoying
-  "minecraft:bat": new TrophyMob(MobStage.Bat, "Bats"),
+  <entitytype:minecraft:bat>: new TrophyMob(<entitytype:minecraft:bat>, MobStage.Bat),
 
   // Special Case Entities
   // Villagers and Wandering Trader
-  "minecraft:villager": new TrophyMob(MobStage.Villager, "Villagers"),
-  "minecraft:wandering_trader": new TrophyMob(MobStage.WanderingTrader, "Wandering Traders"),
+  <entitytype:minecraft:villager>: new TrophyMob(<entitytype:minecraft:villager>, MobStage.Villager),
+  <entitytype:minecraft:wandering_trader>: new TrophyMob(<entitytype:minecraft:wandering_trader>, MobStage.WanderingTrader),
 
   // Golems
-  "minecraft:iron_golem": new TrophyMob(MobStage.IronGolem, "Iron Golems"),
-  "minecraft:snow_golem": new TrophyMob(MobStage.SnowGolem, "Snow Golems"),
+  <entitytype:minecraft:iron_golem>: new TrophyMob(<entitytype:minecraft:iron_golem>, MobStage.IronGolem),
+  <entitytype:minecraft:snow_golem>: new TrophyMob(<entitytype:minecraft:snow_golem>, MobStage.SnowGolem),
 
   // Modded Entities
   // Mules have not been added to this list because I don't know
@@ -144,77 +156,74 @@ val mobs: TrophyMob[string] = {
   // does anybody really care if I don't add them? Seriously
   // let me know in the comments if you care and don't forget
   // to ring that bell and hit that like button
-
-  "energeticsheep:energetic_sheep": new TrophyMob(MobStage.EnergeticSheep, "Energetic Sheep"),
+  <entitytype:energeticsheep:energetic_sheep>: new TrophyMob(<entitytype:energeticsheep:energetic_sheep>, MobStage.EnergeticSheep),
 
   // Earth Mobs Mod Entities
-  "earthmobsmod:albino_cow": new TrophyMob(MobStage.Albino_Cow, "Albino Cow"),
-  "earthmobsmod:jolly_llama": new TrophyMob(MobStage.JollyLlama, "Jolly Llama"),
-  "earthmobsmod:skeleton_wolf": new TrophyMob(MobStage.SkeletonWolf, "Skeleton Wolf"),
-  "earthmobsmod:melon_golem": new TrophyMob(MobStage.MelonGolem, "Melon Golem"),
-  "earthmobsmod:wooly_cow": new TrophyMob(MobStage.WoolyCow, "Wooly Cow"),
-  "earthmobsmod:hyper_rabbit": new TrophyMob(MobStage.HyperRabbit, "Hyper Rabbit"),
-  "earthmobsmod:magma_cow": new TrophyMob(MobStage.MagmaCow, "Magma Cow"),
-  "earthmobsmod:moobloom": new TrophyMob(MobStage.Moobloom, "Moobloom"),
-  "earthmobsmod:cream_cow": new TrophyMob(MobStage.CreamCow, "Cream Cow"),
-  "earthmobsmod:baby_ghast": new TrophyMob(MobStage.BabyGhast, "Baby Ghast"),
-  "earthmobsmod:zombified_pig": new TrophyMob(MobStage.ZombifiedPig, "Zombified Pig"),
-  "earthmobsmod:jumbo_rabbit": new TrophyMob(MobStage.JumboRabbit, "Jumbo Rabbit"),
-  "earthmobsmod:moolip": new TrophyMob(MobStage.Moolip, "Moolip"),
-  "earthmobsmod:teacup_pig": new TrophyMob(MobStage.TeacupPig, "Teacup Pig"),
-  "earthmobsmod:bouldering_zombie": new TrophyMob(MobStage.BoulderingZombie, "Bouldering Zombie"),
-  "earthmobsmod:furnace_golem": new TrophyMob(MobStage.FurnaceGolem, "Furnace Golem"),
-  "earthmobsmod:lobber_zombie": new TrophyMob(MobStage.LobberZombie, "Lobber Zombie"),
-  "earthmobsmod:tropical_slime": new TrophyMob(MobStage.TropicalSlime, "Tropical Slime"),
-  "earthmobsmod:stray_bone_spider": new TrophyMob(MobStage.StrayBoneSpider, "Stray Bone Spider"),
-  "earthmobsmod:fancy_chicken": new TrophyMob(MobStage.FancyChicken, "Fancy Chicken"),
-  "earthmobsmod:bone_spider": new TrophyMob(MobStage.BoneSpider, "Bone Spider"),
-  "earthmobsmod:lobber_drowned": new TrophyMob(MobStage.LobberDrowned, "Lobber Drowned"),
-  "earthmobsmod:bouldering_drowned": new TrophyMob(MobStage.BoulderingDrowned, "Bouldering Drowned"),
-  "earthmobsmod:viler_witch": new TrophyMob(MobStage.VilerWitch, "Viler Witch"),
-  "earthmobsmod:duck": new TrophyMob(MobStage.Duck, "Duck"),
-  "earthmobsmod:cluck_shroom": new TrophyMob(MobStage.CluckShroom, "Cluck Shroom"),
-  "earthmobsmod:wither_skeleton_wolf": new TrophyMob(MobStage.WitherSkeletonWolf, "Wither Skeleton Wolf"),
-  "earthmobsmod:umbra_cow": new TrophyMob(MobStage.UmbraCow, "Umbra Cow"),
+  <entitytype:earthmobsmod:albino_cow>: new TrophyMob(<entitytype:earthmobsmod:albino_cow>, MobStage.Albino_Cow),
+  <entitytype:earthmobsmod:jolly_llama>: new TrophyMob(<entitytype:earthmobsmod:jolly_llama>, MobStage.JollyLlama),
+  <entitytype:earthmobsmod:skeleton_wolf>: new TrophyMob(<entitytype:earthmobsmod:skeleton_wolf>, MobStage.SkeletonWolf),
+  <entitytype:earthmobsmod:melon_golem>: new TrophyMob(<entitytype:earthmobsmod:melon_golem>, MobStage.MelonGolem),
+  <entitytype:earthmobsmod:wooly_cow>: new TrophyMob(<entitytype:earthmobsmod:wooly_cow>, MobStage.WoolyCow),
+  <entitytype:earthmobsmod:hyper_rabbit>: new TrophyMob(<entitytype:earthmobsmod:hyper_rabbit>, MobStage.HyperRabbit),
+  <entitytype:earthmobsmod:magma_cow>: new TrophyMob(<entitytype:earthmobsmod:magma_cow>, MobStage.MagmaCow),
+  <entitytype:earthmobsmod:moobloom>: new TrophyMob(<entitytype:earthmobsmod:moobloom>, MobStage.Moobloom),
+  <entitytype:earthmobsmod:cream_cow>: new TrophyMob(<entitytype:earthmobsmod:cream_cow>, MobStage.CreamCow),
+  <entitytype:earthmobsmod:baby_ghast>: new TrophyMob(<entitytype:earthmobsmod:baby_ghast>, MobStage.BabyGhast),
+  <entitytype:earthmobsmod:zombified_pig>: new TrophyMob(<entitytype:earthmobsmod:zombified_pig>, MobStage.ZombifiedPig),
+  <entitytype:earthmobsmod:jumbo_rabbit>: new TrophyMob(<entitytype:earthmobsmod:jumbo_rabbit>, MobStage.JumboRabbit),
+  <entitytype:earthmobsmod:moolip>: new TrophyMob(<entitytype:earthmobsmod:moolip>, MobStage.Moolip),
+  <entitytype:earthmobsmod:teacup_pig>: new TrophyMob(<entitytype:earthmobsmod:teacup_pig>, MobStage.TeacupPig),
+  <entitytype:earthmobsmod:bouldering_zombie>: new TrophyMob(<entitytype:earthmobsmod:bouldering_zombie>, MobStage.BoulderingZombie),
+  <entitytype:earthmobsmod:furnace_golem>: new TrophyMob(<entitytype:earthmobsmod:furnace_golem>, MobStage.FurnaceGolem),
+  <entitytype:earthmobsmod:lobber_zombie>: new TrophyMob(<entitytype:earthmobsmod:lobber_zombie>, MobStage.LobberZombie),
+  <entitytype:earthmobsmod:tropical_slime>: new TrophyMob(<entitytype:earthmobsmod:tropical_slime>, MobStage.TropicalSlime),
+  <entitytype:earthmobsmod:stray_bone_spider>: new TrophyMob(<entitytype:earthmobsmod:stray_bone_spider>, MobStage.StrayBoneSpider),
+  <entitytype:earthmobsmod:fancy_chicken>: new TrophyMob(<entitytype:earthmobsmod:fancy_chicken>, MobStage.FancyChicken),
+  <entitytype:earthmobsmod:bone_spider>: new TrophyMob(<entitytype:earthmobsmod:bone_spider>, MobStage.BoneSpider),
+  <entitytype:earthmobsmod:lobber_drowned>: new TrophyMob(<entitytype:earthmobsmod:lobber_drowned>, MobStage.LobberDrowned),
+  <entitytype:earthmobsmod:bouldering_drowned>: new TrophyMob(<entitytype:earthmobsmod:bouldering_drowned>, MobStage.BoulderingDrowned),
+  <entitytype:earthmobsmod:viler_witch>: new TrophyMob(<entitytype:earthmobsmod:viler_witch>, MobStage.VilerWitch),
+  <entitytype:earthmobsmod:duck>: new TrophyMob(<entitytype:earthmobsmod:duck>, MobStage.Duck),
+  <entitytype:earthmobsmod:cluck_shroom>: new TrophyMob(<entitytype:earthmobsmod:cluck_shroom>, MobStage.CluckShroom),
+  <entitytype:earthmobsmod:wither_skeleton_wolf>: new TrophyMob(<entitytype:earthmobsmod:wither_skeleton_wolf>, MobStage.WitherSkeletonWolf),
+  <entitytype:earthmobsmod:umbra_cow>: new TrophyMob(<entitytype:earthmobsmod:umbra_cow>, MobStage.UmbraCow),
 
-// Vein Creepers
-  "veincreeper:black": new TrophyMob(MobStage.BlackVeinCreeper, "Black Vein Creeper"),
-  "veincreeper:blue": new TrophyMob(MobStage.BlueVeinCreeper, "Blue Vein Creeper"),
-  "veincreeper:brown": new TrophyMob(MobStage.BrownVeinCreeper, "Brown Vein Creeper"),
-  "veincreeper:cyan": new TrophyMob(MobStage.CyanVeinCreeper, "Cyan Vein Creeper"),
-  "veincreeper:gray": new TrophyMob(MobStage.GrayVeinCreeper, "Gray Vein Creeper"),
-  "veincreeper:green": new TrophyMob(MobStage.GreenVeinCreeper, "Green Vein Creeper"),
-  "veincreeper:light_blue": new TrophyMob(MobStage.LightBlueVeinCreeper, "Light Blue Vein Creeper"),
-  "veincreeper:light_gray": new TrophyMob(MobStage.LightGrayVeinCreeper, "Light Gray Vein Creeper"),
-  "veincreeper:lime": new TrophyMob(MobStage.LimeVeinCreeper, "Lime Vein Creeper"),
-  "veincreeper:magenta": new TrophyMob(MobStage.MagentaVeinCreeper, "Magenta Vein Creeper"),
-  "veincreeper:orange": new TrophyMob(MobStage.OrangeVeinCreeper, "Orange Vein Creeper"),
-  "veincreeper:pink": new TrophyMob(MobStage.PinkVeinCreeper, "Pink Vein Creeper"),
-  "veincreeper:purple": new TrophyMob(MobStage.PurpleVeinCreeper, "Purple Vein Creeper"),
-  "veincreeper:red": new TrophyMob(MobStage.RedVeinCreeper, "Red Vein Creeper"),
-  "veincreeper:white": new TrophyMob(MobStage.WhiteVeinCreeper, "White Vein Creeper"),
-  "veincreeper:yellow": new TrophyMob(MobStage.YellowVeinCreeper, "Yellow Vein Creeper"),
+  // Vein Creepers
+  <entitytype:veincreeper:black>: new TrophyMob(<entitytype:veincreeper:black>, MobStage.BlackVeinCreeper),
+  <entitytype:veincreeper:blue>: new TrophyMob(<entitytype:veincreeper:blue>, MobStage.BlueVeinCreeper),
+  <entitytype:veincreeper:brown>: new TrophyMob(<entitytype:veincreeper:brown>, MobStage.BrownVeinCreeper),
+  <entitytype:veincreeper:cyan>: new TrophyMob(<entitytype:veincreeper:cyan>, MobStage.CyanVeinCreeper),
+  <entitytype:veincreeper:gray>: new TrophyMob(<entitytype:veincreeper:gray>, MobStage.GrayVeinCreeper),
+  <entitytype:veincreeper:green>: new TrophyMob(<entitytype:veincreeper:green>, MobStage.GreenVeinCreeper),
+  <entitytype:veincreeper:light_blue>: new TrophyMob(<entitytype:veincreeper:light_blue>, MobStage.LightBlueVeinCreeper),
+  <entitytype:veincreeper:light_gray>: new TrophyMob(<entitytype:veincreeper:light_gray>, MobStage.LightGrayVeinCreeper),
+  <entitytype:veincreeper:lime>: new TrophyMob(<entitytype:veincreeper:lime>, MobStage.LimeVeinCreeper),
+  <entitytype:veincreeper:magenta>: new TrophyMob(<entitytype:veincreeper:magenta>, MobStage.MagentaVeinCreeper),
+  <entitytype:veincreeper:orange>: new TrophyMob(<entitytype:veincreeper:orange>, MobStage.OrangeVeinCreeper),
+  <entitytype:veincreeper:pink>: new TrophyMob(<entitytype:veincreeper:pink>, MobStage.PinkVeinCreeper),
+  <entitytype:veincreeper:purple>: new TrophyMob(<entitytype:veincreeper:purple>, MobStage.PurpleVeinCreeper),
+  <entitytype:veincreeper:red>: new TrophyMob(<entitytype:veincreeper:red>, MobStage.RedVeinCreeper),
+  <entitytype:veincreeper:white>: new TrophyMob(<entitytype:veincreeper:white>, MobStage.WhiteVeinCreeper),
+  <entitytype:veincreeper:yellow>: new TrophyMob(<entitytype:veincreeper:yellow>, MobStage.YellowVeinCreeper),
 
-// Lava Monsters
-  "lava_monster:lava_monster": new TrophyMob(MobStage.LavaMonster, "Lava Monster"),
+  // Lava Monsters
+  <entitytype:lava_monster:lava_monster>: new TrophyMob(<entitytype:lava_monster:lava_monster>, MobStage.LavaMonster),
 
-// ForceCraft
+  // ForceCraft
+  <entitytype:forcecraft:blue_chu_chu>: new TrophyMob(<entitytype:forcecraft:blue_chu_chu>, MobStage.BlueChuChu),
+  <entitytype:forcecraft:cold_chicken>: new TrophyMob(<entitytype:forcecraft:cold_chicken>, MobStage.ColdChicken),
+  <entitytype:forcecraft:cold_cow>: new TrophyMob(<entitytype:forcecraft:cold_cow>, MobStage.ColdCow),
+  <entitytype:forcecraft:cold_pig>: new TrophyMob(<entitytype:forcecraft:cold_pig>, MobStage.ColdPig),
+  <entitytype:forcecraft:creeper_tot>: new TrophyMob(<entitytype:forcecraft:creeper_tot>, MobStage.CreeperTot),
+  <entitytype:forcecraft:ender_tot>: new TrophyMob(<entitytype:forcecraft:ender_tot>, MobStage.EnderTot),
+  <entitytype:forcecraft:fairy>: new TrophyMob(<entitytype:forcecraft:fairy>, MobStage.Fairy),
+  <entitytype:forcecraft:gold_chu_chu>: new TrophyMob(<entitytype:forcecraft:gold_chu_chu>, MobStage.GoldChuChu),
+  <entitytype:forcecraft:green_chu_chu>: new TrophyMob(<entitytype:forcecraft:green_chu_chu>, MobStage.GreenChuChu),
+  <entitytype:forcecraft:red_chu_chu>: new TrophyMob(<entitytype:forcecraft:red_chu_chu>, MobStage.RedChuChu),
 
-"forcecraft:blue_chu_chu": new TrophyMob(MobStage.BlueChuChu, "Blue Chu Chu"),
-"forcecraft:cold_chicken": new TrophyMob(MobStage.ColdChicken, "Cold Chicken"),
-"forcecraft:cold_cow": new TrophyMob(MobStage.ColdCow, "Cold Cow"),
-"forcecraft:cold_pig": new TrophyMob(MobStage.ColdPig, "Cold Pig"),
-"forcecraft:creeper_tot": new TrophyMob(MobStage.CreeperTot, "Creeper Tot"),
-"forcecraft:ender_tot": new TrophyMob(MobStage.EnderTot, "Ender Tot"),
-"forcecraft:fairy": new TrophyMob(MobStage.Fairy, "Fairy"),
-"forcecraft:gold_chu_chu": new TrophyMob(MobStage.GoldChuChu, "Gold Chu Chu"),
-"forcecraft:green_chu_chu": new TrophyMob(MobStage.GreenChuChu, "Green Chu Chu"),
-"forcecraft:red_chu_chu": new TrophyMob(MobStage.RedChuChu, "Red Chu Chu"),
-
-// Luggage
-"luggage:luggage": new TrophyMob(MobStage.Luggage, "Luggage"),
-"luggage:ender_luggage": new TrophyMob(MobStage.EnderLuggage, "Ender Luggage")
-
+  // Luggage
+  <entitytype:luggage:luggage>: new TrophyMob(<entitytype:luggage:luggage>, MobStage.Luggage),
+  <entitytype:luggage:ender_luggage>: new TrophyMob(<entitytype:luggage:ender_luggage>, MobStage.EnderLuggage)
 };
 
 val playerRadius = 64;
@@ -234,7 +243,7 @@ events.register<RightClickBlockEvent>(event => {
 
     if blockEntity != null {
       val data = blockEntity.data;
-      val type = data["entity"].getAsString();
+      val type = BracketHandlers.getEntityType(data["entity"].getAsString());
 
       if type in mobs {
         val trophyMob = mobs[type];
