@@ -220,11 +220,7 @@ val mobs: TrophyMob[EntityType<Entity>] = {
   <entitytype:forcecraft:fairy>: new TrophyMob(<entitytype:forcecraft:fairy>, MobStage.Fairy),
   <entitytype:forcecraft:gold_chu_chu>: new TrophyMob(<entitytype:forcecraft:gold_chu_chu>, MobStage.GoldChuChu),
   <entitytype:forcecraft:green_chu_chu>: new TrophyMob(<entitytype:forcecraft:green_chu_chu>, MobStage.GreenChuChu),
-  <entitytype:forcecraft:red_chu_chu>: new TrophyMob(<entitytype:forcecraft:red_chu_chu>, MobStage.RedChuChu),
-
-  // Luggage
-  <entitytype:luggage:luggage>: new TrophyMob(<entitytype:luggage:luggage>, MobStage.Luggage),
-  <entitytype:luggage:ender_luggage>: new TrophyMob(<entitytype:luggage:ender_luggage>, MobStage.EnderLuggage)
+  <entitytype:forcecraft:red_chu_chu>: new TrophyMob(<entitytype:forcecraft:red_chu_chu>, MobStage.RedChuChu)
 };
 
 val playerRadius = 64;
