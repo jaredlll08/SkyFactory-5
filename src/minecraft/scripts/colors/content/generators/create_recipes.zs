@@ -58,3 +58,40 @@ ContentBuilder.factory
       100
     );
   });
+
+// Mixing Recipes
+ContentBuilder.factory
+  .addRecipeGenerator("fluid_mixing_water_to_dye_", (baseName, args) => {
+    val dye = args.items[ColoredItem.Dye];
+    val water = args.water;
+
+    if dye == null || water == null {
+      return;
+    }
+
+    <recipetype:create:mixing>.addRecipe(
+      baseName + args.color.getResourceName(),
+      <constant:create:heat_condition:none>,
+      [water * 1000],
+      [dye],
+      [<fluid:minecraft:water> * 1000],
+      100
+    );
+  })
+  .addRecipeGenerator("water_and_sand_to_dye_", (baseName, args) => {
+    val dyeBlockItem = args.items[ColoredItem.DyeBlock];
+    val water = args.water;
+
+    if dyeBlockItem == null || water == null {
+      return;
+    }
+
+    <recipetype:create:mixing>.addRecipe(
+      baseName + args.color.getResourceName(),
+      <constant:create:heat_condition:none>,
+      [dyeBlockItem],
+      [<tag:items:forge:sand>],
+      [water * 1000],
+      100
+    );
+  });
