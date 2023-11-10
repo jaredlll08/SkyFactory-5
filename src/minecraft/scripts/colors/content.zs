@@ -171,7 +171,7 @@ contentFactory
     val dye = args.items[ColoredItem.Dye];
     val sapling = args.items[ColoredItem.Sapling];
 
-    val gateways = getGatewaysForColor(args.color);
+    val gateways = getGatewayTreeDropsForColor(args.color);
 
     if leaves == null {
       return;
