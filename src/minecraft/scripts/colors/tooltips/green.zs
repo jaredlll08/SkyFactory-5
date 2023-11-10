@@ -59,7 +59,7 @@ val items as IItemStack[] = [
   <item:enderio:organic_green_dye>,
   <item:enderio:plant_matter_green>,
   <item:energeticsheep:green_energetic_wool>,
-  <item:extendedseating:green_chair>,
+  <item:interiors:green_chair>,
   <item:forcecraft:force_brick_green_slab>,
   <item:forcecraft:force_brick_green_stairs>,
   <item:forcecraft:force_brick_green>,
