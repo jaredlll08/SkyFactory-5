@@ -5,6 +5,7 @@ import crafttweaker.api.entity.EntityType;
 import crafttweaker.api.entity.type.player.Player;
 import crafttweaker.api.text.Component;
 import crafttweaker.forge.api.event.interact.RightClickBlockEvent;
+import mods.angrymobs.AITweaks;
 
 public class TrophyMob {
   public val entityType as EntityType<Entity> : get;
@@ -259,6 +260,14 @@ events.register<RightClickBlockEvent>(event => {
     }
   }
 });
+
+for mob in mobs {
+  if !mob.getCategory().isFriendly() {
+    continue;
+  }
+
+  AITweaks.addMeleeAttackTweak(mob, 1, 1.0F, 1.0D, false);
+}
 
 /*
 // Used as a deny list for the following loop. Value should be true
