@@ -271,7 +271,7 @@ ContentBuilder.factory
       treasureBag,
       [
         [wool, wool, wool],
-        [wool, <item:sf5_things:treasure_bag_template>, wool],
+        [wool, <item:sf5_things:treasure_bag_template>.reuse(), wool],
         [wool, wool, wool]
       ]
     );
