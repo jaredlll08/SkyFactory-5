@@ -9,6 +9,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
 <block:minecraft:cherry_leaves>.addLootModifier("sapling_bonus_drops_5", CommonLootModifiers.addWithChance(<item:minecraft:cherry_sapling> % 20));
 <block:minecraft:dark_oak_leaves>.addLootModifier("sapling_bonus_drops_6", CommonLootModifiers.addWithChance(<item:minecraft:dark_oak_sapling> % 20));
 <block:minecraft:mangrove_leaves>.addLootModifier("sapling_bonus_drops_7", CommonLootModifiers.addWithChance(<item:minecraft:mangrove_propagule> % 20));
+<block:colouredstuff:leaves_yellow>.addLootModifier("force_gem_from_yellow_leaves", CommonLootModifiers.addWithChance(<item:forcecraft:force_gem> % 20));
 
 // Adds a Drowned Gateway Pearl to Leaves drops for players only
 <block:minecraft:oak_leaves>.addLootModifier("bonus_drops_oak", (drops, ctx) => {
