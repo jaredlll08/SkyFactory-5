@@ -15,6 +15,25 @@ ContentBuilder.factory
       [apple]
     );
   })
+  .addRecipeGenerator("_boat", (baseName, args) => {
+    val plankItem = args.items[ColoredItem.Plank];
+    val boatItem = args.items[ColoredItem.Boat];
+
+    if plankItem == null || boatItem == null {
+      return;
+    }
+
+    craftingTable.remove(boatItem);
+
+    craftingTable.addShaped(
+      args.color.getResourceName() + baseName,
+      boatItem,
+      [
+        [plankItem, <item:minecraft:air>, plankItem],
+        [plankItem, plankItem, plankItem]
+      ]
+    );
+  })
   .addRecipeGenerator("_dye_block_from_dye", (baseName, args) => {
     val dyeBlockItem = args.items[ColoredItem.DyeBlock];
     val dye = args.items[ColoredItem.Dye];

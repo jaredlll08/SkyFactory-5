@@ -2,6 +2,7 @@ import crafttweaker.api.bracket.BracketHandlers;
 
 public enum ColoredItem {
   Apple = "apple",
+  Boat = "boat",
   Campfire = "campfire",
   CompostingBin = "composting_bin",
   CraftingTable = "crafting_table",
@@ -28,6 +29,34 @@ ContentBuilder.factory
     }
 
     return BracketHandlers.getItem("sf5_things:" + color.getResourceName() + "_apple");
+  })
+  .registerItem(ColoredItem.Boat, (color) => {
+    if color.getName() == ColorName.Brown {
+      return <item:minecraft:dark_oak_boat>;
+    }
+    if color.getName() == ColorName.Cyan {
+      return <item:minecraft:jungle_boat>;
+    }
+    if color.getName() == ColorName.Green {
+      return <item:minecraft:acacia_boat>;
+    }
+    if color.getName() == ColorName.LightBlue {
+      return <item:minecraft:mangrove_boat>;
+    }
+    if color.getName() == ColorName.Lime {
+      return <item:minecraft:spruce_boat>;
+    }
+    if color.getName() == ColorName.Pink {
+      return <item:minecraft:cherry_boat>;
+    }
+    if color.getName() == ColorName.Purple {
+      return <item:minecraft:birch_boat>;
+    }
+    if color.getName() == ColorName.Red {
+      return <item:minecraft:oak_boat>;
+    }
+
+    return null;
   })
   .registerItem(ColoredItem.Campfire, (color) => {
     if color.getName() == ColorName.None {
