@@ -2,14 +2,14 @@
   "type": "thismatters:organic_matter_compression",
   "compressingtime": 900,
   "ingredient": {
-    "item": "minecraft:red_dye"
+    "item": "minecraft:blue_dye"
   },
   "result": {
     "item": "treasurebags:treasure_bag",
     "nbt": {
       "silentlib.LootContainer": {
-        "BagType": "treasurebags:red",
-        "LootTable": "treasurebags:bags/red"
+        "BagType": "treasurebags:blue",
+        "LootTable": "treasurebags:bags/blue"
       }
     }
   }

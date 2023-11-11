@@ -2,8 +2,8 @@
   "type": "thismatters:matter_recipe",
   "ingredients": [
     {
-      "item": "gateways:gate_pearl"
+      "item": "minecraft:blue_dye"
     }
   ],
-  "matter": 25
+  "matter": 10
 }
