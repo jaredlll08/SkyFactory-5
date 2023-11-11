@@ -172,8 +172,7 @@ public enum MobStage {
   ZombieVillager = "zombie_villager",
   ZombifiedPiglin = "zombified_piglin",
 
-
-// Earth Mobs
+  // Earth Mobs
   Albino_Cow = "albino_cow",
   JollyLlama = "jolly_llama",
   SkeletonWolf = "skeleton_wolf",
@@ -203,7 +202,7 @@ public enum MobStage {
   WitherSkeletonWolf = "wither_skeleton_wolf",
   UmbraCow = "umbra_cow",
 
-// Vein Creepers
+  // Vein Creepers
   MagentaVeinCreeper = "magenta_vein_creeper",
   PinkVeinCreeper = "pink_vein_creeper",
   YellowVeinCreeper = "yellow_vein_creeper",
@@ -221,22 +220,22 @@ public enum MobStage {
   BlueVeinCreeper = "blue_vein_creeper",
   PurpleVeinCreeper = "purple_vein_creeper",
 
-// Lava Monsters
+  // Lava Monsters
   LavaMonster = "lava_monster",
 
-// ForceCraft
-BlueChuChu = "forcecraft:blue_chu_chu",
-ColdChicken = "forcecraft:cold_chicken",
-ColdCow = "forcecraft:cold_cow",
-ColdPig = "forcecraft:cold_pig",
-CreeperTot = "forcecraft:creeper_tot",
-EnderTot = "forcecraft:ender_tot",
-// Fairy = "forcecraft:fairy",
-GoldChuChu = "forcecraft:gold_chu_chu",
-GreenChuChu = "forcecraft:green_chu_chu",
-RedChuChu = "forcecraft:red_chu_chu",
+  // ForceCraft
+  BlueChuChu = "forcecraft:blue_chu_chu",
+  ColdChicken = "forcecraft:cold_chicken",
+  ColdCow = "forcecraft:cold_cow",
+  ColdPig = "forcecraft:cold_pig",
+  CreeperTot = "forcecraft:creeper_tot",
+  EnderTot = "forcecraft:ender_tot",
+  // Fairy = "forcecraft:fairy",
+  GoldChuChu = "forcecraft:gold_chu_chu",
+  GreenChuChu = "forcecraft:green_chu_chu",
+  RedChuChu = "forcecraft:red_chu_chu",
 
-// Luggage
-Luggage = "luggage:luggage",
-EnderLuggage = "luggage:ender_luggage",
+  // Luggage
+  Luggage = "luggage:luggage",
+  EnderLuggage = "luggage:ender_luggage",
 }
