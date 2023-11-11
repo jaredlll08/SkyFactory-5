@@ -3,5 +3,21 @@
   "rarity.common.name": " ",
   "rarity.uncommon.name": " ",
   "rarity.rare.name": " ",
-  "rarity.epic.name": " "
+  "rarity.epic.name": " ",
+  "item.minecraft.acacia_boat": "Green Boat",
+  "item.minecraft.acacia_chest_boat": "Green Boat with Chest",
+  "item.minecraft.birch_boat": "Purple Boat",
+  "item.minecraft.birch_chest_boat": "Purple Boat with Chest",
+  "item.minecraft.cherry_boat": "Pink Boat",
+  "item.minecraft.cherry_chest_boat": "Pink Boat with Chest",
+  "item.minecraft.dark_oak_boat": "Brown Boat",
+  "item.minecraft.dark_oak_chest_boat": "Brown Boat with Chest",
+  "item.minecraft.jungle_boat": "Cyan Boat",
+  "item.minecraft.jungle_chest_boat": "Cyan Boat with Chest",
+  "item.minecraft.mangrove_boat": "Light Blue Boat",
+  "item.minecraft.mangrove_chest_boat": "Light Blue Boat with Chest",
+  "item.minecraft.oak_boat": "Red Boat",
+  "item.minecraft.oak_chest_boat": "Red Boat with Chest",
+  "item.minecraft.spruce_boat": "Lime Boat",
+  "item.minecraft.spruce_chest_boat": "Lime Boat with Chest"
 }
