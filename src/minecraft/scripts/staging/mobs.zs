@@ -217,7 +217,7 @@ val mobs: TrophyMob[EntityType<Entity>] = {
   <entitytype:forcecraft:cold_pig>: new TrophyMob(<entitytype:forcecraft:cold_pig>, MobStage.ColdPig),
   <entitytype:forcecraft:creeper_tot>: new TrophyMob(<entitytype:forcecraft:creeper_tot>, MobStage.CreeperTot),
   <entitytype:forcecraft:ender_tot>: new TrophyMob(<entitytype:forcecraft:ender_tot>, MobStage.EnderTot),
-  <entitytype:forcecraft:fairy>: new TrophyMob(<entitytype:forcecraft:fairy>, MobStage.Fairy),
+  // <entitytype:forcecraft:fairy>: new TrophyMob(<entitytype:forcecraft:fairy>, MobStage.Fairy),
   <entitytype:forcecraft:gold_chu_chu>: new TrophyMob(<entitytype:forcecraft:gold_chu_chu>, MobStage.GoldChuChu),
   <entitytype:forcecraft:green_chu_chu>: new TrophyMob(<entitytype:forcecraft:green_chu_chu>, MobStage.GreenChuChu),
   <entitytype:forcecraft:red_chu_chu>: new TrophyMob(<entitytype:forcecraft:red_chu_chu>, MobStage.RedChuChu)
