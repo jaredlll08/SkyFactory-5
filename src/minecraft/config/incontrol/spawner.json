@@ -8,10 +8,16 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -23,10 +29,16 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -38,10 +50,16 @@
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -53,10 +71,16 @@
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -68,7 +92,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -85,7 +113,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -102,7 +134,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -119,7 +155,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -141,10 +181,16 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -160,10 +206,16 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -175,7 +227,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -192,7 +248,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -209,7 +269,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -226,7 +290,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -247,7 +315,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -264,7 +336,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -281,7 +357,11 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,
@@ -298,10 +378,16 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -313,10 +399,16 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -328,10 +420,16 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -343,10 +441,16 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inlava": false,
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -364,9 +468,15 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -378,9 +488,15 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -392,9 +508,15 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -406,9 +528,15 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -426,9 +554,15 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -440,9 +574,15 @@
       "maximum": 4
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -454,9 +594,15 @@
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -468,9 +614,15 @@
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -482,9 +634,15 @@
       "maximum": 1
     },
     "conditions": {
-      "dimension": ["minecraft:the_nether"],
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -501,9 +659,15 @@
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -515,23 +679,35 @@
       "maximum": 8
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
     "mob": ["minecraft:squid", "minecraft:dolphin", "minecraft:glow_squid"],
     "persecond": 1,
-    "attempts": 15,
+    "attempts": 20,
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -543,9 +719,15 @@
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -557,9 +739,15 @@
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -571,9 +759,15 @@
       "maximum": 3
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -585,9 +779,15 @@
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   },
   {
@@ -616,9 +816,15 @@
       "maximum": 1
     },
     "conditions": {
-      "dimension": "minecraft:overworld",
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "mindist": 24,
-      "maxdist": 96
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
     }
   }
 ]
