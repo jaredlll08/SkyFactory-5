@@ -7,11 +7,11 @@
       "entities": [
         {
           "entity": "minecraft:warden",
-          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{ForgeCaps: {\"shrink:shrunk\": {scale:1.5,isshrunk: 1}},DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         },
         {
           "entity": "minecraft:warden",
-          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{ForgeCaps: {\"shrink:shrunk\": {scale:1.5,isshrunk: 1}},DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
       "modifiers": [],
