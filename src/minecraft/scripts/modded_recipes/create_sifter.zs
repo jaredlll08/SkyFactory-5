@@ -16,18 +16,23 @@ for colorName, color in Globals.colors {
 
   val chancePerGateway = (TOTAL_CHANCE_FOR_OUTPUTS as float) / (gatewayIDsForColor.length as float);
 
-  val gatewaysForColorList = new List<Percentaged<IItemStack>>();
-  for gateway in gatewayIDsForColor {
-    gatewaysForColorList.add(<item:gateways:gate_pearl>.withTag({gateway: gateway}) % chancePerGateway);
+  val sifterOutputList = new List<Percentaged<IItemStack>>();
+  for gatewayID in gatewayIDsForColor {
+    if !("frog_kill" in gatewayID) {
+      sifterOutputList.add(<item:gateways:gate_pearl>.withTag({gateway: gatewayID}) % chancePerGateway);
+    }
   }
 
-  val gatewaysForColor = gatewaysForColorList as Percentaged<IItemStack>[];
+  val sifterOutput = sifterOutputList as Percentaged<IItemStack>[];
 
-  for i, gateway in gatewaysForColor {
+  for i, gatewayID in gatewayIDsForColor {
     <recipetype:createsifter:sifting>.addRecipe(
       color.getResourceName() + "_" + i,
-      gatewaysForColor,
-      [gateway.getData(), <item:createsifter:string_mesh>],
+      sifterOutput,
+      [
+        <item:gateways:gate_pearl>.withTag({gateway: gatewayID}),
+        <item:createsifter:string_mesh>
+      ],
       DEFAULT_PROCESSING_TIME,
       false,
       DEFAULT_MIN_SPEED
