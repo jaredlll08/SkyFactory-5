@@ -10,7 +10,7 @@ for colorName, color in Globals.colors {
     continue;
   }
 
-  val chancePerGateway = (TOTAL_CHANCE_FOR_OUTPUTS as long) / (gatewayIDsForColor.length as long);
+  val chancePerGateway = (TOTAL_CHANCE_FOR_OUTPUTS as float) / (gatewayIDsForColor.length as float);
 
   val gatewaysForColorList = new List<Percentaged<IItemStack>>();
   for gateway in gatewayIDsForColor {
@@ -20,6 +20,12 @@ for colorName, color in Globals.colors {
   val gatewaysForColor = gatewaysForColorList as Percentaged<IItemStack>[];
 
   for i, gateway in gatewaysForColor {
-    CreateSifterRecipeManager.addRecipe(color.getResourceName() + "_" + i, [gateway.getData()], gatewaysForColor, CreateSifterRecipeManager.DEFAULT_PROCESSING_TIME);
+    CreateSifterRecipeManager.addRecipe(
+      color.getResourceName() + "_" + i,
+      <item:createsifter:string_mesh>,
+      gateway.getData(),
+      gatewaysForColor,
+      CreateSifterRecipeManager.DEFAULT_PROCESSING_TIME
+    );
   }
 }
