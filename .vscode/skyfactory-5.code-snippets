@@ -1,0 +1,16 @@
+{
+  "disable_recipe": {
+    "scope": "json",
+    "prefix": ["disable_recipe"],
+    "body": [
+      "{",
+      "  \"conditions\": [",
+      "\t{",
+      "\t  \"type\": \"forge:false\"",
+      "\t}",
+      "  ]",
+      "}"
+    ],
+    "description": "Removes recipe from Minecraft using JSON datapack format"
+  }
+}
