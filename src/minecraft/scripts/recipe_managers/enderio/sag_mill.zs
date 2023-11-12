@@ -17,7 +17,7 @@ public class EnderIOSagMill {
       input: {
         item: input.registryName
       },
-      outputs: this.getOutputData(outputs)
+      outputs: DataConverter.convertPercentagedItemStackArray(outputs)
     };
 
     <recipetype:enderio:sag_milling>.addJsonRecipe(recipeName, recipe);
@@ -29,28 +29,9 @@ public class EnderIOSagMill {
       input: {
         tag: input.id()
       },
-      outputs: this.getOutputData(outputs)
+      outputs: DataConverter.convertPercentagedItemStackArray(outputs)
     };
 
     <recipetype:enderio:sag_milling>.addJsonRecipe(recipeName, recipe);
-  }
-
-  private static getOutputData(outputs: Percentaged<IItemStack>[]): ListData {
-    val outputsData = new List<IData>();
-
-    for output in outputs {
-      val outputData: MapData = new MapData();
-
-      outputData.put("item", output.getData().registryName);
-      outputData.put("chance", output.getPercentage());
-
-      if output.getData() is IIngredientWithAmount {
-        outputData.put("count", (output.getData() as IIngredientWithAmount).amount);
-      }
-
-      outputsData.add(outputData);
-    }
-
-    return new ListData(outputsData);
   }
 }
