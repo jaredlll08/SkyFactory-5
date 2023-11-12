@@ -9,6 +9,9 @@ import { readJSONFile } from "scripts/utils/file";
 const colorScriptFilePath = path.resolve(
   "./src/minecraft/scripts/colors/gateways.zs",
 );
+const gatewayScriptFilePath = path.resolve(
+  "./src/minecraft/scripts/globals.zs",
+);
 const gatewaysBasePath = path.resolve(
   "./src/minecraft/global_packs/required_data/skyfactory_5/data/gateways/gateways",
 );
@@ -18,7 +21,10 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
     description:
       "Generates/Updates the list of minecraft gateways in a Crafttweaker script",
     prompts: [],
-    actions: [updateCrafttweakerColorGatewayScript],
+    actions: [
+      updateCrafttweakerGatewayScript,
+      updateCrafttweakerColorGatewayScript,
+    ],
   });
 };
 
@@ -35,6 +41,82 @@ interface GatewayDatapackData {
     };
   }[];
 }
+
+const updateCrafttweakerGatewayScript: CustomActionFunction = async (
+  _answers,
+  _config,
+  plop,
+) => {
+  const gatewayDatapackFiles = await glob(`${gatewaysBasePath}/*.json`, {
+    ignore: [],
+  });
+
+  const gatewayEntityMappings: { gatewayName: string; entity: string }[] = [];
+
+  const uncategorizedFiles: string[] = [];
+  const ignoredFiles: string[] = [];
+
+  await Promise.all(
+    gatewayDatapackFiles.map(async (filePath) => {
+      const fileName = path.parse(filePath).name;
+      const data = await readJSONFile<GatewayDatapackData>(filePath);
+
+      if (!data.color) {
+        ignoredFiles.push(fileName);
+        return;
+      }
+
+      const colorName = mapHexToColorName(data.color);
+      if (colorName === null) {
+        uncategorizedFiles.push(fileName);
+        return;
+      }
+
+      if (
+        (data.rewards?.length || 0) > 0 &&
+        data.rewards?.[0].stack?.item === "obtrophies:trophy" &&
+        data.rewards[0].stack.nbt?.BlockEntityTag?.entity
+      ) {
+        gatewayEntityMappings.push({
+          gatewayName: `gateways:${fileName}`,
+          entity: data.rewards[0].stack.nbt.BlockEntityTag.entity,
+        });
+      }
+    }),
+  );
+
+  const template = await readFile(
+    path.join(__dirname, "gateway-template.tpl"),
+    "utf-8",
+  );
+  let script = await readFile(gatewayScriptFilePath, "utf-8");
+
+  script = script.replace(
+    /(\/\/ gatewayEntityMapping GENERATOR START(\n|.)*\/\/ gatewayEntityMapping GENERATOR END)/,
+    plop.renderString(template, {
+      gatewayEntityMappings: gatewayEntityMappings.sort((a, b) =>
+        a.gatewayName.localeCompare(b.gatewayName),
+      ),
+    }),
+  );
+
+  await writeFile(gatewayScriptFilePath, script);
+
+  let baseResult = `Successfully updated Crafttweaker Script ${gatewayScriptFilePath}`;
+
+  if (ignoredFiles.length > 0) {
+    baseResult += chalk.yellow(
+      `\n    Ignored files:  ${ignoredFiles.join(", ")}`,
+    );
+  }
+  if (uncategorizedFiles.length > 0) {
+    baseResult += chalk.red(
+      `\n    Uncategorized files: ${uncategorizedFiles.join(", ")}`,
+    );
+  }
+
+  return baseResult;
+};
 
 const updateCrafttweakerColorGatewayScript: CustomActionFunction = async (
   _answers,

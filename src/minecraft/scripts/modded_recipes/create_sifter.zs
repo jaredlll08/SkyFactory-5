@@ -51,5 +51,19 @@ for colorName, color in Globals.colors {
       false,
       DEFAULT_MIN_SPEED
     );
+
+    if !("frog_kill" in gatewayID) {
+      <recipetype:createsifter:sifting>.addRecipe(
+        color.getResourceName() + "_trophy_" + i,
+        sifterOutput,
+        [
+          <item:obtrophies:trophy>.withTag({BlockEntityTag: {VariantID: 0, entity: Globals.gatewayEntityMapping[gatewayID].getRegistryName()}}),
+          <item:createsifter:string_mesh>
+        ],
+        DEFAULT_PROCESSING_TIME,
+        false,
+        DEFAULT_MIN_SPEED
+      );
+    }
   }
 }
