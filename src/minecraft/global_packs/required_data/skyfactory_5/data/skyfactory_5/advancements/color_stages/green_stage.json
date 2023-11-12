@@ -130,6 +130,17 @@
           }
         ]
       }
+    },
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:emerald"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -144,7 +155,8 @@
       "avocado_sapling",
       "avocado_leaves",
       "nori_sheets",
-      "vine"
+      "vine",
+      "emerald"
     ]
   ],
   "rewards": {
