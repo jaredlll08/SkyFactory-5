@@ -1,3 +1,4 @@
+import collections.HashSet;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.util.random.Percentaged;
 import stdlib.List;
@@ -8,24 +9,37 @@ val DEFAULT_MIN_SPEED as int = 1;
 
 val TOTAL_CHANCE_FOR_OUTPUTS as int = 25;
 
+// Gateway and Trophy Recycling
 for colorName, color in Globals.colors {
   val gatewayIDsForColor = getGatewaysForColor(color);
   if gatewayIDsForColor.length == 0 {
     continue;
   }
 
-  val chancePerGateway = (TOTAL_CHANCE_FOR_OUTPUTS as float) / (gatewayIDsForColor.length as float);
-
-  val sifterOutputList = new List<Percentaged<IItemStack>>();
+  val filteredGatewayIDs = new HashSet<string>();
   for gatewayID in gatewayIDsForColor {
     if !("frog_kill" in gatewayID) {
-      sifterOutputList.add(<item:gateways:gate_pearl>.withTag({gateway: gatewayID}) % chancePerGateway);
+      filteredGatewayIDs.add(gatewayID);
     }
   }
 
-  val sifterOutput = sifterOutputList as Percentaged<IItemStack>[];
-
   for i, gatewayID in gatewayIDsForColor {
+    var totalGateways = filteredGatewayIDs.length as float;
+    if gatewayID in filteredGatewayIDs {
+      totalGateways -= 1;
+    }
+
+    val chancePerGateway = (TOTAL_CHANCE_FOR_OUTPUTS as float) / totalGateways;
+
+    val sifterOutputList = new List<Percentaged<IItemStack>>();
+    for id in filteredGatewayIDs {
+      if id != gatewayID {
+        sifterOutputList.add(<item:gateways:gate_pearl>.withTag({gateway: id}) % chancePerGateway);
+      }
+    }
+
+    val sifterOutput = sifterOutputList as Percentaged<IItemStack>[];
+
     <recipetype:createsifter:sifting>.addRecipe(
       color.getResourceName() + "_" + i,
       sifterOutput,
