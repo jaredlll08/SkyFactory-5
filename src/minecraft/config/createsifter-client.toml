@@ -2,3 +2,5 @@
 [sifter]
 # Render sifted block
 renderSiftedBlock = true
+# Render moving mesh
+renderMovingMesh = true
