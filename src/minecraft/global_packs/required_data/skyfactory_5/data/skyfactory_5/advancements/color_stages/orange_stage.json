@@ -62,7 +62,8 @@
         "player": [],
         "items": [
           {
-            "items": ["woodenbucket:wooden_bucket"]
+            "item": "woodenbucket:wooden_bucket",
+            "nbt": "{ \"Fluid\": {\"Amount\": 1000, \"FluidName\": \"minecraft:lava\" }}"
           }
         ]
       }
