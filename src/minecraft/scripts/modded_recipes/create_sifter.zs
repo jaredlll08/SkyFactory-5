@@ -2,6 +2,10 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.util.random.Percentaged;
 import stdlib.List;
 
+val DEFAULT_PROCESSING_TIME as int = 200;
+val DEFAULT_WATERLOGGED as bool = false;
+val DEFAULT_MIN_SPEED as int = 1;
+
 val TOTAL_CHANCE_FOR_OUTPUTS as int = 25;
 
 for colorName, color in Globals.colors {
@@ -20,12 +24,13 @@ for colorName, color in Globals.colors {
   val gatewaysForColor = gatewaysForColorList as Percentaged<IItemStack>[];
 
   for i, gateway in gatewaysForColor {
-    CreateSifterRecipeManager.addRecipe(
+    <recipetype:createsifter:sifting>.addRecipe(
       color.getResourceName() + "_" + i,
-      <item:createsifter:string_mesh>,
-      gateway.getData(),
       gatewaysForColor,
-      CreateSifterRecipeManager.DEFAULT_PROCESSING_TIME
+      [gateway.getData(), <item:createsifter:string_mesh>],
+      DEFAULT_PROCESSING_TIME,
+      false,
+      DEFAULT_MIN_SPEED
     );
   }
 }
