@@ -46,4 +46,5 @@ for item in loadedMods["create"].itemStacks {
 
 // <item:item_id>.maxDamage = -1;
 <item:create:super_glue>.maxDamage = 2147483647;
+<item:create:sand_paper>.maxDamage = 2147483647;
 <item:sophisticatedstorage:packing_tape>.maxDamage = 9999;
