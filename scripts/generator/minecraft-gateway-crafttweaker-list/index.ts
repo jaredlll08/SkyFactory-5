@@ -6,7 +6,7 @@ import path from "path";
 import { RegisterGeneratorFn } from "scripts/generator/models";
 import { readJSONFile } from "scripts/utils/file";
 
-const scriptFilePath = path.resolve(
+const colorScriptFilePath = path.resolve(
   "./src/minecraft/scripts/colors/gateways.zs",
 );
 const gatewaysBasePath = path.resolve(
@@ -18,11 +18,25 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
     description:
       "Generates/Updates the list of minecraft gateways in a Crafttweaker script",
     prompts: [],
-    actions: [updateCrafttweakerScript],
+    actions: [updateCrafttweakerColorGatewayScript],
   });
 };
 
-const updateCrafttweakerScript: CustomActionFunction = async (
+interface GatewayDatapackData {
+  color?: string;
+  rewards?: {
+    stack?: {
+      item: string;
+      nbt?: {
+        BlockEntityTag?: {
+          entity?: string;
+        };
+      };
+    };
+  }[];
+}
+
+const updateCrafttweakerColorGatewayScript: CustomActionFunction = async (
   _answers,
   _config,
   plop,
@@ -39,7 +53,7 @@ const updateCrafttweakerScript: CustomActionFunction = async (
   await Promise.all(
     gatewayDatapackFiles.map(async (filePath) => {
       const fileName = path.parse(filePath).name;
-      const data = await readJSONFile<{ color?: string }>(filePath);
+      const data = await readJSONFile<GatewayDatapackData>(filePath);
 
       if (!data.color) {
         ignoredFiles.push(fileName);
@@ -61,24 +75,28 @@ const updateCrafttweakerScript: CustomActionFunction = async (
   );
 
   const template = await readFile(
-    path.join(__dirname, "template.tpl"),
+    path.join(__dirname, "color-template.tpl"),
     "utf-8",
   );
-  let script = await readFile(scriptFilePath, "utf-8");
+  let script = await readFile(colorScriptFilePath, "utf-8");
 
   script = script.replace(
     /(\/\/ GENERATOR START(\n|.)*\/\/ GENERATOR END)/,
     plop.renderString(template, {
-      colorMappings: Array.from(categorizedMap).map(([key, val]) => ({
-        colorName: key,
-        gateways: Array.from(val).map((name) => `gateways:${name}`),
-      })),
+      colorMappings: Array.from(categorizedMap)
+        .map(([key, val]) => ({
+          colorName: key,
+          gateways: Array.from(val)
+            .map((name) => `gateways:${name}`)
+            .sort((a, b) => a.localeCompare(b)),
+        }))
+        .sort((a, b) => a.colorName.localeCompare(b.colorName)),
     }),
   );
 
-  await writeFile(scriptFilePath, script);
+  await writeFile(colorScriptFilePath, script);
 
-  let baseResult = `Successfully updated Crafttweaker Script ${scriptFilePath}`;
+  let baseResult = `Successfully updated Crafttweaker Script ${colorScriptFilePath}`;
 
   if (ignoredFiles.length > 0) {
     baseResult += chalk.yellow(

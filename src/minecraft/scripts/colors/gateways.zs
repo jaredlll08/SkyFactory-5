@@ -78,16 +78,6 @@ public function getGatewayTreeDropsForColor(color: Color): string[] {
 // GENERATOR START
 // !THIS SECTION IS MANAGED BY A SCRIPT. DO NOT MANUALLY EDIT THIS SECTION!
 public function getGatewaysForColor(color: Color): string[] {
-  if color.getName() == ColorName.LightBlue {
-    return [
-      "gateways:allay",
-      "gateways:dolphin",
-      // "gateways:fairy",
-      // "gateways:frog_kill_fairy",
-      "gateways:vein_creeper_light_blue",
-      "gateways:vex"
-    ];
-  }
   if color.getName() == ColorName.Black {
     return [
       "gateways:adelie_penguin",
@@ -97,16 +87,33 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:enderman",
       "gateways:frog_kill_adelie_penguin",
       "gateways:frog_kill_cave_spider",
+      "gateways:frog_kill_ender_dragon",
       "gateways:frog_kill_ender_tot",
       "gateways:frog_kill_enderman",
-      "gateways:frog_kill_ender_dragon",
       "gateways:frog_kill_spider",
-      "gateways:frog_kill_wither_skeleton",
       "gateways:frog_kill_wither",
+      "gateways:frog_kill_wither_skeleton",
       "gateways:spider",
       "gateways:vein_creeper_black",
-      "gateways:wither_skeleton",
-      "gateways:wither"
+      "gateways:wither",
+      "gateways:wither_skeleton"
+    ];
+  }
+  if color.getName() == ColorName.Blue {
+    return [
+      "gateways:blue_chu_chu",
+      "gateways:drowned",
+      "gateways:frog_kill_blue_chu_chu",
+      "gateways:frog_kill_drowned",
+      "gateways:frog_kill_phantom",
+      "gateways:frog_kill_squid",
+      "gateways:frog_kill_trader_llama",
+      "gateways:frog_kill_wandering_trader",
+      "gateways:phantom",
+      "gateways:squid",
+      "gateways:trader_llama",
+      "gateways:vein_creeper_blue",
+      "gateways:wandering_trader"
     ];
   }
   if color.getName() == ColorName.Brown {
@@ -136,36 +143,95 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:villager"
     ];
   }
-  if color.getName() == ColorName.Pink {
+  if color.getName() == ColorName.Cyan {
     return [
-      "gateways:axolotl",
-      "gateways:frog_kill_axolotl",
-      "gateways:frog_kill_hoglin",
-      "gateways:frog_kill_pig",
-      "gateways:frog_kill_piglin_brute",
-      "gateways:frog_kill_piglin",
-      "gateways:frog_kill_zoglin",
-      "gateways:frog_kill_zombified_piglin",
-      "gateways:hoglin",
-      "gateways:piglin_brute",
-      "gateways:pig",
-      "gateways:piglin",
-      "gateways:vein_creeper_pink",
-      "gateways:zoglin",
-      "gateways:zombified_piglin"
+      "gateways:ender_luggage",
+      "gateways:frog_kill_ender_luggage",
+      "gateways:frog_kill_glow_squid",
+      "gateways:frog_kill_warden",
+      "gateways:glow_squid",
+      "gateways:vein_creeper_cyan",
+      "gateways:warden"
     ];
   }
-  if color.getName() == ColorName.Yellow {
+  if color.getName() == ColorName.Gray {
     return [
-      "gateways:bee",
-      "gateways:camel",
-      "gateways:frog_kill_bee",
-      "gateways:frog_kill_camel",
-      "gateways:frog_kill_gold_chu_chu",
-      "gateways:frog_kill_ocelot",
-      "gateways:gold_chu_chu",
-      "gateways:ocelot",
-      "gateways:vein_creeper_yellow"
+      "gateways:cat",
+      "gateways:evoker",
+      "gateways:frog_kill_cat",
+      "gateways:frog_kill_evoker",
+      "gateways:frog_kill_illusioner",
+      "gateways:frog_kill_pillager",
+      "gateways:frog_kill_ravager",
+      "gateways:frog_kill_silverfish",
+      "gateways:frog_kill_vindicator",
+      "gateways:illusioner",
+      "gateways:pillager",
+      "gateways:ravager",
+      "gateways:silverfish",
+      "gateways:vein_creeper_gray",
+      "gateways:vindicator"
+    ];
+  }
+  if color.getName() == ColorName.Green {
+    return [
+      "gateways:frog",
+      "gateways:frog_kill_frog",
+      "gateways:frog_kill_green_chu_chu",
+      "gateways:frog_kill_sniffer",
+      "gateways:frog_kill_zombie",
+      "gateways:frog_kill_zombie_horse",
+      "gateways:frog_kill_zombie_villager",
+      "gateways:green_chu_chu",
+      "gateways:sniffer",
+      "gateways:vein_creeper_green",
+      "gateways:zombie",
+      "gateways:zombie_horse",
+      "gateways:zombie_villager"
+    ];
+  }
+  if color.getName() == ColorName.LightBlue {
+    return [
+      "gateways:allay",
+      "gateways:dolphin",
+      "gateways:vein_creeper_light_blue",
+      "gateways:vex"
+    ];
+  }
+  if color.getName() == ColorName.LightGray {
+    return [
+      "gateways:elder_guardian",
+      "gateways:frog_kill_allay",
+      "gateways:frog_kill_dolphin",
+      "gateways:frog_kill_elder_guardian",
+      "gateways:frog_kill_iron_golem",
+      "gateways:frog_kill_stray",
+      "gateways:frog_kill_vex",
+      "gateways:frog_kill_witch",
+      "gateways:frog_kill_wolf",
+      "gateways:iron_golem",
+      "gateways:stray",
+      "gateways:vein_creeper_light_gray",
+      "gateways:witch",
+      "gateways:wolf"
+    ];
+  }
+  if color.getName() == ColorName.Lime {
+    return [
+      "gateways:creeper",
+      "gateways:creeper_tot",
+      "gateways:frog_kill_creeer_tot",
+      "gateways:frog_kill_creeper",
+      "gateways:frog_kill_slime",
+      "gateways:frog_kill_turtle",
+      "gateways:slime",
+      "gateways:turtle",
+      "gateways:vein_creeper_lime"
+    ];
+  }
+  if color.getName() == ColorName.Magenta {
+    return [
+      "gateways:vein_creeper_magenta"
     ];
   }
   if color.getName() == ColorName.Orange {
@@ -187,21 +253,23 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:wooly_cow"
     ];
   }
-  if color.getName() == ColorName.Blue {
+  if color.getName() == ColorName.Pink {
     return [
-      "gateways:blue_chu_chu",
-      "gateways:drowned",
-      "gateways:frog_kill_blue_chu_chu",
-      "gateways:frog_kill_drowned",
-      "gateways:frog_kill_phantom",
-      "gateways:frog_kill_squid",
-      "gateways:frog_kill_trader_llama",
-      "gateways:frog_kill_wandering_trader",
-      "gateways:phantom",
-      "gateways:squid",
-      "gateways:trader_llama",
-      "gateways:vein_creeper_blue",
-      "gateways:wandering_trader"
+      "gateways:axolotl",
+      "gateways:frog_kill_axolotl",
+      "gateways:frog_kill_hoglin",
+      "gateways:frog_kill_pig",
+      "gateways:frog_kill_piglin",
+      "gateways:frog_kill_piglin_brute",
+      "gateways:frog_kill_zoglin",
+      "gateways:frog_kill_zombified_piglin",
+      "gateways:hoglin",
+      "gateways:pig",
+      "gateways:piglin",
+      "gateways:piglin_brute",
+      "gateways:vein_creeper_pink",
+      "gateways:zoglin",
+      "gateways:zombified_piglin"
     ];
   }
   if color.getName() == ColorName.Purple {
@@ -213,25 +281,6 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:frog_kill_shulker",
       "gateways:shulker",
       "gateways:vein_creeper_purple"
-    ];
-  }
-  if color.getName() == ColorName.Gray {
-    return [
-      "gateways:cat",
-      "gateways:evoker",
-      "gateways:frog_kill_cat",
-      "gateways:frog_kill_evoker",
-      "gateways:frog_kill_illusioner",
-      "gateways:frog_kill_pillager",
-      "gateways:frog_kill_ravager",
-      "gateways:frog_kill_silverfish",
-      "gateways:frog_kill_vindicator",
-      "gateways:illusioner",
-      "gateways:pillager",
-      "gateways:ravager",
-      "gateways:silverfish",
-      "gateways:vein_creeper_gray",
-      "gateways:vindicator"
     ];
   }
   if color.getName() == ColorName.Red {
@@ -262,82 +311,31 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:frog_kill_panda",
       "gateways:frog_kill_polar_bear",
       "gateways:frog_kill_sheep",
-      "gateways:frog_kill_skeleton_horse",
       "gateways:frog_kill_skeleton",
+      "gateways:frog_kill_skeleton_horse",
       "gateways:frog_kill_snow_golem",
       "gateways:ghast",
       "gateways:goat",
       "gateways:panda",
       "gateways:polar_bear",
       "gateways:sheep",
-      "gateways:skeleton_horse",
       "gateways:skeleton",
+      "gateways:skeleton_horse",
       "gateways:snow_golem",
       "gateways:vein_creeper_white"
     ];
   }
-  if color.getName() == ColorName.Lime {
+  if color.getName() == ColorName.Yellow {
     return [
-      "gateways:creeper_tot",
-      "gateways:creeper",
-      "gateways:frog_kill_creeer_tot",
-      "gateways:frog_kill_creeper",
-      "gateways:frog_kill_slime",
-      "gateways:frog_kill_turtle",
-      "gateways:slime",
-      "gateways:turtle",
-      "gateways:vein_creeper_lime"
-    ];
-  }
-  if color.getName() == ColorName.LightGray {
-    return [
-      "gateways:elder_guardian",
-      "gateways:frog_kill_allay",
-      "gateways:frog_kill_dolphin",
-      "gateways:frog_kill_elder_guardian",
-      "gateways:frog_kill_iron_golem",
-      "gateways:frog_kill_stray",
-      "gateways:frog_kill_vex",
-      "gateways:frog_kill_witch",
-      "gateways:frog_kill_wolf",
-      "gateways:iron_golem",
-      "gateways:stray",
-      "gateways:vein_creeper_light_gray",
-      "gateways:witch",
-      "gateways:wolf"
-    ];
-  }
-  if color.getName() == ColorName.Cyan {
-    return [
-      "gateways:ender_luggage",
-      "gateways:frog_kill_ender_luggage",
-      "gateways:frog_kill_glow_squid",
-      "gateways:frog_kill_warden",
-      "gateways:glow_squid",
-      "gateways:vein_creeper_cyan",
-      "gateways:warden"
-    ];
-  }
-  if color.getName() == ColorName.Green {
-    return [
-      "gateways:frog_kill_frog",
-      "gateways:frog_kill_green_chu_chu",
-      "gateways:frog_kill_sniffer",
-      "gateways:frog_kill_zombie_horse",
-      "gateways:frog_kill_zombie_villager",
-      "gateways:frog_kill_zombie",
-      "gateways:frog",
-      "gateways:green_chu_chu",
-      "gateways:sniffer",
-      "gateways:vein_creeper_green",
-      "gateways:zombie_horse",
-      "gateways:zombie_villager",
-      "gateways:zombie"
-    ];
-  }
-  if color.getName() == ColorName.Magenta {
-    return [
-      "gateways:vein_creeper_magenta"
+      "gateways:bee",
+      "gateways:camel",
+      "gateways:frog_kill_bee",
+      "gateways:frog_kill_camel",
+      "gateways:frog_kill_gold_chu_chu",
+      "gateways:frog_kill_ocelot",
+      "gateways:gold_chu_chu",
+      "gateways:ocelot",
+      "gateways:vein_creeper_yellow"
     ];
   }
 
