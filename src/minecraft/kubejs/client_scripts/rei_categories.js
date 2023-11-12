@@ -351,6 +351,8 @@ REIEvents.groupEntries((event) => {
     "forcecraft:force_wood",
     "forcecraft:force_log",
     "forcecraft:force_sapling",
+    "forcecraft:force_stick",
+    "forcecraft:golden_power_source",
   ]);
 
   //Creative items
