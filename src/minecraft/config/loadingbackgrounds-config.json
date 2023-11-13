@@ -2,7 +2,7 @@
   // Amount of time that each background is displayed for
   "secondsStay": 5.0,
   // Amount of time it takes to fade between backgrounds
-  "secondsFade": 0.5,
+  "secondsFade": 2.0,
   // Background brightness, between 0.0 and 1.0
   "brightness": 1.0,
   // Level loading indicator position
