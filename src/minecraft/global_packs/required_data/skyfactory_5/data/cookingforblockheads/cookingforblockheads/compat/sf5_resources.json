@@ -88,7 +88,6 @@
   "foods": {
     "GENERAL": [
       "minecraft:raw_iron",
-      "minecraft:iron_ingot",
       "minecraft:raw_gold",
       "minecraft:raw_copper",
       "minecraft:amethyst_shard",
@@ -112,7 +111,8 @@
       "immersiveengineering:raw_lead",
       "immersiveengineering:raw_silver",
       "immersiveengineering:raw_nickel",
-      "immersiveengineering:raw_uranium"
+      "immersiveengineering:raw_uranium",
+      "minecraft:cobbled_deepslate"
     ],
     "INGREDIENTS": []
   }
