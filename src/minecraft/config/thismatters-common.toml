@@ -6,3 +6,5 @@ minY = 2048
 # Defines the maximum amount of matter until the Matter Compressor displays 100% [default: 150]
 # Range: > -2147483648
 maxMatter = 80
+# Use built-in matter checks when no item match is found using recipes [default: true]
+useDefaults = true
