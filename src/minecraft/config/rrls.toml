@@ -1,5 +1,5 @@
 enabled = true
-rgbProgress = false
+rgbProgress = true
 loadingScreenHide = false
 showIn = "ALL"
 type = "PROGRESS"

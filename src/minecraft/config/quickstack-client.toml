@@ -28,7 +28,7 @@
 # Range: > -2147483648
 "Survival inventory button Y offset" = -18
 # favorites color background
-favorite_color = "#FFFFBB"
+favorite_color = "#932EC3"
 "Blacklisted Block Entities" = [
   "minecraft:furnace",
   "minecraft:blast_furnace",

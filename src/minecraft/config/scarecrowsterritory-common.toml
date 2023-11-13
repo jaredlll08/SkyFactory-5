@@ -11,7 +11,7 @@ trophyCheckRange = 1
 maxTrophies = 8
 # What should be the chance that the scarecrows spawn an entity from a surrounding trophy every tick?
 # Allowed range: 0.0 ~ 1.0 - Default: 0.0
-forcedSpawnChance = 0.5
+forcedSpawnChance = 0.0
 
 # Options in this section are only relevant whenever In Control! is installed.
 ["In Control! integration"]

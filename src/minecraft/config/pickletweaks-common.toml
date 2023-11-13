@@ -14,38 +14,38 @@ toolInfoTooltipBlacklist = ["silentgear:*"]
 # Disable features.
 [Features]
 # Colored Cobblestone enabled?
-coloredCobblestone = true
+coloredCobblestone = false
 # Smooth Glowstone enabled?
 smoothGlowstone = true
 # Coal and Charcoal Piece enabled?
 coalPiece = true
 # Diamond and Emerald Apples enabled?
-apples = true
+apples = false
 # Watering Can enabled?
 wateringCan = true
 # Enable Meshes?
-meshes = true
+meshes = false
 # Enable Magnet?
 magnet = true
 # Enable Night Vision Goggles?
 nightVisionGoggles = true
 # Enable Paxels?
-paxels = true
+paxels = false
 # Enable Flint tools and armor?
-flintGear = true
+flintGear = false
 # Enable Emerald tools and armor?
-emeraldGear = true
+emeraldGear = false
 # Enable right click crop harvesting?
 rightClickHarvest = true
 # Enable Sickles?
-sickles = true
+sickles = false
 # Enable Scythes?
-scythes = true
+scythes = false
 
 # Crafting grid tool repair configuration options.
 ["Grid Repair"]
 # Should Crafting Grid Tool Repairing be enabled?
-enabled = true
+enabled = false
 # How much material required to fully repair a tool.
 # Range: 1 ~ 8
 cost = 3
