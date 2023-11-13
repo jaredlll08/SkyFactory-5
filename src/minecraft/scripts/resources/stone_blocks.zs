@@ -41,3 +41,31 @@ craftingTable.addShapeless(
   <item:minecraft:netherrack>,
   [<tag:items:forge:dyes/red>, <tag:items:forge:dyes/red>, <tag:items:forge:dyes/red>, <tag:items:forge:dyes/pink>]
 );
+
+// Diorite white/gray
+// craftingTable.addShapeless(
+//   "cobblestone_from_dye",
+//   <item:minecraft:cobblestone>,
+//   [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>]
+// );
+
+// Granite red/gray
+  craftingTable.addShapeless(
+    "cobblestone_from_dye",
+    <item:minecraft:cobblestone>,
+    [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>]
+  );
+
+// Deepslate
+craftingTable.addShapeless(
+  "deepslate_from_dye",
+  <item:minecraft:cobbled_deepslate>,
+  [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/black>, <tag:items:forge:dyes/black>]
+);
+
+// Tuff
+// craftingTable.addShapeless(
+//   "tuff_from_dye",
+//   <item:minecraft:tuff>,
+//   [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/black>, <tag:items:forge:dyes/black>]
+// );
