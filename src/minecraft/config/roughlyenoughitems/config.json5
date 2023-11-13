@@ -1,8 +1,15 @@
 {
   basics: {
-    favorites: [],
+    favorites: [
+      '{data:{Count:1b,id:"create:fluid_tank",tag:{Damage:0},type:"minecraft:item"},type:"roughlyenoughitems:entry_stack"}',
+      '{data:{Count:1b,id:"minecraft:stick",type:"minecraft:item"},type:"roughlyenoughitems:entry_stack"}',
+      '{data:{Count:1b,id:"create:shaft",tag:{Damage:0},type:"minecraft:item"},type:"roughlyenoughitems:entry_stack"}',
+    ],
     hiddenFavorites: [],
-    displayHistory: [],
+    displayHistory: [
+      '{DisplayHistoryCategory:"minecraft:plugins/crafting",DisplayHistoryContains:1b,DisplayHistoryData:{REIRecipeType:"Shaped",RecipeHeight:3,RecipeWidth:1,input:[[{Count:1b,id:"create:shaft",type:"minecraft:item"}],[{Count:1b,id:"create:andesite_casing",type:"minecraft:item"}],[{Count:1b,id:"create:propeller",type:"minecraft:item"}]],location:"create:crafting/kinetics/encased_fan",output:[[{Count:1b,id:"create:encased_fan",type:"minecraft:item"}]]},DisplayHistoryUUID:"9607315f-7374-4a7b-8eca-63c21c9a8b07"}',
+      '{DisplayHistoryCategory:"minecraft:plugins/crafting",DisplayHistoryContains:1b,DisplayHistoryData:{REIRecipeType:"Shaped",RecipeHeight:3,RecipeWidth:1,input:[[{Count:1b,id:"create:electron_tube",type:"minecraft:item"}],[{Count:1b,id:"create:brass_ingot",type:"minecraft:item"}],[{Count:1b,id:"minecraft:dried_kelp",type:"minecraft:item"}]],location:"create:crafting/logistics/brass_funnel",output:[[{Count:2b,id:"create:brass_funnel",type:"minecraft:item"}]]},DisplayHistoryUUID:"3ae42a38-fe0b-48c7-926d-e027097a0754"}',
+    ],
     // Declares whether cheating mode is on.
     cheating: true,
     favoritesEnabled: true,
