@@ -42,18 +42,18 @@ craftingTable.addShapeless(
   [<tag:items:forge:dyes/red>, <tag:items:forge:dyes/red>, <tag:items:forge:dyes/red>, <tag:items:forge:dyes/pink>]
 );
 
-// Diorite white/gray
-// craftingTable.addShapeless(
-//   "cobblestone_from_dye",
-//   <item:minecraft:cobblestone>,
-//   [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>]
-// );
+// Diorite
+ craftingTable.addShapeless(
+   "diorite_from_dye",
+   <item:minecraft:diorite>,
+   [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/white>]
+ );
 
-// Granite red/gray
+// Granite
   craftingTable.addShapeless(
-    "cobblestone_from_dye",
-    <item:minecraft:cobblestone>,
-    [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>]
+    "granite_from_dye",
+    <item:minecraft:granite>,
+    [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/pink>, <tag:items:forge:dyes/pink>]
   );
 
 // Deepslate
