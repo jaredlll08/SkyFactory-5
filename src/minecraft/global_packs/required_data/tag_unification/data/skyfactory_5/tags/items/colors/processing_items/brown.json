@@ -2,6 +2,7 @@
   "values": [
     "colouredstuff:sapling_brown",
     "sf5_things:brown_apple",
-    "minecraft:leather"
+    "minecraft:leather",
+    "minecraft:rotten_flesh"
   ]
 }
