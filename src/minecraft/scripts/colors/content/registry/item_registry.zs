@@ -12,6 +12,7 @@ public enum ColoredItem {
   LimitedStorageBarrel1 = "limited_storage_barrel_1",
   LimitedStorageBarrel2 = "limited_storage_barrel_2",
   LimitedStorageBarrel4 = "limited_storage_barrel_4",
+  SophisticatedBarrel= "barrel",
   Log = "log",
   Plank = "plank",
   PlankSlab = "plank_slab",
@@ -109,6 +110,9 @@ ContentBuilder.factory
   })
   .registerItem(ColoredItem.LimitedStorageBarrel4, (color) => {
     return <item:sophisticatedstorage:limited_barrel_4>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
+  })
+  .registerItem(ColoredItem.SophisticatedBarrel, (color) => {
+    return <item:sophisticatedstorage:barrel>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
   })
   .registerItem(ColoredItem.Log, (color) => {
     return BracketHandlers.getItem("colouredstuff:log_" + color.getResourceName());
