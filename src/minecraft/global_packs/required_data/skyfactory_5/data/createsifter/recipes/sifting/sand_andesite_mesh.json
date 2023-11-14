@@ -1,26 +1,7 @@
 {
-  "type": "createsifter:sifting",
-  "ingredients": [
+  "conditions": [
     {
-      "item": "minecraft:sand"
-    },
-    {
-      "item": "createsifter:andesite_mesh"
-    }
-  ],
-  "processingTime": 500,
-  "results": [
-    {
-      "chance": 0.1,
-      "item": "minecraft:red_dye"
-    },
-    {
-      "chance": 0.4,
-      "item": "minecraft:white_dye"
-    },
-    {
-      "chance": 0.1,
-      "item": "create:experience_nugget"
+      "type": "forge:false"
     }
   ]
 }
