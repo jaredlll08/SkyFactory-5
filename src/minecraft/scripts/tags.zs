@@ -62,7 +62,10 @@ val itemsToRemove as IItemStack[] = [
   <item:cyclic:shield_leather>,
   <item:cyclic:shield_flint>,
   <item:cyclic:shield_obsidian>,
-  <item:cyclic:shield_bone>
+  <item:cyclic:shield_bone>,
+  <item:pickletweaks:watering_can>,
+  <item:pickletweaks:reinforced_watering_can>
+
 ];
 
 for item in itemsToRemove {
