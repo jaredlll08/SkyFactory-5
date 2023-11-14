@@ -22,7 +22,7 @@ coalPiece = true
 # Diamond and Emerald Apples enabled?
 apples = false
 # Watering Can enabled?
-wateringCan = true
+wateringCan = false
 # Enable Meshes?
 meshes = false
 # Enable Magnet?
