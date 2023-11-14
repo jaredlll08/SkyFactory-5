@@ -33,9 +33,86 @@
           }
         ]
       }
+    },
+    "iron_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:iron_block"]
+          }
+        ]
+      }
+    },
+    "iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:iron_ingot"]
+          }
+        ]
+      }
+    },
+    "iron_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:iron_nugget"]
+          }
+        ]
+      }
+    },
+    "dryrubber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["industrialforegoing:dryrubber"]
+          }
+        ]
+      }
+    },
+    "tinydryrubber": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["industrialforegoing:tinydryrubber"]
+          }
+        ]
+      }
+    },
+    "plastic": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["industrialforegoing:plastic"]
+          }
+        ]
+      }
     }
   },
-  "requirements": [["goat_horn", "lodestone"]],
+  "requirements": [
+    [
+      "goat_horn",
+      "lodestone",
+      "iron_block",
+      "iron_ingot",
+      "iron_nugget",
+      "dryrubber",
+      "tinydryrubber",
+      "plastic"
+    ]
+  ],
   "rewards": {
     "function": "skyfactory_5:stages/light_gray_stage"
   }
