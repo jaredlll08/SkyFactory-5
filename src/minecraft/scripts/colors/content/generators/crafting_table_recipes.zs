@@ -243,6 +243,25 @@ ContentBuilder.factory
       ]
     );
   })
+  .addRecipeGenerator("sophisticated_barrel_shaped", (baseName, args) => {
+    val sophisticated_barrel = args.items[ColoredItem.SophisticatedBarrel];
+    val plankItem = args.items[ColoredItem.Plank];
+    val slabItem = args.items[ColoredItem.PlankSlab];
+
+    if sophisticated_barrel == null || plankItem == null || slabItem == null {
+      return;
+    }
+
+    craftingTable.addShaped(
+      args.color.getResourceName() + baseName,
+      sophisticated_barrel,
+      [
+        [plankItem, slabItem, plankItem],
+        [plankItem, <item:minecraft:redstone_torch>, plankItem],
+        [plankItem, slabItem, plankItem],
+      ]
+    );
+  })
   .addRecipeGenerator("_slabs_to_plank", (baseName, args) => {
     val plankItem = args.items[ColoredItem.Plank];
     val slabItem = args.items[ColoredItem.PlankSlab];
