@@ -55,9 +55,52 @@
           }
         ]
       }
+    },
+    "ash": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["supplementaries:ash"]
+          }
+        ]
+      }
+    },
+    "ghast_tear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:ghast_tear"]
+          }
+        ]
+      }
+    },
+    "phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:phantom_membrane"]
+          }
+        ]
+      }
     }
   },
-  "requirements": [["cobblestone", "gravel", "stone", "gunpowder"]],
+  "requirements": [
+    [
+      "cobblestone",
+      "gravel",
+      "stone",
+      "gunpowder",
+      "ash",
+      "ghast_tear",
+      "phantom_membrane"
+    ]
+  ],
   "rewards": {
     "function": "skyfactory_5:stages/gray_stage"
   }
