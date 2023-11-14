@@ -82,7 +82,9 @@
       "biggerreactors:ludicrite_block",
       "create:rose_quartz",
       "create:polished_rose_quartz",
-      "create:electron_tube"
+      "create:electron_tube",
+      "mysticalagriculture:pink_crop_essence",
+      "mysticalagriculture:pink_crop_seeds"
     ]
   }
 }

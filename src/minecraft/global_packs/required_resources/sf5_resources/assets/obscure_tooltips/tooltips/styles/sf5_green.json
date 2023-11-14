@@ -105,7 +105,10 @@
       "sushigocrafting:avocado_leaves_logged",
       "sushigocrafting:avocado_sapling",
       "sushigocrafting:cucumber_slices",
-      "sushigocrafting:nori_sheets"
+      "sushigocrafting:nori_sheets",
+      "mysticalagriculture:prudentium_essence",
+      "mysticalagriculture:green_crop_essence",
+      "mysticalagriculture:green_crop_seeds"
     ]
   }
 }

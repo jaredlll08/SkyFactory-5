@@ -126,7 +126,9 @@
       "forcecraft:force_brick",
       "forcecraft:force_brick_stairs",
       "forcecraft:force_brick_slab",
-      "forcecraft:force_torch"
+      "forcecraft:force_torch",
+      "mysticalagriculture:yellow_crop_essence",
+      "mysticalagriculture:yellow_crop_seeds"
     ]
   }
 }

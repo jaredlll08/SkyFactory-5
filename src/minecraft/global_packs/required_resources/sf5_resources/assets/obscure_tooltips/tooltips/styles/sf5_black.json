@@ -90,7 +90,9 @@
       "minecraft:polished_blackstone_slab",
       "minecraft:polished_blackstone_stairs",
       "minecraft:polished_blackstone_wall",
-      "tinted_torches:black_torch"
+      "tinted_torches:black_torch",
+      "mysticalagriculture:black_crop_essence",
+      "mysticalagriculture:black_crop_seeds"
     ]
   }
 }

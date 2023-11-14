@@ -80,7 +80,13 @@
       "colouredstuff:stairs_sandstone_light_gray",
       "colouredstuff:wall_planks_light_gray",
       "colouredstuff:wall_brick_light_gray",
-      "colouredstuff:gate_planks_light_gray"
+      "colouredstuff:gate_planks_light_gray",
+      "minecraft:ghast_tear",
+      "minecraft:phantom_membrane",
+      "industrialforegoing:tinydryrubber",
+      "industrialforegoing:dryrubber",
+      "mysticalagriculture:light_gray_crop_essence",
+      "mysticalagriculture:light_gray_crop_seeds"
     ]
   }
 }

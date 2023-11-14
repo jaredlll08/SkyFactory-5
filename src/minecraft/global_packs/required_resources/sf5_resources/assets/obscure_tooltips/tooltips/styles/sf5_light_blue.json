@@ -75,7 +75,17 @@
       "colouredstuff:stairs_sandstone_light_blue",
       "colouredstuff:wall_planks_light_blue",
       "colouredstuff:wall_brick_light_blue",
-      "colouredstuff:gate_planks_light_blue"
+      "colouredstuff:gate_planks_light_blue",
+      "mysticalagriculture:prosperity_shard",
+      "mysticalagriculture:prosperity_ingot",
+      "mysticalagriculture:prosperity_nugget",
+      "mysticalagriculture:prosperity_gemstone",
+      "mysticalagriculture:prosperity_seed_base",
+      "mysticalagriculture:prosperity_block",
+      "mysticalagriculture:prosperity_ingot_block",
+      "mysticalagriculture:prosperity_gemstone_block",
+      "mysticalagriculture:light_blue_crop_essence",
+      "mysticalagriculture:light_blue_crop_seeds"
     ]
   }
 }

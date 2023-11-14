@@ -149,7 +149,9 @@
       "colouredstuff:stairs_sandstone_magenta",
       "colouredstuff:wall_planks_magenta",
       "colouredstuff:wall_brick_magenta",
-      "colouredstuff:gate_planks_magenta"
+      "colouredstuff:gate_planks_magenta",
+      "mysticalagriculture:magenta_crop_essence",
+      "mysticalagriculture:magenta_crop_seeds"
     ]
   }
 }

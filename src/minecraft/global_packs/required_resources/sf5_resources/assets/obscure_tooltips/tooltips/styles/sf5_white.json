@@ -79,7 +79,9 @@
       "colouredstuff:stairs_sandstone_white",
       "colouredstuff:wall_planks_white",
       "colouredstuff:wall_brick_white",
-      "colouredstuff:gate_planks_white"
+      "colouredstuff:gate_planks_white",
+      "mysticalagriculture:white_crop_essence",
+      "mysticalagriculture:white_crop_seeds"
     ]
   }
 }

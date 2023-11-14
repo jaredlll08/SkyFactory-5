@@ -97,7 +97,10 @@
       "colouredstuff:stairs_sandstone_lime",
       "colouredstuff:wall_planks_lime",
       "colouredstuff:wall_brick_lime",
-      "colouredstuff:gate_planks_lime"
+      "colouredstuff:gate_planks_lime",
+      "mysticalagriculture:inferium_essence",
+      "mysticalagriculture:lime_crop_essence",
+      "mysticalagriculture:lime_crop_seeds"
     ]
   }
 }

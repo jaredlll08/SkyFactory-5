@@ -72,7 +72,9 @@
       "supplementaries:present_purple",
       "supplementaries:trapped_present_purple",
       "supplementaries:candle_holder_purple",
-      "tintedcampfires:purple_campfire"
+      "tintedcampfires:purple_campfire",
+      "mysticalagriculture:purple_crop_essence",
+      "mysticalagriculture:purple_crop_seeds"
     ]
   }
 }

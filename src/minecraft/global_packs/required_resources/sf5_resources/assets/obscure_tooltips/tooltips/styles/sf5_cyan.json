@@ -108,7 +108,9 @@
       "colouredstuff:stairs_sandstone_cyan",
       "colouredstuff:wall_planks_cyan",
       "colouredstuff:wall_brick_cyan",
-      "colouredstuff:wall_cobblestone_cyan"
+      "colouredstuff:wall_cobblestone_cyan",
+      "mysticalagriculture:cyan_crop_essence",
+      "mysticalagriculture:cyan_crop_seeds"
     ]
   }
 }

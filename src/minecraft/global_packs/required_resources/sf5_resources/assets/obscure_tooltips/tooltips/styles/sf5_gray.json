@@ -69,7 +69,9 @@
       "minecraft:furnace",
       "minecraft:gray_concrete",
       "minecraft:gray_concrete_powder",
-      "colouredstuff:stairs_sandstone_gray"
+      "colouredstuff:stairs_sandstone_gray",
+      "mysticalagriculture:gray_crop_essence",
+      "mysticalagriculture:gray_crop_seeds"
     ]
   }
 }

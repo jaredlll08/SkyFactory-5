@@ -69,7 +69,9 @@
       "colouredstuff:wall_planks_brown",
       "colouredstuff:wall_brick_brown",
       "tintedcampfires:brown_campfire",
-      "minecraft:leather"
+      "minecraft:leather",
+      "mysticalagriculture:brown_crop_essence",
+      "mysticalagriculture:brown_crop_seeds"
     ]
   }
 }
