@@ -1,0 +1,13 @@
+{
+  "name": "RGB",
+  "type": "resource",
+  "tier": "mysticalagriculture:5",
+  "ingredient": {
+    "item": "pumpkinspice:latte"
+  },
+  "color": "0080ff",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_tall_gem"
+  }
+}

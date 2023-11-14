@@ -1,0 +1,13 @@
+{
+  "name": "Lime",
+  "type": "resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "sf5_things:block_of_lime_dye"
+  },
+  "color": "02FD02",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

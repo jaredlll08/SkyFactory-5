@@ -1,0 +1,13 @@
+{
+  "name": "Yellow",
+  "type": "resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "sf5_things:block_of_yellow_dye"
+  },
+  "color": "ffff00",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

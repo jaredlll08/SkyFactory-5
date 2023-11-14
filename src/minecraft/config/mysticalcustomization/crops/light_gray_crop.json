@@ -1,0 +1,13 @@
+{
+  "name": "Light Gray",
+  "type": "resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "sf5_things:block_of_light_gray_dye"
+  },
+  "color": "D3D3D3",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

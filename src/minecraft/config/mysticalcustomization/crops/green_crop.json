@@ -1,0 +1,13 @@
+{
+  "name": "Green",
+  "type": "resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "sf5_things:block_of_green_dye"
+  },
+  "color": "165F16",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

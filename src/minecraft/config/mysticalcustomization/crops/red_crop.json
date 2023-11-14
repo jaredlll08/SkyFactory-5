@@ -1,0 +1,13 @@
+{
+  "name": "Red",
+  "type": "resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "sf5_things:block_of_red_dye"
+  },
+  "color": "ff0000",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

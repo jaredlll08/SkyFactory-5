@@ -1,0 +1,13 @@
+{
+  "name": "Black",
+  "type": "resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "sf5_things:block_of_black_dye"
+  },
+  "color": "000000",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

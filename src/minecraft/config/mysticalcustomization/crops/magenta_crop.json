@@ -1,0 +1,13 @@
+{
+  "name": "Magenta",
+  "type": "resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "sf5_things:block_of_magenta_dye"
+  },
+  "color": "FF00FF",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}

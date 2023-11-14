@@ -1,0 +1,13 @@
+{
+  "name": "Light Blue",
+  "type": "resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "sf5_things:block_of_light_blue_dye"
+  },
+  "color": "8fd3ff",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_dust"
+  }
+}
