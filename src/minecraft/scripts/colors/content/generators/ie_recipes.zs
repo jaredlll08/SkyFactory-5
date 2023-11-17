@@ -49,3 +49,9 @@ ContentBuilder.factory
       1000
     );
   });
+
+// I have no clue why this doesn't work
+/*
+// Template Boards to Saw Dust
+<recipetype:immersiveengineering:sawmill>.addRecipe("sawdust_from_templates", <item:immersiveengineering:dust_wood>, 1000, <item:silentgear:template_board> * 1, [<item:minecraft:air>]);
+*/
