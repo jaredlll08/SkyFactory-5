@@ -87,6 +87,7 @@
   ],
   "foods": {
     "GENERAL": [
+      "minecraft:ender_pearl",
       "minecraft:raw_iron",
       "minecraft:raw_gold",
       "minecraft:raw_copper",

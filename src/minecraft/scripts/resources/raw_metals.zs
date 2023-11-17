@@ -53,7 +53,7 @@ craftingTable.addShapeless(
 craftingTable.addShapeless(
   "diamond_from_dye",
   <item:minecraft:diamond> * 1,
-  [<tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/blue>]
+  [<tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/cyan>]
 );
 
 // Emerald
@@ -117,4 +117,11 @@ craftingTable.addShapeless(
   "raw_uranium_from_dye",
   <item:immersiveengineering:raw_uranium>,
   [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>]
+);
+
+// Ender Pearl
+craftingTable.addShapeless(
+  "ender_pearl_from_dye",
+  <item:minecraft:ender_pearl> * 1,
+  [<tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/green>]
 );
