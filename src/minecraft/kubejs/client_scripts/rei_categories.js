@@ -189,7 +189,7 @@ REIEvents.groupEntries((event) => {
     { modName: "Cluttered", modID: "luphieclutteredmod" },
     { modName: "Crayfish Furniture", modID: "cfm" },
     { modName: "Heads", modID: "heads" },
-    { modName: "Industrial Foregoing", modID: "industrialforegoing" },
+    //{ modName: "Industrial Foregoing", modID: "industrialforegoing" },
     { modName: "Macaw Lights", modID: "mcwlights" },
     { modName: "Multi Beds", modID: "multibeds" },
     { modName: "Rechiseled", modID: "rechiseled" },
