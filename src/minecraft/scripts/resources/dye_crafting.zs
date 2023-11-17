@@ -135,7 +135,7 @@ mods.recipestages.Recipes.addShapeless(
   Stage.Black,
   "black_dye_from_black_essence",
   <item:minecraft:black_dye> * 4,
-  [<item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, ]
+  [<item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>, <item:mysticalagriculture:black_crop_essence>]
 );
 
 
@@ -143,92 +143,190 @@ mods.recipestages.Recipes.addShapeless(
   Stage.Blue,
   "blue_dye_from_blue_essence",
   <item:minecraft:blue_dye> * 4,
-  [<item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, ]
+  [<item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>, <item:mysticalagriculture:blue_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Brown,
   "brown_dye_from_brown_essence",
   <item:minecraft:brown_dye> * 4,
-  [<item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, ]
+  [<item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>, <item:mysticalagriculture:brown_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Cyan,
   "cyan_dye_from_cyan_essence",
   <item:minecraft:cyan_dye> * 4,
-  [<item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, ]
+  [<item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>, <item:mysticalagriculture:cyan_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Gray,
   "gray_dye_from_gray_essence",
   <item:minecraft:gray_dye> * 4,
-  [<item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, ]
+  [<item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>, <item:mysticalagriculture:gray_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Green,
   "green_dye_from_green_essence",
   <item:minecraft:green_dye> * 4,
-  [<item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, ]
+  [<item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>, <item:mysticalagriculture:green_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Light_Blue,
   "light_blue_dye_from_light_blue_essence",
   <item:minecraft:light_blue_dye> * 4,
-  [<item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, ]
+  [<item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>, <item:mysticalagriculture:light_blue_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Light_Gray,
   "light_gray_dye_from_light_gray_essence",
   <item:minecraft:light_gray_dye> * 4,
-  [<item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, ]
+  [<item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>, <item:mysticalagriculture:light_gray_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Lime,
   "lime_dye_from_lime_essence",
   <item:minecraft:lime_dye> * 4,
-  [<item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, ]
+  [<item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>, <item:mysticalagriculture:lime_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Magenta,
   "magenta_dye_from_magenta_essence",
   <item:minecraft:magenta_dye> * 4,
-  [<item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, ]
+  [<item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>, <item:mysticalagriculture:magenta_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Orange,
   "orange_dye_from_orange_essence",
   <item:minecraft:orange_dye> * 4,
-  [<item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, ]
+  [<item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>, <item:mysticalagriculture:orange_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Pink,
   "pink_dye_from_pink_essence",
   <item:minecraft:pink_dye> * 4,
-  [<item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, ]
+  [<item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>, <item:mysticalagriculture:pink_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Purple,
   "purple_dye_from_purple_essence",
   <item:minecraft:purple_dye> * 4,
-  [<item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, ]
+  [<item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>, <item:mysticalagriculture:purple_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Red,
   "red_dye_from_red_essence",
   <item:minecraft:red_dye> * 4,
-  [<item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, ]
+  [<item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>, <item:mysticalagriculture:red_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.White,
   "white_dye_from_white_essence",
   <item:minecraft:white_dye> * 4,
-  [<item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, ]
+  [<item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>, <item:mysticalagriculture:white_crop_essence>]
 );
 mods.recipestages.Recipes.addShapeless(
   Stage.Yellow,
   "yellow_dye_from_yellow_essence",
   <item:minecraft:yellow_dye> * 4,
-  [<item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, ]
+  [<item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>, <item:mysticalagriculture:yellow_crop_essence>]
 );
 
 
 
+
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Black,
+  "black_dye_block_shaped",
+  <item:sf5_things:block_of_black_dye> * 1,
+  [<item:minecraft:black_dye>, <item:minecraft:black_dye>, <item:minecraft:black_dye>, <item:minecraft:black_dye>, <item:minecraft:black_dye>, <item:minecraft:black_dye>, <item:minecraft:black_dye>, <item:minecraft:black_dye>, <item:minecraft:black_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Blue,
+  "blue_dye_block_shaped",
+  <item:sf5_things:block_of_blue_dye> * 1,
+  [<item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>, <item:minecraft:blue_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Brown,
+  "brown_dye_block_shaped",
+  <item:sf5_things:block_of_brown_dye> * 1,
+  [<item:minecraft:brown_dye>, <item:minecraft:brown_dye>, <item:minecraft:brown_dye>, <item:minecraft:brown_dye>, <item:minecraft:brown_dye>, <item:minecraft:brown_dye>, <item:minecraft:brown_dye>, <item:minecraft:brown_dye>, <item:minecraft:brown_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Cyan,
+  "cyan_dye_block_shaped",
+  <item:sf5_things:block_of_cyan_dye> * 1,
+  [<item:minecraft:cyan_dye>, <item:minecraft:cyan_dye>, <item:minecraft:cyan_dye>, <item:minecraft:cyan_dye>, <item:minecraft:cyan_dye>, <item:minecraft:cyan_dye>, <item:minecraft:cyan_dye>, <item:minecraft:cyan_dye>, <item:minecraft:cyan_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Gray,
+  "gray_dye_block_shaped",
+  <item:sf5_things:block_of_gray_dye> * 1,
+  [<item:minecraft:gray_dye>, <item:minecraft:gray_dye>, <item:minecraft:gray_dye>, <item:minecraft:gray_dye>, <item:minecraft:gray_dye>, <item:minecraft:gray_dye>, <item:minecraft:gray_dye>, <item:minecraft:gray_dye>, <item:minecraft:gray_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Green,
+  "green_dye_block_shaped",
+  <item:sf5_things:block_of_green_dye> * 1,
+  [<item:minecraft:green_dye>, <item:minecraft:green_dye>, <item:minecraft:green_dye>, <item:minecraft:green_dye>, <item:minecraft:green_dye>, <item:minecraft:green_dye>, <item:minecraft:green_dye>, <item:minecraft:green_dye>, <item:minecraft:green_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Light_Blue,
+  "light_blue_dye_block_shaped",
+  <item:sf5_things:block_of_light_blue_dye> * 1,
+  [<item:minecraft:light_blue_dye>, <item:minecraft:light_blue_dye>, <item:minecraft:light_blue_dye>, <item:minecraft:light_blue_dye>, <item:minecraft:light_blue_dye>, <item:minecraft:light_blue_dye>, <item:minecraft:light_blue_dye>, <item:minecraft:light_blue_dye>, <item:minecraft:light_blue_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Light_Gray,
+  "light_gray_dye_block_shaped",
+  <item:sf5_things:block_of_light_gray_dye> * 1,
+  [<item:minecraft:light_gray_dye>, <item:minecraft:light_gray_dye>, <item:minecraft:light_gray_dye>, <item:minecraft:light_gray_dye>, <item:minecraft:light_gray_dye>, <item:minecraft:light_gray_dye>, <item:minecraft:light_gray_dye>, <item:minecraft:light_gray_dye>, <item:minecraft:light_gray_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Lime,
+  "lime_dye_block_shaped",
+  <item:sf5_things:block_of_lime_dye> * 1,
+  [<item:minecraft:lime_dye>, <item:minecraft:lime_dye>, <item:minecraft:lime_dye>, <item:minecraft:lime_dye>, <item:minecraft:lime_dye>, <item:minecraft:lime_dye>, <item:minecraft:lime_dye>, <item:minecraft:lime_dye>, <item:minecraft:lime_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Magenta,
+  "magenta_dye_block_shaped",
+  <item:sf5_things:block_of_magenta_dye> * 1,
+  [<item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Orange,
+  "orange_dye_block_shaped",
+  <item:sf5_things:block_of_orange_dye> * 1,
+  [<item:minecraft:orange_dye>, <item:minecraft:orange_dye>, <item:minecraft:orange_dye>, <item:minecraft:orange_dye>, <item:minecraft:orange_dye>, <item:minecraft:orange_dye>, <item:minecraft:orange_dye>, <item:minecraft:orange_dye>, <item:minecraft:orange_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Pink,
+  "pink_dye_block_shaped",
+  <item:sf5_things:block_of_pink_dye> * 1,
+  [<item:minecraft:pink_dye>, <item:minecraft:pink_dye>, <item:minecraft:pink_dye>, <item:minecraft:pink_dye>, <item:minecraft:pink_dye>, <item:minecraft:pink_dye>, <item:minecraft:pink_dye>, <item:minecraft:pink_dye>, <item:minecraft:pink_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Purple,
+  "purple_dye_block_shaped",
+  <item:sf5_things:block_of_purple_dye> * 1,
+  [<item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>]
+);
+ mods.recipestages.Recipes.addShapeless(
+  Stage.Red,
+  "red_dye_block_shaped",
+  <item:sf5_things:block_of_red_dye> * 1,
+  [<item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>]
+ );
+mods.recipestages.Recipes.addShapeless(
+  Stage.White,
+  "white_dye_block_shaped",
+  <item:sf5_things:block_of_white_dye> * 1,
+  [<item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
+);
+mods.recipestages.Recipes.addShapeless(
+  Stage.Yellow,
+  "yellow_dye_block_shaped",
+  <item:sf5_things:block_of_yellow_dye> * 1,
+  [<item:minecraft:yellow_dye>, <item:minecraft:yellow_dye>, <item:minecraft:yellow_dye>, <item:minecraft:yellow_dye>, <item:minecraft:yellow_dye>, <item:minecraft:yellow_dye>, <item:minecraft:yellow_dye>, <item:minecraft:yellow_dye>, <item:minecraft:yellow_dye>]
+);
