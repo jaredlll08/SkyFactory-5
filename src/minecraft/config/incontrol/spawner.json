@@ -809,11 +809,115 @@
       "veincreeper:blue",
       "veincreeper:purple"
     ],
-    "persecond": 1,
+    "persecond": 2,
     "attempts": 15,
     "amount": {
       "minimum": 1,
-      "maximum": 1
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": [
+      "monsterplus:glow_skeleton",
+      "monsterplus:spectral_skeleton",
+      "monsterplus:overgrown_skeleton"
+    ],
+    "persecond": 2,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["monsterplus:opalescent_eye"],
+    "persecond": 2,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["monsterplus:abyssologer"],
+    "persecond": 2,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["monsterplus:swamp_zombie", "monsterplus:crystal_zombie"],
+    "persecond": 2,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["monsterplus:mother_lava_squid", "monsterplus:lava_squid"],
+    "persecond": 2,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
     },
     "conditions": {
       "dimension": [

@@ -2111,6 +2111,150 @@
     "result": "allow"
   },
   {
+    "mob": ["monsterplus:glow_skeleton"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "glowskeleton",
+    "minlight_full": 0,
+    "maxlight_full": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["monsterplus:spectral_skeleton"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "spectralskeleton",
+    "minlight_full": 0,
+    "maxlight_full": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["monsterplus:opalescent_eye"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "opalescenteye",
+    "minlight_full": 0,
+    "maxlight_full": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["monsterplus:abyssologer"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "abyssologer",
+    "minlight_full": 0,
+    "maxlight_full": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["monsterplus:swamp_zombie"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "swampzombie",
+    "minlight_full": 0,
+    "maxlight_full": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["monsterplus:crystal_zombie"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "crystalzombie",
+    "minlight_full": 0,
+    "maxlight_full": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["monsterplus:mother_lava_squid"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "motherlavasquid",
+    "minlight_full": 0,
+    "maxlight_full": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["monsterplus:lava_squid"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "lavasquid",
+    "minlight_full": 0,
+    "maxlight_full": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["monsterplus:overgrown_skeleton"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "overgrownskeleton",
+    "minlight_full": 0,
+    "maxlight_full": 7,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
     "mob": [
       "energeticsheep:energetic_sheep",
       "minecraft:allay",
@@ -2243,7 +2387,16 @@
       "forcecraft:green_chu_chu",
       "forcecraft:red_chu_chu",
       "luggage:luggage",
-      "luggage:ender_luggage"
+      "luggage:ender_luggage",
+      "monsterplus:glow_skeleton",
+      "monsterplus:spectral_skeleton",
+      "monsterplus:opalescent_eye",
+      "monsterplus:abyssologer",
+      "monsterplus:swamp_zombie",
+      "monsterplus:crystal_zombie",
+      "monsterplus:mother_lava_squid",
+      "monsterplus:lava_squid",
+      "monsterplus:overgrown_skeleton"
     ],
     "result": "deny"
   },
@@ -2384,7 +2537,16 @@
       "forcecraft:green_chu_chu",
       "forcecraft:red_chu_chu",
       "luggage:luggage",
-      "luggage:ender_luggage"
+      "luggage:ender_luggage",
+      "monsterplus:glow_skeleton",
+      "monsterplus:spectral_skeleton",
+      "monsterplus:opalescent_eye",
+      "monsterplus:abyssologer",
+      "monsterplus:swamp_zombie",
+      "monsterplus:crystal_zombie",
+      "monsterplus:mother_lava_squid",
+      "monsterplus:lava_squid",
+      "monsterplus:overgrown_skeleton"
     ],
     "spawner": true,
     "armorhelmet": {

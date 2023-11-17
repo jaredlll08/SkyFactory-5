@@ -238,4 +238,17 @@ public enum MobStage {
   // Luggage
   Luggage = "luggage:luggage",
   EnderLuggage = "luggage:ender_luggage",
+
+
+  // Monster Plus
+  GlowSkeleton = "monsterplus:glow_skeleton",
+  SpectralSkeleton = "monsterplus:spectral_skeleton",
+  OpalescentEye = "monsterplus:opalescent_eye",
+  Abyssologer = "monsterplus:abyssologer",
+  SwampZombie = "monsterplus:swamp_zombie",
+  CrystalZombie = "monsterplus:crystal_zombie",
+  MotherLavaSquid = "monsterplus:mother_lava_squid",
+  LavaSquid = "monsterplus:lava_squid",
+  OvergrownSkeleton = "monsterplus:overgrown_skeleton>"
+
 }

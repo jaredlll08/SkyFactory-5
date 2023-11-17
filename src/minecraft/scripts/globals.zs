@@ -187,7 +187,20 @@ public class Globals {
     // <entitytype:forcecraft:fairy>: new StagedMob(<entitytype:forcecraft:fairy>, MobStage.Fairy),
     <entitytype:forcecraft:gold_chu_chu>: new StagedMob(<entitytype:forcecraft:gold_chu_chu>, MobStage.GoldChuChu),
     <entitytype:forcecraft:green_chu_chu>: new StagedMob(<entitytype:forcecraft:green_chu_chu>, MobStage.GreenChuChu),
-    <entitytype:forcecraft:red_chu_chu>: new StagedMob(<entitytype:forcecraft:red_chu_chu>, MobStage.RedChuChu)
+    <entitytype:forcecraft:red_chu_chu>: new StagedMob(<entitytype:forcecraft:red_chu_chu>, MobStage.RedChuChu),
+
+
+  // Monsters Plus
+  <entitytype:monsterplus:glow_skeleton>: new StagedMob(<entitytype:monsterplus:glow_skeleton>, MobStage.GlowSkeleton),
+  <entitytype:monsterplus:spectral_skeleton>: new StagedMob(<entitytype:monsterplus:spectral_skeleton>, MobStage.SpectralSkeleton),
+  <entitytype:monsterplus:opalescent_eye>: new StagedMob(<entitytype:monsterplus:opalescent_eye>, MobStage.OpalescentEye),
+  <entitytype:monsterplus:abyssologer>: new StagedMob(<entitytype:monsterplus:abyssologer>, MobStage.Abyssologer),
+  <entitytype:monsterplus:swamp_zombie>: new StagedMob(<entitytype:monsterplus:swamp_zombie>, MobStage.SwampZombie),
+  <entitytype:monsterplus:crystal_zombie>: new StagedMob(<entitytype:monsterplus:crystal_zombie>, MobStage.CrystalZombie),
+  <entitytype:monsterplus:mother_lava_squid>: new StagedMob(<entitytype:monsterplus:mother_lava_squid>, MobStage.MotherLavaSquid),
+  <entitytype:monsterplus:lava_squid>: new StagedMob(<entitytype:monsterplus:lava_squid>, MobStage.LavaSquid),
+  <entitytype:monsterplus:overgrown_skeleton>: new StagedMob(<entitytype:monsterplus:overgrown_skeleton>, MobStage.OvergrownSkeleton)
+
   };
 
   public static val gatewayEntityMapping as EntityType<Entity>[string] = {

@@ -79,6 +79,17 @@
               "tag": "{gateway:\"gateways:green_chu_chu\"}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 50,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:overgrown_skeleton\"}"
+            }
+          ]
         }
       ]
     }
