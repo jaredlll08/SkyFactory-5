@@ -48,3 +48,9 @@ for item in loadedMods["create"].itemStacks {
 <item:create:super_glue>.maxDamage = 2147483647;
 <item:create:sand_paper>.maxDamage = 2147483647;
 <item:sophisticatedstorage:packing_tape>.maxDamage = 9999;
+
+<item:pizzacraft:stone_pizza_peel>.maxDamage = -1;
+<item:pizzacraft:iron_pizza_peel>.maxDamage = -1;
+<item:pizzacraft:golden_pizza_peel>.maxDamage = -1;
+<item:pizzacraft:diamond_pizza_peel>.maxDamage = -1;
+<item:pizzacraft:netherite_pizza_peel>.maxDamage = -1;
