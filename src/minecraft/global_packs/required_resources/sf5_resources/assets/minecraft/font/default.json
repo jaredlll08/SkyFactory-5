@@ -5,7 +5,7 @@
       "file": "minecraft:comic_mono_bold.ttf",
       "shift": [0, 1],
       "size": 10.0,
-      "oversample": 5.0
+      "oversample": 20
     }
   ]
 }
