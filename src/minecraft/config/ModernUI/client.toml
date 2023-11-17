@@ -61,6 +61,9 @@ colorStroke = ["#F0AADCF0", "#F0FFC3F7", "#F0BFF2B2", "#F0D27F3D"]
 # The cycle time of tooltip border color in milliseconds. (0 = OFF)
 # Range: 0 ~ 5000
 borderCycleTime = 1000
+# The width of tooltip border, in GUI Scale Independent Pixels.
+# Range: 0.5 ~ 2.5
+borderWidth = 1.3333333730697632
 
 # General Config
 [general]
@@ -76,6 +79,8 @@ windowMode = "NORMAL"
 useNewGuiScale = true
 # Remove telemetry event of client behaviors.
 removeTelemetry = false
+# Allow Slack or Discord shortcodes to replace Unicode Emoji Sequences in chat.
+emojiShortcodes = true
 
 # View system config, currently not working.
 [view]
@@ -117,7 +122,7 @@ horizontalScrollFactor = 64.0
 # Control the anti-aliasing of raw glyph rasterization.
 antiAliasing = true
 # Control the FreeType font hinting of raw glyph metrics.
-# Enable if on low-res monitor; disable for smooth fonts.
+# Enable if on low-res monitor; disable for linear texts.
 autoHinting = true
 # The first font family to use. See fallbackFontFamilyList
 firstFontFamily = "Source Han Sans CN Medium"
@@ -138,3 +143,6 @@ fallbackFontFamilyList = [
   "Segoe UI Variable",
   "mui-i18n-compat"
 ]
+# Whether to use Google Noto Color Emoji, otherwise grayscale emoji (faster).
+# See Unicode 15.0 specification for details on how this affects text layout.
+useColorEmoji = true
