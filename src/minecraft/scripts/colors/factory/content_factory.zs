@@ -93,40 +93,52 @@ public class ColoredContentFactory {
 
   public build() as void {
     for color in ColoredContentFactory.supportedColors {
-      val args = new ColoredContentGeneratorCallbackArgs(color);
-
+      val blocks as Block?[ColoredBlock] = {};
       // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
       // for block, entry in this.blockGetters {
-      //   args.blocks[block] = entry.callCallback(color);
+      //   blocks[block] = entry.callCallback(color);
       // }
 
+      val fluidTags as KnownTag<Fluid>?[ColoredFluidTag] = {};
       for fluidTag, entry in this.fluidTagGetters {
         val fluidTagResult = entry.callCallback(color);
 
         if fluidTagResult == null {
-          args.fluidTags[fluidTag] = null;
+          fluidTags[fluidTag] = null;
         } else {
-          args.fluidTags[fluidTag] = ((fluidTagResult as MCTag) as KnownTag<Fluid>);
+          fluidTags[fluidTag] = ((fluidTagResult as MCTag) as KnownTag<Fluid>);
         }
       }
 
+      val items as IItemStack?[ColoredItem] = {};
       for item, entry in this.itemGetters {
-        args.items[item] = entry.callCallback(color);
+        items[item] = entry.callCallback(color);
       }
 
+      val itemTags as KnownTag<ItemDefinition>?[ColoredItemTag] = {};
       for itemTag, entry in this.itemTagGetters {
         val itemTagResult = entry.callCallback(color);
 
         if itemTagResult == null {
-          args.itemTags[itemTag] = null;
+          itemTags[itemTag] = null;
         } else {
-          args.itemTags[itemTag] = ((itemTagResult as MCTag) as KnownTag<ItemDefinition>);
+          itemTags[itemTag] = ((itemTagResult as MCTag) as KnownTag<ItemDefinition>);
         }
       }
 
+      var water as IFluidStack? = null;
       if waterGetter != null {
-        args.water = waterGetter.callCallback(color);
+        water = waterGetter.callCallback(color);
       }
+
+      val args = new ColoredContentGeneratorCallbackArgs(
+        color,
+        blocks,
+        items,
+        fluidTags,
+        itemTags,
+        water
+      );
 
       for lootModifierGenerator in lootModifierGenerators {
         lootModifierGenerator.callCallback(args);

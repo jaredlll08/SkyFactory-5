@@ -1,7 +1,7 @@
 ContentBuilder.factory
   .addRecipeGenerator("_apple_to_dye", (baseName, args) => {
-    val apple = args.items[ColoredItem.Apple];
-    val dye = args.items[ColoredItem.Dye];
+    val apple = args.getItem(ColoredItem.Apple);
+    val dye = args.getItem(ColoredItem.Dye);
     val stage = getStageForColor(args.color);
 
     if apple == null || dye == null || stage == null {
@@ -16,8 +16,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_boat", (baseName, args) => {
-    val plankItem = args.items[ColoredItem.Plank];
-    val boatItem = args.items[ColoredItem.Boat];
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val boatItem = args.getItem(ColoredItem.Boat);
 
     if plankItem == null || boatItem == null {
       return;
@@ -35,8 +35,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_dye_block_from_dye", (baseName, args) => {
-    val dyeBlockItem = args.items[ColoredItem.DyeBlock];
-    val dye = args.items[ColoredItem.Dye];
+    val dyeBlockItem = args.getItem(ColoredItem.DyeBlock);
+    val dye = args.getItem(ColoredItem.Dye);
     val stage = getStageForColor(args.color);
 
     if dyeBlockItem == null || dye == null || stage == null {
@@ -61,8 +61,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_dye_from_dye_block", (baseName, args) => {
-    val dyeBlockItem = args.items[ColoredItem.DyeBlock];
-    val dye = args.items[ColoredItem.Dye];
+    val dyeBlockItem = args.getItem(ColoredItem.DyeBlock);
+    val dye = args.getItem(ColoredItem.Dye);
     val stage = getStageForColor(args.color);
 
     if dyeBlockItem == null || dye == null || stage == null {
@@ -77,9 +77,9 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_campfire", (baseName, args) => {
-    val logItem = args.items[ColoredItem.Log];
-    val torchItem = args.items[ColoredItem.Torch];
-    val campfireItem = args.items[ColoredItem.Campfire];
+    val logItem = args.getItem(ColoredItem.Log);
+    val torchItem = args.getItem(ColoredItem.Torch);
+    val campfireItem = args.getItem(ColoredItem.Campfire);
 
     if logItem == null || torchItem == null || campfireItem == null {
       return;
@@ -96,8 +96,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_chest_shaped", (baseName, args) => {
-    val plankItem = args.items[ColoredItem.Plank];
-    val storageChest = args.items[ColoredItem.StorageChest];
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val storageChest = args.getItem(ColoredItem.StorageChest);
 
     if plankItem == null || storageChest == null {
       return;
@@ -114,8 +114,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_chest_shaped_from_logs", (baseName, args) => {
-    val logItem = args.items[ColoredItem.Log];
-    val storageChest = args.items[ColoredItem.StorageChest];
+    val logItem = args.getItem(ColoredItem.Log);
+    val storageChest = args.getItem(ColoredItem.StorageChest);
 
     if logItem == null || storageChest == null {
       return;
@@ -132,9 +132,9 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_composting_bin", (baseName, args) => {
-    val plankItem = args.items[ColoredItem.Plank];
-    val slabItem = args.items[ColoredItem.PlankSlab];
-    val compostingBin = args.items[ColoredItem.CompostingBin];
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val slabItem = args.getItem(ColoredItem.PlankSlab);
+    val compostingBin = args.getItem(ColoredItem.CompostingBin);
 
     if plankItem == null || slabItem == null || compostingBin == null {
       return;
@@ -151,8 +151,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_crafting_table", (baseName, args) => {
-    val plankItem = args.items[ColoredItem.Plank];
-    val craftingTableItem = args.items[ColoredItem.CraftingTable];
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val craftingTableItem = args.getItem(ColoredItem.CraftingTable);
 
     if plankItem == null || craftingTableItem == null {
       return;
@@ -168,9 +168,9 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_crucible", (baseName, args) => {
-    val plankItem = args.items[ColoredItem.Plank];
-    val slabItem = args.items[ColoredItem.PlankSlab];
-    val crucible = args.items[ColoredItem.Crucible];
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val slabItem = args.getItem(ColoredItem.PlankSlab);
+    val crucible = args.getItem(ColoredItem.Crucible);
 
     if plankItem == null || slabItem == null || crucible == null {
       return;
@@ -187,9 +187,9 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_limited_barrel_shaped", (baseName, args) => {
-    val barrel = args.items[ColoredItem.LimitedStorageBarrel1];
-    val plankItem = args.items[ColoredItem.Plank];
-    val slabItem = args.items[ColoredItem.PlankSlab];
+    val barrel = args.getItem(ColoredItem.LimitedStorageBarrel1);
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val slabItem = args.getItem(ColoredItem.PlankSlab);
 
     if barrel == null || plankItem == null || slabItem == null {
       return;
@@ -206,9 +206,9 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_limited_barrel_shaped2", (baseName, args) => {
-    val barrel = args.items[ColoredItem.LimitedStorageBarrel2];
-    val plankItem = args.items[ColoredItem.Plank];
-    val slabItem = args.items[ColoredItem.PlankSlab];
+    val barrel = args.getItem(ColoredItem.LimitedStorageBarrel2);
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val slabItem = args.getItem(ColoredItem.PlankSlab);
 
     if barrel == null || plankItem == null || slabItem == null {
       return;
@@ -225,9 +225,9 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_limited_barrel_shaped4", (baseName, args) => {
-    val barrel = args.items[ColoredItem.LimitedStorageBarrel4];
-    val plankItem = args.items[ColoredItem.Plank];
-    val slabItem = args.items[ColoredItem.PlankSlab];
+    val barrel = args.getItem(ColoredItem.LimitedStorageBarrel4);
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val slabItem = args.getItem(ColoredItem.PlankSlab);
 
     if barrel == null || plankItem == null || slabItem == null {
       return;
@@ -244,9 +244,9 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("sophisticated_barrel_shaped", (baseName, args) => {
-    val sophisticated_barrel = args.items[ColoredItem.SophisticatedBarrel];
-    val plankItem = args.items[ColoredItem.Plank];
-    val slabItem = args.items[ColoredItem.PlankSlab];
+    val sophisticated_barrel = args.getItem(ColoredItem.SophisticatedBarrel);
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val slabItem = args.getItem(ColoredItem.PlankSlab);
 
     if sophisticated_barrel == null || plankItem == null || slabItem == null {
       return;
@@ -263,8 +263,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_slabs_to_plank", (baseName, args) => {
-    val plankItem = args.items[ColoredItem.Plank];
-    val slabItem = args.items[ColoredItem.PlankSlab];
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val slabItem = args.getItem(ColoredItem.PlankSlab);
 
     if plankItem == null || slabItem == null {
       return;
@@ -280,8 +280,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_torch", (baseName, args) => {
-    val dye = args.items[ColoredItem.Dye];
-    val torchItem = args.items[ColoredItem.Torch];
+    val dye = args.getItem(ColoredItem.Dye);
+    val torchItem = args.getItem(ColoredItem.Torch);
 
     if dye == null || torchItem == null {
       return;
@@ -297,8 +297,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("treasure_bag_", (baseName, args) => {
-    val treasureBag = args.items[ColoredItem.TreasureBag];
-    val wool = args.items[ColoredItem.Wool];
+    val treasureBag = args.getItem(ColoredItem.TreasureBag);
+    val wool = args.getItem(ColoredItem.Wool);
 
     if treasureBag == null || wool == null {
       return;

@@ -1,8 +1,8 @@
 // Crushing Recipes
 ContentBuilder.factory
   .addRecipeGenerator("_items_to_dye_crushing", (baseName, args) => {
-    val dye = args.items[ColoredItem.Dye];
-    val coloredProcessingItemTag = args.itemTags[ColoredItemTag.ColoredProcessingItem];
+    val dye = args.getItem(ColoredItem.Dye);
+    val coloredProcessingItemTag = args.getItemTag(ColoredItemTag.ColoredProcessingItem);
 
     if dye == null || coloredProcessingItemTag == null {
       return;
@@ -23,8 +23,8 @@ ContentBuilder.factory
 // Milling Recipes
 ContentBuilder.factory
   .addRecipeGenerator("_items_to_dye_milling", (baseName, args) => {
-    val dye = args.items[ColoredItem.Dye];
-    val coloredProcessingItemTag = args.itemTags[ColoredItemTag.ColoredProcessingItem];
+    val dye = args.getItem(ColoredItem.Dye);
+    val coloredProcessingItemTag = args.getItemTag(ColoredItemTag.ColoredProcessingItem);
 
     if dye == null || coloredProcessingItemTag == null {
       return;
@@ -41,8 +41,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_wool", (baseName, args) => {
-    val dye = args.items[ColoredItem.Dye];
-    val woolItem = args.items[ColoredItem.Wool];
+    val dye = args.getItem(ColoredItem.Dye);
+    val woolItem = args.getItem(ColoredItem.Wool);
 
     if dye == null || woolItem == null {
       return;
@@ -62,8 +62,8 @@ ContentBuilder.factory
 // Mixing Recipes
 ContentBuilder.factory
   .addRecipeGenerator("fluid_mixing_water_to_dye_", (baseName, args) => {
-    val dye = args.items[ColoredItem.Dye];
-    val water = args.water;
+    val dye = args.getItem(ColoredItem.Dye);
+    val water = args.getWater();
 
     if dye == null || water == null {
       return;
@@ -79,8 +79,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("water_and_sand_to_dye_", (baseName, args) => {
-    val dyeBlockItem = args.items[ColoredItem.DyeBlock];
-    val water = args.water;
+    val dyeBlockItem = args.getItem(ColoredItem.DyeBlock);
+    val water = args.getWater();
 
     if dyeBlockItem == null || water == null {
       return;

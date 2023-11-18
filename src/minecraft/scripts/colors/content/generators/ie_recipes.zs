@@ -1,7 +1,7 @@
 ContentBuilder.factory
   .addRecipeGenerator("_dye_water_ie_bottling", (baseName, args) => {
-    val dyeBlockItem = args.items[ColoredItem.DyeBlock];
-    val coloredWaterFluidTag = args.fluidTags[ColoredFluidTag.Water];
+    val dyeBlockItem = args.getItem(ColoredItem.DyeBlock);
+    val coloredWaterFluidTag = args.getFluidTag(ColoredFluidTag.Water);
 
     if dyeBlockItem == null || coloredWaterFluidTag == null {
       return;
@@ -15,8 +15,8 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_dye_ie_crusher", (baseName, args) => {
-    val dye = args.items[ColoredItem.Dye];
-    val coloredProcessingItemTag = args.itemTags[ColoredItemTag.ColoredProcessingItem];
+    val dye = args.getItem(ColoredItem.Dye);
+    val coloredProcessingItemTag = args.getItemTag(ColoredItemTag.ColoredProcessingItem);
 
     if dye == null || coloredProcessingItemTag == null {
       return;
@@ -32,9 +32,9 @@ ContentBuilder.factory
     );
   })
   .addRecipeGenerator("_dye_ie_mixer", (baseName, args) => {
-    val dye = args.items[ColoredItem.Dye];
-    val coloredProcessingItemTag = args.itemTags[ColoredItemTag.ColoredProcessingItem];
-    val water = args.water;
+    val dye = args.getItem(ColoredItem.Dye);
+    val coloredProcessingItemTag = args.getItemTag(ColoredItemTag.ColoredProcessingItem);
+    val water = args.getWater();
 
     if dye == null || coloredProcessingItemTag == null || water == null {
       return;

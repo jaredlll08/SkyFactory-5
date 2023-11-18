@@ -6,12 +6,12 @@ import crafttweaker.api.entity.type.player.Player;
 ContentBuilder.factory
   .addLootModifierGenerator("colored_leaves_", (baseName, args) => {
     // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
-    // val leaves = args.blocks[ColoredBlock.Leaves];
+    // val leaves = args.getBlock(ColoredBlock.Leaves);
     val leaves = BracketHandlers.getBlock("colouredstuff:leaves_" + args.color.getResourceName()) as Block?;
 
-    val apple = args.items[ColoredItem.Apple];
-    val dye = args.items[ColoredItem.Dye];
-    val sapling = args.items[ColoredItem.Sapling];
+    val apple = args.getItem(ColoredItem.Apple);
+    val dye = args.getItem(ColoredItem.Dye);
+    val sapling = args.getItem(ColoredItem.Sapling);
 
     val gateways = getGatewayTreeDropsForColor(args.color);
 
@@ -59,7 +59,7 @@ ContentBuilder.factory
     }
 
     // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
-    // val leaves = args.blocks[ColoredBlock.Leaves];
+    // val leaves = args.getBlock(ColoredBlock.Leaves);
     val leaves = BracketHandlers.getBlock("colouredstuff:leaves_" + args.color.getResourceName()) as Block?;
 
     if leaves == null {

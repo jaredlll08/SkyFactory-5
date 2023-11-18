@@ -1,7 +1,7 @@
 ContentBuilder.factory
   .addRecipeGenerator("_dye_from_processing_items", (baseName, args) => {
-    val dye = args.items[ColoredItem.Dye];
-    val coloredProcessingItemTag = args.itemTags[ColoredItemTag.ColoredProcessingItem];
+    val dye = args.getItem(ColoredItem.Dye);
+    val coloredProcessingItemTag = args.getItemTag(ColoredItemTag.ColoredProcessingItem);
 
     if dye == null || coloredProcessingItemTag == null {
       return;
