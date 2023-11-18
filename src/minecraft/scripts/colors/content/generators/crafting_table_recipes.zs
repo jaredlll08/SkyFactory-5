@@ -76,6 +76,31 @@ ContentBuilder.factory
       [dyeBlockItem]
     );
   })
+  .addRecipeGenerator("_dye_from_essence", (baseName, args) => {
+    val essence = args.getItem(ColoredItem.Essence);
+    val dye = args.getItem(ColoredItem.Dye);
+    val stage = getStageForColor(args.color);
+
+    if essence == null || dye == null || stage == null {
+      return;
+    }
+
+    mods.recipestages.Recipes.addShapeless(
+      stage,
+      args.color.getResourceName() + baseName,
+      dye * 4,
+      [
+        essence,
+        essence,
+        essence,
+        essence,
+        essence,
+        essence,
+        essence,
+        essence
+      ]
+    );
+  })
   .addRecipeGenerator("_campfire", (baseName, args) => {
     val logItem = args.getItem(ColoredItem.Log);
     val torchItem = args.getItem(ColoredItem.Torch);

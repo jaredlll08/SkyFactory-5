@@ -9,6 +9,7 @@ public enum ColoredItem {
   Crucible = "crucible",
   Dye = "dye",
   DyeBlock = "dye_block",
+  Essence = "essence",
   LimitedStorageBarrel1 = "limited_storage_barrel_1",
   LimitedStorageBarrel2 = "limited_storage_barrel_2",
   LimitedStorageBarrel4 = "limited_storage_barrel_4",
@@ -89,6 +90,13 @@ ContentBuilder.factory
     }
 
     return BracketHandlers.getItem("sf5_things:block_of_" + resourceName + "_dye");
+  })
+  .registerItem(ColoredItem.Essence, (color) => {
+    if color.getName() == ColorName.None {
+      return null;
+    }
+
+    return <item:mysticalagriculture:${color.getResourceName()}_crop_essence>;
   })
   .registerItem(ColoredItem.Plank, (color) => {
     return BracketHandlers.getItem("colouredstuff:planks_" + color.getResourceName());
