@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft-07/schema",
   "title": "Gateways To Eternity Gateway V2",
   "description": "A V2 gateway datapack file used to define a new Gateway for the Gateways To Eternity mod.",
-  "oneOf": [
+  "anyOf": [
     {
       "$ref": "#/$defs/normalGateway"
     },
@@ -85,7 +85,7 @@
           "$ref": "#/$defs/gatewayBossEventSettings"
         }
       },
-      "required": ["__typename", "size", "color", "waves"],
+      "required": ["__typename", "size", "color", "base_wave", "modifiers"],
       "additionalProperties": false
     },
     "invalidGateway": {

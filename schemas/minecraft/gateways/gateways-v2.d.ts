@@ -338,8 +338,8 @@ export interface EndlessGateway {
   __typename: "EndlessGateway";
   size: GatewaySize;
   color: GatewayColor;
-  base_wave?: GatewayWave1;
-  modifiers?: EndlessGatewayModifiers;
+  base_wave: GatewayWave1;
+  modifiers: EndlessGatewayModifiers;
   failures?: GatewayFailures;
   spawn_algorithm?: GatewaySpawnAlgorithm;
   rules?: GatewayRules;
