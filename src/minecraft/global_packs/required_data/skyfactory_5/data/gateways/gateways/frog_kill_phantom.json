@@ -1,47 +1,51 @@
 {
+  "__typename": "NormalGateway",
   "size": "large",
-  "leash_range": 50000000,
   "color": "#0000ff",
   "waves": [
     {
       "entities": [
         {
-          "entity": "minecraft:phantom",
-          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
-        },
-        {
+          "type": "gateways:standard",
+          "count": 2,
           "entity": "minecraft:phantom",
           "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
         }
       ],
+      "max_wave_time": 1200,
       "modifiers": [],
       "rewards": [
         {
-          "type": "entity_loot",
+          "type": "gateways:entity_loot",
           "entity": "minecraft:phantom",
           "rolls": 10
         }
       ],
-      "max_wave_time": 1200,
       "setup_time": 200
     }
   ],
   "rewards": [
     {
-      "type": "stack",
+      "type": "gateways:stack",
       "stack": {
-        "item": "obtrophies:trophy",
         "count": 1,
+        "item": "obtrophies:trophy",
         "nbt": {
           "BlockEntityTag": {
-            "VariantID": 0,
             "SpecialCycleVariant": 0,
+            "VariantID": 0,
             "entity": "minecraft:phantom"
           }
         }
       }
+    },
+    {
+      "type": "gateways:experience",
+      "experience": 250
     }
   ],
-  "completion_xp": 250,
-  "spawn_range": 5
+  "rules": {
+    "leash_range": 50000000,
+    "spawn_range": 5
+  }
 }
