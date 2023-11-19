@@ -7,39 +7,147 @@
       "entities": [
         {
           "type": "gateways:standard",
-          "count": 2,
+          "count": 4,
           "entity": "minecraft:silverfish",
-          "nbt": "{ForgeCaps: {\"shrink:shrunk\": {scale:1.5,isshrunk: 1}},DeathLootTable:\"skyfactory_5:gateway_entities\", ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035}, Unbreakable:1b}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F]}"
+          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}]}"
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:experience",
+          "experience": 50
+        },
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "minecraft:gray_dye",
+            "count": 16
+          }
         }
       ],
       "max_wave_time": 1200,
-      "modifiers": [],
-      "rewards": [],
       "setup_time": 200
-    }
-  ],
-  "rewards": [
-    {
-      "type": "gateways:stack",
-      "stack": {
-        "count": 1,
-        "item": "obtrophies:trophy",
-        "nbt": {
-          "BlockEntityTag": {
-            "SpecialCycleVariant": 0,
-            "VariantID": 0,
-            "entity": "minecraft:silverfish"
-          }
-        }
-      }
     },
     {
-      "type": "gateways:experience",
-      "experience": 250
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "minecraft:silverfish",
+          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}]}"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.max_health",
+          "operation": "multiply_total",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 2
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 0.05
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:experience",
+          "experience": 75
+        },
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "minecraft:gray_dye",
+            "count": 16
+          }
+        }
+      ],
+      "max_wave_time": 1800,
+      "setup_time": 280
+    },
+    {
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "minecraft:silverfish",
+          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}]}"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.max_health",
+          "operation": "multiply_total",
+          "value": 0.2
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 3
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 0.2
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 0.1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:experience",
+          "experience": 100
+        },
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "minecraft:gray_dye",
+            "count": 32
+          }
+        }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 340
     }
   ],
   "rules": {
-    "leash_range": 50000000,
+    "leash_range": 32,
     "spawn_range": 5
+  },
+  "boss_event": {
+    "mode": "name_plate"
   }
 }
