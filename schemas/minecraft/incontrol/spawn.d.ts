@@ -89,6 +89,7 @@ export type InControlSpawn = {
   maxdifficulty?: number;
   maxheight?: number;
   maxlight?: number;
+  maxlight_full?: number;
   maxspawndist?: number;
   maxtime?: number;
   mincount?:
@@ -101,6 +102,7 @@ export type InControlSpawn = {
   mindifficulty?: number;
   minheight?: number;
   minlight?: number;
+  minlight_full?: number;
   minspawndist?: number;
   mintime?: number;
   mob?: string | string[];
