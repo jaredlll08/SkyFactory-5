@@ -126,7 +126,7 @@
     },
     {
       "fileMatch": [
-        "/src/minecraft/global_packs/required_data/*/data/gateways/gateways/*.json"
+        "/src/minecraft/global_packs/required_data/*/data/gateways/gateways/**/*.json"
       ],
       "url": "./schemas/minecraft/gateways/gateways-v2.json"
     }

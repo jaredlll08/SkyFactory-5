@@ -5,7 +5,7 @@ export const schemaFiles = new Map<string, string[]>([
   [
     "minecraft/gateways/gateways-v2.json",
     [
-      "/src/minecraft/global_packs/required_data/*/data/gateways/gateways/*.json",
+      "/src/minecraft/global_packs/required_data/*/data/gateways/gateways/**/*.json",
     ],
   ],
   [
