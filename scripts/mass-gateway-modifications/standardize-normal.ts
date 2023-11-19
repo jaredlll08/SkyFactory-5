@@ -172,6 +172,25 @@ async function main() {
                 setup_time: 340,
               },
             ],
+            rewards: [
+              {
+                type: "gateways:experience",
+                experience: 250,
+              },
+              {
+                type: "gateways:stack",
+                stack: {
+                  item: "obtrophies:trophy",
+                  nbt: {
+                    BlockEntityTag: {
+                      SpecialCycleVariant: 0,
+                      VariantID: 0,
+                      entity: waveEntity.entity,
+                    },
+                  },
+                },
+              },
+            ],
             rules: {
               leash_range: 32,
               spawn_range: 5,
