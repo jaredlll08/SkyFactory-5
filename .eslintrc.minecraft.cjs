@@ -67,6 +67,39 @@ const config = {
         ],
       },
     },
+    {
+      files: [
+        minecraftSubPath(
+          "global_packs/required_data/**/data/gateways/gateways/*.json",
+        ),
+      ],
+      rules: {
+        "jsonc/sort-keys": [
+          "error",
+          {
+            pathPattern: "^$",
+            order: [
+              "__typename",
+              "size",
+              "color",
+              "waves",
+              "rewards",
+              "base_wave",
+              "modifiers",
+              "failures",
+              "spawn_algorithm",
+              "rules",
+              "boss_event",
+              { keyPattern: ".*" },
+            ],
+          },
+          {
+            pathPattern: ".*",
+            order: ["type", { keyPattern: ".*" }],
+          },
+        ],
+      },
+    },
   ],
 };
 

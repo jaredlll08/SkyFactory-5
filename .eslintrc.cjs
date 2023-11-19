@@ -147,6 +147,12 @@ function getGeneratedSchemaValidatorRules() {
       schema: "./schemas/mc-package.json",
     },
     {
+      fileMatch: [
+        "src/minecraft/global_packs/required_data/*/data/gateways/gateways/*.json",
+      ],
+      schema: "./schemas/minecraft/gateways/gateways-v2.json",
+    },
+    {
       fileMatch: ["src/minecraft/config/incontrol/loot.json"],
       schema: "./schemas/minecraft/incontrol/loot.json",
     },

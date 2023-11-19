@@ -123,6 +123,12 @@
     {
       "fileMatch": ["/probe/docs/*.json"],
       "url": "./.vscode/probe.doc-schema.json"
+    },
+    {
+      "fileMatch": [
+        "/src/minecraft/global_packs/required_data/*/data/gateways/gateways/*.json"
+      ],
+      "url": "./schemas/minecraft/gateways/gateways-v2.json"
     }
   ],
   "cSpell.enabledLanguageIds": [
