@@ -1,0 +1,522 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "Gateways To Eternity Gateway V1",
+  "description": "A V1 gateway datapack file used to define a new Gateway for the Gateways To Eternity mod.",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/normalGateway"
+    },
+    {
+      "$ref": "#/$defs/invalidGateway"
+    }
+  ],
+
+  "$defs": {
+    "normalGateway": {
+      "type": "object",
+      "properties": {
+        "__typename": {
+          "type": "string",
+          "const": "NormalGateway"
+        },
+        "size": {
+          "$ref": "#/$defs/gatewaySize"
+        },
+        "color": {
+          "$ref": "#/$defs/gatewayColor"
+        },
+        "waves": {
+          "$ref": "#/$defs/gatewayWaves"
+        },
+        "rewards": {
+          "$ref": "#/$defs/gatewayRewards"
+        },
+        "failures": {
+          "$ref": "#/$defs/gatewayFailures"
+        },
+        "spawn_algorithm": {
+          "$ref": "#/$defs/gatewaySpawnAlgorithm"
+        },
+        "completion_xp": {
+          "type": "number"
+        },
+        "spawn_range": {
+          "type": "number"
+        },
+        "leash_range": {
+          "type": "number"
+        },
+        "player_damage_only": {
+          "type": "boolean"
+        },
+        "allow_discarding": {
+          "type": "boolean"
+        }
+      },
+      "required": ["__typename", "size", "color", "waves"],
+      "additionalProperties": false
+    },
+    "invalidGateway": {
+      "type": "object",
+      "properties": {
+        "__typename": {
+          "type": "string",
+          "const": "InvalidGateway"
+        },
+        "conditions": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "const": "forge:false"
+                }
+              },
+              "required": ["type"],
+              "additionalProperties": false
+            }
+          ],
+          "minItems": 1,
+          "maxItems": 1
+        }
+      },
+      "description": "Allows for invalidating an existing gateway",
+      "required": ["__typename", "conditions"],
+      "additionalProperties": false
+    },
+
+    "gatewaySize": {
+      "type": "string",
+      "enum": ["small", "medium", "large"]
+    },
+    "gatewayColor": {
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": [
+            "black",
+            "dark_blue",
+            "dark_green",
+            "dark_aqua",
+            "dark_red",
+            "dark_purple",
+            "gold",
+            "gray",
+            "dark_gray",
+            "blue",
+            "green",
+            "aqua",
+            "red",
+            "light_purple",
+            "yellow",
+            "white",
+            "minecoin_gold",
+            "material_quartz",
+            "material_iron",
+            "material_netherite",
+            "material_redstone",
+            "material_copper",
+            "material_gold",
+            "material_emerald",
+            "material_diamond",
+            "material_lapis",
+            "material_amethyst"
+          ]
+        },
+        {
+          "type": "string",
+          "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+        }
+      ]
+    },
+
+    "gatewayWaves": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/gatewayWave"
+      }
+    },
+    "gatewayWave": {
+      "type": "object",
+      "properties": {
+        "entities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/gatewayWaveEntity"
+          }
+        },
+        "modifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/gatewayWaveModifier"
+          },
+          "description": "A list of wave modifiers to be applied to all spawned entities."
+        },
+        "rewards": {
+          "$ref": "#/$defs/gatewayRewards"
+        },
+        "max_wave_time": {
+          "type": "number",
+          "description": "The maximum time (in ticks) that a player may take to complete this wave."
+        },
+        "setup_time": {
+          "type": "number",
+          "description": "The setup time (in ticks) before this wave begins, after the last wave was completed."
+        }
+      },
+      "required": ["entities", "max_wave_time", "setup_time"],
+      "additionalProperties": false
+    },
+    "gatewayWaveEntity": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "gateways:standard"
+            },
+            "entity": {
+              "type": "string",
+              "description": "Registry name of the entity being spawned."
+            },
+            "desc": {
+              "type": "string",
+              "description": "Lang key used when this wave entity is displayed in a tooltip. If absent, the default lang key of the entity type used."
+            },
+            "nbt": {
+              "$ref": "#/$defs/compoundTag"
+            },
+            "modifiers": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/gatewayWaveModifier"
+              },
+              "description": "A list of wave modifiers for the entity."
+            },
+            "count": {
+              "type": "number",
+              "description": "The number of copies of this entity to spawn.",
+              "minimum": 1
+            }
+          },
+          "required": ["entity"],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "gatewayWaveModifier": {
+      "type": "object",
+      "properties": {
+        "attribute": {
+          "type": "string"
+        },
+        "operation": {
+          "type": "string",
+          "enum": ["ADDITION", "MULTIPLY_BASE", "MULTIPLY_TOTAL"]
+        },
+        "value": {
+          "type": "number"
+        }
+      },
+      "required": ["attribute", "operation", "value"],
+      "additionalProperties": false
+    },
+
+    "gatewayRewards": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/gatewayReward"
+      }
+    },
+    "gatewayReward": {
+      "oneOf": [
+        {
+          "type": "object",
+          "description": "Rewards a single ItemStack.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "stack"
+            },
+            "stack": {
+              "$ref": "#/$defs/itemStack"
+            }
+          },
+          "required": ["type", "stack"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "description": "Rewards one or more ItemStacks.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "stack_list"
+            },
+            "stacks": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/itemStack"
+              }
+            }
+          },
+          "required": ["type", "stacks"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "description": "Rewards the loot of a specific entity, as if the summoner had killed it.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "entity_loot"
+            },
+            "entity": {
+              "type": "string"
+            },
+            "nbt": {
+              "$ref": "#/$defs/compoundTag",
+              "description": "NBT data that will be loaded onto the entity before evaluating the loot table."
+            },
+            "rolls": {
+              "type": "number",
+              "description": "The number of times the loot table will be rolled. Default value = 1.",
+              "minimum": 1
+            }
+          },
+          "required": ["type", "entity"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "description": "Rewards the loot generated by a specific loot table. The loot table will only receive a position, player, and tool context.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "loot_table"
+            },
+            "loot_table": {
+              "type": "string"
+            },
+            "rolls": {
+              "type": "number",
+              "description": "The number of times the loot table will be rolled. Default value = 1.",
+              "minimum": 1
+            },
+            "desc": {
+              "type": "string",
+              "description": "Lang key (or english text) which will be used to display the reward in the tooltip."
+            }
+          },
+          "required": ["type", "loot_table", "desc"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "description": "Executes a command when rewards would be generated. The keyphrase <summoner> will be replaced with the summoning player's name before command execution. If the summoner is absent, the closest player will be used instead.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "command"
+            },
+            "command": {
+              "type": "string",
+              "description": "The command string, without a leading slash."
+            },
+            "desc": {
+              "type": "string",
+              "description": "Lang Key (or english text) which will be used to display the reward in the tooltip."
+            }
+          },
+          "required": ["type", "command", "desc"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "description": "Provides a chance to receive any other reward.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "chanced"
+            },
+            "chance": {
+              "type": "number",
+              "description": "The chance the reward is granted. 1 is 100%",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "reward": {
+              "$ref": "#/$defs/gatewayReward"
+            }
+          },
+          "required": ["type", "chance", "reward"],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "gatewayFailures": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/gatewayFailure"
+      }
+    },
+    "gatewayFailure": {
+      "oneOf": [
+        {
+          "type": "object",
+          "description": "Triggers an explosion at the position of the Gateway.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "explosion"
+            },
+            "strength": {
+              "type": "number"
+            },
+            "fire": {
+              "type": "boolean",
+              "description": "If the explosion will cause fire to spawn."
+            },
+            "block_damage": {
+              "type": "boolean",
+              "description": "If the explosion will damage blocks."
+            }
+          },
+          "required": ["type", "strength", "fire", "block_damage"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "description": "Applies an effect instance to all nearby players.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "mob_effect"
+            },
+            "effect": {
+              "type": "string"
+            },
+            "duration": {
+              "type": "number",
+              "description": "Duration, in ticks, of the effect.",
+              "minimum": 0
+            },
+            "amplifier": {
+              "type": "number",
+              "description": "Effect amplifier. A value of zero corresponds to level 1.",
+              "minimum": 0
+            }
+          },
+          "required": ["type", "effect", "duration", "amplifier"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "description": "Summons a wave entity using the spawn algorithm of the Gateway.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "summon"
+            },
+            "entity": {
+              "$ref": "#/$defs/gatewayWaveEntity"
+            }
+          },
+          "required": ["type", "entity"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "description": "Executes a command when the Gateway fails. The keyphrase <summoner> will be replaced with the summoning player's name before command execution. If the summoner is absent, the closest player will be used instead.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "command"
+            },
+            "command": {
+              "type": "string",
+              "description": "The command string, without a leading slash."
+            },
+            "desc": {
+              "type": "string",
+              "description": "Lang Key (or english text) which will be used to display the failure in the tooltip."
+            }
+          },
+          "required": ["type", "command", "desc"],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "description": "Provides a chance to trigger any other failure.",
+          "properties": {
+            "type": {
+              "type": "string",
+              "const": "chanced"
+            },
+            "chance": {
+              "type": "number",
+              "description": "The chance the reward is granted. 1 is 100%",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": ["type", "chance", "failure"],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "gatewaySpawnAlgorithm": {
+      "oneOf": [
+        {
+          "type": "string",
+          "const": "gateways:open_field",
+          "description": "The Open Field algorithm attempts to place the entity randomly within the Gateway's spawn range. It is recommended that you use this algorithm when you want to enforce usage of a spacious arena. If placement fails after fifteen attempts, the Gateway will fail with the SPAWN_FAILED reason."
+        },
+        {
+          "type": "string",
+          "const": "gateways:inward_spiral",
+          "description": "The Inward Spiral algorithm attempts to place the entity within the Gateway's spawn range, but reduces the spawn range as spawn attempts fail. It is recommended that you use this algorithm when space constrained, or you want to allow using the Gateway in a small area. The placement of this algorithm will never fail, as if it fails the first fourteen attempts, it will place the entity at the center of the gateway."
+        }
+      ]
+    },
+
+    "itemStack": {
+      "type": "object",
+      "properties": {
+        "item": {
+          "type": "string",
+          "description": "Registry name of the item to load."
+        },
+        "optional": {
+          "type": "boolean",
+          "description": "If this stack is optional, and will produce an empty stack instead of throwing an error when the item is not found. Default value = false."
+        },
+        "count": {
+          "type": "number",
+          "minimum": 1
+        },
+        "nbt": {
+          "$ref": "#/$defs/compoundTag"
+        },
+        "cap_nbt": {
+          "$ref": "#/$defs/compoundTag"
+        }
+      },
+      "required": ["item"],
+      "additionalProperties": false
+    },
+    "compoundTag": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "object"
+        }
+      ]
+    }
+  }
+}

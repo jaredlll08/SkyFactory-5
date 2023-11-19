@@ -23,8 +23,9 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
         pattern: /\/\/ GENERATOR START[\W\w]*\/\/ GENERATOR END/g,
         templateFile: path.join(__dirname, "eslintrc.template.txt"),
         data: {
-          schemaEntries: Array.from(schemaFiles).map(
-            ([schemaPath, fileMatches]) => {
+          schemaEntries: Array.from(schemaFiles)
+            .filter(([, fileMatches]) => fileMatches.length > 0)
+            .map(([schemaPath, fileMatches]) => {
               fileMatches = fileMatches.map((fileMatch) =>
                 fileMatch.substring(1),
               );
@@ -32,8 +33,7 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
                 fileMatch: JSON.stringify(fileMatches, undefined, 2),
                 schema: `"./schemas/${schemaPath}"`,
               };
-            },
-          ),
+            }),
         },
         transform: async (fileContents) => {
           const prettierConfig =
@@ -113,7 +113,10 @@ const updateVSCodeSchemas: CustomActionFunction = async () => {
         return;
       }
 
-      entry.fileMatch = fileMatch;
+      if (fileMatch.length > 0) {
+        entry.fileMatch = fileMatch;
+      }
+
       unfoundMatches.delete(shortenedUrl);
     });
   }
@@ -123,6 +126,11 @@ const updateVSCodeSchemas: CustomActionFunction = async () => {
 
     if (!fileMatch) {
       throw new Error(`failed to find fileMatch for key ${entry}`);
+    }
+
+    // Don't bother setting an empty
+    if (fileMatch.length === 0) {
+      return;
     }
 
     schemasEntry.push({

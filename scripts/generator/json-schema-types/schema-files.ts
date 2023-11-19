@@ -1,6 +1,8 @@
 // A list of schema files to generate types for
 export const schemaFiles = new Map<string, string[]>([
   ["mc-package.json", ["/mc-package.json"]],
+  ["minecraft/gateways/gateways-v1.json", []],
+  ["minecraft/gateways/gateways-v2.json", []],
   [
     "minecraft/incontrol/loot.json",
     ["/src/minecraft/config/incontrol/loot.json"],
