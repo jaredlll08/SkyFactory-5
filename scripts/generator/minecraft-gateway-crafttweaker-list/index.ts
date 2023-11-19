@@ -39,24 +39,24 @@ const updateCrafttweakerColorGatewayScript: CustomActionFunction = async (
 
   await Promise.all(
     gatewayDatapackFiles.map(async (filePath) => {
-      const fileName = path.parse(filePath).name;
+      const relativePath = path.relative(gatewaysBasePath, filePath);
       const data = await readJSONFile<GatewaysToEternityGatewayV2>(filePath);
 
       if (data.__typename === "InvalidGateway") {
-        ignoredFiles.push(fileName);
+        ignoredFiles.push(relativePath);
         return;
       }
 
       const colorName = mapHexToColorName(data.color);
       if (colorName === null) {
-        uncategorizedFiles.push(fileName);
+        uncategorizedFiles.push(relativePath);
         return;
       }
 
       if (categorizedMap.has(colorName)) {
-        categorizedMap.get(colorName)?.add(fileName);
+        categorizedMap.get(colorName)?.add(relativePath);
       } else {
-        categorizedMap.set(colorName, new Set([fileName]));
+        categorizedMap.set(colorName, new Set([relativePath]));
       }
     }),
   );
@@ -74,7 +74,12 @@ const updateCrafttweakerColorGatewayScript: CustomActionFunction = async (
         .map(([key, val]) => ({
           colorName: key,
           gateways: Array.from(val)
-            .map((name) => `gateways:${name}`)
+            .map(
+              (relativePath) =>
+                `gateways:${relativePath
+                  .replace(path.parse(relativePath).ext, "")
+                  .replace("\\", "/")}`,
+            )
             .sort((a, b) => a.localeCompare(b)),
         }))
         .sort((a, b) => a.colorName.localeCompare(b.colorName)),
