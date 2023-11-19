@@ -160,6 +160,15 @@
           }
         }
       }
+    },
+    {
+      "type": "gateways:summon",
+      "entity": {
+        "type": "gateways:standard",
+        "count": 4,
+        "entity": "minecraft:chicken",
+        "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{Unbreakable:1b}}]}"
+      }
     }
   ],
   "rules": {

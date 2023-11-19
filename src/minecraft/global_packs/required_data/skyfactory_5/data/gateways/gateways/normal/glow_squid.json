@@ -160,6 +160,15 @@
           }
         }
       }
+    },
+    {
+      "type": "gateways:summon",
+      "entity": {
+        "type": "gateways:standard",
+        "count": 4,
+        "entity": "minecraft:glow_squid",
+        "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}]}"
+      }
     }
   ],
   "rules": {

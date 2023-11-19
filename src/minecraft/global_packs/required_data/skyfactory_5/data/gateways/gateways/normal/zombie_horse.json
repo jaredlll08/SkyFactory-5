@@ -160,6 +160,15 @@
           }
         }
       }
+    },
+    {
+      "type": "gateways:summon",
+      "entity": {
+        "type": "gateways:standard",
+        "count": 4,
+        "entity": "minecraft:zombie_horse",
+        "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",DyeMobDyeColor:13b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}]}"
+      }
     }
   ],
   "rules": {

@@ -9,6 +9,7 @@ import {
   cleanEntityNBT,
   ColorName,
   getDyeFromColor,
+  isFriendlyMob,
   mapHexToColorName,
 } from "./utils";
 
@@ -199,6 +200,13 @@ async function main() {
               mode: "name_plate",
             },
           };
+
+          if (isFriendlyMob(waveEntity.entity)) {
+            newData.rewards!.push({
+              type: "gateways:summon",
+              entity: waveEntity,
+            });
+          }
 
           return await writeJSONFile(filePath, newData, "json");
         }
