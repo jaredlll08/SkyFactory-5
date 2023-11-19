@@ -40,7 +40,7 @@
     },
     {
       "type": "gateways:command",
-      "command": "/function skyfactory_5:rain",
+      "command": "function skyfactory_5:rain",
       "desc": "Discovers the color Blue"
     },
     {
