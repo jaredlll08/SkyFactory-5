@@ -240,7 +240,7 @@
     }
   },
   {
-    "mob": ["minecraft:llama"],
+    "mob": ["minecraft:llama", "minecraft:trader_llama"],
     "persecond": 10,
     "attempts": 50,
     "amount": {
@@ -918,6 +918,26 @@
     "amount": {
       "minimum": 1,
       "maximum": 3
+    },
+    "conditions": {
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": ["minecraft:villager", "minecraft:wandering_trader"],
+    "persecond": 2,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
     },
     "conditions": {
       "dimension": [

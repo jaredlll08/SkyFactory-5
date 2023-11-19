@@ -1234,6 +1234,22 @@
     "result": "allow"
   },
   {
+    "mob": ["minecraft:trader_llama"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "traderllama",
+    "minlight_full": 7,
+    "maxlight_full": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
     "mob": ["energeticsheep:energetic_sheep"],
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"

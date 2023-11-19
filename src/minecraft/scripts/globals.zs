@@ -113,6 +113,7 @@ public class Globals {
     // Villagers and Wandering Trader
     <entitytype:minecraft:villager>: new StagedMob(<entitytype:minecraft:villager>, MobStage.Villager),
     <entitytype:minecraft:wandering_trader>: new StagedMob(<entitytype:minecraft:wandering_trader>, MobStage.WanderingTrader),
+    <entitytype:minecraft:trader_llama>: new StagedMob(<entitytype:minecraft:trader_llama>, MobStage.TraderLlama),
 
     // Golems
     <entitytype:minecraft:iron_golem>: new StagedMob(<entitytype:minecraft:iron_golem>, MobStage.IronGolem),
