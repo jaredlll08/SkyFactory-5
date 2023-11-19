@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:chicken\"}"
+              "tag": "{gateway:\"gateways:normal/chicken\"}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:ghast\"}"
+              "tag": "{gateway:\"gateways:normal/ghast\"}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:polar_bear\"}"
+              "tag": "{gateway:\"gateways:normal/polar_bear\"}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:skeleton_horse\"}"
+              "tag": "{gateway:\"gateways:normal/skeleton_horse\"}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:skeleton\"}"
+              "tag": "{gateway:\"gateways:normal/skeleton\"}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:panda\"}"
+              "tag": "{gateway:\"gateways:normal/panda\"}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:snow_golem\"}"
+              "tag": "{gateway:\"gateways:normal/snow_golem\"}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:goat\"}"
+              "tag": "{gateway:\"gateways:normal/goat\"}"
             }
           ]
         },
@@ -98,7 +98,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:sheep\"}"
+              "tag": "{gateway:\"gateways:normal/sheep\"}"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:energetic_sheep\"}"
+              "tag": "{gateway:\"gateways:normal/energetic_sheep\"}"
             }
           ]
         },
@@ -120,7 +120,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:vein_creeper_white\"}"
+              "tag": "{gateway:\"gateways:normal/vein_creeper_white\"}"
             }
           ]
         },
@@ -131,7 +131,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:opalescent_eye\"}"
+              "tag": "{gateway:\"gateways:normal/opalescent_eye\"}"
             }
           ]
         }

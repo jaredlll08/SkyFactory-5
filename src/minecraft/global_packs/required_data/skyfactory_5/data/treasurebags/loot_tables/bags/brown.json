@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:ghast_cow\"}"
+              "tag": "{gateway:\"gateways:normal/ghast_cow\"}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:bat\"}"
+              "tag": "{gateway:\"gateways:normal/bat\"}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:cod\"}"
+              "tag": "{gateway:\"gateways:normal/cod\"}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:cow\"}"
+              "tag": "{gateway:\"gateways:normal/cow\"}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:donkey\"}"
+              "tag": "{gateway:\"gateways:normal/donkey\"}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:horse\"}"
+              "tag": "{gateway:\"gateways:normal/horse\"}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:husk\"}"
+              "tag": "{gateway:\"gateways:normal/husk\"}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:rabbit\"}"
+              "tag": "{gateway:\"gateways:normal/rabbit\"}"
             }
           ]
         },
@@ -98,7 +98,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:tadpole\"}"
+              "tag": "{gateway:\"gateways:normal/tadpole\"}"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:villager\"}"
+              "tag": "{gateway:\"gateways:normal/villager\"}"
             }
           ]
         },
@@ -120,7 +120,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:vein_creeper_brown\"}"
+              "tag": "{gateway:\"gateways:normal/vein_creeper_brown\"}"
             }
           ]
         }

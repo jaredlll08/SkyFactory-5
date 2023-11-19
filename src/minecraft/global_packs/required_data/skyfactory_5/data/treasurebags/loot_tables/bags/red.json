@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:mooshroom\"}"
+              "tag": "{gateway:\"gateways:normal/mooshroom\"}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:parrot\"}"
+              "tag": "{gateway:\"gateways:normal/parrot\"}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:strider\"}"
+              "tag": "{gateway:\"gateways:normal/strider\"}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:salmon\"}"
+              "tag": "{gateway:\"gateways:normal/salmon\"}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:cluck_shroom\"}"
+              "tag": "{gateway:\"gateways:normal/cluck_shroom\"}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:vein_creeper_red\"}"
+              "tag": "{gateway:\"gateways:normal/vein_creeper_red\"}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:red_chu_chu\"}"
+              "tag": "{gateway:\"gateways:normal/red_chu_chu\"}"
             }
           ]
         }

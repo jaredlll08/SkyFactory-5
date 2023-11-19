@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:blaze\"}"
+              "tag": "{gateway:\"gateways:normal/blaze\"}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:fox\"}"
+              "tag": "{gateway:\"gateways:normal/fox\"}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:magma_cube\"}"
+              "tag": "{gateway:\"gateways:normal/magma_cube\"}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:pufferfish\"}"
+              "tag": "{gateway:\"gateways:normal/pufferfish\"}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:tropical_fish\"}"
+              "tag": "{gateway:\"gateways:normal/tropical_fish\"}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:wooly_cow\"}"
+              "tag": "{gateway:\"gateways:normal/wooly_cow\"}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:vein_creeper_orange\"}"
+              "tag": "{gateway:\"gateways:normal/vein_creeper_orange\"}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:lava_monster\"}"
+              "tag": "{gateway:\"gateways:normal/lava_monster\"}"
             }
           ]
         },
@@ -98,7 +98,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:lava_squid\"}"
+              "tag": "{gateway:\"gateways:normal/lava_squid\"}"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:mother_lava_squid\"}"
+              "tag": "{gateway:\"gateways:normal/mother_lava_squid\"}"
             }
           ]
         }

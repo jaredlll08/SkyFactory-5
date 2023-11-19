@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:enderman\"}"
+              "tag": "{gateway:\"gateways:normal/enderman\"}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:spider\"}"
+              "tag": "{gateway:\"gateways:normal/spider\"}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:wither_skeleton\"}"
+              "tag": "{gateway:\"gateways:normal/wither_skeleton\"}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:wither\"}"
+              "tag": "{gateway:\"gateways:normal/wither\"}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:cave_spider\"}"
+              "tag": "{gateway:\"gateways:normal/cave_spider\"}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:ender_dragon\"}"
+              "tag": "{gateway:\"gateways:normal/ender_dragon\"}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:adelie_penguin\"}"
+              "tag": "{gateway:\"gateways:normal/adelie_penguin\"}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:vein_creeper_black\"}"
+              "tag": "{gateway:\"gateways:normal/vein_creeper_black\"}"
             }
           ]
         },
@@ -98,7 +98,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:ender_tot\"}"
+              "tag": "{gateway:\"gateways:normal/ender_tot\"}"
             }
           ]
         }

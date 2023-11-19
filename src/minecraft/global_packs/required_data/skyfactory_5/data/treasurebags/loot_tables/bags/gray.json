@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:silverfish\"}"
+              "tag": "{gateway:\"gateways:normal/silverfish\"}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:evoker\"}"
+              "tag": "{gateway:\"gateways:normal/evoker\"}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:cat\"}"
+              "tag": "{gateway:\"gateways:normal/cat\"}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:pillager\"}"
+              "tag": "{gateway:\"gateways:normal/pillager\"}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:ravager\"}"
+              "tag": "{gateway:\"gateways:normal/ravager\"}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:vindicator\"}"
+              "tag": "{gateway:\"gateways:normal/vindicator\"}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:illusioner\"}"
+              "tag": "{gateway:\"gateways:normal/illusioner\"}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:vein_creeper_gray\"}"
+              "tag": "{gateway:\"gateways:normal/vein_creeper_gray\"}"
             }
           ]
         },
@@ -98,7 +98,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:abyssologer\"}"
+              "tag": "{gateway:\"gateways:normal/abyssologer\"}"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:swamp_zombie\"}"
+              "tag": "{gateway:\"gateways:normal/swamp_zombie\"}"
             }
           ]
         },
@@ -120,7 +120,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:crystal_zombie\"}"
+              "tag": "{gateway:\"gateways:normal/crystal_zombie\"}"
             }
           ]
         }

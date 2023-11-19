@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:creeper\"}"
+              "tag": "{gateway:\"gateways:normal/creeper\"}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:slime\"}"
+              "tag": "{gateway:\"gateways:normal/slime\"}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:turtle\"}"
+              "tag": "{gateway:\"gateways:normal/turtle\"}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:vein_creeper_lime\"}"
+              "tag": "{gateway:\"gateways:normal/vein_creeper_lime\"}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:forcecraft:creeper_tot\"}"
+              "tag": "{gateway:\"gateways:normal/forcecraft:creeper_tot\"}"
             }
           ]
         }

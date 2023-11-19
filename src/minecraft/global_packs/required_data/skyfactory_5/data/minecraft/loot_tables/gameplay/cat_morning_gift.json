@@ -20,7 +20,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:chicken\"}"
+              "tag": "{gateway:\"gateways:normal/chicken\"}"
             }
           ],
           "weight": 2
@@ -31,7 +31,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:rabbit\"}"
+              "tag": "{gateway:\"gateways:normal/rabbit\"}"
             }
           ],
           "weight": 2

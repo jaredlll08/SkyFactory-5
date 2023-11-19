@@ -19,7 +19,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
   }
 
   if rollsChance(ctx.random, 0.69) {
-    drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:drowned"}));
+    drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/drowned"}));
   }
 
   return drops;

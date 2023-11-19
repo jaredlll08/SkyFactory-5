@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zombified_piglin\"}"
+              "tag": "{gateway:\"gateways:normal/zombified_piglin\"}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:pig\"}"
+              "tag": "{gateway:\"gateways:normal/pig\"}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:axolotl\"}"
+              "tag": "{gateway:\"gateways:normal/axolotl\"}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:zoglin\"}"
+              "tag": "{gateway:\"gateways:normal/zoglin\"}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:hoglin\"}"
+              "tag": "{gateway:\"gateways:normal/hoglin\"}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:piglin\"}"
+              "tag": "{gateway:\"gateways:normal/piglin\"}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:piglin_brute\"}"
+              "tag": "{gateway:\"gateways:normal/piglin_brute\"}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:vein_creeper_pink\"}"
+              "tag": "{gateway:\"gateways:normal/vein_creeper_pink\"}"
             }
           ]
         }

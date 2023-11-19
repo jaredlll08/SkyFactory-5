@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:drowned\"}"
+              "tag": "{gateway:\"gateways:normal/drowned\"}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:squid\"}"
+              "tag": "{gateway:\"gateways:normal/squid\"}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:wandering_trader\"}"
+              "tag": "{gateway:\"gateways:normal/wandering_trader\"}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:trader_llama\"}"
+              "tag": "{gateway:\"gateways:normal/trader_llama\"}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:phantom\"}"
+              "tag": "{gateway:\"gateways:normal/phantom\"}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:vein_creeper_blue\"}"
+              "tag": "{gateway:\"gateways:normal/vein_creeper_blue\"}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:blue_chu_chu\"}"
+              "tag": "{gateway:\"gateways:normal/blue_chu_chu\"}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:spectral_skeleton\"}"
+              "tag": "{gateway:\"gateways:normal/spectral_skeleton\"}"
             }
           ]
         }
