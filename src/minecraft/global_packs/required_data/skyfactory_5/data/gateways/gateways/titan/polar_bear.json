@@ -1,0 +1,87 @@
+{
+  "__typename": "EndlessGateway",
+  "size": "large",
+  "color": "#ffffff",
+  "base_wave": {
+    "entities": [
+      {
+        "type": "gateways:standard",
+        "count": 3,
+        "entity": "minecraft:polar_bear",
+        "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{Unbreakable:1b}}]}"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "gateways:experience",
+        "experience": 50
+      },
+      {
+        "type": "gateways:stack",
+        "stack": {
+          "item": "minecraft:white_dye",
+          "count": 8
+        }
+      }
+    ],
+    "max_wave_time": 1200,
+    "setup_time": 200
+  },
+  "modifiers": [
+    {
+      "application_mode": {
+        "type": "gateways:after_every_n_waves",
+        "waves": 3,
+        "max": 4
+      },
+      "setup_time": 100
+    },
+    {
+      "application_mode": {
+        "type": "gateways:after_every_n_waves",
+        "waves": 3,
+        "max": 12
+      },
+      "max_wave_time": 400
+    },
+    {
+      "application_mode": {
+        "type": "gateways:after_every_n_waves",
+        "waves": 3
+      },
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.max_health",
+          "operation": "multiply_total",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 1
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 0.1
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.05
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "leash_range": 32,
+    "spawn_range": 5
+  },
+  "boss_event": {
+    "mode": "name_plate"
+  }
+}

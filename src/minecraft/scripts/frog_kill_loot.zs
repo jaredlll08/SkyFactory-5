@@ -17,7 +17,7 @@ loot.modifiers.register(
     if ctx.thisEntity is Entity {
       val entity = ctx.thisEntity as Entity;
       if !(entity.type in noFrogDrops) {
-        drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:frog_kill_" + entity.registryName.path}));
+        drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/" + entity.registryName.path}));
       }
     }
     return drops;
