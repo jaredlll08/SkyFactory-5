@@ -80,6 +80,7 @@ const config = {
             pathPattern: "^$",
             order: [
               "__typename",
+              "type",
               "size",
               "color",
               "waves",

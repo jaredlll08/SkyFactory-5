@@ -249,6 +249,7 @@ export type EndlessGatewayModifiers = EndlessGatewayModifier[];
  */
 export interface NormalGateway {
   __typename: "NormalGateway";
+  type?: "gateways:normal";
   size: GatewaySize;
   color: GatewayColor;
   waves: GatewayWaves;
@@ -336,6 +337,7 @@ export interface GatewayBossEventSettings {
  */
 export interface EndlessGateway {
   __typename: "EndlessGateway";
+  type: "gateways:endless";
   size: GatewaySize;
   color: GatewayColor;
   base_wave: GatewayWave1;
@@ -392,7 +394,7 @@ export interface EndlessGatewayModifier {
         wave: number;
       }
     | {
-        type: "gateways:after_every_n_waves";
+        type: "gateways:only_on_every_n_waves";
         /**
          * The number of waves that must elapse between applications.
          */

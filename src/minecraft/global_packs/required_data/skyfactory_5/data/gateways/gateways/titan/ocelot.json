@@ -1,5 +1,6 @@
 {
   "__typename": "EndlessGateway",
+  "type": "gateways:endless",
   "size": "large",
   "color": "#ffff00",
   "base_wave": {
@@ -34,6 +35,12 @@
         "waves": 3,
         "max": 4
       },
+      "rewards": [
+        {
+          "type": "gateways:experience",
+          "experience": 0
+        }
+      ],
       "setup_time": 100
     },
     {
@@ -42,12 +49,19 @@
         "waves": 3,
         "max": 12
       },
+      "rewards": [
+        {
+          "type": "gateways:experience",
+          "experience": 0
+        }
+      ],
       "max_wave_time": 400
     },
     {
       "application_mode": {
         "type": "gateways:after_every_n_waves",
-        "waves": 3
+        "waves": 3,
+        "max": 1024
       },
       "modifiers": [
         {

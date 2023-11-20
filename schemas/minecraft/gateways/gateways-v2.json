@@ -23,6 +23,10 @@
           "type": "string",
           "const": "NormalGateway"
         },
+        "type": {
+          "type": "string",
+          "const": "gateways:normal"
+        },
         "size": {
           "$ref": "#/$defs/gatewaySize"
         },
@@ -59,6 +63,10 @@
           "type": "string",
           "const": "EndlessGateway"
         },
+        "type": {
+          "type": "string",
+          "const": "gateways:endless"
+        },
         "size": {
           "$ref": "#/$defs/gatewaySize"
         },
@@ -85,7 +93,14 @@
           "$ref": "#/$defs/gatewayBossEventSettings"
         }
       },
-      "required": ["__typename", "size", "color", "base_wave", "modifiers"],
+      "required": [
+        "__typename",
+        "type",
+        "size",
+        "color",
+        "base_wave",
+        "modifiers"
+      ],
       "additionalProperties": false
     },
     "invalidGateway": {
@@ -707,7 +722,9 @@
                 },
                 "max": {
                   "type": "number",
-                  "description": "The maximum number of times the modifier(s) will be applied."
+                  "description": "The maximum number of times the modifier(s) will be applied.",
+                  "minimum": 1,
+                  "maximum": 1024
                 }
               },
               "required": ["type", "waves", "max"],
@@ -736,7 +753,7 @@
               "properties": {
                 "type": {
                   "type": "string",
-                  "const": "gateways:after_every_n_waves"
+                  "const": "gateways:only_on_every_n_waves"
                 },
                 "waves": {
                   "type": "number",
