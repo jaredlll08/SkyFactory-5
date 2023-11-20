@@ -7,7 +7,7 @@
     "entities": [
       {
         "type": "gateways:standard",
-        "count": 3,
+        "count": 4,
         "entity": "minecraft:donkey",
         "nbt": "{DyeMobDyeColor:12b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}]}"
       }

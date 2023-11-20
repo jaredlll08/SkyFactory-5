@@ -46,7 +46,7 @@ async function main() {
           }
 
           const waveEntity = cleanEntityNBT(data.base_wave.entities[0]);
-          waveEntity.count = 3;
+          waveEntity.count = 4;
 
           const newData: EndlessGateway = {
             __typename: "EndlessGateway",
