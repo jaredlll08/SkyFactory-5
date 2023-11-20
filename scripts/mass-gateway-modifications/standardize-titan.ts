@@ -125,7 +125,7 @@ async function main() {
                     type: "gateways:attribute",
                     attribute: "generic.attack_damage",
                     operation: "multiply_total",
-                    value: 0.1,
+                    value: 0.25,
                   },
                   {
                     type: "gateways:attribute",
