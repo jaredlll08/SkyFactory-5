@@ -199,6 +199,7 @@ async function main() {
             boss_event: {
               mode: "name_plate",
             },
+            spawn_algorithm: "gateways:inward_spiral",
           };
 
           if (isFriendlyMob(waveEntity.entity)) {
