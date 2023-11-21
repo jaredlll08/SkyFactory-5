@@ -50,7 +50,8 @@
     "zencode"
   ],
   "files.associations": {
-    "*.mcmeta": "json"
+    "*.mcmeta": "json",
+    ".releaseignore": "ignore"
   },
   "files.exclude": {
     ".eslintcache": true,

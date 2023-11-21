@@ -22,6 +22,10 @@ export async function emptyDirectory(directory: string): Promise<void> {
   );
 }
 
+export function createDirectories(targetPath: string) {
+  fs.mkdirSync(targetPath, { recursive: true });
+}
+
 export async function readJSONFile<T extends object>(
   filePath: string,
 ): Promise<T> {

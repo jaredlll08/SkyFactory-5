@@ -1,0 +1,10 @@
+## Kubejs
+/src/minecraft/kubejs/.eslintrc.cjs
+/src/minecraft/kubejs/jsconfig.json
+/src/minecraft/kubejs/probe
+/src/minecraft/kubejs/README.txt
+
+# CCI
+/src/minecraft/config/contentcreatorintegration/logs
+
+/minecraft/mods/*.disabled
