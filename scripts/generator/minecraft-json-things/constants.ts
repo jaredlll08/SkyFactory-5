@@ -17,11 +17,13 @@ export enum PromptName {
   Name = "name",
   Namespace = "namespace",
   Path = "path",
+  Count = "count",
   Confirmed = "confirmed",
 }
 
 export enum Thing {
   BlockAndItem = "Block and Item",
+  CompressedBlockAndItem = "Compressed Block and Item",
   Food = "Food",
   Item = "Item",
   Stick = "Stick",

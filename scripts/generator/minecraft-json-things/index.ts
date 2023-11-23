@@ -3,6 +3,7 @@ import type { ActionType, DynamicActionsFunction } from "node-plop";
 import { genEnsureConfirmedAction } from "scripts/generator/common";
 import { RegisterGeneratorFn } from "scripts/generator/models";
 import { getActionsForBlockAndItem } from "./action-getters/block-and-item";
+import { getActionsForCompressedBlockAndItem } from "./action-getters/compressed-block-and-item";
 import { getActionsForFood } from "./action-getters/food";
 import { getActionsForItem } from "./action-getters/item";
 import { getActionsForStick } from "./action-getters/stick";
@@ -60,6 +61,15 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
         },
       },
       {
+        type: "number",
+        name: PromptName.Count,
+        message: "How many compressed blocks?",
+        default: 8,
+        validate: (input) => (input > 1 ? true : "Invalid compression value"),
+        when: (answers) =>
+          answers[PromptName.Thing] === Thing.CompressedBlockAndItem,
+      },
+      {
         type: "confirm",
         name: PromptName.Confirmed,
         message: (answers) =>
@@ -89,11 +99,15 @@ const getActionsForThing: DynamicActionsFunction = (answers) => {
       answers[PromptName.Namespace],
       answers[PromptName.Path],
     ),
+    count: answers[PromptName.Count],
   };
 
   switch (answers?.thing as Thing) {
     case Thing.BlockAndItem:
       actions.push(...getActionsForBlockAndItem(actionData));
+      break;
+    case Thing.CompressedBlockAndItem:
+      actions.push(...getActionsForCompressedBlockAndItem(actionData));
       break;
     case Thing.Food:
       actions.push(...getActionsForFood(actionData));
