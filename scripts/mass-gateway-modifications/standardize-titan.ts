@@ -138,6 +138,7 @@ async function main() {
             ],
             rules: {
               leash_range: 32,
+              spacing: 8,
               spawn_range: 5,
             },
             boss_event: {
