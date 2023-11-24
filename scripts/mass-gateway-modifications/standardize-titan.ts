@@ -76,36 +76,6 @@ async function main() {
                 application_mode: {
                   type: "gateways:after_every_n_waves",
                   waves: 3,
-                  max: 4,
-                },
-                // Throw-away reward to satisfy constraints by the mod
-                rewards: [
-                  {
-                    type: "gateways:experience",
-                    experience: 0,
-                  },
-                ],
-                setup_time: 100,
-              },
-              {
-                application_mode: {
-                  type: "gateways:after_every_n_waves",
-                  waves: 3,
-                  max: 12,
-                },
-                // Throw-away reward to satisfy constraints by the mod
-                rewards: [
-                  {
-                    type: "gateways:experience",
-                    experience: 0,
-                  },
-                ],
-                max_wave_time: 400,
-              },
-              {
-                application_mode: {
-                  type: "gateways:after_every_n_waves",
-                  waves: 3,
                   max: 1024,
                 },
                 modifiers: [
