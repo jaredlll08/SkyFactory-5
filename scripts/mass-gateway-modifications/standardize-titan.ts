@@ -1,7 +1,9 @@
 import glob from "glob-promise";
+import { parse as parseNBT, stringify, TagObject } from "nbt-ts";
 import path from "path";
 import {
   EndlessGateway,
+  EndlessGatewayModifier,
   GatewaysToEternityGatewayV2,
 } from "schemas/minecraft/gateways/gateways-v2";
 import { readJSONFile, writeJSONFile } from "scripts/utils/file";
@@ -116,6 +118,72 @@ async function main() {
             },
             spawn_algorithm: "gateways:inward_spiral",
           };
+
+          const bossWaves = [
+            {
+              wave: 10,
+              appendedEntityNBT:
+                '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 1.0f}, "pehkui:width": {scale:1.0f}, "pehkui:height": {scale: 1.0f}}}',
+            },
+            {
+              wave: 20,
+              appendedEntityNBT:
+                '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 0.95f}, "pehkui:width": {scale: 1.5f}, "pehkui:height": {scale: 1.5f}}}',
+            },
+            {
+              wave: 30,
+              appendedEntityNBT:
+                '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 0.8f}, "pehkui:width": {scale: 2.0f}, "pehkui:height": {scale: 2.0f}}}',
+            },
+            {
+              wave: 40,
+              appendedEntityNBT:
+                '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 0.75f}, "pehkui:width": {scale: 2.5f}, "pehkui:height": {scale: 2.5f}}}',
+            },
+            {
+              wave: 50,
+              appendedEntityNBT:
+                '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 0.72f}, "pehkui:width": {scale: 3.0f}, "pehkui:height": {scale: 3.0f}}}',
+            },
+          ];
+
+          const bossWaveModifiers = bossWaves.map<EndlessGatewayModifier>(
+            (wave) => {
+              const newNBT: TagObject = waveEntity.nbt
+                ? typeof waveEntity.nbt === "string"
+                  ? (parseNBT(waveEntity.nbt) as TagObject)
+                  : (parseNBT(JSON.stringify(waveEntity.nbt)) as TagObject)
+                : {};
+              const appendedEntityNBT: TagObject = parseNBT(
+                wave.appendedEntityNBT,
+              ) as TagObject;
+
+              Object.entries(appendedEntityNBT).forEach(
+                ([key, val]) => (newNBT[key] = val),
+              );
+
+              return {
+                application_mode: {
+                  type: "gateways:only_on_wave",
+                  wave: wave.wave,
+                },
+                entities: [
+                  {
+                    ...waveEntity,
+                    count: 1,
+                    nbt: newNBT
+                      ? stringify(newNBT, {
+                          pretty: false,
+                          breakLength: Infinity,
+                        })
+                      : undefined,
+                  },
+                ],
+              };
+            },
+          );
+
+          newData.modifiers.push(...bossWaveModifiers);
 
           return await writeJSONFile(filePath, newData, "json");
         }

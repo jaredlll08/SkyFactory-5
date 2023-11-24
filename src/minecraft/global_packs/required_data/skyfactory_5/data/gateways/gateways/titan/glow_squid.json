@@ -61,6 +61,76 @@
           "value": 0.05
         }
       ]
+    },
+    {
+      "application_mode": {
+        "type": "gateways:only_on_wave",
+        "wave": 10
+      },
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 1,
+          "entity": "minecraft:glow_squid",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}}}"
+        }
+      ]
+    },
+    {
+      "application_mode": {
+        "type": "gateways:only_on_wave",
+        "wave": 20
+      },
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 1,
+          "entity": "minecraft:glow_squid",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}}}"
+        }
+      ]
+    },
+    {
+      "application_mode": {
+        "type": "gateways:only_on_wave",
+        "wave": 30
+      },
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 1,
+          "entity": "minecraft:glow_squid",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}}}"
+        }
+      ]
+    },
+    {
+      "application_mode": {
+        "type": "gateways:only_on_wave",
+        "wave": 40
+      },
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 1,
+          "entity": "minecraft:glow_squid",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.75f},\"pehkui:width\":{scale:2.5f},\"pehkui:height\":{scale:2.5f}}}"
+        }
+      ]
+    },
+    {
+      "application_mode": {
+        "type": "gateways:only_on_wave",
+        "wave": 50
+      },
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 1,
+          "entity": "minecraft:glow_squid",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.72f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}}}"
+        }
+      ]
     }
   ],
   "rules": {
