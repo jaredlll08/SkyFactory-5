@@ -124,26 +124,31 @@ async function main() {
               wave: 10,
               appendedEntityNBT:
                 '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 1.0f}, "pehkui:width": {scale:1.0f}, "pehkui:height": {scale: 1.0f}}}',
+              gearSet: "gateways:inferium",
             },
             {
               wave: 20,
               appendedEntityNBT:
                 '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 0.95f}, "pehkui:width": {scale: 1.5f}, "pehkui:height": {scale: 1.5f}}}',
+              gearSet: "gateways:prudentium",
             },
             {
               wave: 30,
               appendedEntityNBT:
                 '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 0.8f}, "pehkui:width": {scale: 2.0f}, "pehkui:height": {scale: 2.0f}}}',
+              gearSet: "gateways:tertium",
             },
             {
               wave: 40,
               appendedEntityNBT:
                 '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 0.75f}, "pehkui:width": {scale: 2.5f}, "pehkui:height": {scale: 2.5f}}}',
+              gearSet: "gateways:imperium",
             },
             {
               wave: 50,
               appendedEntityNBT:
                 '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 0.72f}, "pehkui:width": {scale: 3.0f}, "pehkui:height": {scale: 3.0f}}}',
+              gearSet: "gateways:supremium",
             },
           ];
 
@@ -177,6 +182,12 @@ async function main() {
                           breakLength: Infinity,
                         })
                       : undefined,
+                    modifiers: [
+                      {
+                        type: "gateways:gear_set",
+                        gear_set: wave.gearSet,
+                      },
+                    ],
                   },
                 ],
               };
