@@ -110,6 +110,27 @@ craftingTable.addShaped(
   ]
 );
 
+// Fixes recipe conflict between ars nouveau and spelled books
+craftingTable.addShaped(
+  "spelled_book",
+  <item:spelled:spell_book>,
+  [
+    [<item:minecraft:lapis_lazuli>, <item:minecraft:book>, <item:minecraft:lapis_lazuli>]
+  ]
+);
 
+// Changes the Mystical Agriculture Infusion Crystal recipe to make the Master Crystal instead
+craftingTable.remove(<item:mysticalagriculture:infusion_crystal>);
+craftingTable.remove(<item:mysticalagriculture:master_infusion_crystal>);
+
+craftingTable.addShaped(
+  "master_infusion_crystal",
+  <item:mysticalagriculture:master_infusion_crystal>,
+  [
+    [<item:mysticalagriculture:inferium_essence>, <item:mysticalagriculture:prosperity_shard>, <item:mysticalagriculture:inferium_essence>],
+    [<item:mysticalagriculture:prosperity_shard>, <item:minecraft:diamond>, <item:mysticalagriculture:prosperity_shard>],
+    [<item:mysticalagriculture:inferium_essence>, <item:mysticalagriculture:prosperity_shard>, <item:mysticalagriculture:inferium_essence>]
+  ]
+);
 
 
