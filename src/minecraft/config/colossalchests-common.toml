@@ -6,27 +6,27 @@ creativeChests = false
 # If the interface input overlay should always be rendered on chests.
 alwaysShowInterfaceOverlay = true
 # Multiplier for the number of inventory slots for this chest material.
-chestInventoryMaterialFactorDiamond = 4.0
+chestInventoryMaterialFactorDiamond = 2.0
 # Multiplier for the number of inventory slots for this chest material.
-chestInventoryMaterialFactorObsidian = 4.0
+chestInventoryMaterialFactorObsidian = 2.0
 # If items should be ejected from the chests if one of the structure blocks are removed.
 ejectItemsOnDestroy = false
 # Multiplier for the number of inventory slots for this chest material.
-chestInventoryMaterialFactorIron = 2.0
+chestInventoryMaterialFactorIron = 1.0
 # Multiplier for the number of inventory slots for this chest material.
-chestInventoryMaterialFactorWood = 1.0
+chestInventoryMaterialFactorWood = 0.25
 # Multiplier for the number of inventory slots for this chest material.
-chestInventoryMaterialFactorCopper = 1.666
+chestInventoryMaterialFactorCopper = 0.75
 # Multiplier for the number of inventory slots for this chest material.
-chestInventoryMaterialFactorGold = 3.0
+chestInventoryMaterialFactorGold = 1.5
 # If the higher tier metal variants (including diamond and obsidian) can be crafted.
-metalVariants = true
+metalVariants = false
 # Multiplier for the number of inventory slots for this chest material.
-chestInventoryMaterialFactorSilver = 2.666
+chestInventoryMaterialFactorSilver = 1.75
 
 [general.colossal_chest]
 # If the chest should visually open when someone uses it.
-chestAnimation = true
+chestAnimation = false
 
 [core]
 
@@ -46,4 +46,4 @@ versionChecker = false
 
 [machine.colossal_chest]
 # The maximum size a colossal chest can have.
-maxSize = 64
+maxSize = 9
