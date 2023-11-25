@@ -125,3 +125,13 @@ mods.recipestages.Recipes.addShapeless(
   <item:minecraft:bone_meal> * 2,
   [<item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
 );
+
+
+// Colorless Dye Block
+craftingTable.addShapeless(
+  "apple_to_block_of_colorless_dye",
+  <item:sf5_things:block_of_colorless_dye>,
+  [<item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>]
+);
+
+
