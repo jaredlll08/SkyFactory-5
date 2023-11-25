@@ -11,19 +11,28 @@ craftingTable.addShapeless(
 craftingTable.addShapeless(
   "sugarcane_from_dye",
   <item:minecraft:sugar_cane>,
-  [<tag:items:forge:dyes/lime>, <tag:items:forge:dyes/lime>, <tag:items:forge:dyes/white>,]
+  [<tag:items:forge:dyes/lime>, <tag:items:forge:dyes/lime>, <tag:items:forge:dyes/white>]
 );
 
 // Kelp
 craftingTable.addShapeless(
   "kelp_from_dye",
   <item:minecraft:kelp> * 2,
-  [<tag:items:forge:dyes/lime>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>,]
+  [<tag:items:forge:dyes/lime>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>]
 );
 
 // Vines
 craftingTable.addShapeless(
   "vines_from_dye",
   <item:minecraft:vine> * 2,
-  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>,]
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>]
 );
+
+// Datura Seeds / Occultism
+craftingTable.addShapeless(
+  "vines_from_dye",
+  <item:occultism:datura_seeds> * 2,
+  [<item:minecraft:wheat_seeds>, <tag:items:forge:dyes/magenta>,<tag:items:forge:dyes/brown>]
+);
+
+
