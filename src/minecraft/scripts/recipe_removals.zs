@@ -190,3 +190,25 @@ craftingTable.remove(<item:mysticalagriculture:soulstone_cobble_stairs>);
 craftingTable.remove(<item:mysticalagriculture:soulstone_bricks_stairs>);
 craftingTable.remove(<item:mysticalagriculture:soulstone_cobble_wall>);
 craftingTable.remove(<item:mysticalagriculture:soulstone_bricks_wall>);
+
+// Removes Colossal Chest upgrades/downgrades and metal materials
+craftingTable.remove(<item:colossalchests:upgrade_tool>);
+craftingTable.remove(<item:colossalchests:upgrade_tool_reverse>);
+craftingTable.remove(<item:colossalchests:chest_wall_copper>);
+craftingTable.remove(<item:colossalchests:colossal_chest_copper>);
+craftingTable.remove(<item:colossalchests:interface_copper>);
+craftingTable.remove(<item:colossalchests:chest_wall_iron>);
+craftingTable.remove(<item:colossalchests:colossal_chest_iron>);
+craftingTable.remove(<item:colossalchests:interface_iron>);
+craftingTable.remove(<item:colossalchests:chest_wall_silver>);
+craftingTable.remove(<item:colossalchests:colossal_chest_silver>);
+craftingTable.remove(<item:colossalchests:interface_silver>);
+craftingTable.remove(<item:colossalchests:chest_wall_gold>);
+craftingTable.remove(<item:colossalchests:colossal_chest_gold>);
+craftingTable.remove(<item:colossalchests:interface_gold>);
+craftingTable.remove(<item:colossalchests:chest_wall_diamond>);
+craftingTable.remove(<item:colossalchests:colossal_chest_diamond>);
+craftingTable.remove(<item:colossalchests:interface_diamond>);
+craftingTable.remove(<item:colossalchests:chest_wall_obsidian>);
+craftingTable.remove(<item:colossalchests:colossal_chest_obsidian>);
+craftingTable.remove(<item:colossalchests:interface_obsidian>);
