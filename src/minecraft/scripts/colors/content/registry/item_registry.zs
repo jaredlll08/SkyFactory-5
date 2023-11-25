@@ -18,6 +18,7 @@ public enum ColoredItem {
   Plank = "plank",
   PlankSlab = "plank_slab",
   Sapling = "sapling",
+  Seed = "seed",
   StorageChest = "storage_chest",
   Torch = "torch",
   TreasureBag = "treasure_bag",
@@ -106,6 +107,9 @@ ContentBuilder.factory
   })
   .registerItem(ColoredItem.Sapling, (color) => {
     return BracketHandlers.getItem("colouredstuff:sapling_" + color.getResourceName());
+  })
+  .registerItem(ColoredItem.Seed, (color) => {
+    return BracketHandlers.getItem("mysticalagriculture:" + color.getResourceName() + "_crop_seeds");
   })
   .registerItem(ColoredItem.StorageChest, (color) => {
     return <item:sophisticatedstorage:chest>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
