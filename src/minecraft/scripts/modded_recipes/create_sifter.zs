@@ -1,4 +1,6 @@
 import collections.HashSet;
+import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.ingredient.type.IIngredientList;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.util.random.Percentaged;
 import stdlib.List;
@@ -12,9 +14,16 @@ val TOTAL_CHANCE_FOR_OUTPUTS as int = 25;
 // Gateway and Trophy Recycling
 for colorName, color in Globals.colors {
   val gatewayIDsForColor = getGatewaysForColor(color);
-  if gatewayIDsForColor.length == 0 {
+  if gatewayIDsForColor.length <= 1 {
     continue;
   }
+
+  val gatewayInputs = new List<IIngredient>();
+  for gatewayID in gatewayIDsForColor {
+    gatewayInputs.add(<item:gateways:gate_pearl>.withTag({gateway: gatewayID}));
+  }
+
+  val gatewayInput = new IIngredientList(gatewayInputs as IIngredient[]);
 
   val filteredGatewayIDs = new HashSet<string>();
   for gatewayID in gatewayIDsForColor {
@@ -23,33 +32,24 @@ for colorName, color in Globals.colors {
     }
   }
 
-  for i, gatewayID in gatewayIDsForColor {
-    var totalGateways = filteredGatewayIDs.length as float;
-    if gatewayID in filteredGatewayIDs {
-      totalGateways -= 1;
-    }
+  val chancePerGateway = (TOTAL_CHANCE_FOR_OUTPUTS as float) / (filteredGatewayIDs.length as float);
 
-    val chancePerGateway = (TOTAL_CHANCE_FOR_OUTPUTS as float) / totalGateways;
-
-    val sifterOutputList = new List<Percentaged<IItemStack>>();
-    for id in filteredGatewayIDs {
-      if id != gatewayID {
-        sifterOutputList.add(<item:gateways:gate_pearl>.withTag({gateway: id}) % chancePerGateway);
-      }
-    }
-
-    val sifterOutput = sifterOutputList as Percentaged<IItemStack>[];
-
-    <recipetype:createsifter:sifting>.addRecipe(
-      "createsifter_" + color.getResourceName() + "_" + i,
-      sifterOutput,
-      [
-        <item:gateways:gate_pearl>.withTag({gateway: gatewayID}),
-        <item:createsifter:string_mesh>
-      ],
-      DEFAULT_PROCESSING_TIME,
-      false,
-      DEFAULT_MIN_SPEED
-    );
+  val sifterOutputList = new List<Percentaged<IItemStack>>();
+  for id in filteredGatewayIDs {
+    sifterOutputList.add(<item:gateways:gate_pearl>.withTag({gateway: id}) % chancePerGateway);
   }
+
+  val sifterOutput = sifterOutputList as Percentaged<IItemStack>[];
+
+  <recipetype:createsifter:sifting>.addRecipe(
+    "createsifter_" + color.getResourceName() + "_gateway_recycling",
+    sifterOutput,
+    [
+      gatewayInput,
+      <item:createsifter:string_mesh>
+    ],
+    DEFAULT_PROCESSING_TIME,
+    false,
+    DEFAULT_MIN_SPEED
+  );
 }
