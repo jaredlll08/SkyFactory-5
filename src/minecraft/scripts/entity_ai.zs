@@ -81,5 +81,5 @@ for mob in Globals.stagedMobs {
     continue;
   }
 
-  AITweaks.addMeleeAttackTweak(mob, 1, 1.0F, 1.0D, false);
+  AITweaks.addMeleeAttackTweak(mob, 1, 1.0F, 0.0D, false);
 }

@@ -97,7 +97,7 @@ export function cleanEntityNBT(entity: GatewayWaveEntity): GatewayWaveEntity {
   };
 }
 
-const friendlyMobs = new Set([
+export const friendlyMobs = new Set([
   "earthmobsmod:albino_cow",
   "earthmobsmod:baby_ghast",
   "earthmobsmod:cluck_shroom",
@@ -117,6 +117,9 @@ const friendlyMobs = new Set([
   "earthmobsmod:wooly_cow",
   "earthmobsmod:zombified_pig",
   "energeticsheep:energetic_sheep",
+  "forcecraft:cold_chicken",
+  "forcecraft:cold_cow",
+  "forcecraft:cold_pig",
   "minecraft:allay",
   "minecraft:axolotl",
   "minecraft:bat",
@@ -151,6 +154,7 @@ const friendlyMobs = new Set([
   "minecraft:squid",
   "minecraft:strider",
   "minecraft:tadpole",
+  "minecraft:trader_llama",
   "minecraft:tropical_fish",
   "minecraft:turtle",
   "minecraft:villager",
