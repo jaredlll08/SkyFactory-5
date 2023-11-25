@@ -3,7 +3,7 @@
   "type": "resource",
   "tier": "mysticalagriculture:4",
   "ingredient": {
-    "item": "sf5_things:block_of_cyan_dye"
+    "tag": "skyfactory_5:colors/color_tree_drops/cyan"
   },
   "color": "30e1b9",
   "textures": {

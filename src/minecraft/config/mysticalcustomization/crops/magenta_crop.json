@@ -3,7 +3,7 @@
   "type": "resource",
   "tier": "mysticalagriculture:4",
   "ingredient": {
-    "item": "sf5_things:block_of_magenta_dye"
+    "tag": "skyfactory_5:colors/color_tree_drops/magenta"
   },
   "color": "FF00FF",
   "textures": {

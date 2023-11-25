@@ -3,7 +3,7 @@
   "type": "resource",
   "tier": "mysticalagriculture:2",
   "ingredient": {
-    "item": "sf5_things:block_of_white_dye"
+    "tag": "skyfactory_5:colors/color_tree_drops/white"
   },
   "color": "FFFFFF",
   "textures": {

@@ -3,7 +3,7 @@
   "type": "resource",
   "tier": "mysticalagriculture:4",
   "ingredient": {
-    "item": "sf5_things:block_of_light_gray_dye"
+    "tag": "skyfactory_5:colors/color_tree_drops/light_gray"
   },
   "color": "D3D3D3",
   "textures": {
