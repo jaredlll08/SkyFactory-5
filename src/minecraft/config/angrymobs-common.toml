@@ -6,3 +6,5 @@ angryAnimals = false
 angryReinforcements = false
 # When true makes all vanilla animals attack you on sight
 aggressiveAnimals = false
+# When true makes the melee goals add the mobs attack damage and knockback onto the specified values
+useAttributes = true

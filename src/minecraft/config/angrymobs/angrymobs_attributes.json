@@ -1,0 +1,9 @@
+{
+  "additionList": [
+    {
+      "entity": "minecraft:pig",
+      "attribute": "generic.attack_damage",
+      "value": 1.0
+    }
+  ]
+}
