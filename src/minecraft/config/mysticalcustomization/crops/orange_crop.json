@@ -2,9 +2,6 @@
   "name": "Orange",
   "type": "resource",
   "tier": "mysticalagriculture:3",
-  "ingredient": {
-    "tag": "skyfactory_5:colors/color_tree_drops/orange"
-  },
   "color": "fb6b1d",
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",

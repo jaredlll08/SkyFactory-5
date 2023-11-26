@@ -2,9 +2,6 @@
   "name": "Black",
   "type": "resource",
   "tier": "mysticalagriculture:2",
-  "ingredient": {
-    "tag": "skyfactory_5:colors/color_tree_drops/black"
-  },
   "color": "000000",
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",

@@ -2,9 +2,6 @@
   "name": "Purple",
   "type": "resource",
   "tier": "mysticalagriculture:3",
-  "ingredient": {
-    "tag": "skyfactory_5:colors/color_tree_drops/purple"
-  },
   "color": "800080",
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",
