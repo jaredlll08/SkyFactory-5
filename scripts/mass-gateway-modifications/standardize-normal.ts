@@ -1,4 +1,6 @@
 import glob from "glob-promise";
+import { isArray } from "lodash";
+import { parse as parseNBT, stringify, TagObject } from "nbt-ts";
 import path from "path";
 import {
   GatewaysToEternityGatewayV2,
@@ -49,13 +51,36 @@ async function main() {
           const waveEntity = cleanEntityNBT(data.waves[0].entities[0]);
           waveEntity.count = 4;
 
+          if (waveEntity.nbt) {
+            const waveEntityNBT =
+              typeof waveEntity.nbt === "string"
+                ? (parseNBT(waveEntity.nbt) as TagObject)
+                : (parseNBT(JSON.stringify(waveEntity.nbt)) as TagObject);
+
+            if (isArray(waveEntityNBT["Tags"])) {
+              const attackDamageAttribute = waveEntityNBT["Tags"].find(
+                (val) => (val as TagObject)["Name"] === "gateway_entity",
+              );
+              if (attackDamageAttribute === undefined) {
+                waveEntityNBT["Tags"].push("gateway_entity");
+              }
+            } else {
+              waveEntityNBT["Tags"] = ["gateway_entity"];
+            }
+
+            waveEntity.nbt = stringify(waveEntityNBT, {
+              pretty: false,
+              breakLength: Infinity,
+            });
+          }
+
           const newData: NormalGateway = {
             __typename: "NormalGateway",
             size: "large",
             color: data.color,
             waves: [
               {
-                entities: [waveEntity],
+                entities: [{ ...waveEntity }],
                 rewards: [
                   {
                     type: "gateways:experience",
@@ -73,7 +98,7 @@ async function main() {
                 setup_time: 200,
               },
               {
-                entities: [waveEntity],
+                entities: [{ ...waveEntity }],
                 modifiers: [
                   {
                     type: "gateways:attribute",
@@ -123,7 +148,7 @@ async function main() {
                 setup_time: 280,
               },
               {
-                entities: [waveEntity],
+                entities: [{ ...waveEntity }],
                 modifiers: [
                   {
                     type: "gateways:attribute",
@@ -209,6 +234,49 @@ async function main() {
               entity: waveEntity,
             });
           }
+
+          const waveModifiers = [
+            {
+              waveIndex: 0,
+              appendedEntityNBT:
+                '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 1.0f}, "pehkui:width": {scale:1.0f}, "pehkui:height": {scale: 1.0f}}}',
+            },
+            {
+              waveIndex: 1,
+              appendedEntityNBT:
+                '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 0.95f}, "pehkui:width": {scale: 1.5f}, "pehkui:height": {scale: 1.5f}}}',
+            },
+            {
+              waveIndex: 2,
+              appendedEntityNBT:
+                '{"pehkui:scale_data_types": {"pehkui:hitbox_width": {scale: 0.8f}, "pehkui:width": {scale: 2.0f}, "pehkui:height": {scale: 2.0f}}}',
+            },
+          ];
+
+          waveModifiers.forEach((wave) => {
+            const newNBT: TagObject = waveEntity.nbt
+              ? typeof waveEntity.nbt === "string"
+                ? (parseNBT(waveEntity.nbt) as TagObject)
+                : (parseNBT(JSON.stringify(waveEntity.nbt)) as TagObject)
+              : {};
+            const appendedEntityNBT: TagObject = parseNBT(
+              wave.appendedEntityNBT,
+            ) as TagObject;
+
+            Object.entries(appendedEntityNBT).forEach(
+              ([key, val]) => (newNBT[key] = val),
+            );
+
+            newData.waves[wave.waveIndex].entities[0] = {
+              ...newData.waves[wave.waveIndex].entities[0],
+              nbt: newNBT
+                ? stringify(newNBT, {
+                    pretty: false,
+                    breakLength: Infinity,
+                  })
+                : undefined,
+            };
+          });
 
           return await writeJSONFile(filePath, newData, "json");
         }

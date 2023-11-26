@@ -1,4 +1,5 @@
 import glob from "glob-promise";
+import { isArray } from "lodash";
 import { parse as parseNBT, stringify, TagObject } from "nbt-ts";
 import path from "path";
 import {
@@ -49,6 +50,29 @@ async function main() {
 
           const waveEntity = cleanEntityNBT(data.base_wave.entities[0]);
           waveEntity.count = 4;
+
+          if (waveEntity.nbt) {
+            const waveEntityNBT =
+              typeof waveEntity.nbt === "string"
+                ? (parseNBT(waveEntity.nbt) as TagObject)
+                : (parseNBT(JSON.stringify(waveEntity.nbt)) as TagObject);
+
+            if (isArray(waveEntityNBT["Tags"])) {
+              const attackDamageAttribute = waveEntityNBT["Tags"].find(
+                (val) => (val as TagObject)["Name"] === "gateway_entity",
+              );
+              if (attackDamageAttribute === undefined) {
+                waveEntityNBT["Tags"].push("gateway_entity");
+              }
+            } else {
+              waveEntityNBT["Tags"] = ["gateway_entity"];
+            }
+
+            waveEntity.nbt = stringify(waveEntityNBT, {
+              pretty: false,
+              breakLength: Infinity,
+            });
+          }
 
           const newData: EndlessGateway = {
             __typename: "EndlessGateway",
