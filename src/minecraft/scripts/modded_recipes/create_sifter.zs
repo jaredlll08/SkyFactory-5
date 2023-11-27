@@ -27,7 +27,7 @@ for colorName, color in Globals.colors {
 
   val filteredGatewayIDs = new HashSet<string>();
   for gatewayID in gatewayIDsForColor {
-    if !("frog_kill" in gatewayID) {
+    if !("titan/" in gatewayID) {
       filteredGatewayIDs.add(gatewayID);
     }
   }

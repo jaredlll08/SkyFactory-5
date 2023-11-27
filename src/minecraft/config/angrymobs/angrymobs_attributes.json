@@ -126,11 +126,6 @@
       "value": 1
     },
     {
-      "entity": "minecraft:bee",
-      "attribute": "generic.attack_damage",
-      "value": 1
-    },
-    {
       "entity": "minecraft:camel",
       "attribute": "generic.attack_damage",
       "value": 1

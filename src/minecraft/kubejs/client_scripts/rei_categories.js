@@ -1,4 +1,9 @@
 REIEvents.groupEntries((event) => {
+  // This cannot be initialized outside of the event due to REI being weird and relying on class loading order.
+  const $VanillaEntryTypes = Java.loadClass(
+    "me.shedaniel.rei.api.common.entry.type.VanillaEntryTypes",
+  );
+
   // This event allows you to add custom entry groups to REI, which can be used to clean up the entry list significantly.
   // As a simple example, we can add a 'Swords' group which will contain all (vanilla) swords
   // Note that each group will need an id (ResourceLocation) and a display name (Component / String)
@@ -206,11 +211,24 @@ REIEvents.groupEntries((event) => {
     );
   });
 
-  // Frog Kill Gateway Pearls
-  event.groupItems(
-    "kubejs:rei_groups/frog_kill_pearls",
-    "Defeated by Frog Gateway Pearls",
-    [/.*frog_kill.*/],
+  // Normal Gateway Pearls
+  event.registry.group(
+    "kubejs:rei_groups/normal_pearls",
+    "Normal Gateway Pearls",
+    $VanillaEntryTypes.ITEM,
+    (item) =>
+      item.value.id === "gateways:gate_pearl" &&
+      /^gateways:normal\//.test(item.value.nbt["gateway"] || ""),
+  );
+
+  // Titan Gateway Pearls
+  event.registry.group(
+    "kubejs:rei_groups/titan_pearls",
+    "Titan Gateway Pearls",
+    $VanillaEntryTypes.ITEM,
+    (item) =>
+      item.value.id === "gateways:gate_pearl" &&
+      /^gateways:titan\//.test(item.value.nbt["gateway"] || ""),
   );
 
   // Spawn Eggs
