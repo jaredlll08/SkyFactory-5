@@ -17,6 +17,8 @@ interface MapKey {
   attribute: string;
 }
 
+const denylistedMobs = new Set<string>(["minecraft:bee"]);
+
 async function main() {
   const data = await readJSONFile<AngrymobsAttributesData>(configFilePath);
 
@@ -29,6 +31,10 @@ async function main() {
   });
 
   friendlyMobs.forEach((mob) => {
+    if (denylistedMobs.has(mob)) {
+      return;
+    }
+
     const key = { entity: mob, attribute: "generic.attack_damage" };
     if (!mappedData.has(key)) {
       mappedData.set(key, 1);
