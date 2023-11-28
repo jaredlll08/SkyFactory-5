@@ -2271,6 +2271,38 @@
     "result": "allow"
   },
   {
+    "mob": ["vinery:wandering_winemaker"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "wanderingwinemaker",
+    "minlight_full": 8,
+    "maxlight_full": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
+    "mob": ["vinery:mule"],
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "mule",
+    "minlight_full": 8,
+    "maxlight_full": 15,
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": { "color": 16352035 }
+      }
+    },
+    "result": "allow"
+  },
+  {
     "mob": [
       "energeticsheep:energetic_sheep",
       "minecraft:allay",
@@ -2336,6 +2368,7 @@
       "minecraft:villager",
       "minecraft:vindicator",
       "minecraft:wandering_trader",
+      "minecraft:trader_llama",
       "minecraft:warden",
       "minecraft:witch",
       "minecraft:wither",
@@ -2412,7 +2445,9 @@
       "monsterplus:crystal_zombie",
       "monsterplus:mother_lava_squid",
       "monsterplus:lava_squid",
-      "monsterplus:overgrown_skeleton"
+      "monsterplus:overgrown_skeleton",
+      "vinery:wandering_winemaker",
+      "vinery:mule"
     ],
     "result": "deny"
   },
@@ -2486,6 +2521,7 @@
       "minecraft:villager",
       "minecraft:vindicator",
       "minecraft:wandering_trader",
+      "minecraft:trader_llama",
       "minecraft:warden",
       "minecraft:witch",
       "minecraft:wither",
@@ -2562,7 +2598,9 @@
       "monsterplus:crystal_zombie",
       "monsterplus:mother_lava_squid",
       "monsterplus:lava_squid",
-      "monsterplus:overgrown_skeleton"
+      "monsterplus:overgrown_skeleton",
+      "vinery:wandering_winemaker",
+      "vinery:mule"
     ],
     "spawner": true,
     "armorhelmet": {

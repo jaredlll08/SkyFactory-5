@@ -30,7 +30,7 @@ craftingTable.addShapeless(
 
 // Datura Seeds / Occultism
 craftingTable.addShapeless(
-  "vines_from_dye",
+  "datura_seeds_from_dye",
   <item:occultism:datura_seeds> * 2,
   [<item:minecraft:wheat_seeds>, <tag:items:forge:dyes/magenta>,<tag:items:forge:dyes/brown>]
 );

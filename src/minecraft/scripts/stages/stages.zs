@@ -250,6 +250,9 @@ public enum MobStage {
   CrystalZombie = "monsterplus:crystal_zombie",
   MotherLavaSquid = "monsterplus:mother_lava_squid",
   LavaSquid = "monsterplus:lava_squid",
-  OvergrownSkeleton = "monsterplus:overgrown_skeleton>"
+  OvergrownSkeleton = "monsterplus:overgrown_skeleton>",
 
+  // Let's do Vinery
+  Mule = "vinery:mule",
+  WanderingWinemaker = "vinery:wandering_winemaker"
 }

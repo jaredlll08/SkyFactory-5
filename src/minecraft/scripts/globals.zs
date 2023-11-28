@@ -200,7 +200,12 @@ public class Globals {
   <entitytype:monsterplus:crystal_zombie>: new StagedMob(<entitytype:monsterplus:crystal_zombie>, MobStage.CrystalZombie),
   <entitytype:monsterplus:mother_lava_squid>: new StagedMob(<entitytype:monsterplus:mother_lava_squid>, MobStage.MotherLavaSquid),
   <entitytype:monsterplus:lava_squid>: new StagedMob(<entitytype:monsterplus:lava_squid>, MobStage.LavaSquid),
-  <entitytype:monsterplus:overgrown_skeleton>: new StagedMob(<entitytype:monsterplus:overgrown_skeleton>, MobStage.OvergrownSkeleton)
+  <entitytype:monsterplus:overgrown_skeleton>: new StagedMob(<entitytype:monsterplus:overgrown_skeleton>, MobStage.OvergrownSkeleton),
+
+
+  // Let's do Vinery
+  <entitytype:vinery:wandering_winemaker>: new StagedMob(<entitytype:vinery:wandering_winemaker>, MobStage.WanderingWinemaker),
+  <entitytype:vinery:mule>: new StagedMob(<entitytype:vinery:mule>, MobStage.Mule)
 
   };
 }

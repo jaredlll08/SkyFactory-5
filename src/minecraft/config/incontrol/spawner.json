@@ -480,7 +480,7 @@
     }
   },
   {
-    "mob": ["minecraft:horse", "minecraft:donkey"],
+    "mob": ["minecraft:horse", "minecraft:donkey", "vinery:mule"],
     "persecond": 1,
     "attempts": 10,
     "amount": {
@@ -932,7 +932,11 @@
     }
   },
   {
-    "mob": ["minecraft:villager", "minecraft:wandering_trader"],
+    "mob": [
+      "minecraft:villager",
+      "minecraft:wandering_trader",
+      "vinery:wandering_winemaker"
+    ],
     "persecond": 2,
     "attempts": 15,
     "amount": {
