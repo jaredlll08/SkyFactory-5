@@ -188,6 +188,12 @@ function getGeneratedSchemaValidatorRules() {
       fileMatch: ["src/minecraft/thingpacks/*/things/*/item/**/*.json"],
       schema: "./schemas/minecraft/jsonthings/item.json",
     },
+    {
+      fileMatch: [
+        "src/minecraft/global_packs/required_resources/*/assets/obscure_tooltips/tooltips/styles/*.json",
+      ],
+      schema: "./schemas/minecraft/obscure_tooltips/style.json",
+    },
   ];
   // GENERATOR END
 }

@@ -5,6 +5,8 @@ val color = Globals.colors[ColorName.Black];
 val textColor = 0xFFFFFF;
 
 val items as IItemStack[] = [
+  <item:obtrophies:trophy>.withTag({BlockEntityTag: {VariantID: 0, entity: "veincreeper:black"}}),
+
   // GENERATOR START
   // !THIS SECTION IS MANAGED BY A SCRIPT. DO NOT MANUALLY EDIT THIS SECTION!
 
@@ -51,21 +53,21 @@ val items as IItemStack[] = [
   <item:minecraft:black_bed>,
   <item:minecraft:black_candle>,
   <item:minecraft:black_carpet>,
-  <item:minecraft:black_concrete_powder>,
   <item:minecraft:black_concrete>,
+  <item:minecraft:black_concrete_powder>,
   <item:minecraft:black_dye>,
   <item:minecraft:black_glazed_terracotta>,
   <item:minecraft:black_shulker_box>,
-  <item:minecraft:black_stained_glass_pane>,
   <item:minecraft:black_stained_glass>,
+  <item:minecraft:black_stained_glass_pane>,
   <item:minecraft:black_terracotta>,
+  <item:minecraft:blackstone>,
   <item:minecraft:blackstone_slab>,
   <item:minecraft:blackstone_stairs>,
-  <item:minecraft:blackstone>,
   <item:minecraft:charcoal>,
   <item:minecraft:chiseled_polished_blackstone>,
-  <item:minecraft:coal_block>,
   <item:minecraft:coal>,
+  <item:minecraft:coal_block>,
   <item:minecraft:cracked_polished_blackstone_bricks>,
   <item:minecraft:gilded_blackstone>,
   <item:minecraft:ink_sac>,
@@ -82,6 +84,7 @@ val items as IItemStack[] = [
   <item:minecraft:music_disc_strad>,
   <item:minecraft:music_disc_wait>,
   <item:minecraft:music_disc_ward>,
+  <item:minecraft:polished_blackstone>,
   <item:minecraft:polished_blackstone_brick_slab>,
   <item:minecraft:polished_blackstone_brick_stairs>,
   <item:minecraft:polished_blackstone_brick_wall>,
@@ -91,8 +94,9 @@ val items as IItemStack[] = [
   <item:minecraft:polished_blackstone_slab>,
   <item:minecraft:polished_blackstone_stairs>,
   <item:minecraft:polished_blackstone_wall>,
-  <item:minecraft:polished_blackstone>,
-  <item:obtrophies:trophy>.withTag({BlockEntityTag: {VariantID: 0, entity: "veincreeper:black"}}),
+  <item:mysticalagriculture:black_crop_essence>,
+  <item:mysticalagriculture:black_crop_seeds>,
+  <item:sf5_things:black_apple>,
   <item:tinted_torches:black_torch>
 
   // GENERATOR END

@@ -5,6 +5,11 @@ val color = Globals.colors[ColorName.Blue];
 val textColor = 0x0080FF;
 
 val items as IItemStack[] = [
+  <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:water"}),
+  <item:minecraft:potion>.withTag({Potion: "minecraft:water"}),
+  <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}),
+  <item:woodenbucket:wooden_bucket>.withTag({Damage: 0, Fluid: {FluidName: "minecraft:water", Amount: 1000}})
+
   // GENERATOR START
   // !THIS SECTION IS MANAGED BY A SCRIPT. DO NOT MANUALLY EDIT THIS SECTION!
 
@@ -42,29 +47,29 @@ val items as IItemStack[] = [
   <item:forcecraft:blue_chu_jelly>,
   <item:forcecraft:blue_force_furnace>,
   <item:forcecraft:force_blue_torch>,
+  <item:forcecraft:force_brick_blue>,
   <item:forcecraft:force_brick_blue_slab>,
   <item:forcecraft:force_brick_blue_stairs>,
-  <item:forcecraft:force_brick_blue>,
   <item:minecraft:blue_banner>,
   <item:minecraft:blue_bed>,
   <item:minecraft:blue_candle>,
   <item:minecraft:blue_carpet>,
-  <item:minecraft:blue_concrete_powder>,
   <item:minecraft:blue_concrete>,
+  <item:minecraft:blue_concrete_powder>,
   <item:minecraft:blue_dye>,
   <item:minecraft:blue_glazed_terracotta>,
   <item:minecraft:blue_ice>,
   <item:minecraft:blue_orchid>,
   <item:minecraft:blue_shulker_box>,
-  <item:minecraft:blue_stained_glass_pane>,
   <item:minecraft:blue_stained_glass>,
+  <item:minecraft:blue_stained_glass_pane>,
   <item:minecraft:blue_terracotta>,
   <item:minecraft:blue_wool>,
   <item:minecraft:lapis_lazuli>,
-  <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:water"}),
-  <item:minecraft:potion>.withTag({Potion: "minecraft:water"}),
-  <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}),
   <item:minecraft:water_bucket>,
+  <item:mysticalagriculture:blue_crop_essence>,
+  <item:mysticalagriculture:blue_crop_seeds>,
+  <item:mysticalagriculture:imperium_essence>,
   <item:sf5_things:block_of_blue_dye>,
   <item:sf5_things:blue_apple>,
   <item:sf5_things:light_blue_apple>,
@@ -72,8 +77,7 @@ val items as IItemStack[] = [
   <item:sf5stuff:crucible_blue>,
   <item:supplementaries:candle_holder_blue>,
   <item:supplementaries:colouredstuff/sign_post_blue>,
-  <item:tintedcampfires:blue_campfire>,
-  <item:woodenbucket:wooden_bucket>.withTag({Damage: 0, Fluid: {FluidName: "minecraft:water", Amount: 1000}})
+  <item:tintedcampfires:blue_campfire>
 
   // GENERATOR END
 ];

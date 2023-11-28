@@ -130,6 +130,12 @@
         "/src/minecraft/global_packs/required_data/*/data/gateways/gateways/**/*.json"
       ],
       "url": "./schemas/minecraft/gateways/gateways-v2.json"
+    },
+    {
+      "fileMatch": [
+        "/src/minecraft/global_packs/required_resources/*/assets/obscure_tooltips/tooltips/styles/*.json"
+      ],
+      "url": "./schemas/minecraft/obscure_tooltips/style.json"
     }
   ],
   "cSpell.enabledLanguageIds": [

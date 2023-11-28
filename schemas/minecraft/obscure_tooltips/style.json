@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "Obscure Tooltips Style",
+  "description": "A Obscure Tooltips style datapack file",
+  "type": "object",
+  "properties": {
+    "priority": {
+      "type": "number"
+    },
+    "panel": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "filter": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "enchantments": {
+          "type": "object"
+        },
+        "tags": {
+          "type": "object"
+        }
+      }
+    }
+  },
+  "required": ["priority", "panel", "icon", "effects", "filter"],
+  "additionalProperties": false
+}

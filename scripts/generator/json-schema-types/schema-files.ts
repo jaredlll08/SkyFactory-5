@@ -40,4 +40,10 @@ export const schemaFiles = new Map<string, string[]>([
     "minecraft/jsonthings/item.json",
     ["/src/minecraft/thingpacks/*/things/*/item/**/*.json"],
   ],
+  [
+    "minecraft/obscure_tooltips/style.json",
+    [
+      "/src/minecraft/global_packs/required_resources/*/assets/obscure_tooltips/tooltips/styles/*.json",
+    ],
+  ],
 ]);
