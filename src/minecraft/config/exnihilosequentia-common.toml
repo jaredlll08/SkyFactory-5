@@ -106,7 +106,7 @@ netherSieveSoundsEnabled = true
 # Ore Configs
 [ore]
 # Allows ores to be enabled or disabled by this config file. (Default: false)
-enableOreOverride = false
+enableOreOverride = true
 # Enable copper ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
 enableCopper = false
 # Enable lead ore pieces, chunks and ingots if they exist. 'enableOreOverride' must be true for this to work. (Default: true)
