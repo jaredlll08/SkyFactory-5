@@ -114,7 +114,13 @@
       "create:copper_nugget",
       "mysticalagriculture:tertium_essence",
       "mysticalagriculture:orange_crop_essence",
-      "mysticalagriculture:orange_crop_seeds"
+      "mysticalagriculture:orange_crop_seeds",
+      "minecraft:blaze_powder",
+      "minecraft:blaze_rod",
+      "mysticalagriculture:tertium_gemstone_block",
+      "mysticalagriculture:tertium_furnace",
+      "mysticalagriculture:tertium_nugget",
+      "mysticalagriculture:tertium_gemstone"
     ]
   }
 }
