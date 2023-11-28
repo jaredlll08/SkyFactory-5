@@ -96,6 +96,8 @@ block_side_attachment = true
 slide_on_fall = true
 # In case you want to disable supplementaries ropes you can specify here another mod rope and they will be used for rope arrows and in mineshafts instead
 rope_override = "supplementaries:rope"
+# Enables horizontal placement of ropes
+horizontal_ropes = true
 
 [functional.jar]
 enabled = true
@@ -247,6 +249,8 @@ horse_speed_duration = 10
 enabled = true
 # Makes so saplings that grow in a planter will break it turning into rooted dirt
 broken_by_sapling = true
+# When Farmers Delight is on planter will also act like rich soil and use it in its recipe
+rich_soil_planter = true
 
 [building.notice_board]
 enabled = true
@@ -414,6 +418,8 @@ allow_bombs = false
 allow_fire_charges = false
 # Allows snowballs to be thrown by slingshots
 allow_snowballs = false
+# Allows enderpearls to be thrown by slingshots
+allow_enderpearls = false
 
 [tools.antique_ink]
 enabled = true
@@ -565,6 +571,8 @@ book_power = 1.0
 enchanted_book_power = 1.334
 # Allow all books to be placed both vertically and horizontally
 mixed_books = false
+# Allows written books to be placed down. Requires shift clicking
+written_books = true
 
 [tweaks.zombie_horse]
 # Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
@@ -586,3 +594,6 @@ enabled = true
 cat_unluck = true
 # If you have unluck you are more likely to get hit by a lighting
 lightning_unluck = true
+
+[tweaks.golden_apple_disenchant]
+enabled = true

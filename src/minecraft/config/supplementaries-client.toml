@@ -5,7 +5,7 @@
 
 [blocks.globe]
 # Enable a random globe texture for each world
-random_world = true
+random_world = false
 # Displays current coordinates when using a globe
 show_coordinates = true
 
