@@ -134,3 +134,28 @@ craftingTable.addShaped(
 );
 
 
+// I don't know who made the original recipe that 4 obsidian plus a water bucket makes
+// 1 crying obsidian. But I do think they wanted people to cry in real life when making that recipe.
+// It's outrageous, it's egregious, and preposterous!
+craftingTable.remove(<item:minecraft:crying_obsidian>);
+
+craftingTable.addShaped(
+  "better_crying_obsidian",
+  <item:minecraft:crying_obsidian> * 4,
+  [
+    [<item:minecraft:air>, <item:minecraft:obsidian>, <item:minecraft:air>],
+    [<item:minecraft:obsidian>, <item:minecraft:water_bucket>, <item:minecraft:obsidian>],
+    [<item:minecraft:air>, <item:minecraft:obsidian>, <item:minecraft:air>]
+  ]
+);
+
+// Vanilla Bundle item
+craftingTable.addShaped(
+  "bundle_recipe",
+  <item:minecraft:bundle> * 1,
+  [
+    [<item:minecraft:air>, <item:minecraft:string>, <item:minecraft:air>],
+    [<item:minecraft:leather>, <item:minecraft:air>, <item:minecraft:leather>],
+    [<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>]
+  ]
+);
