@@ -1,11 +1,10 @@
 {
   "name": "Colorless",
-  "type": "resource",
+  "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:1",
   "ingredient": {
     "item": "sf5_things:block_of_colorless_dye"
   },
-  "color": "919191",
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",
     "essence": "mysticalagriculture:item/essence_dust"

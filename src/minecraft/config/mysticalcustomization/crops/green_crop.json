@@ -1,8 +1,7 @@
 {
   "name": "Green",
-  "type": "resource",
+  "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:3",
-  "color": "165F16",
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",
     "essence": "mysticalagriculture:item/essence_dust"

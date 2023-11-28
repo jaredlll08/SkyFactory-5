@@ -1,8 +1,7 @@
 {
   "name": "Orange",
-  "type": "resource",
+  "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:3",
-  "color": "fb6b1d",
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",
     "essence": "mysticalagriculture:item/essence_dust"

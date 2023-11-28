@@ -77,6 +77,28 @@
           }
         ]
       }
+    },
+    "cyan_essence_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:cyan_crop_seeds"]
+          }
+        ]
+      }
+    },
+    "cyan_essence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:cyan_crop_essence"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -86,7 +108,9 @@
       "oxidized_copper",
       "warped_planks",
       "warped_wart_block",
-      "ender_pearl"
+      "ender_pearl",
+      "cyan_essence",
+      "cyan_essence_seeds"
     ]
   ],
   "rewards": {

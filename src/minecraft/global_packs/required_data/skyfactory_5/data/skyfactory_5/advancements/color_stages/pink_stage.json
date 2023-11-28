@@ -110,6 +110,28 @@
           }
         ]
       }
+    },
+    "pink_essence_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:pink_crop_seeds"]
+          }
+        ]
+      }
+    },
+    "pink_essence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:pink_crop_essence"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -122,7 +144,9 @@
       "wing",
       "cherry_sapling",
       "cherry_planks",
-      "cherry_log"
+      "cherry_log",
+      "pink_essence",
+      "pink_essence_seeds"
     ]
   ],
   "rewards": {

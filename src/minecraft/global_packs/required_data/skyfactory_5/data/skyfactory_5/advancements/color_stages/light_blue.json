@@ -33,9 +33,33 @@
           }
         ]
       }
+    },
+    "light_blue_essence_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:light_blue_crop_seeds"]
+          }
+        ]
+      }
+    },
+    "light_blue_essence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:light_blue_crop_essence"]
+          }
+        ]
+      }
     }
   },
-  "requirements": [["clay_ball", "clay"]],
+  "requirements": [
+    ["clay_ball", "clay", "light_blue_essence", "light_blue_essence_seeds"]
+  ],
   "rewards": {
     "function": "skyfactory_5:stages/light_blue_stage"
   }

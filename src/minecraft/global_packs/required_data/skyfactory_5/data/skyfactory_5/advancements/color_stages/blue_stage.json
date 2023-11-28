@@ -44,9 +44,39 @@
           }
         ]
       }
+    },
+    "blue_essence_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:blue_crop_seeds"]
+          }
+        ]
+      }
+    },
+    "blue_essence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:blue_crop_essence"]
+          }
+        ]
+      }
     }
   },
-  "requirements": [["water_bucket", "water_bottle", "wooden_bucket_water"]],
+  "requirements": [
+    [
+      "water_bucket",
+      "water_bottle",
+      "wooden_bucket_water",
+      "blue_essence",
+      "blue_essence_seeds"
+    ]
+  ],
   "rewards": {
     "function": "skyfactory_5:stages/blue_stage"
   }

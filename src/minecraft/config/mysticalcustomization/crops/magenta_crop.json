@@ -1,6 +1,6 @@
 {
   "name": "Magenta",
-  "type": "resource",
+  "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:4",
   "color": "FF00FF",
   "textures": {

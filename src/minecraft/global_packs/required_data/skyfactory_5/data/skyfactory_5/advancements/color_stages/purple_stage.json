@@ -242,6 +242,28 @@
     "enchanted_item": {
       "trigger": "minecraft:enchanted_item",
       "conditions": {}
+    },
+    "purple_essence_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:purple_crop_seeds"]
+          }
+        ]
+      }
+    },
+    "purple_essence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:purple_crop_essence"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -268,7 +290,9 @@
       "regen_lingering_potion_inventory_1",
       "regen_lingering_potion_inventory_2",
       "regen_lingering_potion_inventory_3",
-      "enchanted_item"
+      "enchanted_item",
+      "purple_essence",
+      "purple_essence_seeds"
     ]
   ],
   "rewards": {

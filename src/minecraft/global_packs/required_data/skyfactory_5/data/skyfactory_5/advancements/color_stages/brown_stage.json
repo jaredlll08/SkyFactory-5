@@ -33,9 +33,33 @@
           }
         ]
       }
+    },
+    "brown_essence_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:brown_crop_seeds"]
+          }
+        ]
+      }
+    },
+    "brown_essence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["mysticalagriculture:brown_crop_essence"]
+          }
+        ]
+      }
     }
   },
-  "requirements": [["obtain_dirt", "obtain_leather"]],
+  "requirements": [
+    ["obtain_dirt", "obtain_leather", "brown_essence", "brown_essence_seeds"]
+  ],
   "rewards": {
     "function": "skyfactory_5:stages/brown_stage"
   }
