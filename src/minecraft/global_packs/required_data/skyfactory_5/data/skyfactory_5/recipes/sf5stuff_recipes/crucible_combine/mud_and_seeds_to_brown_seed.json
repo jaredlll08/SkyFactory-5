@@ -1,0 +1,13 @@
+{
+  "type": "sf5stuff:crucible_combine",
+  "fluid": {
+    "fluid": "earthmobsmod:mud",
+    "amount": 1000
+  },
+  "input": {
+    "tag": "skyfactory_5:color_seeds"
+  },
+  "result": {
+    "item": "mysticalagriculture:brown_crop_seeds"
+  }
+}
