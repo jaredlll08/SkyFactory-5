@@ -1,9 +1,14 @@
-import { isArray } from "lodash";
-import { ActionType, DynamicActionsFunction } from "node-plop";
+import { isArray, snakeCase } from "lodash";
+import {
+  ActionType,
+  CustomActionFunction,
+  DynamicActionsFunction,
+} from "node-plop";
 import { genEnsureConfirmedAction } from "scripts/generator/common";
 import { updateCrafttweakerColorGatewayScript } from "scripts/generator/minecraft-gateway-crafttweaker-list";
 import { RegisterGeneratorFn } from "scripts/generator/models";
 import { ColorName, mapColorNameToHex } from "scripts/utils/minecraft-colors";
+import { appendMobToInControlSpawn } from "./incontrol-spawn";
 import {
   createStandardNormalGateway,
   defaultNormalBaseEntityNBT,
@@ -19,6 +24,8 @@ enum PromptName {
   Color = "color",
   MobName = "mob_name",
   MobResourceLocation = "mob_resource_location",
+  MinLight = "min_light",
+  MaxLight = "max_light",
   Confirmed = "confirmed",
 }
 
@@ -66,6 +73,40 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
           `What is the resource location for the ${
             answers[PromptName.MobName]
           }?`,
+      },
+      {
+        type: "input",
+        name: PromptName.MinLight,
+        message: (answers) =>
+          `What is the min light level for a ${
+            answers[PromptName.MobName]
+          } to spawn?`,
+        validate: (input) => {
+          if (typeof input !== "string") {
+            return false;
+          }
+
+          const parsedVal = parseInt(input, 10);
+
+          return parsedVal >= 0 && parsedVal <= 15;
+        },
+      },
+      {
+        type: "input",
+        name: PromptName.MaxLight,
+        message: (answers) =>
+          `What is the max light level for a ${
+            answers[PromptName.MobName]
+          } to spawn?`,
+        validate: (input) => {
+          if (typeof input !== "string") {
+            return false;
+          }
+
+          const parsedVal = parseInt(input, 10);
+
+          return parsedVal >= 0 && parsedVal <= 15;
+        },
       },
       {
         type: "confirm",
@@ -140,7 +181,19 @@ const getGatewayAddActions: DynamicActionsFunction = (answers) => {
     });
   }
 
+  actions.push(updateInControlSpawnConfig);
   actions.push(updateCrafttweakerColorGatewayScript);
 
   return actions;
+};
+
+const updateInControlSpawnConfig: CustomActionFunction = async (answers) => {
+  await appendMobToInControlSpawn({
+    entity: answers[PromptName.MobResourceLocation],
+    stage: snakeCase(answers[PromptName.MobName]),
+    minlight: parseInt(answers[PromptName.MinLight]),
+    maxlight: parseInt(answers[PromptName.MaxLight]),
+  });
+
+  return "Updated InControl spawn config";
 };

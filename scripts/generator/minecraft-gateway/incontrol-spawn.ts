@@ -7,7 +7,19 @@ const spawnJsonPath = path.resolve(
   "./src/minecraft/config/incontrol/spawn.json",
 );
 
-export async function appendMobToInControlSpawn() {
+interface Args {
+  entity: string;
+  stage: string;
+  minlight: number;
+  maxlight: number;
+}
+
+export async function appendMobToInControlSpawn({
+  entity,
+  stage,
+  minlight,
+  maxlight,
+}: Args) {
   const individualMobEntriesIndexOffset = 3;
 
   const data = await readJSONFile<InControlSpawn>(spawnJsonPath);
@@ -45,7 +57,24 @@ export async function appendMobToInControlSpawn() {
     }
   }
 
-  // TODO: add new mob individualMobEntries.push()
+  individualMobEntries.push({
+    mob: entity,
+    block: {
+      tag: "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena",
+    },
+    gamestage: stage,
+    armorhelmet: {
+      item: "simplehats:fro",
+      nbt: {
+        display: {
+          color: 16352035,
+        },
+      },
+    },
+    result: "allow",
+    minlight_full: minlight,
+    maxlight_full: maxlight,
+  });
 
   result.push(
     ...individualMobEntries.sort((a, b) => {
@@ -68,5 +97,3 @@ export async function appendMobToInControlSpawn() {
 
   await writeJSONFile(spawnJsonPath, result, "json");
 }
-
-appendMobToInControlSpawn();
