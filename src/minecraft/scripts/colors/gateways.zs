@@ -170,8 +170,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:titan/pillager",
       "gateways:titan/ravager",
       "gateways:titan/silverfish",
-      "gateways:titan/vindicator",
-      "vinery:mule"
+      "gateways:titan/vindicator"
     ];
   }
   if color.getName() == ColorName.Green {
@@ -298,8 +297,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:titan/parrot",
       "gateways:titan/red_chu_chu",
       "gateways:titan/salmon",
-      "gateways:titan/strider",
-      "vinery:wandering_winemaker"
+      "gateways:titan/strider"
     ];
   }
   if color.getName() == ColorName.White {
