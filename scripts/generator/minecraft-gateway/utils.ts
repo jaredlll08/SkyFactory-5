@@ -3,6 +3,11 @@ import { parse as parseNBT, stringify, TagObject } from "nbt-ts";
 import { GatewayWaveEntity } from "schemas/minecraft/gateways/gateways-v2";
 import { ColorName } from "scripts/utils/minecraft-colors";
 
+export type BaseEntity = Omit<
+  GatewayWaveEntity,
+  "type" | "modifiers" | "count"
+>;
+
 export function getDyeFromColor(color: ColorName): string | null {
   if (color === ColorName.None) {
     return null;

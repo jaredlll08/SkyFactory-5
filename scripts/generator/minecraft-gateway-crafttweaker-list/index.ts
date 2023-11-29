@@ -24,83 +24,80 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
   });
 };
 
-const updateCrafttweakerColorGatewayScript: CustomActionFunction = async (
-  _answers,
-  _config,
-  plop,
-) => {
-  const gatewayDatapackFiles = await glob(`${gatewaysBasePath}/**/*.json`, {
-    ignore: [],
-  });
+export const updateCrafttweakerColorGatewayScript: CustomActionFunction =
+  async (_answers, _config, plop) => {
+    const gatewayDatapackFiles = await glob(`${gatewaysBasePath}/**/*.json`, {
+      ignore: [],
+    });
 
-  const categorizedMap = new Map<ColorName, Set<string>>();
+    const categorizedMap = new Map<ColorName, Set<string>>();
 
-  const uncategorizedFiles: string[] = [];
-  const ignoredFiles: string[] = [];
+    const uncategorizedFiles: string[] = [];
+    const ignoredFiles: string[] = [];
 
-  await Promise.all(
-    gatewayDatapackFiles.map(async (filePath) => {
-      const relativePath = path.relative(gatewaysBasePath, filePath);
-      const data = await readJSONFile<GatewaysToEternityGatewayV2>(filePath);
+    await Promise.all(
+      gatewayDatapackFiles.map(async (filePath) => {
+        const relativePath = path.relative(gatewaysBasePath, filePath);
+        const data = await readJSONFile<GatewaysToEternityGatewayV2>(filePath);
 
-      if (data.__typename === "InvalidGateway") {
-        ignoredFiles.push(relativePath);
-        return;
-      }
+        if (data.__typename === "InvalidGateway") {
+          ignoredFiles.push(relativePath);
+          return;
+        }
 
-      const colorName = mapHexToColorName(data.color);
-      if (colorName === null) {
-        uncategorizedFiles.push(relativePath);
-        return;
-      }
+        const colorName = mapHexToColorName(data.color);
+        if (colorName === null) {
+          uncategorizedFiles.push(relativePath);
+          return;
+        }
 
-      if (categorizedMap.has(colorName)) {
-        categorizedMap.get(colorName)?.add(relativePath);
-      } else {
-        categorizedMap.set(colorName, new Set([relativePath]));
-      }
-    }),
-  );
-
-  const template = await readFile(
-    path.join(__dirname, "color-template.tpl"),
-    "utf-8",
-  );
-  let script = await readFile(colorScriptFilePath, "utf-8");
-
-  script = script.replace(
-    /(\/\/ GENERATOR START(\n|.)*\/\/ GENERATOR END)/,
-    plop.renderString(template, {
-      colorMappings: Array.from(categorizedMap)
-        .map(([key, val]) => ({
-          colorName: key,
-          gateways: Array.from(val)
-            .map(
-              (relativePath) =>
-                `gateways:${relativePath
-                  .replace(path.parse(relativePath).ext, "")
-                  .replace("\\", "/")}`,
-            )
-            .sort((a, b) => a.localeCompare(b)),
-        }))
-        .sort((a, b) => a.colorName.localeCompare(b.colorName)),
-    }),
-  );
-
-  await writeFile(colorScriptFilePath, script);
-
-  let baseResult = `Successfully updated Crafttweaker Script ${colorScriptFilePath}`;
-
-  if (ignoredFiles.length > 0) {
-    baseResult += chalk.yellow(
-      `\n    Ignored files:  ${ignoredFiles.join(", ")}`,
+        if (categorizedMap.has(colorName)) {
+          categorizedMap.get(colorName)?.add(relativePath);
+        } else {
+          categorizedMap.set(colorName, new Set([relativePath]));
+        }
+      }),
     );
-  }
-  if (uncategorizedFiles.length > 0) {
-    baseResult += chalk.red(
-      `\n    Uncategorized files: ${uncategorizedFiles.join(", ")}`,
-    );
-  }
 
-  return baseResult;
-};
+    const template = await readFile(
+      path.join(__dirname, "color-template.tpl"),
+      "utf-8",
+    );
+    let script = await readFile(colorScriptFilePath, "utf-8");
+
+    script = script.replace(
+      /(\/\/ GENERATOR START(\n|.)*\/\/ GENERATOR END)/,
+      plop.renderString(template, {
+        colorMappings: Array.from(categorizedMap)
+          .map(([key, val]) => ({
+            colorName: key,
+            gateways: Array.from(val)
+              .map(
+                (relativePath) =>
+                  `gateways:${relativePath
+                    .replace(path.parse(relativePath).ext, "")
+                    .replace("\\", "/")}`,
+              )
+              .sort((a, b) => a.localeCompare(b)),
+          }))
+          .sort((a, b) => a.colorName.localeCompare(b.colorName)),
+      }),
+    );
+
+    await writeFile(colorScriptFilePath, script);
+
+    let baseResult = `Successfully updated Crafttweaker Script ${colorScriptFilePath}`;
+
+    if (ignoredFiles.length > 0) {
+      baseResult += chalk.yellow(
+        `\n    Ignored files:  ${ignoredFiles.join(", ")}`,
+      );
+    }
+    if (uncategorizedFiles.length > 0) {
+      baseResult += chalk.red(
+        `\n    Uncategorized files: ${uncategorizedFiles.join(", ")}`,
+      );
+    }
+
+    return baseResult;
+  };

@@ -4,9 +4,12 @@ import {
   EndlessGateway,
   GatewaysToEternityGatewayV2,
 } from "schemas/minecraft/gateways/gateways-v2";
+import {
+  cleanEntityNBT,
+  getDyeFromColor,
+} from "scripts/generator/minecraft-gateway/utils";
 import { readJSONFile, writeJSONFile } from "scripts/utils/file";
 import { ColorName, mapHexToColorName } from "scripts/utils/minecraft-colors";
-import { cleanEntityNBT, getDyeFromColor } from "./utils";
 
 const gatewaysBasePath = path.resolve(
   "./src/minecraft/global_packs/required_data/skyfactory_5/data/gateways/gateways",

@@ -1,6 +1,6 @@
 import path from "path";
+import { friendlyMobs } from "scripts/generator/minecraft-gateway/utils";
 import { readJSONFile, writeJSONFile } from "scripts/utils/file";
-import { friendlyMobs } from "./utils";
 
 const configFilePath = path.resolve(
   "./src/minecraft/config/angrymobs/angrymobs_attributes.json",
