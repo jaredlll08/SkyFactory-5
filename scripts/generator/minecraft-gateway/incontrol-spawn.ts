@@ -61,12 +61,7 @@ export async function appendMobToInControlSpawn() {
   const massMobEntries = data.slice(-2);
 
   massMobEntries.forEach((entry) => {
-    if (!isArray(entry.mob)) {
-      console.log(`entry.mob is not an array`);
-      return;
-    }
-
-    entry.mob = entry.mob.sort((a, b) => a.localeCompare(b));
+    entry.mob = Array.from(mobs).sort((a, b) => a.localeCompare(b));
   });
 
   result.push(...massMobEntries);
