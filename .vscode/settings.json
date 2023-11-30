@@ -136,6 +136,12 @@
         "/src/minecraft/global_packs/required_resources/*/assets/obscure_tooltips/tooltips/styles/*.json"
       ],
       "url": "./schemas/minecraft/obscure_tooltips/style.json"
+    },
+    {
+      "fileMatch": [
+        "/src/minecraft/global_packs/required_data/*/data/*/trophies/*.json"
+      ],
+      "url": "./schemas/minecraft/obtrophies/trophy.json"
     }
   ],
   "cSpell.enabledLanguageIds": [

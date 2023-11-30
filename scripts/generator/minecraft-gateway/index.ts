@@ -1,3 +1,4 @@
+import chalk from "chalk";
 import { isArray, snakeCase } from "lodash";
 import {
   ActionType,
@@ -22,6 +23,7 @@ import {
   createStandardTitanGateway,
   defaultTitanBaseEntityNBT,
 } from "./titan-gateway";
+import { cleanTrophies, createTrophy } from "./trophy";
 import { getDyeFromColor } from "./utils";
 
 enum PromptName {
@@ -192,6 +194,8 @@ const getGatewayAddActions: DynamicActionsFunction = (answers) => {
   actions.push(updateCrafttweakerColorGatewayScript);
   actions.push(updateStagedMobsAction);
   actions.push(updateMobStageEnumAction);
+  actions.push(createTrophyAction);
+  actions.push(cleanTrophiesAction);
 
   return actions;
 };
@@ -246,4 +250,29 @@ const updateMobStageEnumAction: CustomActionFunction = async (
   await updateMobStageEnum(plop);
 
   return "Updated MobStage enum";
+};
+
+const createTrophyAction: CustomActionFunction = async (answers) => {
+  await createTrophy({
+    mob: answers[PromptName.MobResourceLocation],
+    mobName: snakeCase(answers[PromptName.MobName]),
+  });
+
+  return "Created trophy";
+};
+
+const cleanTrophiesAction: CustomActionFunction = async () => {
+  const undiscoveredMobs = await cleanTrophies();
+
+  let result = "Cleaned trophies";
+
+  if (undiscoveredMobs.length > 0) {
+    result += chalk.red(
+      `\n        Failed to find trophies for the following mob IDs: ${undiscoveredMobs.join(
+        ",",
+      )}`,
+    );
+  }
+
+  return result;
 };

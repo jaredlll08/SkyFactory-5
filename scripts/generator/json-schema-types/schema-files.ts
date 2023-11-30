@@ -46,4 +46,8 @@ export const schemaFiles = new Map<string, string[]>([
       "/src/minecraft/global_packs/required_resources/*/assets/obscure_tooltips/tooltips/styles/*.json",
     ],
   ],
+  [
+    "minecraft/obtrophies/trophy.json",
+    ["/src/minecraft/global_packs/required_data/*/data/*/trophies/*.json"],
+  ],
 ]);

@@ -1,0 +1,277 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "OpenBlocks Trophies Trophy",
+  "description": "A OpenBlocks Trophies trophy datapack file",
+  "type": "object",
+  "properties": {
+    "behavior": {
+      "$ref": "#/$defs/behaviors"
+    },
+    "drop_chance": {
+      "type": "number"
+    },
+    "entity": {
+      "type": "string"
+    },
+    "offset": {
+      "type": "number"
+    },
+    "scale": {
+      "type": "number"
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "variant_registry": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "string"
+        },
+        "registry": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "default_variant": {
+      "type": "object"
+    }
+  },
+  "required": ["entity"],
+  "additionalProperties": false,
+
+  "$defs": {
+    "behaviors": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/itemBehavior"
+        },
+        {
+          "$ref": "#/$defs/mobEffectBehavior"
+        },
+        {
+          "$ref": "#/$defs/placeBlockBehavior"
+        },
+        {
+          "$ref": "#/$defs/explosionBehavior"
+        },
+        {
+          "$ref": "#/$defs/arrowBehavior"
+        },
+        {
+          "$ref": "#/$defs/guardianCurseBehavior"
+        },
+        {
+          "$ref": "#/$defs/enderPearlBehavior"
+        },
+        {
+          "$ref": "#/$defs/llamaSpitBehavior"
+        },
+        {
+          "$ref": "#/$defs/totemOfUndyingBehavior"
+        },
+        {
+          "$ref": "#/$defs/lootTableBehavior"
+        },
+        {
+          "$ref": "#/$defs/rightClickItemBehavior"
+        }
+      ]
+    },
+
+    "itemBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "item"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:item"
+        },
+        "item": {
+          "type": "string",
+          "description": "The namespace of an item that the trophy should give"
+        },
+        "cooldown": {
+          "type": "number",
+          "description": "The time, in ticks, it takes until the trophy can give you another item"
+        },
+        "sound": {
+          "type": "string",
+          "description": "The namespace of a sound that should play when an item is given to the player"
+        }
+      }
+    },
+    "mobEffectBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "effect", "time"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:mob_effect"
+        },
+        "effect": {
+          "type": "string"
+        },
+        "time": {
+          "type": "number"
+        },
+        "amplifier": {
+          "type": "number"
+        }
+      }
+    },
+    "placeBlockBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "block", "placement"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:place_block"
+        },
+        "block": {
+          "type": "string"
+        },
+        "placement": {
+          "type": "string",
+          "enum": ["above", "cross", "around", "encase"]
+        }
+      }
+    },
+    "explosionBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "power", "destructive"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:explosion"
+        },
+        "power": {
+          "type": "number"
+        },
+        "destructive": {
+          "type": "boolean"
+        }
+      }
+    },
+    "arrowBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:arrow"
+        },
+        "amount": {
+          "type": "number"
+        },
+        "effect": {
+          "type": "string"
+        }
+      }
+    },
+    "guardianCurseBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:guardian_curse"
+        }
+      }
+    },
+    "enderPearlBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:ender_pearl"
+        }
+      }
+    },
+    "llamaSpitBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:llama_spit"
+        }
+      }
+    },
+    "totemOfUndyingBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:totem_of_undying"
+        }
+      }
+    },
+    "lootTableBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "loot_table"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:loot_table"
+        },
+        "loot_table": {
+          "type": "string"
+        },
+        "cooldown ": {
+          "type": "number"
+        },
+        "rolls": {
+          "type": "number"
+        }
+      }
+    },
+    "rightClickItemBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "item_to_use",
+        "shrink_item_stack",
+        "execute_behavior"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:right_click_item"
+        },
+        "item_to_use": {
+          "type": "string"
+        },
+        "shrink_item_stack": {
+          "type": "string"
+        },
+        "execute_behavior": {
+          "type": "string"
+        },
+        "cooldown": {
+          "type": "string"
+        },
+        "sound": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

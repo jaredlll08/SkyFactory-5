@@ -194,6 +194,12 @@ function getGeneratedSchemaValidatorRules() {
       ],
       schema: "./schemas/minecraft/obscure_tooltips/style.json",
     },
+    {
+      fileMatch: [
+        "src/minecraft/global_packs/required_data/*/data/*/trophies/*.json",
+      ],
+      schema: "./schemas/minecraft/obtrophies/trophy.json",
+    },
   ];
   // GENERATOR END
 }
