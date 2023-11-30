@@ -8,7 +8,7 @@ val items as IItemStack[] = [
   <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:water"}),
   <item:minecraft:potion>.withTag({Potion: "minecraft:water"}),
   <item:minecraft:splash_potion>.withTag({Potion: "minecraft:water"}),
-  <item:woodenbucket:wooden_bucket>.withTag({Damage: 0, Fluid: {FluidName: "minecraft:water", Amount: 1000}})
+  <item:woodenbucket:wooden_bucket>.withTag({Damage: 0, Fluid: {FluidName: "minecraft:water", Amount: 1000}}),
 
   // GENERATOR START
   // !THIS SECTION IS MANAGED BY A SCRIPT. DO NOT MANUALLY EDIT THIS SECTION!
