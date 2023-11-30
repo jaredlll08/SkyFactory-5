@@ -25,83 +25,11 @@
     "result": "deny"
   },
   {
-    "mob": "earthmobsmod:albino_cow",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "albinocow",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:baby_ghast",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "babyghast",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
     "mob": "earthmobsmod:bone_spider",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "bonespider",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
-  },
-  {
-    "mob": "earthmobsmod:bouldering_drowned",
-    "block": {
-      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
-    },
-    "gamestage": "boulderingdrowned",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
-  },
-  {
-    "mob": "earthmobsmod:bouldering_zombie",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "boulderingzombie",
+    "gamestage": "bone_spider",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -119,7 +47,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "cluckshroom",
+    "gamestage": "cluck_shroom",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -131,391 +59,13 @@
       }
     },
     "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:cream_cow",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "creamcow",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:duck",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "duck",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:fancy_chicken",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "fancychicken",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:furnace_golem",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "furnacegolem",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:hyper_rabbit",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "hyperrabbit",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:jolly_llama",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "jollyllama",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:jumbo_rabbit",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "jumborabbit",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:lobber_drowned",
-    "block": {
-      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
-    },
-    "gamestage": "lobberdrowned",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
-  },
-  {
-    "mob": "earthmobsmod:lobber_zombie",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "lobberzombie",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
-  },
-  {
-    "mob": "earthmobsmod:magma_cow",
-    "block": {
-      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
-    },
-    "gamestage": "magmacow",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:melon_golem",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "melongolem",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:moobloom",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "moobloom",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:moolip",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "moolip",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:skeleton_wolf",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "skeletonwolf",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:stray_bone_spider",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "straybonespider",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
-  },
-  {
-    "mob": "earthmobsmod:teacup_pig",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "teacuppig",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:tropical_slime",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "tropicalslime",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
-  },
-  {
-    "mob": "earthmobsmod:umbra_cow",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "umbracow",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:viler_witch",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "vilerwitch",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
-  },
-  {
-    "mob": "earthmobsmod:wither_skeleton_wolf",
-    "block": {
-      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
-    },
-    "gamestage": "witherskeletonwolf",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
   },
   {
     "mob": "earthmobsmod:wooly_cow",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "woolycow",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "earthmobsmod:zombified_pig",
-    "block": {
-      "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
-    },
-    "gamestage": "zombifiedpig",
+    "gamestage": "wooly_cow",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -533,7 +83,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "energeticsheep",
+    "gamestage": "energetic_sheep",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -551,7 +101,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "bluechuchu",
+    "gamestage": "blue_chu_chu",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -569,7 +119,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "creepertot",
+    "gamestage": "creeper_tot",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -587,7 +137,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "endertot",
+    "gamestage": "ender_tot",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -601,29 +151,11 @@
     "maxlight_full": 7
   },
   {
-    "mob": "forcecraft:fairy",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "fairy",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
     "mob": "forcecraft:gold_chu_chu",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "goldchuchu",
+    "gamestage": "gold_chu_chu",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -641,7 +173,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "greenchuchu",
+    "gamestage": "green_chu_chu",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -659,7 +191,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "redchuchu",
+    "gamestage": "red_chu_chu",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -677,7 +209,7 @@
     "block": {
       "tag": "skyfactory_5:wet_nether_mobs_need_liquid_and_also_possibly_solid_blocks"
     },
-    "gamestage": "lavamonster",
+    "gamestage": "lava_monster",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -695,7 +227,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "enderluggage",
+    "gamestage": "ender_luggage",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -861,7 +393,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "cavespider",
+    "gamestage": "cave_spider",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1125,7 +657,7 @@
     "block": {
       "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
     },
-    "gamestage": "glowsquid",
+    "gamestage": "glow_squid",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -1137,42 +669,6 @@
       }
     },
     "result": "allow"
-  },
-  {
-    "mob": "minecraft:goat",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "goat",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "minecraft:guardian",
-    "block": {
-      "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
-    },
-    "gamestage": "guardian",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
   },
   {
     "mob": "minecraft:hoglin",
@@ -1251,25 +747,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "irongolem",
-    "minlight_full": 7,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "minecraft:llama",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "llama",
+    "gamestage": "iron_golem",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -1287,7 +765,7 @@
     "block": {
       "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
     },
-    "gamestage": "magmacube",
+    "gamestage": "magma_cube",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1431,7 +909,7 @@
     "block": {
       "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
     },
-    "gamestage": "piglinbrute",
+    "gamestage": "piglin_brute",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -1467,7 +945,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "polarbear",
+    "gamestage": "polar_bear",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -1634,7 +1112,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "skeletonhorse",
+    "gamestage": "skeleton_horse",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -1688,7 +1166,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "snowgolem",
+    "gamestage": "snow_golem",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -1796,7 +1274,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "traderllama",
+    "gamestage": "trader_llama",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -1814,7 +1292,7 @@
     "block": {
       "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
     },
-    "gamestage": "tropicalfish",
+    "gamestage": "tropical_fish",
     "minlight_full": 7,
     "maxlight_full": 15,
     "nbt": {
@@ -1907,7 +1385,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "wanderingtrader",
+    "gamestage": "wandering_trader",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -1979,7 +1457,7 @@
     "block": {
       "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
     },
-    "gamestage": "witherskeleton",
+    "gamestage": "wither_skeleton",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2055,7 +1533,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "zombiehorse",
+    "gamestage": "zombie_horse",
     "minlight_full": 7,
     "maxlight_full": 15,
     "armorhelmet": {
@@ -2073,7 +1551,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "zombievillager",
+    "gamestage": "zombie_villager",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2091,7 +1569,7 @@
     "block": {
       "tag": "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works"
     },
-    "gamestage": "zombifiedpiglin",
+    "gamestage": "zombified_piglin",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2105,173 +1583,11 @@
     "maxlight_full": 7
   },
   {
-    "mob": "monsterplus:abyssologer",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "abyssologer",
-    "minlight_full": 0,
-    "maxlight_full": 7,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "monsterplus:crystal_zombie",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "crystalzombie",
-    "minlight_full": 0,
-    "maxlight_full": 7,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "monsterplus:glow_skeleton",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "glowskeleton",
-    "minlight_full": 0,
-    "maxlight_full": 7,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "monsterplus:lava_squid",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "lavasquid",
-    "minlight_full": 0,
-    "maxlight_full": 7,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "monsterplus:mother_lava_squid",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "motherlavasquid",
-    "minlight_full": 0,
-    "maxlight_full": 7,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "monsterplus:opalescent_eye",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "opalescenteye",
-    "minlight_full": 0,
-    "maxlight_full": 7,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "monsterplus:overgrown_skeleton",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "overgrownskeleton",
-    "minlight_full": 0,
-    "maxlight_full": 7,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "monsterplus:spectral_skeleton",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "spectralskeleton",
-    "minlight_full": 0,
-    "maxlight_full": 7,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "monsterplus:swamp_zombie",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "swampzombie",
-    "minlight_full": 0,
-    "maxlight_full": 7,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
     "mob": "veincreeper:black",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "blackveincreeper",
+    "gamestage": "black_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2289,7 +1605,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "blueveincreeper",
+    "gamestage": "blue_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2307,7 +1623,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "brownveincreeper",
+    "gamestage": "brown_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2325,7 +1641,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "cyanveincreeper",
+    "gamestage": "cyan_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2343,7 +1659,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "grayveincreeper",
+    "gamestage": "gray_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2361,7 +1677,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "greenveincreeper",
+    "gamestage": "green_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2379,7 +1695,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "lightblueveincreeper",
+    "gamestage": "light_blue_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2397,7 +1713,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "lightgrayveincreeper",
+    "gamestage": "light_gray_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2415,7 +1731,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "limeveincreeper",
+    "gamestage": "lime_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2433,7 +1749,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "magentaveincreeper",
+    "gamestage": "magenta_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2451,7 +1767,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "orangeveincreeper",
+    "gamestage": "orange_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2469,7 +1785,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "pinkveincreeper",
+    "gamestage": "pink_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2487,7 +1803,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "purpleveincreeper",
+    "gamestage": "purple_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2505,7 +1821,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "redveincreeper",
+    "gamestage": "red_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2523,7 +1839,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "whiteveincreeper",
+    "gamestage": "white_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2541,7 +1857,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "yellowveincreeper",
+    "gamestage": "yellow_vein_creeper",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2555,79 +1871,19 @@
     "maxlight_full": 7
   },
   {
-    "mob": "vinery:mule",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "mule",
-    "minlight_full": 8,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
-    "mob": "vinery:wandering_winemaker",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "wanderingwinemaker",
-    "minlight_full": 8,
-    "maxlight_full": 15,
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow"
-  },
-  {
     "mob": [
-      "earthmobsmod:albino_cow",
-      "earthmobsmod:baby_ghast",
+      "colourfulgoats:goat",
       "earthmobsmod:bone_spider",
-      "earthmobsmod:bouldering_drowned",
-      "earthmobsmod:bouldering_zombie",
       "earthmobsmod:cluck_shroom",
-      "earthmobsmod:cream_cow",
-      "earthmobsmod:duck",
-      "earthmobsmod:fancy_chicken",
-      "earthmobsmod:furnace_golem",
-      "earthmobsmod:hyper_rabbit",
-      "earthmobsmod:jolly_llama",
-      "earthmobsmod:jumbo_rabbit",
-      "earthmobsmod:lobber_drowned",
-      "earthmobsmod:lobber_zombie",
-      "earthmobsmod:magma_cow",
-      "earthmobsmod:melon_golem",
-      "earthmobsmod:moobloom",
-      "earthmobsmod:moolip",
-      "earthmobsmod:skeleton_wolf",
-      "earthmobsmod:stray_bone_spider",
-      "earthmobsmod:teacup_pig",
-      "earthmobsmod:tropical_slime",
-      "earthmobsmod:umbra_cow",
-      "earthmobsmod:viler_witch",
-      "earthmobsmod:wither_skeleton_wolf",
       "earthmobsmod:wooly_cow",
-      "earthmobsmod:zombified_pig",
       "energeticsheep:energetic_sheep",
       "forcecraft:blue_chu_chu",
       "forcecraft:creeper_tot",
       "forcecraft:ender_tot",
-      "forcecraft:fairy",
       "forcecraft:gold_chu_chu",
       "forcecraft:green_chu_chu",
       "forcecraft:red_chu_chu",
+      "ghastcow:ghast_cow",
       "lava_monster:lava_monster",
       "luggage:ender_luggage",
       "luggage:luggage",
@@ -2646,6 +1902,8 @@
       "minecraft:dolphin",
       "minecraft:donkey",
       "minecraft:drowned",
+      "minecraft:elder_guardian",
+      "minecraft:ender_dragon",
       "minecraft:enderman",
       "minecraft:endermite",
       "minecraft:evoker",
@@ -2653,14 +1911,11 @@
       "minecraft:frog",
       "minecraft:ghast",
       "minecraft:glow_squid",
-      "minecraft:goat",
-      "minecraft:guardian",
       "minecraft:hoglin",
       "minecraft:horse",
       "minecraft:husk",
       "minecraft:illusioner",
       "minecraft:iron_golem",
-      "minecraft:llama",
       "minecraft:magma_cube",
       "minecraft:mooshroom",
       "minecraft:ocelot",
@@ -2706,15 +1961,6 @@
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
       "minecraft:zombified_piglin",
-      "monsterplus:abyssologer",
-      "monsterplus:crystal_zombie",
-      "monsterplus:glow_skeleton",
-      "monsterplus:lava_squid",
-      "monsterplus:mother_lava_squid",
-      "monsterplus:opalescent_eye",
-      "monsterplus:overgrown_skeleton",
-      "monsterplus:spectral_skeleton",
-      "monsterplus:swamp_zombie",
       "veincreeper:black",
       "veincreeper:blue",
       "veincreeper:brown",
@@ -2731,49 +1977,24 @@
       "veincreeper:red",
       "veincreeper:white",
       "veincreeper:yellow",
-      "vinery:mule",
-      "vinery:wandering_winemaker"
+      "waddles:adelie_penguin"
     ],
     "result": "deny"
   },
   {
     "mob": [
-      "earthmobsmod:albino_cow",
-      "earthmobsmod:baby_ghast",
+      "colourfulgoats:goat",
       "earthmobsmod:bone_spider",
-      "earthmobsmod:bouldering_drowned",
-      "earthmobsmod:bouldering_zombie",
       "earthmobsmod:cluck_shroom",
-      "earthmobsmod:cream_cow",
-      "earthmobsmod:duck",
-      "earthmobsmod:fancy_chicken",
-      "earthmobsmod:furnace_golem",
-      "earthmobsmod:hyper_rabbit",
-      "earthmobsmod:jolly_llama",
-      "earthmobsmod:jumbo_rabbit",
-      "earthmobsmod:lobber_drowned",
-      "earthmobsmod:lobber_zombie",
-      "earthmobsmod:magma_cow",
-      "earthmobsmod:melon_golem",
-      "earthmobsmod:moobloom",
-      "earthmobsmod:moolip",
-      "earthmobsmod:skeleton_wolf",
-      "earthmobsmod:stray_bone_spider",
-      "earthmobsmod:teacup_pig",
-      "earthmobsmod:tropical_slime",
-      "earthmobsmod:umbra_cow",
-      "earthmobsmod:viler_witch",
-      "earthmobsmod:wither_skeleton_wolf",
       "earthmobsmod:wooly_cow",
-      "earthmobsmod:zombified_pig",
       "energeticsheep:energetic_sheep",
       "forcecraft:blue_chu_chu",
       "forcecraft:creeper_tot",
       "forcecraft:ender_tot",
-      "forcecraft:fairy",
       "forcecraft:gold_chu_chu",
       "forcecraft:green_chu_chu",
       "forcecraft:red_chu_chu",
+      "ghastcow:ghast_cow",
       "lava_monster:lava_monster",
       "luggage:ender_luggage",
       "luggage:luggage",
@@ -2792,6 +2013,8 @@
       "minecraft:dolphin",
       "minecraft:donkey",
       "minecraft:drowned",
+      "minecraft:elder_guardian",
+      "minecraft:ender_dragon",
       "minecraft:enderman",
       "minecraft:endermite",
       "minecraft:evoker",
@@ -2799,14 +2022,11 @@
       "minecraft:frog",
       "minecraft:ghast",
       "minecraft:glow_squid",
-      "minecraft:goat",
-      "minecraft:guardian",
       "minecraft:hoglin",
       "minecraft:horse",
       "minecraft:husk",
       "minecraft:illusioner",
       "minecraft:iron_golem",
-      "minecraft:llama",
       "minecraft:magma_cube",
       "minecraft:mooshroom",
       "minecraft:ocelot",
@@ -2852,15 +2072,6 @@
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
       "minecraft:zombified_piglin",
-      "monsterplus:abyssologer",
-      "monsterplus:crystal_zombie",
-      "monsterplus:glow_skeleton",
-      "monsterplus:lava_squid",
-      "monsterplus:mother_lava_squid",
-      "monsterplus:opalescent_eye",
-      "monsterplus:overgrown_skeleton",
-      "monsterplus:spectral_skeleton",
-      "monsterplus:swamp_zombie",
       "veincreeper:black",
       "veincreeper:blue",
       "veincreeper:brown",
@@ -2877,8 +2088,7 @@
       "veincreeper:red",
       "veincreeper:white",
       "veincreeper:yellow",
-      "vinery:mule",
-      "vinery:wandering_winemaker"
+      "waddles:adelie_penguin"
     ],
     "spawner": true,
     "armorhelmet": {

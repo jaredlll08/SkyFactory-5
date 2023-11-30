@@ -8,11 +8,16 @@ import { genEnsureConfirmedAction } from "scripts/generator/common";
 import { updateCrafttweakerColorGatewayScript } from "scripts/generator/minecraft-gateway-crafttweaker-list";
 import { RegisterGeneratorFn } from "scripts/generator/models";
 import { ColorName, mapColorNameToHex } from "scripts/utils/minecraft-colors";
+import {
+  generateMobStageState,
+  generateMobState,
+} from "./action-state-manager";
 import { appendMobToInControlSpawn } from "./incontrol-spawn";
 import {
   createStandardNormalGateway,
   defaultNormalBaseEntityNBT,
 } from "./normal-gateway";
+import { updateMobStageEnum, updateStagedMobsGlobal } from "./staged-mobs-zs";
 import {
   createStandardTitanGateway,
   defaultTitanBaseEntityNBT,
@@ -181,11 +186,36 @@ const getGatewayAddActions: DynamicActionsFunction = (answers) => {
     });
   }
 
+  actions.push(updateActionState(ActionState.Mobs));
   actions.push(updateInControlSpawnConfig);
+  actions.push(updateActionState(ActionState.MobStageMapping));
   actions.push(updateCrafttweakerColorGatewayScript);
+  actions.push(updateStagedMobsAction);
+  actions.push(updateMobStageEnumAction);
 
   return actions;
 };
+
+enum ActionState {
+  Mobs,
+  MobStageMapping,
+}
+
+const updateActionState: (actionState: ActionState) => CustomActionFunction =
+  (actionState) => async () => {
+    switch (actionState) {
+      case ActionState.Mobs:
+        await generateMobState();
+
+        return "Saved Mob Action State";
+      case ActionState.MobStageMapping:
+        await generateMobStageState();
+
+        return "Saved Mob Stages Action state";
+      default:
+        throw new Error("unknown action state to update");
+    }
+  };
 
 const updateInControlSpawnConfig: CustomActionFunction = async (answers) => {
   await appendMobToInControlSpawn({
@@ -196,4 +226,24 @@ const updateInControlSpawnConfig: CustomActionFunction = async (answers) => {
   });
 
   return "Updated InControl spawn config";
+};
+
+const updateStagedMobsAction: CustomActionFunction = async (
+  _answers,
+  _config,
+  plop,
+) => {
+  await updateStagedMobsGlobal(plop);
+
+  return "Updated stagedMobs global";
+};
+
+const updateMobStageEnumAction: CustomActionFunction = async (
+  _answers,
+  _config,
+  plop,
+) => {
+  await updateMobStageEnum(plop);
+
+  return "Updated MobStage enum";
 };
