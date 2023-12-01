@@ -1,10 +1,10 @@
 {
-  "rei_groups.minecraft.potions": "Potions",
-  "rei_groups.minecraft.painting": "Paintings",
-  "rei_groups.minecraft.enchanted_books": "Enchanted Books",
-  "rei_groups.minecraft.splash_potions": "Splash Potions",
-  "rei_groups.minecraft.tipped_arrows": "Tipped Arrows",
-  "rei_groups.minecraft.lingering_potions": "Lingering Potions",
   "rei_groups.enderio.broken_spawners": "Broken Spawners",
-  "rei_groups.enderio.filled_soul_vials": "Filled Soul Vials"
+  "rei_groups.enderio.filled_soul_vials": "Filled Soul Vials",
+  "rei_groups.minecraft.enchanted_books": "Enchanted Books",
+  "rei_groups.minecraft.lingering_potions": "Lingering Potions",
+  "rei_groups.minecraft.painting": "Paintings",
+  "rei_groups.minecraft.potions": "Potions",
+  "rei_groups.minecraft.splash_potions": "Splash Potions",
+  "rei_groups.minecraft.tipped_arrows": "Tipped Arrows"
 }

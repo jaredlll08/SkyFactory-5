@@ -101,6 +101,26 @@ const config = {
         ],
       },
     },
+    {
+      files: [
+        minecraftSubPath(
+          "global_packs/required_resources/**/assets/**/lang/*.json",
+        ),
+        minecraftSubPath("kubejs/assets/**/lang/*.json"),
+        minecraftSubPath("packmenu/resources/assets/**/lang/*.json"),
+      ],
+      rules: {
+        "jsonc/sort-keys": [
+          "error",
+          {
+            pathPattern: ".*",
+            order: {
+              type: "asc",
+            },
+          },
+        ],
+      },
+    },
   ],
 };
 

@@ -1,11 +1,7 @@
 {
-  "item.minecraft.apple": "Red Apple",
-  "rarity.common.name": " ",
-  "rarity.uncommon.name": " ",
-  "rarity.rare.name": " ",
-  "rarity.epic.name": " ",
   "item.minecraft.acacia_boat": "Green Boat",
   "item.minecraft.acacia_chest_boat": "Green Boat with Chest",
+  "item.minecraft.apple": "Red Apple",
   "item.minecraft.birch_boat": "Purple Boat",
   "item.minecraft.birch_chest_boat": "Purple Boat with Chest",
   "item.minecraft.cherry_boat": "Pink Boat",
@@ -19,5 +15,9 @@
   "item.minecraft.oak_boat": "Red Boat",
   "item.minecraft.oak_chest_boat": "Red Boat with Chest",
   "item.minecraft.spruce_boat": "Lime Boat",
-  "item.minecraft.spruce_chest_boat": "Lime Boat with Chest"
+  "item.minecraft.spruce_chest_boat": "Lime Boat with Chest",
+  "rarity.common.name": " ",
+  "rarity.epic.name": " ",
+  "rarity.rare.name": " ",
+  "rarity.uncommon.name": " "
 }
