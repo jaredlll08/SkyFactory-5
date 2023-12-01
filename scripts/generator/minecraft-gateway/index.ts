@@ -14,6 +14,7 @@ import {
   generateMobState,
 } from "./action-state-manager";
 import { appendMobToInControlSpawn } from "./incontrol-spawn";
+import { cleanLangFile, upsertLangFile, validateLangFile } from "./lang";
 import {
   createStandardNormalGateway,
   defaultNormalBaseEntityNBT,
@@ -196,6 +197,9 @@ const getGatewayAddActions: DynamicActionsFunction = (answers) => {
   actions.push(updateMobStageEnumAction);
   actions.push(createTrophyAction);
   actions.push(cleanTrophiesAction);
+  actions.push(upsertLangFileAction);
+  actions.push(validateLangFileAction);
+  actions.push(cleanLangFileAction);
 
   return actions;
 };
@@ -269,6 +273,50 @@ const cleanTrophiesAction: CustomActionFunction = async () => {
   if (undiscoveredMobs.length > 0) {
     result += chalk.red(
       `\n        Failed to find trophies for the following mob IDs: ${undiscoveredMobs.join(
+        ",",
+      )}`,
+    );
+  }
+
+  return result;
+};
+
+const upsertLangFileAction: CustomActionFunction = async (answers) => {
+  const gatewayAnswers = new Set<GatewayType>(answers[PromptName.GatewayType]);
+
+  await upsertLangFile({
+    mobName: answers[PromptName.MobName],
+    normalGateway: gatewayAnswers.has(GatewayType.Normal),
+    titanGateway: gatewayAnswers.has(GatewayType.Titan),
+  });
+
+  return "Upserted lang file";
+};
+
+const validateLangFileAction: CustomActionFunction = async () => {
+  const missingEntries = await validateLangFile();
+
+  let result = "Validated lang file";
+
+  if (missingEntries.length > 0) {
+    result += chalk.red(
+      `\n        Failed to find lang entry for the following gateways: ${missingEntries.join(
+        ",",
+      )}`,
+    );
+  }
+
+  return result;
+};
+
+const cleanLangFileAction: CustomActionFunction = async () => {
+  const removedEntries = await cleanLangFile();
+
+  let result = "Cleaned gateways in lang file";
+
+  if (removedEntries.length > 0) {
+    result += chalk.yellow(
+      `\n        Removed following gateways lang entries: ${removedEntries.join(
         ",",
       )}`,
     );

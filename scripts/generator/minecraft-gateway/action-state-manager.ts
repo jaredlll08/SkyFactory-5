@@ -2,11 +2,8 @@ import glob from "glob-promise";
 import path from "path";
 import { GatewaysToEternityGatewayV2 } from "schemas/minecraft/gateways/gateways-v2";
 import { readJSONFile, writeJSONFile } from "scripts/utils/file";
+import { gatewaysBasePath } from "./constants";
 import { getMobStageMapping } from "./incontrol-spawn";
-
-const gatewaysBasePath = path.resolve(
-  "./src/minecraft/global_packs/required_data/skyfactory_5/data/gateways/gateways",
-);
 
 const actionStateFilePath = path.join(__dirname, "action-state.json");
 
