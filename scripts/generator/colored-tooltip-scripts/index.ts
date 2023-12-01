@@ -10,8 +10,8 @@ import { readJSONFile, writeJSONFile } from "scripts/utils/file";
 const tooltipsBasePath = path.resolve(
   "./src/minecraft/global_packs/required_resources/sf5_resources/assets/obscure_tooltips/tooltips/styles",
 );
-const tooltipScriptsBasePath = path.resolve(
-  "./src/minecraft/scripts/colors/tooltips",
+const coloredItemsScriptsBasePath = path.resolve(
+  "./src/minecraft/scripts/colors/items",
 );
 
 export const registerGenerator: RegisterGeneratorFn = (plop) => {
@@ -51,7 +51,7 @@ const updateFiles: CustomActionFunction = async (_answers, _config, plop) => {
       await writeJSONFile(filePath, data, "json");
 
       const scriptFilePath = path.join(
-        tooltipScriptsBasePath,
+        coloredItemsScriptsBasePath,
         `${fileName.replace("sf5_", "")}.zs`,
       );
 
