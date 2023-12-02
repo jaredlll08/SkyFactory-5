@@ -118,9 +118,4 @@ val items as IItemStack[] = [
 
 for item in items {
   item.addTooltip(Component.literal(color.getName()).withStyle(style => style.withColor(textColor)));
-
-  if (!item.hasTag) {
-    <tag:items:skyfactory_5:colored_items>.add(item);
-    <tag:items:skyfactory_5:colored_items/green>.add(item);
-  }
 }
