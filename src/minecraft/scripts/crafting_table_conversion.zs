@@ -1,6 +1,10 @@
-// Example scripts for using gamestages with recipes
-// mods.recipestages.Recipes.setRecipeStage("test_stage", <item:minecraft:stone_hoe>);
-
+// This whole script is probably going to get removed anyways now that we have to
+// rework the entire crafting setup so... it's not needed but I'll probably
+// delete it and then realize in two weeks that it connected some important
+// feature and yell about why it doesn't work and then check git blame
+// and see my name and get really embarassed on my livestream about it
+// on twitch.tv/darkosto don't forget to like and subscribe for more content
+/*
 
 
 // Adds a recipe to convert any ColourfulStuff Crafting Table into a vanilla Crafting Table
@@ -15,7 +19,7 @@ mods.recipestages.Recipes.addShapeless(
 
 // Stages the vanilla crafting table after the 'brown' stage is obtained
 // mods.recipestages.Recipes.setRecipeStage(Stage.Brown, <item:minecraft:crafting_table>);
-/*
+
 mods.recipestages.Recipes.addShaped(
   Stage.Colorless,
   "colorless_crafting_table",
