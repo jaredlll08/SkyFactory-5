@@ -16,6 +16,23 @@
     "colouredstuff:sapling_blue",
     "colouredstuff:sapling_brown",
     "colouredstuff:sapling_red",
-    "colouredstuff:sapling_green"
+    "colouredstuff:sapling_green",
+    "mysticalagriculture:black_crop_crop",
+    "mysticalagriculture:blue_crop_crop",
+    "mysticalagriculture:brown_crop_crop",
+    "mysticalagriculture:cyan_crop_crop",
+    "mysticalagriculture:gray_crop_crop",
+    "mysticalagriculture:green_crop_crop",
+    "mysticalagriculture:light_blue_crop_crop",
+    "mysticalagriculture:light_gray_crop_crop",
+    "mysticalagriculture:lime_crop_crop",
+    "mysticalagriculture:magenta_crop_crop",
+    "mysticalagriculture:orange_crop_crop",
+    "mysticalagriculture:pink_crop_crop",
+    "mysticalagriculture:purple_crop_crop",
+    "mysticalagriculture:red_crop_crop",
+    "mysticalagriculture:white_crop_crop",
+    "mysticalagriculture:yellow_crop_crop",
+    "mysticalagriculture:rgb_crop_crop"
   ]
 }
