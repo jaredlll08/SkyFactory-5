@@ -1,0 +1,25 @@
+{
+  "replace": true,
+  "values": [
+    "craftingforblockheads:workbench",
+    "minecraft:crafting_table",
+    "colouredstuff:crafting_table_none",
+    "colouredstuff:crafting_table_orange",
+    "colouredstuff:crafting_table_green",
+    "minecraft:raw_copper_block",
+    "colouredstuff:crafting_table_black",
+    "colouredstuff:crafting_table_blue",
+    "colouredstuff:crafting_table_brown",
+    "colouredstuff:crafting_table_cyan",
+    "colouredstuff:crafting_table_light_blue",
+    "colouredstuff:crafting_table_light_gray",
+    "colouredstuff:crafting_table_lime",
+    "colouredstuff:crafting_table_magenta",
+    "colouredstuff:crafting_table_pink",
+    "colouredstuff:crafting_table_purple",
+    "colouredstuff:crafting_table_red",
+    "colouredstuff:crafting_table_white",
+    "colouredstuff:crafting_table_yellow",
+    "minecraft:sponge"
+  ]
+}

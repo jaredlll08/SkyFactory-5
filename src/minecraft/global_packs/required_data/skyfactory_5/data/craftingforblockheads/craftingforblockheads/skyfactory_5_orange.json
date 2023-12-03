@@ -1,0 +1,63 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "orange_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_orange"
+    },
+    "orange_stage": {
+      "type": "has_gamestage",
+      "gamestage": "orange"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:orange_crafting_table": {
+      "name": "Orange Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_orange"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_orange"
+        },
+        {
+          "item": "colouredstuff:planks_orange"
+        },
+        {
+          "item": "sf5stuff:composting_bin_orange"
+        },
+        {
+          "item": "sf5stuff:crucible_orange"
+        },
+        {
+          "item": "colouredstuff:slab_planks_orange"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_orange"
+        },
+        {
+          "item": "colouredstuff:wall_planks_orange"
+        },
+        {
+          "item": "colouredstuff:fence_planks_orange"
+        },
+        {
+          "item": "colouredstuff:gate_planks_orange"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:orange_torch"
+        },
+        {
+          "item": "tintedcampfires:orange_campfire"
+        }
+      ],
+      "hard_requirements": ["orange_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

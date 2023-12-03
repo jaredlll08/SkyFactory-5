@@ -1,0 +1,106 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "all_colors_table",
+  "predicates": {
+    "sponge": {
+      "type": "workshop_core",
+      "block": "minecraft:sponge"
+    },
+    "red_crafting_table": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_red"
+    },
+    "none_crafting_table": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_none"
+    },
+    "orange_crafting_table": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_orange"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:sponge": {
+      "name": "Sponge",
+      "icon": {
+        "item": "minecraft:sponge"
+      },
+      "includes": [
+        {
+          "item": "minecraft:birch_planks"
+        },
+        {
+          "item": "minecraft:red_tulip"
+        },
+        {
+          "item": "colouredstuff:crafting_table_none"
+        },
+        {
+          "item": "colouredstuff:crafting_table_none"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "sf5stuff:composting_bin_none"
+        },
+        {
+          "item": "sf5stuff:crucible_none"
+        },
+        {
+          "item": "colouredstuff:slab_planks_none"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_none"
+        },
+        {
+          "item": "colouredstuff:wall_planks_none"
+        },
+        {
+          "item": "colouredstuff:fence_planks_none"
+        },
+        {
+          "item": "colouredstuff:gate_planks_none"
+        },
+        {
+          "item": "colouredstuff:crafting_table_orange"
+        },
+        {
+          "item": "colouredstuff:planks_orange"
+        },
+        {
+          "item": "colouredstuff:slab_planks_orange"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_orange"
+        },
+        {
+          "item": "colouredstuff:wall_planks_orange"
+        },
+        {
+          "item": "colouredstuff:fence_planks_orange"
+        },
+        {
+          "item": "colouredstuff:gate_planks_orange"
+        },
+        {
+          "item": "forcecraft:force_orange_torch"
+        },
+        {
+          "item": "minecraft:orange_bed"
+        },
+        {
+          "item": "minecraft:mutton"
+        },
+        {
+          "item": "colouredstuff:crafting_table_purple"
+        },
+        {
+          "item": "exnihilosequentia:enderman_doll"
+        }
+      ],
+      "hard_requirements": ["sponge"]
+    }
+  }
+}

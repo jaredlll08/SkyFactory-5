@@ -1,0 +1,56 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "none_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_none"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:colorless_crafting_table": {
+      "name": "Colorless Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_none"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_none"
+        },
+        {
+          "item": "colouredstuff:planks_none"
+        },
+        {
+          "item": "sf5stuff:composting_bin_none"
+        },
+        {
+          "item": "sf5stuff:crucible_none"
+        },
+        {
+          "item": "colouredstuff:slab_planks_none"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_none"
+        },
+        {
+          "item": "colouredstuff:wall_planks_none"
+        },
+        {
+          "item": "colouredstuff:fence_planks_none"
+        },
+        {
+          "item": "colouredstuff:gate_planks_none"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "woodenbucket:wooden_bucket"
+        }
+      ],
+      "hard_requirements": ["none_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

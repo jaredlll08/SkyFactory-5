@@ -1,0 +1,63 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "gray_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_gray"
+    },
+    "gray_stage": {
+      "type": "has_gamestage",
+      "gamestage": "gray"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:gray_crafting_table": {
+      "name": "Gray Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_gray"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_gray"
+        },
+        {
+          "item": "colouredstuff:planks_gray"
+        },
+        {
+          "item": "sf5stuff:composting_bin_gray"
+        },
+        {
+          "item": "sf5stuff:crucible_gray"
+        },
+        {
+          "item": "colouredstuff:slab_planks_gray"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_gray"
+        },
+        {
+          "item": "colouredstuff:wall_planks_gray"
+        },
+        {
+          "item": "colouredstuff:fence_planks_gray"
+        },
+        {
+          "item": "colouredstuff:gate_planks_gray"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:gray_torch"
+        },
+        {
+          "item": "tintedcampfires:gray_campfire"
+        }
+      ],
+      "hard_requirements": ["gray_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

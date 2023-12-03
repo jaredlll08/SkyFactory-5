@@ -1,0 +1,63 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "yellow_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_yellow"
+    },
+    "yellow_stage": {
+      "type": "has_gamestage",
+      "gamestage": "yellow"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:yellow_crafting_table": {
+      "name": "Yellow Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_yellow"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_yellow"
+        },
+        {
+          "item": "colouredstuff:planks_yellow"
+        },
+        {
+          "item": "sf5stuff:composting_bin_yellow"
+        },
+        {
+          "item": "sf5stuff:crucible_yellow"
+        },
+        {
+          "item": "colouredstuff:slab_planks_yellow"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_yellow"
+        },
+        {
+          "item": "colouredstuff:wall_planks_yellow"
+        },
+        {
+          "item": "colouredstuff:fence_planks_yellow"
+        },
+        {
+          "item": "colouredstuff:gate_planks_yellow"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:yellow_torch"
+        },
+        {
+          "item": "tintedcampfires:yellow_campfire"
+        }
+      ],
+      "hard_requirements": ["yellow_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

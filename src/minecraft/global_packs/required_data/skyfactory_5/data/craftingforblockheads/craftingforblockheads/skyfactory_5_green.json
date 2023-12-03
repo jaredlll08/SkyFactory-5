@@ -1,0 +1,66 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "green_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_green"
+    },
+    "green_stage": {
+      "type": "has_gamestage",
+      "gamestage": "green"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:green_crafting_table": {
+      "name": "Green Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_green"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_green"
+        },
+        {
+          "item": "colouredstuff:planks_green"
+        },
+        {
+          "item": "sf5stuff:composting_bin_green"
+        },
+        {
+          "item": "sf5stuff:crucible_green"
+        },
+        {
+          "item": "colouredstuff:slab_planks_green"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_green"
+        },
+        {
+          "item": "colouredstuff:wall_planks_green"
+        },
+        {
+          "item": "colouredstuff:fence_planks_green"
+        },
+        {
+          "item": "colouredstuff:gate_planks_green"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:green_torch"
+        },
+        {
+          "item": "tintedcampfires:green_campfire"
+        },
+        {
+          "item": "silentgear:axe_head"
+        }
+      ],
+      "hard_requirements": ["green_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

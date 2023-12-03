@@ -1,0 +1,63 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "purple_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_purple"
+    },
+    "purple_stage": {
+      "type": "has_gamestage",
+      "gamestage": "purple"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:purple_crafting_table": {
+      "name": "Purple Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_purple"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_purple"
+        },
+        {
+          "item": "colouredstuff:planks_purple"
+        },
+        {
+          "item": "sf5stuff:composting_bin_purple"
+        },
+        {
+          "item": "sf5stuff:crucible_purple"
+        },
+        {
+          "item": "colouredstuff:slab_planks_purple"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_purple"
+        },
+        {
+          "item": "colouredstuff:wall_planks_purple"
+        },
+        {
+          "item": "colouredstuff:fence_planks_purple"
+        },
+        {
+          "item": "colouredstuff:gate_planks_purple"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:purple_torch"
+        },
+        {
+          "item": "tintedcampfires:purple_campfire"
+        }
+      ],
+      "hard_requirements": ["purple_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

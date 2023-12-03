@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "colouredstuff:crafting_table_none",
+    "sf5stuff:composting_bin_none",
+    "sf5stuff:crucible_none",
+    "colouredstuff:slab_planks_none",
+    "colouredstuff:stairs_planks_none",
+    "colouredstuff:wall_planks_none",
+    "colouredstuff:fence_planks_none",
+    "colouredstuff:gate_planks_none",
+    "minecraft:birch_planks"
+  ]
+}

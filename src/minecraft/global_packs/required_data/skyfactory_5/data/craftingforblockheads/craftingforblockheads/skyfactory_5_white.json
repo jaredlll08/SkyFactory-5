@@ -1,0 +1,63 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "white_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_white"
+    },
+    "white_stage": {
+      "type": "has_gamestage",
+      "gamestage": "white"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:white_crafting_table": {
+      "name": "White Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_white"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_white"
+        },
+        {
+          "item": "colouredstuff:planks_white"
+        },
+        {
+          "item": "sf5stuff:composting_bin_white"
+        },
+        {
+          "item": "sf5stuff:crucible_white"
+        },
+        {
+          "item": "colouredstuff:slab_planks_white"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_white"
+        },
+        {
+          "item": "colouredstuff:wall_planks_white"
+        },
+        {
+          "item": "colouredstuff:fence_planks_white"
+        },
+        {
+          "item": "colouredstuff:gate_planks_white"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:white_torch"
+        },
+        {
+          "item": "tintedcampfires:white_campfire"
+        }
+      ],
+      "hard_requirements": ["white_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

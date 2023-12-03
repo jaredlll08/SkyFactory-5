@@ -1,0 +1,63 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "light_gray_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_light_gray"
+    },
+    "light_gray_stage": {
+      "type": "has_gamestage",
+      "gamestage": "light_gray"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:light_gray_crafting_table": {
+      "name": "Light_Gray Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_light_gray"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_light_gray"
+        },
+        {
+          "item": "colouredstuff:planks_light_gray"
+        },
+        {
+          "item": "sf5stuff:composting_bin_light_gray"
+        },
+        {
+          "item": "sf5stuff:crucible_light_gray"
+        },
+        {
+          "item": "colouredstuff:slab_planks_light_gray"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_light_gray"
+        },
+        {
+          "item": "colouredstuff:wall_planks_light_gray"
+        },
+        {
+          "item": "colouredstuff:fence_planks_light_gray"
+        },
+        {
+          "item": "colouredstuff:gate_planks_light_gray"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:light_gray_torch"
+        },
+        {
+          "item": "tintedcampfires:light_gray_campfire"
+        }
+      ],
+      "hard_requirements": ["light_gray_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

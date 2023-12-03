@@ -1,0 +1,35 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "crafting_stick_present": {
+      "type": "workshop_core",
+      "item": "cyclic:crafting_stick"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:crafting_stick": {
+      "name": "Crafting Stick",
+      "icon": {
+        "item": "cyclic:crafting_stick"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_none"
+        },
+        {
+          "item": "colouredstuff:planks_none"
+        },
+        {
+          "item": "colouredstuff:slab_planks_none"
+        },
+        {
+          "item": "minecraft:stick"
+        }
+      ],
+      "hard_requirements": ["crafting_stick_present"],
+      "priority": 10000
+    }
+  }
+}

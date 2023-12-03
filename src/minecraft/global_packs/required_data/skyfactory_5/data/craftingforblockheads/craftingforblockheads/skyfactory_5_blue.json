@@ -1,0 +1,63 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "blue_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_blue"
+    },
+    "blue_stage": {
+      "type": "has_gamestage",
+      "gamestage": "blue"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:blue_crafting_table": {
+      "name": "Blue Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_blue"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_blue"
+        },
+        {
+          "item": "colouredstuff:planks_blue"
+        },
+        {
+          "item": "sf5stuff:composting_bin_blue"
+        },
+        {
+          "item": "sf5stuff:crucible_blue"
+        },
+        {
+          "item": "colouredstuff:slab_planks_blue"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_blue"
+        },
+        {
+          "item": "colouredstuff:wall_planks_blue"
+        },
+        {
+          "item": "colouredstuff:fence_planks_blue"
+        },
+        {
+          "item": "colouredstuff:gate_planks_blue"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:blue_torch"
+        },
+        {
+          "item": "tintedcampfires:blue_campfire"
+        }
+      ],
+      "hard_requirements": ["blue_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

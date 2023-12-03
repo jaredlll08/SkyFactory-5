@@ -1,0 +1,63 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "pink_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_pink"
+    },
+    "pink_stage": {
+      "type": "has_gamestage",
+      "gamestage": "pink"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:pink_crafting_table": {
+      "name": "Pink Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_pink"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_pink"
+        },
+        {
+          "item": "colouredstuff:planks_pink"
+        },
+        {
+          "item": "sf5stuff:composting_bin_pink"
+        },
+        {
+          "item": "sf5stuff:crucible_pink"
+        },
+        {
+          "item": "colouredstuff:slab_planks_pink"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_pink"
+        },
+        {
+          "item": "colouredstuff:wall_planks_pink"
+        },
+        {
+          "item": "colouredstuff:fence_planks_pink"
+        },
+        {
+          "item": "colouredstuff:gate_planks_pink"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:pink_torch"
+        },
+        {
+          "item": "tintedcampfires:pink_campfire"
+        }
+      ],
+      "hard_requirements": ["pink_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

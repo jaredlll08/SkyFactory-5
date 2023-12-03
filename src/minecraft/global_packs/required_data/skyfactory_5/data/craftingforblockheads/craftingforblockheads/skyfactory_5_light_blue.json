@@ -1,0 +1,63 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "light_blue_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_light_blue"
+    },
+    "light_blue_stage": {
+      "type": "has_gamestage",
+      "gamestage": "light_blue"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:light_blue_crafting_table": {
+      "name": "Light_Blue Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_light_blue"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_light_blue"
+        },
+        {
+          "item": "colouredstuff:planks_light_blue"
+        },
+        {
+          "item": "sf5stuff:composting_bin_light_blue"
+        },
+        {
+          "item": "sf5stuff:crucible_light_blue"
+        },
+        {
+          "item": "colouredstuff:slab_planks_light_blue"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_light_blue"
+        },
+        {
+          "item": "colouredstuff:wall_planks_light_blue"
+        },
+        {
+          "item": "colouredstuff:fence_planks_light_blue"
+        },
+        {
+          "item": "colouredstuff:gate_planks_light_blue"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:light_blue_torch"
+        },
+        {
+          "item": "tintedcampfires:light_blue_campfire"
+        }
+      ],
+      "hard_requirements": ["light_blue_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}

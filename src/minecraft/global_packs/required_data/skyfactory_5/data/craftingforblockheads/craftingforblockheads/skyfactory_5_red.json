@@ -1,0 +1,63 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {
+    "red_crafting_table_present": {
+      "type": "workshop_has",
+      "block": "colouredstuff:crafting_table_red"
+    },
+    "red_stage": {
+      "type": "has_gamestage",
+      "gamestage": "red"
+    }
+  },
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:red_crafting_table": {
+      "name": "Red Recipes",
+      "icon": {
+        "item": "colouredstuff:crafting_table_red"
+      },
+      "includes": [
+        {
+          "item": "colouredstuff:crafting_table_red"
+        },
+        {
+          "item": "colouredstuff:planks_red"
+        },
+        {
+          "item": "sf5stuff:composting_bin_red"
+        },
+        {
+          "item": "sf5stuff:crucible_red"
+        },
+        {
+          "item": "colouredstuff:slab_planks_red"
+        },
+        {
+          "item": "colouredstuff:stairs_planks_red"
+        },
+        {
+          "item": "colouredstuff:wall_planks_red"
+        },
+        {
+          "item": "colouredstuff:fence_planks_red"
+        },
+        {
+          "item": "colouredstuff:gate_planks_red"
+        },
+        {
+          "item": "minecraft:stick"
+        },
+        {
+          "item": "tinted_torches:red_torch"
+        },
+        {
+          "item": "tintedcampfires:red_campfire"
+        }
+      ],
+      "hard_requirements": ["red_crafting_table_present"],
+      "priority": 9999
+    }
+  }
+}
