@@ -741,6 +741,8 @@ REIEvents.groupEntries((event) => {
     "exnihilosequentia:raw_zinc",
     "exnihilosequentia:zinc_pieces",
     "exnihilosequentia:zinc_nugget",
+    "botania:pebble",
+    "botania:living_root",
   ]);
 
   //Creative items
