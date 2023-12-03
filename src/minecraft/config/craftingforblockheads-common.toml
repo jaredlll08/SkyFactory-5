@@ -1,0 +1,2 @@
+# The presets to use for the workbench filters and progression.
+presets = ["default", "demo", "skyfactory_5", "all_colors_table", "furnace"]
