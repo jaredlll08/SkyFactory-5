@@ -264,3 +264,7 @@ craftingTable.remove(<item:exnihilosequentia:zinc_ingot>);
 craftingTable.remove(<item:exnihilosequentia:raw_zinc>);
 craftingTable.remove(<item:exnihilosequentia:zinc_pieces>);
 craftingTable.remove(<item:exnihilosequentia:zinc_nugget>);
+
+// Cluttered mod
+craftingTable.removeByName("luphieclutteredmod:luphie_purple_plank_set_stick_recipe");
+craftingTable.removeByName("luphieclutteredmod:luphie_glow_wood_set_stick_recipe");

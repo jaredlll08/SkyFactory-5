@@ -100,7 +100,11 @@ val itemsToRemove as IItemStack[] = [
   <item:exnihilosequentia:zinc_ingot>,
   <item:exnihilosequentia:raw_zinc>,
   <item:exnihilosequentia:zinc_pieces>,
-  <item:exnihilosequentia:zinc_nugget>
+  <item:exnihilosequentia:zinc_nugget>,
+  <item:luphieclutteredmod:luphie_purple_planks>,
+  <item:luphieclutteredmod:luphie_pink_planks>,
+  <item:botania:pebble>,
+  <item:botania:living_root>
 ];
 
 for item in itemsToRemove {
