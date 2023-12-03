@@ -183,6 +183,8 @@ ContentBuilder.factory
       return;
     }
 
+    craftingTable.removeByName("colouredstuff:wood/crafting_table_" + args.color.getResourceName());
+
     craftingTable.addShaped(
       args.color.getResourceName() + baseName,
       craftingTableItem,
