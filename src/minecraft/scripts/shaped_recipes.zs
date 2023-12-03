@@ -159,13 +159,3 @@ craftingTable.addShaped(
     [<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>]
   ]
 );
-
-// ColouredStuff None Crafting Table
-craftingTable.addShaped(
-  "none_colorless_crafting_table",
-  <item:colouredstuff:crafting_table_none> * 1,
-  [
-    [<item:colouredstuff:planks_none>, <item:colouredstuff:planks_none>],
-    [<item:colouredstuff:planks_none>, <item:colouredstuff:planks_none>]
-  ]
-);
