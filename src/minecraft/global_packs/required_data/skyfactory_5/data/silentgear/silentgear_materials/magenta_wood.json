@@ -11,11 +11,6 @@
   "crafting_items": {
     "main": {
       "item": "colouredstuff:planks_magenta"
-    },
-    "subs": {
-      "rod": {
-        "item": "minecraft:stick"
-      }
     }
   },
   "name": {
