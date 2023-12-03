@@ -3,10 +3,10 @@
   "downfall": 0.8,
   "has_precipitation": true,
   "effects": {
-    "sky_color": 7972607,
-    "fog_color": 7972607,
-    "water_color": 7972607,
-    "water_fog_color": 7972607,
+    "sky_color": 10004440,
+    "fog_color": 10004440,
+    "water_color": 33023,
+    "water_fog_color": 33023,
     "grass_color": 5035577,
     "foliage_color": 5035577,
     "mood_sound": {

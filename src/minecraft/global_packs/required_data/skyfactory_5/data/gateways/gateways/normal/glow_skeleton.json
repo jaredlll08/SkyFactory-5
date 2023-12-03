@@ -1,0 +1,174 @@
+{
+  "__typename": "NormalGateway",
+  "size": "large",
+  "color": "#30e1b9",
+  "waves": [
+    {
+      "entities": [
+        {
+          "entity": "monsterplus:glow_skeleton",
+          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},Tags:[\"gateway_entity\"]}",
+          "type": "gateways:standard",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:experience",
+          "experience": 50
+        },
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "minecraft:cyan_dye",
+            "count": 16
+          }
+        }
+      ],
+      "max_wave_time": 1200,
+      "setup_time": 200
+    },
+    {
+      "entities": [
+        {
+          "entity": "monsterplus:glow_skeleton",
+          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},Tags:[\"gateway_entity\"]}",
+          "type": "gateways:standard",
+          "count": 4
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.max_health",
+          "operation": "multiply_total",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 2
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.05
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 0.05
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:experience",
+          "experience": 75
+        },
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "minecraft:cyan_dye",
+            "count": 16
+          }
+        }
+      ],
+      "max_wave_time": 1800,
+      "setup_time": 280
+    },
+    {
+      "entities": [
+        {
+          "entity": "monsterplus:glow_skeleton",
+          "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "type": "gateways:standard",
+          "count": 4
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.max_health",
+          "operation": "multiply_total",
+          "value": 0.2
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 3
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 0.2
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.15
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 0.1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:experience",
+          "experience": 100
+        },
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "minecraft:cyan_dye",
+            "count": 32
+          }
+        }
+      ],
+      "max_wave_time": 2400,
+      "setup_time": 340
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:experience",
+      "experience": 250
+    },
+    {
+      "type": "gateways:stack",
+      "stack": {
+        "item": "obtrophies:trophy",
+        "nbt": {
+          "BlockEntityTag": {
+            "SpecialCycleVariant": 0,
+            "VariantID": 0,
+            "entity": "monsterplus:glow_skeleton"
+          }
+        }
+      }
+    }
+  ],
+  "rules": {
+    "leash_range": 32,
+    "spacing": 8,
+    "spawn_range": 5
+  },
+  "boss_event": {
+    "mode": "name_plate"
+  },
+  "spawn_algorithm": "gateways:inward_spiral"
+}
