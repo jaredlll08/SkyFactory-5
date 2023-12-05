@@ -1,0 +1,152 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {},
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:sf5_resources": {
+      "name": "Resources",
+      "icon": {
+        "item": "minecraft:iron_ingot"
+      },
+      "includes": [
+        {
+          "item": "minecraft:ender_pearl"
+        },
+        {
+          "item": "minecraft:raw_iron"
+        },
+        {
+          "item": "minecraft:raw_gold"
+        },
+        {
+          "item": "minecraft:raw_copper"
+        },
+        {
+          "item": "minecraft:amethyst_shard"
+        },
+        {
+          "item": "create:raw_zinc"
+        },
+        {
+          "item": "minecraft:obsidian"
+        },
+        {
+          "item": "minecraft:sand"
+        },
+        {
+          "item": "minecraft:coal"
+        },
+        {
+          "item": "minecraft:redstone"
+        },
+        {
+          "item": "minecraft:lapis_lazuli"
+        },
+        {
+          "item": "minecraft:diamond"
+        },
+        {
+          "item": "minecraft:emerald"
+        },
+        {
+          "item": "minecraft:glowstone"
+        },
+        {
+          "item": "minecraft:cobblestone"
+        },
+        {
+          "item": "minecraft:dripstone_block"
+        },
+        {
+          "item": "minecraft:andesite"
+        },
+        {
+          "item": "minecraft:diorite"
+        },
+        {
+          "item": "minecraft:granite"
+        },
+        {
+          "item": "exnihilosequentia:grass_seeds"
+        },
+        {
+          "item": "create:raw_zinc"
+        },
+        {
+          "item": "minecraft:quartz"
+        },
+        {
+          "item": "minecraft:sugar_cane"
+        },
+        {
+          "item": "immersiveengineering:raw_aluminum"
+        },
+        {
+          "item": "immersiveengineering:raw_lead"
+        },
+        {
+          "item": "immersiveengineering:raw_silver"
+        },
+        {
+          "item": "immersiveengineering:raw_nickel"
+        },
+        {
+          "item": "immersiveengineering:raw_uranium"
+        },
+        {
+          "item": "minecraft:cobbled_deepslate"
+        },
+        {
+          "item": "minecraft:white_dye"
+        },
+        {
+          "item": "minecraft:orange_dye"
+        },
+        {
+          "item": "minecraft:magenta_dye"
+        },
+        {
+          "item": "minecraft:light_blue_dye"
+        },
+        {
+          "item": "minecraft:yellow_dye"
+        },
+        {
+          "item": "minecraft:lime_dye"
+        },
+        {
+          "item": "minecraft:pink_dye"
+        },
+        {
+          "item": "minecraft:gray_dye"
+        },
+        {
+          "item": "minecraft:light_gray_dye"
+        },
+        {
+          "item": "minecraft:cyan_dye"
+        },
+        {
+          "item": "minecraft:purple_dye"
+        },
+        {
+          "item": "minecraft:blue_dye"
+        },
+        {
+          "item": "minecraft:brown_dye"
+        },
+        {
+          "item": "minecraft:green_dye"
+        },
+        {
+          "item": "minecraft:red_dye"
+        },
+        {
+          "item": "minecraft:black_dye"
+        }
+      ],
+      "priority": 99999
+    }
+  }
+}

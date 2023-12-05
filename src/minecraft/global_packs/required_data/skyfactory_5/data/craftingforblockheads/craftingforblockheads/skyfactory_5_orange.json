@@ -54,10 +54,14 @@
         },
         {
           "item": "tintedcampfires:orange_campfire"
+        },
+        {
+          "item": "sophisticatedstorage:chest",
+          "nbt": "{accentColor:6710886,mainColor:16476957}"
         }
       ],
       "hard_requirements": ["orange_crafting_table_present"],
-      "priority": 9999
+      "priority": 9988
     }
   }
 }

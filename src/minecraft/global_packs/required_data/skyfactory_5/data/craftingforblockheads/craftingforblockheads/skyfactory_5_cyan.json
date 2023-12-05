@@ -54,10 +54,14 @@
         },
         {
           "item": "tintedcampfires:cyan_campfire"
+        },
+        {
+          "item": "sophisticatedstorage:chest",
+          "nbt": "{accentColor:6710886,mainColor:3203513}"
         }
       ],
       "hard_requirements": ["cyan_crafting_table_present"],
-      "priority": 9999
+      "priority": 9995
     }
   }
 }

@@ -54,10 +54,14 @@
         },
         {
           "item": "tintedcampfires:magenta_campfire"
+        },
+        {
+          "item": "sophisticatedstorage:chest",
+          "nbt": "{accentColor:6710886,mainColor:16711935}"
         }
       ],
       "hard_requirements": ["magenta_crafting_table_present"],
-      "priority": 9999
+      "priority": 9989
     }
   }
 }

@@ -47,6 +47,12 @@
         },
         {
           "item": "woodenbucket:wooden_bucket"
+        },
+        {
+          "item": "sophisticatedstorage:chest"
+        },
+        {
+          "item": "cyclic:hopper"
         }
       ],
       "hard_requirements": ["none_crafting_table_present"],

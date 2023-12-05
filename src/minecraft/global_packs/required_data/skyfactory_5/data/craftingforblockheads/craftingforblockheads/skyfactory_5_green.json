@@ -57,10 +57,14 @@
         },
         {
           "item": "silentgear:axe_head"
+        },
+        {
+          "item": "sophisticatedstorage:chest",
+          "nbt": "{accentColor:6710886,mainColor:1466134}"
         }
       ],
       "hard_requirements": ["green_crafting_table_present"],
-      "priority": 9999
+      "priority": 9993
     }
   }
 }
