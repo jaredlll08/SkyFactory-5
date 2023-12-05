@@ -54,3 +54,4 @@ for item in loadedMods["create"].itemStacks {
 <item:pizzacraft:golden_pizza_peel>.maxDamage = -1;
 <item:pizzacraft:diamond_pizza_peel>.maxDamage = -1;
 <item:pizzacraft:netherite_pizza_peel>.maxDamage = -1;
+<item:forcecraft:force_shears>.maxDamage = -1;
