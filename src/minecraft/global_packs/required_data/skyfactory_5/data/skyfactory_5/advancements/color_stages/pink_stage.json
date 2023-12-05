@@ -132,6 +132,17 @@
           }
         ]
       }
+    },
+    "goat_steak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["colourfulgoats:goat_steak"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -146,7 +157,8 @@
       "cherry_planks",
       "cherry_log",
       "pink_essence",
-      "pink_essence_seeds"
+      "pink_essence_seeds",
+      "goat_steak"
     ]
   ],
   "rewards": {

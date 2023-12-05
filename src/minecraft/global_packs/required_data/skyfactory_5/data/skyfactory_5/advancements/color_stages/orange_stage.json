@@ -89,6 +89,17 @@
           }
         ]
       }
+    },
+    "pumpkin_pie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:pumpkin_pie"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -99,7 +110,8 @@
       "lava_bucket",
       "wooden_lava_bucket",
       "orange_essence",
-      "orange_essence_seeds"
+      "orange_essence_seeds",
+      "pumpkin_pie"
     ]
   ],
   "rewards": {
