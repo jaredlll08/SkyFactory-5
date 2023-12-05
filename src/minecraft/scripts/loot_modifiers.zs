@@ -9,10 +9,13 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
 <block:minecraft:cherry_leaves>.addLootModifier("sapling_bonus_drops_5", CommonLootModifiers.addWithChance(<item:minecraft:cherry_sapling> % 20));
 <block:minecraft:dark_oak_leaves>.addLootModifier("sapling_bonus_drops_6", CommonLootModifiers.addWithChance(<item:minecraft:dark_oak_sapling> % 20));
 <block:minecraft:mangrove_leaves>.addLootModifier("sapling_bonus_drops_7", CommonLootModifiers.addWithChance(<item:minecraft:mangrove_propagule> % 20));
-<block:colouredstuff:leaves_yellow>.addLootModifier("force_gem_from_yellow_leaves", CommonLootModifiers.addWithChance(<item:forcecraft:force_gem> % 10));
+<block:colouredstuff:leaves_yellow>.addLootModifier("force_gem_from_yellow_leaves", CommonLootModifiers.addWithChance(<item:forcecraft:force_gem> % 4));
 <block:colouredstuff:leaves_lime>.addLootModifier("inferium_essence_from_lime_leaves", CommonLootModifiers.addWithChance(<item:mysticalagriculture:inferium_essence> % 10));
 <block:colouredstuff:leaves_none>.addLootModifier("colorless_essence_seeds_from_none_leaves", CommonLootModifiers.addWithChance(<item:mysticalagriculture:none_crop_seeds> % 10));
 <block:sf5_things:colorless_leaves>.addLootModifier("colorless_essence_seeds_from_none_leaves2", CommonLootModifiers.addWithChance(<item:mysticalagriculture:none_crop_seeds> % 10));
+
+<block:exnihilosequentia:infested_leaves>.addLootModifier("temporary_infested_leaves_drops1", CommonLootModifiers.addWithChance(<item:minecraft:string> % 100));
+<block:exnihilosequentia:infested_leaves>.addLootModifier("temporary_infested_leaves_drops2", CommonLootModifiers.addWithChance(<item:exnihilosequentia:silkworm> % 25));
 
 
 
