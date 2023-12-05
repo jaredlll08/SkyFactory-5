@@ -5,6 +5,7 @@
     "minecraft:nether_wart",
     "minecraft:fire_coral",
     "minecraft:fire_coral_fan",
-    "minecraft:apple"
+    "minecraft:apple",
+    "bhc:red_heart"
   ]
 }

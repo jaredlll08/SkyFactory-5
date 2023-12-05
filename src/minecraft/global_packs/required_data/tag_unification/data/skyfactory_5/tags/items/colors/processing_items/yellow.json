@@ -1,3 +1,7 @@
 {
-  "values": ["colouredstuff:sapling_yellow", "sf5_things:yellow_apple"]
+  "values": [
+    "colouredstuff:sapling_yellow",
+    "sf5_things:yellow_apple",
+    "minecraft:honeycomb"
+  ]
 }
