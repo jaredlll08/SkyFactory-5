@@ -1583,6 +1583,24 @@
     "maxlight_full": 7
   },
   {
+    "mob": "monsterplus:spectral_skeleton",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "spectral_skeleton",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": {
+          "color": 16352035
+        }
+      }
+    },
+    "result": "allow",
+    "minlight_full": 0,
+    "maxlight_full": 7
+  },
+  {
     "mob": "veincreeper:black",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
@@ -1961,6 +1979,7 @@
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
       "minecraft:zombified_piglin",
+      "monsterplus:spectral_skeleton",
       "veincreeper:black",
       "veincreeper:blue",
       "veincreeper:brown",
@@ -2072,6 +2091,7 @@
       "minecraft:zombie_horse",
       "minecraft:zombie_villager",
       "minecraft:zombified_piglin",
+      "monsterplus:spectral_skeleton",
       "veincreeper:black",
       "veincreeper:blue",
       "veincreeper:brown",
