@@ -16,6 +16,9 @@ for colorName, color in Globals.colors {
 
 val crops = new HashSet<Block>();
 
+// Allow dying colorless crop to a color
+crops.add(<block:mysticalagriculture:none_crop_crop>);
+
 for dye, crop in dyeToCropMapping {
   crops.add(crop);
 }
