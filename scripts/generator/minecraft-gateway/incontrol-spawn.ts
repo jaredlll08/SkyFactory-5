@@ -14,6 +14,24 @@ const individualMobEntriesIndexOffset = 3;
 
 const additionalEntries = new Map<string, Args>([
   [
+    "minecraft:goat",
+    {
+      entity: "minecraft:goat",
+      stage: "goat",
+      minlight: 8,
+      maxlight: 15,
+    },
+  ],
+  [
+    "minecraft:llama",
+    {
+      entity: "minecraft:llama",
+      stage: "llama",
+      minlight: 8,
+      maxlight: 15,
+    },
+  ],
+  [
     "monsterplus:spectral_skeleton",
     {
       entity: "monsterplus:spectral_skeleton",

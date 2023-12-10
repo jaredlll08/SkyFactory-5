@@ -671,6 +671,24 @@
     "result": "allow"
   },
   {
+    "mob": "minecraft:goat",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "goat",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": {
+          "color": 16352035
+        }
+      }
+    },
+    "result": "allow",
+    "minlight_full": 8,
+    "maxlight_full": 15
+  },
+  {
     "mob": "minecraft:hoglin",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
@@ -759,6 +777,24 @@
       }
     },
     "result": "allow"
+  },
+  {
+    "mob": "minecraft:llama",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "llama",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": {
+          "color": 16352035
+        }
+      }
+    },
+    "result": "allow",
+    "minlight_full": 8,
+    "maxlight_full": 15
   },
   {
     "mob": "minecraft:magma_cube",
@@ -1929,11 +1965,13 @@
       "minecraft:frog",
       "minecraft:ghast",
       "minecraft:glow_squid",
+      "minecraft:goat",
       "minecraft:hoglin",
       "minecraft:horse",
       "minecraft:husk",
       "minecraft:illusioner",
       "minecraft:iron_golem",
+      "minecraft:llama",
       "minecraft:magma_cube",
       "minecraft:mooshroom",
       "minecraft:ocelot",
@@ -2041,11 +2079,13 @@
       "minecraft:frog",
       "minecraft:ghast",
       "minecraft:glow_squid",
+      "minecraft:goat",
       "minecraft:hoglin",
       "minecraft:horse",
       "minecraft:husk",
       "minecraft:illusioner",
       "minecraft:iron_golem",
+      "minecraft:llama",
       "minecraft:magma_cube",
       "minecraft:mooshroom",
       "minecraft:ocelot",
