@@ -43,4 +43,28 @@ ContentBuilder.factory
        craftingEssence
       ]
     );
+  })
+  .addRecipeGenerator("_treasure_bag_infusion", (baseName, args) => {
+    val essence = args.getItem(ColoredItem.Essence);
+    val treasureBag = args.getItem(ColoredItem.TreasureBag);
+
+    if essence == null || treasureBag == null {
+      return;
+    }
+
+    InfusionCrafting.addRecipe(
+      args.color.getResourceName() + baseName,
+      treasureBag,
+      [
+        <item:sf5_things:treasure_bag_template>,
+        essence,
+        <item:mysticalagriculture:inferium_essence>,
+        essence,
+        <item:mysticalagriculture:inferium_essence>,
+        essence,
+        <item:mysticalagriculture:inferium_essence>,
+        essence,
+        <item:mysticalagriculture:inferium_essence>
+      ]
+    );
   });
