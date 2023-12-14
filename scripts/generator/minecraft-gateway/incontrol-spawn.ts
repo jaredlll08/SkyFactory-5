@@ -49,18 +49,25 @@ interface Args {
   maxlight: number;
 }
 
-export async function appendMobToInControlSpawn({
-  entity,
-  stage,
-  minlight,
-  maxlight,
-}: Args) {
+async function getMobsState(): Promise<Set<string>> {
   const state = await readActionState();
   if (!state.mobs) {
     throw new Error("Mobs missing from Action State");
   }
 
   const mobs = new Set<string>(state.mobs);
+  additionalEntries.forEach((entry) => mobs.add(entry.entity));
+
+  return mobs;
+}
+
+export async function appendMobToInControlSpawn({
+  entity,
+  stage,
+  minlight,
+  maxlight,
+}: Args) {
+  const mobs = await getMobsState();
 
   const data = await readJSONFile<InControlSpawn>(spawnJsonPath);
 
@@ -99,11 +106,7 @@ export async function appendMobToInControlSpawn({
 
   result.push(
     ...individualMobEntries
-      .filter(
-        (entry) =>
-          typeof entry.mob === "string" &&
-          (mobs.has(entry.mob) || !!additionalEntries.get(entry.mob)),
-      )
+      .filter((entry) => typeof entry.mob === "string" && mobs.has(entry.mob))
       .sort((a, b) => {
         if (typeof a.mob !== "string" || typeof b.mob !== "string") {
           console.log("Unexpected mob type for individual mob entries");
