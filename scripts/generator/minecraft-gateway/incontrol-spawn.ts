@@ -4,11 +4,43 @@ import { InControlSpawn } from "schemas/minecraft/incontrol/spawn";
 import { readJSONFile, writeJSONFile } from "scripts/utils/file";
 import { readActionState } from "./action-state-manager";
 
+type InControlSpawnEntry = InControlSpawn[0];
+
 const spawnJsonPath = path.resolve(
   "./src/minecraft/config/incontrol/spawn.json",
 );
 
 const individualMobEntriesIndexOffset = 3;
+
+const additionalEntries = new Map<string, Args>([
+  [
+    "minecraft:goat",
+    {
+      entity: "minecraft:goat",
+      stage: "goat",
+      minlight: 8,
+      maxlight: 15,
+    },
+  ],
+  [
+    "minecraft:llama",
+    {
+      entity: "minecraft:llama",
+      stage: "llama",
+      minlight: 8,
+      maxlight: 15,
+    },
+  ],
+  [
+    "monsterplus:spectral_skeleton",
+    {
+      entity: "monsterplus:spectral_skeleton",
+      stage: "spectral_skeleton",
+      minlight: 0,
+      maxlight: 7,
+    },
+  ],
+]);
 
 interface Args {
   entity: string;
@@ -61,28 +93,17 @@ export async function appendMobToInControlSpawn({
     }
   }
 
-  individualMobEntries.push({
-    mob: entity,
-    block: {
-      tag: "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena",
-    },
-    gamestage: stage,
-    armorhelmet: {
-      item: "simplehats:fro",
-      nbt: {
-        display: {
-          color: 16352035,
-        },
-      },
-    },
-    result: "allow",
-    minlight_full: minlight,
-    maxlight_full: maxlight,
-  });
+  individualMobEntries.push(
+    createSpawnEntry({ entity, stage, minlight, maxlight }),
+  );
 
   result.push(
     ...individualMobEntries
-      .filter((entry) => typeof entry.mob === "string" && mobs.has(entry.mob))
+      .filter(
+        (entry) =>
+          typeof entry.mob === "string" &&
+          (mobs.has(entry.mob) || !!additionalEntries.get(entry.mob)),
+      )
       .sort((a, b) => {
         if (typeof a.mob !== "string" || typeof b.mob !== "string") {
           console.log("Unexpected mob type for individual mob entries");
@@ -102,6 +123,32 @@ export async function appendMobToInControlSpawn({
   result.push(...massMobEntries);
 
   await writeJSONFile(spawnJsonPath, result, "json");
+}
+
+function createSpawnEntry({
+  entity,
+  stage,
+  minlight,
+  maxlight,
+}: Args): InControlSpawnEntry {
+  return {
+    mob: entity,
+    block: {
+      tag: "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena",
+    },
+    gamestage: stage,
+    armorhelmet: {
+      item: "simplehats:fro",
+      nbt: {
+        display: {
+          color: 16352035,
+        },
+      },
+    },
+    result: "allow",
+    minlight_full: minlight,
+    maxlight_full: maxlight,
+  };
 }
 
 export async function getMobStageMapping(): Promise<Record<string, string>> {
@@ -130,4 +177,59 @@ export async function getMobStageMapping(): Promise<Record<string, string>> {
   });
 
   return mapping;
+}
+
+export async function seedAdditionalEntries() {
+  const data = await readJSONFile<InControlSpawn>(spawnJsonPath);
+
+  const result = data.slice(0, individualMobEntriesIndexOffset);
+
+  const individualMobEntries = data.slice(individualMobEntriesIndexOffset, -2);
+
+  const existingMobs = new Set<string>(
+    individualMobEntries
+      .filter((entry) => typeof entry.mob === "string")
+      .map<string>((entry) => entry.mob as string),
+  );
+
+  const addedMobs: string[] = [];
+
+  additionalEntries.forEach((entry) => {
+    if (!existingMobs.has(entry.entity)) {
+      individualMobEntries.push(createSpawnEntry(entry));
+      addedMobs.push(entry.entity);
+    }
+  });
+
+  if (addedMobs.length < 1) {
+    return;
+  }
+
+  result.push(
+    ...individualMobEntries
+      .filter((entry) => typeof entry.mob === "string")
+      .sort((a, b) => {
+        if (typeof a.mob !== "string" || typeof b.mob !== "string") {
+          console.log("Unexpected mob type for individual mob entries");
+          return 0;
+        }
+
+        return a.mob.localeCompare(b.mob);
+      }),
+  );
+
+  const massMobEntries = data.slice(-2);
+
+  massMobEntries.forEach((entry) => {
+    if (!isArray(entry.mob)) {
+      throw new Error("invalid mob type for entry");
+    }
+
+    entry.mob.push(...addedMobs);
+    entry.mob = entry.mob.sort((a, b) => a.localeCompare(b));
+  });
+
+  result.push(...massMobEntries);
+
+  await writeJSONFile(spawnJsonPath, result, "json");
 }
