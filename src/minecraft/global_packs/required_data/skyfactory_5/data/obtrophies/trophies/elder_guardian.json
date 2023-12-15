@@ -1,8 +1,3 @@
 {
-  "behavior": {
-    "type": "obtrophies:guardian_curse"
-  },
-  "entity": "minecraft:elder_guardian",
-  "offset": 0.0,
-  "scale": 0.5
+  "entity": "minecraft:elder_guardian"
 }

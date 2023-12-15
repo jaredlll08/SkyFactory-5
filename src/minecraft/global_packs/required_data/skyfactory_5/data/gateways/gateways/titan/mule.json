@@ -2,7 +2,7 @@
   "__typename": "EndlessGateway",
   "type": "gateways:endless",
   "size": "large",
-  "color": "#333333",
+  "color": "#59381f",
   "base_wave": {
     "entities": [
       {
@@ -20,7 +20,7 @@
       {
         "type": "gateways:stack",
         "stack": {
-          "item": "minecraft:gray_dye",
+          "item": "minecraft:brown_dye",
           "count": 8
         }
       }

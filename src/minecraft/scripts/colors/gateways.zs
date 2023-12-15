@@ -106,7 +106,6 @@ public function getGatewaysForColor(color: Color): string[] {
   if color.getName() == ColorName.Blue {
     return [
       "gateways:normal/blue_chu_chu",
-      "gateways:normal/bouldering_drowned",
       "gateways:normal/drowned",
       "gateways:normal/phantom",
       "gateways:normal/squid",
@@ -135,6 +134,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:normal/horse",
       "gateways:normal/husk",
       "gateways:normal/luggage",
+      "gateways:normal/mule",
       "gateways:normal/rabbit",
       "gateways:normal/tadpole",
       "gateways:normal/vein_creeper_brown",
@@ -148,6 +148,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:titan/horse",
       "gateways:titan/husk",
       "gateways:titan/luggage",
+      "gateways:titan/mule",
       "gateways:titan/rabbit",
       "gateways:titan/tadpole",
       "gateways:titan/villager"
@@ -175,15 +176,12 @@ public function getGatewaysForColor(color: Color): string[] {
   if color.getName() == ColorName.Gray {
     return [
       "gateways:normal/abyssologer",
-      "gateways:normal/bouldering_zombie",
       "gateways:normal/cat",
       "gateways:normal/evoker",
       "gateways:normal/illusioner",
-      "gateways:normal/mule",
       "gateways:normal/pillager",
       "gateways:normal/ravager",
       "gateways:normal/silverfish",
-      "gateways:normal/swamp_zombie",
       "gateways:normal/vein_creeper_gray",
       "gateways:normal/vindicator",
       "gateways:titan/abyssologer",
@@ -191,11 +189,9 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:titan/cat",
       "gateways:titan/evoker",
       "gateways:titan/illusioner",
-      "gateways:titan/mule",
       "gateways:titan/pillager",
       "gateways:titan/ravager",
       "gateways:titan/silverfish",
-      "gateways:titan/swamp_zombie",
       "gateways:titan/vindicator"
     ];
   }
@@ -205,6 +201,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:normal/green_chu_chu",
       "gateways:normal/overgrown_skeleton",
       "gateways:normal/sniffer",
+      "gateways:normal/swamp_zombie",
       "gateways:normal/vein_creeper_green",
       "gateways:normal/zombie",
       "gateways:normal/zombie_horse",
@@ -213,6 +210,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:titan/green_chu_chu",
       "gateways:titan/overgrown_skeleton",
       "gateways:titan/sniffer",
+      "gateways:titan/swamp_zombie",
       "gateways:titan/zombie",
       "gateways:titan/zombie_horse",
       "gateways:titan/zombie_villager"
@@ -222,8 +220,12 @@ public function getGatewaysForColor(color: Color): string[] {
     return [
       "gateways:normal/allay",
       "gateways:normal/dolphin",
+      "gateways:normal/fairy",
+      "gateways:normal/tuna",
       "gateways:normal/vein_creeper_light_blue",
-      "gateways:normal/vex"
+      "gateways:normal/vex",
+      "gateways:titan/fairy",
+      "gateways:titan/tuna"
     ];
   }
   if color.getName() == ColorName.LightGray {
@@ -263,9 +265,10 @@ public function getGatewaysForColor(color: Color): string[] {
   }
   if color.getName() == ColorName.Magenta {
     return [
-      "gateways:normal/crystalion",
+      "gateways:normal/crystal_zombie",
+      "gateways:normal/crystalian",
       "gateways:normal/vein_creeper_magenta",
-      "gateways:titan/crystalion"
+      "gateways:titan/crystal_zombie"
     ];
   }
   if color.getName() == ColorName.Orange {
@@ -277,6 +280,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:normal/lava_squid",
       "gateways:normal/magma_cow",
       "gateways:normal/magma_cube",
+      "gateways:normal/mother_lava_squid",
       "gateways:normal/pufferfish",
       "gateways:normal/tropical_fish",
       "gateways:normal/vein_creeper_orange",
@@ -288,6 +292,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:titan/lava_squid",
       "gateways:titan/magma_cow",
       "gateways:titan/magma_cube",
+      "gateways:titan/mother_lava_squid",
       "gateways:titan/pufferfish",
       "gateways:titan/tropical_fish",
       "gateways:titan/wooly_cow"
@@ -333,7 +338,6 @@ public function getGatewaysForColor(color: Color): string[] {
   }
   if color.getName() == ColorName.Red {
     return [
-      "gateways:normal/cluck_shroom",
       "gateways:normal/mooshroom",
       "gateways:normal/parrot",
       "gateways:normal/red_chu_chu",
@@ -341,7 +345,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:normal/strider",
       "gateways:normal/vein_creeper_red",
       "gateways:normal/wandering_winemaker",
-      "gateways:titan/cluck_shroom",
+      "gateways:titan/cluckshroom",
       "gateways:titan/mooshroom",
       "gateways:titan/parrot",
       "gateways:titan/red_chu_chu",
@@ -352,14 +356,13 @@ public function getGatewaysForColor(color: Color): string[] {
   }
   if color.getName() == ColorName.White {
     return [
-      "gateways:normal/albino_cow",
-      "gateways:normal/baby_ghast",
       "gateways:normal/chicken",
       "gateways:normal/energetic_sheep",
       "gateways:normal/ghast",
       "gateways:normal/goat",
       "gateways:normal/jolly_llama",
       "gateways:normal/melon_golem",
+      "gateways:normal/opalescent_eye",
       "gateways:normal/panda",
       "gateways:normal/polar_bear",
       "gateways:normal/sheep",
@@ -376,6 +379,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:titan/goat",
       "gateways:titan/jolly_llama",
       "gateways:titan/melon_golem",
+      "gateways:titan/opalescent_eye",
       "gateways:titan/panda",
       "gateways:titan/polar_bear",
       "gateways:titan/sheep",

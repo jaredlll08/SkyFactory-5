@@ -650,7 +650,8 @@
       "minecraft:cod",
       "minecraft:pufferfish",
       "minecraft:tropical_fish",
-      "minecraft:salmon"
+      "minecraft:salmon",
+      "sushigocrafting:tuna"
     ],
     "persecond": 2,
     "attempts": 20,
