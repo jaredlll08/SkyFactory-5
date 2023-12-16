@@ -1,12 +1,12 @@
 {
+  "entity": "minecraft:snow_golem",
   "behavior": {
     "type": "obtrophies:place_block",
     "block": "minecraft:snow",
-    "place_around_trophy": true
+    "placement": "around"
   },
-  "entity": "minecraft:snow_golem",
-  "offset": 0.0,
-  "scale": 1.0,
+  "offset": 0,
+  "scale": 1,
   "variants": [
     {
       "Pumpkin": "true"

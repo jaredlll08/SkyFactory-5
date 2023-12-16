@@ -6,10 +6,10 @@
   "base_wave": {
     "entities": [
       {
-        "entity": "earthmobsmod:furnace_golem",
-        "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
         "type": "gateways:standard",
-        "count": 4
+        "count": 4,
+        "entity": "earthmobsmod:furnace_golem",
+        "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
       }
     ],
     "rewards": [
@@ -69,10 +69,10 @@
       },
       "entities": [
         {
-          "entity": "earthmobsmod:furnace_golem",
-          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}}}",
           "type": "gateways:standard",
           "count": 1,
+          "entity": "earthmobsmod:furnace_golem",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}}}",
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -89,10 +89,10 @@
       },
       "entities": [
         {
-          "entity": "earthmobsmod:furnace_golem",
-          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}}}",
           "type": "gateways:standard",
           "count": 1,
+          "entity": "earthmobsmod:furnace_golem",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}}}",
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -109,10 +109,10 @@
       },
       "entities": [
         {
-          "entity": "earthmobsmod:furnace_golem",
-          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}}}",
           "type": "gateways:standard",
           "count": 1,
+          "entity": "earthmobsmod:furnace_golem",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}}}",
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -129,10 +129,10 @@
       },
       "entities": [
         {
-          "entity": "earthmobsmod:furnace_golem",
-          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.75f},\"pehkui:width\":{scale:2.5f},\"pehkui:height\":{scale:2.5f}}}",
           "type": "gateways:standard",
           "count": 1,
+          "entity": "earthmobsmod:furnace_golem",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.75f},\"pehkui:width\":{scale:2.5f},\"pehkui:height\":{scale:2.5f}}}",
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -149,10 +149,10 @@
       },
       "entities": [
         {
-          "entity": "earthmobsmod:furnace_golem",
-          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.72f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}}}",
           "type": "gateways:standard",
           "count": 1,
+          "entity": "earthmobsmod:furnace_golem",
+          "nbt": "{ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.72f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}}}",
           "modifiers": [
             {
               "type": "gateways:gear_set",

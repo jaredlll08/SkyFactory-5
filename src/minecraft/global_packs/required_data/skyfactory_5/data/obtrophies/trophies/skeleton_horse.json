@@ -1,10 +1,10 @@
 {
+  "entity": "minecraft:skeleton_horse",
   "behavior": {
     "type": "obtrophies:item",
     "cooldown": 20000,
     "item": "minecraft:bone"
   },
-  "entity": "minecraft:skeleton_horse",
-  "offset": 0.0,
+  "offset": 0,
   "scale": 0.9
 }

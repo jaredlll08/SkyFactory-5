@@ -1,5 +1,4 @@
 import { mkdir } from "fs/promises";
-import glob from "glob-promise";
 import { snakeCase } from "lodash";
 import path from "path";
 import {
@@ -7,7 +6,8 @@ import {
   readJSONFile,
   writeJSONFile,
 } from "scripts/utils/file";
-import { gatewaysBasePath } from "./constants";
+import { GatewayType } from "./constants";
+import { MobData } from "./data-manager";
 
 const langFilePath = path.resolve(
   "./src/minecraft/global_packs/required_resources/sf5_resources/assets/skyfactory_5/lang/en_us.json",
@@ -15,89 +15,56 @@ const langFilePath = path.resolve(
 
 type LangData = Record<string, string>;
 
-interface Args {
-  mobName: string;
-  normalGateway: boolean;
-  titanGateway: boolean;
+async function readLangFile(): Promise<LangData> {
+  if (await checkFileExists(langFilePath)) {
+    return readJSONFile<LangData>(langFilePath);
+  }
+
+  return {};
 }
 
-export async function upsertLangFile({
-  mobName,
-  normalGateway,
-  titanGateway,
-}: Args) {
-  let data: LangData = {};
-
-  if (await checkFileExists(langFilePath)) {
-    data = await readJSONFile<LangData>(langFilePath);
-  } else {
+async function writeLangFile(data: LangData): Promise<void> {
+  if (!(await checkFileExists(langFilePath))) {
     await mkdir(path.parse(langFilePath).dir, { recursive: true });
   }
 
-  if (normalGateway) {
-    data[`gateways.normal/${snakeCase(mobName)}`] = `${mobName} Gateway`;
-  }
-  if (titanGateway) {
-    data[`gateways.titan/${snakeCase(mobName)}`] = `Titan ${mobName} Gateway`;
-  }
+  const sorted = Object.keys(data)
+    .sort((a, b) => a.localeCompare(b))
+    .reduce((obj, key) => {
+      obj[key] = data[key];
+      return obj;
+    }, {} as LangData);
 
-  await writeJSONFile(langFilePath, data, "json");
+  return writeJSONFile(langFilePath, sorted, "json");
 }
 
-export async function validateLangFile(): Promise<string[]> {
-  const data = await readJSONFile<LangData>(langFilePath);
+export async function generateLangFile(data: MobData) {
+  const langData = await readLangFile();
 
-  const gatewayDatapackFilePaths = await glob(
-    `${gatewaysBasePath}/{normal,titan}/**/*.json`,
-    {
-      ignore: [],
-    },
-  );
-
-  const langFormattedGatewayPaths = gatewayDatapackFilePaths.map((filePath) =>
-    path
-      .relative(gatewaysBasePath, filePath)
-      .replace(/\\/g, "/")
-      .replace(/.json/i, ""),
-  );
-
-  return langFormattedGatewayPaths.filter((path) => {
-    return !data[`gateways.${path}`];
-  });
-}
-
-export async function cleanLangFile(): Promise<string[]> {
-  const data = await readJSONFile<LangData>(langFilePath);
-
-  const gatewayDatapackFilePaths = await glob(
-    `${gatewaysBasePath}/{normal,titan}/**/*.json`,
-    {
-      ignore: [],
-    },
-  );
-
-  const gatewayKeys = Object.keys(data).filter((key) =>
-    key.startsWith("gateways."),
-  );
-
-  const langFormattedGatewayPaths = new Set(
-    gatewayDatapackFilePaths.map((filePath) =>
-      path
-        .relative(gatewaysBasePath, filePath)
-        .replace(/\\/g, "/")
-        .replace(/.json/i, ""),
-    ),
-  );
-
-  const keysToRemove = gatewayKeys.filter(
-    (key) => !langFormattedGatewayPaths.has(key.replace("gateways.", "")),
-  );
-
-  keysToRemove.forEach((key) => {
-    delete data[key];
+  Object.keys(langData).forEach((key) => {
+    if (key.startsWith("gateways.")) {
+      delete langData[key];
+    }
   });
 
-  await writeJSONFile(langFilePath, data, "json");
+  data.forEach((entry) => {
+    if (entry.spawnOnly) {
+      return;
+    }
 
-  return keysToRemove;
+    entry.gatewayTypes.forEach((type) => {
+      if (type === GatewayType.Normal) {
+        langData[
+          `gateways.normal/${snakeCase(entry.mobName)}`
+        ] = `${entry.mobName} Gateway`;
+      }
+      if (type === GatewayType.Titan) {
+        langData[
+          `gateways.titan/${snakeCase(entry.mobName)}`
+        ] = `Titan ${entry.mobName} Gateway`;
+      }
+    });
+  });
+
+  await writeLangFile(langData);
 }

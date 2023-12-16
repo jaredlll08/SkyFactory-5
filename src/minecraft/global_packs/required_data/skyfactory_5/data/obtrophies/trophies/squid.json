@@ -1,10 +1,10 @@
 {
+  "entity": "minecraft:squid",
   "behavior": {
     "type": "obtrophies:place_block",
     "block": "minecraft:water",
-    "place_around_trophy": false
+    "placement": "above"
   },
-  "entity": "minecraft:squid",
   "offset": 0.5,
-  "scale": 1.0
+  "scale": 1
 }

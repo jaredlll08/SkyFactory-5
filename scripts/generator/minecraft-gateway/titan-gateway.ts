@@ -1,11 +1,17 @@
 import { isArray } from "lodash";
 import { parse as parseNBT, stringify, TagObject } from "nbt-ts";
+import path from "path";
 import {
   EndlessGateway,
   EndlessGatewayModifier,
   GatewayWaveEntity,
 } from "schemas/minecraft/gateways/gateways-v2";
+import { generateGatewayGenerator } from "./gateway-utils";
 import { BaseEntity, cleanEntityNBT } from "./utils";
+
+const gatewayBasePath = path.resolve(
+  "./src/minecraft/global_packs/required_data/skyfactory_5/data/gateways/gateways/titan",
+);
 
 export const defaultTitanBaseEntityNBT =
   '{ArmorItems:[{},{},{},{id:"simplehats:fro",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:["gateway_entity"]}';
@@ -16,10 +22,12 @@ export function createStandardTitanGateway(
   dye: string,
 ): EndlessGateway {
   const waveEntity: GatewayWaveEntity = cleanEntityNBT({
-    ...baseEntity,
     type: "gateways:standard",
+    count: 4,
+    entity: baseEntity.entity,
+    nbt: baseEntity.nbt,
+    desc: baseEntity.desc,
   });
-  waveEntity.count = 4;
 
   if (waveEntity.nbt) {
     const waveEntityNBT =
@@ -190,3 +198,9 @@ export function createStandardTitanGateway(
 
   return newData;
 }
+
+export const generateTitanGateways = generateGatewayGenerator(
+  gatewayBasePath,
+  createStandardTitanGateway,
+  parseNBT(defaultTitanBaseEntityNBT) as TagObject,
+);

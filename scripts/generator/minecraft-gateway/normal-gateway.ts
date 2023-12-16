@@ -1,10 +1,16 @@
 import { isArray } from "lodash";
 import { parse as parseNBT, stringify, TagObject } from "nbt-ts";
+import path from "path";
 import {
   GatewayWaveEntity,
   NormalGateway,
 } from "schemas/minecraft/gateways/gateways-v2";
+import { generateGatewayGenerator } from "./gateway-utils";
 import { BaseEntity, cleanEntityNBT, isFriendlyMob } from "./utils";
+
+const gatewayBasePath = path.resolve(
+  "./src/minecraft/global_packs/required_data/skyfactory_5/data/gateways/gateways/normal",
+);
 
 export const defaultNormalBaseEntityNBT =
   '{DeathLootTable:"skyfactory_5:gateway_entities",ArmorItems:[{},{},{},{id:"simplehats:fro",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],"pehkui:scale_data_types":{"pehkui:hitbox_width":{scale:1f},"pehkui:width":{scale:1f},"pehkui:height":{scale:1f}},Tags:["gateway_entity"]}';
@@ -15,10 +21,12 @@ export function createStandardNormalGateway(
   dye: string,
 ): NormalGateway {
   const waveEntity: GatewayWaveEntity = cleanEntityNBT({
-    ...baseEntity,
     type: "gateways:standard",
+    count: 4,
+    entity: baseEntity.entity,
+    nbt: baseEntity.nbt,
+    desc: baseEntity.desc,
   });
-  waveEntity.count = 4;
 
   if (waveEntity.nbt) {
     const waveEntityNBT =
@@ -249,3 +257,9 @@ export function createStandardNormalGateway(
 
   return newData;
 }
+
+export const generateNormalGateways = generateGatewayGenerator(
+  gatewayBasePath,
+  createStandardNormalGateway,
+  parseNBT(defaultNormalBaseEntityNBT) as TagObject,
+);

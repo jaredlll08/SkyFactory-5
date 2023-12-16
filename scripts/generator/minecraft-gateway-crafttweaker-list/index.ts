@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import { readFile, writeFile } from "fs/promises";
 import glob from "glob-promise";
-import { CustomActionFunction } from "node-plop";
+import { CustomActionFunction, NodePlopAPI } from "node-plop";
 import path from "path";
 import { GatewaysToEternityGatewayV2 } from "schemas/minecraft/gateways/gateways-v2";
 import { RegisterGeneratorFn } from "scripts/generator/models";
@@ -20,84 +20,86 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
     description:
       "Generates/Updates the list of minecraft gateways in a Crafttweaker script",
     prompts: [],
-    actions: [updateCrafttweakerColorGatewayScript],
+    actions: [updateCrafttweakerColorGatewayScriptAction],
   });
 };
 
-export const updateCrafttweakerColorGatewayScript: CustomActionFunction =
-  async (_answers, _config, plop) => {
-    const gatewayDatapackFiles = await glob(`${gatewaysBasePath}/**/*.json`, {
-      ignore: [],
-    });
+export const updateCrafttweakerColorGatewayScriptAction: CustomActionFunction =
+  async (_answers, _config, plop) => updateCrafttweakerColorGatewayScript(plop);
 
-    const categorizedMap = new Map<ColorName, Set<string>>();
+export async function updateCrafttweakerColorGatewayScript(plop: NodePlopAPI) {
+  const gatewayDatapackFiles = await glob(`${gatewaysBasePath}/**/*.json`, {
+    ignore: [],
+  });
 
-    const uncategorizedFiles: string[] = [];
-    const ignoredFiles: string[] = [];
+  const categorizedMap = new Map<ColorName, Set<string>>();
 
-    await Promise.all(
-      gatewayDatapackFiles.map(async (filePath) => {
-        const relativePath = path.relative(gatewaysBasePath, filePath);
-        const data = await readJSONFile<GatewaysToEternityGatewayV2>(filePath);
+  const uncategorizedFiles: string[] = [];
+  const ignoredFiles: string[] = [];
 
-        if (data.__typename === "InvalidGateway") {
-          ignoredFiles.push(relativePath);
-          return;
-        }
+  await Promise.all(
+    gatewayDatapackFiles.map(async (filePath) => {
+      const relativePath = path.relative(gatewaysBasePath, filePath);
+      const data = await readJSONFile<GatewaysToEternityGatewayV2>(filePath);
 
-        const colorName = mapHexToColorName(data.color);
-        if (colorName === null) {
-          uncategorizedFiles.push(relativePath);
-          return;
-        }
+      if (data.__typename === "InvalidGateway") {
+        ignoredFiles.push(relativePath);
+        return;
+      }
 
-        if (categorizedMap.has(colorName)) {
-          categorizedMap.get(colorName)?.add(relativePath);
-        } else {
-          categorizedMap.set(colorName, new Set([relativePath]));
-        }
-      }),
+      const colorName = mapHexToColorName(data.color);
+      if (colorName === null) {
+        uncategorizedFiles.push(relativePath);
+        return;
+      }
+
+      if (categorizedMap.has(colorName)) {
+        categorizedMap.get(colorName)?.add(relativePath);
+      } else {
+        categorizedMap.set(colorName, new Set([relativePath]));
+      }
+    }),
+  );
+
+  const template = await readFile(
+    path.join(__dirname, "color-template.tpl"),
+    "utf-8",
+  );
+  let script = await readFile(colorScriptFilePath, "utf-8");
+
+  script = script.replace(
+    /(\/\/ GENERATOR START(\n|.)*\/\/ GENERATOR END)/,
+    plop.renderString(template, {
+      colorMappings: Array.from(categorizedMap)
+        .map(([key, val]) => ({
+          colorName: key,
+          gateways: Array.from(val)
+            .map(
+              (relativePath) =>
+                `gateways:${relativePath
+                  .replace(path.parse(relativePath).ext, "")
+                  .replace("\\", "/")}`,
+            )
+            .sort((a, b) => a.localeCompare(b)),
+        }))
+        .sort((a, b) => a.colorName.localeCompare(b.colorName)),
+    }),
+  );
+
+  await writeFile(colorScriptFilePath, script);
+
+  let baseResult = `Successfully updated Crafttweaker Script ${colorScriptFilePath}`;
+
+  if (ignoredFiles.length > 0) {
+    baseResult += chalk.yellow(
+      `\n    Ignored files:  ${ignoredFiles.join(", ")}`,
     );
-
-    const template = await readFile(
-      path.join(__dirname, "color-template.tpl"),
-      "utf-8",
+  }
+  if (uncategorizedFiles.length > 0) {
+    baseResult += chalk.red(
+      `\n    Uncategorized files: ${uncategorizedFiles.join(", ")}`,
     );
-    let script = await readFile(colorScriptFilePath, "utf-8");
+  }
 
-    script = script.replace(
-      /(\/\/ GENERATOR START(\n|.)*\/\/ GENERATOR END)/,
-      plop.renderString(template, {
-        colorMappings: Array.from(categorizedMap)
-          .map(([key, val]) => ({
-            colorName: key,
-            gateways: Array.from(val)
-              .map(
-                (relativePath) =>
-                  `gateways:${relativePath
-                    .replace(path.parse(relativePath).ext, "")
-                    .replace("\\", "/")}`,
-              )
-              .sort((a, b) => a.localeCompare(b)),
-          }))
-          .sort((a, b) => a.colorName.localeCompare(b.colorName)),
-      }),
-    );
-
-    await writeFile(colorScriptFilePath, script);
-
-    let baseResult = `Successfully updated Crafttweaker Script ${colorScriptFilePath}`;
-
-    if (ignoredFiles.length > 0) {
-      baseResult += chalk.yellow(
-        `\n    Ignored files:  ${ignoredFiles.join(", ")}`,
-      );
-    }
-    if (uncategorizedFiles.length > 0) {
-      baseResult += chalk.red(
-        `\n    Uncategorized files: ${uncategorizedFiles.join(", ")}`,
-      );
-    }
-
-    return baseResult;
-  };
+  return baseResult;
+}

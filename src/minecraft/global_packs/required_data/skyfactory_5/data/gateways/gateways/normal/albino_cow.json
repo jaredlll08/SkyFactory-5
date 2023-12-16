@@ -1,14 +1,14 @@
 {
   "__typename": "NormalGateway",
   "size": "large",
-  "color": "#FF00FF",
+  "color": "#ffffff",
   "waves": [
     {
       "entities": [
         {
           "type": "gateways:standard",
           "count": 4,
-          "entity": "veincreeper:magenta",
+          "entity": "earthmobsmod:albino_cow",
           "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},Tags:[\"gateway_entity\"]}"
         }
       ],
@@ -20,7 +20,7 @@
         {
           "type": "gateways:stack",
           "stack": {
-            "item": "minecraft:magenta_dye",
+            "item": "minecraft:white_dye",
             "count": 16
           }
         }
@@ -33,7 +33,7 @@
         {
           "type": "gateways:standard",
           "count": 4,
-          "entity": "veincreeper:magenta",
+          "entity": "earthmobsmod:albino_cow",
           "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},Tags:[\"gateway_entity\"]}"
         }
       ],
@@ -77,7 +77,7 @@
         {
           "type": "gateways:stack",
           "stack": {
-            "item": "minecraft:magenta_dye",
+            "item": "minecraft:white_dye",
             "count": 16
           }
         }
@@ -90,7 +90,7 @@
         {
           "type": "gateways:standard",
           "count": 4,
-          "entity": "veincreeper:magenta",
+          "entity": "earthmobsmod:albino_cow",
           "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}"
         }
       ],
@@ -134,7 +134,7 @@
         {
           "type": "gateways:stack",
           "stack": {
-            "item": "minecraft:magenta_dye",
+            "item": "minecraft:white_dye",
             "count": 32
           }
         }
@@ -156,9 +156,18 @@
           "BlockEntityTag": {
             "SpecialCycleVariant": 0,
             "VariantID": 0,
-            "entity": "veincreeper:magenta"
+            "entity": "earthmobsmod:albino_cow"
           }
         }
+      }
+    },
+    {
+      "type": "gateways:summon",
+      "entity": {
+        "type": "gateways:standard",
+        "count": 4,
+        "entity": "earthmobsmod:albino_cow",
+        "nbt": "{DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},Tags:[\"gateway_entity\"]}"
       }
     }
   ],

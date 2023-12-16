@@ -1,10 +1,10 @@
 {
+  "entity": "minecraft:pig",
   "behavior": {
     "type": "obtrophies:item",
     "cooldown": 20000,
     "item": "minecraft:porkchop"
   },
-  "entity": "minecraft:pig",
-  "offset": 0.0,
-  "scale": 1.0
+  "offset": 0,
+  "scale": 1
 }

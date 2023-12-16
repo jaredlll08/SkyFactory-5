@@ -1,6 +1,6 @@
 {
   "entity": "minecraft:parrot",
-  "offset": 0.0,
+  "offset": 0,
   "scale": 1.75,
   "variants": [
     {

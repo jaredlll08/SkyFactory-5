@@ -1,11 +1,11 @@
 {
+  "entity": "minecraft:wandering_trader",
   "behavior": {
     "type": "obtrophies:item",
     "cooldown": 10000,
     "item": "minecraft:emerald",
     "sound": "minecraft:entity.wandering_trader.yes"
   },
-  "entity": "minecraft:wandering_trader",
-  "offset": 0.0,
-  "scale": 1.0
+  "offset": 0,
+  "scale": 1
 }

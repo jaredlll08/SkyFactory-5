@@ -1,7 +1,7 @@
 {
   "__typename": "NormalGateway",
   "size": "large",
-  "color": "#FFC0CB",
+  "color": "#ffc0cb",
   "waves": [
     {
       "entities": [

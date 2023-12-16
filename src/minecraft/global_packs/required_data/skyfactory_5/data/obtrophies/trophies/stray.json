@@ -1,10 +1,10 @@
 {
+  "entity": "minecraft:stray",
   "behavior": {
     "type": "obtrophies:arrow",
     "amount": 1,
     "effect": "minecraft:slowness"
   },
-  "entity": "minecraft:stray",
-  "offset": 0.0,
-  "scale": 1.0
+  "offset": 0,
+  "scale": 1
 }

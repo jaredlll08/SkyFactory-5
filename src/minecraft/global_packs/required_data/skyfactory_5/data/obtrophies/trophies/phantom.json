@@ -1,10 +1,10 @@
 {
+  "entity": "minecraft:phantom",
   "behavior": {
     "type": "obtrophies:item",
     "cooldown": 20000,
     "item": "minecraft:phantom_membrane"
   },
-  "entity": "minecraft:phantom",
-  "offset": 0.0,
-  "scale": 1.0
+  "offset": 0,
+  "scale": 1
 }

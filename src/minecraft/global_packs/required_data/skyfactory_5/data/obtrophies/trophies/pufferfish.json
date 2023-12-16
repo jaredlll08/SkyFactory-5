@@ -1,13 +1,13 @@
 {
+  "entity": "minecraft:pufferfish",
   "behavior": {
     "type": "obtrophies:mob_effect",
     "amplifier": 0,
     "effect": "minecraft:nausea",
     "time": 100
   },
-  "entity": "minecraft:pufferfish",
-  "offset": 0.0,
-  "scale": 2.0,
+  "offset": 0,
+  "scale": 2,
   "variants": [
     {
       "PuffState": "2"
