@@ -16,7 +16,8 @@ export type Behaviors =
   | LlamaSpitBehavior
   | TotemOfUndyingBehavior
   | LootTableBehavior
-  | RightClickItemBehavior;
+  | RightClickItemBehavior
+  | SetFire;
 
 /**
  * A OpenBlocks Trophies trophy datapack file
@@ -89,14 +90,18 @@ export interface TotemOfUndyingBehavior {
 export interface LootTableBehavior {
   type: "obtrophies:loot_table";
   loot_table: string;
-  "cooldown "?: number;
+  cooldown?: number;
   rolls?: number;
 }
 export interface RightClickItemBehavior {
   type: "obtrophies:right_click_item";
   item_to_use: string;
-  shrink_item_stack: string;
-  execute_behavior: string;
-  cooldown?: string;
+  shrink_item_stack: boolean;
+  execute_behavior: Behaviors;
+  cooldown?: number;
   sound?: string;
+}
+export interface SetFire {
+  type: "obtrophies:set_fire";
+  seconds: number;
 }

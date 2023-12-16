@@ -79,6 +79,9 @@
         },
         {
           "$ref": "#/$defs/rightClickItemBehavior"
+        },
+        {
+          "$ref": "#/$defs/setFire"
         }
       ]
     },
@@ -234,7 +237,7 @@
         "loot_table": {
           "type": "string"
         },
-        "cooldown ": {
+        "cooldown": {
           "type": "number"
         },
         "rolls": {
@@ -260,16 +263,30 @@
           "type": "string"
         },
         "shrink_item_stack": {
-          "type": "string"
+          "type": "boolean"
         },
         "execute_behavior": {
-          "type": "string"
+          "$ref": "#/$defs/behaviors"
         },
         "cooldown": {
-          "type": "string"
+          "type": "number"
         },
         "sound": {
           "type": "string"
+        }
+      }
+    },
+    "setFire": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "seconds"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "obtrophies:set_fire"
+        },
+        "seconds": {
+          "type": "number"
         }
       }
     }
