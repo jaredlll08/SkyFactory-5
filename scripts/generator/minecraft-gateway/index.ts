@@ -12,6 +12,7 @@ import { ColorName, mapColorNameToHex } from "scripts/utils/minecraft-colors";
 import { GatewayType } from "./constants";
 import { appendToData, loadData } from "./data-manager";
 import { generateInControlSpawnConfig } from "./incontrol-spawn";
+import { generateItemBordersConfig } from "./itemborders";
 import { generateLangFile } from "./lang";
 import { generateNormalGateways } from "./normal-gateway";
 import {
@@ -208,6 +209,7 @@ const generateUpdatedFilesAction: CustomActionFunction = async (
     generateMobStageEnum(plop, data),
     generateTrophies(data),
     generateLangFile(data),
+    generateItemBordersConfig(data),
   ]);
 
   return "Updated all files with the updated Data";
