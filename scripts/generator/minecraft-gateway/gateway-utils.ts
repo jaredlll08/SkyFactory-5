@@ -18,6 +18,7 @@ export function generateGatewayGenerator<T extends CreateGatewayFn>(
   gatewayBasePath: string,
   createGatewayFn: T,
   defaultEntityNBT: TagObject,
+  filter: (mobEntry: MobData[0]) => boolean,
 ) {
   return async function generateGateways(data: MobData) {
     const files = await glob(`${gatewayBasePath}/**/*.json`);
@@ -25,7 +26,7 @@ export function generateGatewayGenerator<T extends CreateGatewayFn>(
     await Promise.all(files.map((filePath) => unlink(filePath)));
 
     await Promise.all(
-      data.map((entry) => {
+      data.filter(filter).map((entry) => {
         if (entry.spawnOnly) {
           return;
         }

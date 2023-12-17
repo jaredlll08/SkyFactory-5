@@ -6,6 +6,7 @@ import {
   EndlessGatewayModifier,
   GatewayWaveEntity,
 } from "schemas/minecraft/gateways/gateways-v2";
+import { GatewayType } from "./constants";
 import { generateGatewayGenerator } from "./gateway-utils";
 import { BaseEntity, cleanEntityNBT } from "./utils";
 
@@ -203,4 +204,6 @@ export const generateTitanGateways = generateGatewayGenerator(
   gatewayBasePath,
   createStandardTitanGateway,
   parseNBT(defaultTitanBaseEntityNBT) as TagObject,
+  (entry) =>
+    entry.spawnOnly === false && entry.gatewayTypes.includes(GatewayType.Titan),
 );

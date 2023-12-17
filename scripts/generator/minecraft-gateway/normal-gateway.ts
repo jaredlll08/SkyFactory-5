@@ -5,6 +5,7 @@ import {
   GatewayWaveEntity,
   NormalGateway,
 } from "schemas/minecraft/gateways/gateways-v2";
+import { GatewayType } from "./constants";
 import { generateGatewayGenerator } from "./gateway-utils";
 import { BaseEntity, cleanEntityNBT, isFriendlyMob } from "./utils";
 
@@ -262,4 +263,7 @@ export const generateNormalGateways = generateGatewayGenerator(
   gatewayBasePath,
   createStandardNormalGateway,
   parseNBT(defaultNormalBaseEntityNBT) as TagObject,
+  (entry) =>
+    entry.spawnOnly === false &&
+    entry.gatewayTypes.includes(GatewayType.Normal),
 );
