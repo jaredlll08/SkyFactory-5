@@ -2395,4 +2395,5 @@ export const mobData: MobData[] = [
     minLightLevel: 8,
     maxLightLevel: 15,
   },
+  //! DATA MANAGER ENTRY MARKER - DON'T TOUCH
 ];
