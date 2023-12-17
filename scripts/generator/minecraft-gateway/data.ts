@@ -1800,7 +1800,7 @@ export const mobData: MobData[] = [
     mobName: "Black Vein Creeper",
     stage: "black_vein_creeper",
     color: ColorName.Black,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1823,7 +1823,7 @@ export const mobData: MobData[] = [
     mobName: "Blue Vein Creeper",
     stage: "blue_vein_creeper",
     color: ColorName.Blue,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1836,7 +1836,7 @@ export const mobData: MobData[] = [
     mobName: "Cyan Vein Creeper",
     stage: "cyan_vein_creeper",
     color: ColorName.Cyan,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1849,7 +1849,7 @@ export const mobData: MobData[] = [
     mobName: "Green Vein Creeper",
     stage: "green_vein_creeper",
     color: ColorName.Green,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1862,7 +1862,7 @@ export const mobData: MobData[] = [
     mobName: "Gray Vein Creeper",
     stage: "gray_vein_creeper",
     color: ColorName.Gray,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1875,7 +1875,7 @@ export const mobData: MobData[] = [
     mobName: "Brown Vein Creeper",
     stage: "brown_vein_creeper",
     color: ColorName.Brown,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1888,7 +1888,7 @@ export const mobData: MobData[] = [
     mobName: "Light Blue Vein Creeper",
     stage: "light_blue_vein_creeper",
     color: ColorName.LightBlue,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1901,7 +1901,7 @@ export const mobData: MobData[] = [
     mobName: "Lime Vein Creeper",
     stage: "lime_vein_creeper",
     color: ColorName.Lime,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1914,7 +1914,7 @@ export const mobData: MobData[] = [
     mobName: "Magenta Vein Creeper",
     stage: "magenta_vein_creeper",
     color: ColorName.Magenta,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1927,7 +1927,7 @@ export const mobData: MobData[] = [
     mobName: "Red Vein Creeper",
     stage: "red_vein_creeper",
     color: ColorName.Red,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1940,7 +1940,7 @@ export const mobData: MobData[] = [
     mobName: "Orange Vein Creeper",
     stage: "orange_vein_creeper",
     color: ColorName.Orange,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1953,7 +1953,7 @@ export const mobData: MobData[] = [
     mobName: "Purple Vein Creeper",
     stage: "purple_vein_creeper",
     color: ColorName.Purple,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1966,7 +1966,7 @@ export const mobData: MobData[] = [
     mobName: "Pink Vein Creeper",
     stage: "pink_vein_creeper",
     color: ColorName.Pink,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1979,7 +1979,7 @@ export const mobData: MobData[] = [
     mobName: "White Vein Creeper",
     stage: "white_vein_creeper",
     color: ColorName.White,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -1992,7 +1992,7 @@ export const mobData: MobData[] = [
     mobName: "Light Gray Vein Creeper",
     stage: "light_gray_vein_creeper",
     color: ColorName.LightGray,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -2005,7 +2005,7 @@ export const mobData: MobData[] = [
     mobName: "Yellow Vein Creeper",
     stage: "yellow_vein_creeper",
     color: ColorName.Yellow,
-    gatewayTypes: [GatewayType.Normal],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
@@ -2351,7 +2351,7 @@ export const mobData: MobData[] = [
     mobName: "Albino Cow",
     stage: "albino_cow",
     color: ColorName.White,
-    gatewayTypes: [GatewayType.Titan],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -2361,7 +2361,7 @@ export const mobData: MobData[] = [
     mobName: "Baby Ghast",
     stage: "baby_ghast",
     color: ColorName.White,
-    gatewayTypes: [GatewayType.Titan],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
   },
@@ -2371,7 +2371,7 @@ export const mobData: MobData[] = [
     mobName: "Bouldering Drowned",
     stage: "bouldering_drowned",
     color: ColorName.Blue,
-    gatewayTypes: [GatewayType.Titan],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
   },
@@ -2381,7 +2381,7 @@ export const mobData: MobData[] = [
     mobName: "Bouldering Zombie",
     stage: "bouldering_zombie",
     color: ColorName.Gray,
-    gatewayTypes: [GatewayType.Titan],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
   },
@@ -2391,7 +2391,7 @@ export const mobData: MobData[] = [
     mobName: "Cluckshroom",
     stage: "cluckshroom",
     color: ColorName.Red,
-    gatewayTypes: [GatewayType.Titan],
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 8,
     maxLightLevel: 15,
   },
