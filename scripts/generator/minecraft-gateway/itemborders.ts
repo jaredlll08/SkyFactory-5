@@ -59,17 +59,31 @@ export async function generateItemBordersConfig(data: MobData) {
     );
   });
 
-  // Sort and clean up
+  // Sort arrays and clean up empty ones
   Object.keys(config.client.options.manual_borders).forEach((key) => {
     if (config.client.options.manual_borders[key].length === 0) {
       delete config.client.options.manual_borders[key];
       return;
     }
+
     config.client.options.manual_borders[key] =
       config.client.options.manual_borders[key].sort((a, b) =>
         a.localeCompare(b),
       );
   });
+
+  // Sort keys
+  config.client.options.manual_borders = Object.keys(
+    config.client.options.manual_borders,
+  )
+    .sort((a, b) => a.localeCompare(b))
+    .reduce(
+      (obj, key) => {
+        obj[key] = config.client.options.manual_borders[key];
+        return obj;
+      },
+      {} as ItemBorderConfig["client"]["options"]["manual_borders"],
+    );
 
   await writeFile(
     itemBordersConfigPath,
