@@ -6,7 +6,11 @@ import type { MobData as MobDataEntry } from "./data";
 export type MobData = (typeof import("./data"))["mobData"];
 
 export async function loadData() {
-  return (await import("./data")).mobData;
+  const mobData = (await import("./data")).mobData;
+
+  validateMobData(mobData);
+
+  return mobData;
 }
 
 const absDataPath = path.join(__dirname, "data.json");
@@ -25,4 +29,17 @@ export async function appendToData(plop: NodePlopAPI, data: MobDataEntry) {
   );
 
   await writeFile(absDataPath, file);
+}
+
+function validateMobData(mobData: MobData) {
+  const seenIDs = new Set<string>();
+
+  for (const entry of mobData) {
+    if (seenIDs.has(entry.mobID)) {
+      throw new Error(
+        `Found duplicate record for mob ${entry.mobID} in data file`,
+      );
+    }
+    seenIDs.add(entry.mobID);
+  }
 }
