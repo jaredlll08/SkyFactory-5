@@ -71,8 +71,6 @@ export async function generateItemBordersConfig(data: MobData) {
       );
   });
 
-  console.log(TOML.stringify(config.client.options.manual_borders));
-
   await writeFile(
     itemBordersConfigPath,
     TOML.stringify(config as unknown as JsonMap),
