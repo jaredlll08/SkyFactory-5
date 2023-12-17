@@ -85,7 +85,6 @@ val items as IItemStack[] = [
   <item:pizzacraft:wing>,
   <item:scarecrowsterritory:pink_scarecrow>,
   <item:sf5_things:pink_apple>,
-  <item:sf5stuff:crucible_pink>,
   <item:supplementaries:soap>,
   <item:supplementaries:trapped_present_pink>
 

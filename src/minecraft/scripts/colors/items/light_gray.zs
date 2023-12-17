@@ -80,8 +80,6 @@ val items as IItemStack[] = [
   <item:mysticalagriculture:light_gray_crop_essence>,
   <item:mysticalagriculture:light_gray_crop_seeds>,
   <item:sf5_things:light_gray_apple>,
-  <item:sf5stuff:composting_bin_light_gray>,
-  <item:sf5stuff:crucible_light_gray>,
   <item:supplementaries:candle_holder_light_gray>,
   <item:supplementaries:colouredstuff/sign_post_light_gray>,
   <item:supplementaries:flag_light_gray>,

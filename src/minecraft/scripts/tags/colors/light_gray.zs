@@ -78,8 +78,6 @@ val items as ResourceLocation[] = [
   <resource:mysticalagriculture:light_gray_crop_essence>,
   <resource:mysticalagriculture:light_gray_crop_seeds>,
   <resource:sf5_things:light_gray_apple>,
-  <resource:sf5stuff:composting_bin_light_gray>,
-  <resource:sf5stuff:crucible_light_gray>,
   <resource:supplementaries:candle_holder_light_gray>,
   <resource:supplementaries:colouredstuff/sign_post_light_gray>,
   <resource:supplementaries:flag_light_gray>,

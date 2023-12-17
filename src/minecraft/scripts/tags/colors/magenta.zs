@@ -143,8 +143,6 @@ val items as ResourceLocation[] = [
   <resource:pizzacraft:onion>,
   <resource:pizzacraft:onion_slice>,
   <resource:sf5_things:magenta_apple>,
-  <resource:sf5stuff:composting_bin_magenta>,
-  <resource:sf5stuff:crucible_magenta>,
   <resource:supplementaries:candle_holder_magenta>,
   <resource:supplementaries:colouredstuff/sign_post_magenta>,
   <resource:supplementaries:flag_magenta>,

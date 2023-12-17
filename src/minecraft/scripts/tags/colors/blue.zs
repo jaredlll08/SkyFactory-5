@@ -66,8 +66,6 @@ val items as ResourceLocation[] = [
   <resource:sf5_things:block_of_blue_dye>,
   <resource:sf5_things:blue_apple>,
   <resource:sf5_things:light_blue_apple>,
-  <resource:sf5stuff:composting_bin_blue>,
-  <resource:sf5stuff:crucible_blue>,
   <resource:supplementaries:candle_holder_blue>,
   <resource:supplementaries:colouredstuff/sign_post_blue>,
   <resource:tintedcampfires:blue_campfire>

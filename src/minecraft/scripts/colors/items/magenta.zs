@@ -147,8 +147,6 @@ val items as IItemStack[] = [
   <item:pizzacraft:onion>,
   <item:pizzacraft:onion_slice>,
   <item:sf5_things:magenta_apple>,
-  <item:sf5stuff:composting_bin_magenta>,
-  <item:sf5stuff:crucible_magenta>,
   <item:supplementaries:candle_holder_magenta>,
   <item:supplementaries:colouredstuff/sign_post_magenta>,
   <item:supplementaries:flag_magenta>,

@@ -9,17 +9,6 @@ craftingTable.addShaped(
   ]
 );
 
-craftingTable.addShaped(
-  "porcelain_clay_crucible",
-  <item:sf5stuff:crucible_porcelain_clay>,
-  [
-    [<item:exnihilosequentia:porcelain_clay>, <item:minecraft:air>, <item:exnihilosequentia:porcelain_clay>],
-    [<item:exnihilosequentia:porcelain_clay>, <item:minecraft:air>, <item:exnihilosequentia:porcelain_clay>],
-    [<item:exnihilosequentia:porcelain_clay>, <item:exnihilosequentia:porcelain_clay>, <item:exnihilosequentia:porcelain_clay>]
-  ]
-);
-
-
 // Dimensional Paintings Mod
 craftingTable.remove(<item:dimpaintings:nether_painting>);
 craftingTable.remove(<item:dimpaintings:end_painting>);
@@ -159,3 +148,4 @@ craftingTable.addShaped(
     [<item:minecraft:air>, <item:minecraft:leather>, <item:minecraft:air>]
   ]
 );
+

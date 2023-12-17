@@ -95,8 +95,6 @@ val items as IItemStack[] = [
   <item:mysticalagriculture:lime_crop_seeds>,
   <item:scarecrowsterritory:lime_scarecrow>,
   <item:sf5_things:lime_apple>,
-  <item:sf5stuff:composting_bin_lime>,
-  <item:sf5stuff:crucible_lime>,
   <item:supplementaries:candle_holder_lime>,
   <item:supplementaries:colouredstuff/sign_post_lime>,
   <item:supplementaries:flag_lime>,

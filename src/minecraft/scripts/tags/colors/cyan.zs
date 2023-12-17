@@ -108,8 +108,6 @@ val items as ResourceLocation[] = [
   <resource:mysticalagriculture:cyan_crop_essence>,
   <resource:mysticalagriculture:cyan_crop_seeds>,
   <resource:sf5_things:cyan_apple>,
-  <resource:sf5stuff:composting_bin_cyan>,
-  <resource:sf5stuff:crucible_cyan>,
   <resource:tinted_torches:cyan_torch>
 
   // GENERATOR END

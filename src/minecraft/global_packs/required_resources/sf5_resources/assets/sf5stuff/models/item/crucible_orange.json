@@ -1,7 +1,0 @@
-{
-  "parent": "sf5stuff:block/crucible_base",
-  "textures": {
-    "texture": "colouredstuff:block/planks_orange",
-    "particle": "colouredstuff:block/planks_orange"
-  }
-}

@@ -93,8 +93,6 @@ val items as ResourceLocation[] = [
   <resource:mysticalagriculture:lime_crop_seeds>,
   <resource:scarecrowsterritory:lime_scarecrow>,
   <resource:sf5_things:lime_apple>,
-  <resource:sf5stuff:composting_bin_lime>,
-  <resource:sf5stuff:crucible_lime>,
   <resource:supplementaries:candle_holder_lime>,
   <resource:supplementaries:colouredstuff/sign_post_lime>,
   <resource:supplementaries:flag_lime>,

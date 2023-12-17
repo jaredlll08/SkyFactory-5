@@ -68,14 +68,8 @@ ContentBuilder.factory
 
     return BracketHandlers.getItem("tintedcampfires:" + color.getResourceName() + "_campfire");
   })
-  .registerItem(ColoredItem.CompostingBin, (color) => {
-    return BracketHandlers.getItem("sf5stuff:composting_bin_" + color.getResourceName());
-  })
   .registerItem(ColoredItem.CraftingTable, (color) => {
     return BracketHandlers.getItem("colouredstuff:crafting_table_" + color.getResourceName());
-  })
-  .registerItem(ColoredItem.Crucible, (color) => {
-    return BracketHandlers.getItem("sf5stuff:crucible_" + color.getResourceName());
   })
   .registerItem(ColoredItem.Dye, (color) => {
     if color.getName() == ColorName.None {

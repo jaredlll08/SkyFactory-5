@@ -70,8 +70,6 @@ val items as IItemStack[] = [
   <item:mysticalagriculture:purple_crop_essence>,
   <item:mysticalagriculture:purple_crop_seeds>,
   <item:sf5_things:purple_apple>,
-  <item:sf5stuff:composting_bin_purple>,
-  <item:sf5stuff:crucible_purple>,
   <item:supplementaries:candle_holder_purple>,
   <item:supplementaries:flag_purple>,
   <item:supplementaries:present_purple>,

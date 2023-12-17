@@ -115,8 +115,6 @@ val items as ResourceLocation[] = [
   <resource:overweight_farming:peeled_overweight_carrot_block>,
   <resource:scarecrowsterritory:orange_scarecrow>,
   <resource:sf5_things:orange_apple>,
-  <resource:sf5stuff:composting_bin_orange>,
-  <resource:sf5stuff:crucible_orange>,
   <resource:supplementaries:candle_holder_orange>,
   <resource:supplementaries:colouredstuff/sign_post_orange>,
   <resource:supplementaries:flag_orange>,

@@ -99,8 +99,6 @@ val items as IItemStack[] = [
   <item:overweight_farming:overweight_beetroot_block>,
   <item:overweight_farming:peeled_overweight_beetroot_block>,
   <item:pickletweaks:red_cobblestone>,
-  <item:sf5stuff:composting_bin_red>,
-  <item:sf5stuff:crucible_red>,
   <item:supplementaries:candle_holder_red>,
   <item:supplementaries:flag_red>,
   <item:supplementaries:present_red>,

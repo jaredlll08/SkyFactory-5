@@ -97,8 +97,6 @@ val items as ResourceLocation[] = [
   <resource:overweight_farming:overweight_beetroot_block>,
   <resource:overweight_farming:peeled_overweight_beetroot_block>,
   <resource:pickletweaks:red_cobblestone>,
-  <resource:sf5stuff:composting_bin_red>,
-  <resource:sf5stuff:crucible_red>,
   <resource:supplementaries:candle_holder_red>,
   <resource:supplementaries:flag_red>,
   <resource:supplementaries:present_red>,

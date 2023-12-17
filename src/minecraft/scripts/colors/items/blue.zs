@@ -73,8 +73,6 @@ val items as IItemStack[] = [
   <item:sf5_things:block_of_blue_dye>,
   <item:sf5_things:blue_apple>,
   <item:sf5_things:light_blue_apple>,
-  <item:sf5stuff:composting_bin_blue>,
-  <item:sf5stuff:crucible_blue>,
   <item:supplementaries:candle_holder_blue>,
   <item:supplementaries:colouredstuff/sign_post_blue>,
   <item:tintedcampfires:blue_campfire>

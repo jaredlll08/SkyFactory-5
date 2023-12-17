@@ -89,8 +89,6 @@ val items as ResourceLocation[] = [
   <resource:scarecrowsterritory:green_scarecrow>,
   <resource:sf5_things:block_of_green_dye>,
   <resource:sf5_things:green_apple>,
-  <resource:sf5stuff:composting_bin_green>,
-  <resource:sf5stuff:crucible_green>,
   <resource:silentgear:green_fluffy_block>,
   <resource:supplementaries:candle_holder_green>,
   <resource:supplementaries:colouredstuff/sign_post_green>,

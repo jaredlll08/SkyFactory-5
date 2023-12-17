@@ -112,8 +112,6 @@ val items as IItemStack[] = [
   <item:mysticalagriculture:cyan_crop_essence>,
   <item:mysticalagriculture:cyan_crop_seeds>,
   <item:sf5_things:cyan_apple>,
-  <item:sf5stuff:composting_bin_cyan>,
-  <item:sf5stuff:crucible_cyan>,
   <item:tinted_torches:cyan_torch>
 
   // GENERATOR END
