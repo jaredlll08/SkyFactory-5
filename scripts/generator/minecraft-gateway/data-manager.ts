@@ -13,7 +13,7 @@ export async function loadData() {
   return mobData;
 }
 
-const absDataPath = path.join(__dirname, "data.json");
+const absDataPath = path.join(__dirname, "data.ts");
 
 const templatePath = path.join(__dirname, "data-entry.tpl");
 const placeholderText = "//! DATA MANAGER ENTRY MARKER - DON'T TOUCH";
