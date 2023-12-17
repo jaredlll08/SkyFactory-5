@@ -16,19 +16,31 @@ export async function loadData() {
 const absDataPath = path.join(__dirname, "data.ts");
 
 const templatePath = path.join(__dirname, "data-entry.tpl");
-const placeholderText = "//! DATA MANAGER ENTRY MARKER - DON'T TOUCH";
+const placeholderText = "//! DATA MANAGER ENTRY MARKER - DO NOT TOUCH";
 
 export async function appendToData(plop: NodePlopAPI, data: MobDataEntry) {
   const template = await readFile(templatePath, "utf-8");
 
   const file = await readFile(absDataPath, "utf-8");
 
-  file.replace(
-    placeholderText,
-    plop.renderString(template, { ...data, placeholderText }),
-  );
+  if (!file.includes(placeholderText)) {
+    throw new Error("Failed to find placeholder text in data file");
+  }
 
-  await writeFile(absDataPath, file);
+  await writeFile(
+    absDataPath,
+    file.replace(
+      placeholderText,
+      plop.renderString(template, {
+        ...data,
+        color: !data.spawnOnly && `ColorName.${data.color}`,
+        gatewayTypes:
+          !data.spawnOnly &&
+          data.gatewayTypes.map((type) => `GatewayType.${type}`).join(", "),
+        placeholderText,
+      }),
+    ),
+  );
 }
 
 function validateMobData(mobData: MobData) {
