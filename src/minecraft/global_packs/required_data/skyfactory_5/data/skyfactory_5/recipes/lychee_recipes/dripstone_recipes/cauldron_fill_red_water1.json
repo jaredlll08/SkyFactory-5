@@ -6,7 +6,7 @@
     {
       "type": "place",
       "block": {
-        "blocks": ["sf5stuff:crucible_blue"],
+        "blocks": ["colored_water:red_water_cauldron"],
         "state": {
           "level": "1"
         }
