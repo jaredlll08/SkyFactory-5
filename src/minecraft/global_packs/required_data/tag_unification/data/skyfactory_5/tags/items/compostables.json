@@ -356,6 +356,8 @@
     "minecraft:acacia_sapling",
     "minecraft:cherry_sapling",
     "minecraft:dark_oak_sapling",
-    "minecraft:mangrove_propagule"
+    "minecraft:mangrove_propagule",
+    "immersiveengineering:seed",
+    "simplehats:fro"
   ]
 }
