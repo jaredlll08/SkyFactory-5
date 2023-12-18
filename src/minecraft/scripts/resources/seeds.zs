@@ -35,4 +35,9 @@ craftingTable.addShapeless(
   [<item:minecraft:wheat_seeds>, <tag:items:forge:dyes/magenta>,<tag:items:forge:dyes/brown>]
 );
 
-
+// Bamboo
+craftingTable.addShapeless(
+  "bamboo_from_dye",
+  <item:minecraft:bamboo>,
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/yellow>]
+);
