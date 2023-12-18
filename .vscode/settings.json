@@ -58,7 +58,9 @@
     ".git": true,
     "node_modules": true,
     ".tmp": true,
-    ".husky": true
+    ".husky": true,
+    "src/minecraft/kubejs/probe/cache": true,
+    "src/minecraft/kubejs/probe/generated": true
   },
   "prettier.prettierPath": "./node_modules/prettier",
   "prettier.enable": true,
