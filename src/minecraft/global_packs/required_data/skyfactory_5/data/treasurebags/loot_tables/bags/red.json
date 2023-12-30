@@ -17,7 +17,18 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 35,
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/mooshroom\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
@@ -28,18 +39,18 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 20,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/strider\"}"
+              "tag": "{gateway:\"gateways:titan/parrot\"}"
             }
           ]
         },
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 25,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
@@ -50,33 +61,121 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 20,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/cluck_shroom\"}"
+              "tag": "{gateway:\"gateways:titan/salmon\"}"
             }
           ]
         },
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 50,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/vein_creeper_red\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 50,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
               "tag": "{gateway:\"gateways:normal/red_chu_chu\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/red_chu_chu\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/strider\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/strider\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/red_vein_creeper\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/red_vein_creeper\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/wandering_winemaker\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/wandering_winemaker\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/cluckshroom\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/cluckshroom\"}"
             }
           ]
         }
