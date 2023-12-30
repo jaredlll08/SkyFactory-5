@@ -135,11 +135,11 @@ ContentBuilder.factory
       return null;
     }
 
-    return <item:treasurebags:treasure_bag>.withTag({
-      "silentlib.LootContainer": {
-        LootTable: "treasurebags:bags/" + color.getResourceName(),
-        BagType: "treasurebags:" + color.getResourceName()
-      }
+    return <item:lootbags:loot_bag>.withTag({
+      Type: "COMMON",
+      Loot: "skyfactory_5:loot_bags/" + color.getResourceName() + "_loot_bag",
+      Color: color.asDecimal(),
+      Name: color.getDisplayName() + " Loot Bag"
     });
   })
   .registerItem(ColoredItem.Wool, (color) => {

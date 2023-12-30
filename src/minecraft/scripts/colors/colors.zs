@@ -23,17 +23,23 @@ public enum ColorName {
 
 public class Color {
   private val colorName as ColorName;
+  private val displayName as string;
   private val resourceName as string;
   private val decimalValue as int;
 
-  public this(colorName: ColorName, resourceName: string, decimalValue: int) {
+  public this(colorName: ColorName, displayName: string, resourceName: string, decimalValue: int) {
     this.colorName = colorName;
+    this.displayName = displayName;
     this.resourceName = resourceName;
     this.decimalValue = decimalValue;
   }
 
   public getName(): ColorName {
     return this.colorName;
+  }
+
+  public getDisplayName(): string {
+    return this.displayName;
   }
 
   public getResourceName(): string {
