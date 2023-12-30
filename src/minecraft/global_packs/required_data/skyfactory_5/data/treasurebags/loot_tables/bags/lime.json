@@ -6,7 +6,29 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 50,
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/creeper_tot\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/creeper_tot\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
@@ -17,7 +39,18 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 50,
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/creeper\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
@@ -28,7 +61,18 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 50,
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/slime\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
@@ -39,22 +83,33 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 50,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/vein_creeper_lime\"}"
+              "tag": "{gateway:\"gateways:titan/turtle\"}"
             }
           ]
         },
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 50,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/forcecraft:creeper_tot\"}"
+              "tag": "{gateway:\"gateways:normal/lime_vein_creeper\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/lime_vein_creeper\"}"
             }
           ]
         }

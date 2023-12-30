@@ -39,6 +39,8 @@ interface MobDataAll extends MobDataBase {
   additionalGatewayMobNBT?: TagObject;
   /** Additional data to apply to the generated trophy file. */
   trophyData?: Omit<OpenBlocksTrophiesTrophy, "entity">;
+  /** Override the default weight value for the mob's gateway drops in the trophy bag loot table. */
+  trophyBagLootTableWeight?: number;
 }
 
 export type MobData = MobDataSpawnOnly | MobDataAll;

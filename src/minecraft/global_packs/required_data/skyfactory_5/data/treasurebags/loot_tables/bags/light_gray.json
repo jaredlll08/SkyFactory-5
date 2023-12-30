@@ -6,18 +6,7 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 80,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/iron_golem\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 5,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
@@ -28,22 +17,77 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 60,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/witch\"}"
+              "tag": "{gateway:\"gateways:titan/elder_guardian\"}"
             }
           ]
         },
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 60,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/wolf\"}"
+              "tag": "{gateway:\"gateways:normal/furnace_golem\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/furnace_golem\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/guardian\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/guardian\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/iron_golem\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/iron_golem\"}"
             }
           ]
         },
@@ -61,11 +105,77 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 50,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/vein_creeper_light_gray\"}"
+              "tag": "{gateway:\"gateways:titan/stray\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/light_gray_vein_creeper\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/light_gray_vein_creeper\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/witch\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/witch\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/wolf\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/wolf\"}"
             }
           ]
         }

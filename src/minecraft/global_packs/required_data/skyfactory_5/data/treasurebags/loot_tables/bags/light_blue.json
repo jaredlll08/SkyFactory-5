@@ -6,7 +6,7 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 60,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
@@ -17,7 +17,18 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 25,
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/allay\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
@@ -28,7 +39,84 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 5,
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/dolphin\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/fairy\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/fairy\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/tuna\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/tuna\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/light_blue_vein_creeper\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/light_blue_vein_creeper\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
@@ -39,11 +127,11 @@
         {
           "type": "item",
           "name": "gateways:gate_pearl",
-          "weight": 50,
+          "weight": 100,
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/vein_creeper_light_blue\"}"
+              "tag": "{gateway:\"gateways:titan/vex\"}"
             }
           ]
         }

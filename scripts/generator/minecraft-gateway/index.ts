@@ -20,6 +20,7 @@ import {
   generateStagedMobsGlobal,
 } from "./staged-mobs-zs";
 import { generateTitanGateways } from "./titan-gateway";
+import { generateTreasureBagLootTables } from "./treasurebags";
 import { generateTrophies } from "./trophy";
 import { getDyeFromColor } from "./utils";
 
@@ -210,6 +211,7 @@ const generateUpdatedFilesAction: CustomActionFunction = async (
     generateTrophies(data),
     generateLangFile(data),
     generateItemBordersConfig(data),
+    generateTreasureBagLootTables(data),
   ]);
 
   return "Updated all files with the updated Data";
