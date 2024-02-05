@@ -18,6 +18,7 @@ export const defaultTitanBaseEntityNBT =
   '{ArmorItems:[{},{},{},{id:"simplehats:fro",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:["gateway_entity"]}';
 
 export function createStandardTitanGateway(
+  _gatewayID: string,
   baseEntity: BaseEntity,
   color: string,
   dye: string,
@@ -113,8 +114,8 @@ export function createStandardTitanGateway(
     ],
     rules: {
       leash_range: 32,
-      spacing: 8,
-      spawn_range: 5,
+      spacing: 32,
+      spawn_range: 2,
     },
     boss_event: {
       mode: "name_plate",

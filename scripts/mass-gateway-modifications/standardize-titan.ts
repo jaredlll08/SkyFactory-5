@@ -42,6 +42,7 @@ async function main() {
           return await writeJSONFile(
             filePath,
             createStandardTitanGateway(
+              path.parse(filePath).name,
               data.base_wave.entities[0],
               data.color,
               dye,

@@ -42,6 +42,7 @@ async function main() {
           return await writeJSONFile(
             filePath,
             createStandardNormalGateway(
+              path.parse(filePath).name,
               data.waves[0].entities[0],
               data.color,
               dye,

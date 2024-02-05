@@ -17,6 +17,7 @@ export const defaultNormalBaseEntityNBT =
   '{DeathLootTable:"skyfactory_5:gateway_entities",ArmorItems:[{},{},{},{id:"simplehats:fro",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],"pehkui:scale_data_types":{"pehkui:hitbox_width":{scale:1f},"pehkui:width":{scale:1f},"pehkui:height":{scale:1f}},Tags:["gateway_entity"]}';
 
 export function createStandardNormalGateway(
+  gatewayID: string,
   baseEntity: BaseEntity,
   color: string,
   dye: string,
@@ -56,6 +57,18 @@ export function createStandardNormalGateway(
     __typename: "NormalGateway",
     size: "large",
     color: color,
+    failures: [
+      {
+        type: "gateways:command",
+        command: `summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:"gateways:gate_pearl",Count:1b,tag:{gateway:"gateways:normal/${gatewayID}"}}}`,
+        desc: "",
+      },
+      {
+        type: "gateways:command",
+        command: `team join sf5_gold_team @e[distance=..5,nbt={Item:{id:"gateways:gate_pearl"}}]`,
+        desc: "",
+      },
+    ],
     waves: [
       {
         entities: [{ ...waveEntity }],
@@ -182,23 +195,20 @@ export function createStandardNormalGateway(
         experience: 250,
       },
       {
-        type: "gateways:stack",
-        stack: {
-          item: "obtrophies:trophy",
-          nbt: {
-            BlockEntityTag: {
-              SpecialCycleVariant: 0,
-              VariantID: 0,
-              entity: waveEntity.entity,
-            },
-          },
-        },
+        type: "gateways:command",
+        command: `summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:"obtrophies:trophy",Count:1b,tag:{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:"${waveEntity.entity}"}}}}`,
+        desc: "",
+      },
+      {
+        type: "gateways:command",
+        command: `team join sf5_gold_team @e[distance=..5,nbt={Item:{id:"obtrophies:trophy"}}]`,
+        desc: "",
       },
     ],
     rules: {
       leash_range: 32,
-      spacing: 8,
-      spawn_range: 5,
+      spacing: 32,
+      spawn_range: 2,
     },
     boss_event: {
       mode: "name_plate",

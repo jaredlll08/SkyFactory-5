@@ -9,6 +9,7 @@ import { MobData } from "./data-manager";
 import { BaseEntity, getDyeFromColor } from "./utils";
 
 type CreateGatewayFn = (
+  gatewayID: string,
   baseEntity: BaseEntity,
   color: string,
   dye: string,
@@ -43,7 +44,10 @@ export function generateGatewayGenerator<T extends CreateGatewayFn>(
           );
         }
 
+        const gatewayID = snakeCase(entry.mobName);
+
         const json = createGatewayFn(
+          gatewayID,
           {
             entity: entry.mobID,
             nbt: stringifyNBT(
@@ -55,7 +59,7 @@ export function generateGatewayGenerator<T extends CreateGatewayFn>(
         );
 
         return writeJSONFile(
-          path.join(gatewayBasePath, `${snakeCase(entry.mobName)}.json`),
+          path.join(gatewayBasePath, `${gatewayID}.json`),
           json,
           "json",
         );
