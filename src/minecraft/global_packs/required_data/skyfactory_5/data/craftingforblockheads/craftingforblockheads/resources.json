@@ -29,12 +29,6 @@
           "item": "create:raw_zinc"
         },
         {
-          "item": "minecraft:obsidian"
-        },
-        {
-          "item": "minecraft:sand"
-        },
-        {
           "item": "minecraft:coal"
         },
         {
@@ -50,100 +44,34 @@
           "item": "minecraft:emerald"
         },
         {
-          "item": "minecraft:glowstone"
-        },
-        {
-          "item": "minecraft:cobblestone"
-        },
-        {
-          "item": "minecraft:dripstone_block"
-        },
-        {
-          "item": "minecraft:andesite"
-        },
-        {
-          "item": "minecraft:diorite"
-        },
-        {
-          "item": "minecraft:granite"
-        },
-        {
-          "item": "exnihilosequentia:grass_seeds"
-        },
-        {
           "item": "create:raw_zinc"
         },
         {
           "item": "minecraft:quartz"
         },
         {
-          "item": "minecraft:sugar_cane"
-        },
-        {
           "item": "immersiveengineering:raw_aluminum"
         },
         {
-          "item": "immersiveengineering:raw_lead"
+          "item": "thermal:raw_lead"
         },
         {
-          "item": "immersiveengineering:raw_silver"
+          "item": "thermal:raw_silver"
         },
         {
-          "item": "immersiveengineering:raw_nickel"
+          "item": "thermal:raw_nickel"
         },
         {
           "item": "immersiveengineering:raw_uranium"
         },
         {
-          "item": "minecraft:cobbled_deepslate"
+          "item": "thermal:raw_tin"
         },
         {
-          "item": "minecraft:white_dye"
+          "item": "ae2:sky_dust"
         },
         {
-          "item": "minecraft:orange_dye"
-        },
-        {
-          "item": "minecraft:magenta_dye"
-        },
-        {
-          "item": "minecraft:light_blue_dye"
-        },
-        {
-          "item": "minecraft:yellow_dye"
-        },
-        {
-          "item": "minecraft:lime_dye"
-        },
-        {
-          "item": "minecraft:pink_dye"
-        },
-        {
-          "item": "minecraft:gray_dye"
-        },
-        {
-          "item": "minecraft:light_gray_dye"
-        },
-        {
-          "item": "minecraft:cyan_dye"
-        },
-        {
-          "item": "minecraft:purple_dye"
-        },
-        {
-          "item": "minecraft:blue_dye"
-        },
-        {
-          "item": "minecraft:brown_dye"
-        },
-        {
-          "item": "minecraft:green_dye"
-        },
-        {
-          "item": "minecraft:red_dye"
-        },
-        {
-          "item": "minecraft:black_dye"
+          "item": "ae2:certus_quartz_crystal"
         }
       ],
       "priority": 99999

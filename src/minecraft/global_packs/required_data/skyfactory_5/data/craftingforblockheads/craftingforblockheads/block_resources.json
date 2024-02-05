@@ -1,0 +1,44 @@
+{
+  "modid": "craftingforblockheads",
+  "preset": "skyfactory_5",
+  "predicates": {},
+  "groups": {},
+  "filters": {
+    "craftingforblockheads:sf5_blocks": {
+      "name": "Blocks",
+      "icon": {
+        "item": "minecraft:cobblestone"
+      },
+      "includes": [
+        {
+          "item": "minecraft:obsidian"
+        },
+        {
+          "item": "minecraft:sand"
+        },
+        {
+          "item": "minecraft:glowstone"
+        },
+        {
+          "item": "minecraft:cobblestone"
+        },
+        {
+          "item": "minecraft:dripstone_block"
+        },
+        {
+          "item": "minecraft:andesite"
+        },
+        {
+          "item": "minecraft:diorite"
+        },
+        {
+          "item": "minecraft:granite"
+        },
+        {
+          "item": "minecraft:cobbled_deepslate"
+        }
+      ],
+      "priority": 99997
+    }
+  }
+}
