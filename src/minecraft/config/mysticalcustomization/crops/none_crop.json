@@ -3,7 +3,7 @@
   "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:1",
   "ingredient": {
-    "item": "sf5_things:block_of_colorless_dye"
+    "tag": "skyfactory_5:colors/processing_items/colorless"
   },
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",
