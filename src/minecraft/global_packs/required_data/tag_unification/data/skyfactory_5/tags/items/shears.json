@@ -2,7 +2,6 @@
   "values": [
     "minecraft:shears",
     "energeticsheep:energetic_shears",
-    "botania:manasteel_shears",
     "mysticalagriculture:awakened_supremium_shears",
     "mysticalagriculture:supremium_shears",
     "mysticalagriculture:imperium_shears",
@@ -13,8 +12,6 @@
     "cyclic:shears_flint",
     "pickletweaks:flint_shears",
     "silentgear:shears",
-    "botania:elementium_shears",
-    "botania:manasteel_shears",
     "forcecraft:force_shears"
   ]
 }
