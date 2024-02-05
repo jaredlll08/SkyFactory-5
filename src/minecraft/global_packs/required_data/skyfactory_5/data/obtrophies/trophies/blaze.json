@@ -1,9 +1,5 @@
 {
   "entity": "minecraft:blaze",
-  "behavior": {
-    "type": "obtrophies:set_fire",
-    "seconds": 4
-  },
   "offset": 0,
   "scale": 1
 }
