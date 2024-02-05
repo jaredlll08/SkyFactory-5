@@ -3,7 +3,7 @@
   "type": "mysticalagriculture:resource",
   "tier": "mysticalagriculture:5",
   "ingredient": {
-    "item": "pumpkinspice:latte"
+    "item": "sf5_things:rgb_dye"
   },
   "textures": {
     "flower": "mysticalagriculture:block/flower_dust",
