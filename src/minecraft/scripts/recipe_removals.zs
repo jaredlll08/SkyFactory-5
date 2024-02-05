@@ -268,3 +268,17 @@ craftingTable.remove(<item:exnihilosequentia:zinc_nugget>);
 // Cluttered mod
 craftingTable.removeByName("luphieclutteredmod:luphie_purple_plank_set_stick_recipe");
 craftingTable.removeByName("luphieclutteredmod:luphie_glow_wood_set_stick_recipe");
+
+// Tag unification
+craftingTable.remove(<item:immersiveengineering:dust_electrum>);
+
+
+craftingTable.remove(<item:immersiveengineering:storage_constantan>);
+craftingTable.remove(<item:immersiveengineering:ingot_constantan>);
+craftingTable.remove(<item:immersiveengineering:nugget_constantan>);
+craftingTable.remove(<item:immersiveengineering:plate_constantan>);
+craftingTable.remove(<item:immersiveengineering:dust_constantan>);
+
+// Silent's Gear Item Cleanup
+craftingTable.remove(<item:silentgear:diamond_shard>);
+craftingTable.remove(<item:silentgear:emerald_shard>);

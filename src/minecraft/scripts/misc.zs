@@ -102,3 +102,101 @@ craftingTable.addShaped(
 // StageHelper.grantStageOnAdvancement("minecraft:story/enter_the_nether", "advancement_example_one");
 
 // OnAdvancement, OnCraft, OnDimension, OnJoin, OnKill, and OnLevel
+
+
+recipes.addJsonRecipe("rgb_to_resources", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:amethyst_shard>});
+recipes.addJsonRecipe("rgb_printer_certus_quartz_crystal", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:ae2:certus_quartz_crystal>});
+recipes.addJsonRecipe("rgb_printer_coal", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:coal>});
+recipes.addJsonRecipe("rgb_printer_diamond", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:diamond>});
+recipes.addJsonRecipe("rgb_printer_emerald", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:emerald>});
+recipes.addJsonRecipe("rgb_printer_lapis_lazuli", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:lapis_lazuli>});
+recipes.addJsonRecipe("rgb_printer_quartz", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:quartz>});
+recipes.addJsonRecipe("rgb_printer_raw_aluminum", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:immersiveengineering:raw_aluminum>});
+recipes.addJsonRecipe("rgb_printer_raw_copper", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:raw_copper>});
+recipes.addJsonRecipe("rgb_printer_raw_gold", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:raw_gold>});
+recipes.addJsonRecipe("rgb_printer_raw_iron", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:raw_iron>});
+recipes.addJsonRecipe("rgb_printer_raw_lead", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:thermal:raw_lead>});
+recipes.addJsonRecipe("rgb_printer_raw_nickel", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:thermal:raw_nickel>});
+recipes.addJsonRecipe("rgb_printer_raw_silver", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:thermal:raw_silver>});
+recipes.addJsonRecipe("rgb_printer_raw_tin", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:thermal:raw_tin>});
+recipes.addJsonRecipe("rgb_printer_raw_uranium", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:immersiveengineering:raw_uranium>});
+recipes.addJsonRecipe("rgb_printer_raw_zinc", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:create:raw_zinc>});
+recipes.addJsonRecipe("rgb_printer_redstone", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:redstone>});
+recipes.addJsonRecipe("rgb_printer_sky_dust", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:ae2:sky_dust>});
+recipes.addJsonRecipe("rgb_printer_andesite_pebble", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:exnihilosequentia:andesite_pebble>});
+recipes.addJsonRecipe("rgb_printer_deepslate_pebble", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:exnihilosequentia:deepslate_pebble>});
+recipes.addJsonRecipe("rgb_printer_diorite_pebble", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:exnihilosequentia:diorite_pebble>});
+recipes.addJsonRecipe("rgb_printer_dripstone_pebble", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:exnihilosequentia:dripstone_pebble>});
+recipes.addJsonRecipe("rgb_printer_granite_pebble", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:exnihilosequentia:granite_pebble>});

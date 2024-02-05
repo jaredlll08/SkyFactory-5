@@ -18,6 +18,13 @@ mods.recipestages.Recipes.addShapeless(
   [<item:minecraft:gray_dye>, <item:minecraft:white_dye>]
 );
 
+mods.recipestages.Recipes.addShapeless(
+  Stage.Light_Gray,
+  "light_gray_dye_combo2",
+  <item:minecraft:light_gray_dye> * 2,
+  [<item:minecraft:black_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
+);
+
 // Gray Dye Combination
 // Will need to remember to go back and readd all the flowers to dye recipes
 craftingTable.removeByName("minecraft:gray_dye");
@@ -107,7 +114,6 @@ mods.recipestages.Recipes.addShapeless(
   [<item:minecraft:blue_dye>, <item:minecraft:white_dye>]
 );
 
-
 // Green Dye Combination
 mods.recipestages.Recipes.addShapeless(
   Stage.Green,
@@ -115,8 +121,6 @@ mods.recipestages.Recipes.addShapeless(
   <item:minecraft:green_dye> * 2,
   [<item:minecraft:blue_dye>, <item:minecraft:yellow_dye>]
 );
-
-
 
 // Bonemeal from Dye
 mods.recipestages.Recipes.addShapeless(
@@ -126,7 +130,6 @@ mods.recipestages.Recipes.addShapeless(
   [<item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
 );
 
-
 // Colorless Dye Block
 craftingTable.addShapeless(
   "apple_to_block_of_colorless_dye",
@@ -134,4 +137,15 @@ craftingTable.addShapeless(
   [<item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>]
 );
 
+// RGB Dye
+craftingTable.addShapeless(
+  "rgb_dye_shapeless",
+  <item:sf5_things:rgb_dye> * 3,
+  [<item:minecraft:red_dye>, <item:minecraft:green_dye>, <item:minecraft:blue_dye>]
+);
 
+craftingTable.addShapeless(
+  "rgb_dye_cmyk_shapeless",
+  <item:sf5_things:rgb_dye> * 4,
+  [<item:minecraft:cyan_dye>, <item:minecraft:magenta_dye>, <item:minecraft:yellow_dye>, <item:minecraft:black_dye>]
+);

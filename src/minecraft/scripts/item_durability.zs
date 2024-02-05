@@ -35,6 +35,9 @@ for item in loadedMods["ae2"].itemStacks {
 for item in loadedMods["constructionwand"].itemStacks {
   item.maxDamage = -1;
 }
+for item in loadedMods["silentgear"].itemStacks {
+  item.maxDamage = -1;
+}
 /*
 for item in loadedMods["sophisticatedstorage"].itemStacks {
   item.maxDamage = 9999;
@@ -55,3 +58,5 @@ for item in loadedMods["create"].itemStacks {
 <item:pizzacraft:diamond_pizza_peel>.maxDamage = -1;
 <item:pizzacraft:netherite_pizza_peel>.maxDamage = -1;
 <item:forcecraft:force_shears>.maxDamage = -1;
+<item:immersiveengineering:hammer>.maxDamage = -1;
+<item:vinery:straw_hat>.maxDamage = -1;

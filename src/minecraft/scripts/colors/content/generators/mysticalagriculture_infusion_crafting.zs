@@ -56,7 +56,7 @@ ContentBuilder.factory
       args.color.getResourceName() + baseName,
       treasureBag,
       [
-        <item:sf5_things:treasure_bag_template>,
+        <item:sf5_things:treasure_bag_template>.reuse(),
         essence,
         <item:mysticalagriculture:inferium_essence>,
         essence,

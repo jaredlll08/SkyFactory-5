@@ -135,6 +135,10 @@ ContentBuilder.factory
       return null;
     }
 
+    if color.getName() == ColorName.Brown {
+      color = Globals.colors[ColorName.LightBrown];
+    }
+
     return <item:lootbags:loot_bag>.withTag({
       Type: "COMMON",
       Loot: "skyfactory_5:loot_bags/" + color.getResourceName() + "_loot_bag",

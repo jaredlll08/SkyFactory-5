@@ -5,8 +5,6 @@ val color = Globals.colors[ColorName.Magenta];
 val textColor = 0xFFFFFF;
 
 val items as IItemStack[] = [
-  <item:treasurebags:treasure_bag>.withTag({"silentlib.LootContainer": {LootTable: "treasurebags:bags/magenta", BagType: "treasurebags:magenta"}}),
-
   // GENERATOR START
   // !THIS SECTION IS MANAGED BY A SCRIPT. DO NOT MANUALLY EDIT THIS SECTION!
 

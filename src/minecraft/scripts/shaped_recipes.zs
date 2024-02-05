@@ -370,3 +370,201 @@ craftingTable.addShaped(
     [<item:exnihilosequentia:porcelain_clay>, <item:exnihilosequentia:porcelain_clay>, <item:exnihilosequentia:porcelain_clay>]
   ]
 );
+
+// Thermal Dynamics pipes give 6 instead of 4
+craftingTable.remove(<item:thermal:energy_duct>);
+craftingTable.remove(<item:thermal:fluid_duct>);
+craftingTable.remove(<item:thermal:fluid_duct_windowed>);
+
+craftingTable.addShaped(
+  "energy_duct_6x_recipe",
+  <item:thermal:energy_duct> * 6,
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:thermal:lead_ingot>, <tag:items:forge:glass>, <item:thermal:lead_ingot>],
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>]
+  ]
+);
+
+craftingTable.addShaped(
+  "fluid_duct_6x_recipe",
+  <item:thermal:fluid_duct> * 6,
+  [
+    [<item:thermal:bronze_ingot>, <item:thermal:lead_ingot>, <item:thermal:bronze_ingot>]
+  ]
+);
+
+craftingTable.addShaped(
+  "fluid_duct_windowed_6x_recipe",
+  <item:thermal:fluid_duct_windowed> * 6,
+  [
+    [<item:thermal:bronze_ingot>, <tag:items:thermal:glass/hardened>, <item:thermal:bronze_ingot>]
+  ]
+);
+
+
+// Industrial Foregoing Upgrades
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_0",
+  <item:industrialforegoing:range_addon0>.withTag({TitaniumAugment: {Range: 0.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>]
+  ]
+);
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_1",
+  <item:industrialforegoing:range_addon1>.withTag({TitaniumAugment: {Range: 1.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_lazuli>]
+  ]
+  );
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_2",
+  <item:industrialforegoing:range_addon2>.withTag({TitaniumAugment: {Range: 2.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:bone_meal>, <item:minecraft:bone_meal>, <item:minecraft:bone_meal>]
+  ]);
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_3",
+  <item:industrialforegoing:range_addon3>.withTag({TitaniumAugment: {Range: 3.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>]
+  ]);
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_4",
+  <item:industrialforegoing:range_addon4>.withTag({TitaniumAugment: {Range:4.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>, <item:minecraft:copper_ingot>]
+  ]);
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_5",
+  <item:industrialforegoing:range_addon5>.withTag({TitaniumAugment: {Range:5.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>, <item:minecraft:gold_nugget>]
+  ]);
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_6",
+  <item:industrialforegoing:range_addon6>.withTag({TitaniumAugment: {Range:6.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]
+  ]);
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_7",
+  <item:industrialforegoing:range_addon7>.withTag({TitaniumAugment: {Range:7.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>, <item:minecraft:gold_ingot>]
+  ]);
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_8",
+  <item:industrialforegoing:range_addon8>.withTag({TitaniumAugment: {Range:8.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:quartz>, <item:minecraft:quartz>, <item:minecraft:quartz>]
+  ]
+);
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_9",
+  <item:industrialforegoing:range_addon9>.withTag({TitaniumAugment: {Range:9.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:diamond>, <item:minecraft:diamond>, <item:minecraft:diamond>]
+  ]
+);
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_10",
+  <item:industrialforegoing:range_addon10>.withTag({TitaniumAugment: {Range:10.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:popped_chorus_fruit>, <item:minecraft:popped_chorus_fruit>, <item:minecraft:popped_chorus_fruit>]
+  ]
+);
+craftingTable.addShaped(
+  "industrial_foregoing_ranged_addon_11",
+  <item:industrialforegoing:range_addon11>.withTag({TitaniumAugment: {Range:11.0f}}),
+  [
+    [<item:minecraft:redstone>, <item:minecraft:redstone>, <item:minecraft:redstone>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:glass_pane>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:emerald>, <item:minecraft:emerald>, <item:minecraft:emerald>]
+  ]
+  );
+
+
+
+craftingTable.addShaped(
+  "pebble_to_andesite",
+  <item:minecraft:andesite>,
+  [
+    [<item:exnihilosequentia:andesite_pebble>, <item:exnihilosequentia:andesite_pebble>],
+    [<item:exnihilosequentia:andesite_pebble>, <item:exnihilosequentia:andesite_pebble>]
+  ]
+  );
+craftingTable.addShaped(
+  "pebble_to_deepslate",
+  <item:minecraft:deepslate>,
+  [
+    [<item:exnihilosequentia:deepslate_pebble>, <item:exnihilosequentia:deepslate_pebble>],
+    [<item:exnihilosequentia:deepslate_pebble>, <item:exnihilosequentia:deepslate_pebble>]
+  ]
+  );
+craftingTable.addShaped(
+  "pebble_to_diorite",
+  <item:minecraft:diorite>,
+  [
+    [<item:exnihilosequentia:diorite_pebble>, <item:exnihilosequentia:diorite_pebble>],
+    [<item:exnihilosequentia:diorite_pebble>, <item:exnihilosequentia:diorite_pebble>]
+  ]
+  );
+  craftingTable.addShaped(
+  "pebble_to_dripstone",
+  <item:minecraft:dripstone_block>,
+  [
+    [<item:exnihilosequentia:dripstone_pebble>, <item:exnihilosequentia:dripstone_pebble>],
+    [<item:exnihilosequentia:dripstone_pebble>, <item:exnihilosequentia:dripstone_pebble>]
+  ]
+  );
+  craftingTable.addShaped(
+  "pebble_to_granite",
+  <item:minecraft:granite>,
+  [
+    [<item:exnihilosequentia:granite_pebble>, <item:exnihilosequentia:granite_pebble>],
+    [<item:exnihilosequentia:granite_pebble>, <item:exnihilosequentia:granite_pebble>]
+  ]
+  );
+
+// RGB Essence to RGB Dye
+  craftingTable.addShaped(
+  "rgb_essence_to_dye",
+  <item:sf5_things:rgb_dye> * 4,
+  [
+    [<item:mysticalagriculture:rgb_crop_essence>, <item:mysticalagriculture:rgb_crop_essence>],
+    [<item:mysticalagriculture:rgb_crop_essence>, <item:mysticalagriculture:rgb_crop_essence>]
+  ]
+  );
+
+// Wheat to Yellow Dye
+  craftingTable.addShaped(
+  "wheat_to_yellow_dye",
+  <item:minecraft:yellow_dye> * 1,
+  [
+    [<item:minecraft:wheat>]
+  ]
+  );

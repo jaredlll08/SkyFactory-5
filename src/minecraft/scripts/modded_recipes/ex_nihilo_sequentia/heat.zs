@@ -13,13 +13,6 @@ val blazeTrophyProperties = StatePropertiesPredicate.create().property("entity",
 <recipetype:exnihilosequentia:heat>.addRecipe("glow_stick_heat_test", 1, <block:glow_sticks:glow_stick_white>, any_properties);
 
 // Level 2
-<recipetype:exnihilosequentia:heat>.addRecipe("redstone_torch_heat", 2, <block:minecraft:redstone_torch>, properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("animated_torch_heat",2,<block:botania:animated_torch>, any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("blue_redstone_torch_heat",2,<block:chipped:blue_redstone_torch>, any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("crimson_redstone_torch_heat",2,<block:chipped:crimson_redstone_torch>, any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("green_redstone_torch_heat",2,<block:chipped:green_redstone_torch>, any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("lightstick_redstone_torch_heat",2,<block:chipped:lightstick_redstone_torch>, any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("yellow_redstone_torch_heat",2,<block:chipped:yellow_redstone_torch>, any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("black_candle_heat",2,<block:minecraft:black_candle>, properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("blue_candle_heat",2,<block:minecraft:blue_candle>, properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("brown_candle_heat",2,<block:minecraft:brown_candle>, properties);
@@ -57,7 +50,31 @@ val blazeTrophyProperties = StatePropertiesPredicate.create().property("entity",
 <recipetype:exnihilosequentia:heat>.addRecipe("candle_holder_yellow_heat",2,<block:supplementaries:candle_holder_yellow>, properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("sconce_lever_heat",2,<block:supplementaries:sconce_lever>, any_properties);
 
+
+
+
+
+
+<recipetype:exnihilosequentia:heat>.addRecipe("redstone_torch_heat", 2, <block:minecraft:redstone_torch>, properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("redstone_wall_torch_heat", 2, <block:minecraft:redstone_wall_torch>, properties);
+
+
+<recipetype:exnihilosequentia:heat>.addRecipe("blue_redstone_torch_heat",2,<block:chipped:blue_redstone_torch>, any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("crimson_redstone_torch_heat",2,<block:chipped:crimson_redstone_torch>, any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("green_redstone_torch_heat",2,<block:chipped:green_redstone_torch>, any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("lightstick_redstone_torch_heat",2,<block:chipped:lightstick_redstone_torch>, any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("yellow_redstone_torch_heat",2,<block:chipped:yellow_redstone_torch>, any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("blue_redstone_wall_torch_heat",2,<block:chipped:blue_redstone_wall_torch>, any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("crimson_redstone_wall_torch_heat",2,<block:chipped:crimson_redstone_wall_torch>, any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("green_redstone_wall_torch_heat",2,<block:chipped:green_redstone_wall_torch>, any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("lightstick_redstone_wall_torch_heat",2,<block:chipped:lightstick_redstone_wall_torch>, any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("yellow_redstone_wall_torch_heat",2,<block:chipped:yellow_redstone_wall_torch>, any_properties);
+
+
+
 // Level 3
+<recipetype:exnihilosequentia:heat>.addRecipe("torch_heat",3,<block:minecraft:torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_torch_heat",3,<block:minecraft:wall_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("crimson_tiki_torch_heat",3,<block:mcwlights:crimson_tiki_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("dark_oak_tiki_torch_heat",3,<block:mcwlights:dark_oak_tiki_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("acacia_tiki_torch_heat",3,<block:mcwlights:acacia_tiki_torch>,any_properties);
@@ -66,27 +83,57 @@ val blazeTrophyProperties = StatePropertiesPredicate.create().property("entity",
 <recipetype:exnihilosequentia:heat>.addRecipe("spruce_tiki_torch_heat",3,<block:mcwlights:spruce_tiki_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("force_red_torch_heat",3,<block:forcecraft:force_red_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("oak_tiki_torch_heat",3,<block:mcwlights:oak_tiki_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("torch_heat",3,<block:minecraft:torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("iron_torch_heat",3,<block:chipped:iron_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("jungle_torch_heat",3,<block:chipped:jungle_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("spruce_torch_heat",3,<block:chipped:spruce_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("white_torch_heat",3,<block:tinted_torches:white_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("orange_torch_heat",3,<block:tinted_torches:orange_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("magenta_torch_heat",3,<block:tinted_torches:magenta_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("light_blue_torch_heat",3,<block:tinted_torches:light_blue_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("yellow_torch_heat",3,<block:tinted_torches:yellow_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("lime_torch_heat",3,<block:tinted_torches:lime_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("pink_torch_heat",3,<block:tinted_torches:pink_torch>,any_properties);
+
+
+
+// Tinted Torches
+<recipetype:exnihilosequentia:heat>.addRecipe("blue_torch_heat",3,<block:tinted_torches:blue_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("gray_torch_heat",3,<block:tinted_torches:gray_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("light_blue_torch_heat",3,<block:tinted_torches:light_blue_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("light_gray_torch_heat",3,<block:tinted_torches:light_gray_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("glow_torch_heat",3,<block:chipped:glow_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("dark_oak_torch_heat",3,<block:chipped:dark_oak_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("birch_torch_heat",3,<block:chipped:birch_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("acacia_torch_heat",3,<block:chipped:acacia_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("stone_torch_heat",3,<block:silentgear:stone_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("warped_torch_heat",3,<block:chipped:warped_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("cherry_tiki_torch_heat",3,<block:mcwlights:cherry_tiki_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("upgraded_torch_heat",3,<block:mcwlights:upgraded_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("lime_torch_heat",3,<block:tinted_torches:lime_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("magenta_torch_heat",3,<block:tinted_torches:magenta_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("orange_torch_heat",3,<block:tinted_torches:orange_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("pink_torch_heat",3,<block:tinted_torches:pink_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("white_torch_heat",3,<block:tinted_torches:white_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("yellow_torch_heat",3,<block:tinted_torches:yellow_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("black_torch_heat",3,<block:tinted_torches:black_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("brown_torch_heat",3,<block:tinted_torches:brown_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("cyan_torch_heat",3,<block:tinted_torches:cyan_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("green_torch_heat",3,<block:tinted_torches:green_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("purple_torch_heat",3,<block:tinted_torches:purple_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("red_torch_heat",3,<block:tinted_torches:red_torch>,any_properties);
+// Tinted Wall Torches
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_blue_torch_heat",3,<block:tinted_torches:wall_blue_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_gray_torch_heat",3,<block:tinted_torches:wall_gray_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_light_blue_torch_heat",3,<block:tinted_torches:wall_light_blue_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_light_gray_torch_heat",3,<block:tinted_torches:wall_light_gray_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_lime_torch_heat",3,<block:tinted_torches:wall_lime_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_magenta_torch_heat",3,<block:tinted_torches:wall_magenta_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_orange_torch_heat",3,<block:tinted_torches:wall_orange_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_pink_torch_heat",3,<block:tinted_torches:wall_pink_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_white_torch_heat",3,<block:tinted_torches:wall_white_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_yellow_torch_heat",3,<block:tinted_torches:wall_yellow_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_black_torch_heat",3,<block:tinted_torches:wall_black_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_brown_torch_heat",3,<block:tinted_torches:wall_brown_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_cyan_torch_heat",3,<block:tinted_torches:wall_cyan_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_green_torch_heat",3,<block:tinted_torches:wall_green_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_purple_torch_heat",3,<block:tinted_torches:wall_purple_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_red_torch_heat",3,<block:tinted_torches:wall_red_torch>,any_properties);
+
+
+
+
+<recipetype:exnihilosequentia:heat>.addRecipe("glow_wall_torch_heat",3,<block:chipped:glow_wall_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("dark_oak_wall_torch_heat",3,<block:chipped:dark_oak_wall_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("birch_wall_torch_heat",3,<block:chipped:birch_wall_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("acacia_wall_torch_heat",3,<block:chipped:acacia_wall_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("warped_wall_torch_heat",3,<block:chipped:warped_wall_torch>,any_properties);
+
+
 <recipetype:exnihilosequentia:heat>.addRecipe("rustic_torch_heat",3,<block:mcwlights:rustic_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("reinforced_torch_heat",3,<block:mcwlights:reinforced_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("iron_framed_torch_heat",3,<block:mcwlights:iron_framed_torch>,any_properties);
@@ -94,13 +141,24 @@ val blazeTrophyProperties = StatePropertiesPredicate.create().property("entity",
 <recipetype:exnihilosequentia:heat>.addRecipe("warped_tiki_torch_heat",3,<block:mcwlights:warped_tiki_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("mangrove_tiki_torch_heat",3,<block:mcwlights:mangrove_tiki_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("bamboo_tiki_torch_heat",3,<block:mcwlights:bamboo_tiki_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("cherry_tiki_torch_heat",3,<block:mcwlights:cherry_tiki_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("upgraded_torch_heat",3,<block:mcwlights:upgraded_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("stone_torch_heat",3,<block:silentgear:stone_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("stone_wall_torch_heat",3,<block:silentgear:wall_stone_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("glowing_dirtstone_heat",3,<block:sf5_things:glowing_dirtstone>,any_properties);
 
 // Level 4
-<recipetype:exnihilosequentia:heat>.addRecipe("sconce_soul_heat",4,<block:supplementaries:sconce_soul>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("crimson_torch_heat",4,<block:chipped:crimson_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("soul_cherry_tiki_torch_heat",4,<block:mcwlights:soul_cherry_tiki_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("sconce_soul_heat",4,<block:supplementaries:sconce_soul>,any_properties);
+
+
+
+<recipetype:exnihilosequentia:heat>.addRecipe("crimson_torch_heat",4,<block:chipped:crimson_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("spirit_torch_heat",4,<block:occultism:spirit_torch>,any_properties);
 <recipetype:exnihilosequentia:heat>.addRecipe("soul_torch_heat",4,<block:minecraft:soul_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("crimson_wall_torch_heat",4,<block:chipped:crimson_wall_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("spirit_wall_torch_heat",4,<block:occultism:spirit_wall_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("soul_wall_torch_heat",4,<block:minecraft:soul_wall_torch>,any_properties);
 
 // Level 5
 <recipetype:exnihilosequentia:heat>.addRecipe("light_blue_campfire_heat",5,<block:tintedcampfires:light_blue_campfire>,properties);

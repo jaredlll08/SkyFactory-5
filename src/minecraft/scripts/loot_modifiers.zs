@@ -10,13 +10,12 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
 <block:minecraft:dark_oak_leaves>.addLootModifier("sapling_bonus_drops_6", CommonLootModifiers.addWithChance(<item:minecraft:dark_oak_sapling> % 20));
 <block:minecraft:mangrove_leaves>.addLootModifier("sapling_bonus_drops_7", CommonLootModifiers.addWithChance(<item:minecraft:mangrove_propagule> % 20));
 <block:colouredstuff:leaves_yellow>.addLootModifier("force_gem_from_yellow_leaves", CommonLootModifiers.addWithChance(<item:forcecraft:force_gem> % 4));
-<block:colouredstuff:leaves_lime>.addLootModifier("inferium_essence_from_lime_leaves", CommonLootModifiers.addWithChance(<item:mysticalagriculture:inferium_essence> % 10));
-<block:colouredstuff:leaves_none>.addLootModifier("colorless_essence_seeds_from_none_leaves", CommonLootModifiers.addWithChance(<item:mysticalagriculture:none_crop_seeds> % 10));
-<block:sf5_things:colorless_leaves>.addLootModifier("colorless_essence_seeds_from_none_leaves2", CommonLootModifiers.addWithChance(<item:mysticalagriculture:none_crop_seeds> % 10));
+<block:colouredstuff:leaves_lime>.addLootModifier("inferium_essence_from_lime_leaves", CommonLootModifiers.addWithChance(<item:mysticalagriculture:inferium_essence> % 8));
+<block:colouredstuff:leaves_none>.addLootModifier("colorless_essence_seeds_from_none_leaves", CommonLootModifiers.addWithChance(<item:mysticalagriculture:none_crop_seeds> % 6));
+<block:sf5_things:colorless_leaves>.addLootModifier("colorless_essence_seeds_from_none_leaves2", CommonLootModifiers.addWithChance(<item:mysticalagriculture:none_crop_seeds> % 6));
 
 <block:exnihilosequentia:infested_leaves>.addLootModifier("temporary_infested_leaves_drops1", CommonLootModifiers.addWithChance(<item:minecraft:string> % 100));
 <block:exnihilosequentia:infested_leaves>.addLootModifier("temporary_infested_leaves_drops2", CommonLootModifiers.addWithChance(<item:exnihilosequentia:silkworm> % 25));
-
 
 
 
@@ -66,7 +65,13 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
 });
 
 // Sets up drops from Tall Grass
-<block:minecraft:spruce_leaves>.addLootModifier("wheat_seeds_from_tall_grass", CommonLootModifiers.addWithChance(<item:minecraft:wheat_seeds> % 12.5));
+<block:minecraft:tall_grass>.addLootModifier("wheat_seeds_from_tall_grass", CommonLootModifiers.addWithChance(<item:minecraft:wheat_seeds> % 12.5));
+<block:minecraft:tall_grass>.addLootModifier("beetroot_seeds_from_tall_grass", CommonLootModifiers.addWithChance(<item:minecraft:beetroot_seeds> % 12.5));
+<block:minecraft:grass>.addLootModifier("wheat_seeds_from_grass", CommonLootModifiers.addWithChance(<item:minecraft:wheat_seeds> % 12.5));
+<block:minecraft:grass>.addLootModifier("beetroot_seeds_from_grass", CommonLootModifiers.addWithChance(<item:minecraft:beetroot_seeds> % 12.5));
+
+
+
 
 // Adds Ars Nouveau Sapling Drops to Color Trees
 <block:colouredstuff:leaves_blue>.addLootModifier("ars_sapling_blue", CommonLootModifiers.addWithChance(<item:ars_nouveau:blue_archwood_sapling> % 0.5));

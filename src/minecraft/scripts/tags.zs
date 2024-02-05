@@ -1,6 +1,4 @@
-// Item Tags
-
-// New and improved!
+import crafttweaker.api.tag.manager.ITagManager;
 import crafttweaker.api.item.IItemStack;
 
 val itemsToRemove as IItemStack[] = [
@@ -103,8 +101,54 @@ val itemsToRemove as IItemStack[] = [
   <item:exnihilosequentia:zinc_nugget>,
   <item:luphieclutteredmod:luphie_purple_planks>,
   <item:luphieclutteredmod:luphie_pink_planks>,
-  <item:botania:pebble>,
-  <item:botania:living_root>
+  // <item:botania:pebble>,
+  // <item:botania:living_root>,
+  <item:immersiveengineering:ingot_lead>,
+  <item:immersiveengineering:nugget_lead>,
+  <item:immersiveengineering:raw_lead>,
+  <item:immersiveengineering:plate_lead>,
+  <item:immersiveengineering:dust_lead>,
+  <item:immersiveengineering:storage_lead>,
+  <item:immersiveengineering:slab_storage_lead>,
+  <item:immersiveengineering:ingot_silver>,
+  <item:immersiveengineering:nugget_silver>,
+  <item:immersiveengineering:raw_silver>,
+  <item:immersiveengineering:plate_silver>,
+  <item:immersiveengineering:dust_silver>,
+  <item:immersiveengineering:storage_silver>,
+  <item:immersiveengineering:slab_storage_silver>,
+  <item:occultism:raw_silver>,
+  <item:occultism:silver_ingot>,
+  <item:occultism:silver_nugget>,
+  <item:occultism:silver_dust>,
+  <item:immersiveengineering:ingot_nickel>,
+  <item:immersiveengineering:nugget_nickel>,
+  <item:immersiveengineering:raw_nickel>,
+  <item:immersiveengineering:plate_nickel>,
+  <item:immersiveengineering:dust_nickel>,
+  <item:immersiveengineering:storage_nickel>,
+  <item:immersiveengineering:slab_storage_nickel>,
+  <item:enderio:powdered_iron>,
+  <item:enderio:powdered_gold>,
+  <item:enderio:powdered_copper>,
+  <item:enderio:powdered_tin>,
+  <item:enderio:powdered_ender_pearl>,
+  <item:enderio:powdered_lapis_lazuli>,
+  <item:enderio:powdered_obsidian>,
+  <item:enderio:powdered_quartz>,
+  <item:industrialforegoing:iron_gear>,
+  <item:industrialforegoing:gold_gear>,
+  <item:industrialforegoing:diamond_gear>,
+  <item:immersiveengineering:ingot_electrum>,
+  <item:immersiveengineering:dust_electrum>,
+  <item:immersiveengineering:storage_constantan>,
+  <item:immersiveengineering:ingot_constantan>,
+  <item:immersiveengineering:nugget_constantan>,
+  <item:immersiveengineering:plate_constantan>,
+  <item:immersiveengineering:dust_constantan>,
+  <item:silentgear:diamond_shard>,
+  <item:silentgear:emerald_shard>
+
 ];
 
 for item in itemsToRemove {
@@ -112,3 +156,6 @@ for item in itemsToRemove {
     tag.remove(item);
   }
 }
+
+// Tag additions
+<tagmanager:items>.addId(<tag:items:forge:dusts/ender>, <resource:thermal:ender_pearl_dust>);

@@ -22,9 +22,9 @@ ContentBuilder.factory
     leaves.addLootModifier(baseName + args.color.getResourceName(), (drops, ctx) => {
       val realPlayerLooting = isRealPlayerLooting(ctx);
 
-      val saplingDropChance = realPlayerLooting ? 8 : 5;
-      val appleDropChance = realPlayerLooting ? 4 : 0.75;
-      val dyeDropChance = realPlayerLooting ? 4 : 0.85;
+      val saplingDropChance = realPlayerLooting ? 10 : 5;
+      val appleDropChance = realPlayerLooting ? 5 : 0.75;
+      val dyeDropChance = realPlayerLooting ? 5 : 0.85;
       val stickDropChance = realPlayerLooting ? 5 : 1;
       val gatewayDropChance = realPlayerLooting ? 0.69 : 0.25;
 

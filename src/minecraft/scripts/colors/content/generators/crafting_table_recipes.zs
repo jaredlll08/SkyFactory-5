@@ -3,6 +3,7 @@ ContentBuilder.factory
     val apple = args.getItem(ColoredItem.Apple);
     val dye = args.getItem(ColoredItem.Dye);
     val stage = getStageForColor(args.color);
+    val air = args.getItem(ColoredItem.Dye);
 
     if apple == null || dye == null || stage == null {
       return;
@@ -85,22 +86,16 @@ ContentBuilder.factory
       return;
     }
 
-    mods.recipestages.Recipes.addShapeless(
-      stage,
+  craftingTable.addShaped(
       args.color.getResourceName() + baseName,
       dye * 4,
       [
-        essence,
-        essence,
-        essence,
-        essence,
-        essence,
-        essence,
-        essence,
-        essence
+        [essence, essence],
+        [essence, essence]
       ]
     );
   })
+
   .addRecipeGenerator("_campfire", (baseName, args) => {
     val logItem = args.getItem(ColoredItem.Log);
     val torchItem = args.getItem(ColoredItem.Torch);
@@ -116,7 +111,7 @@ ContentBuilder.factory
       [
         [<item:minecraft:air>, <item:minecraft:stick>, <item:minecraft:air>],
         [<item:minecraft:stick>, torchItem, <item:minecraft:stick>],
-        [logItem, logItem, logItem],
+        [<tag:items:minecraft:logs>,  <tag:items:minecraft:logs>,  <tag:items:minecraft:logs>],
       ]
     );
   })
@@ -227,7 +222,7 @@ ContentBuilder.factory
       barrel,
       [
         [plankItem, slabItem, plankItem],
-        [plankItem, <item:minecraft:redstone_torch>, plankItem],
+        [plankItem, <item:minecraft:air>, plankItem],
         [plankItem, plankItem, plankItem],
       ]
     );
@@ -246,7 +241,7 @@ ContentBuilder.factory
       barrel,
       [
         [plankItem, plankItem, plankItem],
-        [slabItem, <item:minecraft:redstone_torch>, slabItem],
+        [slabItem, <item:minecraft:air>, slabItem],
         [plankItem, plankItem, plankItem],
       ]
     );
@@ -264,9 +259,9 @@ ContentBuilder.factory
       args.color.getResourceName() + baseName,
       barrel,
       [
-        [plankItem, slabItem, plankItem],
-        [slabItem, <item:minecraft:redstone_torch>, slabItem],
-        [plankItem, slabItem, plankItem],
+        [slabItem, plankItem, slabItem],
+        [plankItem, <item:minecraft:air>, plankItem],
+        [slabItem, plankItem, slabItem],
       ]
     );
   })
@@ -341,4 +336,3 @@ ContentBuilder.factory
       ]
     );
   });
-
