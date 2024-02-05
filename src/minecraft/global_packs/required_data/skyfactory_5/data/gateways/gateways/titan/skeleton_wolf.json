@@ -165,8 +165,8 @@
   ],
   "rules": {
     "leash_range": 32,
-    "spacing": 8,
-    "spawn_range": 5
+    "spacing": 32,
+    "spawn_range": 2
   },
   "boss_event": {
     "mode": "name_plate"
