@@ -7,8 +7,6 @@ REIEvents.removeCategories((event) => {
     "exnihilosequentia:dry_sifting",
     "exnihilosequentia:wet_sifting",
     "minecraft:plugins/tag",
-    "exnihilosequentia:transition",
-    "exnihilosequentia:precipitate",
     "exnihilosequentia:harvest",
   );
 });
