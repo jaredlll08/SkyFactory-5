@@ -61,7 +61,7 @@ public function getGatewayTreeDropsForColor(color: Color): string[] {
   }
 
   if (color.getName() == ColorName.Red) {
-    return ["gateways:normal/cluck_shroom", "gateways:normal/strider"];
+    return ["gateways:normal/cluckshroom", "gateways:normal/strider"];
   }
 
   if (color.getName() == ColorName.White) {
