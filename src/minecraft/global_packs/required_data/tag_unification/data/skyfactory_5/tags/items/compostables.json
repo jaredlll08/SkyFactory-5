@@ -358,6 +358,16 @@
     "minecraft:dark_oak_sapling",
     "minecraft:mangrove_propagule",
     "immersiveengineering:seed",
-    "simplehats:fro"
+    "simplehats:fro",
+    "exnihilosequentia:silkworm",
+    "minecraft:egg",
+    "heads:cow_head",
+    "heads:drowned_head",
+    "sushigocrafting:rice",
+    "minecraft:player_head",
+    "heads:bee_head",
+    "heads:villager_head",
+    "minecraft:string",
+    "silentgear:sinew"
   ]
 }
