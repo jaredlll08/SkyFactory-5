@@ -18,7 +18,7 @@ coloredCobblestone = false
 # Smooth Glowstone enabled?
 smoothGlowstone = true
 # Coal and Charcoal Piece enabled?
-coalPiece = true
+coalPiece = false
 # Diamond and Emerald Apples enabled?
 apples = false
 # Watering Can enabled?
