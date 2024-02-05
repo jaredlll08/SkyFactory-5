@@ -110,6 +110,28 @@
           }
         ]
       }
+    },
+    "stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:stone"]
+          }
+        ]
+      }
+    },
+    "smooth_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:smooth_stone"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -122,7 +144,9 @@
       "ghast_tear",
       "phantom_membrane",
       "gray_essence",
-      "gray_essence_seeds"
+      "gray_essence_seeds",
+      "stone",
+      "smooth_stone"
     ]
   ],
   "rewards": {

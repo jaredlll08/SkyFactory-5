@@ -264,6 +264,17 @@
           }
         ]
       }
+    },
+    "enchanted_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:enchanted_book"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -292,7 +303,8 @@
       "regen_lingering_potion_inventory_3",
       "enchanted_item",
       "purple_essence",
-      "purple_essence_seeds"
+      "purple_essence_seeds",
+      "enchanted_book"
     ]
   ],
   "rewards": {

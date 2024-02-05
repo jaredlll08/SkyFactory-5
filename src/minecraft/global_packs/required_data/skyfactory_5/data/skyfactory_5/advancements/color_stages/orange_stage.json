@@ -100,6 +100,26 @@
           }
         ]
       }
+    },
+    "stand_in_fire": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "player": {},
+        "block": "minecraft:fire"
+      }
+    },
+    "Use Flint and Steel": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": ["minecraft:flint_and_steel"]
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -111,7 +131,9 @@
       "wooden_lava_bucket",
       "orange_essence",
       "orange_essence_seeds",
-      "pumpkin_pie"
+      "pumpkin_pie",
+      "stand_in_fire",
+      "Use Flint and Steel"
     ]
   ],
   "rewards": {

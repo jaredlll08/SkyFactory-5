@@ -163,6 +163,17 @@
           }
         ]
       }
+    },
+    "green_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:green_apple"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -180,7 +191,8 @@
       "vine",
       "emerald",
       "green_essence",
-      "green_essence_seeds"
+      "green_essence_seeds",
+      "green_apple"
     ]
   ],
   "rewards": {

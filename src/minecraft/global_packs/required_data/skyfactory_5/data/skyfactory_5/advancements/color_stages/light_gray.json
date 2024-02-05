@@ -121,6 +121,28 @@
           }
         ]
       }
+    },
+    "andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:andesite"]
+          }
+        ]
+      }
+    },
+    "ghast_tear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:ghast_tear"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -134,7 +156,9 @@
       "tinydryrubber",
       "plastic",
       "light_gray_essence",
-      "light_gray_essence_seeds"
+      "light_gray_essence_seeds",
+      "andesite",
+      "ghast_tear"
     ]
   ],
   "rewards": {
