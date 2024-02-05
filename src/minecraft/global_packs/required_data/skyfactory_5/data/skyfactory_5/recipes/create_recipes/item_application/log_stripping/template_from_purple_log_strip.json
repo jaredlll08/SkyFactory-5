@@ -1,5 +1,6 @@
 {
   "type": "create:item_application",
+  "keepHeldItem": true,
   "ingredients": [
     {
       "item": "colouredstuff:log_purple"
