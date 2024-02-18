@@ -1,4 +1,5 @@
 import { isArray, snakeCase } from "lodash";
+import cloneDeep from "lodash.clonedeep";
 import {
   ActionType,
   CustomActionFunction,
@@ -10,7 +11,7 @@ import { updateCrafttweakerColorGatewayScriptAction } from "scripts/generator/mi
 import { RegisterGeneratorFn } from "scripts/generator/models";
 import { ColorName, mapColorNameToHex } from "scripts/utils/minecraft-colors";
 import { GatewayType } from "./constants";
-import { appendToData, loadData } from "./data-manager";
+import { appendToData, loadData, MobData } from "./data-manager";
 import { generateInControlSpawnConfig } from "./incontrol-spawn";
 import { generateItemBordersConfig } from "./itemborders";
 import { generateLangFile } from "./lang";
@@ -202,17 +203,22 @@ const generateUpdatedFilesAction: CustomActionFunction = async (
 ) => {
   const data = await loadData();
 
-  await Promise.all([
-    generateNormalGateways(data),
-    generateTitanGateways(data),
-    generateInControlSpawnConfig(data),
-    generateStagedMobsGlobal(plop, data),
-    generateMobStageEnum(plop, data),
-    generateTrophies(data),
-    generateLangFile(data),
-    generateItemBordersConfig(data),
-    generateTreasureBagLootTables(data),
-  ]);
+  type GenerateFn = (data: MobData) => Promise<void>;
+  const parallelTasks: GenerateFn[] = [
+    generateNormalGateways,
+    generateTitanGateways,
+    generateInControlSpawnConfig,
+    (data) => generateStagedMobsGlobal(plop, data),
+    (data) => generateMobStageEnum(plop, data),
+    generateTrophies,
+    generateLangFile,
+    generateItemBordersConfig,
+    generateTreasureBagLootTables,
+  ];
+
+  await Promise.all(
+    parallelTasks.map((generateFn) => generateFn(cloneDeep(data))),
+  );
 
   return "Updated all files with the updated Data";
 };

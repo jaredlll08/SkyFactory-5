@@ -36,6 +36,7 @@
     "@types/iarna__toml": "^2.0.5",
     "@types/inquirer": "^9.0.3",
     "@types/lodash": "^4.14.198",
+    "@types/lodash.clonedeep": "^4.5.9",
     "@types/node": "^20.9.3",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
@@ -81,5 +82,8 @@
   "lint-staged": {
     "*": "prettier --ignore-unknown --write --log-level=warn",
     "*.{bak,cjs,js,json,json5,jsonc,jsx,mcmeta,mjs,toml,ts,tsx,zs}": "eslint --fix --quiet"
+  },
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0"
   }
 }
