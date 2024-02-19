@@ -83,4 +83,29 @@ ContentBuilder.factory
 
       return drops;
     });
+  })
+  .addLootModifierGenerator("_colored_leaves_silk_worm", (baseName, args) => {
+    // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
+    // val leaves = args.getBlock(ColoredBlock.Leaves);
+    val leaves = BracketHandlers.getBlock("colouredstuff:leaves_" + args.color.getResourceName()) as Block?;
+
+    if leaves == null {
+      return;
+    }
+
+    leaves.addLootModifier(args.color.getResourceName() + baseName, (drops, ctx) => {
+      val realPlayerLooting = isRealPlayerLooting(ctx);
+
+      if !realPlayerLooting {
+        return drops;
+      }
+
+      val appleDropChance = 10;
+
+      if rollsChance(ctx.random, appleDropChance) {
+        drops.add(<item:exnihilosequentia:silkworm>);
+      }
+
+      return drops;
+    });
   });
