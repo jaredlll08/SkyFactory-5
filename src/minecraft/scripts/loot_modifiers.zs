@@ -18,9 +18,6 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
 <block:exnihilosequentia:infested_leaves>.addLootModifier("temporary_infested_leaves_drops2", CommonLootModifiers.addWithChance(<item:exnihilosequentia:silkworm> % 25));
 
 
-
-
-
 // Adds a Drowned Gateway Pearl to Leaves drops for players only
 <block:minecraft:oak_leaves>.addLootModifier("bonus_drops_oak", (drops, ctx) => {
   if !isRealPlayerLooting(ctx) {

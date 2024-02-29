@@ -12,8 +12,7 @@ ContentBuilder.factory
     val apple = args.getItem(ColoredItem.Apple);
     val dye = args.getItem(ColoredItem.Dye);
     val sapling = args.getItem(ColoredItem.Sapling);
-
-    val gateways = getGatewayTreeDropsForColor(args.color);
+    val treasureBag = args.getItem(ColoredItem.TreasureBag);
 
     if leaves == null {
       return;
@@ -26,7 +25,7 @@ ContentBuilder.factory
       val appleDropChance = realPlayerLooting ? 5 : 0.75;
       val dyeDropChance = realPlayerLooting ? 5 : 0.85;
       val stickDropChance = realPlayerLooting ? 5 : 1;
-      val gatewayDropChance = realPlayerLooting ? 0.69 : 0.25;
+      val treasureBagDropChance = realPlayerLooting ? 0.69 : 0.25;
 
       if apple != null && rollsChance(ctx.random, appleDropChance) {
         drops.add(apple);
@@ -44,10 +43,8 @@ ContentBuilder.factory
         drops.add(<item:minecraft:stick>);
       }
 
-      for gateway in gateways {
-        if rollsChance(ctx.random, gatewayDropChance) {
-          drops.add(<item:gateways:gate_pearl>.withTag({gateway: gateway}));
-        }
+      if treasureBag != null && rollsChance(ctx.random, treasureBagDropChance) {
+        drops.add(treasureBag);
       }
 
       return drops;
