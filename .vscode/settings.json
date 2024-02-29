@@ -1,6 +1,6 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -220,6 +220,7 @@
     "Endermen",
     "Endermite",
     "energeticsheep",
+    "entitytype",
     "exdeorum",
     "exnihilosequentia",
     "Extendo",
@@ -266,6 +267,7 @@
     "maxlight",
     "maxthis",
     "maxtime",
+    "mcwlights",
     "menril",
     "mincount",
     "mindist",
@@ -366,5 +368,6 @@
     "zoglin",
     "zombified"
   ],
-  "evenBetterToml.schema.enabled": false
+  "evenBetterToml.schema.enabled": false,
+  "cSpell.ignoreWords": ["xminecraft"]
 }
