@@ -1,6 +1,7 @@
 import { unlink } from "fs/promises";
 import glob from "glob-promise";
 import { defaultsDeep, snakeCase } from "lodash";
+import cloneDeep from "lodash.clonedeep";
 import { stringify as stringifyNBT, TagObject } from "nbt-ts";
 import path from "path";
 import { writeJSONFile } from "scripts/utils/file";
@@ -51,7 +52,10 @@ export function generateGatewayGenerator<T extends CreateGatewayFn>(
           {
             entity: entry.mobID,
             nbt: stringifyNBT(
-              defaultsDeep(entry.additionalGatewayMobNBT, defaultEntityNBT),
+              defaultsDeep(
+                cloneDeep(entry.additionalGatewayMobNBT),
+                defaultEntityNBT,
+              ),
             ),
           },
           colorHex,

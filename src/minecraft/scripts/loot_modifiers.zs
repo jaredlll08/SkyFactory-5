@@ -46,14 +46,6 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
     drops.add(<item:sf5_things:none_apple>);
   }
 
-  return drops;
-});
-
-<block:colouredstuff:leaves_none>.addLootModifier("colorless_leaves", (drops, ctx) => {
-  if !isRealPlayerLooting(ctx) {
-    return drops;
-  }
-
   if rollsChance(ctx.random, 10) {
     drops.add(<item:exnihilosequentia:silkworm>);
   }
