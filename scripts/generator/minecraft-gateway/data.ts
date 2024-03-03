@@ -127,9 +127,6 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
-    additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(12),
-    },
     trophyData: {
       offset: -0.3,
       scale: 2,
@@ -340,7 +337,6 @@ export const mobData: MobData[] = [
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
       Air: new Int(-50000),
-      DyeMobDyeColor: new Byte(12),
     },
     spawnOverrides: {
       block: {
@@ -443,7 +439,6 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(12),
       "pehkui:scale_data_types": {
         "pehkui:reach": {
           scale: new Float(0.05),
@@ -470,7 +465,6 @@ export const mobData: MobData[] = [
     minLightLevel: 8,
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(12),
       "pehkui:scale_data_types": {
         "pehkui:reach": {
           scale: new Float(0.05),
@@ -690,9 +684,6 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
-    additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(13),
-    },
     trophyData: {
       behavior: {
         type: "obtrophies:item",
@@ -942,7 +933,6 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(12),
       "pehkui:scale_data_types": {
         "pehkui:reach": {
           scale: new Float(0.05),
@@ -1019,9 +1009,6 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
-    additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(12),
-    },
     trophyData: {
       behavior: {
         type: "obtrophies:item",
@@ -1526,7 +1513,6 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(12),
       RabbitType: new Int(99),
     },
     trophyData: {
@@ -1760,7 +1746,6 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(13),
       "pehkui:scale_data_types": {
         "pehkui:reach": {
           scale: new Float(0.05),
@@ -2049,7 +2034,6 @@ export const mobData: MobData[] = [
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
       Air: new Int(-50000),
-      DyeMobDyeColor: new Byte(12),
     },
     spawnOverrides: {
       block: {
@@ -2344,9 +2328,6 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
-    additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(12),
-    },
     trophyData: {
       offset: 0,
       scale: 1,
@@ -2611,9 +2592,6 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
-    additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(13),
-    },
     spawnOverrides: {
       nbt: {
         Team: "sf5_green_team",
@@ -2635,7 +2613,6 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(13),
       "pehkui:scale_data_types": {
         "pehkui:reach": {
           scale: new Float(0.05),
@@ -2661,9 +2638,6 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
-    additionalGatewayMobNBT: {
-      DyeMobDyeColor: new Byte(13),
-    },
     trophyData: {
       offset: 0,
       scale: 1,

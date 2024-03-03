@@ -191,6 +191,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=minecraft:piglin_brute",
   "obtrophies:trophy+&entity=minecraft:zoglin",
   "obtrophies:trophy+&entity=minecraft:zombified_piglin",
+  "obtrophies:trophy+&entity=sushigocrafting:shrimp",
   "obtrophies:trophy+&entity=veincreeper:pink"
 ]
 "#ffff00" = [
@@ -204,6 +205,7 @@ legendary_tooltips_sync = false
 ]
 "#ffffff" = [
   "obtrophies:trophy+&entity=colourfulgoats:goat",
+  "obtrophies:trophy+&entity=colourfulllamas:llama",
   "obtrophies:trophy+&entity=earthmobsmod:albino_cow",
   "obtrophies:trophy+&entity=earthmobsmod:baby_ghast",
   "obtrophies:trophy+&entity=earthmobsmod:jolly_llama",
