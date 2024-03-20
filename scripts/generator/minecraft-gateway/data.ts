@@ -226,10 +226,6 @@ export const mobData: MobData[] = [
       },
     },
     trophyData: {
-      behavior: {
-        type: "obtrophies:set_fire",
-        seconds: 4,
-      },
       offset: 0,
       scale: 1,
     },
