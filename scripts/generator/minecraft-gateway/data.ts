@@ -1,4 +1,4 @@
-import { Byte, Int, TagObject } from "nbt-ts";
+import { Byte, Float, Int, TagObject } from "nbt-ts";
 import { InControlSpawn } from "schemas/minecraft/incontrol/spawn";
 import { OpenBlocksTrophiesTrophy } from "schemas/minecraft/obtrophies/trophy";
 import { ColorName } from "scripts/utils/minecraft-colors";
@@ -193,6 +193,13 @@ export const mobData: MobData[] = [
     stage: "camel",
     color: ColorName.Yellow,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 7,
     maxLightLevel: 15,
     trophyData: {
@@ -299,6 +306,13 @@ export const mobData: MobData[] = [
     stage: "bone_spider",
     color: ColorName.Purple,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 0,
     maxLightLevel: 7,
   },
@@ -309,6 +323,13 @@ export const mobData: MobData[] = [
     stage: "cream_cow",
     color: ColorName.Yellow,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -322,6 +343,7 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
+      Air: new Int(-50000),
       DyeMobDyeColor: new Byte(12),
     },
     spawnOverrides: {
@@ -391,6 +413,14 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      Air: new Int(-50000),
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     spawnOverrides: {
       block: {
         tag: "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please",
@@ -418,6 +448,11 @@ export const mobData: MobData[] = [
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
       DyeMobDyeColor: new Byte(12),
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
     },
     trophyData: {
       behavior: {
@@ -440,6 +475,11 @@ export const mobData: MobData[] = [
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
       DyeMobDyeColor: new Byte(12),
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
     },
     trophyData: {
       behavior: {
@@ -497,6 +537,13 @@ export const mobData: MobData[] = [
     stage: "elder_guardian",
     color: ColorName.LightGray,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 0,
     maxLightLevel: 7,
   },
@@ -509,6 +556,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     spawnOverrides: {
       potion: "minecraft:glowing,10000,1",
       nbt: {
@@ -584,6 +638,13 @@ export const mobData: MobData[] = [
     stage: "energetic_sheep",
     color: ColorName.White,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 7,
     maxLightLevel: 15,
   },
@@ -692,6 +753,13 @@ export const mobData: MobData[] = [
     stage: "furnace_golem",
     color: ColorName.LightGray,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -704,6 +772,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
   },
   {
     spawnOnly: false,
@@ -712,6 +787,13 @@ export const mobData: MobData[] = [
     stage: "ghast_cow",
     color: ColorName.Brown,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 0,
     maxLightLevel: 7,
   },
@@ -724,6 +806,9 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      Air: new Int(-50000),
+    },
     spawnOverrides: {
       block: {
         tag: "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please",
@@ -749,6 +834,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     spawnOverrides: {
       block: {
         tag: "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works",
@@ -800,6 +892,30 @@ export const mobData: MobData[] = [
     stage: "goat",
     color: ColorName.White,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
+    minLightLevel: 8,
+    maxLightLevel: 15,
+  },
+  {
+    spawnOnly: false,
+    mobID: "colourfulllamas:llama",
+    mobName: "Llama",
+    stage: "llama",
+    color: ColorName.White,
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -812,6 +928,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
   },
   {
     spawnOnly: false,
@@ -824,6 +947,11 @@ export const mobData: MobData[] = [
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
       DyeMobDyeColor: new Byte(12),
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
     },
     trophyData: {
       behavior: {
@@ -869,6 +997,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       behavior: {
         type: "obtrophies:item",
@@ -908,6 +1043,13 @@ export const mobData: MobData[] = [
     stage: "jolly_llama",
     color: ColorName.White,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -920,6 +1062,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       offset: 0,
       scale: 0.75,
@@ -952,6 +1101,13 @@ export const mobData: MobData[] = [
     stage: "magma_cow",
     color: ColorName.Orange,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -964,6 +1120,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
   },
   {
     spawnOnly: false,
@@ -999,6 +1162,13 @@ export const mobData: MobData[] = [
     stage: "melon_golem",
     color: ColorName.White,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -1009,6 +1179,13 @@ export const mobData: MobData[] = [
     stage: "moolip",
     color: ColorName.Pink,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -1019,6 +1196,13 @@ export const mobData: MobData[] = [
     stage: "moobloom",
     color: ColorName.Yellow,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -1033,6 +1217,11 @@ export const mobData: MobData[] = [
     maxLightLevel: 7,
     additionalGatewayMobNBT: {
       Size: new Int(3),
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
     },
     spawnOverrides: {
       block: {
@@ -1067,6 +1256,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       behavior: {
         type: "obtrophies:place_block",
@@ -1091,6 +1287,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
   },
   {
     spawnOnly: false,
@@ -1101,6 +1304,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 8,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
   },
   {
     spawnOnly: false,
@@ -1121,6 +1331,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       behavior: {
         type: "obtrophies:item",
@@ -1268,6 +1485,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       behavior: {
         type: "obtrophies:item",
@@ -1333,6 +1557,9 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      Air: new Int(-50000),
+    },
     spawnOverrides: {
       block: {
         tag: "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please",
@@ -1363,6 +1590,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       behavior: {
         type: "obtrophies:item",
@@ -1382,6 +1616,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       offset: 0,
       scale: 1,
@@ -1401,6 +1642,9 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      Air: new Int(-50000),
+    },
     spawnOverrides: {
       block: {
         tag: "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please",
@@ -1462,6 +1706,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       behavior: {
         type: "obtrophies:item",
@@ -1493,6 +1744,13 @@ export const mobData: MobData[] = [
     stage: "skeleton_wolf",
     color: ColorName.White,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -1507,6 +1765,11 @@ export const mobData: MobData[] = [
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
       DyeMobDyeColor: new Byte(13),
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
     },
     trophyData: {
       offset: 0,
@@ -1549,6 +1812,11 @@ export const mobData: MobData[] = [
     maxLightLevel: 7,
     additionalGatewayMobNBT: {
       Size: new Int(3),
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
     },
     trophyData: {
       offset: 0,
@@ -1610,6 +1878,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       offset: 0,
       scale: 1,
@@ -1622,6 +1897,13 @@ export const mobData: MobData[] = [
     stage: "stray_bone_spider",
     color: ColorName.Cyan,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 0,
     maxLightLevel: 7,
   },
@@ -1634,6 +1916,9 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      Air: new Int(-50000),
+    },
     spawnOverrides: {
       block: {
         tag: "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please",
@@ -1668,6 +1953,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     spawnOverrides: {
       block: {
         tag: "skyfactory_5:wet_nether_mobs_need_liquid_and_also_possibly_solid_blocks",
@@ -1688,6 +1980,7 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
+      Air: new Int(-50000),
       Variant: new Int(16844033),
     },
     spawnOverrides: {
@@ -1717,6 +2010,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       behavior: {
         type: "obtrophies:llama_spit",
@@ -1732,6 +2032,13 @@ export const mobData: MobData[] = [
     stage: "tropical_slime",
     color: ColorName.Cyan,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 0,
     maxLightLevel: 7,
   },
@@ -1745,6 +2052,7 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
+      Air: new Int(-50000),
       DyeMobDyeColor: new Byte(12),
     },
     spawnOverrides: {
@@ -1766,6 +2074,9 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 8,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      Air: new Int(-50000),
+    },
     spawnOverrides: {
       block: {
         tag: "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please",
@@ -1791,6 +2102,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       offset: 0,
       scale: 1,
@@ -1816,6 +2134,13 @@ export const mobData: MobData[] = [
     stage: "umbra_cow",
     color: ColorName.Black,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -2088,6 +2413,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       behavior: {
         type: "obtrophies:item",
@@ -2182,6 +2514,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     trophyData: {
       offset: 0,
       scale: 1.25,
@@ -2194,6 +2533,13 @@ export const mobData: MobData[] = [
     stage: "wooly_cow",
     color: ColorName.Orange,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 7,
     maxLightLevel: 15,
   },
@@ -2219,6 +2565,13 @@ export const mobData: MobData[] = [
     stage: "wither_skeleton_wolf",
     color: ColorName.Black,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 0,
     maxLightLevel: 7,
   },
@@ -2231,6 +2584,13 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     spawnOverrides: {
       block: {
         tag: "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works",
@@ -2280,6 +2640,11 @@ export const mobData: MobData[] = [
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
       DyeMobDyeColor: new Byte(13),
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
     },
     trophyData: {
       behavior: {
@@ -2320,6 +2685,13 @@ export const mobData: MobData[] = [
     stage: "zombified_pig",
     color: ColorName.Pink,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },
@@ -2354,6 +2726,13 @@ export const mobData: MobData[] = [
     stage: "albino_cow",
     color: ColorName.White,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    additionalGatewayMobNBT: {
+      "pehkui:scale_data_types": {
+        "pehkui:reach": {
+          scale: new Float(0.05),
+        },
+      },
+    },
     minLightLevel: 8,
     maxLightLevel: 15,
   },

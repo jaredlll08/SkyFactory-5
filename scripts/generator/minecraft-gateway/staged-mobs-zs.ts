@@ -48,15 +48,19 @@ export async function generateMobStageEnum(plop: NodePlopAPI, data: MobData) {
 
   const file = await readFile(mobStageEnumFilePath, "utf-8");
 
+  const deduplicatedStages = Array.from(
+    new Set(data.map((entry) => entry.stage)),
+  );
+
   await writeFile(
     mobStageEnumFilePath,
     file.replace(
       /\/\/ MobStage GENERATOR START(?:.|\n)*\/\/ MobStage GENERATOR END/,
       plop.renderString(template, {
-        mobStages: data
-          .map((entry) => ({
-            stage: entry.stage,
-            stageEnum: entry.stage.toUpperCase(),
+        mobStages: deduplicatedStages
+          .map((stage) => ({
+            stage: stage,
+            stageEnum: stage.toUpperCase(),
           }))
           .sort((a, b) => a.stageEnum.localeCompare(b.stageEnum)),
       }),

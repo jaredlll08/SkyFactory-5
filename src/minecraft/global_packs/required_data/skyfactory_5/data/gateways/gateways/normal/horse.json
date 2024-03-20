@@ -21,7 +21,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:horse",
-          "nbt": "{DyeMobDyeColor:12b,DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},Tags:[\"gateway_entity\"]}"
+          "nbt": "{DyeMobDyeColor:12b,\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
         }
       ],
       "rewards": [
@@ -46,7 +46,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:horse",
-          "nbt": "{DyeMobDyeColor:12b,DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},Tags:[\"gateway_entity\"]}"
+          "nbt": "{DyeMobDyeColor:12b,\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
         }
       ],
       "modifiers": [
@@ -103,7 +103,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:horse",
-          "nbt": "{DyeMobDyeColor:12b,DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:reach\":{scale:0.05f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}"
+          "nbt": "{DyeMobDyeColor:12b,\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
         }
       ],
       "modifiers": [
@@ -176,7 +176,7 @@
         "type": "gateways:standard",
         "count": 4,
         "entity": "minecraft:horse",
-        "nbt": "{DyeMobDyeColor:12b,DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},Tags:[\"gateway_entity\"]}"
+        "nbt": "{DyeMobDyeColor:12b,\"pehkui:scale_data_types\":{\"pehkui:reach\":{scale:0.05f},\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
       }
     }
   ],

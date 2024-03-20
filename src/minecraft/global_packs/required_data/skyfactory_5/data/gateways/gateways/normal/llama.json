@@ -5,7 +5,7 @@
   "failures": [
     {
       "type": "gateways:command",
-      "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"gateways:gate_pearl\",Count:1b,tag:{gateway:\"gateways:normal/skeleton_horse\"}}}",
+      "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"gateways:gate_pearl\",Count:1b,tag:{gateway:\"gateways:normal/llama\"}}}",
       "desc": ""
     },
     {
@@ -20,7 +20,7 @@
         {
           "type": "gateways:standard",
           "count": 4,
-          "entity": "minecraft:skeleton_horse",
+          "entity": "colourfulllamas:llama",
           "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
         }
       ],
@@ -45,7 +45,7 @@
         {
           "type": "gateways:standard",
           "count": 4,
-          "entity": "minecraft:skeleton_horse",
+          "entity": "colourfulllamas:llama",
           "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
         }
       ],
@@ -102,7 +102,7 @@
         {
           "type": "gateways:standard",
           "count": 4,
-          "entity": "minecraft:skeleton_horse",
+          "entity": "colourfulllamas:llama",
           "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
         }
       ],
@@ -162,22 +162,13 @@
     },
     {
       "type": "gateways:command",
-      "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"obtrophies:trophy\",Count:1b,tag:{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:skeleton_horse\"}}}}",
+      "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"obtrophies:trophy\",Count:1b,tag:{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"colourfulllamas:llama\"}}}}",
       "desc": ""
     },
     {
       "type": "gateways:command",
       "command": "team join sf5_gold_team @e[distance=..5,nbt={Item:{id:\"obtrophies:trophy\"}}]",
       "desc": ""
-    },
-    {
-      "type": "gateways:summon",
-      "entity": {
-        "type": "gateways:standard",
-        "count": 4,
-        "entity": "minecraft:skeleton_horse",
-        "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:reach\":{scale:0.05f},\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
-      }
     }
   ],
   "rules": {
