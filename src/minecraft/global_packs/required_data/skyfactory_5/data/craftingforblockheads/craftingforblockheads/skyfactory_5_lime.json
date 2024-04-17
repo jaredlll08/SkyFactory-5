@@ -20,6 +20,12 @@
       },
       "includes": [
         {
+          "item": "exnihilocoloratus:lime_crucible"
+        },
+        {
+          "item": "exnihilocoloratus:lime_barrel"
+        },
+        {
           "item": "colouredstuff:crafting_table_lime"
         },
         {

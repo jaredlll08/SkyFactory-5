@@ -20,6 +20,12 @@
       },
       "includes": [
         {
+          "item": "exnihilocoloratus:gray_crucible"
+        },
+        {
+          "item": "exnihilocoloratus:gray_barrel"
+        },
+        {
           "item": "colouredstuff:crafting_table_gray"
         },
         {

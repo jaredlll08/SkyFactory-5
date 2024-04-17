@@ -20,6 +20,12 @@
       },
       "includes": [
         {
+          "item": "exnihilocoloratus:orange_crucible"
+        },
+        {
+          "item": "exnihilocoloratus:orange_barrel"
+        },
+        {
           "item": "colouredstuff:crafting_table_orange"
         },
         {

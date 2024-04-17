@@ -16,6 +16,12 @@
       },
       "includes": [
         {
+          "item": "exnihilocoloratus:none_crucible"
+        },
+        {
+          "item": "exnihilocoloratus:none_barrel"
+        },
+        {
           "item": "colouredstuff:crafting_table_none"
         },
         {

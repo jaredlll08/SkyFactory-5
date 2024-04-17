@@ -20,6 +20,12 @@
       },
       "includes": [
         {
+          "item": "exnihilocoloratus:magenta_crucible"
+        },
+        {
+          "item": "exnihilocoloratus:magenta_barrel"
+        },
+        {
           "item": "colouredstuff:crafting_table_magenta"
         },
         {
