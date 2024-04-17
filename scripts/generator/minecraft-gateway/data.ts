@@ -2772,5 +2772,15 @@ export const mobData: MobData[] = [
     minLightLevel: 8,
     maxLightLevel: 15,
   },
+  {
+    spawnOnly: false,
+    mobID: "sushigocrafting:shrimp",
+    mobName: "Shrimp",
+    stage: "shrimp",
+    color: ColorName.Pink,
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    minLightLevel: 7,
+    maxLightLevel: 15,
+  },
   //! DATA MANAGER ENTRY MARKER - DO NOT TOUCH
 ];
