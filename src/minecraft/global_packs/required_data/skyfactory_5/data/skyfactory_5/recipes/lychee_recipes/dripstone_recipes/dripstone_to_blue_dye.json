@@ -1,6 +1,6 @@
 {
   "type": "lychee:dripstone_dripping",
-  "source_block": "colored_water:blue_fluid_block",
+  "source_block": "colouredstuff:water_blue_block",
   "target_block": "minecraft:sand",
   "post": [
     {

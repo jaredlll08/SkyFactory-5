@@ -4,7 +4,7 @@
     "item": "minecraft:sand"
   },
   "block_in": {
-    "blocks": ["colored_water:light_gray_fluid_block"],
+    "blocks": ["colouredstuff:water_light_gray_block"],
     "state": {
       "level": 0
     }

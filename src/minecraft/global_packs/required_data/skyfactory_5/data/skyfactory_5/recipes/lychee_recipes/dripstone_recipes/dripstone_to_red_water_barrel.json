@@ -4,11 +4,11 @@
   "post": [
     {
       "type": "execute",
-      "command": "data merge block ~ ~ ~ {tank: {FluidName: \"colored_water:red_fluid\", Amount: 1000}, barrelMode: \"fluid\"}",
+      "command": "data merge block ~ ~ ~ {tank: {FluidName: \"colouredstuff:water_red\", Amount: 1000}, barrelMode: \"fluid\"}",
       "hide": true
     }
   ],
-  "source_block": "colored_water:red_fluid_block",
+  "source_block": "colouredstuff:water_red_block",
   "target_block": {
     "blocks": [
       "exnihilosequentia:acacia_barrel",

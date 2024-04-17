@@ -9,7 +9,7 @@
   "post": [
     {
       "type": "place",
-      "block": "colored_water:brown_fluid_block"
+      "block": "colouredstuff:water_brown_block"
     }
   ]
 }

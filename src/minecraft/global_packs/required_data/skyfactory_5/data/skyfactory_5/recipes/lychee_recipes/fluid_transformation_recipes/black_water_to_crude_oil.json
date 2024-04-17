@@ -1,15 +1,15 @@
 {
   "type": "lychee:item_inside",
   "item_in": {
-    "item": "minecraft:pink_dye"
+    "tag": "minecraft:coals"
   },
   "block_in": {
-    "blocks": ["water"]
+    "blocks": ["colouredstuff:water_black_block"]
   },
   "post": [
     {
       "type": "place",
-      "block": "colouredstuff:water_pink_block"
+      "block": "thermal:crude_oil_fluid"
     }
   ]
 }

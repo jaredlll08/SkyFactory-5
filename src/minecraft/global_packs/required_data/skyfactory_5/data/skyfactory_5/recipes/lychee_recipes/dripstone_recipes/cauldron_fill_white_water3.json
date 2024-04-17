@@ -1,6 +1,6 @@
 {
   "type": "lychee:dripstone_dripping",
-  "source_block": "colored_water:white_fluid_block",
+  "source_block": "colouredstuff:water_white_block",
   "target_block": {
     "blocks": ["colored_water:white_water_cauldron"],
     "state": {
