@@ -5,6 +5,8 @@ execute as @e[type=player,distance=..64] run colorfulskies color @s cloud 333333
 execute as @e[type=player,distance=..64] run colorfulskies color @s sun 333333
 execute as @e[type=player,distance=..64] run colorfulskies color @s moon 333333
 execute as @e[type=player,distance=..64] run colorfulskies color @s sunrise 333333
+execute as @e[type=player,distance=..64] run colorfulskies color @s sky 333333
+
 
 execute as @e[type=player,distance=..64] run playsound minecraft:music_disc.mall master @s ~ ~ ~ 0.35
 
