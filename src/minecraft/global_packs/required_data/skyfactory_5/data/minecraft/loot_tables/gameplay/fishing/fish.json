@@ -50,6 +50,16 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "name": "sushigocrafting:entities/shrimp"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 30,
+          "name": "sushigocrafting:entities/tuna"
         }
       ]
     }
