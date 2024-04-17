@@ -98,6 +98,28 @@
           "functions": [
             {
               "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/llama\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/llama\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
               "tag": "{gateway:\"gateways:normal/jolly_llama\"}"
             }
           ]
