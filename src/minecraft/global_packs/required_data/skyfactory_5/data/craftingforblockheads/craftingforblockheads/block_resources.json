@@ -36,6 +36,9 @@
         },
         {
           "item": "minecraft:cobbled_deepslate"
+        },
+        {
+          "item": "minecraft:netherrack"
         }
       ],
       "priority": 99997

@@ -18,6 +18,18 @@
         },
         {
           "item": "minecraft:bamboo"
+        },
+        {
+          "item": "minecraft:kelp"
+        },
+        {
+          "item": "exnihilosequentia:mycelium_spores"
+        },
+        {
+          "item": "exnihilosequentia:crimson_nylium_spores"
+        },
+        {
+          "item": "exnihilosequentia:warped_nylium_spores"
         }
       ],
       "priority": 99996
