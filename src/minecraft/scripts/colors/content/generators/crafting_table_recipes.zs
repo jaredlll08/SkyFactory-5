@@ -38,14 +38,12 @@ ContentBuilder.factory
   .addRecipeGenerator("_dye_block_from_dye", (baseName, args) => {
     val dyeBlockItem = args.getItem(ColoredItem.DyeBlock);
     val dye = args.getItem(ColoredItem.Dye);
-    val stage = getStageForColor(args.color);
 
-    if dyeBlockItem == null || dye == null || stage == null {
+    if dyeBlockItem == null || dye == null {
       return;
     }
 
-    mods.recipestages.Recipes.addShapeless(
-      stage,
+    craftingTable.addShapeless(
       args.color.getResourceName() + baseName,
       dyeBlockItem,
       [
@@ -64,14 +62,12 @@ ContentBuilder.factory
   .addRecipeGenerator("_dye_from_dye_block", (baseName, args) => {
     val dyeBlockItem = args.getItem(ColoredItem.DyeBlock);
     val dye = args.getItem(ColoredItem.Dye);
-    val stage = getStageForColor(args.color);
 
-    if dyeBlockItem == null || dye == null || stage == null {
+    if dyeBlockItem == null || dye == null {
       return;
     }
 
-    mods.recipestages.Recipes.addShapeless(
-      stage,
+    craftingTable.addShapeless(
       args.color.getResourceName() + baseName,
       dye * 9,
       [dyeBlockItem]

@@ -213,8 +213,6 @@ craftingTable.remove(<item:colossalchests:chest_wall_obsidian>);
 craftingTable.remove(<item:colossalchests:colossal_chest_obsidian>);
 craftingTable.remove(<item:colossalchests:interface_obsidian>);
 
-
-
 // Removes Ex Nihilo Pebble Recipes
 craftingTable.removeByName("minecraft:ens_andesite");
 craftingTable.removeByName("minecraft:ens_basalt");
@@ -228,57 +226,46 @@ craftingTable.removeByName("minecraft:ens_granite");
 craftingTable.removeByName("minecraft:ens_netherrack");
 craftingTable.removeByName("minecraft:ens_cobblestone");
 craftingTable.removeByName("minecraft:ens_tuff");
-craftingTable.remove(<item:exnihilosequentia:iron_pieces>);
-craftingTable.remove(<item:exnihilosequentia:gold_pieces>);
-craftingTable.remove(<item:exnihilosequentia:copper_pieces>);
-craftingTable.remove(<item:exnihilosequentia:copper_nugget>);
-craftingTable.remove(<item:exnihilosequentia:lead_ingot>);
-craftingTable.remove(<item:exnihilosequentia:raw_lead>);
-craftingTable.remove(<item:exnihilosequentia:lead_pieces>);
-craftingTable.remove(<item:exnihilosequentia:lead_nugget>);
-craftingTable.remove(<item:exnihilosequentia:nickel_ingot>);
-craftingTable.remove(<item:exnihilosequentia:raw_nickel>);
-craftingTable.remove(<item:exnihilosequentia:nickel_pieces>);
-craftingTable.remove(<item:exnihilosequentia:nickel_nugget>);
-craftingTable.remove(<item:exnihilosequentia:silver_ingot>);
-craftingTable.remove(<item:exnihilosequentia:raw_silver>);
-craftingTable.remove(<item:exnihilosequentia:silver_pieces>);
-craftingTable.remove(<item:exnihilosequentia:silver_nugget>);
-craftingTable.remove(<item:exnihilosequentia:tin_ingot>);
-craftingTable.remove(<item:exnihilosequentia:raw_tin>);
-craftingTable.remove(<item:exnihilosequentia:tin_pieces>);
-craftingTable.remove(<item:exnihilosequentia:tin_nugget>);
-craftingTable.remove(<item:exnihilosequentia:aluminum_ingot>);
-craftingTable.remove(<item:exnihilosequentia:raw_aluminum>);
-craftingTable.remove(<item:exnihilosequentia:aluminum_pieces>);
-craftingTable.remove(<item:exnihilosequentia:aluminum_nugget>);
-craftingTable.remove(<item:exnihilosequentia:platinum_ingot>);
-craftingTable.remove(<item:exnihilosequentia:raw_platinum>);
-craftingTable.remove(<item:exnihilosequentia:platinum_pieces>);
-craftingTable.remove(<item:exnihilosequentia:platinum_nugget>);
-craftingTable.remove(<item:exnihilosequentia:uranium_ingot>);
-craftingTable.remove(<item:exnihilosequentia:raw_uranium>);
-craftingTable.remove(<item:exnihilosequentia:uranium_pieces>);
-craftingTable.remove(<item:exnihilosequentia:uranium_nugget>);
-craftingTable.remove(<item:exnihilosequentia:zinc_ingot>);
-craftingTable.remove(<item:exnihilosequentia:raw_zinc>);
-craftingTable.remove(<item:exnihilosequentia:zinc_pieces>);
-craftingTable.remove(<item:exnihilosequentia:zinc_nugget>);
+
 
 // Cluttered mod
 craftingTable.removeByName("luphieclutteredmod:luphie_purple_plank_set_stick_recipe");
 craftingTable.removeByName("luphieclutteredmod:luphie_glow_wood_set_stick_recipe");
 
-// Tag unification
-craftingTable.remove(<item:immersiveengineering:dust_electrum>);
-
-
-craftingTable.remove(<item:immersiveengineering:storage_constantan>);
-craftingTable.remove(<item:immersiveengineering:ingot_constantan>);
-craftingTable.remove(<item:immersiveengineering:nugget_constantan>);
-craftingTable.remove(<item:immersiveengineering:plate_constantan>);
-craftingTable.remove(<item:immersiveengineering:dust_constantan>);
-
 // Silent's Gear Item Cleanup
 craftingTable.remove(<item:silentgear:diamond_shard>);
 craftingTable.remove(<item:silentgear:emerald_shard>);
+
+// Cyclic
+craftingTable.remove(<item:cyclic:crystal_boots>);
+craftingTable.remove(<item:cyclic:crystal_helmet>);
+craftingTable.remove(<item:cyclic:crystal_chestplate>);
+craftingTable.remove(<item:cyclic:crystal_leggings>);
+craftingTable.remove(<item:cyclic:emerald_boots>);
+craftingTable.remove(<item:cyclic:emerald_helmet>);
+craftingTable.remove(<item:cyclic:emerald_chestplate>);
+craftingTable.remove(<item:cyclic:emerald_leggings>);
+craftingTable.remove(<item:cyclic:copper_pickaxe>);
+craftingTable.remove(<item:cyclic:copper_shovel>);
+craftingTable.remove(<item:cyclic:mattock>);
+craftingTable.remove(<item:cyclic:mattock_nether>);
+craftingTable.remove(<item:cyclic:mattock_stone>);
+
+// Thermal
+  craftingTable.remove(<item:thermal:bamboo_block>);
+  craftingTable.remove(<item:thermal:rubber>);
+  craftingTable.remove(<item:thermal:rubber_block>);
+  furnace.remove(<item:thermal:cured_rubber>);
+
+
+
+// Applied Energistics 2
+  craftingTable.remove(<item:ae2:not_so_mysterious_cube>);
+  craftingTable.remove(<item:ae2:certus_quartz_axe>);
+  craftingTable.remove(<item:ae2:certus_quartz_hoe>);
+  craftingTable.remove(<item:ae2:certus_quartz_shovel>);
+  craftingTable.remove(<item:ae2:certus_quartz_pickaxe>);
+  craftingTable.remove(<item:ae2:certus_quartz_sword>);
+
+// Industrial Foregoing
+  craftingTable.remove(<item:industrialforegoing:dryrubber>);

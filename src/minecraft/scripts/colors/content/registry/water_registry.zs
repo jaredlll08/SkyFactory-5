@@ -5,5 +5,7 @@ ContentBuilder.factory.registerWater((color) => {
     return null;
   }
 
-  return BracketHandlers.getFluidStack("colored_water:" + color.getResourceName() + "_fluid");
+  return BracketHandlers.getFluidStack("colouredstuff:" + "water_" + color.getResourceName());
 });
+
+

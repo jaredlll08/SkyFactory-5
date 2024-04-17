@@ -151,9 +151,13 @@ craftingTable.addShaped(
 
 
 // Ex Nihilo Barrel Recipes
+
+
+
+
 craftingTable.addShaped(
-  "dark_oak_barrel_black",
-  <item:exnihilosequentia:dark_oak_barrel> * 1,
+  "barrel_black_shaped",
+  <item:exnihilocoloratus:black_barrel> * 1,
   [
     [<item:colouredstuff:planks_black>, <item:minecraft:air>, <item:colouredstuff:planks_black>],
     [<item:colouredstuff:planks_black>, <item:minecraft:air>, <item:colouredstuff:planks_black>],
@@ -161,8 +165,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "jungle_barrel_blue",
-  <item:exnihilosequentia:jungle_barrel> * 1,
+  "barrel_blue_shaped",
+  <item:exnihilocoloratus:blue_barrel> * 1,
   [
     [<item:colouredstuff:planks_blue>, <item:minecraft:air>, <item:colouredstuff:planks_blue>],
     [<item:colouredstuff:planks_blue>, <item:minecraft:air>, <item:colouredstuff:planks_blue>],
@@ -170,8 +174,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "mangrove_barrel_brown",
-  <item:exnihilosequentia:mangrove_barrel> * 1,
+  "barrel_brown_shaped",
+  <item:exnihilocoloratus:brown_barrel> * 1,
   [
     [<item:colouredstuff:planks_brown>, <item:minecraft:air>, <item:colouredstuff:planks_brown>],
     [<item:colouredstuff:planks_brown>, <item:minecraft:air>, <item:colouredstuff:planks_brown>],
@@ -179,8 +183,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "oak_barrel_cyan",
-  <item:exnihilosequentia:oak_barrel> * 1,
+  "barrel_cyan_shaped",
+  <item:exnihilocoloratus:cyan_barrel> * 1,
   [
     [<item:colouredstuff:planks_cyan>, <item:minecraft:air>, <item:colouredstuff:planks_cyan>],
     [<item:colouredstuff:planks_cyan>, <item:minecraft:air>, <item:colouredstuff:planks_cyan>],
@@ -188,8 +192,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "acacia_barrel_gray",
-  <item:exnihilosequentia:acacia_barrel> * 1,
+  "barrel_gray_shaped",
+  <item:exnihilocoloratus:gray_barrel> * 1,
   [
     [<item:colouredstuff:planks_gray>, <item:minecraft:air>, <item:colouredstuff:planks_gray>],
     [<item:colouredstuff:planks_gray>, <item:minecraft:air>, <item:colouredstuff:planks_gray>],
@@ -197,8 +201,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "bamboo_barrel_green",
-  <item:exnihilosequentia:bamboo_barrel> * 1,
+  "barrel_green_shaped",
+  <item:exnihilocoloratus:green_barrel> * 1,
   [
     [<item:colouredstuff:planks_green>, <item:minecraft:air>, <item:colouredstuff:planks_green>],
     [<item:colouredstuff:planks_green>, <item:minecraft:air>, <item:colouredstuff:planks_green>],
@@ -206,8 +210,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "birch_barrel_light_blue",
-  <item:exnihilosequentia:birch_barrel> * 1,
+  "barrel_light_blue_shaped",
+  <item:exnihilocoloratus:light_blue_barrel> * 1,
   [
     [<item:colouredstuff:planks_light_blue>, <item:minecraft:air>, <item:colouredstuff:planks_light_blue>],
     [<item:colouredstuff:planks_light_blue>, <item:minecraft:air>, <item:colouredstuff:planks_light_blue>],
@@ -215,8 +219,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "cherry_barrel_light_gray",
-  <item:exnihilosequentia:cherry_barrel> * 1,
+  "barrel_light_gray_shaped",
+  <item:exnihilocoloratus:light_gray_barrel> * 1,
   [
     [<item:colouredstuff:planks_light_gray>, <item:minecraft:air>, <item:colouredstuff:planks_light_gray>],
     [<item:colouredstuff:planks_light_gray>, <item:minecraft:air>, <item:colouredstuff:planks_light_gray>],
@@ -224,8 +228,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "spruce_barrel_lime",
-  <item:exnihilosequentia:spruce_barrel> * 1,
+  "barrel_lime_shaped",
+  <item:exnihilocoloratus:lime_barrel> * 1,
   [
     [<item:colouredstuff:planks_lime>, <item:minecraft:air>, <item:colouredstuff:planks_lime>],
     [<item:colouredstuff:planks_lime>, <item:minecraft:air>, <item:colouredstuff:planks_lime>],
@@ -233,8 +237,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "crimson_barrel_magenta",
-  <item:exnihilosequentia:crimson_barrel> * 1,
+  "barrel_magenta_shaped",
+  <item:exnihilocoloratus:magenta_barrel> * 1,
   [
     [<item:colouredstuff:planks_magenta>, <item:minecraft:air>, <item:colouredstuff:planks_magenta>],
     [<item:colouredstuff:planks_magenta>, <item:minecraft:air>, <item:colouredstuff:planks_magenta>],
@@ -242,8 +246,17 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "warped_barrel_orange",
-  <item:exnihilosequentia:warped_barrel> * 1,
+  "barrel_none_shaped",
+  <item:exnihilocoloratus:none_barrel> * 1,
+  [
+    [<item:colouredstuff:planks_none>, <item:minecraft:air>, <item:colouredstuff:planks_none>],
+    [<item:colouredstuff:planks_none>, <item:minecraft:air>, <item:colouredstuff:planks_none>],
+    [<item:colouredstuff:planks_none>, <item:colouredstuff:slab_planks_none>, <item:colouredstuff:planks_none>]
+  ]
+);
+craftingTable.addShaped(
+  "barrel_orange_shaped",
+  <item:exnihilocoloratus:orange_barrel> * 1,
   [
     [<item:colouredstuff:planks_orange>, <item:minecraft:air>, <item:colouredstuff:planks_orange>],
     [<item:colouredstuff:planks_orange>, <item:minecraft:air>, <item:colouredstuff:planks_orange>],
@@ -251,19 +264,55 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "stone_barrel_recipe",
-  <item:exnihilosequentia:stone_barrel> * 1,
+  "barrel_pink_shaped",
+  <item:exnihilocoloratus:pink_barrel> * 1,
   [
-    [<item:minecraft:stone>, <item:minecraft:air>, <item:minecraft:stone>],
-    [<item:minecraft:stone>, <item:minecraft:air>, <item:minecraft:stone>],
-    [<item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>]
+    [<item:colouredstuff:planks_pink>, <item:minecraft:air>, <item:colouredstuff:planks_pink>],
+    [<item:colouredstuff:planks_pink>, <item:minecraft:air>, <item:colouredstuff:planks_pink>],
+    [<item:colouredstuff:planks_pink>, <item:colouredstuff:slab_planks_pink>, <item:colouredstuff:planks_pink>]
+  ]
+);
+craftingTable.addShaped(
+  "barrel_purple_shaped",
+  <item:exnihilocoloratus:purple_barrel> * 1,
+  [
+    [<item:colouredstuff:planks_purple>, <item:minecraft:air>, <item:colouredstuff:planks_purple>],
+    [<item:colouredstuff:planks_purple>, <item:minecraft:air>, <item:colouredstuff:planks_purple>],
+    [<item:colouredstuff:planks_purple>, <item:colouredstuff:slab_planks_purple>, <item:colouredstuff:planks_purple>]
+  ]
+);
+craftingTable.addShaped(
+  "barrel_red_shaped",
+  <item:exnihilocoloratus:red_barrel> * 1,
+  [
+    [<item:colouredstuff:planks_red>, <item:minecraft:air>, <item:colouredstuff:planks_red>],
+    [<item:colouredstuff:planks_red>, <item:minecraft:air>, <item:colouredstuff:planks_red>],
+    [<item:colouredstuff:planks_red>, <item:colouredstuff:slab_planks_red>, <item:colouredstuff:planks_red>]
+  ]
+);
+craftingTable.addShaped(
+  "barrel_white_shaped",
+  <item:exnihilocoloratus:white_barrel> * 1,
+  [
+    [<item:colouredstuff:planks_white>, <item:minecraft:air>, <item:colouredstuff:planks_white>],
+    [<item:colouredstuff:planks_white>, <item:minecraft:air>, <item:colouredstuff:planks_white>],
+    [<item:colouredstuff:planks_white>, <item:colouredstuff:slab_planks_white>, <item:colouredstuff:planks_white>]
+  ]
+);
+craftingTable.addShaped(
+  "barrel_yellow_shaped",
+  <item:exnihilocoloratus:yellow_barrel> * 1,
+  [
+    [<item:colouredstuff:planks_yellow>, <item:minecraft:air>, <item:colouredstuff:planks_yellow>],
+    [<item:colouredstuff:planks_yellow>, <item:minecraft:air>, <item:colouredstuff:planks_yellow>],
+    [<item:colouredstuff:planks_yellow>, <item:colouredstuff:slab_planks_yellow>, <item:colouredstuff:planks_yellow>]
   ]
 );
 
 // Ex Nihilo Crucible Recipes
 craftingTable.addShaped(
-  "acacia_crucible_black",
-  <item:exnihilosequentia:acacia_crucible> * 1,
+  "crucible_black_shaped",
+  <item:exnihilocoloratus:black_crucible> * 1,
   [
     [<item:colouredstuff:planks_black>, <item:minecraft:air>, <item:colouredstuff:planks_black>],
     [<item:colouredstuff:planks_black>, <item:minecraft:air>, <item:colouredstuff:planks_black>],
@@ -271,8 +320,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "bamboo_crucible_blue",
-  <item:exnihilosequentia:bamboo_crucible> * 1,
+  "crucible_blue_shaped",
+  <item:exnihilocoloratus:blue_crucible> * 1,
   [
     [<item:colouredstuff:planks_blue>, <item:minecraft:air>, <item:colouredstuff:planks_blue>],
     [<item:colouredstuff:planks_blue>, <item:minecraft:air>, <item:colouredstuff:planks_blue>],
@@ -280,8 +329,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "birch_crucible_brown",
-  <item:exnihilosequentia:birch_crucible> * 1,
+  "crucible_brown_shaped",
+  <item:exnihilocoloratus:brown_crucible> * 1,
   [
     [<item:colouredstuff:planks_brown>, <item:minecraft:air>, <item:colouredstuff:planks_brown>],
     [<item:colouredstuff:planks_brown>, <item:minecraft:air>, <item:colouredstuff:planks_brown>],
@@ -289,8 +338,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "cherry_crucible_cyan",
-  <item:exnihilosequentia:cherry_crucible> * 1,
+  "crucible_cyan_shaped",
+  <item:exnihilocoloratus:cyan_crucible> * 1,
   [
     [<item:colouredstuff:planks_cyan>, <item:minecraft:air>, <item:colouredstuff:planks_cyan>],
     [<item:colouredstuff:planks_cyan>, <item:minecraft:air>, <item:colouredstuff:planks_cyan>],
@@ -298,8 +347,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "dark_oak_crucible_gray",
-  <item:exnihilosequentia:dark_oak_crucible> * 1,
+  "crucible_gray_shaped",
+  <item:exnihilocoloratus:gray_crucible> * 1,
   [
     [<item:colouredstuff:planks_gray>, <item:minecraft:air>, <item:colouredstuff:planks_gray>],
     [<item:colouredstuff:planks_gray>, <item:minecraft:air>, <item:colouredstuff:planks_gray>],
@@ -307,8 +356,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "jungle_crucible_green",
-  <item:exnihilosequentia:jungle_crucible> * 1,
+  "crucible_green_shaped",
+  <item:exnihilocoloratus:green_crucible> * 1,
   [
     [<item:colouredstuff:planks_green>, <item:minecraft:air>, <item:colouredstuff:planks_green>],
     [<item:colouredstuff:planks_green>, <item:minecraft:air>, <item:colouredstuff:planks_green>],
@@ -316,8 +365,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "mangrove_crucible_light_blue",
-  <item:exnihilosequentia:mangrove_crucible> * 1,
+  "crucible_light_blue_shaped",
+  <item:exnihilocoloratus:light_blue_crucible> * 1,
   [
     [<item:colouredstuff:planks_light_blue>, <item:minecraft:air>, <item:colouredstuff:planks_light_blue>],
     [<item:colouredstuff:planks_light_blue>, <item:minecraft:air>, <item:colouredstuff:planks_light_blue>],
@@ -325,8 +374,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "oak_crucible_light_gray",
-  <item:exnihilosequentia:oak_crucible> * 1,
+  "crucible_light_gray_shaped",
+  <item:exnihilocoloratus:light_gray_crucible> * 1,
   [
     [<item:colouredstuff:planks_light_gray>, <item:minecraft:air>, <item:colouredstuff:planks_light_gray>],
     [<item:colouredstuff:planks_light_gray>, <item:minecraft:air>, <item:colouredstuff:planks_light_gray>],
@@ -334,8 +383,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "spruce_crucible_lime",
-  <item:exnihilosequentia:spruce_crucible> * 1,
+  "crucible_lime_shaped",
+  <item:exnihilocoloratus:lime_crucible> * 1,
   [
     [<item:colouredstuff:planks_lime>, <item:minecraft:air>, <item:colouredstuff:planks_lime>],
     [<item:colouredstuff:planks_lime>, <item:minecraft:air>, <item:colouredstuff:planks_lime>],
@@ -343,8 +392,8 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "crimson_crucible_magenta",
-  <item:exnihilosequentia:crimson_crucible> * 1,
+  "crucible_magenta_shaped",
+  <item:exnihilocoloratus:magenta_crucible> * 1,
   [
     [<item:colouredstuff:planks_magenta>, <item:minecraft:air>, <item:colouredstuff:planks_magenta>],
     [<item:colouredstuff:planks_magenta>, <item:minecraft:air>, <item:colouredstuff:planks_magenta>],
@@ -352,14 +401,78 @@ craftingTable.addShaped(
   ]
 );
 craftingTable.addShaped(
-  "warped_crucible_orange",
-  <item:exnihilosequentia:warped_crucible> * 1,
+  "crucible_none_shaped",
+  <item:exnihilocoloratus:none_crucible> * 1,
+  [
+    [<item:colouredstuff:planks_none>, <item:minecraft:air>, <item:colouredstuff:planks_none>],
+    [<item:colouredstuff:planks_none>, <item:minecraft:air>, <item:colouredstuff:planks_none>],
+    [<item:colouredstuff:planks_none>, <item:colouredstuff:planks_none>, <item:colouredstuff:planks_none>]
+  ]
+);
+craftingTable.addShaped(
+  "crucible_orange_shaped",
+  <item:exnihilocoloratus:orange_crucible> * 1,
   [
     [<item:colouredstuff:planks_orange>, <item:minecraft:air>, <item:colouredstuff:planks_orange>],
     [<item:colouredstuff:planks_orange>, <item:minecraft:air>, <item:colouredstuff:planks_orange>],
     [<item:colouredstuff:planks_orange>, <item:colouredstuff:planks_orange>, <item:colouredstuff:planks_orange>]
   ]
 );
+craftingTable.addShaped(
+  "crucible_pink_shaped",
+  <item:exnihilocoloratus:pink_crucible> * 1,
+  [
+    [<item:colouredstuff:planks_pink>, <item:minecraft:air>, <item:colouredstuff:planks_pink>],
+    [<item:colouredstuff:planks_pink>, <item:minecraft:air>, <item:colouredstuff:planks_pink>],
+    [<item:colouredstuff:planks_pink>, <item:colouredstuff:planks_pink>, <item:colouredstuff:planks_pink>]
+  ]
+);
+craftingTable.addShaped(
+  "crucible_purple_shaped",
+  <item:exnihilocoloratus:purple_crucible> * 1,
+  [
+    [<item:colouredstuff:planks_purple>, <item:minecraft:air>, <item:colouredstuff:planks_purple>],
+    [<item:colouredstuff:planks_purple>, <item:minecraft:air>, <item:colouredstuff:planks_purple>],
+    [<item:colouredstuff:planks_purple>, <item:colouredstuff:planks_purple>, <item:colouredstuff:planks_purple>]
+  ]
+);
+craftingTable.addShaped(
+  "crucible_red_shaped",
+  <item:exnihilocoloratus:red_crucible> * 1,
+  [
+    [<item:colouredstuff:planks_red>, <item:minecraft:air>, <item:colouredstuff:planks_red>],
+    [<item:colouredstuff:planks_red>, <item:minecraft:air>, <item:colouredstuff:planks_red>],
+    [<item:colouredstuff:planks_red>, <item:colouredstuff:planks_red>, <item:colouredstuff:planks_red>]
+  ]
+);
+craftingTable.addShaped(
+  "crucible_white_shaped",
+  <item:exnihilocoloratus:white_crucible> * 1,
+  [
+    [<item:colouredstuff:planks_white>, <item:minecraft:air>, <item:colouredstuff:planks_white>],
+    [<item:colouredstuff:planks_white>, <item:minecraft:air>, <item:colouredstuff:planks_white>],
+    [<item:colouredstuff:planks_white>, <item:colouredstuff:planks_white>, <item:colouredstuff:planks_white>]
+  ]
+);
+craftingTable.addShaped(
+  "crucible_yellow_shaped",
+  <item:exnihilocoloratus:yellow_crucible> * 1,
+  [
+    [<item:colouredstuff:planks_yellow>, <item:minecraft:air>, <item:colouredstuff:planks_yellow>],
+    [<item:colouredstuff:planks_yellow>, <item:minecraft:air>, <item:colouredstuff:planks_yellow>],
+    [<item:colouredstuff:planks_yellow>, <item:colouredstuff:planks_yellow>, <item:colouredstuff:planks_yellow>]
+  ]
+);
+
+
+
+
+
+
+
+
+
+
 
 craftingTable.addShaped(
   "unfired_crucible_recipe",
@@ -370,6 +483,14 @@ craftingTable.addShaped(
     [<item:exnihilosequentia:porcelain_clay>, <item:exnihilosequentia:porcelain_clay>, <item:exnihilosequentia:porcelain_clay>]
   ]
 );
+
+
+
+
+
+
+
+
 
 // Thermal Dynamics pipes give 6 instead of 4
 craftingTable.remove(<item:thermal:energy_duct>);
@@ -568,3 +689,458 @@ craftingTable.addShaped(
     [<item:minecraft:wheat>]
   ]
   );
+
+// Charcoal and Coal to Black Dye
+  craftingTable.addShaped(
+  "charcoal_to_black_dye",
+  <item:minecraft:black_dye> * 1,
+  [
+    [<item:minecraft:charcoal>]
+  ]
+  );
+
+// Charcoal and Coal to Black Dye
+  craftingTable.addShaped(
+  "coal_to_black_dye",
+  <item:minecraft:black_dye> * 1,
+  [
+    [<item:minecraft:coal>]
+  ]
+  );
+
+// Cobblestone Slabs to Block
+  craftingTable.addShaped(
+  "cobblestone_slab_to_block",
+  <item:minecraft:cobblestone> * 1,
+  [
+    [<item:minecraft:cobblestone_slab>],
+    [<item:minecraft:cobblestone_slab>]
+  ]
+  );
+
+// Vinery Cherry Slabs to Block
+  craftingTable.addShaped(
+  "vinery_cherry_slabs_to_planks",
+  <item:vinery:cherry_planks> * 1,
+  [
+    [<item:vinery:cherry_slab>],
+    [<item:vinery:cherry_slab>]
+  ]
+  );
+
+// Applied Energistics 2 Silicon Press
+  craftingTable.addShaped(
+  "ae2_silicon_press",
+  <item:ae2:silicon_press> * 1,
+  [
+    [<item:minecraft:air>, <item:ae2:certus_quartz_cutting_knife>, <item:minecraft:air>],
+    [<item:ae2:sky_dust>, <item:thermal:steel_plate>, <item:ae2:sky_dust>]
+  ]
+  );
+
+// Slime Head to Slime Balls
+  craftingTable.addShaped(
+  "slime_head_to_balls",
+  <item:minecraft:slime_ball> * 4,
+  [
+    [<item:heads:slime_head>]
+  ]
+  );
+
+
+
+
+// Dyeing Planks and Logs
+
+  craftingTable.addShaped(
+  "black_planks_dye",
+  <item:colouredstuff:planks_black> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:black_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "blue_planks_dye",
+  <item:colouredstuff:planks_blue> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:blue_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "brown_planks_dye",
+  <item:colouredstuff:planks_brown> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:brown_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "cyan_planks_dye",
+  <item:colouredstuff:planks_cyan> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:cyan_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "gray_planks_dye",
+  <item:colouredstuff:planks_gray> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:gray_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "green_planks_dye",
+  <item:colouredstuff:planks_green> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:green_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "light_blue_planks_dye",
+  <item:colouredstuff:planks_light_blue> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:light_blue_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "light_gray_planks_dye",
+  <item:colouredstuff:planks_light_gray> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:light_gray_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "lime_planks_dye",
+  <item:colouredstuff:planks_lime> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:lime_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "magenta_planks_dye",
+  <item:colouredstuff:planks_magenta> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:magenta_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "orange_planks_dye",
+  <item:colouredstuff:planks_orange> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:orange_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "pink_planks_dye",
+  <item:colouredstuff:planks_pink> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:pink_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "purple_planks_dye",
+  <item:colouredstuff:planks_purple> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:purple_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "red_planks_dye",
+  <item:colouredstuff:planks_red> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:red_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "white_planks_dye",
+  <item:colouredstuff:planks_white> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:white_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+  craftingTable.addShaped(
+  "yellow_planks_dye",
+  <item:colouredstuff:planks_yellow> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:yellow_dye>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+
+
+  craftingTable.addShaped(
+  "colorless_planks_dye",
+  <item:colouredstuff:planks_none> * 8,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <item:minecraft:feather>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
+  ]
+  );
+
+
+
+// Logs
+  craftingTable.addShaped(
+  "black_logs_dye",
+  <item:colouredstuff:log_black> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:black_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "blue_logs_dye",
+  <item:colouredstuff:log_blue> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:blue_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "brown_logs_dye",
+  <item:colouredstuff:log_brown> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:brown_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "cyan_logs_dye",
+  <item:colouredstuff:log_cyan> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:cyan_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "gray_logs_dye",
+  <item:colouredstuff:log_gray> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:gray_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "green_logs_dye",
+  <item:colouredstuff:log_green> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:green_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "light_blue_logs_dye",
+  <item:colouredstuff:log_light_blue> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:light_blue_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "light_gray_logs_dye",
+  <item:colouredstuff:log_light_gray> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:light_gray_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "lime_logs_dye",
+  <item:colouredstuff:log_lime> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:lime_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "magenta_logs_dye",
+  <item:colouredstuff:log_magenta> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:magenta_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "orange_logs_dye",
+  <item:colouredstuff:log_orange> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:orange_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "pink_logs_dye",
+  <item:colouredstuff:log_pink> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:pink_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "purple_logs_dye",
+  <item:colouredstuff:log_purple> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:purple_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "red_logs_dye",
+  <item:colouredstuff:log_red> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:red_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "white_logs_dye",
+  <item:colouredstuff:log_white> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:white_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+  craftingTable.addShaped(
+  "yellow_logs_dye",
+  <item:colouredstuff:log_yellow> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:yellow_dye>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+
+  craftingTable.addShaped(
+  "colorless_logs_dye",
+  <item:colouredstuff:log_none> * 8,
+  [
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <item:minecraft:feather>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+  ]
+  );
+
+// Watering Can Upgrades
+
+// Tier 2
+  craftingTable.addShaped(
+  "watering_can_inferium",
+   <item:mysticalagriculture:inferium_watering_can> * 1,
+  [
+    [<item:minecraft:air>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/drowned"}), <item:minecraft:air>],
+    [<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/drowned"}), <item:mysticalagriculture:watering_can>.withTag({Water: 1}), <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/drowned"})],
+    [<item:minecraft:air>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/drowned"}), <item:minecraft:air>]
+  ]
+  );
+
+// Tier 3
+  craftingTable.addShaped(
+  "watering_can_prudentium",
+   <item:mysticalagriculture:prudentium_watering_can> * 1,
+  [
+    [<item:minecraft:air>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/squid"}), <item:minecraft:air>],
+    [<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/squid"}), <item:mysticalagriculture:inferium_watering_can>.withTag({Water: 1}), <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/squid"})],
+    [<item:minecraft:air>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/squid"}), <item:minecraft:air>]
+  ]
+  );
+
+// Tier 4
+  craftingTable.addShaped(
+  "watering_can_tertium",
+   <item:mysticalagriculture:tertium_watering_can> * 1,
+  [
+    [<item:minecraft:air>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/salmon"}), <item:minecraft:air>],
+    [<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/salmon"}), <item:mysticalagriculture:prudentium_watering_can>.withTag({Water: 1}), <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/salmon"})],
+    [<item:minecraft:air>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/salmon"}), <item:minecraft:air>]
+  ]
+  );
+
+  // Tier 5
+  craftingTable.addShaped(
+  "watering_can_imperium",
+   <item:mysticalagriculture:imperium_watering_can> * 1,
+  [
+    [<item:minecraft:air>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/glow_squid"}), <item:minecraft:air>],
+    [<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/glow_squid"}), <item:mysticalagriculture:tertium_watering_can>.withTag({Water: 1}), <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/glow_squid"})],
+    [<item:minecraft:air>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/glow_squid"}), <item:minecraft:air>]
+  ]
+  );
+
+  // Tier 6
+  craftingTable.addShaped(
+  "watering_can_supremium",
+   <item:mysticalagriculture:supremium_watering_can> * 1,
+  [
+    [<item:minecraft:air>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/dolphin"}), <item:minecraft:air>],
+    [<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/dolphin"}), <item:mysticalagriculture:imperium_watering_can>.withTag({Water: 1}), <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/dolphin"})],
+    [<item:minecraft:air>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/dolphin"}), <item:minecraft:air>]
+  ]
+  );
+
+  // Tier 7
+  craftingTable.addShaped(
+  "watering_can_awakened_supremium",
+   <item:mysticalagriculture:awakened_supremium_watering_can> * 1,
+  [
+    [<item:minecraft:netherite_ingot>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/elder_guardian"}), <item:minecraft:netherite_ingot>],
+    [<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/elder_guardian"}), <item:mysticalagriculture:supremium_watering_can>.withTag({Water: 1}), <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/elder_guardian"})],
+    [<item:minecraft:netherite_ingot>, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/elder_guardian"}), <item:minecraft:netherite_ingot>]
+  ]
+  );
+
+// RGB Dye to Block
+  craftingTable.addShaped(
+  "rgb_block_from_dye",
+  <item:sf5_things:block_of_rgb_dye> ,
+  [
+    [<item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>],
+    [<item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>],
+    [<item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>]
+  ]
+);

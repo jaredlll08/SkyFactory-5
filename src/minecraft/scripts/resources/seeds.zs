@@ -41,3 +41,35 @@ craftingTable.addShapeless(
   <item:minecraft:bamboo>,
   [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/yellow>]
 );
+
+// Cactus
+craftingTable.addShapeless(
+  "cactus_from_dye",
+  <item:minecraft:cactus>,
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/black>]
+);
+
+// Mycelium Spores
+craftingTable.addShapeless(
+  "mycelium_from_dye",
+  <item:exnihilosequentia:mycelium_spores>,
+  [<tag:items:forge:dyes/brown>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/purple>]
+);
+
+// Crimson Nylium Spores
+craftingTable.addShapeless(
+  "crimson_nylium_from_dye",
+  <item:exnihilosequentia:crimson_nylium_spores>,
+  [<tag:items:forge:dyes/red>, <tag:items:forge:dyes/red>, <tag:items:forge:dyes/brown>]
+);
+
+// Warped Nylium Spores
+craftingTable.addShapeless(
+  "arped_nylium_from_dye",
+  <item:exnihilosequentia:warped_nylium_spores>,
+  [<tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/red>]
+);
+
+
+
+

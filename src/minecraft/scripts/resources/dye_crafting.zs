@@ -21,7 +21,7 @@ mods.recipestages.Recipes.addShapeless(
 mods.recipestages.Recipes.addShapeless(
   Stage.Light_Gray,
   "light_gray_dye_combo2",
-  <item:minecraft:light_gray_dye> * 2,
+  <item:minecraft:light_gray_dye> * 3,
   [<item:minecraft:black_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
 );
 

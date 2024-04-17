@@ -1,3 +1,5 @@
+import crafttweaker.api.entity.Entity;
+import crafttweaker.api.entity.EntityType;
 import mods.angrymobs.AITweaks;
 
 /*
@@ -13,6 +15,14 @@ AITweaks.addMeleeAttackTweak(<entitytype:minecraft:allay>, 1, 1.0F, 1.0D, false)
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:allay>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
 */
 
+// Villagers and Wandering Traders need to be given a lower speed
+// due to 1.0F making them, uniquely way too fast
+AITweaks.addMeleeAttackTweak(<entitytype:minecraft:villager>, 1, 0.5F, 1.0D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:minecraft:wandering_trader>, 1, 0.5F, 1.0D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:vinery:wandering_winemaker>, 1, 0.5F, 1.0D, false);
+
+
+
 // Ranged Entities
 // Camels spit
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:camel>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 1.0F, 1.0F);
@@ -20,7 +30,7 @@ AITweaks.addProjectileAttackTweak(<entitytype:earthmobsmod:cluck_shroom>, <entit
 AITweaks.addProjectileAttackTweak(<entitytype:earthmobsmod:duck>, <entitytype:earthmobsmod:duck_egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:earthmobsmod:fancy_chicken>, <entitytype:earthmobsmod:fancy_egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:chicken>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:strider>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:strider>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 1.0F, 1.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:panda>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 1.0F, 1.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:forcecraft:cold_chicken>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
 
@@ -69,15 +79,19 @@ AITweaks.addProjectileAttackTweak(<entitytype:forcecraft:cold_chicken>, <entityt
 // AITweaks.addMeleeAttackTweak(<entitytype:minecraft:tadpole>, 1, 1.0F, 1.0D, false);
 // AITweaks.addMeleeAttackTweak(<entitytype:minecraft:tropical_fish>, 1, 1.0F, 1.0D, false);
 // AITweaks.addMeleeAttackTweak(<entitytype:minecraft:turtle>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:villager>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:wandering_trader>, 1, 1.0F, 1.0D, false);
 // AITweaks.addMeleeAttackTweak(<entitytype:minecraft:wolf>, 1, 1.0F, 1.0D, false);
 // AITweaks.addMeleeAttackTweak(<entitytype:minecraft:zombie_horse>, 1, 1.0F, 1.0D, false);
 // AITweaks.addMeleeAttackTweak(<entitytype:forcecraft:cold_cow>, 1, 1.0F, 1.0D, false);
 // AITweaks.addMeleeAttackTweak(<entitytype:forcecraft:cold_pig>, 1, 1.0F, 1.0D, false);
 
+val denyList as EntityType<Entity>[] = [
+  <entitytype:minecraft:snow_golem>,
+  <entitytype:minecraft:villager>,
+  <entitytype:minecraft:wandering_trader>
+];
+
 for mob in Globals.stagedMobs {
-  if !mob.getCategory().isFriendly() {
+  if !mob.getCategory().isFriendly() || mob in denyList {
     continue;
   }
 

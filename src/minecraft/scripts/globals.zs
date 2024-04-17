@@ -33,6 +33,7 @@ public class Globals {
     // !THIS SECTION IS MANAGED BY A SCRIPT. DO NOT MANUALLY EDIT THIS SECTION!
 
     <entitytype:colourfulgoats:goat>: new StagedMob(<entitytype:colourfulgoats:goat>, MobStage.GOAT),
+    <entitytype:colourfulllamas:llama>: new StagedMob(<entitytype:colourfulllamas:llama>, MobStage.LLAMA),
     <entitytype:earthmobsmod:albino_cow>: new StagedMob(<entitytype:earthmobsmod:albino_cow>, MobStage.ALBINO_COW),
     <entitytype:earthmobsmod:baby_ghast>: new StagedMob(<entitytype:earthmobsmod:baby_ghast>, MobStage.BABY_GHAST),
     <entitytype:earthmobsmod:bone_spider>: new StagedMob(<entitytype:earthmobsmod:bone_spider>, MobStage.BONE_SPIDER),
@@ -157,6 +158,7 @@ public class Globals {
     <entitytype:monsterplus:overgrown_skeleton>: new StagedMob(<entitytype:monsterplus:overgrown_skeleton>, MobStage.OVERGROWN_SKELETON),
     <entitytype:monsterplus:spectral_skeleton>: new StagedMob(<entitytype:monsterplus:spectral_skeleton>, MobStage.SPECTRAL_SKELETON),
     <entitytype:monsterplus:swamp_zombie>: new StagedMob(<entitytype:monsterplus:swamp_zombie>, MobStage.SWAMP_ZOMBIE),
+    <entitytype:sushigocrafting:shrimp>: new StagedMob(<entitytype:sushigocrafting:shrimp>, MobStage.SHRIMP),
     <entitytype:sushigocrafting:tuna>: new StagedMob(<entitytype:sushigocrafting:tuna>, MobStage.TUNA),
     <entitytype:veincreeper:black>: new StagedMob(<entitytype:veincreeper:black>, MobStage.BLACK_VEIN_CREEPER),
     <entitytype:veincreeper:blue>: new StagedMob(<entitytype:veincreeper:blue>, MobStage.BLUE_VEIN_CREEPER),

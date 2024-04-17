@@ -198,6 +198,7 @@ public enum MobStage {
   RED_VEIN_CREEPER = "red_vein_creeper",
   SALMON = "salmon",
   SHEEP = "sheep",
+  SHRIMP = "shrimp",
   SHULKER = "shulker",
   SILVERFISH = "silverfish",
   SKELETON = "skeleton",

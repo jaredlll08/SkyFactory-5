@@ -1,62 +1,65 @@
-// Sets item durability
-for item in loadedMods["create_sabers"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["minecraft"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["monsterplus"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["simpletomb"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["sushigocrafting"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["occultism"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["pickletweaks"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["pizzacraft"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["cyclic"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["monsterplus"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["ae2"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["constructionwand"].itemStacks {
-  item.maxDamage = -1;
-}
-for item in loadedMods["silentgear"].itemStacks {
-  item.maxDamage = -1;
-}
-/*
-for item in loadedMods["sophisticatedstorage"].itemStacks {
-  item.maxDamage = 9999;
-}
-for item in loadedMods["create"].itemStacks {
-  item.maxDamage = 9999;
-}
-*/
+import crafttweaker.api.item.IItemStack;
 
-// <item:item_id>.maxDamage = -1;
-<item:create:super_glue>.maxDamage = 2147483647;
-<item:create:sand_paper>.maxDamage = 2147483647;
-<item:sophisticatedstorage:packing_tape>.maxDamage = 9999;
+ // Sets item durability
 
-<item:pizzacraft:stone_pizza_peel>.maxDamage = -1;
-<item:pizzacraft:iron_pizza_peel>.maxDamage = -1;
-<item:pizzacraft:golden_pizza_peel>.maxDamage = -1;
-<item:pizzacraft:diamond_pizza_peel>.maxDamage = -1;
-<item:pizzacraft:netherite_pizza_peel>.maxDamage = -1;
-<item:forcecraft:force_shears>.maxDamage = -1;
-<item:immersiveengineering:hammer>.maxDamage = -1;
-<item:vinery:straw_hat>.maxDamage = -1;
+val modIDsForDurability as string[][int] = {
+  -1: [
+    "create_sabers",
+    "minecraft",
+    "monsterplus",
+    "simpletomb",
+    "sushigocrafting",
+    "occultism",
+    "pickletweaks",
+    "cyclic",
+    "monsterplus",
+    "ae2",
+    "constructionwand",
+    "silentgear",
+    "exnihilosequentia",
+    "forcecraft"
+  ],
+  9999: [],
+  2147483647: [],
+  2147483648: [],
+  999999999999: []
+};
+
+for durability, modIDs in modIDsForDurability {
+  for modID in modIDs {
+    for item in loadedMods[modID].getItems() {
+      item.getDefaultInstance().maxDamage = durability;
+    }
+  }
+}
+
+val itemsForDurability as IItemStack[][int] = {
+  -1: [
+    <item:pizzacraft:stone_pizza_peel>,
+    <item:pizzacraft:iron_pizza_peel>,
+    <item:pizzacraft:golden_pizza_peel>,
+    <item:pizzacraft:diamond_pizza_peel>,
+    <item:pizzacraft:netherite_pizza_peel>,
+    <item:vinery:straw_hat>,
+    <item:immersiveengineering:wirecutter>,
+    <item:immersiveengineering:hammer>
+  ],
+  9999: [
+    <item:sophisticatedstorage:packing_tape>
+  ],
+  2147483647: [
+    <item:create:super_glue>,
+    <item:create:sand_paper>
+  ]
+};
+
+for durability, items in itemsForDurability{
+  for item in items {
+      item.maxDamage = durability;
+  }
+}
+
+
+// for item in loadedMods["minecraft"].itemStacks {
+//  item.maxDamage = -1;
+// }
