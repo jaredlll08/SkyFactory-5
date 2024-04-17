@@ -19,9 +19,52 @@ Discover §c(§0Red§c)
 Discover §f(§0White§f)
 Discover §e(§0Yellow§e)
 
+===
 
+# Age of Just Starting Out
+Use a Barrel to Create Dirt
+Use a Crucible to melt leaves or saplings to get water
+Infest Leaves with a Silkworm to obtain String
+Make Clay in Barrel filled with Water
+Make Lava in Porcelain Crucible
+Automate resources
+===
+#Age of Automation
+Craft RGB Dye
+Craft a Printer to automate resource collection
+===
+#Stone Age
+===
+#Age of Power
+===
+#Age of Farming
+Obtain an Inferium Seed
+Capture a Cow in a jar
+Grow a sugar cane from y 1 to max height
+Obtain an RGB Essence Seed
+===
+#Age of Travel
+Fly
+Travel to the Nether
+Travel to the End
+Use a Bubble Blower to place a block in the air
 
+===
+#Bosses
+Defeat the Warden
+Defeat the Ender Dragon
+Defeat the Wither
+Defeat the Ghast Cow
 
+#Storage
+Create a 9x9x9 Colossal Chest
 
-
+#Age of Craziness
+Complete all ___ gateways
+Obtain all __ trophies
+Collect all __ hats
+Obtain 90 Total Hearts of Health
+Craft an Infinity Wand
+Create a Perfect Sushi Roll
+Fill an entire chunk with __ block (16x16x400)
 
