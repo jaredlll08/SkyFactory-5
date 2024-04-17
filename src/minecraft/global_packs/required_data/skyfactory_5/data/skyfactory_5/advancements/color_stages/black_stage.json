@@ -10,7 +10,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:color_stages/root",
+  "parent": "skyfactory_5:color_stages/cyan_stage",
   "criteria": {
     "music_disc_11": {
       "trigger": "minecraft:inventory_changed",
