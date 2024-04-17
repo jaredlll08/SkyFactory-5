@@ -37,5 +37,8 @@
   "item.sf5_things.white_apple": "White Apple",
   "item.sf5_things.yellow_apple": "Yellow Apple",
   "jade.modname.sf5_things": "SkyFactory 5",
-  "block.yellow_snow.yellow_snow": "Yellow Snow"
+  "block.yellow_snow.yellow_snow": "Yellow Snow",
+  "item.sf5_things.rgb_dye": "RGB Dye",
+  "item.sf5_things.rainbow_laser_lens": "Rainbow Laser Lens",
+  "block.sf5_things.block_of_rgb_dye": "Block of RGB Dye"
 }
