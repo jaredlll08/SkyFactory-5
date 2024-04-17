@@ -51,8 +51,40 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "mod_name": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
+  },
   "ars_nouveau": {
     "mob_jar": true
+  },
+  "tesseract": {
+    "tesseract": true,
+    "remove_default": true
   },
   "exnihilosequentia": {
     "barrel": true,
@@ -65,19 +97,11 @@
     "hud": true,
     "hud.redstone": true
   },
-  "immersiveengineering": {
-    "multiblock_icon": true
-  },
   "appliedcooking": {
     "kitchen_station": true
   },
-  "jade": {
-    "coordinates.rel": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "mod_name": true
+  "supplementaries": {
+    "hat_stand": true
   },
   "cookingforblockheads": {
     "fridge": true,
@@ -93,17 +117,5 @@
   },
   "multibeds": {
     "hud": true
-  },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
   }
 }

@@ -47,7 +47,7 @@ codexCost = 10
 enableWarpPortals = true
 
 # Beta Features
-[warp_portals.beta]
+[beta]
 # Allow crafting infinite spells. This is a beta feature and may cause crashes.
 infiniteSpells = false
 # Limits the crafting infinite spells beta, set a cap to the number of additional glyphs. This is a beta feature and may cause crashes.

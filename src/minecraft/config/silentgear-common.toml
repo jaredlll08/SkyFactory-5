@@ -119,10 +119,12 @@ breaksPermanently = false
 # The item tier assigned to gear tool items.
 # Leave this alone unless you are trying to work around mod compatibility issues!
 # Normally, this value is not used for anything. But some mods mistakenly check it.
+# Allowed Values: WOOD, STONE, IRON, DIAMOND, GOLD, NETHERITE
 dummyToolTier = "WOOD"
 # The armor material assigned to the gear armor items.
 # Leave this alone unless you are trying to work around mod compatibility issues!
 # Normally, this value is not used for anything. But some mods mistakenly check it.
+# Allowed Values: LEATHER, CHAIN, IRON, GOLD, DIAMOND, TURTLE, NETHERITE
 dummyArmorMaterial = "LEATHER"
 
 [gear.enchanting]
@@ -217,12 +219,12 @@ maxCharge = 1000000
 # This might help track down more obscure issues.
 extraPartAndTraitInfo = false
 # Log stat calculations in the debug.log every time gear stats are recalculated
-stats = true
+stats = false
 # Log information on construction of gear and part models, as well as textures they attempt to load.
 # This is intended to help find and fix rare issues that some users are experiencing.
 modelAndTexture = false
 # Log details about certain features being adding to biomes and other world generator details
-worldGen = true
+worldGen = false
 
 [other]
 # Shows a "WIP" (work in progress) label in the tooltip of certain unfinished, but usable blocks and items

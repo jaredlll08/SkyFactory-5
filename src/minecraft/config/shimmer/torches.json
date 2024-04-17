@@ -130,7 +130,16 @@
       "radius": 14
     }
   ],
-  "LightItem": [],
+  "LightItem": [
+    {
+      "item_id": "tinted_torches:green_torch",
+      "r": 22,
+      "g": 95,
+      "b": 22,
+      "a": 50,
+      "radius": 14
+    }
+  ],
   "Bloom": [],
   "ColorReference": {},
   "BuildIn": false

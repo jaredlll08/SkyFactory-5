@@ -43,6 +43,24 @@
     "maxlight_full": 15
   },
   {
+    "mob": "colourfulllamas:llama",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "llama",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": {
+          "color": 16352035
+        }
+      }
+    },
+    "result": "allow",
+    "minlight_full": 8,
+    "maxlight_full": 15
+  },
+  {
     "mob": "earthmobsmod:albino_cow",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
@@ -2303,6 +2321,24 @@
     "maxlight_full": 7
   },
   {
+    "mob": "sushigocrafting:shrimp",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "shrimp",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": {
+          "color": 16352035
+        }
+      }
+    },
+    "result": "allow",
+    "minlight_full": 7,
+    "maxlight_full": 15
+  },
+  {
     "mob": "sushigocrafting:tuna",
     "block": {
       "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
@@ -2665,6 +2701,7 @@
   {
     "mob": [
       "colourfulgoats:goat",
+      "colourfulllamas:llama",
       "earthmobsmod:albino_cow",
       "earthmobsmod:baby_ghast",
       "earthmobsmod:bone_spider",
@@ -2789,6 +2826,7 @@
       "monsterplus:overgrown_skeleton",
       "monsterplus:spectral_skeleton",
       "monsterplus:swamp_zombie",
+      "sushigocrafting:shrimp",
       "sushigocrafting:tuna",
       "veincreeper:black",
       "veincreeper:blue",
@@ -2815,6 +2853,7 @@
   {
     "mob": [
       "colourfulgoats:goat",
+      "colourfulllamas:llama",
       "earthmobsmod:albino_cow",
       "earthmobsmod:baby_ghast",
       "earthmobsmod:bone_spider",
@@ -2939,6 +2978,7 @@
       "monsterplus:overgrown_skeleton",
       "monsterplus:spectral_skeleton",
       "monsterplus:swamp_zombie",
+      "sushigocrafting:shrimp",
       "sushigocrafting:tuna",
       "veincreeper:black",
       "veincreeper:blue",

@@ -3,6 +3,8 @@
 # How much half hearts damage a pebble should do. (Default: 0)
 # Range: > 0
 pebbleDamage = 0
+# Should pebbles be throwable? (Default: true)
+enableThrowable = true
 
 # Barrel Configs
 [barrel]
@@ -58,7 +60,7 @@ vanillaDropSimulateCount = 3
 [crucible]
 # Ticks between melting operations (Default: 20)
 # Range: > 1
-ticksBetweenMelts = 20
+ticksBetweenMelts = 10
 # Number of buckets the crucible will hold (Default: 4)
 # Range: > 1
 crucibleNumberOfBuckets = 4

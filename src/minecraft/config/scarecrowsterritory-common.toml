@@ -11,7 +11,7 @@ trophyCheckRange = 1
 maxTrophies = 8
 # What should be the chance that the scarecrows spawn an entity from a surrounding trophy every tick?
 # Allowed range: 0.0 ~ 1.0 - Default: 0.0
-forcedSpawnChance = 0.0
+forcedSpawnChance = 1.0
 
 # Options in this section are only relevant whenever In Control! is installed.
 ["In Control! integration"]
@@ -28,7 +28,7 @@ loadSpawners = true
 loadSpawnerRange = 5.0
 # Should mobs passively spawn within the scarecrows' range
 # Allowed values: true, false - Default: true
-passiveMobSpawning = false
+passiveMobSpawning = true
 # In what range will mobs passively spawn?
 # Allowed range: 1.0 ~ 128.0 - Default: 8.0
 passiveMobRange = 8.0

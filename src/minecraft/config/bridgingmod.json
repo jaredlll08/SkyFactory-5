@@ -7,7 +7,10 @@
   "delayPostBridging": 4,
   "showCrosshair": true,
   "showOutline": true,
-  "outlineColour": 1711276032,
+  "showOutlineEvenWhenNotBridging": false,
+  "nonBridgeRespectsCrouchRules": true,
+  "outlineColour": 16711680,
   "showDebugHighlight": true,
+  "showNonBridgingDebugHighlight": false,
   "showDebugTrace": false
 }

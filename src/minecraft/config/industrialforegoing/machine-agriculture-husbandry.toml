@@ -12,7 +12,7 @@ maxAnimalInTheArea = 35
 
 [MachineAgricultureHusbandryConfig.MobCrusherConfig]
 # Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
-maxProgress = 100
+maxProgress = 60
 # Amount of Power Consumed per Tick - Default: [40FE]
 powerPerOperation = 50
 # Max Stored Power [FE] - Default: [10000 FE]
@@ -20,7 +20,7 @@ maxStoredPower = 10000
 # Max Essence [mb] - Default: [32000 mb]
 tankSize = 32000
 # Attack Damage for blacklisted entities - Default: [75]
-attackDamage = 1
+attackDamage = 4
 
 [MachineAgricultureHusbandryConfig.SewageComposterConfig]
 # Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]

@@ -1,14 +1,14 @@
 {
   basics: {
     favorites: [
-      '{data:{Count:1b,id:"create:fluid_tank",tag:{Damage:0},type:"minecraft:item"},type:"roughlyenoughitems:entry_stack"}',
-      '{data:{Count:1b,id:"minecraft:stick",type:"minecraft:item"},type:"roughlyenoughitems:entry_stack"}',
-      '{data:{Count:1b,id:"create:shaft",tag:{Damage:0},type:"minecraft:item"},type:"roughlyenoughitems:entry_stack"}',
+      '{data:{Count:1b,id:"dimpaintings:end_painting",type:"minecraft:item"},type:"roughlyenoughitems:entry_stack"}',
+      '{data:{Count:1b,id:"enderio:enchanter",type:"minecraft:item"},type:"roughlyenoughitems:entry_stack"}',
+      '{data:{Count:1b,id:"create:brass_sheet",type:"minecraft:item"},type:"roughlyenoughitems:entry_stack"}',
+      '{data:{Count:1b,id:"cyclic:fluid_pipe",type:"minecraft:item"},type:"roughlyenoughitems:entry_stack"}',
     ],
     hiddenFavorites: [],
     displayHistory: [
-      '{DisplayHistoryCategory:"minecraft:plugins/crafting",DisplayHistoryContains:1b,DisplayHistoryData:{REIRecipeType:"Shaped",RecipeHeight:3,RecipeWidth:1,input:[[{Count:1b,id:"create:shaft",type:"minecraft:item"}],[{Count:1b,id:"create:andesite_casing",type:"minecraft:item"}],[{Count:1b,id:"create:propeller",type:"minecraft:item"}]],location:"create:crafting/kinetics/encased_fan",output:[[{Count:1b,id:"create:encased_fan",type:"minecraft:item"}]]},DisplayHistoryUUID:"9607315f-7374-4a7b-8eca-63c21c9a8b07"}',
-      '{DisplayHistoryCategory:"minecraft:plugins/crafting",DisplayHistoryContains:1b,DisplayHistoryData:{REIRecipeType:"Shaped",RecipeHeight:3,RecipeWidth:1,input:[[{Count:1b,id:"create:electron_tube",type:"minecraft:item"}],[{Count:1b,id:"create:brass_ingot",type:"minecraft:item"}],[{Count:1b,id:"minecraft:dried_kelp",type:"minecraft:item"}]],location:"create:crafting/logistics/brass_funnel",output:[[{Count:2b,id:"create:brass_funnel",type:"minecraft:item"}]]},DisplayHistoryUUID:"3ae42a38-fe0b-48c7-926d-e027097a0754"}',
+      '{DisplayHistoryCategory:"thermal:brewer",DisplayHistoryContains:1b,DisplayHistoryData:{JEISerializer:"thermal:brewer",data:"wAw9zMzNAQMB+gUBAAH7BQEAAfYvAQABAegHAQ9taW5lY3JhZnQ6Zmx1aWSTAugHAAABAQ9taW5lY3JhZnQ6Zmx1aWQ16AcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",id:"skyfactory_5:thermal_recipes/brewer/black_water_to_crude_oil_te"},DisplayHistoryUUID:"17a19142-b3b3-4048-aece-dc71fea86eb0"}',
     ],
     // Declares whether cheating mode is on.
     cheating: true,
@@ -23,7 +23,7 @@
         modifier: 0,
       },
       hideKeybind: {
-        keyCode: "key.keyboard.o",
+        keyCode: "key.keyboard.l",
         modifier: 2,
       },
       previousPageKeybind: {
@@ -59,7 +59,7 @@
     overlayVisible: true,
     cheatingStyle: "GIVE",
     motion: {
-      favoritesAnimation: true,
+      favoritesAnimation: false,
     },
   },
   advanced: {
@@ -148,25 +148,25 @@
       // Declares the position of the config button.
       configButtonLocation: "LOWER",
       // Declares whether the craftable filter button is enabled.
-      showCraftableOnlyButton: true,
+      showCraftableOnlyButton: false,
     },
     // Declares the appearance of recipe's border.
     recipeBorder: "DEFAULT",
     // Declares whether entry panel is scrolled.
     scrollingEntryListWidget: false,
-    horizontalEntriesBoundaries: 1.0,
+    horizontalEntriesBoundaries: 0.95,
     verticalEntriesBoundaries: 1.0,
-    horizontalEntriesBoundariesColumns: 50,
+    horizontalEntriesBoundariesColumns: 11,
     verticalEntriesBoundariesRows: 1000,
     favoritesHorizontalEntriesBoundaries: 1.0,
-    favoritesHorizontalEntriesBoundariesColumns: 50,
+    favoritesHorizontalEntriesBoundariesColumns: 11,
     syntaxHighlightingMode: "COLORFUL",
     isFocusModeZoomed: false,
   },
   functionality: {
     inputMethod: null,
     // Declares whether REI should remove the recipe book.
-    disableRecipeBook: false,
+    disableRecipeBook: true,
     // Declares whether mob effects should be on the left side instead of the right side.
     leftSideMobEffects: false,
     // Declares whether subsets is enabled.

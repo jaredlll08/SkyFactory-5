@@ -328,7 +328,7 @@
     }
   },
   {
-    "mob": ["minecraft:parrot"],
+    "mob": ["minecraft:parrot", "waddles:adelie_penguin"],
     "persecond": 2,
     "attempts": 10,
     "amount": {
@@ -651,7 +651,8 @@
       "minecraft:pufferfish",
       "minecraft:tropical_fish",
       "minecraft:salmon",
-      "sushigocrafting:tuna"
+      "sushigocrafting:tuna",
+      "sushigocrafting:shrimp"
     ],
     "persecond": 2,
     "attempts": 20,

@@ -4,8 +4,6 @@
 dimensionBlacklist = []
 # Spawn a book in the players inventory on login
 spawnBook = false
-# Inform the player of Dynamic lights once.
-informLights = true
 # How much mana whirlisprigs consume per generation
 # Range: 0 ~ 10000
 sylphManaCost = 250
@@ -48,6 +46,9 @@ drygmyQuantityCap = 5
 [item]
 # Spawn Caster Tomes in Dungeon Loot?
 spawnTomes = true
+# How much mana the Ring of Jumping consumes per jump
+# Range: 0 ~ 10000
+jumpRingCost = 30
 
 # Blocks
 [block]
@@ -60,6 +61,9 @@ melderOutput = 100
 # How much source a melder takes per cycle
 # Range: > 0
 melderSourceCost = 300
+# The max potion level the enchanted flask can grant. This isnt needed unless you have an infinite potion leveling exploit.
+# Range: > 2
+enchantedFlaskCap = 255
 
 # Debug
 [debug]

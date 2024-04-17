@@ -13,5 +13,9 @@
    * Amount of uses before the extractinator breaks
    * Type: Integer
    */
-  "extractinatorDurability": -1
+  "extractinatorDurability": -1,
+  // If the extractinator should be silent
+  "silent": false,
+  // [Fabric Only] Generates Silt and Slush ores
+  "worldgen": true
 }
