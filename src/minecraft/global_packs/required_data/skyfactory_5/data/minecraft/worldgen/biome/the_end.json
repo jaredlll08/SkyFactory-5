@@ -19,25 +19,12 @@
     "axolotls": [],
     "creature": [],
     "misc": [],
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
+    "monster": [],
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
   },
   "spawn_costs": {},
   "carvers": {},
-  "features": [
-    [],
-    [],
-    [],
-    ["minecraft:end_gateway_return"],
-    ["minecraft:end_spike"]
-  ]
+  "features": [[], [], [], [], ["minecraft:end_spike"]]
 }
