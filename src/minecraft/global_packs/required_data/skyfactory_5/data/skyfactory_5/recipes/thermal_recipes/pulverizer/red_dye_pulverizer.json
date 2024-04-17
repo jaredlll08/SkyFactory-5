@@ -1,0 +1,21 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "tag": "skyfactory_5:colors/processing_items/red"
+  },
+  "result": [
+    {
+      "item": "minecraft:red_dye",
+      "chance": 1.0
+    },
+    {
+      "item": "minecraft:red_dye",
+      "chance": 0.5
+    },
+    {
+      "item": "minecraft:red_dye",
+      "chance": 0.15
+    }
+  ],
+  "experience": 0.1
+}
