@@ -5,7 +5,7 @@
       "item": "forcecraft:force_rod"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "tag": "minecraft:saplings"
     }
   ],
   "result": {
