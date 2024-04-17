@@ -1,3 +1,7 @@
 {
-  "values": ["colouredstuff:sapling_purple", "sf5_things:purple_apple"]
+  "values": [
+    "colouredstuff:sapling_purple",
+    "sf5_things:purple_apple",
+    "earthmobsmod:bone_spider_eye"
+  ]
 }
