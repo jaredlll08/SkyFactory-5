@@ -6,6 +6,9 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.util.random.Percentaged;
 import stdlib.List;
 
+import crafttweaker.api.tag.type.KnownTag;
+import crafttweaker.api.item.ItemDefinition;
+
 public class DataConverter {
   public static convertItemStackArray(items: IItemStack[]): ListData {
     val itemsData = new List<IData>();
@@ -50,5 +53,13 @@ public class DataConverter {
     itemData.put("chance", item.getPercentage());
 
     return itemData;
+  }
+
+  public static convertItemTag(tag: KnownTag<ItemDefinition>): MapData {
+    val tagData: MapData = new MapData();
+
+    tagData.put("tag", tag.id.toString());
+
+    return tagData;
   }
 }
