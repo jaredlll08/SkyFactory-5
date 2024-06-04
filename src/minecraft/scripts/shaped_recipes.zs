@@ -152,8 +152,15 @@ craftingTable.addShaped(
 
 // Ex Nihilo Barrel Recipes
 
-
-
+craftingTable.addShaped(
+  "barrel_stone_shaped",
+  <item:exnihilosequentia:stone_barrel> * 1,
+  [
+    [<item:minecraft:stone>, <item:minecraft:air>, <item:minecraft:stone>],
+    [<item:minecraft:stone>, <item:minecraft:air>, <item:minecraft:stone>],
+    [<item:minecraft:stone>, <item:minecraft:stone_slab>, <item:minecraft:stone>]
+  ]
+);
 
 craftingTable.addShaped(
   "barrel_black_shaped",
