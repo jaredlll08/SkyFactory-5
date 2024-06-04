@@ -21,50 +21,89 @@ Discover §e(§0Yellow§e)
 
 ===
 
-# Age of Just Starting Out
+
+# §1--==§0Age of Beginning-ment§1==--
 Use a Barrel to Create Dirt
-Use a Crucible to melt leaves or saplings to get water
+Use Colored Planks to craft any Color Crafting Table
+Craft a Crafting Station
+Craft a Campfire to Obtain Ash and use it to craft Cobblestone
+Use a Crucible to melt leaves or saplings to get water (or collect via rain)
 Infest Leaves with a Silkworm to obtain String
-Make Clay in Barrel filled with Water
-Make Lava in Porcelain Crucible
-Automate resources
+Use a Hammer from Ex Nihilo or a Millstone to create Sand
+Use Sand on a Barrel filled with Water to make Clay
+Make Lava in a Fired Crucible
 ===
-#Age of Automation
+#§1--==§0Age of Automation§1==--
+Automate resources
 Craft RGB Dye
+Craft a Blender to Mix Dyes together
 Craft a Printer to automate resource collection
 ===
-#Stone Age
+#§1--==§0Stone Age§1==--
+Obtain Obsidian
+Automate your Cobblestone generation
+Upgrade your Silent's Gear tools with a Stone Material (Cobblestone, Andesite, Diorite, Granite)
 ===
-#Age of Power
+#§1--==§0Age of Power§1==--
+Create a Passively cooled reactor from the Bigger Reactors Mod
+Create an Actively cooled reactor from the Bigger Reactors Mod
+Create the maximum size reactor
+Create a turbine from the Bigger Reactors Mod
+Produce 1,000 RF/t
+Produce 10,000 RF/t
+Produce 100k RF/t
+Produce 1 million RF/t
 ===
-#Age of Farming
+#§1--==§0Age of Farming§1==--
 Obtain an Inferium Seed
 Capture a Cow in a jar
-Grow a sugar cane from y 1 to max height
+Grow a sugar cane from y 1 to max height (y448)
+Obtain all 16 Color Mystical Agriculture Seeds
 Obtain an RGB Essence Seed
 ===
-#Age of Travel
+#§1--==§0Age of Travel§1==--
 Fly
 Travel to the Nether
 Travel to the End
 Use a Bubble Blower to place a block in the air
-
 ===
-#Bosses
+#§1--==§0Age of Magic§1==--
+==Occultism
+Craft goggles
+===
+#§1--==§0Bosses§1==--
 Defeat the Warden
 Defeat the Ender Dragon
 Defeat the Wither
 Defeat the Ghast Cow
-
-#Storage
+===
+#§1--==§0Storage§1==--
 Create a 9x9x9 Colossal Chest
+Obtain a Netherite Backpack from Sophisticated Backpacks
+Craft and use the Inception Upgrade in a Sophisticated Backpack to add more backpacks to your backpacks
+Craft and use the Everlasting Upgrade in a Sophisticated Backpack to keep your stuff safe from the void
 
-#Age of Craziness
+
+
+===
+#§1--==§0Age of Craziness§1==--
 Complete all ___ gateways
 Obtain all __ trophies
 Collect all __ hats
 Obtain 90 Total Hearts of Health
 Craft an Infinity Wand
 Create a Perfect Sushi Roll
-Fill an entire chunk with __ block (16x16x400)
-
+Fill an entire chunk with __ block (16x16x448)
+===
+#§1--==§0Age of I have no idea where these can go yet§1==--
+Herd all 16 Colorful Villagers
+Craft a Create Sabers Saber
+Craft a Hammock to sleep to night time
+Fall through the void into a pool of water
+Craft a Silent's Gear Sickle to break leaves faster
+Craft a Silent's Gear Axe to break wood fast!
+===
+#§1--==§0Age of Excess§1==--
+Infinity Charger idea
+Fill an Infinity Tool to max charge
+===
