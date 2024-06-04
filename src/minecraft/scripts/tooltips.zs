@@ -71,3 +71,8 @@ import crafttweaker.api.text.Component;
  <item:ae2:io_port>.addTooltip(uses_channel);
  <item:ae2:interface>.addTooltip(uses_channel);
  <item:ae2:chest>.addTooltip(uses_channel);
+
+// Create
+ var extruder = Component.literal("Creates Cobblestone, Stone, and Basalt").setStyle(<constant:formatting:yellow>);
+
+ <item:create_mechanical_extruder:mechanical_extruder>.addTooltip(extruder);

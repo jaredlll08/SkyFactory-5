@@ -64,7 +64,25 @@ val blocklist = [
   <item:immersiveengineering:plate_steel>,
   <item:immersiveengineering:dust_steel>,
   <item:industrialforegoing:iron_gear>,
-  <item:industrialforegoing:tinydryrubber>
+  <item:industrialforegoing:tinydryrubber>,
+  <item:pickletweaks:white_cobblestone>,
+  <item:pickletweaks:orange_cobblestone>,
+  <item:pickletweaks:magenta_cobblestone>,
+  <item:pickletweaks:light_blue_cobblestone>,
+  <item:pickletweaks:yellow_cobblestone>,
+  <item:pickletweaks:lime_cobblestone>,
+  <item:pickletweaks:pink_cobblestone>,
+  <item:pickletweaks:gray_cobblestone>,
+  <item:pickletweaks:light_gray_cobblestone>,
+  <item:pickletweaks:cyan_cobblestone>,
+  <item:pickletweaks:purple_cobblestone>,
+  <item:pickletweaks:blue_cobblestone>,
+  <item:pickletweaks:brown_cobblestone>,
+  <item:pickletweaks:green_cobblestone>,
+  <item:pickletweaks:red_cobblestone>,
+  <item:pickletweaks:black_cobblestone>,
+
+
 ] as IIngredient[];
 
 
