@@ -187,7 +187,6 @@ val itemsToRemove as IItemStack[] = [
   <item:exnihilosequentia:spruce_barrel>,
   <item:exnihilosequentia:crimson_barrel>,
   <item:exnihilosequentia:warped_barrel>,
-  <item:thermal:bamboo_block>,
   <item:create:iron_sheet>,
   <item:create:copper_sheet>,
   <item:create:golden_sheet>,

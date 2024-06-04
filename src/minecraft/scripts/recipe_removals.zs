@@ -252,12 +252,9 @@ craftingTable.remove(<item:cyclic:mattock_nether>);
 craftingTable.remove(<item:cyclic:mattock_stone>);
 
 // Thermal
-  craftingTable.remove(<item:thermal:bamboo_block>);
   craftingTable.remove(<item:thermal:rubber>);
   craftingTable.remove(<item:thermal:rubber_block>);
   furnace.remove(<item:thermal:cured_rubber>);
-
-
 
 // Applied Energistics 2
   craftingTable.remove(<item:ae2:not_so_mysterious_cube>);
