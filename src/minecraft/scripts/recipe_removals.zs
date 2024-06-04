@@ -222,11 +222,10 @@ craftingTable.removeByName("minecraft:ens_deepslate");
 craftingTable.removeByName("minecraft:ens_diorite");
 craftingTable.removeByName("minecraft:ens_dripstone_block");
 craftingTable.removeByName("minecraft:ens_end_stone");
-craftingTable.removeByName("minecraft:ens_granite");
+// craftingTable.removeByName("minecraft:ens_granite");
 craftingTable.removeByName("minecraft:ens_netherrack");
 craftingTable.removeByName("minecraft:ens_cobblestone");
 craftingTable.removeByName("minecraft:ens_tuff");
-
 
 // Cluttered mod
 craftingTable.removeByName("luphieclutteredmod:luphie_purple_plank_set_stick_recipe");

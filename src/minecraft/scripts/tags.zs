@@ -199,6 +199,23 @@ val itemsToRemove as IItemStack[] = [
   <item:ae2:certus_quartz_shovel>,
   <item:ae2:certus_quartz_pickaxe>,
   <item:ae2:certus_quartz_sword>,
+  // Pickle Tweaks
+  <item:pickletweaks:white_cobblestone>,
+  <item:pickletweaks:orange_cobblestone>,
+  <item:pickletweaks:magenta_cobblestone>,
+  <item:pickletweaks:light_blue_cobblestone>,
+  <item:pickletweaks:yellow_cobblestone>,
+  <item:pickletweaks:lime_cobblestone>,
+  <item:pickletweaks:pink_cobblestone>,
+  <item:pickletweaks:gray_cobblestone>,
+  <item:pickletweaks:light_gray_cobblestone>,
+  <item:pickletweaks:cyan_cobblestone>,
+  <item:pickletweaks:purple_cobblestone>,
+  <item:pickletweaks:blue_cobblestone>,
+  <item:pickletweaks:brown_cobblestone>,
+  <item:pickletweaks:green_cobblestone>,
+  <item:pickletweaks:red_cobblestone>,
+  <item:pickletweaks:black_cobblestone>,
 ];
 
 for item in itemsToRemove {
@@ -275,3 +292,6 @@ for item in itemsToRemove {
 <tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:cyclic:workbench>);
 <tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:craftingstation:crafting_station>);
 <tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:craftingstation:crafting_station_slab>);
+
+
+
