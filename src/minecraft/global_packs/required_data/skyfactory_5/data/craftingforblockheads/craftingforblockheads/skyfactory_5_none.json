@@ -49,14 +49,18 @@
           "item": "woodenbucket:wooden_bucket"
         },
         {
-          "item": "sophisticatedstorage:chest"
+          "item": "exnihilosequentia:stone_barrel"
+        },
+        {
+          "item": "sophisticatedstorage:chest",
+          "nbt": "{accentColor:6710886,mainColor:9539985}"
         },
         {
           "item": "cyclic:hopper"
         }
       ],
       "hard_requirements": ["none_crafting_table_present"],
-      "priority": 9999
+      "priority": 100000
     }
   }
 }

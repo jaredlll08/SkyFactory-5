@@ -89,9 +89,6 @@
         },
         {
           "item": "colouredstuff:crafting_table_purple"
-        },
-        {
-          "item": "exnihilosequentia:enderman_doll"
         }
       ],
       "hard_requirements": ["sponge"]
