@@ -1,9 +1,10 @@
 {
-  "x": -169,
-  "y": 150,
+  "x": 50,
+  "y": 50,
   "width": 98,
   "height": 20,
   "langKey": "fml.menu.mods",
   "action": "OPEN_GUI",
-  "data": "MODS"
+  "data": "MODS",
+  "anchor": "MIDDLE_LEFT"
 }
