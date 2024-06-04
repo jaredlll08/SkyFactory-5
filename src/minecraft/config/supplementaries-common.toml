@@ -179,7 +179,11 @@ cave_urns = true
 [functional.soap]
 enabled = true
 # Dyed Bock types that cannot be cleaned with soap
-clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower"]
+clean_blacklist = [
+  "minecraft:glazed_terracotta",
+  "botania:mystical_flower",
+  "pickletweaks:cobblestone"
+]
 
 # This is a map of special blocks that can be cleaned with soap
 [functional.soap.special_blocks]

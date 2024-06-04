@@ -158,7 +158,7 @@ no_optifine_warn_screen = false
 # Range: -10000 ~ 10000
 config_button_y_offset = 0
 # Disables Amendments suggestion screen
-no_amendments_screen = false
+no_amendments_screen = true
 
 # Game tweaks
 [tweaks]
