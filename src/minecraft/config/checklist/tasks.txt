@@ -24,6 +24,7 @@ Discover §e(§0Yellow§e)
 
 # §1--==§0Age of Beginning-ment§1==--
 Use a Barrel to Create Dirt
+Eat Dirt!
 Use Colored Planks to craft any Color Crafting Table
 Craft a Crafting Station
 Craft a Campfire to Obtain Ash and use it to craft Cobblestone
