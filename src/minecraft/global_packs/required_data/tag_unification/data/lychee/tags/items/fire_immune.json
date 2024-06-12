@@ -1,4 +1,8 @@
 {
   "replace": false,
-  "values": ["#skyfactory_5:color_apples"]
+  "values": [
+    "#skyfactory_5:color_apples",
+    "sf5_things:dirt_and_worms",
+    "minecraft:diamond"
+  ]
 }
