@@ -57,6 +57,12 @@
         },
         {
           "item": "cyclic:hopper"
+        },
+        {
+          "item": "craftingstation:crafting_station"
+        },
+        {
+          "item": "craftingstation:crafting_station_slab"
         }
       ],
       "hard_requirements": ["none_crafting_table_present"],
