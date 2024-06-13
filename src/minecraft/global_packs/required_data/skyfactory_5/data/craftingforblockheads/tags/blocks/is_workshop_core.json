@@ -19,7 +19,6 @@
     "colouredstuff:crafting_table_purple",
     "colouredstuff:crafting_table_red",
     "colouredstuff:crafting_table_white",
-    "colouredstuff:crafting_table_yellow",
-    "minecraft:furnace"
+    "colouredstuff:crafting_table_yellow"
   ]
 }
