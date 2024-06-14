@@ -4,7 +4,9 @@
       "item": "minecraft:magenta_concrete_powder"
     },
     "title": "Magenta Color Stage",
-    "description": "This is a test",
+    "description": {
+      "translate": "skyfactory_5.advancement.magenta.stage"
+    },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,

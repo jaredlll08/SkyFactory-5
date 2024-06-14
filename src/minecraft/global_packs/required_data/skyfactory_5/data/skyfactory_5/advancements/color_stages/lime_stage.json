@@ -4,7 +4,9 @@
       "item": "minecraft:lime_concrete_powder"
     },
     "title": "Lime Color Stage",
-    "description": "This is a test",
+    "description": {
+      "translate": "skyfactory_5.advancement.lime.stage"
+    },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,

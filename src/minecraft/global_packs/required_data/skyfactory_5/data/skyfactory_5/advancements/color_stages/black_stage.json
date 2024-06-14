@@ -4,7 +4,9 @@
       "item": "minecraft:black_concrete_powder"
     },
     "title": "Black Color Stage",
-    "description": "This is a test",
+    "description": {
+      "translate": "skyfactory_5.advancement.black.stage"
+    },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,

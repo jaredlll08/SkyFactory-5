@@ -3,8 +3,12 @@
     "icon": {
       "item": "enderio:confusing_powder"
     },
-    "title": "All Colors",
-    "description": "All Colors Unlocked",
+    "title": {
+      "translate": "advancements.story.enchant_item.title"
+    },
+    "description": {
+      "translate": "skyfactory_5.advancement.all_colors.stage"
+    },
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": true,
