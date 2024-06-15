@@ -222,7 +222,6 @@ public enum MobStage {
   TUNA = "tuna",
   TURTLE = "turtle",
   UMBRA_COW = "umbra_cow",
-  VANILLA_GOAT = "vanilla_goat",
   VEX = "vex",
   VILER_WITCH = "viler_witch",
   VILLAGER = "villager",

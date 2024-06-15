@@ -1197,7 +1197,7 @@
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
-    "gamestage": "vanilla_goat",
+    "gamestage": "goat",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {

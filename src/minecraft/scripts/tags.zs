@@ -293,5 +293,6 @@ for item in itemsToRemove {
 <tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:craftingstation:crafting_station>);
 <tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:craftingstation:crafting_station_slab>);
 
-
+// Using this as a test for goat spawns not working on this block normally
+<tagmanager:blocks>.addId(<tag:blocks:minecraft:dirt>, <resource:colouredstuff:dirt_none>);
 

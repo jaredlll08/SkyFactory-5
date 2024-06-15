@@ -50,7 +50,7 @@ export const mobData: MobData[] = [
     spawnOnly: true,
     mobID: "minecraft:goat",
     mobName: "Goat",
-    stage: "vanilla_goat",
+    stage: "goat",
     minLightLevel: 8,
     maxLightLevel: 15,
   },

@@ -96,7 +96,7 @@ public class Globals {
     <entitytype:minecraft:frog>: new StagedMob(<entitytype:minecraft:frog>, MobStage.FROG),
     <entitytype:minecraft:ghast>: new StagedMob(<entitytype:minecraft:ghast>, MobStage.GHAST),
     <entitytype:minecraft:glow_squid>: new StagedMob(<entitytype:minecraft:glow_squid>, MobStage.GLOW_SQUID),
-    <entitytype:minecraft:goat>: new StagedMob(<entitytype:minecraft:goat>, MobStage.VANILLA_GOAT),
+    <entitytype:minecraft:goat>: new StagedMob(<entitytype:minecraft:goat>, MobStage.GOAT),
     <entitytype:minecraft:guardian>: new StagedMob(<entitytype:minecraft:guardian>, MobStage.GUARDIAN),
     <entitytype:minecraft:hoglin>: new StagedMob(<entitytype:minecraft:hoglin>, MobStage.HOGLIN),
     <entitytype:minecraft:horse>: new StagedMob(<entitytype:minecraft:horse>, MobStage.HORSE),

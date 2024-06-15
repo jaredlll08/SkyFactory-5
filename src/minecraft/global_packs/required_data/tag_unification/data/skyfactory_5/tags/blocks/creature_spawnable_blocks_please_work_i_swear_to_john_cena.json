@@ -5,11 +5,11 @@
     "#minecraft:planks",
     "#minecraft:slabs",
     "#minecraft:logs",
+    "#minecraft:dirt",
     "#forge:sand",
     "#forge:cobblestone",
     "minecraft:obsidian",
     "minecraft:end_stone",
-    "colouredstuff:slab_planks_green",
-    "colouredstuff:dirt_none"
+    "colouredstuff:slab_planks_green"
   ]
 }

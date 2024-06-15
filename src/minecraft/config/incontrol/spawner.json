@@ -370,7 +370,7 @@
     }
   },
   {
-    "mob": ["minecraft:goat"],
+    "mob": ["minecraft:goat", "colourfulgoats:goat"],
     "persecond": 10,
     "attempts": 50,
     "amount": {
