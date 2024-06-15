@@ -1,7 +1,7 @@
 {
   "__typename": "NormalGateway",
   "size": "large",
-  "color": "#d3d3d3",
+  "color": "#9c9d97",
   "failures": [
     {
       "type": "gateways:command",
