@@ -2,37 +2,31 @@ import crafttweaker.forge.api.event.interact.RightClickBlockEvent;
 import crafttweaker.api.block.entity.BlockEntity;
 
 events.register<RightClickBlockEvent>((event) => {
-    val player = event.entity;
-    val pos = event.blockPos;
-    val level = player.level;
+    val level = event.entity.level;
     val heldItem = event.itemStack;
-    if level.isClientSide {
-        return;
-    }
-    val mbe = level.getBlockEntity(pos);
-    if mbe is BlockEntity {
-        val be = mbe as BlockEntity;
-        if be.registryName == <resource:minecraft:mob_spawner> {
 
-            var toSpawn = "";
-            // Add stuff here
-            if <item:minecraft:stick>.matches(heldItem) {
-                toSpawn = "minecraft:sheep";
-            } else if <item:minecraft:diamond>.matches(heldItem) {
-                toSpawn = "minecraft:chicken";
-            }
+    val potentialBlockEntity = level.getBlockEntity(event.blockPos);
+    if potentialBlockEntity is BlockEntity {
+      val blockEntity = potentialBlockEntity as BlockEntity;
 
-            if !toSpawn.blank {
-                val data = be.data;
-                if !("SpawnData" in data) {
-                    data["SpawnData"] = {};
-                }
-                if !("entity" in data["SpawnData"]) {
-                    data["SpawnData"]["entity"] = {};
-                }
-                data["SpawnData"]["entity"]["id"] = toSpawn;
-                be.updateData(data);
-            }
+      if blockEntity.registryName == <resource:minecraft:mob_spawner> {
+        if !<item:obtrophies:trophy>.matches(heldItem) || !("BlockEntityTag" in heldItem.tag) || !("entity" in heldItem.tag["BlockEntityTag"]) {
+          return;
         }
+
+        val toSpawn = heldItem.tag["BlockEntityTag"]["entity"];
+
+        val data = blockEntity.data;
+        if !("SpawnData" in data) {
+          data["SpawnData"] = {};
+        }
+        if !("entity" in data["SpawnData"]) {
+          data["SpawnData"]["entity"] = {};
+        }
+        data["SpawnData"]["entity"]["id"] = toSpawn;
+        blockEntity.updateData(data);
+
+        event.cancel();
+      }
     }
 });
