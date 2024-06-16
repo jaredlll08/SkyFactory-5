@@ -1,11 +1,12 @@
 import archiver from "archiver";
+import chalk from "chalk";
 import { randomBytes } from "crypto";
 import fs from "fs";
 import glob from "glob-promise";
 import { globifyGitIgnore } from "globify-gitignore";
 import path from "path";
 import mcPackage from "mc-package.json";
-import { createDirectories } from "scripts/utils/file";
+import { createDirectories, emptyDirectory } from "scripts/utils/file";
 import {
   directories,
   releaseDirPath,
@@ -16,6 +17,9 @@ import {
 async function main() {
   // Ensure release directory exists
   createDirectories(releaseDirPath);
+
+  // Delete any existing files
+  emptyDirectory(releaseDirPath);
 
   let clientFileName = `SkyFactory 5 v${mcPackage.version}`;
   let serverFileName = `SkyFactory 5 Server v${mcPackage.version}`;
@@ -94,14 +98,12 @@ async function createZip(
     });
 
     output.on("close", () => {
-      console.log(`${archive.pointer()} total bytes`);
-      console.log(
-        "Archiver has been finalized and the output file descriptor has closed.",
-      );
+      console.log(chalk.green(`Successfully created zip: ${target}`));
       resolve();
     });
 
     archive.on("error", (err: unknown) => {
+      console.log(chalk.red(`An error occurred while creating zip: ${target}`));
       reject(err);
     });
 
