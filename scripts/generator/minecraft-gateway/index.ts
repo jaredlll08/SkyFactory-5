@@ -12,6 +12,7 @@ import { RegisterGeneratorFn } from "scripts/generator/models";
 import { ColorName, mapColorNameToHex } from "scripts/utils/minecraft-colors";
 import { GatewayType } from "./constants";
 import { appendToData, loadData, MobData } from "./data-manager";
+import { generateHostileNeuralNetworkEntries } from "./hostile-neural-networks";
 import { generateInControlSpawnConfig } from "./incontrol-spawn";
 import { generateItemBordersConfig } from "./itemborders";
 import { generateLangFile } from "./lang";
@@ -214,6 +215,7 @@ const generateUpdatedFilesAction: CustomActionFunction = async (
     generateLangFile,
     generateItemBordersConfig,
     generateTreasureBagLootTables,
+    generateHostileNeuralNetworkEntries,
   ];
 
   await Promise.all(

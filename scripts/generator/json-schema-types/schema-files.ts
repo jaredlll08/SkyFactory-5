@@ -50,4 +50,8 @@ export const schemaFiles = new Map<string, string[]>([
     "minecraft/obtrophies/trophy.json",
     ["/src/minecraft/global_packs/required_data/*/data/*/trophies/*.json"],
   ],
+  [
+    "minecraft/hostilenetworks/data-model.json",
+    ["src/minecraft/datagen/data/**/*.json"],
+  ],
 ]);

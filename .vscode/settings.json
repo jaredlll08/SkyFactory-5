@@ -144,6 +144,10 @@
         "/src/minecraft/global_packs/required_data/*/data/*/trophies/*.json"
       ],
       "url": "./schemas/minecraft/obtrophies/trophy.json"
+    },
+    {
+      "fileMatch": ["src/minecraft/datagen/data/**/*.json"],
+      "url": "./schemas/minecraft/hostilenetworks/data-model.json"
     }
   ],
   "cSpell.enabledLanguageIds": [

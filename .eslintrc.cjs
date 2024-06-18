@@ -200,6 +200,10 @@ function getGeneratedSchemaValidatorRules() {
       ],
       schema: "./schemas/minecraft/obtrophies/trophy.json",
     },
+    {
+      fileMatch: ["rc/minecraft/datagen/data/**/*.json"],
+      schema: "./schemas/minecraft/hostilenetworks/data-model.json",
+    },
   ];
   // GENERATOR END
 }

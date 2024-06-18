@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "Hostile Neural Networks Data Model",
+  "description": "A Hostile Neural Networks data model datapack file",
+  "type": "object",
+  "properties": {
+    "entity": {
+      "type": "string"
+    },
+    "conditions": {
+      "type": "array"
+    },
+    "variants": {
+      "type": "array"
+    },
+    "name": {
+      "type": "string"
+    },
+    "name_color": {
+      "type": "string"
+    },
+    "gui_scale": {
+      "type": "number"
+    },
+    "gui_x_offset": {
+      "type": "number"
+    },
+    "gui_y_offset": {
+      "type": "number"
+    },
+    "gui_z_offset": {
+      "type": "number"
+    },
+    "sim_cost": {
+      "type": "number"
+    },
+    "display_nbt": {
+      "type": "object"
+    },
+    "input": {
+      "$ref": "#/$defs/item"
+    },
+    "base_drop": {
+      "$ref": "#/$defs/item"
+    },
+    "trivia": {
+      "type": "string"
+    },
+    "fabricator_drops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "item": {
+            "type": "string"
+          },
+          "count": {
+            "type": "number"
+          },
+          "optional": {
+            "type": "boolean"
+          }
+        },
+        "required": ["item"]
+      }
+    },
+    "tier_data": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    },
+    "data_per_kill": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      }
+    }
+  },
+  "required": ["entity"],
+  "additionalProperties": false,
+
+  "$defs": {
+    "item": {
+      "type": "object",
+      "properties": {
+        "item": {
+          "type": "string"
+        },
+        "count": {
+          "type": "number"
+        }
+      },
+      "required": ["item"]
+    }
+  }
+}
