@@ -4,7 +4,8 @@
 /src/minecraft/kubejs/probe
 /src/minecraft/kubejs/README.txt
 
-# CCI
-/src/minecraft/config/contentcreatorintegration/logs
+# Configs
+/src/minecraft/config/contentcreatorintegration
+/src/minecraft/config/roughlyenoughitems/favorites.json5
 
 /minecraft/mods/*.disabled
