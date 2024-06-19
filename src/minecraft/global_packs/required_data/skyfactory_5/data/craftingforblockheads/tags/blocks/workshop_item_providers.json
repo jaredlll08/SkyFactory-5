@@ -30,6 +30,8 @@
     "sophisticatedstorage:limited_netherite_barrel_4",
     "sophisticatedstorage:netherite_chest",
     "sophisticatedstorage:netherite_shulker_box",
-    "sophisticatedstorage:shulker_box"
+    "sophisticatedstorage:shulker_box",
+    "minecraft:chest",
+    "minecraft:barrel"
   ]
 }

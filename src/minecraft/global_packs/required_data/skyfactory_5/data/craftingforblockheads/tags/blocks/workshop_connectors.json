@@ -37,6 +37,15 @@
     "exnihilocoloratus:white_crucible",
     "exnihilocoloratus:yellow_barrel",
     "exnihilocoloratus:yellow_crucible",
-    "sophisticatedstorage:chest"
+    "sophisticatedstorage:chest",
+    "minecraft:furnace",
+    "minecraft:crafting_table",
+    "minecraft:composter",
+    "minecraft:smoker",
+    "minecraft:blast_furnace",
+    "minecraft:cartography_table",
+    "minecraft:fletching_table",
+    "minecraft:grindstone",
+    "minecraft:smithing_table"
   ]
 }
