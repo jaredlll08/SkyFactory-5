@@ -7,14 +7,15 @@ const buildDirPath = path.join(process.cwd(), "src", "minecraft");
 const minecraftDirPath = path.join(process.cwd(), "minecraft");
 
 export const directories = new Map([
-  ["mods", minecraftDirPath],
   ["config", buildDirPath],
   ["defaultconfigs", buildDirPath],
   ["global_packs", buildDirPath],
+  ["journeymap", buildDirPath],
   ["kubejs", buildDirPath],
+  ["mods", minecraftDirPath],
+  ["packmenu", buildDirPath],
   ["scripts", buildDirPath],
   ["thingpacks", buildDirPath],
-  ["packmenu", buildDirPath],
 ]);
 
 export const serverIgnoredMods: string[] = [

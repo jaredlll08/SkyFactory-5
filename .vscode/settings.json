@@ -51,7 +51,8 @@
   ],
   "files.associations": {
     "*.mcmeta": "json",
-    ".releaseignore": "ignore"
+    ".releaseignore": "ignore",
+    "*.config": "json5"
   },
   "files.exclude": {
     ".eslintcache": true,

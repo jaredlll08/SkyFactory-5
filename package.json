@@ -81,7 +81,7 @@
   },
   "lint-staged": {
     "*": "prettier --ignore-unknown --write --log-level=warn",
-    "*.{bak,cjs,js,json,json5,jsonc,jsx,mcmeta,mjs,toml,ts,tsx,zs}": "eslint --fix --quiet"
+    "*.{bak,cjs,config,js,json,json5,jsonc,jsx,mcmeta,mjs,toml,ts,tsx,zs}": "eslint --fix --quiet"
   },
   "dependencies": {
     "lodash.clonedeep": "^4.5.0"

@@ -73,7 +73,7 @@ const config = {
       parser: "toml-eslint-parser",
     },
     {
-      files: ["*.json", "*.json5", "*.jsonc", "*.mcmeta"],
+      files: ["*.json", "*.json5", "*.jsonc", "*.mcmeta", "*.config"],
       parser: "jsonc-eslint-parser",
     },
     {

@@ -1,6 +1,7 @@
 const moduleFileExtensions = [
   "bak",
   "cjs",
+  "config",
   "js",
   "json",
   "json5",
