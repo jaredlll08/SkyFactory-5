@@ -41,6 +41,8 @@ interface MobDataAll extends MobDataBase {
   trophyData?: Omit<OpenBlocksTrophiesTrophy, "entity">;
   /** Override the default weight value for the mob's gateway drops in the trophy bag loot table. */
   trophyBagLootTableWeight?: number;
+  /** Omits this mob's gateway pearl from certain loot tables */
+  isUniqueMob?: boolean;
 }
 
 export type MobData = MobDataSpawnOnly | MobDataAll;
@@ -637,6 +639,7 @@ export const mobData: MobData[] = [
     },
     minLightLevel: 7,
     maxLightLevel: 15,
+    isUniqueMob: true, // TODO: Exclude from treasure bags (and eventually villager trades)
   },
   {
     spawnOnly: false,

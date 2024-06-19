@@ -50,7 +50,7 @@ export async function generateTreasureBagLootTables(data: MobData) {
   });
 
   data.forEach((entry) => {
-    if (entry.spawnOnly) {
+    if (entry.spawnOnly || entry.isUniqueMob) {
       return;
     }
 
