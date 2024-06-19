@@ -314,7 +314,6 @@ villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 1
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/polar_bear"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/albino_cow"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/baby_ghast"}), 4, 16, 0.05);
-villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/energetic_sheep"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/jolly_llama"}), 4, 16, 0.05);
 // Level 3
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 3, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/melon_golem"}), 4, 16, 0.05);
@@ -327,7 +326,6 @@ villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 3
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/albino_cow"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/baby_ghast"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/chicken"}), 4, 16, 0.05);
-villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/energetic_sheep"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/ghast"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/goat"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/jolly_llama"}), 4, 16, 0.05);

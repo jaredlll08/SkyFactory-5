@@ -32,28 +32,6 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/energetic_sheep\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 100,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{gateway:\"gateways:titan/energetic_sheep\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 100,
-          "functions": [
-            {
-              "function": "set_nbt",
               "tag": "{gateway:\"gateways:normal/ghast\"}"
             }
           ]
