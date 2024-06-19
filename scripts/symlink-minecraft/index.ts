@@ -15,10 +15,11 @@ const symlinkDirs = new Map([
   ["config", buildDir],
   ["defaultconfigs", buildDir],
   ["global_packs", buildDir],
+  ["journeymap", buildDir],
   ["kubejs", buildDir],
+  ["packmenu", buildDir],
   ["scripts", buildDir],
   ["thingpacks", buildDir],
-  ["packmenu", buildDir],
 ]);
 
 main();

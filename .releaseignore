@@ -1,11 +1,18 @@
+# Minecraft Source Files
 ## Kubejs
 /src/minecraft/kubejs/.eslintrc.cjs
 /src/minecraft/kubejs/jsconfig.json
 /src/minecraft/kubejs/probe
 /src/minecraft/kubejs/README.txt
 
-# Configs
+## Configs
 /src/minecraft/config/contentcreatorintegration
 /src/minecraft/config/roughlyenoughitems/favorites.json5
+
+## Journeymap
+/src/minecraft/journeymap/data
+/src/minecraft/journeymap/icon
+/src/minecraft/journeymap/server
+/src/minecraft/journeymap/*.log
 
 /minecraft/mods/*.disabled

@@ -30,6 +30,11 @@
 ## Configs
 /src/minecraft/config/contentcreatorintegration
 /src/minecraft/config/roughlyenoughitems/favorites.json5
+## Journeymap
+/src/minecraft/journeymap/data
+/src/minecraft/journeymap/icon
+/src/minecraft/journeymap/server
+/src/minecraft/journeymap/*.log
 
 # OS
 .DS_Store
