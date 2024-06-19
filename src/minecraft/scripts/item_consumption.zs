@@ -117,21 +117,7 @@ for stack, color in COLOR_MAP {
 
 
 
-    OnEat.register(<item:supplementaries:soap>, (player) => {
-        val level = player.level;
-
-        if level is ServerLevel {
-            val sl = level as ServerLevel;
-
-            sl.server.executeCommand("colorfulskies color @s sun clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s moon clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s sunrise clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s sky clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s cloud clear", player, true);
-            }
-});
-
-    OnEat.register(<item:minecraft:feather>, (player) => {
+    OnEat.register(<item:sf5_things:rgb_dye>, (player) => {
         val level = player.level;
 
         if level is ServerLevel {
