@@ -1,0 +1,49 @@
+{
+  "entity": "minecraft:phantom",
+  "variants": [],
+  "name": "entity.minecraft.phantom",
+  "name_color": "#3c44a9",
+  "display_nbt": {},
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "minecraft:blue_dye",
+    "count": 1
+  },
+  "trivia": "hostilenetworks.trivia.phantom",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:phantom_membrane",
+      "count": 64
+    },
+    {
+      "item": "simplehats:hatbag_common",
+      "count": 7,
+      "optional": true
+    },
+    {
+      "item": "simplehats:hatbag_uncommon",
+      "count": 5,
+      "optional": true
+    },
+    {
+      "item": "simplehats:hatbag_rare",
+      "count": 4,
+      "optional": true
+    },
+    {
+      "item": "simplehats:hatbag_epic",
+      "count": 2,
+      "optional": true
+    }
+  ],
+  "tier_data": [12, 60, 360, 1260],
+  "data_per_kill": [1, 4, 10, 18]
+}

@@ -13,6 +13,7 @@ const minecraftPath = path.join(process.cwd(), "minecraft");
 const symlinkDirs = new Map([
   [".vscode", process.cwd()],
   ["config", buildDir],
+  ["datagen", buildDir],
   ["defaultconfigs", buildDir],
   ["global_packs", buildDir],
   ["journeymap", buildDir],

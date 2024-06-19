@@ -9,7 +9,11 @@ import { mapColorNameToHex } from "scripts/utils/minecraft-colors";
 import { MobData } from "./data-manager";
 import { getDyeFromColor } from "./utils";
 
-const skippedMobIDs = new Set(["minecraft:allay"]);
+const skippedMobIDs = new Set<string>([
+  "forcecraft:fairy",
+  "luggage:ender_luggage",
+  "luggage:luggage",
+]);
 
 const rootDir = path.join("src", "minecraft", "datagen", "data");
 

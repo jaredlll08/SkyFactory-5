@@ -1,0 +1,53 @@
+{
+  "entity": "minecraft:ghast",
+  "variants": [],
+  "name": "entity.minecraft.ghast",
+  "name_color": "#f9ffff",
+  "display_nbt": {},
+  "gui_scale": 1,
+  "gui_x_offset": 0,
+  "gui_y_offset": 0,
+  "gui_z_offset": 0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "minecraft:white_dye",
+    "count": 1
+  },
+  "trivia": "hostilenetworks.trivia.ghast",
+  "fabricator_drops": [
+    {
+      "item": "minecraft:gunpowder",
+      "count": 64
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "count": 50
+    },
+    {
+      "item": "simplehats:hatbag_common",
+      "count": 5,
+      "optional": true
+    },
+    {
+      "item": "simplehats:hatbag_uncommon",
+      "count": 4,
+      "optional": true
+    },
+    {
+      "item": "simplehats:hatbag_rare",
+      "count": 3,
+      "optional": true
+    },
+    {
+      "item": "simplehats:hatbag_epic",
+      "count": 2,
+      "optional": true
+    }
+  ],
+  "tier_data": [12, 60, 360, 1260],
+  "data_per_kill": [1, 4, 10, 18]
+}
