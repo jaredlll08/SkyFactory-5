@@ -8,7 +8,6 @@ const minecraftDirPath = path.join(process.cwd(), "minecraft");
 
 export const directories = new Map([
   ["config", buildDirPath],
-  ["datagen", buildDirPath],
   ["defaultconfigs", buildDirPath],
   ["global_packs", buildDirPath],
   ["journeymap", buildDirPath],

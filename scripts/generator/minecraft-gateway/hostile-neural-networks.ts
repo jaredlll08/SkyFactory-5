@@ -15,7 +15,16 @@ const skippedMobIDs = new Set<string>([
   "luggage:luggage",
 ]);
 
-const rootDir = path.join("src", "minecraft", "datagen", "data");
+const rootDir = path.join(
+  "src",
+  "minecraft",
+  "global_packs",
+  "required_data",
+  "skyfactory_5",
+  "data",
+  "hostilenetworks",
+  "data_models",
+);
 
 export async function generateHostileNeuralNetworkEntries(data: MobData) {
   await Promise.all(
@@ -36,17 +45,12 @@ export async function generateHostileNeuralNetworkEntries(data: MobData) {
         );
       }
 
-      const [namespace, mob] = entry.mobID.split(":");
-      if (!namespace || !mob) {
+      const [, mob] = entry.mobID.split(":");
+      if (!mob) {
         throw new Error("invalid mob ID");
       }
 
-      const filePath = path.join(
-        rootDir,
-        namespace,
-        "data_models",
-        `${mob}.json`,
-      );
+      const filePath = path.join(rootDir, `${mob}.json`);
       const fileExists = await checkFileExists(filePath);
       if (!fileExists) {
         throw new Error(
