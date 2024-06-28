@@ -1,3 +1,4 @@
 {
-  "entity": "monsterplus:mother_lava_squid"
+  "entity": "monsterplus:mother_lava_squid",
+  "scale": 0.5
 }

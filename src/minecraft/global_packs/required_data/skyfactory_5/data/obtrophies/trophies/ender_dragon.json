@@ -1,3 +1,4 @@
 {
-  "entity": "minecraft:ender_dragon"
+  "entity": "minecraft:ender_dragon",
+  "scale": 0.75
 }

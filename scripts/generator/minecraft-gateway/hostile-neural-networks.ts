@@ -1,3 +1,4 @@
+import { merge } from "lodash";
 import path from "path";
 import { HostileNeuralNetworksDataModel } from "schemas/minecraft/hostilenetworks/data-model";
 import {
@@ -66,6 +67,10 @@ export async function generateHostileNeuralNetworkEntries(data: MobData) {
         count: 1,
       };
       data.tier_data = [12, 60, 360, 1260];
+
+      if (entry.neuralNetworkOverrides) {
+        merge(data, entry.neuralNetworkOverrides);
+      }
 
       await writeJSONFile(filePath, data, "json");
     }),

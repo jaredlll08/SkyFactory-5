@@ -1,4 +1,5 @@
 import { Byte, Float, Int, TagObject } from "nbt-ts";
+import { HostileNeuralNetworksDataModel } from "schemas/minecraft/hostilenetworks/data-model";
 import { InControlSpawn } from "schemas/minecraft/incontrol/spawn";
 import { OpenBlocksTrophiesTrophy } from "schemas/minecraft/obtrophies/trophy";
 import { ColorName } from "scripts/utils/minecraft-colors";
@@ -43,6 +44,8 @@ interface MobDataAll extends MobDataBase {
   trophyBagLootTableWeight?: number;
   /** Omits this mob's gateway pearl from certain loot tables */
   isUniqueMob?: boolean;
+  /** Neural Network overrides */
+  neuralNetworkOverrides?: Pick<HostileNeuralNetworksDataModel, "gui_scale">;
 }
 
 export type MobData = MobDataSpawnOnly | MobDataAll;
@@ -792,6 +795,9 @@ export const mobData: MobData[] = [
     },
     minLightLevel: 0,
     maxLightLevel: 7,
+    neuralNetworkOverrides: {
+      gui_scale: 0.75,
+    },
   },
   {
     spawnOnly: false,
@@ -845,6 +851,9 @@ export const mobData: MobData[] = [
     trophyData: {
       offset: 0.3,
       scale: 0.25,
+    },
+    neuralNetworkOverrides: {
+      gui_scale: 0.4,
     },
   },
   {
@@ -1288,6 +1297,9 @@ export const mobData: MobData[] = [
     },
     trophyData: {
       scale: 0.5,
+    },
+    neuralNetworkOverrides: {
+      gui_scale: 0.4,
     },
   },
   {

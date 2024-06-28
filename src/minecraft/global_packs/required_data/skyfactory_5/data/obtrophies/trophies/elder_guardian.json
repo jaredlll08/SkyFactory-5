@@ -1,3 +1,4 @@
 {
-  "entity": "minecraft:elder_guardian"
+  "entity": "minecraft:elder_guardian",
+  "scale": 0.75
 }
