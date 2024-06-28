@@ -646,6 +646,12 @@ REIEvents.hide("item", (event) => {
     "pickletweaks:smooth_glowstone",
     "pickletweaks:diamond_apple",
     "pickletweaks:emerald_apple",
+    "forcecraft:red_chu_jelly",
+    "forcecraft:green_chu_jelly",
+    "forcecraft:blue_chu_jelly",
+    "forcecraft:gold_chu_jelly",
+    "earthmobsmod:tropical_slime_block",
+    "earthmobsmod:tropical_ball",
   ];
 
   hiddenItems.forEach((item) => event.hide(item));

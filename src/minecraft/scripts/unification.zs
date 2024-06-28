@@ -81,7 +81,14 @@ val blocklist = [
   <item:pickletweaks:green_cobblestone>,
   <item:pickletweaks:red_cobblestone>,
   <item:pickletweaks:black_cobblestone>,
-
+// Chu Jelly
+  <item:forcecraft:red_chu_jelly>,
+  <item:forcecraft:green_chu_jelly>,
+  <item:forcecraft:blue_chu_jelly>,
+  <item:forcecraft:gold_chu_jelly>,
+// Tropical Slime
+<item:earthmobsmod:tropical_slime_block>,
+<item:earthmobsmod:tropical_ball>
 
 ] as IIngredient[];
 

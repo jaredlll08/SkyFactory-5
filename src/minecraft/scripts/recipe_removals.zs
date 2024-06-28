@@ -265,3 +265,4 @@ craftingTable.remove(<item:cyclic:mattock_stone>);
 
 // Industrial Foregoing
   craftingTable.remove(<item:industrialforegoing:dryrubber>);
+
