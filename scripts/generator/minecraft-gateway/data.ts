@@ -538,6 +538,9 @@ export const mobData: MobData[] = [
     },
     minLightLevel: 0,
     maxLightLevel: 7,
+    trophyData: {
+      scale: 0.75,
+    },
   },
   {
     spawnOnly: false,
@@ -603,6 +606,9 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+    trophyData: {
+      scale: 0.75,
+    },
   },
   {
     spawnOnly: false,
@@ -1279,6 +1285,9 @@ export const mobData: MobData[] = [
           scale: new Float(0.05),
         },
       },
+    },
+    trophyData: {
+      scale: 0.5,
     },
   },
   {
