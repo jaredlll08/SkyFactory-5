@@ -35,6 +35,7 @@ Use Sand on a Barrel filled with Water to make Clay
 Make Lava in a Fired Crucible
 ===
 #§1--==§0Age of Automation§1==--
+Use a Stirling or Combustion Generator to make power
 Automate resources
 Craft RGB Dye
 Craft a Blender to Mix Dyes together
@@ -107,6 +108,8 @@ Craft a Hammock to sleep to night time
 Fall through the void into a pool of water
 Craft a Silent's Gear Sickle to break leaves faster
 Craft a Silent's Gear Axe to break wood fast!
+Obtain a Hostile Neural Network Faulty Data Model for any mob
+Upgrade a Hostile Neural Network Data Model to Self Aware
 ===
 #§1--==§0Age of Excess§1==--
 Infinity Charger idea
