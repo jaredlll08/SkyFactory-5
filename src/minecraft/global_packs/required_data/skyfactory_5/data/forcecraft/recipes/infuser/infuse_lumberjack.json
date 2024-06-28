@@ -1,7 +1,7 @@
 {
   "type": "forcecraft:infuser",
   "ingredient": {
-    "item": "forcecraft:force_log"
+    "item": "colouredstuff:log_yellow"
   },
   "center": {
     "tag": "forcecraft:valid_lumber_tools"
