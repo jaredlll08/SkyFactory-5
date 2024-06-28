@@ -20,6 +20,7 @@ const groupedItemsToModify = [
       "minecraft:sunflower",
       "minecraft:wither_rose",
       "sf5_things:rgb_dye",
+      "minecraft:feather",
     ],
     hunger: 1,
     saturation: 0.25,
