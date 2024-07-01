@@ -93,7 +93,6 @@ val items as IItemStack[] = [
   <item:mysticalagriculture:inferium_essence>,
   <item:mysticalagriculture:lime_crop_essence>,
   <item:mysticalagriculture:lime_crop_seeds>,
-  <item:scarecrowsterritory:lime_scarecrow>,
   <item:sf5_things:lime_apple>,
   <item:supplementaries:candle_holder_lime>,
   <item:supplementaries:colouredstuff/sign_post_lime>,

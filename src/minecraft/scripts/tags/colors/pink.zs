@@ -81,7 +81,6 @@ val items as ResourceLocation[] = [
   <resource:openstairs:open_cherry_stairsinside>,
   <resource:pizzacraft:ham>,
   <resource:pizzacraft:wing>,
-  <resource:scarecrowsterritory:pink_scarecrow>,
   <resource:sf5_things:pink_apple>,
   <resource:supplementaries:soap>,
   <resource:supplementaries:trapped_present_pink>

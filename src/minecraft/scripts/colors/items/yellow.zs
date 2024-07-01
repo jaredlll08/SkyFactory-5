@@ -119,7 +119,6 @@ val items as IItemStack[] = [
   <item:mysticalagriculture:yellow_crop_essence>,
   <item:mysticalagriculture:yellow_crop_seeds>,
   <item:overweight_farming:overweight_golden_apple_block>,
-  <item:scarecrowsterritory:yellow_scarecrow>,
   <item:sf5_things:yellow_apple>,
   <item:supplementaries:candle_holder_yellow>,
   <item:supplementaries:flag_yellow>,

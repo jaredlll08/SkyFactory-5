@@ -86,7 +86,6 @@ val items as ResourceLocation[] = [
   <resource:mysticalagriculture:green_crop_essence>,
   <resource:mysticalagriculture:green_crop_seeds>,
   <resource:mysticalagriculture:prudentium_essence>,
-  <resource:scarecrowsterritory:green_scarecrow>,
   <resource:sf5_things:block_of_green_dye>,
   <resource:sf5_things:green_apple>,
   <resource:silentgear:green_fluffy_block>,

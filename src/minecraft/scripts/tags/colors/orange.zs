@@ -113,7 +113,6 @@ val items as ResourceLocation[] = [
   <resource:mysticalagriculture:tertium_nugget>,
   <resource:overweight_farming:overweight_carrot_block>,
   <resource:overweight_farming:peeled_overweight_carrot_block>,
-  <resource:scarecrowsterritory:orange_scarecrow>,
   <resource:sf5_things:orange_apple>,
   <resource:supplementaries:candle_holder_orange>,
   <resource:supplementaries:colouredstuff/sign_post_orange>,

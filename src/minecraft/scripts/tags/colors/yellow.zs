@@ -117,7 +117,6 @@ val items as ResourceLocation[] = [
   <resource:mysticalagriculture:yellow_crop_essence>,
   <resource:mysticalagriculture:yellow_crop_seeds>,
   <resource:overweight_farming:overweight_golden_apple_block>,
-  <resource:scarecrowsterritory:yellow_scarecrow>,
   <resource:sf5_things:yellow_apple>,
   <resource:supplementaries:candle_holder_yellow>,
   <resource:supplementaries:flag_yellow>,

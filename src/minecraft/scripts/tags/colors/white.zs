@@ -70,7 +70,6 @@ val items as ResourceLocation[] = [
   <resource:minecraft:white_wool>,
   <resource:mysticalagriculture:white_crop_essence>,
   <resource:mysticalagriculture:white_crop_seeds>,
-  <resource:scarecrowsterritory:white_scarecrow>,
   <resource:sf5_things:block_of_white_dye>,
   <resource:sf5_things:white_apple>,
   <resource:supplementaries:candle_holder_white>,

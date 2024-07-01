@@ -72,7 +72,6 @@ val items as IItemStack[] = [
   <item:minecraft:white_wool>,
   <item:mysticalagriculture:white_crop_essence>,
   <item:mysticalagriculture:white_crop_seeds>,
-  <item:scarecrowsterritory:white_scarecrow>,
   <item:sf5_things:block_of_white_dye>,
   <item:sf5_things:white_apple>,
   <item:supplementaries:candle_holder_white>,
