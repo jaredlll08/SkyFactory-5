@@ -2780,5 +2780,15 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
   },
+  {
+    spawnOnly: false,
+    mobID: "moofluids:fluid_cow",
+    mobName: "Fluid Cow",
+    stage: "fluid_cow",
+    color: ColorName.Brown,
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    minLightLevel: 8,
+    maxLightLevel: 15,
+  },
   //! DATA MANAGER ENTRY MARKER - DO NOT TOUCH
 ];
