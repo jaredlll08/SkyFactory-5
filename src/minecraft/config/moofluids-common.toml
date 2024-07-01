@@ -1,0 +1,29 @@
+# The number of ticks before you can milk a fluid cow again
+# Range: > 0
+defaultMilkingCooldown = 3600
+# Whether fluid cows should spawn naturally
+naturalSpawning = false
+# A list of modid:fluid to blacklist from spawning.
+# Can also use modid:* to disable all fluids from a mod.
+fluidBlacklist = [
+  "minecraft:*",
+  "create:*",
+  "ars_nouveau:*",
+  "botania:*",
+  "biggerreactors:*",
+  "create_enchantment_industry:*",
+  "cyclic:*",
+  "enderio:*",
+  "forcecraft:*",
+  "immersiveengineering:*",
+  "industrialforegoing:*",
+  "mob_grinding_utils:*",
+  "occultism:*",
+  "supplementaries:*",
+  "thermal:*",
+  "titanium:*",
+  "exnihilosequentia:*",
+  "earthmobsmod:*"
+]
+# Milk can be obtained from fluids cows when on cooldown.
+milkCow = false
