@@ -218,9 +218,17 @@ const generateUpdatedFilesAction: CustomActionFunction = async (
     generateHostileNeuralNetworkEntries,
   ];
 
-  await Promise.all(
+  const results = await Promise.allSettled(
     parallelTasks.map((generateFn) => generateFn(cloneDeep(data))),
   );
+
+  const failures = results
+    .filter((result) => result.status === "rejected")
+    .map((result) => result.status === "rejected" && result.reason);
+
+  if (failures.length > 0) {
+    throw failures.join(", ");
+  }
 
   return "Updated all files with the updated Data";
 };
