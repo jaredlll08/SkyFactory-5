@@ -9,7 +9,6 @@
     "#forge:sand",
     "#forge:cobblestone",
     "minecraft:obsidian",
-    "minecraft:end_stone",
-    "colouredstuff:slab_planks_green"
+    "minecraft:end_stone"
   ]
 }
