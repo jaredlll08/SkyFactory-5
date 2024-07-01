@@ -110,6 +110,10 @@ Craft a Silent's Gear Sickle to break leaves faster
 Craft a Silent's Gear Axe to break wood fast!
 Obtain a Hostile Neural Network Faulty Data Model for any mob
 Upgrade a Hostile Neural Network Data Model to Self Aware
+Obtain Energetic Wool and use it to power something
+Collect all 16 colors of the Energetic Sheep (or maybe just 16 of the wool colors)
+Grow your head to 150%
+Grow your head to 250%
 ===
 #§1--==§0Age of Excess§1==--
 Infinity Charger idea
