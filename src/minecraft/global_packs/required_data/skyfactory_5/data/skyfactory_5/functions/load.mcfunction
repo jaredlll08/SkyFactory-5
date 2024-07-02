@@ -1,12 +1,14 @@
-# Loads in tree structure, sets gamerules
-execute unless score spawn_tree testing matches 0.. run gamerule spawnRadius 0
-execute unless score spawn_tree testing matches 0.. run function skyfactory_5:spawn_structure
-execute unless score spawn_tree testing matches 0.. run gamerule doWeatherCycle false
-execute unless score spawn_tree testing matches 0.. run gamerule doInsomnia false
-execute unless score spawn_tree testing matches 0.. run gamerule doTraderSpawning false
-execute unless score spawn_tree testing matches 0.. run function skyfactory_5:spawn_tree_score_update
+#Loads in tree structure, sets gamerules
+scoreboard objectives add spawn_tree_generated dummy
+execute unless score spawn_tree spawn_tree_generated matches 0.. run gamerule spawnRadius 0
+execute unless score spawn_tree spawn_tree_generated matches 0.. run function skyfactory_5:spawn_structure
+execute unless score spawn_tree spawn_tree_generated matches 0.. run gamerule doWeatherCycle false
+execute unless score spawn_tree spawn_tree_generated matches 0.. run gamerule doInsomnia false
+execute unless score spawn_tree spawn_tree_generated matches 0.. run gamerule doTraderSpawning false
+execute unless score spawn_tree spawn_tree_generated matches 0.. run gamerule doPatrolSpawning false
+execute unless score spawn_tree spawn_tree_generated matches 0.. run function skyfactory_5:spawn_tree_score_update
 
-# Loads teams for color glow effect
+#Loads teams for color glow effect
 team add sf5_dark_red_team
 team modify sf5_dark_red_team color dark_red
 

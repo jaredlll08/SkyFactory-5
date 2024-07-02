@@ -1,1 +1,1 @@
-scoreboard players set spawn_tree testing 1
+scoreboard players set spawn_tree spawn_tree_generated 1
