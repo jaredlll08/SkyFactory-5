@@ -1,11 +1,6 @@
-import { mkdir } from "fs/promises";
 import { snakeCase } from "lodash";
 import path from "path";
-import {
-  checkFileExists,
-  readJSONFile,
-  writeJSONFile,
-} from "scripts/utils/file";
+import { readLangFile, writeLangFile } from "scripts/utils/minecraft-lang";
 import { GatewayType } from "./constants";
 import { MobData } from "./data-manager";
 
@@ -13,33 +8,8 @@ const langFilePath = path.resolve(
   "./src/minecraft/global_packs/required_resources/sf5_resources/assets/skyfactory_5/lang/en_us.json",
 );
 
-type LangData = Record<string, string>;
-
-async function readLangFile(): Promise<LangData> {
-  if (await checkFileExists(langFilePath)) {
-    return readJSONFile<LangData>(langFilePath);
-  }
-
-  return {};
-}
-
-async function writeLangFile(data: LangData): Promise<void> {
-  if (!(await checkFileExists(langFilePath))) {
-    await mkdir(path.parse(langFilePath).dir, { recursive: true });
-  }
-
-  const sorted = Object.keys(data)
-    .sort((a, b) => a.localeCompare(b))
-    .reduce((obj, key) => {
-      obj[key] = data[key];
-      return obj;
-    }, {} as LangData);
-
-  return writeJSONFile(langFilePath, sorted, "json");
-}
-
 export async function generateLangFile(data: MobData) {
-  const langData = await readLangFile();
+  const langData = await readLangFile(langFilePath);
 
   Object.keys(langData).forEach((key) => {
     if (key.startsWith("gateways.")) {
@@ -66,5 +36,5 @@ export async function generateLangFile(data: MobData) {
     });
   });
 
-  await writeLangFile(langData);
+  await writeLangFile(langFilePath, langData);
 }
