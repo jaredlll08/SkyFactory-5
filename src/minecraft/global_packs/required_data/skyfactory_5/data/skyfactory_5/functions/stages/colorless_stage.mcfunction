@@ -1,18 +1,17 @@
 gamestage add @s colorless
 #Sets cloud, sun, and moon to green and disables sunrise colors
-colorfulskies disablesunrise @s true
-execute as @e[type=player,distance=..64] run colorfulskies color @s cloud 919191
-execute as @e[type=player,distance=..64] run colorfulskies color @s sun 919191
-execute as @e[type=player,distance=..64] run colorfulskies color @s moon 919191
-execute as @e[type=player,distance=..64] run colorfulskies color @s sunrise 919191
-execute as @e[type=player,distance=..64] run colorfulskies color @s sky 919191
-
-
-#Reloads inControl until a fix is pushed from mcjty
-function skyfactory_5:incontrol_reload
+execute as @e[type=player,distance=..16] run colorfulskies disablesunrise @s true
+execute as @e[type=player,distance=..16] run colorfulskies color @s cloud 919191
+execute as @e[type=player,distance=..16] run colorfulskies color @s sun 919191
+execute as @e[type=player,distance=..16] run colorfulskies color @s moon 919191
+execute as @e[type=player,distance=..16] run colorfulskies color @s sunrise 919191
+execute as @e[type=player,distance=..16] run colorfulskies color @s sky 919191
 
 #Sets Curios slots
 curios set back @s 1
 curios set belt @s 1
 curios set quiver @s 1
 curios set charm @s 2
+
+#Sets spawnpoint
+spawnpoint @s
