@@ -1,12 +1,8 @@
-# General settings
+# These configs are general configs that don't fit any other category.
 [general]
-# Apply Mod On...
-# 0 = Nothing (why install the mod though?)
-# 1 = Llamas
-# 2 = Trader Llamas
-# 3 = Both
-# Range: 0 ~ 3
-applyOn = 3
+# Apply mod on what kind of llamas?
+# Allowed Values: LLAMA, TRADER_LLAMA, ALL
+applyOn = "ALL"
 # Chance of llamas wearing parts of their outfit, in percentage% (0-100)
 # Range: 0 ~ 100
 fancyChance = 80

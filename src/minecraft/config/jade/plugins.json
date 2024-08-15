@@ -4,10 +4,9 @@
     "furnace": true,
     "harvest_tool.show_unbreakable": false,
     "animal_owner": true,
-    "animal_owner.fetch_names": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -51,6 +50,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "moofluids": {
+    "fluid_cow": true
+  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
@@ -62,8 +64,10 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "mcjtylib": {
+    "jadeaddons": true
+  },
   "apotheosis": {
-    "adventure": true,
     "ench": true,
     "spawner": true
   },
@@ -86,19 +90,33 @@
     "tesseract": true,
     "remove_default": true
   },
-  "exnihilosequentia": {
-    "barrel": true,
-    "crucible": true,
-    "sieve": true,
-    "infesting_leaves": true
+  "jadeaddons": {
+    "equipment_requirement": ""
   },
   "shetiphiancore": {
     "hud.rgb16": true,
     "hud": true,
     "hud.redstone": true
   },
+  "exnihilosequentia": {
+    "barrel": true,
+    "crucible": true,
+    "sieve": true,
+    "infesting_leaves": true
+  },
   "appliedcooking": {
     "kitchen_station": true
+  },
+  "create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": true,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "goggles.detailed": false,
+    "placard": true
   },
   "supplementaries": {
     "hat_stand": true

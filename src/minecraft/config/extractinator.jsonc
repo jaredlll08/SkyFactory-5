@@ -17,5 +17,5 @@
   // If the extractinator should be silent
   "silent": false,
   // [Fabric Only] Generates Silt and Slush ores
-  "worldgen": true
+  "worldgen": false
 }

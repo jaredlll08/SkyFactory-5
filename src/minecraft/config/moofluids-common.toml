@@ -23,7 +23,8 @@ fluidBlacklist = [
   "thermal:*",
   "titanium:*",
   "exnihilosequentia:*",
-  "earthmobsmod:*"
+  "earthmobsmod:*",
+  "createaddition:*"
 ]
 # Milk can be obtained from fluids cows when on cooldown.
 milkCow = false

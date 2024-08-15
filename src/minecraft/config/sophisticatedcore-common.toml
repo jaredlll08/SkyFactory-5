@@ -163,5 +163,6 @@ enabledItems = [
   "sophisticatedstorage:copper_to_diamond_tier_upgrade|true",
   "sophisticatedstorage:storage_output|true",
   "sophisticatedstorage:storage_input|true",
-  "sophisticatedstorage:storage_io|true"
+  "sophisticatedstorage:storage_io|true",
+  "sophisticatedstorage:stack_upgrade_tier_5|true"
 ]
