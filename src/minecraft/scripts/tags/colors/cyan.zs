@@ -9,7 +9,6 @@ val items as ResourceLocation[] = [
   <resource:additionallanterns:oxidized_copper_chain>,
   <resource:additionallanterns:waxed_oxidized_copper_chain>,
   <resource:ae2:cyan_paint_ball>,
-  <resource:ae2:ender_dust>,
   <resource:biggerreactors:cyanite_block>,
   <resource:biggerreactors:cyanite_dust>,
   <resource:biggerreactors:cyanite_ingot>,
@@ -108,6 +107,7 @@ val items as ResourceLocation[] = [
   <resource:mysticalagriculture:cyan_crop_essence>,
   <resource:mysticalagriculture:cyan_crop_seeds>,
   <resource:sf5_things:cyan_apple>,
+  <resource:thermal:ender_pearl_dust>,
   <resource:tinted_torches:cyan_torch>
 
   // GENERATOR END

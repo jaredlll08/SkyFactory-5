@@ -52,6 +52,7 @@ val items as ResourceLocation[] = [
   <resource:minecraft:amethyst_block>,
   <resource:minecraft:amethyst_shard>,
   <resource:minecraft:budding_amethyst>,
+  <resource:minecraft:enchanted_book>,
   <resource:minecraft:purple_banner>,
   <resource:minecraft:purple_bed>,
   <resource:minecraft:purple_candle>,

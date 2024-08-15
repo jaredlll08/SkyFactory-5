@@ -13,7 +13,6 @@ val items as IItemStack[] = [
   <item:additionallanterns:oxidized_copper_chain>,
   <item:additionallanterns:waxed_oxidized_copper_chain>,
   <item:ae2:cyan_paint_ball>,
-  <item:ae2:ender_dust>,
   <item:biggerreactors:cyanite_block>,
   <item:biggerreactors:cyanite_dust>,
   <item:biggerreactors:cyanite_ingot>,
@@ -112,6 +111,7 @@ val items as IItemStack[] = [
   <item:mysticalagriculture:cyan_crop_essence>,
   <item:mysticalagriculture:cyan_crop_seeds>,
   <item:sf5_things:cyan_apple>,
+  <item:thermal:ender_pearl_dust>,
   <item:tinted_torches:cyan_torch>
 
   // GENERATOR END

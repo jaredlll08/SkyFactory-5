@@ -54,6 +54,7 @@ val items as IItemStack[] = [
   <item:minecraft:amethyst_block>,
   <item:minecraft:amethyst_shard>,
   <item:minecraft:budding_amethyst>,
+  <item:minecraft:enchanted_book>,
   <item:minecraft:purple_banner>,
   <item:minecraft:purple_bed>,
   <item:minecraft:purple_candle>,
