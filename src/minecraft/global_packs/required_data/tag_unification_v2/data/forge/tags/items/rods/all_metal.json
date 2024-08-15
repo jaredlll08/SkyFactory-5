@@ -1,0 +1,13 @@
+{
+  "values": [
+    "#forge:rods/aluminum",
+    "#forge:rods/iron",
+    "#forge:rods/steel",
+    "createaddition:iron_rod",
+    "createaddition:copper_rod",
+    "createaddition:gold_rod",
+    "createaddition:brass_rod",
+    "createaddition:electrum_rod"
+  ],
+  "replace": true
+}
