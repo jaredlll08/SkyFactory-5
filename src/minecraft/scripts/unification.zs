@@ -88,7 +88,16 @@ val blocklist = [
   <item:forcecraft:gold_chu_jelly>,
 // Tropical Slime
 <item:earthmobsmod:tropical_slime_block>,
-<item:earthmobsmod:tropical_ball>
+<item:earthmobsmod:tropical_ball>,
+
+// Bigger Reactors
+<item:biggerreactors:uranium_block>,
+<item:biggerreactors:uranium_chunk>,
+<item:biggerreactors:uranium_ore>,
+<item:biggerreactors:deepslate_uranium_ore>,
+<item:biggerreactors:raw_uranium_block>
+
+
 
 ] as IIngredient[];
 

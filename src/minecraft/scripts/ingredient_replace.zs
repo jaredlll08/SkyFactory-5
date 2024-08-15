@@ -7,4 +7,6 @@ Replacer.create()
     .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:industrialforegoing:machine_frame_advanced>, <item:thermal:machine_frame>)
     .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:industrialforegoing:machine_frame_supreme>, <item:thermal:machine_frame>)
     .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:thermal:cured_rubber>, <item:industrialforegoing:dryrubber>)
+    .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:rftoolsbase:machine_frame>, <item:thermal:machine_frame>)
+    .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:rftoolsbase:machine_base>, <item:thermal:machine_frame>)
 .execute();

@@ -119,7 +119,8 @@ val items as IItemStack[] = [
 <item:cyclic:shield_flint>,
 <item:cyclic:shield_obsidian>,
 <item:cyclic:shield_bone>,
-
+<item:cyclic:shears_obsidian>,
+<item:cyclic:shears_flint>,
 
 // Cyclic Apples
 <item:cyclic:apple_ender>,
@@ -241,6 +242,7 @@ val items as IItemStack[] = [
 // Thermal
 <item:thermal:rubber>,
 <item:thermal:rubber_block>,
+<item:thermal:slag_block>,
 
 
 // Applied Energistics 2
@@ -252,8 +254,15 @@ val items as IItemStack[] = [
 <item:ae2:certus_quartz_sword>,
 
 // Industrial Foregoing
-<item:industrialforegoing:dryrubber>
+<item:industrialforegoing:dryrubber>,
 
+// RFTools
+<item:rftoolsbase:machine_frame>,
+<item:rftoolsbase:machine_base>,
+<item:rftoolsutility:syringe>,
+<item:rftoolsutility:spawner>,
+<item:rftoolsutility:teleport_probe>,
+<item:rftoolsutility:weakness_module>
 ];
 
 for item in items {
@@ -279,3 +288,4 @@ craftingTable.removeByName("minecraft:ens_tuff");
 // Cluttered mod
 craftingTable.removeByName("luphieclutteredmod:luphie_purple_plank_set_stick_recipe");
 craftingTable.removeByName("luphieclutteredmod:luphie_glow_wood_set_stick_recipe");
+
