@@ -2700,6 +2700,7 @@
   },
   {
     "mob": [
+      "moofluids:fluid_cow",
       "colourfulgoats:goat",
       "colourfulllamas:llama",
       "earthmobsmod:albino_cow",
