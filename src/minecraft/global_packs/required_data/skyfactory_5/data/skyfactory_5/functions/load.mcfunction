@@ -7,6 +7,8 @@ execute unless score spawn_tree spawn_tree_generated matches 0.. run gamerule do
 execute unless score spawn_tree spawn_tree_generated matches 0.. run gamerule doTraderSpawning false
 execute unless score spawn_tree spawn_tree_generated matches 0.. run gamerule doPatrolSpawning false
 execute unless score spawn_tree spawn_tree_generated matches 0.. run function skyfactory_5:spawn_tree_score_update
+#Don't worry about this >.>
+scoreboard objectives add potato_dimension_fill dummy
 
 #Loads teams for color glow effect
 team add sf5_dark_red_team
