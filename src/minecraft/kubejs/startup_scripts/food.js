@@ -35,8 +35,15 @@ const groupedItemsToModify = [
     alwaysEdible: true,
     onEaten: (e) => e.player.tell("you ate"),
   },
+  {
+    ids: ["yellow_snow:yellow_snow"],
+    hunger: 1,
+    saturation: 1,
+    fastToEat: false,
+    alwaysEdible: true,
+    onEaten: (e) => e.player.tell("ew"),
+  },
 ];
-
 ItemEvents.modification((event) => {
   groupedItemsToModify.forEach((group) => {
     group.ids.forEach((id) => {
@@ -46,7 +53,7 @@ ItemEvents.modification((event) => {
           food.saturation(group.saturation);
           food.fastToEat(group.fastToEat);
           if (group.onEaten) {
-            food.eaten(group.onEaten); // Note: You mentioned this is broken, consider alternative
+            food.eaten(group.onEaten); // Apparently is broken!
           }
           food.alwaysEdible(group.alwaysEdible);
         };
