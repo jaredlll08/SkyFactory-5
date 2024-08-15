@@ -72,6 +72,9 @@
         },
         {
           "item": "ae2:certus_quartz_crystal"
+        },
+        {
+          "item": "draconicevolution:draconium_dust"
         }
       ],
       "priority": 99999
