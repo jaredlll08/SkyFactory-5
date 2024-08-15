@@ -293,3 +293,10 @@ craftingTable.addShapeless(
   <item:ae2:sky_dust> * 2,
   [<item:minecraft:gray_dye>, <item:minecraft:gray_dye>, <item:minecraft:light_blue_dye>]
 );
+
+// Draconic Evolution
+craftingTable.addShapeless(
+  "draconium_dust_from_dye",
+  <item:draconicevolution:draconium_dust> * 2,
+  [<item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>]
+);
