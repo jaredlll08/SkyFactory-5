@@ -5,6 +5,6 @@
   1000,
   <item:minecraft:air>,
   [],
-  <item:immersiveengineering:dust_wood>,
+  <item:thermal:sawdust>,
   []
 );
