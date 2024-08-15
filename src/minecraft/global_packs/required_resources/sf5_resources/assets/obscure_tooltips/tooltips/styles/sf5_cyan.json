@@ -8,7 +8,6 @@
       "additionallanterns:oxidized_copper_chain",
       "additionallanterns:waxed_oxidized_copper_chain",
       "ae2:cyan_paint_ball",
-      "thermal:ender_pearl_dust",
       "biggerreactors:cyanite_block",
       "biggerreactors:cyanite_dust",
       "biggerreactors:cyanite_ingot",
@@ -107,6 +106,7 @@
       "mysticalagriculture:cyan_crop_essence",
       "mysticalagriculture:cyan_crop_seeds",
       "sf5_things:cyan_apple",
+      "thermal:ender_pearl_dust",
       "tinted_torches:cyan_torch"
     ]
   }

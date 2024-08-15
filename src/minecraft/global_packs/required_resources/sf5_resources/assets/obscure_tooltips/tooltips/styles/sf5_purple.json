@@ -51,6 +51,7 @@
       "minecraft:amethyst_block",
       "minecraft:amethyst_shard",
       "minecraft:budding_amethyst",
+      "minecraft:enchanted_book",
       "minecraft:purple_banner",
       "minecraft:purple_bed",
       "minecraft:purple_candle",
@@ -72,8 +73,7 @@
       "supplementaries:present_purple",
       "supplementaries:trapped_present_purple",
       "tinted_torches:purple_torch",
-      "tintedcampfires:purple_campfire",
-      "minecraft:enchanted_book"
+      "tintedcampfires:purple_campfire"
     ]
   }
 }
