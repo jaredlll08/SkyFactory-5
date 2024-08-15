@@ -40,5 +40,9 @@
   "block.yellow_snow.yellow_snow": "Yellow Snow",
   "item.sf5_things.rgb_dye": "RGB Dye",
   "item.sf5_things.rainbow_laser_lens": "Rainbow Laser Lens",
-  "block.sf5_things.block_of_rgb_dye": "Block of RGB Dye"
+  "block.sf5_things.block_of_rgb_dye": "Block of RGB Dye",
+  "item.sf5_things.red_folder": "Red Folder",
+  "item.sf5_things.orange_folder": "Orange Folder",
+  "item.sf5_things.blue_folder": "Blue Folder",
+  "item.sf5_icons.red_folder": "Red Folder"
 }
