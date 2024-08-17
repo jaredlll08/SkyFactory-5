@@ -5,10 +5,31 @@
   "type": "object",
   "properties": {
     "icon": {
-      "type": "string",
-      "pattern": "^\\w+:\\w+$"
+      "$ref": "#/$defs/item"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      }
     }
   },
   "required": ["icon"],
-  "additionalProperties": false
+  "additionalProperties": false,
+  "$defs": {
+    "item": {
+      "type": "object",
+      "properties": {
+        "item": {
+          "type": "string",
+          "items": {
+            "type": "string",
+            "pattern": "^\\w+:\\w+$"
+          }
+        }
+      },
+      "required": ["item"],
+      "additionalProperties": false
+    }
+  }
 }

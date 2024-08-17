@@ -6,5 +6,9 @@
  */
 
 export interface JsonThingsCreativeModeTab {
-  icon: string;
+  icon: Item;
+  items?: Item[];
+}
+export interface Item {
+  item: string;
 }
