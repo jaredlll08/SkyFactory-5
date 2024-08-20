@@ -88,8 +88,14 @@ Create a 9x9x9 Colossal Chest
 Obtain a Netherite Backpack from Sophisticated Backpacks
 Craft and use the Inception Upgrade in a Sophisticated Backpack to add more backpacks to your backpacks
 Craft and use the Everlasting Upgrade in a Sophisticated Backpack to keep your stuff safe from the void
-
-
+===
+#§1--==§0RFTools Dimensions§1==--
+Create and travel to an RFTools Dimension
+Create a Dimension full of Potatoes
+Infuse your Infuser Machine to 100%
+Acquire and Research a Lost Knowledge Pattern
+Create a Dimension of RGB Blocks
+===
 
 ===
 #§1--==§0Age of Craziness§1==--
@@ -115,6 +121,9 @@ Collect all 16 colors of the Energetic Sheep (or maybe just 16 of the wool color
 Grow your head to 150%
 Grow your head to 250%
 Collect all of the limbs from mobs (needs more info)
+Use a Magnum Torch to block creature spawns
+Use Color Dyed Water to convert Sand into a Dye Block
+Complete the Normal Ender Dragon Gateway
 ===
 #§1--==§0Age of Excess§1==--
 Infinity Charger idea
