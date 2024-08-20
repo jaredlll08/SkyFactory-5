@@ -8,7 +8,7 @@
     "Name": "sf5_things:block_of_gray_dye"
   },
   "default_fluid": {
-    "Name": "immersiveengineering:redstone_acid",
+    "Name": "colouredstuff:water_none",
     "Properties": {
       "level": "0"
     }

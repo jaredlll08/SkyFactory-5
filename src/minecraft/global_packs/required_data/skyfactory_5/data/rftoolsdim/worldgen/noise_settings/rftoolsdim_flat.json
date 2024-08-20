@@ -8,7 +8,7 @@
     "Name": "sf5_things:block_of_cyan_dye"
   },
   "default_fluid": {
-    "Name": "createaddition:seed_oil",
+    "Name": "colouredstuff:water_none",
     "Properties": {
       "level": "0"
     }
