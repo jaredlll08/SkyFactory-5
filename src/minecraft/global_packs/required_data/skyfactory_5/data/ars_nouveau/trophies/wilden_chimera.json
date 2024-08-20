@@ -1,5 +1,3 @@
 {
-  "drop_chance": 0.0075,
-  "entity": "ars_nouveau:wilden_boss",
-  "scale": 0.65
+  "entity": "minecraft:zombie"
 }

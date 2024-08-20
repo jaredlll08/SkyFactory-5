@@ -1,9 +1,3 @@
 {
-  "entity": "productivebees:configurable_bee",
-  "scale": 1.5,
-  "variants": [
-    {
-      "type": "productivebees:arcane"
-    }
-  ]
+  "entity": "minecraft:zombie"
 }

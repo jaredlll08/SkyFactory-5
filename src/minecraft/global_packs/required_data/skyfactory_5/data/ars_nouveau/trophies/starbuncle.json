@@ -1,9 +1,3 @@
 {
-  "entity": "ars_nouveau:starbuncle",
-  "scale": 1.75,
-  "variants": [
-    {
-      "color": "pink"
-    }
-  ]
+  "entity": "minecraft:zombie"
 }
