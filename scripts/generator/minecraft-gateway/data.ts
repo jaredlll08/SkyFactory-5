@@ -1,4 +1,4 @@
-import { Byte, Float, Int, TagObject } from "nbt-ts";
+import { Float, Int, TagObject } from "nbt-ts";
 import { HostileNeuralNetworksDataModel } from "schemas/minecraft/hostilenetworks/data-model";
 import { InControlSpawn } from "schemas/minecraft/incontrol/spawn";
 import { OpenBlocksTrophiesTrophy } from "schemas/minecraft/obtrophies/trophy";
@@ -507,36 +507,6 @@ export const mobData: MobData[] = [
   },
   {
     spawnOnly: false,
-    mobID: "earthmobsmod:duck",
-    mobName: "Duck",
-    stage: "duck",
-    color: ColorName.Brown,
-    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
-    minLightLevel: 8,
-    maxLightLevel: 15,
-  },
-  {
-    spawnOnly: false,
-    mobID: "minecraft:elder_guardian",
-    mobName: "Elder Guardian",
-    stage: "elder_guardian",
-    color: ColorName.LightGray,
-    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
-    additionalGatewayMobNBT: {
-      "pehkui:scale_data_types": {
-        "pehkui:reach": {
-          scale: new Float(0.05),
-        },
-      },
-    },
-    minLightLevel: 0,
-    maxLightLevel: 7,
-    trophyData: {
-      scale: 0.75,
-    },
-  },
-  {
-    spawnOnly: false,
     mobID: "minecraft:enderman",
     mobName: "Enderman",
     stage: "enderman",
@@ -576,21 +546,7 @@ export const mobData: MobData[] = [
       scale: 2,
     },
   },
-  {
-    spawnOnly: false,
-    mobID: "luggage:ender_luggage",
-    mobName: "Ender Luggage",
-    stage: "ender_luggage",
-    color: ColorName.Cyan,
-    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
-    minLightLevel: 7,
-    maxLightLevel: 15,
-    trophyData: {
-      offset: -0.3,
-      scale: 2,
-    },
-    disableNeuralNetworkGeneration: true,
-  },
+
   {
     spawnOnly: false,
     mobID: "minecraft:ender_dragon",
@@ -1028,23 +984,6 @@ export const mobData: MobData[] = [
   },
   {
     spawnOnly: false,
-    mobID: "earthmobsmod:jolly_llama",
-    mobName: "Jolly Llama",
-    stage: "jolly_llama",
-    color: ColorName.White,
-    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
-    additionalGatewayMobNBT: {
-      "pehkui:scale_data_types": {
-        "pehkui:reach": {
-          scale: new Float(0.05),
-        },
-      },
-    },
-    minLightLevel: 8,
-    maxLightLevel: 15,
-  },
-  {
-    spawnOnly: false,
     mobID: "minecraft:iron_golem",
     mobName: "Iron Golem",
     stage: "iron_golem",
@@ -1118,24 +1057,7 @@ export const mobData: MobData[] = [
       },
     },
   },
-  {
-    spawnOnly: false,
-    mobID: "luggage:luggage",
-    mobName: "Luggage",
-    stage: "luggage",
-    color: ColorName.Brown,
-    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
-    minLightLevel: 7,
-    maxLightLevel: 15,
-    additionalGatewayMobNBT: {
-      PersistenceRequired: new Byte(0),
-    },
-    trophyData: {
-      offset: -0.3,
-      scale: 2,
-    },
-    disableNeuralNetworkGeneration: true,
-  },
+
   {
     spawnOnly: false,
     mobID: "lava_monster:lava_monster",
