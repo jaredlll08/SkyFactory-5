@@ -124,6 +124,8 @@ Collect all of the limbs from mobs (needs more info)
 Use a Magnum Torch to block creature spawns
 Use Color Dyed Water to convert Sand into a Dye Block
 Complete the Normal Ender Dragon Gateway
+Find a Mob Spawner and pickup a mob spawner
+Change a Spawner by clicking on it with a Trophy
 ===
 #§1--==§0Age of Excess§1==--
 Infinity Charger idea
