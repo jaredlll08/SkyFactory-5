@@ -10,28 +10,6 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/ender_luggage\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 100,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{gateway:\"gateways:titan/ender_luggage\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 100,
-          "functions": [
-            {
-              "function": "set_nbt",
               "tag": "{gateway:\"gateways:normal/fancy_chicken\"}"
             }
           ]

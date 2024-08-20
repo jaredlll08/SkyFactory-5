@@ -1,10 +1,5 @@
 {
   "entity": "minecraft:vindicator",
-  "behavior": {
-    "type": "obtrophies:item",
-    "cooldown": 20000,
-    "item": "minecraft:iron_axe"
-  },
   "offset": 0,
   "scale": 1
 }

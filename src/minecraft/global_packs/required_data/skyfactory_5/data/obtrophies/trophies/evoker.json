@@ -1,8 +1,5 @@
 {
   "entity": "minecraft:evoker",
-  "behavior": {
-    "type": "obtrophies:totem_of_undying"
-  },
   "offset": 0,
   "scale": 1
 }

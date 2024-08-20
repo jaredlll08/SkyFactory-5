@@ -187,24 +187,6 @@
     "maxlight_full": 15
   },
   {
-    "mob": "earthmobsmod:duck",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "duck",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 8,
-    "maxlight_full": 15
-  },
-  {
     "mob": "earthmobsmod:fancy_chicken",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
@@ -264,24 +246,6 @@
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
     },
     "gamestage": "hyper_rabbit",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 8,
-    "maxlight_full": 15
-  },
-  {
-    "mob": "earthmobsmod:jolly_llama",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "jolly_llama",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -763,42 +727,6 @@
     "maxlight_full": 15
   },
   {
-    "mob": "luggage:ender_luggage",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "ender_luggage",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 7,
-    "maxlight_full": 15
-  },
-  {
-    "mob": "luggage:luggage",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "luggage",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 7,
-    "maxlight_full": 15
-  },
-  {
     "mob": "minecraft:allay",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
@@ -1060,24 +988,6 @@
       "tag": "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please"
     },
     "gamestage": "drowned",
-    "armorhelmet": {
-      "item": "simplehats:fro",
-      "nbt": {
-        "display": {
-          "color": 16352035
-        }
-      }
-    },
-    "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
-  },
-  {
-    "mob": "minecraft:elder_guardian",
-    "block": {
-      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
-    },
-    "gamestage": "elder_guardian",
     "armorhelmet": {
       "item": "simplehats:fro",
       "nbt": {
@@ -2781,12 +2691,10 @@
       "earthmobsmod:bouldering_zombie",
       "earthmobsmod:cluck_shroom",
       "earthmobsmod:cream_cow",
-      "earthmobsmod:duck",
       "earthmobsmod:fancy_chicken",
       "earthmobsmod:furnace_golem",
       "earthmobsmod:horned_sheep",
       "earthmobsmod:hyper_rabbit",
-      "earthmobsmod:jolly_llama",
       "earthmobsmod:jumbo_rabbit",
       "earthmobsmod:lobber_drowned",
       "earthmobsmod:lobber_zombie",
@@ -2813,8 +2721,6 @@
       "forcecraft:red_chu_chu",
       "ghastcow:ghast_cow",
       "lava_monster:lava_monster",
-      "luggage:ender_luggage",
-      "luggage:luggage",
       "minecraft:allay",
       "minecraft:axolotl",
       "minecraft:bat",
@@ -2830,7 +2736,6 @@
       "minecraft:dolphin",
       "minecraft:donkey",
       "minecraft:drowned",
-      "minecraft:elder_guardian",
       "minecraft:ender_dragon",
       "minecraft:enderman",
       "minecraft:endermite",
@@ -2937,12 +2842,10 @@
       "earthmobsmod:bouldering_zombie",
       "earthmobsmod:cluck_shroom",
       "earthmobsmod:cream_cow",
-      "earthmobsmod:duck",
       "earthmobsmod:fancy_chicken",
       "earthmobsmod:furnace_golem",
       "earthmobsmod:horned_sheep",
       "earthmobsmod:hyper_rabbit",
-      "earthmobsmod:jolly_llama",
       "earthmobsmod:jumbo_rabbit",
       "earthmobsmod:lobber_drowned",
       "earthmobsmod:lobber_zombie",
@@ -2969,8 +2872,6 @@
       "forcecraft:red_chu_chu",
       "ghastcow:ghast_cow",
       "lava_monster:lava_monster",
-      "luggage:ender_luggage",
-      "luggage:luggage",
       "minecraft:allay",
       "minecraft:axolotl",
       "minecraft:bat",
@@ -2986,7 +2887,6 @@
       "minecraft:dolphin",
       "minecraft:donkey",
       "minecraft:drowned",
-      "minecraft:elder_guardian",
       "minecraft:ender_dragon",
       "minecraft:enderman",
       "minecraft:endermite",

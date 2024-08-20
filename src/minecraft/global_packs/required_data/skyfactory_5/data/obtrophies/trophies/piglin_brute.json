@@ -1,10 +1,5 @@
 {
   "entity": "minecraft:piglin_brute",
-  "behavior": {
-    "type": "obtrophies:item",
-    "cooldown": 20000,
-    "item": "minecraft:golden_axe"
-  },
   "offset": 0,
   "scale": 1
 }

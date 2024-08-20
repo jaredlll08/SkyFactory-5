@@ -1,16 +1,10 @@
 {
   "entity": "minecraft:cat",
-  "behavior": {
-    "type": "obtrophies:loot_table",
-    "cooldown": 20000,
-    "loot_table": "minecraft:gameplay/cat_morning_gift",
-    "rolls": 1
-  },
   "offset": 0,
   "scale": 1.25,
   "variants": [
     {
-      "variant": "minecraft:jellie"
+      "VariantID": "minecraft:jellie"
     }
   ]
 }

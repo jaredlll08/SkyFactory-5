@@ -98,28 +98,6 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/duck\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 100,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{gateway:\"gateways:titan/duck\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 100,
-          "functions": [
-            {
-              "function": "set_nbt",
               "tag": "{gateway:\"gateways:normal/ghast_cow\"}"
             }
           ]
@@ -176,28 +154,6 @@
             {
               "function": "set_nbt",
               "tag": "{gateway:\"gateways:titan/husk\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 100,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/luggage\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 100,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{gateway:\"gateways:titan/luggage\"}"
             }
           ]
         },

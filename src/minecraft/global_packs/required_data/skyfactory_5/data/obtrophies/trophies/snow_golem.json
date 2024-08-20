@@ -1,10 +1,5 @@
 {
   "entity": "minecraft:snow_golem",
-  "behavior": {
-    "type": "obtrophies:place_block",
-    "block": "minecraft:snow",
-    "placement": "around"
-  },
   "offset": 0,
   "scale": 1,
   "variants": [

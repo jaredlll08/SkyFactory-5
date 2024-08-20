@@ -10,28 +10,6 @@
           "functions": [
             {
               "function": "set_nbt",
-              "tag": "{gateway:\"gateways:normal/elder_guardian\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 100,
-          "functions": [
-            {
-              "function": "set_nbt",
-              "tag": "{gateway:\"gateways:titan/elder_guardian\"}"
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "gateways:gate_pearl",
-          "weight": 100,
-          "functions": [
-            {
-              "function": "set_nbt",
               "tag": "{gateway:\"gateways:normal/furnace_golem\"}"
             }
           ]
