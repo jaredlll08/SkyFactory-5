@@ -241,6 +241,24 @@
     "maxlight_full": 15
   },
   {
+    "mob": "earthmobsmod:horned_sheep",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "horned_sheep",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": {
+          "color": 16352035
+        }
+      }
+    },
+    "result": "allow",
+    "minlight_full": 8,
+    "maxlight_full": 15
+  },
+  {
     "mob": "earthmobsmod:hyper_rabbit",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
@@ -293,6 +311,42 @@
     "result": "allow",
     "minlight_full": 8,
     "maxlight_full": 15
+  },
+  {
+    "mob": "earthmobsmod:lobber_drowned",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "lobber_drowned",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": {
+          "color": 16352035
+        }
+      }
+    },
+    "result": "allow",
+    "minlight_full": 0,
+    "maxlight_full": 7
+  },
+  {
+    "mob": "earthmobsmod:lobber_zombie",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "lobber_zombie",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": {
+          "color": 16352035
+        }
+      }
+    },
+    "result": "allow",
+    "minlight_full": 0,
+    "maxlight_full": 7
   },
   {
     "mob": "earthmobsmod:magma_cow",
@@ -2321,6 +2375,24 @@
     "maxlight_full": 7
   },
   {
+    "mob": "moofluids:fluid_cow",
+    "block": {
+      "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
+    },
+    "gamestage": "fluid_cow",
+    "armorhelmet": {
+      "item": "simplehats:fro",
+      "nbt": {
+        "display": {
+          "color": 16352035
+        }
+      }
+    },
+    "result": "allow",
+    "minlight_full": 8,
+    "maxlight_full": 15
+  },
+  {
     "mob": "sushigocrafting:shrimp",
     "block": {
       "tag": "skyfactory_5:creature_spawnable_blocks_please_work_i_swear_to_john_cena"
@@ -2700,7 +2772,6 @@
   },
   {
     "mob": [
-      "moofluids:fluid_cow",
       "colourfulgoats:goat",
       "colourfulllamas:llama",
       "earthmobsmod:albino_cow",
@@ -2713,9 +2784,12 @@
       "earthmobsmod:duck",
       "earthmobsmod:fancy_chicken",
       "earthmobsmod:furnace_golem",
+      "earthmobsmod:horned_sheep",
       "earthmobsmod:hyper_rabbit",
       "earthmobsmod:jolly_llama",
       "earthmobsmod:jumbo_rabbit",
+      "earthmobsmod:lobber_drowned",
+      "earthmobsmod:lobber_zombie",
       "earthmobsmod:magma_cow",
       "earthmobsmod:melon_golem",
       "earthmobsmod:moobloom",
@@ -2827,6 +2901,7 @@
       "monsterplus:overgrown_skeleton",
       "monsterplus:spectral_skeleton",
       "monsterplus:swamp_zombie",
+      "moofluids:fluid_cow",
       "sushigocrafting:shrimp",
       "sushigocrafting:tuna",
       "veincreeper:black",
@@ -2865,9 +2940,12 @@
       "earthmobsmod:duck",
       "earthmobsmod:fancy_chicken",
       "earthmobsmod:furnace_golem",
+      "earthmobsmod:horned_sheep",
       "earthmobsmod:hyper_rabbit",
       "earthmobsmod:jolly_llama",
       "earthmobsmod:jumbo_rabbit",
+      "earthmobsmod:lobber_drowned",
+      "earthmobsmod:lobber_zombie",
       "earthmobsmod:magma_cow",
       "earthmobsmod:melon_golem",
       "earthmobsmod:moobloom",
@@ -2979,6 +3057,7 @@
       "monsterplus:overgrown_skeleton",
       "monsterplus:spectral_skeleton",
       "monsterplus:swamp_zombie",
+      "moofluids:fluid_cow",
       "sushigocrafting:shrimp",
       "sushigocrafting:tuna",
       "veincreeper:black",

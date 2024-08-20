@@ -254,7 +254,7 @@ export const mobData: MobData[] = [
       scale: 1.25,
       variants: [
         {
-          variant: "minecraft:jellie",
+          VariantID: "minecraft:jellie",
         },
       ],
     },
@@ -1639,7 +1639,7 @@ export const mobData: MobData[] = [
       scale: 1,
       variants: [
         {
-          Color: "0",
+          Color: 0,
         },
       ],
     },
@@ -2795,6 +2795,36 @@ export const mobData: MobData[] = [
     minLightLevel: 8,
     maxLightLevel: 15,
     disableNeuralNetworkGeneration: true,
+  },
+  {
+    spawnOnly: false,
+    mobID: "earthmobsmod:horned_sheep",
+    mobName: "Horned Sheep",
+    stage: "horned_sheep",
+    color: ColorName.White,
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    minLightLevel: 8,
+    maxLightLevel: 15,
+  },
+  {
+    spawnOnly: false,
+    mobID: "earthmobsmod:lobber_drowned",
+    mobName: "Lobber Drowned",
+    stage: "lobber_drowned",
+    color: ColorName.Blue,
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    minLightLevel: 0,
+    maxLightLevel: 7,
+  },
+  {
+    spawnOnly: false,
+    mobID: "earthmobsmod:lobber_zombie",
+    mobName: "Lobber Zombie",
+    stage: "lobber_zombie",
+    color: ColorName.Green,
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    minLightLevel: 0,
+    maxLightLevel: 7,
   },
   //! DATA MANAGER ENTRY MARKER - DO NOT TOUCH
 ];
