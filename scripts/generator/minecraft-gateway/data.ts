@@ -44,6 +44,8 @@ interface MobDataAll extends MobDataBase {
   trophyBagLootTableWeight?: number;
   /** Omits this mob's gateway pearl from certain loot tables */
   isUniqueMob?: boolean;
+  /** Skips generation of Neural Network */
+  disableNeuralNetworkGeneration?: true;
   /** Neural Network overrides */
   neuralNetworkOverrides?: Pick<HostileNeuralNetworksDataModel, "gui_scale">;
 }
@@ -599,6 +601,7 @@ export const mobData: MobData[] = [
       offset: -0.3,
       scale: 2,
     },
+    disableNeuralNetworkGeneration: true,
   },
   {
     spawnOnly: false,
@@ -659,6 +662,7 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 8,
     maxLightLevel: 15,
+    disableNeuralNetworkGeneration: true,
   },
   {
     spawnOnly: false,
@@ -1145,6 +1149,7 @@ export const mobData: MobData[] = [
       offset: -0.3,
       scale: 2,
     },
+    disableNeuralNetworkGeneration: true,
   },
   {
     spawnOnly: false,
@@ -2789,6 +2794,7 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 8,
     maxLightLevel: 15,
+    disableNeuralNetworkGeneration: true,
   },
   //! DATA MANAGER ENTRY MARKER - DO NOT TOUCH
 ];

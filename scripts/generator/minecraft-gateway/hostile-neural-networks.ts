@@ -10,12 +10,6 @@ import { mapColorNameToHex } from "scripts/utils/minecraft-colors";
 import { MobData } from "./data-manager";
 import { getDyeFromColor } from "./utils";
 
-const skippedMobIDs = new Set<string>([
-  "forcecraft:fairy",
-  "luggage:ender_luggage",
-  "luggage:luggage",
-]);
-
 const rootDir = path.join(
   "src",
   "minecraft",
@@ -30,7 +24,7 @@ const rootDir = path.join(
 export async function generateHostileNeuralNetworkEntries(data: MobData) {
   await Promise.all(
     data.map(async (entry) => {
-      if (entry.spawnOnly || skippedMobIDs.has(entry.mobID)) {
+      if (entry.spawnOnly || entry.disableNeuralNetworkGeneration) {
         return;
       }
 
