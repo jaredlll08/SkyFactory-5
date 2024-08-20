@@ -244,12 +244,6 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
     trophyData: {
-      behavior: {
-        type: "obtrophies:loot_table",
-        cooldown: 20000,
-        loot_table: "minecraft:gameplay/cat_morning_gift",
-        rolls: 1,
-      },
       offset: 0,
       scale: 1.25,
       variants: [
@@ -269,12 +263,6 @@ export const mobData: MobData[] = [
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
-      behavior: {
-        type: "obtrophies:mob_effect",
-        amplifier: 3,
-        effect: "minecraft:poison",
-        time: 200,
-      },
       offset: 0,
       scale: 1,
     },
@@ -684,9 +672,6 @@ export const mobData: MobData[] = [
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
-      behavior: {
-        type: "obtrophies:totem_of_undying",
-      },
       offset: 0,
       scale: 1,
     },
@@ -1448,18 +1433,6 @@ export const mobData: MobData[] = [
       },
     },
     trophyData: {
-      behavior: {
-        type: "obtrophies:right_click_item",
-        execute_behavior: {
-          type: "obtrophies:loot_table",
-          cooldown: 0,
-          loot_table: "minecraft:gameplay/piglin_bartering",
-          rolls: 1,
-        },
-        item_to_use: "#forge:ingots/gold",
-        shrink_item_stack: true,
-        sound: "minecraft:entity.piglin.admiring_item",
-      },
       offset: 0,
       scale: 1,
     },
@@ -1479,11 +1452,6 @@ export const mobData: MobData[] = [
       },
     },
     trophyData: {
-      behavior: {
-        type: "obtrophies:item",
-        cooldown: 20000,
-        item: "minecraft:golden_axe",
-      },
       offset: 0,
       scale: 1,
     },
@@ -1577,12 +1545,6 @@ export const mobData: MobData[] = [
       },
     },
     trophyData: {
-      behavior: {
-        type: "obtrophies:mob_effect",
-        amplifier: 0,
-        effect: "minecraft:nausea",
-        time: 100,
-      },
       offset: 0,
       scale: 2,
       variants: [
@@ -1609,11 +1571,6 @@ export const mobData: MobData[] = [
       },
     },
     trophyData: {
-      behavior: {
-        type: "obtrophies:item",
-        cooldown: 50000,
-        item: "minecraft:saddle",
-      },
       offset: 0,
       scale: 0.75,
     },
@@ -1846,11 +1803,6 @@ export const mobData: MobData[] = [
       Pumpkin: new Int(0),
     },
     trophyData: {
-      behavior: {
-        type: "obtrophies:place_block",
-        block: "minecraft:snow",
-        placement: "around",
-      },
       offset: 0,
       scale: 1,
       variants: [
@@ -1935,11 +1887,6 @@ export const mobData: MobData[] = [
       },
     },
     trophyData: {
-      behavior: {
-        type: "obtrophies:place_block",
-        block: "minecraft:water",
-        placement: "above",
-      },
       offset: 0.5,
       scale: 1,
     },
@@ -2401,11 +2348,6 @@ export const mobData: MobData[] = [
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
-      behavior: {
-        type: "obtrophies:item",
-        cooldown: 20000,
-        item: "minecraft:iron_axe",
-      },
       offset: 0,
       scale: 1,
     },
@@ -2502,11 +2444,6 @@ export const mobData: MobData[] = [
       },
     },
     trophyData: {
-      behavior: {
-        type: "obtrophies:item",
-        cooldown: 50000,
-        item: "minecraft:wither_skeleton_skull",
-      },
       offset: 0,
       scale: 1,
     },
