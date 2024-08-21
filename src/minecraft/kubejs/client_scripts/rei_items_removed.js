@@ -698,6 +698,9 @@ REIEvents.hide("item", (event) => {
     "rftoolsutility:spawner",
     "rftoolsutility:teleport_probe",
     "rftoolsutility:weakness_module",
+    "earthmobsmod:duck_egg",
+    "extractinator:silt",
+    "extractinator:slush",
   ];
 
   hiddenItems.forEach((item) => event.hide(item));
