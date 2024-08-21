@@ -242,6 +242,7 @@ public function getGatewaysForColor(color: Color): string[] {
   }
   if color.getName() == ColorName.LightGray {
     return [
+      "gateways:normal/elder_guardian",
       "gateways:normal/furnace_golem",
       "gateways:normal/guardian",
       "gateways:normal/iron_golem",
@@ -249,6 +250,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:normal/stray",
       "gateways:normal/witch",
       "gateways:normal/wolf",
+      "gateways:titan/elder_guardian",
       "gateways:titan/furnace_golem",
       "gateways:titan/guardian",
       "gateways:titan/iron_golem",
