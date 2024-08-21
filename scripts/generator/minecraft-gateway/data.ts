@@ -557,7 +557,7 @@ export const mobData: MobData[] = [
     minLightLevel: 0,
     maxLightLevel: 7,
     trophyData: {
-      scale: 0.75,
+      scale: 0.4,
     },
   },
   {
@@ -1208,10 +1208,11 @@ export const mobData: MobData[] = [
       },
     },
     trophyData: {
-      scale: 0.5,
+      scale: 0.25,
+      offset: 0.5,
     },
     neuralNetworkOverrides: {
-      gui_scale: 0.4,
+      gui_scale: 0.25,
     },
   },
   {
@@ -1516,11 +1517,9 @@ export const mobData: MobData[] = [
     trophyData: {
       offset: 0,
       scale: 1,
-      variants: [
-        {
-          Color: 0,
-        },
-      ],
+      variants: {
+        Color: 0,
+      },
     },
   },
   {
@@ -2684,6 +2683,20 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
     maxLightLevel: 7,
+  },
+  {
+    spawnOnly: false,
+    mobID: "minecraft:elder_guardian",
+    mobName: "Elder Guardian",
+    stage: "elder_guardian",
+    color: ColorName.LightGray,
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    minLightLevel: 0,
+    maxLightLevel: 7,
+    trophyData: {
+      offset: 0,
+      scale: 0.75,
+    },
   },
   //! DATA MANAGER ENTRY MARKER - DO NOT TOUCH
 ];

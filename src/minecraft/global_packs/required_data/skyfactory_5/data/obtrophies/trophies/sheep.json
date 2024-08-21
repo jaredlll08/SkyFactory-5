@@ -2,9 +2,7 @@
   "entity": "minecraft:sheep",
   "offset": 0,
   "scale": 1,
-  "variants": [
-    {
-      "Color": 0
-    }
-  ]
+  "variants": {
+    "Color": 0
+  }
 }
