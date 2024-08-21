@@ -262,7 +262,14 @@ val items as IItemStack[] = [
 <item:rftoolsutility:syringe>,
 <item:rftoolsutility:spawner>,
 <item:rftoolsutility:teleport_probe>,
-<item:rftoolsutility:weakness_module>
+<item:rftoolsutility:weakness_module>,
+
+// Ex Nihilo Dolls
+<item:exnihilosequentia:blaze_doll>,
+<item:exnihilosequentia:enderman_doll>,
+<item:exnihilosequentia:shulker_doll>,
+<item:exnihilosequentia:guardian_doll>,
+<item:exnihilosequentia:bee_doll>
 ];
 
 for item in items {
