@@ -1,6 +1,12 @@
 import crafttweaker.api.villagers.VillagerTrades;
 // https:// docs.blamejared.com/1.20.1/en/vanilla/api/villager/VillagerTrades
 
+// // AE2
+villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 1);
+villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 2);
+villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 3);
+villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 4);
+villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 5);
 // // Farmer
 // Removes all Farmer Trades
 villagerTrades.removeAllTrades(<profession:minecraft:farmer>, 1);
