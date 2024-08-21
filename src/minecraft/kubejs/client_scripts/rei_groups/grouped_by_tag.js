@@ -5,4 +5,11 @@ REIEvents.groupEntries((event) => {
     "Trophies",
     "skyfactory_5:trophies",
   );
+
+  // Beds
+  event.groupItemsByTag(
+    "skyfactory_5:rei_groups/beds",
+    "Beds",
+    "minecraft:beds",
+  );
 });
