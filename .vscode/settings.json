@@ -69,7 +69,8 @@
     "**/.git": true,
     "**/node_modules": true,
     "**/.tmp": true,
-    "./minecraft": true
+    "./minecraft": true,
+    "./minecraft/logs/latest.log": false
   },
   "BC-MC.Education.Enable": false,
   "BC-MC.Plugin.CodeLens": false,
