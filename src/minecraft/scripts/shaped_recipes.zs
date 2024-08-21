@@ -1151,3 +1151,13 @@ craftingTable.addShaped(
     [<item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>]
   ]
 );
+
+// Vanilla Planks to Crafting Station
+  craftingTable.addShaped(
+  "crafting_station_from_vanilla_planks",
+  <item:craftingstation:crafting_station> ,
+  [
+    [<tag:items:skyfactory_5:vanilla_planks>, <tag:items:skyfactory_5:vanilla_planks>],
+    [<tag:items:skyfactory_5:vanilla_planks>, <tag:items:skyfactory_5:vanilla_planks>]
+  ]
+);

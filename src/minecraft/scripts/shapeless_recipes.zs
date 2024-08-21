@@ -185,3 +185,24 @@
   <item:sf5_things:rgb_dye> * 9,
     [<item:sf5_things:block_of_rgb_dye>]
   );
+
+// Color Crafting Table to Crafting Station
+  craftingTable.addShapeless(
+  "color_crafting_table_to_station",
+  <item:craftingstation:crafting_station>,
+    [<tag:items:skyfactory_5:coloured_crafting_tables>]
+  );
+
+// Crafting Station to Crafting Table
+  craftingTable.addShapeless(
+  "crafting_table_from_crafting_station",
+  <item:minecraft:crafting_table>,
+    [<item:craftingstation:crafting_station>]
+  );
+
+// Crafting Station Slab to Crafting Table
+  craftingTable.addShapeless(
+  "crafting_table_from_crafting_station_slab",
+  <item:minecraft:crafting_table>,
+    [<item:craftingstation:crafting_station_slab>, <tag:items:skyfactory_5:vanilla_planks>, <tag:items:skyfactory_5:vanilla_planks>]
+  );
