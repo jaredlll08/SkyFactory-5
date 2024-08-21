@@ -28,9 +28,13 @@ export interface OpenBlocksTrophiesTrophy {
   entity: string;
   offset?: number;
   scale?: number;
-  variants?: {
-    [k: string]: unknown;
-  }[];
+  variants?:
+    | {
+        [k: string]: unknown;
+      }[]
+    | {
+        [k: string]: unknown;
+      };
   variant_registry?: {
     key?: string;
     registry?: string;

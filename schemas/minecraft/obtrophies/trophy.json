@@ -20,10 +20,17 @@
       "type": "number"
     },
     "variants": {
-      "type": "array",
-      "items": {
-        "type": "object"
-      }
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        {
+          "type": "object"
+        }
+      ]
     },
     "variant_registry": {
       "type": "object",
