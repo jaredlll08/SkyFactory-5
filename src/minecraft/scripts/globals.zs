@@ -86,6 +86,7 @@ public class Globals {
     <entitytype:minecraft:dolphin>: new StagedMob(<entitytype:minecraft:dolphin>, MobStage.DOLPHIN),
     <entitytype:minecraft:donkey>: new StagedMob(<entitytype:minecraft:donkey>, MobStage.DONKEY),
     <entitytype:minecraft:drowned>: new StagedMob(<entitytype:minecraft:drowned>, MobStage.DROWNED),
+    <entitytype:minecraft:elder_guardian>: new StagedMob(<entitytype:minecraft:elder_guardian>, MobStage.ELDER_GUARDIAN),
     <entitytype:minecraft:ender_dragon>: new StagedMob(<entitytype:minecraft:ender_dragon>, MobStage.ENDER_DRAGON),
     <entitytype:minecraft:enderman>: new StagedMob(<entitytype:minecraft:enderman>, MobStage.ENDERMAN),
     <entitytype:minecraft:endermite>: new StagedMob(<entitytype:minecraft:endermite>, MobStage.ENDERMITE),

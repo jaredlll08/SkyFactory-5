@@ -129,6 +129,7 @@ public enum MobStage {
   DOLPHIN = "dolphin",
   DONKEY = "donkey",
   DROWNED = "drowned",
+  ELDER_GUARDIAN = "elder_guardian",
   ENDER_DRAGON = "ender_dragon",
   ENDER_TOT = "ender_tot",
   ENDERMAN = "enderman",
