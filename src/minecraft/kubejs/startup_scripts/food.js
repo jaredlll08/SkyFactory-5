@@ -36,6 +36,14 @@ const groupedItemsToModify = [
     onEaten: (e) => e.player.tell("you ate"),
   },
   {
+    ids: ["sf5_things:block_of_meat"],
+    hunger: 5,
+    saturation: 3,
+    fastToEat: false,
+    alwaysEdible: true,
+    onEaten: (e) => e.player.tell("you ate"),
+  },
+  {
     ids: ["yellow_snow:yellow_snow"],
     hunger: 1,
     saturation: 1,
