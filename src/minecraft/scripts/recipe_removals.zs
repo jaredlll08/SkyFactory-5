@@ -269,7 +269,35 @@ val items as IItemStack[] = [
 <item:exnihilosequentia:enderman_doll>,
 <item:exnihilosequentia:shulker_doll>,
 <item:exnihilosequentia:guardian_doll>,
-<item:exnihilosequentia:bee_doll>
+<item:exnihilosequentia:bee_doll>,
+
+// Industrial Foregoing
+<item:industrialforegoing:mob_slaughter_factory>,
+
+// Silent's Gear Fluffy Stuff
+  <item:silentgear:fluffy_puff>,
+  <item:silentgear:fluffy_fabric>,
+  <item:silentgear:fluffy_string>,
+  <item:silentgear:fluffy_feather>,
+  <item:silentgear:fluffy_seeds>,
+  <item:silentgear:white_fluffy_block>,
+  <item:silentgear:orange_fluffy_block>,
+  <item:silentgear:magenta_fluffy_block>,
+  <item:silentgear:light_blue_fluffy_block>,
+  <item:silentgear:yellow_fluffy_block>,
+  <item:silentgear:lime_fluffy_block>,
+  <item:silentgear:pink_fluffy_block>,
+  <item:silentgear:gray_fluffy_block>,
+  <item:silentgear:light_gray_fluffy_block>,
+  <item:silentgear:cyan_fluffy_block>,
+  <item:silentgear:purple_fluffy_block>,
+  <item:silentgear:blue_fluffy_block>,
+  <item:silentgear:brown_fluffy_block>,
+  <item:silentgear:green_fluffy_block>,
+  <item:silentgear:red_fluffy_block>,
+  <item:silentgear:black_fluffy_block>
+
+
 ];
 
 for item in items {
