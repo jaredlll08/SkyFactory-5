@@ -1,3 +1,6 @@
 {
-  "parent": "cyclic:item/apple_ender"
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "sf5_things:item/cyan_apple"
+  }
 }

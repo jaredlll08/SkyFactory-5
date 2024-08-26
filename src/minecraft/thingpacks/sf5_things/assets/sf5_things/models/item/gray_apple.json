@@ -1,3 +1,6 @@
 {
-  "parent": "cyclic:item/apple_iron"
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "sf5_things:item/gray_apple"
+  }
 }

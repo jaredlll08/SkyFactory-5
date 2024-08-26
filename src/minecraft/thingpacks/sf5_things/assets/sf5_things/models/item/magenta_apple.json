@@ -1,3 +1,6 @@
 {
-  "parent": "cyclic:item/apple_lofty_stature"
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "sf5_things:item/magenta_apple"
+  }
 }
