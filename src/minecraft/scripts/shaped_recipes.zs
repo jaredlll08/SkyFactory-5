@@ -1161,3 +1161,58 @@ craftingTable.addShaped(
     [<tag:items:skyfactory_5:vanilla_planks>, <tag:items:skyfactory_5:vanilla_planks>]
   ]
 );
+
+// Block of Meat
+  craftingTable.addShaped(
+  "block_of_meat_from_meats",
+  <item:sf5_things:block_of_meat> ,
+  [
+    [<tag:items:skyfactory_5:raw_meats>, <tag:items:skyfactory_5:raw_meats>, <tag:items:skyfactory_5:raw_meats>],
+    [<tag:items:skyfactory_5:raw_meats>, <tag:items:skyfactory_5:raw_meats>, <tag:items:skyfactory_5:raw_meats>],
+    [<tag:items:skyfactory_5:raw_meats>, <tag:items:skyfactory_5:raw_meats>, <tag:items:skyfactory_5:raw_meats>]
+  ]
+);
+
+// Block of Jerky
+  craftingTable.addShaped(
+  "block_of_jerky_from_rotten_flesh",
+  <item:sf5_things:block_of_jerky> ,
+  [
+    [<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>],
+    [<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>],
+    [<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>]
+  ]
+);
+
+// Block of Bubble Wrap
+  craftingTable.addShaped(
+  "block_of_bubble_wrap_from_plastic_pufferfish",
+  <item:sf5_things:block_of_bubble_wrap> ,
+  [
+    [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
+    [<item:industrialforegoing:plastic>, <item:minecraft:pufferfish>, <item:industrialforegoing:plastic>],
+    [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]
+  ]
+);
+
+// Block of Blue Cheese
+  craftingTable.addShaped(
+  "block_of_blue_cheese_from_cheese_and_moss",
+  <item:sf5_things:block_of_blue_cheese> ,
+  [
+    [<item:thermal:cheese_wedge>, <item:thermal:cheese_wedge>, <item:thermal:cheese_wedge>],
+    [<item:thermal:cheese_wedge>, <item:minecraft:moss_block>, <item:thermal:cheese_wedge>],
+    [<item:thermal:cheese_wedge>, <item:thermal:cheese_wedge>, <item:thermal:cheese_wedge>]
+  ]
+);
+
+// Block of Blooming Onion
+  craftingTable.addShaped(
+  "block_of_blooming_onion_from_tallow_crops",
+  <item:sf5_things:block_of_blooming_onion> ,
+  [
+    [<item:occultism:tallow>, <item:minecraft:egg>, <item:occultism:tallow>],
+    [<item:create:wheat_flour>, <item:thermal:onion_block>, <item:create:wheat_flour>],
+    [<item:occultism:tallow>, <item:occultism:tallow>, <item:occultism:tallow>]
+  ]
+);

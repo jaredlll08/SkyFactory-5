@@ -76,3 +76,8 @@ import crafttweaker.api.text.Component;
  var extruder = Component.literal("Creates Cobblestone, Stone, and Basalt").setStyle(<constant:formatting:yellow>);
 
  <item:create_mechanical_extruder:mechanical_extruder>.addTooltip(extruder);
+
+ // Things I find funny
+  var blooming_onion = Component.literal("Legally distinct!").setStyle(<constant:formatting:white>);
+  blooming_onion.setStyle(<constant:minecraft:formatting:italic>);
+  <item:sf5_things:block_of_blooming_onion>.addTooltip(blooming_onion);

@@ -268,5 +268,65 @@
     "ticks": 10,
     "worldgen": true,
     "dimlet": true
+  },
+  {
+    "type": "block",
+    "key": "sf5_things:block_of_meat",
+    "rarity": "rare",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "block",
+    "key": "sf5_things:block_of_bubble_wrap",
+    "rarity": "rare",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "block",
+    "key": "minecraft:blue_ice",
+    "rarity": "rare",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "block",
+    "key": "sf5_things:block_of_blooming_onion",
+    "rarity": "rare",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "block",
+    "key": "sf5_things:block_of_blue_cheese",
+    "rarity": "rare",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true
+  },
+  {
+    "type": "block",
+    "key": "supplementaries:sugar_cube",
+    "rarity": "rare",
+    "create": 10,
+    "maintain": 10,
+    "ticks": 10,
+    "worldgen": true,
+    "dimlet": true
   }
 ]

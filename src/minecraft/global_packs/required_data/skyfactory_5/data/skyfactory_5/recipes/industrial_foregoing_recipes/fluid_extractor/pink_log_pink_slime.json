@@ -5,6 +5,6 @@
   "input": {
     "item": "colouredstuff:log_pink"
   },
-  "output": "{Amount:2,FluidName:\"industrialforegoing:latex\"}",
+  "output": "{Amount:2,FluidName:\"industrialforegoing:pink_slime\"}",
   "result": "colouredstuff:log_stripped_pink"
 }

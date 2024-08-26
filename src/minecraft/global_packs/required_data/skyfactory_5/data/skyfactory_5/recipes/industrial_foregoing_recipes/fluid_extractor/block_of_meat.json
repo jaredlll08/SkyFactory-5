@@ -6,5 +6,5 @@
     "item": "sf5_things:block_of_meat"
   },
   "output": "{Amount:2,FluidName:\"industrialforegoing:meat\"}",
-  "result": "minecraft:air"
+  "result": "sf5_things:block_of_jerky"
 }

@@ -1,7 +1,6 @@
 {
-  "parent": "minecraft:leaves",
+  "parent": "supplementaries:bubble_block",
   "type": "minecraft:leaves",
-  "sound_type": "minecraft:grass",
   "ticks_randomly": true,
   "explosion_resistance": 0.2,
   "destroy_time": 0.2,

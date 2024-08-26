@@ -45,5 +45,9 @@
   "item.sf5_things.orange_folder": "Orange Folder",
   "item.sf5_things.blue_folder": "Blue Folder",
   "item.sf5_icons.red_folder": "Red Folder",
-  "block.sf5_things.block_of_meat": "Block of Meat"
+  "block.sf5_things.block_of_meat": "Block of Meat",
+  "block.sf5_things.block_of_jerky": "Block of Jerky",
+  "block.sf5_things.block_of_bubble_wrap": "Block of Bubble Wrap",
+  "block.sf5_things.block_of_blue_cheese": "Block of Blue Cheese",
+  "block.sf5_things.block_of_blooming_onion": "Block of Blooming Onion"
 }
