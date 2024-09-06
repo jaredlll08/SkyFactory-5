@@ -1,8 +1,8 @@
 {
-  "parent": "minecraft:snow_block",
-  "material": "minecraft:snow_block",
+  "parent": "minecraft:grass",
+  "material": "minecraft:grass",
   "type": "minecraft:plain",
-  "sound_type": "minecraft:powder_snow",
+  "sound_type": "minecraft:moss_carpet",
   "explosion_resistance": 1,
   "destroy_time": 0.75,
   "replaceable": false,

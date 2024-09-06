@@ -1216,3 +1216,14 @@ craftingTable.addShaped(
     [<item:occultism:tallow>, <item:occultism:tallow>, <item:occultism:tallow>]
   ]
 );
+
+// Block of Grass Clippings
+  craftingTable.addShaped(
+  "block_of_grass_clippings_from_grass",
+  <item:sf5_things:block_of_grass_clippings> ,
+  [
+    [<item:minecraft:grass>, <item:minecraft:grass>, <item:minecraft:grass>],
+    [<item:minecraft:grass>, <item:minecraft:grass>, <item:minecraft:grass>],
+    [<item:minecraft:grass>, <item:minecraft:grass>, <item:minecraft:grass>]
+  ]
+);

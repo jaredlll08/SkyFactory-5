@@ -108,3 +108,18 @@ Extractinator.addRecipe("extractinator_blooming_onion_block", <item:sf5_things:b
   new ExtractinatorDrop(<item:ars_nouveau:purple_archwood_sapling>,0.08,1,1),
   new ExtractinatorDrop(<item:minecraft:chorus_fruit>,0.08,1,1),
 ]);
+
+// Block of Grass Clippings
+Extractinator.addRecipe("extractinator_block_of_grass_clippings", <item:sf5_things:block_of_grass_clippings>, [
+  new ExtractinatorDrop(<item:colouredstuff:sapling_green>,0.1,1,1),
+  new ExtractinatorDrop(<item:sf5_things:green_apple>,0.05,1,1),
+  new ExtractinatorDrop(<item:mysticalagriculture:green_crop_essence>,0.2,1,1),
+  new ExtractinatorDrop(<item:minecraft:green_dye>,0.25,1,1),
+  new ExtractinatorDrop(<item:thermal:phytogro>,0.15,1,1),
+  new ExtractinatorDrop(<item:minecraft:emerald>,0.01,1,1),
+  new ExtractinatorDrop(<item:minecraft:lily_pad>,0.08,1,1),
+  new ExtractinatorDrop(<item:minecraft:vine>,0.08,1,1),
+  new ExtractinatorDrop(<item:minecraft:wheat_seeds>,0.15,1,1),
+  new ExtractinatorDrop(<item:minecraft:tall_grass>,0.1,1,1),
+]);
+
