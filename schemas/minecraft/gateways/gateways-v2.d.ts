@@ -42,28 +42,9 @@ export type GatewayColor =
       | "material_diamond"
       | "material_lapis"
       | "material_amethyst"
+      | "rainbow"
     )
   | string;
-export type GatewayWaveEntity = {
-  type?: "gateways:standard";
-  /**
-   * Registry name of the entity being spawned.
-   */
-  entity: string;
-  /**
-   * Lang key used when this wave entity is displayed in a tooltip. If absent, the default lang key of the entity type used.
-   */
-  desc?: string;
-  nbt?: CompoundTag;
-  /**
-   * A list of wave modifiers for the entity.
-   */
-  modifiers?: GatewayWaveModifier[];
-  /**
-   * The number of copies of this entity to spawn.
-   */
-  count?: number;
-};
 export type CompoundTag =
   | string
   | {
@@ -274,6 +255,30 @@ export interface GatewayWave {
    * The setup time (in ticks) before this wave begins, after the last wave was completed.
    */
   setup_time: number;
+}
+export interface GatewayWaveEntity {
+  type?: "gateways:standard";
+  /**
+   * Registry name of the entity being spawned.
+   */
+  entity: string;
+  /**
+   * Lang key used when this wave entity is displayed in a tooltip. If absent, the default lang key of the entity type used.
+   */
+  desc?: string;
+  nbt?: CompoundTag;
+  /**
+   * A list of wave modifiers for the entity.
+   */
+  modifiers?: GatewayWaveModifier[];
+  /**
+   * The number of copies of this entity to spawn.
+   */
+  count?: number;
+  /**
+   * Prevents addition of default equipment
+   */
+  finalize_spawn?: boolean;
 }
 export interface ItemStack {
   /**

@@ -169,7 +169,8 @@
             "material_emerald",
             "material_diamond",
             "material_lapis",
-            "material_amethyst"
+            "material_amethyst",
+            "rainbow"
           ]
         },
         {
@@ -217,42 +218,42 @@
       "additionalProperties": false
     },
     "gatewayWaveEntity": {
-      "oneOf": [
-        {
-          "type": "object",
-          "properties": {
-            "type": {
-              "type": "string",
-              "const": "gateways:standard"
-            },
-            "entity": {
-              "type": "string",
-              "description": "Registry name of the entity being spawned."
-            },
-            "desc": {
-              "type": "string",
-              "description": "Lang key used when this wave entity is displayed in a tooltip. If absent, the default lang key of the entity type used."
-            },
-            "nbt": {
-              "$ref": "#/$defs/compoundTag"
-            },
-            "modifiers": {
-              "type": "array",
-              "items": {
-                "$ref": "#/$defs/gatewayWaveModifier"
-              },
-              "description": "A list of wave modifiers for the entity."
-            },
-            "count": {
-              "type": "number",
-              "description": "The number of copies of this entity to spawn.",
-              "minimum": 1
-            }
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "const": "gateways:standard"
+        },
+        "entity": {
+          "type": "string",
+          "description": "Registry name of the entity being spawned."
+        },
+        "desc": {
+          "type": "string",
+          "description": "Lang key used when this wave entity is displayed in a tooltip. If absent, the default lang key of the entity type used."
+        },
+        "nbt": {
+          "$ref": "#/$defs/compoundTag"
+        },
+        "modifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/gatewayWaveModifier"
           },
-          "required": ["entity"],
-          "additionalProperties": false
+          "description": "A list of wave modifiers for the entity."
+        },
+        "count": {
+          "type": "number",
+          "description": "The number of copies of this entity to spawn.",
+          "minimum": 1
+        },
+        "finalize_spawn": {
+          "type": "boolean",
+          "description": "Prevents addition of default equipment"
         }
-      ]
+      },
+      "required": ["entity"],
+      "additionalProperties": false
     },
     "gatewayWaveModifier": {
       "oneOf": [
