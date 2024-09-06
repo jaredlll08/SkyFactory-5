@@ -4,6 +4,7 @@ public enum ColoredItem {
   Apple = "apple",
   Boat = "boat",
   Campfire = "campfire",
+  ChallengeGateway = "challenge_gateway",
   CompostingBin = "composting_bin",
   CraftingTable = "crafting_table",
   Crucible = "crucible",
@@ -67,6 +68,13 @@ ContentBuilder.factory
     }
 
     return BracketHandlers.getItem("tintedcampfires:" + color.getResourceName() + "_campfire");
+  })
+  .registerItem(ColoredItem.ChallengeGateway, (color) => {
+    if color.getName() != ColorName.Red {
+      return null;
+    }
+
+    return <item:gateways:gate_pearl>.withTag({gateway:"gateways:challenge/challenge_" + color.getResourceName()});
   })
   .registerItem(ColoredItem.CraftingTable, (color) => {
     return BracketHandlers.getItem("colouredstuff:crafting_table_" + color.getResourceName());

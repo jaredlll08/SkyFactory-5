@@ -1,3 +1,5 @@
+import crafttweaker.api.ingredient.IIngredient;
+
 ContentBuilder.factory
   .addRecipeGenerator("_apple_to_dye", (baseName, args) => {
     val apple = args.getItem(ColoredItem.Apple);
@@ -329,6 +331,38 @@ ContentBuilder.factory
         [wool, wool, wool],
         [wool, <item:sf5_things:treasure_bag_template>.reuse(), wool],
         [wool, wool, wool]
+      ]
+    );
+  })
+  .addRecipeGenerator("_gateway_pearls_to_challenge_gateway", (baseName, args) => {
+    val challengeGateway = args.getItem(ColoredItem.ChallengeGateway);
+    if challengeGateway == null {
+      return;
+    }
+
+    val gatewayIDsForColor = getGatewaysForColor(args.color);
+    if gatewayIDsForColor.length <= 1 {
+      return;
+    }
+
+    var gatewaysIngredient as IIngredient = <item:gateways:gate_pearl>.withTag({gateway: gatewayIDsForColor[0]});
+    for i in 1 .. gatewayIDsForColor.length {
+      gatewaysIngredient = gatewaysIngredient | <item:gateways:gate_pearl>.withTag({gateway: gatewayIDsForColor[i]});
+    }
+
+    craftingTable.addShapeless(
+      args.color.getResourceName() + baseName,
+      challengeGateway,
+      [
+        gatewaysIngredient,
+        gatewaysIngredient,
+        gatewaysIngredient,
+        gatewaysIngredient,
+        gatewaysIngredient,
+        gatewaysIngredient,
+        gatewaysIngredient,
+        gatewaysIngredient,
+        gatewaysIngredient
       ]
     );
   });
