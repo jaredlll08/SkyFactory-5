@@ -2054,7 +2054,7 @@ REIEvents.groupEntries((event) => {
   ]);
 
   // Shulker Boxes
-  event.groupItems("kubejs:rei_groups/ars_glyphs", "Ars Nouveau Glyphs", [
+  event.groupItems("kubejs:rei_groups/shulker_boxes", "Shulker Boxes", [
     /shulker_box/,
   ]);
 

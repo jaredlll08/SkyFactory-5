@@ -837,6 +837,15 @@ REIEvents.hide("item", (event) => {
     "silentgear:green_fluffy_block",
     "silentgear:red_fluffy_block",
     "silentgear:black_fluffy_block",
+    "draconicevolution:structure_block",
+    "exnihilosequentia:porcelain_doll",
+    "phosphophyllite:phosphophyllite_ore",
+    "phosphophyllite:fluid_white_hole",
+    "phosphophyllite:item_white_hole",
+    "phosphophyllite:power_white_hole",
+    "phosphophyllite:power_black_hole",
+    "phosphophyllite:fluid_black_hole",
+    "phosphophyllite:item_black_hole",
   ];
 
   hiddenItems.forEach((item) => event.hide(item));
