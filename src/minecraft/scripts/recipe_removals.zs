@@ -270,6 +270,7 @@ val items as IItemStack[] = [
 <item:exnihilosequentia:shulker_doll>,
 <item:exnihilosequentia:guardian_doll>,
 <item:exnihilosequentia:bee_doll>,
+<item:exnihilosequentia:porcelain_doll>,
 
 // Industrial Foregoing
 <item:industrialforegoing:mob_slaughter_factory>,
@@ -296,8 +297,6 @@ val items as IItemStack[] = [
   <item:silentgear:green_fluffy_block>,
   <item:silentgear:red_fluffy_block>,
   <item:silentgear:black_fluffy_block>
-
-
 ];
 
 for item in items {
