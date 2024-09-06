@@ -2,18 +2,18 @@ import crafttweaker.api.entity.Entity;
 import crafttweaker.api.entity.EntityType;
 import mods.angrymobs.AITweaks;
 
-/*
+
 // Makes Chickens able to do melee damage (needed for any mob that normally doesn't attack anything)
-AITweaks.addMeleeAttackTweak(<entitytype:minecraft:chicken>, 1, 1.0F, 1.0D, false);
+// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:chicken>, 1, 1.0F, 1.0D, false);
 // Makes Chickens shoot eggs at their target
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:chicken>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
+// AITweaks.addProjectileAttackTweak(<entitytype:minecraft:chicken>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
 
 
 // Makes Chickens able to do melee damage (needed for any mob that normally doesn't attack anything)
-AITweaks.addMeleeAttackTweak(<entitytype:minecraft:allay>, 1, 1.0F, 1.0D, false);
+// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:allay>, 1, 1.0F, 1.0D, false);
 // Makes Chickens shoot eggs at their target
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:allay>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
-*/
+// AITweaks.addProjectileAttackTweak(<entitytype:minecraft:allay>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
+
 
 // Villagers and Wandering Traders need to be given a lower speed
 // due to 1.0F making them, uniquely way too fast
@@ -21,7 +21,7 @@ AITweaks.addMeleeAttackTweak(<entitytype:minecraft:villager>, 1, 0.5F, 1.0D, fal
 AITweaks.addMeleeAttackTweak(<entitytype:minecraft:wandering_trader>, 1, 0.5F, 1.0D, false);
 AITweaks.addMeleeAttackTweak(<entitytype:vinery:wandering_winemaker>, 1, 0.5F, 1.0D, false);
 
-
+AITweaks.addMeleeAttackTweak(<entitytype:minecraft:giant>, 1, 1.0F, 1.0D, false);
 
 // Ranged Entities
 // Camels spit
