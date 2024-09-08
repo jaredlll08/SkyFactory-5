@@ -57,7 +57,7 @@ export function createStandardTitanGateway(
   const newData: EndlessGateway = {
     __typename: "EndlessGateway",
     type: "gateways:endless",
-    size: "large",
+    size: "medium",
     color: color,
     base_wave: {
       entities: [waveEntity],

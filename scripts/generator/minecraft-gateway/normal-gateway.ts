@@ -55,7 +55,7 @@ export function createStandardNormalGateway(
 
   const newData: NormalGateway = {
     __typename: "NormalGateway",
-    size: "large",
+    size: "small",
     color: color,
     failures: [
       {
