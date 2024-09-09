@@ -81,6 +81,12 @@ REIEvents.groupEntries((event) => {
     "rftoolsutility:creative_screen",
     "enderio:creative_power",
     "createaddition:creative_energy",
+    "draconicevolution:creative_capacitor",
+    "draconicevolution:creative_op_capacitor",
+    "botania:mana_tablet",
+    "littlelogistics:creative_capacitor",
+    "spelled:creative_tome",
+    "mininggadgets:upgrade_battery_creative",
   ]);
 
   // Coral

@@ -40,7 +40,15 @@ const groupedItemsToModify = [
     hunger: 3,
     saturation: 2,
     fastToEat: false,
-    alwaysEdible: true,
+    alwaysEdible: false,
+    onEaten: (e) => e.player.tell("you ate"),
+  },
+  {
+    ids: ["sf5_things:block_of_jerky"],
+    hunger: 2,
+    saturation: 1,
+    fastToEat: false,
+    alwaysEdible: false,
     onEaten: (e) => e.player.tell("you ate"),
   },
   {
@@ -48,7 +56,7 @@ const groupedItemsToModify = [
     hunger: 5,
     saturation: 3,
     fastToEat: false,
-    alwaysEdible: true,
+    alwaysEdible: false,
     onEaten: (e) => e.player.tell("you ate"),
   },
   {
@@ -56,7 +64,7 @@ const groupedItemsToModify = [
     hunger: 7,
     saturation: 4,
     fastToEat: false,
-    alwaysEdible: true,
+    alwaysEdible: false,
     onEaten: (e) => e.player.tell("you ate"),
   },
   {
@@ -64,7 +72,7 @@ const groupedItemsToModify = [
     hunger: 1,
     saturation: 1,
     fastToEat: false,
-    alwaysEdible: true,
+    alwaysEdible: false,
     onEaten: (e) => e.player.tell("ew"),
   },
 ];
