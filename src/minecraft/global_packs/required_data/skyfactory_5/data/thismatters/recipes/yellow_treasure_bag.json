@@ -5,12 +5,7 @@
     "item": "minecraft:yellow_dye"
   },
   "result": {
-    "item": "treasurebags:treasure_bag",
-    "nbt": {
-      "silentlib.LootContainer": {
-        "BagType": "treasurebags:yellow",
-        "LootTable": "treasurebags:bags/yellow"
-      }
-    }
+    "item": "lootbags:loot_bag",
+    "nbt": "{Color:16776960,Loot:\"skyfactory_5:loot_bags/yellow_loot_bag\",Name:\"Yellow Loot Bag\",Type:\"COMMON\"}"
   }
 }

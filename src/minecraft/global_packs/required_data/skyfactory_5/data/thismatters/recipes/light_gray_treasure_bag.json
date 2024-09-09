@@ -5,12 +5,7 @@
     "item": "minecraft:light_gray_dye"
   },
   "result": {
-    "item": "treasurebags:treasure_bag",
-    "nbt": {
-      "silentlib.LootContainer": {
-        "BagType": "treasurebags:light_gray",
-        "LootTable": "treasurebags:bags/light_gray"
-      }
-    }
+    "item": "lootbags:loot_bag",
+    "nbt": "{Color:13882323,Loot:\"skyfactory_5:loot_bags/light_gray_loot_bag\",Name:\"Light Gray Loot Bag\",Type:\"COMMON\"}"
   }
 }

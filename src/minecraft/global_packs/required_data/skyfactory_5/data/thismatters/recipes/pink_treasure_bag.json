@@ -5,12 +5,7 @@
     "item": "minecraft:pink_dye"
   },
   "result": {
-    "item": "treasurebags:treasure_bag",
-    "nbt": {
-      "silentlib.LootContainer": {
-        "BagType": "treasurebags:pink",
-        "LootTable": "treasurebags:bags/pink"
-      }
-    }
+    "item": "lootbags:loot_bag",
+    "nbt": "{Color:16761035,Loot:\"skyfactory_5:loot_bags/pink_loot_bag\",Name:\"Pink Loot Bag\",Type:\"COMMON\"}"
   }
 }
