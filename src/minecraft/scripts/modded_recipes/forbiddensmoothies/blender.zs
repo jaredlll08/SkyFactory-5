@@ -1,6 +1,6 @@
 // Blender recipes
 // Dyes to RGB Dye
-ForbiddenSmoothiesBlender.addRecipe("rgb_to_dye", <item:sf5_things:rgb_dye> * 3, [<item:minecraft:blue_dye>, <item:minecraft:green_dye>, <item:minecraft:green_dye>], 100);
+ForbiddenSmoothiesBlender.addRecipe("rgb_to_dye", <item:sf5_things:rgb_dye> * 3, [<item:minecraft:red_dye>, <item:minecraft:green_dye>, <item:minecraft:blue_dye>], 100);
 ForbiddenSmoothiesBlender.addRecipe("cmyk_to_dye", <item:sf5_things:rgb_dye> * 4, [<item:minecraft:cyan_dye>, <item:minecraft:yellow_dye>, <item:minecraft:magenta_dye>, <item:minecraft:black_dye>], 100);
 
 // Apples to RGB Dye

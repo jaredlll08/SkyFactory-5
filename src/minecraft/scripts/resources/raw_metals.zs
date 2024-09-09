@@ -288,15 +288,24 @@ new MaterialCraftingRecipe(
 ).addRecipes();
 
 // SkyStone Dust
-craftingTable.addShapeless(
+new MaterialCraftingRecipe(
   "sky_stone_from_dye",
   <item:ae2:sky_dust> * 2,
-  [<item:minecraft:gray_dye>, <item:minecraft:gray_dye>, <item:minecraft:light_blue_dye>]
-);
+  [
+    <tag:items:forge:dyes/gray>,
+    <tag:items:forge:dyes/gray>,
+    <tag:items:forge:dyes/light_blue>
+  ]
+).addRecipes();
 
 // Draconic Evolution
-craftingTable.addShapeless(
+new MaterialCraftingRecipe(
   "draconium_dust_from_dye",
-  <item:draconicevolution:draconium_dust> * 2,
-  [<item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>, <item:minecraft:purple_dye>]
-);
+  <item:draconicevolution:draconium_dust> * 1,
+  [
+    <tag:items:forge:dyes/purple>,
+    <tag:items:forge:dyes/magenta>,
+    <tag:items:forge:dyes/magenta>,
+    <tag:items:forge:dyes/magenta>
+  ]
+).addRecipes();

@@ -391,6 +391,8 @@ recipes.addJsonRecipe("rgb_printer_granite_pebble_x9", {
      ingredients: [<item:sf5_things:block_of_rgb_dye>],
      result: <item:exnihilosequentia:granite_pebble> * 9});
 
-
-
-
+// Draconium Dust
+recipes.addJsonRecipe("rgb_printer_draconium_dust", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:draconicevolution:draconium_dust>});
