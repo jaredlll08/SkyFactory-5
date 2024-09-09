@@ -1,4 +1,4 @@
 {
-  "values": ["minecraft:ladder", "multibeds:ladder"],
+  "values": ["minecraft:ladder"],
   "replace": true
 }
