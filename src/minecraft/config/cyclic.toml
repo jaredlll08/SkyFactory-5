@@ -424,10 +424,10 @@ flow = 1000
 [cyclic.blocks.cables.energy]
 # How much buffer the energy cables hold (must not be smaller than flow)
 # Range: 1 ~ 128000
-buffer = 32000
+buffer = 128000
 # How fast energy flows in these cables (must not be greater than buffer)
 # Range: 100 ~ 32000
-flow = 1000
+flow = 32000
 
 [cyclic.blocks.generator_food]
 # RF energy per tick generated while burning food in this machine
