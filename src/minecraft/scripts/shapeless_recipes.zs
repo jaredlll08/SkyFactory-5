@@ -206,3 +206,61 @@
   <item:minecraft:crafting_table>,
     [<item:craftingstation:crafting_station_slab>, <tag:items:skyfactory_5:vanilla_planks>, <tag:items:skyfactory_5:vanilla_planks>]
   );
+
+  // PizzaCraft Cutting replacement recipes
+    craftingTable.addShapeless(
+  "pizzacraft_cutting_cucumber",
+    <item:sushigocrafting:cucumber_slices>.withTag({Amount: 80}),
+    [<tag:items:forge:tools/knives>, <item:sushigocrafting:cucumber>]
+  );
+    craftingTable.addShapeless(
+  "pizzacraft_cutting_cheese",
+    <item:thermal:cheese_wedge> * 4,
+    [<tag:items:forge:tools/knives>, <item:thermal:cheese_wheel>]
+  );
+    craftingTable.addShapeless(
+  "pizzacraft_cutting_ham",
+    <item:pizzacraft:ham>,
+    [<tag:items:forge:tools/knives>, <item:minecraft:porkchop>]
+  );
+    craftingTable.addShapeless(
+  "pizzacraft_cutting_mushroom",
+    <item:pizzacraft:mushroom_slice>,
+    [<tag:items:forge:tools/knives>, <tag:items:forge:mushrooms>]
+  );
+    craftingTable.addShapeless(
+  "pizzacraft_cutting_onion",
+    <item:pizzacraft:onion_slice>,
+    [<tag:items:forge:tools/knives>, <item:thermal:onion>]
+  );
+    craftingTable.addShapeless(
+  "pizzacraft_cutting_pepper",
+    <item:pizzacraft:pepper_slice>,
+    [<tag:items:forge:tools/knives>, <item:thermal:bell_pepper>]
+  );
+    craftingTable.addShapeless(
+  "pizzacraft_cutting_pineapple",
+    <item:pizzacraft:pineapple_slice>,
+    [<tag:items:forge:tools/knives>, <item:pizzacraft:pineapple>]
+  );
+    craftingTable.addShapeless(
+  "pizzacraft_cutting_tomato",
+    <item:pizzacraft:tomato_slice>,
+    [<tag:items:forge:tools/knives>, <item:thermal:tomato>]
+  );
+    craftingTable.addShapeless(
+  "pizzacraft_cutting_chicken",
+    <item:pizzacraft:wing>,
+    [<tag:items:forge:tools/knives>, <item:minecraft:chicken>]
+  );
+    craftingTable.addShapeless(
+  "pizzacraft_cutting_fish",
+    <item:pizzacraft:fish_fillet>,
+    [<tag:items:forge:tools/knives>, <tag:items:forge:foods/fish/raw>]
+  );
+
+
+
+
+
+

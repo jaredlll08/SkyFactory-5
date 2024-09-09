@@ -296,7 +296,49 @@ val items as IItemStack[] = [
   <item:silentgear:brown_fluffy_block>,
   <item:silentgear:green_fluffy_block>,
   <item:silentgear:red_fluffy_block>,
-  <item:silentgear:black_fluffy_block>
+  <item:silentgear:black_fluffy_block>,
+
+    // Create
+  <item:create:copper_nugget>,
+  <item:createaddition:electrum_ingot>,
+  <item:createaddition:electrum_nugget>,
+  <item:createaddition:electrum_sheet>,
+
+  // Immersive Engineering
+    <item:immersiveengineering:nugget_copper>,
+    <item:immersiveengineering:nugget_electrum>,
+    <item:immersiveengineering:storage_electrum>,
+  // Cyclic
+  <item:cyclic:copper_nugget>,
+
+  // Silent's Gear
+  <item:silentgear:bronze_ingot>,
+
+  // PizzaCraft
+  <item:pizzacraft:pepper_seeds>,
+  <item:pizzacraft:tomato_seeds>,
+  <item:pizzacraft:onion>,
+  <item:pizzacraft:tomato>,
+  <item:pizzacraft:pepper>,
+  <item:pizzacraft:cucumber>,
+  <item:pizzacraft:corn_flour>,
+  <item:pizzacraft:flour>,
+  <item:pizzacraft:dough>,
+  <item:pizzacraft:corn>,
+  <item:pizzacraft:oak_chopping_board>,
+  <item:pizzacraft:birch_chopping_board>,
+  <item:pizzacraft:spruce_chopping_board>,
+  <item:pizzacraft:jungle_chopping_board>,
+  <item:pizzacraft:acacia_chopping_board>,
+  <item:pizzacraft:dark_oak_chopping_board>,
+  <item:pizzacraft:crimson_chopping_board>,
+  <item:pizzacraft:warped_chopping_board>,
+  <item:pizzacraft:olive_chopping_board>,
+  <item:pizzacraft:cheese_block>,
+  <item:pizzacraft:cheese>,
+  <item:pizzacraft:cucumber_seeds>,
+  <item:pizzacraft:cucumber_slice>
+
 ];
 
 for item in items {

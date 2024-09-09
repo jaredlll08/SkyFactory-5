@@ -1,4 +1,4 @@
 {
-  "replace": false,
-  "values": ["pizzacraft:onion_slice", "pizzacraft:onion"]
+  "replace": true,
+  "values": ["pizzacraft:onion_slice", "thermal:onion"]
 }

@@ -190,6 +190,7 @@ val itemsToRemove as IItemStack[] = [
   <item:create:iron_sheet>,
   <item:create:copper_sheet>,
   <item:create:golden_sheet>,
+  <item:create:copper_nugget>,
   <item:immersiveengineering:plate_copper>,
   <item:immersiveengineering:plate_electrum>,
   <item:immersiveengineering:plate_iron>,
@@ -239,7 +240,40 @@ val itemsToRemove as IItemStack[] = [
   <item:silentgear:brown_fluffy_block>,
   <item:silentgear:green_fluffy_block>,
   <item:silentgear:red_fluffy_block>,
-  <item:silentgear:black_fluffy_block>
+  <item:silentgear:black_fluffy_block>,
+
+  // Immersive Engineering
+  <item:immersiveengineering:storage_electrum>,
+
+  // Create
+  <item:createaddition:electrum_ingot>,
+  <item:createaddition:electrum_nugget>,
+  <item:createaddition:electrum_sheet>,
+
+  // PizzaCraft
+  <item:pizzacraft:pepper_seeds>,
+  <item:pizzacraft:tomato_seeds>,
+  <item:pizzacraft:onion>,
+  <item:pizzacraft:tomato>,
+  <item:pizzacraft:pepper>,
+  <item:pizzacraft:cucumber>,
+  <item:pizzacraft:corn_flour>,
+  <item:pizzacraft:flour>,
+  <item:pizzacraft:dough>,
+  <item:pizzacraft:corn>,
+  <item:pizzacraft:oak_chopping_board>,
+  <item:pizzacraft:birch_chopping_board>,
+  <item:pizzacraft:spruce_chopping_board>,
+  <item:pizzacraft:jungle_chopping_board>,
+  <item:pizzacraft:acacia_chopping_board>,
+  <item:pizzacraft:dark_oak_chopping_board>,
+  <item:pizzacraft:crimson_chopping_board>,
+  <item:pizzacraft:warped_chopping_board>,
+  <item:pizzacraft:olive_chopping_board>,
+  <item:pizzacraft:cheese_block>,
+  <item:pizzacraft:cheese>,
+  <item:pizzacraft:cucumber_seeds>,
+  <item:pizzacraft:cucumber_slice>
 
 ];
 

@@ -1,4 +1,8 @@
 {
-  "replace": false,
-  "values": ["pizzacraft:pepper_slice", "pizzacraft:pepper"]
+  "replace": true,
+  "values": [
+    "pizzacraft:pepper_slice",
+    "thermal:bell_pepper",
+    "thermal:stuffed_pepper"
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
-    "pizzacraft:cucumber_slice",
+    "sushigocrafting:cucumber_slices",
     "pizzacraft:onion_slice",
     "pizzacraft:pepper_slice",
     "pizzacraft:pineapple_slice",

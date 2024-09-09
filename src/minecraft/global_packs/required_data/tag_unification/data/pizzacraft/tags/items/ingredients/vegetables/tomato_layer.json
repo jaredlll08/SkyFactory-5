@@ -1,4 +1,4 @@
 {
-  "replace": false,
-  "values": ["pizzacraft:tomato_slice", "pizzacraft:tomato"]
+  "replace": true,
+  "values": ["pizzacraft:tomato_slice", "thermal:tomato"]
 }

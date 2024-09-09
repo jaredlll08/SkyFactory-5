@@ -32,8 +32,7 @@ villagerTrades.addTrade(<profession:minecraft:farmer>, 2, 2, <item:sushigocrafti
 villagerTrades.addTrade(<profession:minecraft:farmer>, 2, 2, <item:sushigocrafting:sesame_seeds>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 2, 4, <item:sushigocrafting:avocado_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:pizzacraft:broccoli_seeds>, 4, 8, 0.05);
-villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:pizzacraft:cucumber_seeds>, 4, 8, 0.05);
-villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:pizzacraft:pepper_seeds>, 4, 8, 0.05);
+villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:thermal:bell_pepper_seeds>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:pizzacraft:pineapple_seeds>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:thermal:tomato_seeds>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:thermal:eggplant_seeds>, 4, 8, 0.05);

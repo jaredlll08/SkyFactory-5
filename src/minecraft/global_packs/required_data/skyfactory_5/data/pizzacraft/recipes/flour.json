@@ -1,13 +1,7 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": ["XX", "XX"],
-  "key": {
-    "X": {
-      "item": "minecraft:wheat"
+  "conditions": [
+    {
+      "type": "forge:false"
     }
-  },
-  "result": {
-    "item": "pizzacraft:flour",
-    "count": 2
-  }
+  ]
 }
