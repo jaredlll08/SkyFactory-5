@@ -1,88 +1,65 @@
 import crafttweaker.api.entity.Entity;
 import crafttweaker.api.entity.EntityType;
 import mods.angrymobs.AITweaks;
-
-
-// Makes Chickens able to do melee damage (needed for any mob that normally doesn't attack anything)
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:chicken>, 1, 1.0F, 1.0D, false);
-// Makes Chickens shoot eggs at their target
-// AITweaks.addProjectileAttackTweak(<entitytype:minecraft:chicken>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
-
-
-// Makes Chickens able to do melee damage (needed for any mob that normally doesn't attack anything)
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:allay>, 1, 1.0F, 1.0D, false);
-// Makes Chickens shoot eggs at their target
-// AITweaks.addProjectileAttackTweak(<entitytype:minecraft:allay>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
-
-
 // Villagers and Wandering Traders need to be given a lower speed
 // due to 1.0F making them, uniquely way too fast
+AITweaks.addMeleeAttackTweak(<entitytype:minecraft:giant>, 1, 1.0F, 1.0D, false);
 AITweaks.addMeleeAttackTweak(<entitytype:minecraft:villager>, 1, 0.5F, 1.0D, false);
 AITweaks.addMeleeAttackTweak(<entitytype:minecraft:wandering_trader>, 1, 0.5F, 1.0D, false);
 AITweaks.addMeleeAttackTweak(<entitytype:vinery:wandering_winemaker>, 1, 0.5F, 1.0D, false);
-
-AITweaks.addMeleeAttackTweak(<entitytype:minecraft:giant>, 1, 1.0F, 1.0D, false);
+AITweaks.addLeapTweak(<entitytype:minecraft:villager>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:minecraft:wandering_trader>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:vinery:wandering_winemaker>, 2, 0.3F);
 
 // Ranged Entities
-// Camels spit
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:camel>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 1.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:earthmobsmod:cluck_shroom>, <entitytype:earthmobsmod:smelly_egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:earthmobsmod:duck>, <entitytype:earthmobsmod:duck_egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
+// Egg Throw
+AITweaks.addProjectileAttackTweak(<entitytype:earthmobsmod:cluck_shroom>, <entitytype:earthmobsmod:smelly_egg>, "minecraft:entity.egg.throw", 1, 3.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:earthmobsmod:duck>, <entitytype:earthmobsmod:duck_egg>, "minecraft:entity.egg.throw", 1, 3.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:chicken>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 3.0F, 1.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:earthmobsmod:fancy_chicken>, <entitytype:earthmobsmod:fancy_egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:chicken>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:strider>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 1.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:panda>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 1.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:forcecraft:cold_chicken>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:forcecraft:cold_chicken>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 3.0F, 1.0F);
 
-// TODO: Remove these (in favor of the loop below) after confirming these are all fine
-// Melee Entities
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:albino_cow>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:cream_cow>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:furnace_golem>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:hyper_rabbit>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:jumbo_rabbit>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:magma_cow>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:melon_golem>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:moobloom>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:moolip>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:jolly_llama>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:teacup_pig>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:umbra_cow>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:wooly_cow>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:zombified_pig>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:energeticsheep:energetic_sheep>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:allay>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:axolotl>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:bat>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:cat>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:cod>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:cow>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:dolphin>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:donkey>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:fox>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:frog>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:glow_squid>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:goat>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:horse>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:mooshroom>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:ocelot>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:parrot>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:pig>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:polar_bear>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:pufferfish>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:rabbit>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:salmon>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:sheep>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:skeleton_horse>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:sniffer>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:squid>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:tadpole>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:tropical_fish>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:turtle>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:wolf>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:minecraft:zombie_horse>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:forcecraft:cold_cow>, 1, 1.0F, 1.0D, false);
-// AITweaks.addMeleeAttackTweak(<entitytype:forcecraft:cold_pig>, 1, 1.0F, 1.0D, false);
+// Llama Spit
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:camel>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:parrot>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:strider>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:panda>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 1.0F);
+
+// Trident Throw
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:salmon>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:sushigocrafting:tuna>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:dolphin>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:cod>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:tadpole>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:pufferfish>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:glow_squid>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:tropical_fish>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:squid>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
+AITweaks.addLeapTweak(<entitytype:minecraft:salmon>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:sushigocrafting:tuna>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:minecraft:dolphin>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:minecraft:cod>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:minecraft:tadpole>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:minecraft:pufferfish>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:minecraft:glow_squid>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:minecraft:tropical_fish>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:minecraft:squid>, 2, 0.3F);
+// Snowball
+// Egg
+// Ender Pearl
+// Trident
+// Arrow
+// Tipped Arrow
+// Spectral Arrow
+// Splash Potion
+// Lingering Potion
+// Llama Spit
+// Small Fireball
+// Large Fireball (stack of 2 Fireballs)
+// Dragon Fireball (Dragon's Breath)
+// Wither Skull
+// Charged Wither Skull (stack of 2 Wither Skulls)
+// Experience Bottle
 
 val denyList as EntityType<Entity>[] = [
   <entitytype:minecraft:snow_golem>,
@@ -94,6 +71,6 @@ for mob in Globals.stagedMobs {
   if !mob.getCategory().isFriendly() || mob in denyList {
     continue;
   }
-
+  AITweaks.addLeapTweak(mob, 2, 0.3F);
   AITweaks.addMeleeAttackTweak(mob, 1, 1.0F, 0.0D, false);
 }
