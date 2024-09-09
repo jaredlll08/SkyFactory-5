@@ -1,6 +1,6 @@
 {
   "__typename": "NormalGateway",
-  "size": "large",
+  "size": "small",
   "color": "#5d7c15",
   "failures": [
     {

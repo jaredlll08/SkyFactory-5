@@ -1,7 +1,7 @@
 {
   "__typename": "EndlessGateway",
   "type": "gateways:endless",
-  "size": "large",
+  "size": "medium",
   "color": "#b02e26",
   "base_wave": {
     "entities": [
