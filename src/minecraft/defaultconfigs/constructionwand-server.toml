@@ -85,6 +85,11 @@ SimilarBlocks = [
 [tileentity]
 # White/Blacklist for Tile Entities. Allow/Prevent blocks with TEs from being placed by wand.
 # You can either add block ids like minecraft:chest or mod ids like minecraft
-TEList = ["chiselsandbits"]
+TEList = [
+  "chiselsandbits",
+  "thermal:energy_duct",
+  "thermal:fluid_duct",
+  "thermal:fluid_duct_windowed"
+]
 # If set to TRUE, treat TEList as a whitelist, otherwise blacklist
 TEWhitelist = false
