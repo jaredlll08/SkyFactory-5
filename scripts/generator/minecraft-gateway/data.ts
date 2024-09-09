@@ -401,7 +401,7 @@ export const mobData: MobData[] = [
     minLightLevel: 7,
     maxLightLevel: 15,
     additionalGatewayMobNBT: {
-      Air: new Int(-50000),
+      Moistness: new Int(50000),
       "pehkui:scale_data_types": {
         "pehkui:reach": {
           scale: new Float(0.05),
