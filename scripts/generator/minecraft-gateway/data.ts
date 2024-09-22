@@ -2642,6 +2642,14 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
+    additionalGatewayMobNBT: {
+      Air: new Int(-50000),
+    },
+    spawnOverrides: {
+      block: {
+        tag: "skyfactory_5:this_is_where_fish_and_other_sea_creatures_should_spawn_please_work_please_please_please",
+      },
+    },
   },
   {
     spawnOnly: false,
