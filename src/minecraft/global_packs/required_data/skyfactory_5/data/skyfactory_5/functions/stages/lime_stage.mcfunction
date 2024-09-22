@@ -9,5 +9,7 @@ execute as @e[type=player,distance=..16] run colorfulskies color @s sky 80c71f
 
 execute as @e[type=player,distance=..16] run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 0.35
 
-title @s title {"text":"","color":"#80c71f"}
-title @s subtitle [{"text":"§lLime§r","color":"#80c71f"},{"text":" Has Been Added to Your Palette","color":"#FFFFFF"}]
+title @s title {"text":"","color":"#69A119"}
+title @s subtitle [{"text":"Lime","color":"#69A119"},{"text":" Has Been Added to Your Palette","color":"#FFFFFF"}]
+
+execute as @e[type=player,distance=..16] run tag @s add lime_stage

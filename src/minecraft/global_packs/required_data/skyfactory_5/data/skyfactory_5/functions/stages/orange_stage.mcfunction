@@ -10,5 +10,7 @@ execute as @e[type=player,distance=..16] run colorfulskies color @s sky f9801d
 #execute as @e[type=player,distance=..16] run give @s sf5_things:green_apple
 execute as @e[type=player,distance=..16] run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 0.35
 
-title @s title {"text":"","color":"#f9801d"}
-title @s subtitle [{"text":"§lOrange§r","color":"#f9801d"},{"text":" Has Been Added to Your Palette","color":"#FFFFFF"}]
+title @s title {"text":"","color":"#D16C19"}
+title @s subtitle [{"text":"Orange","color":"#D16C19"},{"text":" Has Been Added to Your Palette","color":"#FFFFFF"}]
+
+execute as @e[type=player,distance=..16] run tag @s add orange_stage
