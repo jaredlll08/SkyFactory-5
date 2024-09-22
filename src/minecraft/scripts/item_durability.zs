@@ -42,7 +42,31 @@ val itemsForDurability as IItemStack[][int] = {
     <item:pizzacraft:netherite_pizza_peel>,
     <item:vinery:straw_hat>,
     <item:immersiveengineering:wirecutter>,
-    <item:immersiveengineering:hammer>
+    <item:immersiveengineering:hammer>,
+  // Modular Golems
+    <item:modulargolems:roman_guard_helmet>,
+    <item:modulargolems:roman_guard_chestplate>,
+    <item:modulargolems:roman_guard_shinguard>,
+    <item:modulargolems:wind_spirit_helmet>,
+    <item:modulargolems:wind_spirit_chestplate>,
+    <item:modulargolems:wind_spirit_shinguard>,
+    <item:modulargolems:wind_spirit_shinguard>,
+    <item:modulargolems:wind_spirit_shinguard>,
+    <item:modulargolems:barbaric_vanguard_helmet>,
+    <item:modulargolems:barbaric_vanguard_chestplate>,
+    <item:modulargolems:barbaric_vanguard_shinguard>,
+    <item:modulargolems:iron_golem_spear>,
+    <item:modulargolems:diamond_golem_spear>,
+    <item:modulargolems:netherite_golem_spear>,
+    <item:modulargolems:iron_golem_axe>,
+    <item:modulargolems:diamond_golem_axe>,
+    <item:modulargolems:netherite_golem_axe>,
+    <item:modulargolems:iron_golem_sword>,
+    <item:modulargolems:diamond_golem_sword>,
+    <item:modulargolems:netherite_golem_sword>,
+
+
+
   ],
   9999: [
     <item:sophisticatedstorage:packing_tape>
