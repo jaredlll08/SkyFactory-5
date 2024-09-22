@@ -64,10 +64,16 @@ craftingTable.addShapeless(
 );
 
 // Tuff
-// craftingTable.addShapeless(
-//   "tuff_from_dye",
-//   <item:minecraft:tuff>,
-//   [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/black>, <tag:items:forge:dyes/black>]
-// );
+craftingTable.addShapeless(
+  "tuff_from_dye",
+  <item:minecraft:tuff>,
+  [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/black>]
+);
 
+// Soul Sand
+craftingTable.addShapeless(
+  "soul_sand_from_dye",
+  <item:minecraft:soul_sand>,
+  [<tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>]
+);
 
