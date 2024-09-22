@@ -210,57 +210,51 @@
   // PizzaCraft Cutting replacement recipes
     craftingTable.addShapeless(
   "pizzacraft_cutting_cucumber",
-    <item:sushigocrafting:cucumber_slices>.withTag({Amount: 80}),
-    [<tag:items:forge:tools/knives>, <item:sushigocrafting:cucumber>]
+    <item:sushigocrafting:cucumber_slices>.withTag({Amount: 80}) * 2,
+    [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <item:sushigocrafting:cucumber>]
   );
     craftingTable.addShapeless(
   "pizzacraft_cutting_cheese",
     <item:thermal:cheese_wedge> * 4,
-    [<tag:items:forge:tools/knives>, <item:thermal:cheese_wheel>]
+    [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <item:thermal:cheese_wheel>]
   );
     craftingTable.addShapeless(
   "pizzacraft_cutting_ham",
-    <item:pizzacraft:ham>,
-    [<tag:items:forge:tools/knives>, <item:minecraft:porkchop>]
+    <item:pizzacraft:ham> * 2,
+    [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <item:minecraft:porkchop>]
   );
     craftingTable.addShapeless(
   "pizzacraft_cutting_mushroom",
-    <item:pizzacraft:mushroom_slice>,
-    [<tag:items:forge:tools/knives>, <tag:items:forge:mushrooms>]
+    <item:pizzacraft:mushroom_slice> * 2,
+    [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <tag:items:forge:mushrooms>]
   );
     craftingTable.addShapeless(
   "pizzacraft_cutting_onion",
-    <item:pizzacraft:onion_slice>,
-    [<tag:items:forge:tools/knives>, <item:thermal:onion>]
+    <item:pizzacraft:onion_slice> * 2,
+    [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <item:thermal:onion>]
   );
     craftingTable.addShapeless(
   "pizzacraft_cutting_pepper",
-    <item:pizzacraft:pepper_slice>,
-    [<tag:items:forge:tools/knives>, <item:thermal:bell_pepper>]
+    <item:pizzacraft:pepper_slice> * 2,
+    [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <item:thermal:bell_pepper>]
   );
     craftingTable.addShapeless(
   "pizzacraft_cutting_pineapple",
-    <item:pizzacraft:pineapple_slice>,
-    [<tag:items:forge:tools/knives>, <item:pizzacraft:pineapple>]
+    <item:pizzacraft:pineapple_slice> * 2,
+    [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <item:pizzacraft:pineapple>]
   );
     craftingTable.addShapeless(
   "pizzacraft_cutting_tomato",
-    <item:pizzacraft:tomato_slice>,
-    [<tag:items:forge:tools/knives>, <item:thermal:tomato>]
+    <item:pizzacraft:tomato_slice> * 2,
+    [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <item:thermal:tomato>]
   );
     craftingTable.addShapeless(
   "pizzacraft_cutting_chicken",
-    <item:pizzacraft:wing>,
-    [<tag:items:forge:tools/knives>, <item:minecraft:chicken>]
+    <item:pizzacraft:wing> * 2,
+    [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <item:minecraft:chicken>]
   );
     craftingTable.addShapeless(
   "pizzacraft_cutting_fish",
-    <item:pizzacraft:fish_fillet>,
-    [<tag:items:forge:tools/knives>, <tag:items:forge:foods/fish/raw>]
+    <item:pizzacraft:fish_fillet> * 2,
+    [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <tag:items:forge:foods/fish/raw>]
   );
-
-
-
-
-
-

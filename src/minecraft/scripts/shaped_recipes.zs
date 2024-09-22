@@ -471,16 +471,6 @@ craftingTable.addShaped(
   ]
 );
 
-
-
-
-
-
-
-
-
-
-
 craftingTable.addShaped(
   "unfired_crucible_recipe",
   <item:exnihilosequentia:unfired_crucible> * 1,
@@ -490,14 +480,6 @@ craftingTable.addShaped(
     [<item:exnihilosequentia:porcelain_clay>, <item:exnihilosequentia:porcelain_clay>, <item:exnihilosequentia:porcelain_clay>]
   ]
 );
-
-
-
-
-
-
-
-
 
 // Thermal Dynamics pipes give 6 instead of 4
 craftingTable.remove(<item:thermal:energy_duct>);
@@ -634,8 +616,6 @@ craftingTable.addShaped(
     [<item:minecraft:emerald>, <item:minecraft:emerald>, <item:minecraft:emerald>]
   ]
   );
-
-
 
 craftingTable.addShaped(
   "pebble_to_andesite",
