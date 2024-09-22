@@ -129,6 +129,12 @@ Change a Spawner by clicking on it with a Trophy
 Complete Wave 50 of any Titan Gateway
 Complete Wave 100 of any Titan Gateway
 Complete Wave 150 of any Titan Gateway
+Complete all 16 Challenge Gateways
+Build a Modular Golem
+Build a Modular Wolf
+Build a Modular Humanoid
+Modular Golem Gear up with Netherite
+Modular Golem Full Upgrades
 ===
 #§1--==§0Age of Excess§1==--
 Infinity Charger idea
