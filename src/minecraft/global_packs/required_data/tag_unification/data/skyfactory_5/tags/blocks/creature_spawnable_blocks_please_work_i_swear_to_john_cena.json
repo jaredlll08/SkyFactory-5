@@ -8,6 +8,7 @@
     "#minecraft:dirt",
     "#forge:sand",
     "#forge:cobblestone",
+    "#forge:concrete",
     "minecraft:obsidian",
     "minecraft:end_stone"
   ]
