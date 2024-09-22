@@ -1,10 +1,8 @@
 {
-  "type": "forge:add_spawns",
-  "biomes": "#forge:is_water",
-  "spawners": {
-    "type": "sushigocrafting:shrimp",
-    "weight": 500,
-    "minCount": 6,
-    "maxCount": 10
-  }
+  "type": "energeticsheep:spawn_energetic_sheep",
+  "biomes": "#skyfactory_5:none",
+  "biomesBlacklist": "#energeticsheep:is_not_energetic_sheep",
+  "spawnWeight": 3,
+  "minCount": 1,
+  "maxCount": 1
 }
