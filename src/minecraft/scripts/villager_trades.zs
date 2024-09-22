@@ -1,6 +1,60 @@
 import crafttweaker.api.villagers.VillagerTrades;
 // https:// docs.blamejared.com/1.20.1/en/vanilla/api/villager/VillagerTrades
 
+// // friendsandfoes
+villagerTrades.removeAllTrades(<profession:friendsandfoes:beekeeper>, 1);
+villagerTrades.removeAllTrades(<profession:friendsandfoes:beekeeper>, 2);
+villagerTrades.removeAllTrades(<profession:friendsandfoes:beekeeper>, 3);
+villagerTrades.removeAllTrades(<profession:friendsandfoes:beekeeper>, 4);
+villagerTrades.removeAllTrades(<profession:friendsandfoes:beekeeper>, 5);
+// // immersiveengineering
+villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 1);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 2);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 3);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 4);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 5);
+
+villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 1);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 2);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 3);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 4);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 5);
+
+villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 1);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 2);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 3);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 4);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 5);
+
+villagerTrades.removeAllTrades(<profession:immersiveengineering:outfitter>, 1);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:outfitter>, 2);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:outfitter>, 3);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:outfitter>, 4);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:outfitter>, 5);
+
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 1);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 2);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 3);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 4);
+villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 5);
+// // dyeable_redstone_signal
+villagerTrades.removeAllTrades(<profession:dyeable_redstone_signal:energy_researcher>, 1);
+villagerTrades.removeAllTrades(<profession:dyeable_redstone_signal:energy_researcher>, 2);
+villagerTrades.removeAllTrades(<profession:dyeable_redstone_signal:energy_researcher>, 3);
+villagerTrades.removeAllTrades(<profession:dyeable_redstone_signal:energy_researcher>, 4);
+villagerTrades.removeAllTrades(<profession:dyeable_redstone_signal:energy_researcher>, 5);
+// // ars_nouveau
+villagerTrades.removeAllTrades(<profession:ars_nouveau:shady_wizard>, 1);
+villagerTrades.removeAllTrades(<profession:ars_nouveau:shady_wizard>, 2);
+villagerTrades.removeAllTrades(<profession:ars_nouveau:shady_wizard>, 3);
+villagerTrades.removeAllTrades(<profession:ars_nouveau:shady_wizard>, 4);
+villagerTrades.removeAllTrades(<profession:ars_nouveau:shady_wizard>, 5);
+// // vinery
+villagerTrades.removeAllTrades(<profession:vinery:winemaker>, 1);
+villagerTrades.removeAllTrades(<profession:vinery:winemaker>, 2);
+villagerTrades.removeAllTrades(<profession:vinery:winemaker>, 3);
+villagerTrades.removeAllTrades(<profession:vinery:winemaker>, 4);
+villagerTrades.removeAllTrades(<profession:vinery:winemaker>, 5);
 // // AE2
 villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 1);
 villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 2);
