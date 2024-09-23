@@ -13,7 +13,7 @@ REIEvents.groupEntries((event) => {
     //{ modName: "Coloured Stuff", modID: "colouredstuff" },
     { modName: "Comforts", modID: "comforts" },
     //{ modName: "Cooking for Blockheads", modID: "cookingforblockheads" },
-    { modName: "Crayfish Furniture", modID: "cfm" },
+    //{ modName: "Crayfish Furniture", modID: "cfm" },
     //{ modName: "Create Addition", modID: "createaddition" },
     { modName: "Create Sabres", modID: "create_sabers" },
     //{ modName: "Create Sifter", modID: "createsifter" },
