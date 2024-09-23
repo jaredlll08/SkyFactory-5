@@ -3,7 +3,8 @@ import { MinecraftPackage } from "schemas/mc-package";
 import { downloadFile } from "scripts/utils/download";
 import { checkFileExists, emptyDirectory } from "scripts/utils/file";
 
-const forgeBaseUrl = "https://maven.neoforged.net/releases/net/neoforged/forge";
+const forgeBaseUrl =
+  "https://maven.minecraftforge.net/net/minecraftforge/forge/";
 
 export class ForgeManager {
   private mcPackage: MinecraftPackage;
