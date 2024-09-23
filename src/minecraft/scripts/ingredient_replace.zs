@@ -1,7 +1,10 @@
 import crafttweaker.api.recipe.replacement.Replacer;
 import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.recipe.replacement.type.NotFilteringRule;
+import crafttweaker.api.recipe.replacement.type.ManagerFilteringRule;
 
 Replacer.create()
+    .filter(ManagerFilteringRule.of([craftingTable]))
     .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:industrialforegoing:machine_frame_pity>, <item:thermal:machine_frame>)
     .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:industrialforegoing:machine_frame_simple>, <item:thermal:machine_frame>)
     .replace<IIngredient>(<recipecomponent:crafttweaker:input/ingredients>, <item:industrialforegoing:machine_frame_advanced>, <item:thermal:machine_frame>)
