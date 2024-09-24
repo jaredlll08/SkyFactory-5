@@ -8,7 +8,7 @@
     "#minecraft:dirt",
     "#forge:sand",
     "#forge:cobblestone",
-    "#forge:concrete",
+    "#skyfactory_5:concrete_blocks",
     "minecraft:obsidian",
     "minecraft:end_stone"
   ]
