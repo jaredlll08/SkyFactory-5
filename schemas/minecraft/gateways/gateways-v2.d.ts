@@ -241,6 +241,10 @@ export interface NormalGateway {
   boss_event?: GatewayBossEventSettings;
 }
 export interface GatewayWave {
+  /**
+   * A field ignored by the mod used as as a comment in JSON
+   */
+  wave_number?: number;
   entities: GatewayWaveEntity[];
   /**
    * A list of wave modifiers to be applied to all spawned entities.
@@ -356,6 +360,10 @@ export interface EndlessGateway {
  * The base wave for this Gateway. It will be augmented by the provided Endless Modifiers as waves pass.
  */
 export interface GatewayWave1 {
+  /**
+   * A field ignored by the mod used as as a comment in JSON
+   */
+  wave_number?: number;
   entities: GatewayWaveEntity[];
   /**
    * A list of wave modifiers to be applied to all spawned entities.

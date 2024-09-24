@@ -189,6 +189,10 @@
     "gatewayWave": {
       "type": "object",
       "properties": {
+        "wave_number": {
+          "type": "number",
+          "description": "A field ignored by the mod used as as a comment in JSON"
+        },
         "entities": {
           "type": "array",
           "items": {
