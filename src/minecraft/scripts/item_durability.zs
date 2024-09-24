@@ -35,6 +35,7 @@ for durability, modIDs in modIDsForDurability {
 
 val itemsForDurability as IItemStack[][int] = {
   -1: [
+    <item:enderio:dark_steel_sword>,
     <item:pizzacraft:stone_pizza_peel>,
     <item:pizzacraft:iron_pizza_peel>,
     <item:pizzacraft:golden_pizza_peel>,
