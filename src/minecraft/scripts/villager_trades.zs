@@ -373,7 +373,6 @@ villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 1
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/polar_bear"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/albino_cow"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/baby_ghast"}), 4, 16, 0.05);
-villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/jolly_llama"}), 4, 16, 0.05);
 // Level 3
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 3, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/melon_golem"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 3, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/opalescent_eye"}), 4, 16, 0.05);
@@ -387,7 +386,6 @@ villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/chicken"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/ghast"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/goat"}), 4, 16, 0.05);
-villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/jolly_llama"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/melon_golem"}), 4, 16, 0.05);
 // Level 5
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 5, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/opalescent_eye"}), 4, 16, 0.05);
@@ -446,14 +444,12 @@ villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_cyan>, 1,
 // Level 2
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_cyan>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/stray_bone_spider"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_cyan>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/cyan_vein_creeper"}), 4, 16, 0.05);
-villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_cyan>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/ender_luggage"}), 4, 16, 0.05);
 // Level 3
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_cyan>, 3, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/glow_skeleton"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_cyan>, 3, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/warden"}), 4, 16, 0.05);
 // Titan Gateways
 // Level 4
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_cyan>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/cyan_vein_creeper"}), 4, 16, 0.05);
-villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_cyan>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/ender_luggage"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_cyan>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/fancy_chicken"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_cyan>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/glow_skeleton"}), 4, 16, 0.05);
 // Level 5
