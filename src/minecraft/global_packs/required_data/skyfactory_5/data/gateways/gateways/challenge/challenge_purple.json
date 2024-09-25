@@ -1,0 +1,258 @@
+{
+  "__typename": "NormalGateway",
+  "size": "large",
+  "color": "#8932B8",
+  "waves": [
+    {
+      "wave_number": 1,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "earthmobsmod:bone_spider",
+          "nbt": "{Glowing:1b,Team:\"sf5_purple_team\",Variant:0,DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.49f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "finalize_spawn": false
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.max_health",
+          "operation": "multiply_total",
+          "value": 1.5
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 2
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 2.3
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.05
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 900,
+      "setup_time": 200
+    },
+    {
+      "wave_number": 2,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "minecraft:endermite",
+          "nbt": "{Glowing:1b,Team:\"sf5_purple_team\",DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},Tags:[\"gateway_entity\"],Passengers:[{id:\"minecraft:endermite\",Glowing:1b,Team:\"sf5_purple_team\",\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:1.0f},\"pehkui:height\":{scale:1.0f}},Passengers:[{id:\"minecraft:endermite\",Glowing:1b,Team:\"sf5_purple_team\",\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:0.5f},\"pehkui:height\":{scale:0.5f}},Passengers:[{id:\"minecraft:endermite\",Glowing:1b,Team:\"sf5_purple_team\",\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:0.25f},\"pehkui:height\":{scale:0.25f}},Passengers:[{id:\"minecraft:endermite\",Glowing:1b,Team:\"sf5_purple_team\",\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:0.1f},\"pehkui:height\":{scale:\"0.1ff\"}}}]}]}]}]}"
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.max_health",
+          "operation": "multiply_total",
+          "value": 1.5
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 2
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 2.3
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.05
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 900,
+      "setup_time": 200
+    },
+    {
+      "wave_number": 3,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "minecraft:shulker",
+          "nbt": "{Glowing:1b,Team:\"sf5_purple_team\",DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "finalize_spawn": false
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.max_health",
+          "operation": "multiply_total",
+          "value": 1.5
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 2
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 2.3
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.05
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 900,
+      "setup_time": 200
+    },
+    {
+      "wave_number": 4,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 4,
+          "entity": "veincreeper:purple",
+          "nbt": "{Glowing:1b,Team:\"sf5_purple_team\",powered:1b,ExplosionRadius:3b,DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "finalize_spawn": false
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.max_health",
+          "operation": "multiply_total",
+          "value": 1.5
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 2
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 2.3
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.05
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 900,
+      "setup_time": 200
+    },
+    {
+      "wave_number": 5,
+      "entities": [
+        {
+          "type": "gateways:standard",
+          "count": 1,
+          "entity": "player_mobs:player_mob",
+          "nbt": "{Glowing:1b,Team:\"sf5_purple_team\",Username:\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"Purple\",\"color\":\"#8932B8\"}',DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:8991416}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:8991416}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:8991416}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.663f},\"pehkui:width\":{scale:3.0f},\"pehkui:height\":{scale:3.0f}},Tags:[\"gateway_entity\"]}",
+          "finalize_spawn": false
+        }
+      ],
+      "modifiers": [
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.max_health",
+          "operation": "multiply_total",
+          "value": 3
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.armor",
+          "operation": "addition",
+          "value": 4
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 3
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.12
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 0.18
+        }
+      ],
+      "rewards": [],
+      "max_wave_time": 900,
+      "setup_time": 200
+    }
+  ],
+  "rewards": [
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "minecraft:chests/simple_dungeon",
+      "rolls": 1,
+      "desc": "rewards.gateways.loot_table.simple_dungeon"
+    },
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "earthmobsmod:entities/bone_spider",
+      "rolls": 1,
+      "desc": "rewards.gateways.loot_table.simple_dungeon"
+    },
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "minecraft:entities/endermite",
+      "rolls": 1,
+      "desc": "rewards.gateways.loot_table.simple_dungeon"
+    },
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "minecraft:entities/shulker",
+      "rolls": 1,
+      "desc": "rewards.gateways.loot_table.simple_dungeon"
+    },
+    {
+      "type": "gateways:loot_table",
+      "loot_table": "veincreeper:entities/purple",
+      "rolls": 1,
+      "desc": "rewards.gateways.loot_table.simple_dungeon"
+    }
+  ],
+  "failures": [],
+  "rules": {
+    "allow_discarding": true,
+    "player_damage_only": true,
+    "fail_on_out_of_bounds": true,
+    "leash_range": 32,
+    "spacing": 32,
+    "spawn_range": 2
+  }
+}
