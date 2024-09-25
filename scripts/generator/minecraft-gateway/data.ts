@@ -2661,6 +2661,9 @@ export const mobData: MobData[] = [
     minLightLevel: 8,
     maxLightLevel: 15,
     disableNeuralNetworkGeneration: true,
+    additionalGatewayMobNBT: {
+      FluidRegistryName: "colouredstuff:water_brown",
+    },
   },
   {
     spawnOnly: false,
