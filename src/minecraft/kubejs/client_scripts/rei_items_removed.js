@@ -870,6 +870,11 @@ REIEvents.hide("item", (event) => {
     "pizzacraft:crimson_chopping_board",
     "silentgear:iron_rod",
     "createaddition:iron_rod",
+    "silentgear:very_crude_repair_kit",
+    "silentgear:crude_repair_kit",
+    "silentgear:sturdy_repair_kit",
+    "silentgear:crimson_repair_kit",
+    "silentgear:azure_repair_kit",
   ];
 
   hiddenItems.forEach((item) => event.hide(item));

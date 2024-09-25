@@ -223,6 +223,12 @@ val items as IItemStack[] = [
 // Silent's Gear Item Cleanup
 <item:silentgear:diamond_shard>,
 <item:silentgear:emerald_shard>,
+<item:silentgear:very_crude_repair_kit>,
+<item:silentgear:crude_repair_kit>,
+<item:silentgear:sturdy_repair_kit>,
+<item:silentgear:crimson_repair_kit>,
+<item:silentgear:azure_repair_kit>,
+
 
 // Cyclic
 <item:cyclic:crystal_boots>,

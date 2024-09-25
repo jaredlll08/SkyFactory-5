@@ -241,6 +241,11 @@ val itemsToRemove as IItemStack[] = [
   <item:silentgear:green_fluffy_block>,
   <item:silentgear:red_fluffy_block>,
   <item:silentgear:black_fluffy_block>,
+  <item:silentgear:very_crude_repair_kit>,
+  <item:silentgear:crude_repair_kit>,
+  <item:silentgear:sturdy_repair_kit>,
+  <item:silentgear:crimson_repair_kit>,
+  <item:silentgear:azure_repair_kit>,
 
   // Immersive Engineering
   <item:immersiveengineering:storage_electrum>,
