@@ -71,11 +71,50 @@ Use a Bubble Blower to place a block in the air
 ===
 #§1--==§0Age of Magic§1==--
 ==Ars Nouveau
-Darkphan said he'd make these!
+Make A Source Gem
+Make a Spellbook
+Make a Scribes Table
+Generate Source for Machines
+Make an Enchanting Apparatus
+Make a Ritual Brazier
+Use a Crush Spell to automate Sand and Gravel
+Use a Ritual of Summon Wilden and Defeat them
+Use a Ritual of Flight to Fly around!
+Summon a Weald Walker by performing an Awakening ritual near an Archwood Tree
+Use Starbuncles to Automate Item Retrieval
+Use Wixies To automate Potion Brewing
+Automate a Farm with a Harvest Ritual
+Make an island using a Conjure Island ritual (either plains or desert)
+Summon and Defeat the Wilden Chimera
+Automate a Farm with Spell Turrets
+Farm Mob Drops With Drygmies
+Summon a Decoy of Yourself
+Capture Every Boss in A Containment Jar (may need to split into seperate tasks)
+Generate Source Using Every Type of Sourcelink
+Fully Upgrade a Set of Ars Nouveu Armor(Tier 3 Fill all thread slots, may be worded better)
+Summon A Familiar
+Use a Scryer's Oculus to Remotely Access a block
+Teleport with a Warp Scroll/Portal
+Use a Flask Cannon
 ===
 ==Occultism
-Craft goggles
-Darkphan said he'd do these too!
+Eat Demon's Dream Fruit To get the 3rd eye Effect
+Make a Spiritfire
+Obtain White Chalk
+Summon A Crusher Spirit to help Automate Resources
+Summon a Possessed Endermite and kill it for Endstone
+Use an Ars Nouveau Containment Jar to Capture an Occultism Spirit, letting them work without decaying
+Capture One of Each Trader Spirit in an Ars Nouveau Containment Jar
+Create A Dimensional Matrix for Mass item storage
+Summon A Djinni Machine Operator To Automate Crafting with the Dimensional Matrix
+Use a Dimensional Mineshaft to Automate Resources
+Have a Dimensional Matrix with Max Slots (12416, with one tier 4 on all sides including above and below)
+Summon an Afrit
+Summon the Wild Hunt and Defeat it
+Use a Transporter Spirit to Automate Item Transport
+Use a Janitor Spirit to Automate Collecting items
+Summon A Familiar and Capture it in a Familiar Ring
+Summon a Demonic Wife/Husband
 ===
 #§1--==§0Bosses§1==--
 Defeat the Warden
@@ -100,7 +139,7 @@ Create a Dimension of RGB Blocks
 ===
 #§1--==§0Age of Craziness§1==--
 Complete all ___ gateways
-Obtain all __ trophies
+Obtain all 144 trophies
 Collect all __ hats
 Obtain 90 Total Hearts of Health
 Craft an Infinity Wand
