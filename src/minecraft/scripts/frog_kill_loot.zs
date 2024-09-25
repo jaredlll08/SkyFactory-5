@@ -14,7 +14,7 @@ loot.modifiers.register(
     EntityPropertyLootCondition.create(<constant:minecraft:entitytarget:killer>, EntityPredicate.create(<entitytype:minecraft:frog>))
   ),
   (drops, ctx) => {
-    if drops.length > 0 && ctx.thisEntity is Entity {
+    if ctx.thisEntity is Entity {
       val entity = ctx.thisEntity as Entity;
       if !(entity.type in noFrogDrops) {
         drops.add(<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/" + entity.registryName.path}));
