@@ -61,7 +61,7 @@ export function createStandardNormalGateway(
       {
         type: "gateways:command",
         command: `summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:"gateways:gate_pearl",Count:1b,tag:{gateway:"gateways:normal/${gatewayID}"}}}`,
-        desc: "",
+        desc: "gateways.failures.common.gateway_pearl",
       },
       {
         type: "gateways:command",
@@ -197,7 +197,7 @@ export function createStandardNormalGateway(
       {
         type: "gateways:command",
         command: `summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:"obtrophies:trophy",Count:1b,tag:{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:"${waveEntity.entity}"}}}}`,
-        desc: "",
+        desc: `gateways.rewards.trophy.${gatewayID}`,
       },
       {
         type: "gateways:command",

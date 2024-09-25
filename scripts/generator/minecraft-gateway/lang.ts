@@ -42,7 +42,7 @@ export async function generateLangFile(data: MobData) {
   const langData = await readLangFile();
 
   Object.keys(langData).forEach((key) => {
-    if (key.startsWith("gateways.")) {
+    if (key.startsWith("gateways.normal") || key.startsWith("gateways.titan")) {
       delete langData[key];
     }
   });
@@ -57,6 +57,9 @@ export async function generateLangFile(data: MobData) {
         langData[
           `gateways.normal/${snakeCase(entry.mobName)}`
         ] = `${entry.mobName} Gateway`;
+        langData[
+          `gateways.rewards.trophy.${snakeCase(entry.mobName)}`
+        ] = `${entry.mobName} Trophy`;
       }
       if (type === GatewayType.Titan) {
         langData[

@@ -42,7 +42,10 @@ export async function updateCrafttweakerColorGatewayScript(plop: NodePlopAPI) {
       const relativePath = path.relative(gatewaysBasePath, filePath);
       const data = await readJSONFile<GatewaysToEternityGatewayV2>(filePath);
 
-      if (data.__typename === "InvalidGateway") {
+      if (
+        data.__typename === "InvalidGateway" ||
+        relativePath.startsWith("challenge" + path.sep)
+      ) {
         ignoredFiles.push(relativePath);
         return;
       }

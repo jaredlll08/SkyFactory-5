@@ -6,7 +6,7 @@
     {
       "type": "gateways:command",
       "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"gateways:gate_pearl\",Count:1b,tag:{gateway:\"gateways:normal/pufferfish\"}}}",
-      "desc": ""
+      "desc": "gateways.failures.common.gateway_pearl"
     },
     {
       "type": "gateways:command",
@@ -163,7 +163,7 @@
     {
       "type": "gateways:command",
       "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"obtrophies:trophy\",Count:1b,tag:{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:pufferfish\"}}}}",
-      "desc": ""
+      "desc": "gateways.rewards.trophy.pufferfish"
     },
     {
       "type": "gateways:command",
