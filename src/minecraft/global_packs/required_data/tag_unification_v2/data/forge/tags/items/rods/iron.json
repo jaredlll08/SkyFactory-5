@@ -1,8 +1,4 @@
 {
-  "values": [
-    "silentgear:iron_rod",
-    "immersiveengineering:stick_iron",
-    "createaddition:iron_rod"
-  ],
+  "values": ["immersiveengineering:stick_iron"],
   "replace": true
 }

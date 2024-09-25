@@ -337,7 +337,12 @@ val items as IItemStack[] = [
   <item:pizzacraft:cheese_block>,
   <item:pizzacraft:cheese>,
   <item:pizzacraft:cucumber_seeds>,
-  <item:pizzacraft:cucumber_slice>
+  <item:pizzacraft:cucumber_slice>,
+
+
+  <item:createaddition:iron_rod>,
+  <item:silentgear:iron_rod>
+
 
 ];
 
