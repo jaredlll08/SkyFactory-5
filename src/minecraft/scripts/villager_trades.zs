@@ -1,73 +1,40 @@
+import crafttweaker.api.villager.VillagerProfession;
 import crafttweaker.api.villagers.VillagerTrades;
+
 // https:// docs.blamejared.com/1.20.1/en/vanilla/api/villager/VillagerTrades
 
+function removeVillagerTrades(profession as VillagerProfession) as void {
+  // Remove 1-5
+  for i in 1 .. 6 {
+    villagerTrades.removeAllTrades(profession, i);
+  }
+}
+
 // // friendsandfoes
-villagerTrades.removeAllTrades(<profession:friendsandfoes:beekeeper>, 1);
-villagerTrades.removeAllTrades(<profession:friendsandfoes:beekeeper>, 2);
-villagerTrades.removeAllTrades(<profession:friendsandfoes:beekeeper>, 3);
-villagerTrades.removeAllTrades(<profession:friendsandfoes:beekeeper>, 4);
-villagerTrades.removeAllTrades(<profession:friendsandfoes:beekeeper>, 5);
+removeVillagerTrades(<profession:friendsandfoes:beekeeper>);
+
 // // immersiveengineering
-villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 1);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 2);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 3);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 4);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:engineer>, 5);
+removeVillagerTrades(<profession:immersiveengineering:engineer>);
+removeVillagerTrades(<profession:immersiveengineering:machinist>);
+removeVillagerTrades(<profession:immersiveengineering:electrician>);
+removeVillagerTrades(<profession:immersiveengineering:outfitter>);
+removeVillagerTrades(<profession:immersiveengineering:gunsmith>);
 
-villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 1);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 2);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 3);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 4);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:machinist>, 5);
-
-villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 1);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 2);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 3);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 4);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:electrician>, 5);
-
-villagerTrades.removeAllTrades(<profession:immersiveengineering:outfitter>, 1);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:outfitter>, 2);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:outfitter>, 3);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:outfitter>, 4);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:outfitter>, 5);
-
-villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 1);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 2);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 3);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 4);
-villagerTrades.removeAllTrades(<profession:immersiveengineering:gunsmith>, 5);
 // // dyeable_redstone_signal
-villagerTrades.removeAllTrades(<profession:dyeable_redstone_signal:energy_researcher>, 1);
-villagerTrades.removeAllTrades(<profession:dyeable_redstone_signal:energy_researcher>, 2);
-villagerTrades.removeAllTrades(<profession:dyeable_redstone_signal:energy_researcher>, 3);
-villagerTrades.removeAllTrades(<profession:dyeable_redstone_signal:energy_researcher>, 4);
-villagerTrades.removeAllTrades(<profession:dyeable_redstone_signal:energy_researcher>, 5);
+removeVillagerTrades(<profession:dyeable_redstone_signal:energy_researcher>);
+
 // // ars_nouveau
-villagerTrades.removeAllTrades(<profession:ars_nouveau:shady_wizard>, 1);
-villagerTrades.removeAllTrades(<profession:ars_nouveau:shady_wizard>, 2);
-villagerTrades.removeAllTrades(<profession:ars_nouveau:shady_wizard>, 3);
-villagerTrades.removeAllTrades(<profession:ars_nouveau:shady_wizard>, 4);
-villagerTrades.removeAllTrades(<profession:ars_nouveau:shady_wizard>, 5);
+removeVillagerTrades(<profession:ars_nouveau:shady_wizard>);
+
 // // vinery
-villagerTrades.removeAllTrades(<profession:vinery:winemaker>, 1);
-villagerTrades.removeAllTrades(<profession:vinery:winemaker>, 2);
-villagerTrades.removeAllTrades(<profession:vinery:winemaker>, 3);
-villagerTrades.removeAllTrades(<profession:vinery:winemaker>, 4);
-villagerTrades.removeAllTrades(<profession:vinery:winemaker>, 5);
+removeVillagerTrades(<profession:vinery:winemaker>);
+
 // // AE2
-villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 1);
-villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 2);
-villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 3);
-villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 4);
-villagerTrades.removeAllTrades(<profession:ae2:fluix_researcher>, 5);
+removeVillagerTrades(<profession:ae2:fluix_researcher>);
+
 // // Farmer
 // Removes all Farmer Trades
-villagerTrades.removeAllTrades(<profession:minecraft:farmer>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:farmer>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:farmer>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:farmer>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:farmer>, 5);
+removeVillagerTrades(<profession:minecraft:farmer>);
 
 // VillagerTrades.addTrade(profession as VillagerProfession, villagerLevel as int, emeralds as int, forSale as ItemStack, maxTrades as int, xp as int, priceMult as float)
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:oak_sapling>, 4, 8, 0.05);
@@ -132,93 +99,53 @@ villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "
 
 // // Armorer
 // Removes all Armorer Trades
-villagerTrades.removeAllTrades(<profession:minecraft:armorer>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:armorer>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:armorer>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:armorer>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:armorer>, 5);
+removeVillagerTrades(<profession:minecraft:armorer>);
+
 // // Butcher
 // Removes all Butcher Trades
-villagerTrades.removeAllTrades(<profession:minecraft:butcher>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:butcher>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:butcher>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:butcher>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:butcher>, 5);
+removeVillagerTrades(<profession:minecraft:butcher>);
+
 // // Cartographer
 // Removes all Cartographer Trades
-villagerTrades.removeAllTrades(<profession:minecraft:cartographer>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:cartographer>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:cartographer>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:cartographer>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:cartographer>, 5);
+removeVillagerTrades(<profession:minecraft:cartographer>);
+
 // // Cleric
 // Removes all Cleric Trades
-villagerTrades.removeAllTrades(<profession:minecraft:cleric>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:cleric>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:cleric>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:cleric>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:cleric>, 5);
+removeVillagerTrades(<profession:minecraft:cleric>);
+
 // // Fisherman
 // Removes all Fisherman Trades
-villagerTrades.removeAllTrades(<profession:minecraft:fisherman>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:fisherman>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:fisherman>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:fisherman>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:fisherman>, 5);
+removeVillagerTrades(<profession:minecraft:fisherman>);
 
 villagerTrades.addTrade(<profession:minecraft:fisherman>, 1, 4, <item:minecraft:sponge>, 4, 8, 0.05);
 
 // // Fletcher
 // Removes all Fletcher Trades
-villagerTrades.removeAllTrades(<profession:minecraft:fletcher>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:fletcher>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:fletcher>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:fletcher>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:fletcher>, 5);
+removeVillagerTrades(<profession:minecraft:fletcher>);
+
 // // Leatherworker
 // Removes all Leatherworker Trades
-villagerTrades.removeAllTrades(<profession:minecraft:leatherworker>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:leatherworker>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:leatherworker>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:leatherworker>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:leatherworker>, 5);
+removeVillagerTrades(<profession:minecraft:leatherworker>);
+
 // // Librarian
 // Removes all Librarian Trades
-villagerTrades.removeAllTrades(<profession:minecraft:librarian>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:librarian>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:librarian>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:librarian>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:librarian>, 5);
+removeVillagerTrades(<profession:minecraft:librarian>);
+
 // // Mason
 // Removes all Mason Trades
-villagerTrades.removeAllTrades(<profession:minecraft:mason>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:mason>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:mason>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:mason>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:mason>, 5);
+removeVillagerTrades(<profession:minecraft:mason>);
+
 // // Shepherd
 // Removes all Shepherd Trades
-villagerTrades.removeAllTrades(<profession:minecraft:shepherd>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:shepherd>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:shepherd>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:shepherd>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:shepherd>, 5);
+removeVillagerTrades(<profession:minecraft:shepherd>);
+
 // // Toolsmith
 // Removes all Toolsmith Trades
-villagerTrades.removeAllTrades(<profession:minecraft:toolsmith>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:toolsmith>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:toolsmith>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:toolsmith>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:toolsmith>, 5);
+removeVillagerTrades(<profession:minecraft:toolsmith>);
+
 // // Weaponsmith
 // Removes all Weaponsmith Trades
-villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 1);
-villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 2);
-villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 3);
-villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 4);
-villagerTrades.removeAllTrades(<profession:minecraft:weaponsmith>, 5);
-
-
+removeVillagerTrades(<profession:minecraft:weaponsmith>);
 
 // Color Villagers
 
