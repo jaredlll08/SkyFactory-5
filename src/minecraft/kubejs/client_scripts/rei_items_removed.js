@@ -868,6 +868,8 @@ REIEvents.hide("item", (event) => {
     "pizzacraft:pepper_seeds",
     "pizzacraft:corn",
     "pizzacraft:crimson_chopping_board",
+    "silentgear:iron_rod",
+    "createaddition:iron_rod",
   ];
 
   hiddenItems.forEach((item) => event.hide(item));
