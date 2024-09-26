@@ -1,6 +1,19 @@
 #Welcome to SkyFactory 5
-
+#If you're reading this than I am sorry.
+#You have been chosen to embark on a very long, tedious, extremely grindy, yet meaningful trek into a beautiful mess of blocks, items, and other weird stuff. This pack is not finished and will probably have lots of bugs, issues, problems, lag, messes, worriment, questionable choices, headaches, heart aches, aches in places you didn't knew existed, obstacles, and dragons.
 ===
+#When will it be out you might ask? That depends, how much money do you have? Just kidding! But seriously, if you have to ask you probably can't afford it. No but really, it's going to be out when it's ready and that depends on how fast MisterWiggly here can work on reporting bugs and other anomalies.
+
+#TLDR: This pack is currently very sucks and it needs a lot of fixing.
+
+#HAVE FUN!
+===
+#Special Thank You to:
+#FirstNecron
+#MarioLuigi7896
+#Jaredlll08
+#Muddr
+#and more people will be added to this list!
 ===
 Discover §0(§0Black§0)
 Discover §1(§0Blue§1)
@@ -56,6 +69,21 @@ Produce 10,000 RF/t
 Produce 100k RF/t
 Produce 1 million RF/t
 ===
+#§1--==§0Age of Entities§1==--
+Obtain a Normal Gateway Pearl
+Complete a Gateway and Receive a Mob Trophy
+Right Click on a Trophy to Activate It
+Herd all 16 Colorful Villagers
+Complete all 144 Normal Gateways (Not Titan)
+Obtain all 144 trophies
+Obtain a Titan Gateway
+Complete Wave 50 of any Titan Gateway
+Complete Wave 100 of any Titan Gateway
+Complete Wave 150 of any Titan Gateway
+Complete all 16 Challenge Gateways
+Complete the Normal Ender Dragon Gateway
+Find a Mob Spawner and pickup a mob spawner
+Change a Spawner by clicking on it with a Trophy
 #§1--==§0Age of Farming§1==--
 Obtain an Inferium Seed
 Capture a Cow in a jar
@@ -121,6 +149,7 @@ Defeat the Warden
 Defeat the Ender Dragon
 Defeat the Wither
 Defeat the Ghast Cow
+Defeat the Chaos Dragon
 ===
 #§1--==§0Storage§1==--
 Create a 9x9x9 Colossal Chest
@@ -135,19 +164,17 @@ Infuse your Infuser Machine to 100%
 Acquire and Research a Lost Knowledge Pattern
 Create a Dimension of RGB Blocks
 ===
-
 ===
 #§1--==§0Age of Craziness§1==--
-Complete all ___ gateways
-Obtain all 144 trophies
-Collect all __ hats
+Collect all 231 hats
 Obtain 90 Total Hearts of Health
 Craft an Infinity Wand
 Create a Perfect Sushi Roll
-Fill an entire chunk with __ block (16x16x448)
+Create a Culinary Construct Sandwich Full of Different Types of Perfect Sushi
+Fill an entire chunk with <insert silly or weird block> block (16x16x448)
 ===
 #§1--==§0Age of I have no idea where these can go yet§1==--
-Herd all 16 Colorful Villagers
+
 Craft a Create Sabers Saber
 Craft a Hammock to sleep to night time
 Fall through the void into a pool of water
@@ -162,13 +189,6 @@ Grow your head to 250%
 Collect all of the limbs from mobs (needs more info)
 Use a Magnum Torch to block creature spawns
 Use Color Dyed Water to convert Sand into a Dye Block
-Complete the Normal Ender Dragon Gateway
-Find a Mob Spawner and pickup a mob spawner
-Change a Spawner by clicking on it with a Trophy
-Complete Wave 50 of any Titan Gateway
-Complete Wave 100 of any Titan Gateway
-Complete Wave 150 of any Titan Gateway
-Complete all 16 Challenge Gateways
 Build a Modular Golem
 Build a Modular Wolf
 Build a Modular Humanoid
@@ -176,6 +196,76 @@ Modular Golem Gear up with Netherite
 Modular Golem Full Upgrades
 ===
 #§1--==§0Age of Excess§1==--
-Infinity Charger idea
+#§1--==§0AKA Nobody Is Crazy Enough to Actually Do This§1==--
+Fill the Draconic Energy Storage Ball to Max 9,223,000,000,000,000,000
 Fill an Infinity Tool to max charge
 ===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+#There's nothing else back here!
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+#What do you want? Stop it!
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+#Quit it!
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+#>.>
+===
+===
+===
+===
+===
+===
+===
+===
+#<.<
+===
+===
+===
+Discover the SCP 1689 Dimension
