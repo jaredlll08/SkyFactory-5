@@ -1,0 +1,29 @@
+{
+  "icon": {
+    "item": "sf5_things:darktoasto"
+  },
+  "items": [
+    { "item": "sf5_things:darktoasto" },
+    { "item": "sf5_things:black_apple" },
+    { "item": "sf5_things:blue_apple" },
+    { "item": "sf5_things:brown_apple" },
+    { "item": "sf5_things:cyan_apple" },
+    { "item": "sf5_things:gray_apple" },
+    { "item": "sf5_things:green_apple" },
+    { "item": "sf5_things:light_blue_apple" },
+    { "item": "sf5_things:light_gray_apple" },
+    { "item": "sf5_things:lime_apple" },
+    { "item": "sf5_things:magenta_apple" },
+    { "item": "sf5_things:none_apple" },
+    { "item": "sf5_things:orange_apple" },
+    { "item": "sf5_things:pink_apple" },
+    { "item": "sf5_things:purple_apple" },
+    { "item": "sf5_things:white_apple" },
+    { "item": "sf5_things:yellow_apple" },
+    { "item": "sf5_things:rainbow_laser_lens" },
+    { "item": "sf5_things:rgb_dye" },
+    { "item": "sf5_things:treasure_bag_template" },
+    { "item": "sf5_things:colorless_paintbrush" },
+    { "item": "sf5_things:dirt_and_worms" }
+  ]
+}
