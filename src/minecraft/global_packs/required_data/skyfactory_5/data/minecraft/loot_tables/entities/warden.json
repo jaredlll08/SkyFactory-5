@@ -98,6 +98,15 @@
           ]
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bhc:yellow_heart"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:entities/warden"

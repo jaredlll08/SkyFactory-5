@@ -36,8 +36,8 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:cod",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:looting_enchant",
@@ -65,8 +65,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:prismarine_crystals",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:looting_enchant",
@@ -154,6 +154,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:sponge"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": []
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bhc:yellow_heart"
         }
       ]
     }
