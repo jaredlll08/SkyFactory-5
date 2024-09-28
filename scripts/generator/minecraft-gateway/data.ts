@@ -70,14 +70,6 @@ export const mobData: MobData[] = [
     maxLightLevel: 15,
   },
   {
-    spawnOnly: true,
-    mobID: "monsterplus:spectral_skeleton",
-    mobName: "Spectral Skeleton",
-    stage: "spectral_skeleton",
-    minLightLevel: 0,
-    maxLightLevel: 7,
-  },
-  {
     spawnOnly: false,
     mobID: "waddles:adelie_penguin",
     mobName: "Adelie Penguin",

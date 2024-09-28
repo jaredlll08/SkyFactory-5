@@ -207,7 +207,6 @@ public enum MobStage {
   SLIME = "slime",
   SNIFFER = "sniffer",
   SNOW_GOLEM = "snow_golem",
-  SPECTRAL_SKELETON = "spectral_skeleton",
   SPIDER = "spider",
   SQUID = "squid",
   STRAY = "stray",
