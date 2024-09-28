@@ -138,6 +138,11 @@ val items as IItemStack[] = [
 <item:cyclic:apple_sprout_diamond>,
 <item:cyclic:apple_sprout_emerald>,
 
+  // Cyclic hearts
+<item:cyclic:heart>,
+<item:cyclic:heart_empty>,
+
+
 // Mystical Agriculture
 <item:mysticalagriculture:diamond_scythe>,
 <item:mysticalagriculture:diamond_sickle>,
@@ -347,7 +352,30 @@ val items as IItemStack[] = [
 
 
   <item:createaddition:iron_rod>,
-  <item:silentgear:iron_rod>
+  <item:silentgear:iron_rod>,
+
+    // Removing other trophy items to alleviate confusion
+  <item:handcrafted:bear_trophy>,
+  <item:handcrafted:blaze_trophy>,
+  <item:handcrafted:fox_trophy>,
+  <item:handcrafted:goat_trophy>,
+  <item:handcrafted:pufferfish_trophy>,
+  <item:handcrafted:salmon_trophy>,
+  <item:handcrafted:silverfish_trophy>,
+  <item:handcrafted:skeleton_horse_trophy>,
+  <item:handcrafted:spider_trophy>,
+  <item:handcrafted:tropical_fish_trophy>,
+  <item:handcrafted:wither_skeleton_trophy>,
+  <item:handcrafted:wolf_trophy>,
+  <item:handcrafted:phantom_trophy>,
+  <item:handcrafted:creeper_trophy>,
+  <item:handcrafted:skeleton_trophy>,
+  <item:handcrafted:evoker_trophy>,
+  <item:handcrafted:pillager_trophy>,
+  <item:handcrafted:vindicator_trophy>,
+  <item:handcrafted:witch_trophy>,
+
+  <item:pickletweaks:mesh>
 
 
 ];

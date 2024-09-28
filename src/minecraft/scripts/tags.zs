@@ -281,7 +281,40 @@ val itemsToRemove as IItemStack[] = [
   <item:pizzacraft:cucumber_slice>,
 
   <item:createaddition:iron_rod>,
-  <item:silentgear:iron_rod>
+  <item:silentgear:iron_rod>,
+
+  // Removing other trophy items to alleviate confusion
+  <item:handcrafted:bear_trophy>,
+  <item:handcrafted:blaze_trophy>,
+  <item:handcrafted:fox_trophy>,
+  <item:handcrafted:goat_trophy>,
+  <item:handcrafted:pufferfish_trophy>,
+  <item:handcrafted:salmon_trophy>,
+  <item:handcrafted:silverfish_trophy>,
+  <item:handcrafted:skeleton_horse_trophy>,
+  <item:handcrafted:spider_trophy>,
+  <item:handcrafted:tropical_fish_trophy>,
+  <item:handcrafted:wither_skeleton_trophy>,
+  <item:handcrafted:wolf_trophy>,
+  <item:handcrafted:phantom_trophy>,
+  <item:handcrafted:creeper_trophy>,
+  <item:handcrafted:skeleton_trophy>,
+  <item:handcrafted:evoker_trophy>,
+  <item:handcrafted:pillager_trophy>,
+  <item:handcrafted:vindicator_trophy>,
+  <item:handcrafted:witch_trophy>,
+
+  // Unused Ex Nihilo Crushed Blocks
+  <item:exnihilosequentia:crushed_andesite>,
+  <item:exnihilosequentia:crushed_basalt>,
+  <item:exnihilosequentia:crushed_blackstone>,
+  <item:exnihilosequentia:crushed_calcite>,
+  <item:exnihilosequentia:crushed_deepslate>,
+  <item:exnihilosequentia:crushed_dripstone>,
+  <item:exnihilosequentia:crushed_end_stone>,
+  <item:exnihilosequentia:crushed_granite>,
+  <item:exnihilosequentia:crushed_tuff>
+
 
 ];
 
@@ -333,8 +366,6 @@ for item in itemsToRemove {
 <tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:red_barrel>);
 <tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:white_barrel>);
 <tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:yellow_barrel>);
-
-
 
 // Adds Crafting Tables to forge:workbench tag
 <tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:enderio:painted_crafting_table>);
