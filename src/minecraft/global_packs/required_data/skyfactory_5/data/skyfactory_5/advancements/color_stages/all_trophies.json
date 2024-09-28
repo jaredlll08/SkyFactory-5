@@ -1,0 +1,1603 @@
+{
+  "display": {
+    "icon": {
+      "item": "obtrophies:trophy",
+      "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:player\"}}"
+    },
+    "title": "Oops! All Trophies!",
+    "description": {
+      "translate": "skyfactory_5.advancement.all_colors.stage"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:color_stages/root",
+  "criteria": {
+    "abyssologer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:abyssologer\"}}"
+          }
+        ]
+      }
+    },
+    "adelie_penguin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"waddles:adelie_penguin\"}}"
+          }
+        ]
+      }
+    },
+    "albino_cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:albino_cow\"}}"
+          }
+        ]
+      }
+    },
+    "allay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:allay\"}}"
+          }
+        ]
+      }
+    },
+    "axolotl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:axolotl\"}}"
+          }
+        ]
+      }
+    },
+    "baby_ghast": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:baby_ghast\"}}"
+          }
+        ]
+      }
+    },
+    "bat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:bat\"}}"
+          }
+        ]
+      }
+    },
+    "bee": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:bee\"}}"
+          }
+        ]
+      }
+    },
+    "black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:black\"}}"
+          }
+        ]
+      }
+    },
+    "blaze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:blaze\"}}"
+          }
+        ]
+      }
+    },
+    "blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:blue\"}}"
+          }
+        ]
+      }
+    },
+    "blue_chu_chu": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:blue_chu_chu\"}}"
+          }
+        ]
+      }
+    },
+    "bone_spider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:bone_spider\"}}"
+          }
+        ]
+      }
+    },
+    "bouldering_drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:bouldering_drowned\"}}"
+          }
+        ]
+      }
+    },
+    "bouldering_zombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:bouldering_zombie\"}}"
+          }
+        ]
+      }
+    },
+    "brown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:brown\"}}"
+          }
+        ]
+      }
+    },
+    "camel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:camel\"}}"
+          }
+        ]
+      }
+    },
+    "cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:cat\"}}"
+          }
+        ]
+      }
+    },
+    "cave_spider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:cave_spider\"}}"
+          }
+        ]
+      }
+    },
+    "chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:chicken\"}}"
+          }
+        ]
+      }
+    },
+    "cluck_shroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:cluck_shroom\"}}"
+          }
+        ]
+      }
+    },
+    "cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:cod\"}}"
+          }
+        ]
+      }
+    },
+    "cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:cow\"}}"
+          }
+        ]
+      }
+    },
+    "cream_cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:cream_cow\"}}"
+          }
+        ]
+      }
+    },
+    "creeper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:creeper\"}}"
+          }
+        ]
+      }
+    },
+    "creeper_tot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:creeper_tot\"}}"
+          }
+        ]
+      }
+    },
+    "crystal_zombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:crystal_zombie\"}}"
+          }
+        ]
+      }
+    },
+    "cyan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:cyan\"}}"
+          }
+        ]
+      }
+    },
+    "dolphin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:dolphin\"}}"
+          }
+        ]
+      }
+    },
+    "donkey": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:donkey\"}}"
+          }
+        ]
+      }
+    },
+    "drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:drowned\"}}"
+          }
+        ]
+      }
+    },
+    "elder_guardian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:elder_guardian\"}}"
+          }
+        ]
+      }
+    },
+    "ender_dragon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:ender_dragon\"}}"
+          }
+        ]
+      }
+    },
+    "ender_tot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:ender_tot\"}}"
+          }
+        ]
+      }
+    },
+    "enderman": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:enderman\"}}"
+          }
+        ]
+      }
+    },
+    "endermite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:endermite\"}}"
+          }
+        ]
+      }
+    },
+    "energetic_sheep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"energeticsheep:energetic_sheep\"}}"
+          }
+        ]
+      }
+    },
+    "evoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:evoker\"}}"
+          }
+        ]
+      }
+    },
+    "fairy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:fairy\"}}"
+          }
+        ]
+      }
+    },
+    "fancy_chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:fancy_chicken\"}}"
+          }
+        ]
+      }
+    },
+    "fluid_cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"moofluids:fluid_cow\"}}"
+          }
+        ]
+      }
+    },
+    "fox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:fox\"}}"
+          }
+        ]
+      }
+    },
+    "frog": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:frog\"}}"
+          }
+        ]
+      }
+    },
+    "furnace_golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:furnace_golem\"}}"
+          }
+        ]
+      }
+    },
+    "ghast": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:ghast\"}}"
+          }
+        ]
+      }
+    },
+    "ghast_cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"ghastcow:ghast_cow\"}}"
+          }
+        ]
+      }
+    },
+    "glow_skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:glow_skeleton\"}}"
+          }
+        ]
+      }
+    },
+    "glow_squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:glow_squid\"}}"
+          }
+        ]
+      }
+    },
+    "goat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"colourfulgoats:goat\"}}"
+          }
+        ]
+      }
+    },
+    "gold_chu_chu": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:gold_chu_chu\"}}"
+          }
+        ]
+      }
+    },
+    "gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:gray\"}}"
+          }
+        ]
+      }
+    },
+    "green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:green\"}}"
+          }
+        ]
+      }
+    },
+    "green_chu_chu": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:green_chu_chu\"}}"
+          }
+        ]
+      }
+    },
+    "guardian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:guardian\"}}"
+          }
+        ]
+      }
+    },
+    "hoglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:hoglin\"}}"
+          }
+        ]
+      }
+    },
+    "horned_sheep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:horned_sheep\"}}"
+          }
+        ]
+      }
+    },
+    "horse": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:horse\"}}"
+          }
+        ]
+      }
+    },
+    "husk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:husk\"}}"
+          }
+        ]
+      }
+    },
+    "hyper_rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:hyper_rabbit\"}}"
+          }
+        ]
+      }
+    },
+    "illusioner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:illusioner\"}}"
+          }
+        ]
+      }
+    },
+    "iron_golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:iron_golem\"}}"
+          }
+        ]
+      }
+    },
+    "jumbo_rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:jumbo_rabbit\"}}"
+          }
+        ]
+      }
+    },
+    "lava_monster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"lava_monster:lava_monster\"}}"
+          }
+        ]
+      }
+    },
+    "lava_squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:lava_squid\"}}"
+          }
+        ]
+      }
+    },
+    "light_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:light_blue\"}}"
+          }
+        ]
+      }
+    },
+    "light_gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:light_gray\"}}"
+          }
+        ]
+      }
+    },
+    "lime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:lime\"}}"
+          }
+        ]
+      }
+    },
+    "llama": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"colourfulllamas:llama\"}}"
+          }
+        ]
+      }
+    },
+    "lobber_drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:lobber_drowned\"}}"
+          }
+        ]
+      }
+    },
+    "lobber_zombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:lobber_zombie\"}}"
+          }
+        ]
+      }
+    },
+    "magenta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:magenta\"}}"
+          }
+        ]
+      }
+    },
+    "magma_cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:magma_cow\"}}"
+          }
+        ]
+      }
+    },
+    "magma_cube": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:magma_cube\"}}"
+          }
+        ]
+      }
+    },
+    "melon_golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:melon_golem\"}}"
+          }
+        ]
+      }
+    },
+    "moobloom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:moobloom\"}}"
+          }
+        ]
+      }
+    },
+    "moolip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:moolip\"}}"
+          }
+        ]
+      }
+    },
+    "mooshroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:mooshroom\"}}"
+          }
+        ]
+      }
+    },
+    "mother_lava_squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:mother_lava_squid\"}}"
+          }
+        ]
+      }
+    },
+    "mule": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"vinery:mule\"}}"
+          }
+        ]
+      }
+    },
+    "ocelot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:ocelot\"}}"
+          }
+        ]
+      }
+    },
+    "opalescent_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:opalescent_eye\"}}"
+          }
+        ]
+      }
+    },
+    "orange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:orange\"}}"
+          }
+        ]
+      }
+    },
+    "overgrown_skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:overgrown_skeleton\"}}"
+          }
+        ]
+      }
+    },
+    "panda": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:panda\"}}"
+          }
+        ]
+      }
+    },
+    "parrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:parrot\"}}"
+          }
+        ]
+      }
+    },
+    "phantom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:phantom\"}}"
+          }
+        ]
+      }
+    },
+    "pig": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:pig\"}}"
+          }
+        ]
+      }
+    },
+    "piglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:piglin\"}}"
+          }
+        ]
+      }
+    },
+    "piglin_brute": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:piglin_brute\"}}"
+          }
+        ]
+      }
+    },
+    "pillager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:pillager\"}}"
+          }
+        ]
+      }
+    },
+    "pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:pink\"}}"
+          }
+        ]
+      }
+    },
+    "polar_bear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:polar_bear\"}}"
+          }
+        ]
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:pufferfish\"}}"
+          }
+        ]
+      }
+    },
+    "purple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:purple\"}}"
+          }
+        ]
+      }
+    },
+    "rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:rabbit\"}}"
+          }
+        ]
+      }
+    },
+    "ravager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:ravager\"}}"
+          }
+        ]
+      }
+    },
+    "red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:red\"}}"
+          }
+        ]
+      }
+    },
+    "red_chu_chu": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:red_chu_chu\"}}"
+          }
+        ]
+      }
+    },
+    "salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:salmon\"}}"
+          }
+        ]
+      }
+    },
+    "sheep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:sheep\"}}"
+          }
+        ]
+      }
+    },
+    "shrimp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"sushigocrafting:shrimp\"}}"
+          }
+        ]
+      }
+    },
+    "shulker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:shulker\"}}"
+          }
+        ]
+      }
+    },
+    "silverfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:silverfish\"}}"
+          }
+        ]
+      }
+    },
+    "skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:skeleton\"}}"
+          }
+        ]
+      }
+    },
+    "skeleton_horse": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:skeleton_horse\"}}"
+          }
+        ]
+      }
+    },
+    "skeleton_wolf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:skeleton_wolf\"}}"
+          }
+        ]
+      }
+    },
+    "slime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:slime\"}}"
+          }
+        ]
+      }
+    },
+    "sniffer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:sniffer\"}}"
+          }
+        ]
+      }
+    },
+    "snow_golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:snow_golem\"}}"
+          }
+        ]
+      }
+    },
+    "spider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:spider\"}}"
+          }
+        ]
+      }
+    },
+    "squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:squid\"}}"
+          }
+        ]
+      }
+    },
+    "stray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:stray\"}}"
+          }
+        ]
+      }
+    },
+    "stray_bone_spider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:stray_bone_spider\"}}"
+          }
+        ]
+      }
+    },
+    "strider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:strider\"}}"
+          }
+        ]
+      }
+    },
+    "swamp_zombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:swamp_zombie\"}}"
+          }
+        ]
+      }
+    },
+    "tadpole": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:tadpole\"}}"
+          }
+        ]
+      }
+    },
+    "teacup_pig": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:teacup_pig\"}}"
+          }
+        ]
+      }
+    },
+    "trader_llama": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:trader_llama\"}}"
+          }
+        ]
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:tropical_fish\"}}"
+          }
+        ]
+      }
+    },
+    "tropical_slime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:tropical_slime\"}}"
+          }
+        ]
+      }
+    },
+    "tuna": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"sushigocrafting:tuna\"}}"
+          }
+        ]
+      }
+    },
+    "turtle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:turtle\"}}"
+          }
+        ]
+      }
+    },
+    "umbra_cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:umbra_cow\"}}"
+          }
+        ]
+      }
+    },
+    "vex": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:vex\"}}"
+          }
+        ]
+      }
+    },
+    "viler_witch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:viler_witch\"}}"
+          }
+        ]
+      }
+    },
+    "villager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:villager\"}}"
+          }
+        ]
+      }
+    },
+    "vindicator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:vindicator\"}}"
+          }
+        ]
+      }
+    },
+    "wandering_trader": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:wandering_trader\"}}"
+          }
+        ]
+      }
+    },
+    "wandering_winemaker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"vinery:wandering_winemaker\"}}"
+          }
+        ]
+      }
+    },
+    "warden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:warden\"}}"
+          }
+        ]
+      }
+    },
+    "white": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:white\"}}"
+          }
+        ]
+      }
+    },
+    "witch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:witch\"}}"
+          }
+        ]
+      }
+    },
+    "wither": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:wither\"}}"
+          }
+        ]
+      }
+    },
+    "wither_skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:wither_skeleton\"}}"
+          }
+        ]
+      }
+    },
+    "wither_skeleton_wolf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:wither_skeleton_wolf\"}}"
+          }
+        ]
+      }
+    },
+    "wolf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:wolf\"}}"
+          }
+        ]
+      }
+    },
+    "wooly_cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:wooly_cow\"}}"
+          }
+        ]
+      }
+    },
+    "yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:yellow\"}}"
+          }
+        ]
+      }
+    },
+    "zoglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:zoglin\"}}"
+          }
+        ]
+      }
+    },
+    "zombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:zombie\"}}"
+          }
+        ]
+      }
+    },
+    "zombie_horse": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:zombie_horse\"}}"
+          }
+        ]
+      }
+    },
+    "zombie_villager": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:zombie_villager\"}}"
+          }
+        ]
+      }
+    },
+    "zombified_pig": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:zombified_pig\"}}"
+          }
+        ]
+      }
+    },
+    "zombified_piglin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:zombified_piglin\"}}"
+          }
+        ]
+      }
+    }
+  }
+}
