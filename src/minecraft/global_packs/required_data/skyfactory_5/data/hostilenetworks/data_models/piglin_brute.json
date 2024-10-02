@@ -8,7 +8,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 1280,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -19,26 +19,6 @@
   },
   "trivia": "hostilenetworks.trivia.piglin_brute",
   "fabricator_drops": [
-    {
-      "item": "simplehats:hatbag_common",
-      "count": 64,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_uncommon",
-      "count": 44,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_rare",
-      "count": 26,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_epic",
-      "count": 16,
-      "optional": true
-    },
     {
       "item": "limbs:piglin_brute_right_arm",
       "count": 9,

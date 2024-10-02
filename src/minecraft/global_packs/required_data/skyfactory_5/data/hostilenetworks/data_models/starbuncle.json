@@ -1,30 +1,30 @@
 {
   "conditions": [
     {
-      "modid": "monsterplus",
+      "modid": "ars_nouveau",
       "type": "forge:mod_loaded"
     }
   ],
-  "entity": "monsterplus:spectral_skeleton",
+  "entity": "ars_nouveau:starbuncle",
   "variants": [],
-  "name": "entity.monsterplus.spectral_skeleton",
-  "name_color": "#8787A9",
+  "name": "entity.ars_nouveau.starbuncle",
+  "name_color": "#c64fbd",
   "display_nbt": {},
   "gui_scale": 1,
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 1280,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
-    "item": "minecraft:stick",
+    "item": "minecraft:magenta_dye",
     "count": 1
   },
-  "trivia": "hostilenetworks.trivia.spectral_skeleton",
+  "trivia": "hostilenetworks.trivia.starbuncle",
   "fabricator_drops": [],
-  "tier_data": [6, 54, 354, 1254],
+  "tier_data": [12, 60, 360, 1260],
   "data_per_kill": [1, 4, 10, 18]
 }

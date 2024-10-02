@@ -8,7 +8,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 2560,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -21,34 +21,14 @@
   "fabricator_drops": [
     {
       "item": "minecraft:string",
-      "count": 64
+      "count": 32
     },
     {
       "item": "minecraft:spider_eye",
       "count": 30
     },
     {
-      "item": "simplehats:hatbag_common",
-      "count": 5,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_uncommon",
-      "count": 4,
-      "optional": true
-    },
-    {
       "item": "silentgear:fine_silk",
-      "count": 3,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_rare",
-      "count": 2,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_epic",
       "count": 1,
       "optional": true
     }

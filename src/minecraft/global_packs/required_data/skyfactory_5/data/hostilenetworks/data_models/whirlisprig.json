@@ -1,8 +1,14 @@
 {
-  "entity": "minecraft:glow_squid",
+  "conditions": [
+    {
+      "modid": "ars_nouveau",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "entity": "ars_nouveau:whirlisprig",
   "variants": [],
-  "name": "entity.minecraft.glow_squid",
-  "name_color": "#169c9d",
+  "name": "entity.ars_nouveau.whirlisprig",
+  "name_color": "#80c71f",
   "display_nbt": {},
   "gui_scale": 1,
   "gui_x_offset": 0,
@@ -14,16 +20,11 @@
     "count": 1
   },
   "base_drop": {
-    "item": "minecraft:cyan_dye",
+    "item": "minecraft:lime_dye",
     "count": 1
   },
-  "trivia": "hostilenetworks.trivia.glow_squid",
-  "fabricator_drops": [
-    {
-      "item": "minecraft:glow_ink_sac",
-      "count": 32
-    }
-  ],
+  "trivia": "hostilenetworks.trivia.whirlisprig",
+  "fabricator_drops": [],
   "tier_data": [12, 60, 360, 1260],
   "data_per_kill": [1, 4, 10, 18]
 }

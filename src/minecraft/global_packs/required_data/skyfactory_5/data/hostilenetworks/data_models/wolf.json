@@ -8,7 +8,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 2560,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -22,6 +22,14 @@
     {
       "item": "minecraft:light_gray_dye",
       "count": 16
+    },
+    {
+      "item": "minecraft:bone",
+      "count": 4
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 8
     }
   ],
   "tier_data": [12, 60, 360, 1260],

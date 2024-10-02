@@ -8,7 +8,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 8192,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -21,31 +21,11 @@
   "fabricator_drops": [
     {
       "item": "minecraft:totem_of_undying",
-      "count": 64
+      "count": 32
     },
     {
       "item": "minecraft:emerald",
       "count": 35
-    },
-    {
-      "item": "simplehats:hatbag_uncommon",
-      "count": 3,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_common",
-      "count": 3,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_rare",
-      "count": 2,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_epic",
-      "count": 1,
-      "optional": true
     }
   ],
   "tier_data": [12, 60, 360, 1260],

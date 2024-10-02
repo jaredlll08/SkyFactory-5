@@ -8,7 +8,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 4096,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -20,36 +20,12 @@
   "trivia": "hostilenetworks.trivia.zombified_piglin",
   "fabricator_drops": [
     {
-      "item": "minecraft:gold_nugget",
-      "count": 64
-    },
-    {
       "item": "minecraft:rotten_flesh",
-      "count": 63
-    },
-    {
-      "item": "simplehats:hatbag_common",
-      "count": 7,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_uncommon",
-      "count": 5,
-      "optional": true
+      "count": 32
     },
     {
       "item": "minecraft:gold_ingot",
       "count": 4
-    },
-    {
-      "item": "simplehats:hatbag_rare",
-      "count": 3,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_epic",
-      "count": 2,
-      "optional": true
     },
     {
       "item": "limbs:zombified_piglin_torso",

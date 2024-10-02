@@ -14,7 +14,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 4096,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -26,8 +26,8 @@
   "trivia": "hostilenetworks.trivia.wither_skeleton_wolf",
   "fabricator_drops": [
     {
-      "item": "minecraft:bone",
-      "count": 64
+      "item": "bhc:wither_bone",
+      "count": 4
     }
   ],
   "tier_data": [12, 60, 360, 1260],

@@ -8,7 +8,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 4096,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -20,31 +20,16 @@
   "trivia": "hostilenetworks.trivia.wither_skeleton",
   "fabricator_drops": [
     {
-      "item": "minecraft:bone",
-      "count": 64
+      "item": "bhc:wither_bone",
+      "count": 4
     },
     {
       "item": "minecraft:coal",
-      "count": 33
-    },
-    {
-      "item": "simplehats:hatbag_common",
-      "count": 5,
-      "optional": true
+      "count": 16
     },
     {
       "item": "minecraft:wither_skeleton_skull",
-      "count": 3
-    },
-    {
-      "item": "simplehats:hatbag_uncommon",
-      "count": 3,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_rare",
-      "count": 3,
-      "optional": true
+      "count": 1
     },
     {
       "item": "limbs:wither_skeleton_torso",
@@ -73,11 +58,6 @@
     },
     {
       "item": "limbs:wither_skeleton_head",
-      "count": 1,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_epic",
       "count": 1,
       "optional": true
     }

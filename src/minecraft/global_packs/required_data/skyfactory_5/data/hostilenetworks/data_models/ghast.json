@@ -8,7 +8,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 8192,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -21,31 +21,11 @@
   "fabricator_drops": [
     {
       "item": "minecraft:gunpowder",
-      "count": 64
+      "count": 32
     },
     {
       "item": "minecraft:ghast_tear",
       "count": 50
-    },
-    {
-      "item": "simplehats:hatbag_common",
-      "count": 5,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_uncommon",
-      "count": 4,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_rare",
-      "count": 3,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_epic",
-      "count": 2,
-      "optional": true
     }
   ],
   "tier_data": [12, 60, 360, 1260],

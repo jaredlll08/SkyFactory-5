@@ -8,7 +8,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 4096,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -21,27 +21,7 @@
   "fabricator_drops": [
     {
       "item": "minecraft:emerald",
-      "count": 64
-    },
-    {
-      "item": "simplehats:hatbag_common",
-      "count": 6,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_uncommon",
-      "count": 5,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_rare",
-      "count": 4,
-      "optional": true
-    },
-    {
-      "item": "simplehats:hatbag_epic",
-      "count": 1,
-      "optional": true
+      "count": 32
     }
   ],
   "tier_data": [12, 60, 360, 1260],

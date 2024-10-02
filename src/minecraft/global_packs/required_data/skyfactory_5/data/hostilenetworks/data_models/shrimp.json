@@ -14,7 +14,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 1280,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -27,12 +27,12 @@
   "fabricator_drops": [
     {
       "item": "sushigocrafting:shrimp",
-      "count": 64,
+      "count": 32,
       "nbt": "{Amount:43}"
     },
     {
       "item": "sushigocrafting:shrimp",
-      "count": 64,
+      "count": 32,
       "nbt": "{Amount:47}"
     },
     {

@@ -14,7 +14,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 1280,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -25,11 +25,6 @@
   },
   "trivia": "hostilenetworks.trivia.stray_bone_spider",
   "fabricator_drops": [
-    {
-      "item": "earthmobsmod:bone_shard",
-      "count": 64,
-      "nbt": "{Potion:\"minecraft:slowness\"}"
-    },
     {
       "item": "minecraft:string",
       "count": 52

@@ -14,7 +14,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 2560,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -27,15 +27,15 @@
   "fabricator_drops": [
     {
       "item": "minecraft:orange_wool",
-      "count": 64
+      "count": 8
     },
     {
       "item": "minecraft:beef",
-      "count": 64
+      "count": 8
     },
     {
       "item": "minecraft:leather",
-      "count": 43
+      "count": 8
     }
   ],
   "tier_data": [12, 60, 360, 1260],

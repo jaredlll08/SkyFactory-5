@@ -14,7 +14,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 1280,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -27,15 +27,15 @@
   "fabricator_drops": [
     {
       "item": "energeticsheep:white_energetic_wool",
-      "count": 64
+      "count": 32
     },
     {
       "item": "minecraft:mutton",
-      "count": 64
+      "count": 32
     },
     {
       "item": "gateways:gate_pearl",
-      "count": 64,
+      "count": 32,
       "nbt": "{gateway:\"gateways:normal/energetic_sheep\"}",
       "optional": true
     }

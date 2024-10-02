@@ -14,7 +14,7 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 256,
+  "sim_cost": 8192,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
@@ -27,11 +27,11 @@
   "fabricator_drops": [
     {
       "item": "minecraft:blaze_powder",
-      "count": 64
+      "count": 32
     },
     {
       "item": "minecraft:magma_cream",
-      "count": 51
+      "count": 32
     }
   ],
   "tier_data": [12, 60, 360, 1260],
