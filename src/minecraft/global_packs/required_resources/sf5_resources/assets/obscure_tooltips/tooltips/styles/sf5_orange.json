@@ -117,7 +117,15 @@
       "supplementaries:colouredstuff/sign_post_orange",
       "supplementaries:flag_orange",
       "supplementaries:present_orange",
-      "supplementaries:trapped_present_orange"
+      "supplementaries:trapped_present_orange",
+      "minecraft:tropical_fish",
+      "minecraft:pufferfish",
+      "minecraft:glowstone_dust",
+      "minecraft:glowstone",
+      "minecraft:shroomlight",
+      "minecraft:glow_berries",
+      "minecraft:magma_cream",
+      "minecraft:cookie"
     ]
   }
 }

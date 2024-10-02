@@ -83,7 +83,14 @@
       "supplementaries:present_light_gray",
       "supplementaries:trapped_present_light_gray",
       "tinted_torches:light_gray_torch",
-      "tintedcampfires:light_gray_campfire"
+      "tintedcampfires:light_gray_campfire",
+      "minecraft:damaged_anvil",
+      "minecraft:chipped_anvil",
+      "minecraft:anvil",
+      "minecraft:smooth_stone",
+      "minecraft:smooth_stone_slab",
+      "minecraft:phantom_membrane",
+      "ae2:matter_ball"
     ]
   }
 }

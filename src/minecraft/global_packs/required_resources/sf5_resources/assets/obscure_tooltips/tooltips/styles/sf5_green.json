@@ -105,7 +105,14 @@
       "sushigocrafting:soy_bean",
       "sushigocrafting:wasabi_root",
       "tinted_torches:green_torch",
-      "tintedcampfires:green_campfire"
+      "tintedcampfires:green_campfire",
+      "minecraft:azalea",
+      "minecraft:big_dripleaf",
+      "minecraft:fern",
+      "minecraft:grass",
+      "minecraft:sea_pickle",
+      "minecraft:small_dripleaf",
+      "minecraft:tall_grass"
     ]
   }
 }

@@ -77,7 +77,11 @@
       "supplementaries:present_white",
       "supplementaries:trapped_present_white",
       "tinted_torches:white_torch",
-      "tintedcampfires:white_campfire"
+      "tintedcampfires:white_campfire",
+      "occultism:chalk_white",
+      "occultism:chalk_white_impure",
+      "occultism:tallow",
+      "thermal:rice"
     ]
   }
 }

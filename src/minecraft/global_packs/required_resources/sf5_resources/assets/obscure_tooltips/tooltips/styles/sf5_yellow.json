@@ -125,7 +125,9 @@
       "supplementaries:luphieclutteredmod/sign_post_luphie_yellow",
       "supplementaries:present_yellow",
       "supplementaries:trapped_present_yellow",
-      "tinted_torches:yellow_torch"
+      "tinted_torches:yellow_torch",
+      "minecraft:sunflower",
+      "pizzacraft:pineapple"
     ]
   }
 }

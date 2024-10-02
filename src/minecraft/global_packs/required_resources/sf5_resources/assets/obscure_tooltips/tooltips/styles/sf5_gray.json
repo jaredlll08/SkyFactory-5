@@ -56,8 +56,6 @@
       "minecraft:infested_chiseled_stone_bricks",
       "minecraft:infested_cracked_stone_bricks",
       "minecraft:infested_stone_bricks",
-      "minecraft:smooth_stone",
-      "minecraft:smooth_stone_slab",
       "minecraft:stone",
       "minecraft:stone_brick_slab",
       "minecraft:stone_brick_stairs",
@@ -70,7 +68,12 @@
       "mysticalagriculture:gray_crop_essence",
       "mysticalagriculture:gray_crop_seeds",
       "sf5_things:gray_apple",
-      "tinted_torches:gray_torch"
+      "tinted_torches:gray_torch",
+      "ae2:silicon",
+      "exnihilosequentia:mycelium_spores",
+      "forcecraft:pile_of_gunpowder",
+      "forcecraft:claw",
+      "biggerreactors:graphite_ingot"
     ]
   }
 }

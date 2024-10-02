@@ -96,7 +96,9 @@
       "supplementaries:flag_lime",
       "supplementaries:present_lime",
       "supplementaries:trapped_present_lime",
-      "tinted_torches:lime_torch"
+      "tinted_torches:lime_torch",
+      "minecraft:mangrove_propagule",
+      "minecraft:poisonous_potato"
     ]
   }
 }

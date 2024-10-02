@@ -107,7 +107,22 @@
       "mysticalagriculture:cyan_crop_seeds",
       "sf5_things:cyan_apple",
       "thermal:ender_pearl_dust",
-      "tinted_torches:cyan_torch"
+      "tinted_torches:cyan_torch",
+      "minecraft:recovery_compass",
+      "minecraft:sculk_catalyst",
+      "minecraft:glow_ink_sac",
+      "minecraft:calibrated_sculk_sensor",
+      "minecraft:sculk_sensor",
+      "minecraft:sculk_shrieker",
+      "minecraft:sculk_vein",
+      "minecraft:sculk",
+      "minecraft:echo_shard",
+      "minecraft:prismarine_bricks",
+      "minecraft:prismarine_brick_stairs",
+      "minecraft:prismarine_brick_slab",
+      "minecraft:prismarine_shard",
+      "minecraft:prismarine_crystals",
+      "thermal:sadiroot"
     ]
   }
 }

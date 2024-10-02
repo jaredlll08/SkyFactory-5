@@ -71,7 +71,15 @@
       "mysticalagriculture:brown_crop_seeds",
       "sf5_things:brown_apple",
       "tinted_torches:brown_torch",
-      "tintedcampfires:brown_campfire"
+      "tintedcampfires:brown_campfire",
+      "minecraft:ancient_debris",
+      "minecraft:netherite_scrap",
+      "minecraft:leather_boots",
+      "minecraft:saddle",
+      "minecraft:rabbit_foot",
+      "minecraft:rabbit_hide",
+      "minecraft:potato",
+      "minecraft:baked_potato"
     ]
   }
 }

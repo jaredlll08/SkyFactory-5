@@ -81,7 +81,11 @@
       "supplementaries:flag_light_blue",
       "supplementaries:present_light_blue",
       "supplementaries:trapped_present_light_blue",
-      "tinted_torches:light_blue_torch"
+      "tinted_torches:light_blue_torch",
+      "minecraft:elytra",
+      "sushigocrafting:raw_tuna",
+      "ae2:certus_quartz_crystal",
+      "minecraft:heart_of_the_sea"
     ]
   }
 }

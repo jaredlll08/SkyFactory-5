@@ -82,7 +82,12 @@
       "pizzacraft:wing",
       "sf5_things:pink_apple",
       "supplementaries:soap",
-      "supplementaries:trapped_present_pink"
+      "supplementaries:trapped_present_pink",
+      "thermal:niter",
+      "thermal:niter_dust",
+      "immersiveengineering:fertilizer",
+      "pizzacraft:fish_fillet",
+      "minecraft:dragon_breath"
     ]
   }
 }
