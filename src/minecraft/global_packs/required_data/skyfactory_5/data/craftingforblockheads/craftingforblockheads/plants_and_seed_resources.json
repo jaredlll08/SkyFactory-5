@@ -1,7 +1,12 @@
 {
   "modid": "craftingforblockheads",
   "preset": "skyfactory_5",
-  "predicates": {},
+  "predicates": {
+    "vanilla_composter_present": {
+      "type": "workshop_has",
+      "block": "minecraft:composter"
+    }
+  },
   "groups": {},
   "filters": {
     "craftingforblockheads:plants_and_seed_resources": {
@@ -30,8 +35,16 @@
         },
         {
           "item": "exnihilosequentia:warped_nylium_spores"
-        }
+        },
+        { "item": "sushigocrafting:cucumber_seeds" },
+        { "item": "thermal:corn_seeds" },
+        { "item": "immersiveengineering:seed" },
+        { "item": "thermal:onion_seeds" },
+        { "item": "thermal:bell_pepper_seeds" },
+        { "item": "thermal:eggplant_seeds" },
+        { "item": "thermal:tomato_seeds" }
       ],
+      "soft_requirements": ["vanilla_composter_present"],
       "priority": 99996
     }
   }

@@ -55,6 +55,12 @@
         {
           "item": "sophisticatedstorage:chest",
           "nbt": "{accentColor:6710886,mainColor:3203513}"
+        },
+        {
+          "item": "craftingstation:crafting_station"
+        },
+        {
+          "item": "craftingstation:crafting_station_slab"
         }
       ],
       "excludes": [
