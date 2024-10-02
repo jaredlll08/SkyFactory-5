@@ -39,8 +39,10 @@ Discover §e(§0Yellow§e)
 Use a Barrel to Create Dirt
 Eat Dirt!
 Use Colored Planks to craft any Color Crafting Table
+Use any Dye and a Stick to make a Color Torch
 Craft a Crafting Station
-Craft a Campfire to Obtain Ash and use it to craft Cobblestone
+Use a Campfire to Obtain Ash and use it to craft Cobblestone
+Right Click with an Axe on a Log to get a Template Board
 Use a Crucible to melt leaves or saplings to get water (or collect via rain)
 Infest Leaves with a Silkworm to obtain String
 Use a Hammer from Ex Nihilo or a Millstone to create Sand
@@ -62,7 +64,7 @@ Upgrade your Silent's Gear tools with a Stone Material (Cobblestone, Andesite, D
 #§1--==§0Age of Power§1==--
 Create a Passively cooled reactor from the Bigger Reactors Mod
 Create an Actively cooled reactor from the Bigger Reactors Mod
-Create the maximum size reactor
+Create the maximum size reactor (128x128x192)
 Create a turbine from the Bigger Reactors Mod
 Produce 1,000 RF/t
 Produce 10,000 RF/t
@@ -74,8 +76,8 @@ Obtain a Normal Gateway Pearl
 Complete a Gateway and Receive a Mob Trophy
 Right Click on a Trophy to Activate It
 Herd all 16 Colorful Villagers
-Complete all 144 Normal Gateways (Not Titan)
-Obtain all 144 trophies
+Complete all 147 Normal Gateways (Not Titan)
+Obtain all 147 trophies
 Obtain a Titan Gateway
 Complete Wave 50 of any Titan Gateway
 Complete Wave 100 of any Titan Gateway
@@ -98,7 +100,7 @@ Travel to the End
 Use a Bubble Blower to place a block in the air
 ===
 #§1--==§0Age of Magic§1==--
-==Ars Nouveau
+#Ars Nouveau
 Make A Source Gem
 Make a Spellbook
 Make a Scribes Table
@@ -125,7 +127,7 @@ Use a Scryer's Oculus to Remotely Access a block
 Teleport with a Warp Scroll/Portal
 Use a Flask Cannon
 ===
-==Occultism
+#Occultism
 Eat Demon's Dream Fruit To get the 3rd eye Effect
 Make a Spiritfire
 Obtain White Chalk
@@ -186,7 +188,7 @@ Obtain Energetic Wool and use it to power something
 Collect all 16 colors of the Energetic Sheep (or maybe just 16 of the wool colors)
 Grow your head to 150%
 Grow your head to 250%
-Collect all of the limbs from mobs (needs more info)
+Collect all 6 Limbs of any one mob (Head, Torso, Arms, Legs)
 Use a Magnum Torch to block creature spawns
 Use Color Dyed Water to convert Sand into a Dye Block
 Build a Modular Golem
@@ -194,6 +196,7 @@ Build a Modular Wolf
 Build a Modular Humanoid
 Modular Golem Gear up with Netherite
 Modular Golem Full Upgrades
+Use an Organic Matter Compressor to Transform Matter into Loot Bags
 ===
 #§1--==§0Age of Excess§1==--
 #§1--==§0AKA Nobody Is Crazy Enough to Actually Do This§1==--
