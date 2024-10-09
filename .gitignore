@@ -28,7 +28,9 @@
 /src/minecraft/kubejs/jsconfig.json
 /src/minecraft/kubejs/probe
 ## Configs
-/src/minecraft/config/contentcreatorintegration
+/src/minecraft/config/contentcreatorintegration/*
+!/src/minecraft/config/contentcreatorintegration/libs
+!/src/minecraft/config/contentcreatorintegration/Streamer Profile
 /src/minecraft/config/roughlyenoughitems/favorites.json5
 ## Journeymap
 /src/minecraft/journeymap/data
