@@ -1588,13 +1588,35 @@
         ]
       }
     },
-    "zombified_piglin": {
+    "whirlisprig": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:zombified_piglin\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"ars_nouveau:whirlisprig\"}}"
+          }
+        ]
+      }
+    },
+    "drygmy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"ars_nouveau:drygmy\"}}"
+          }
+        ]
+      }
+    },
+    "starbuncle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"ars_nouveau:starbuncle\"}}"
           }
         ]
       }
