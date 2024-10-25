@@ -1,4 +1,4 @@
 {
-  "values": ["minecraft:black_dye", "enderio:organic_black_dye"],
+  "values": ["minecraft:black_dye", "enderio:organic_black_dye", "thermal:tar"],
   "replace": true
 }
