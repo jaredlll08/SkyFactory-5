@@ -1644,13 +1644,6 @@ export const mobData: MobData[] = [
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 7,
     maxLightLevel: 15,
-    additionalGatewayMobNBT: {
-      "pehkui:scale_data_types": {
-        "pehkui:reach": {
-          scale: new Float(0.05),
-        },
-      },
-    },
     trophyData: {
       offset: 0,
       scale: 0.5,
@@ -2699,6 +2692,64 @@ export const mobData: MobData[] = [
     trophyData: {
       offset: 0,
       scale: 0.75,
+    },
+  },
+  {
+    spawnOnly: false,
+    mobID: "ars_nouveau:drygmy",
+    mobName: "Drygmy",
+    stage: "drygmy",
+    color: ColorName.Cyan,
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    minLightLevel: 8,
+    maxLightLevel: 15,
+    trophyData: {
+      scale: 1.5,
+      variants: [
+        {
+          color: "cyan",
+        },
+      ],
+    },
+    additionalGatewayMobNBT: {
+      color: "cyan",
+    },
+  },
+  {
+    spawnOnly: false,
+    mobID: "ars_nouveau:starbuncle",
+    mobName: "Starbuncle",
+    stage: "starbuncle",
+    color: ColorName.Magenta,
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    minLightLevel: 8,
+    maxLightLevel: 15,
+    trophyData: {
+      scale: 2.0,
+      variants: [
+        {
+          starbuncleData: { color: "purple" },
+        },
+      ],
+    },
+    additionalGatewayMobNBT: {
+      starbuncleData: {
+        color: "purple",
+        cosmetic: { id: "ars_nouveau:starbuncle_shades", Count: 1 },
+      },
+    },
+  },
+  {
+    spawnOnly: false,
+    mobID: "ars_nouveau:whirlisprig",
+    mobName: "Whirlisprig",
+    stage: "whirlisprig",
+    color: ColorName.Lime,
+    gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
+    minLightLevel: 8,
+    maxLightLevel: 15,
+    trophyData: {
+      scale: 2.0,
     },
   },
   //! DATA MANAGER ENTRY MARKER - DO NOT TOUCH
