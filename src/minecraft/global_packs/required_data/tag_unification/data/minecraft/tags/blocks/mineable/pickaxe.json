@@ -169,6 +169,7 @@
     "colouredstuff:slab_brick_purple",
     "colouredstuff:slab_brick_red",
     "colouredstuff:slab_brick_white",
-    "colouredstuff:slab_brick_yellow"
+    "colouredstuff:slab_brick_yellow",
+    "clickmachine:auto_clicker"
   ]
 }
