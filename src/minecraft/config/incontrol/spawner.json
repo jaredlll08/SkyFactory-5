@@ -387,7 +387,11 @@
     }
   },
   {
-    "mob": ["minecraft:pig", "earthmobsmod:zombified_pig"],
+    "mob": [
+      "minecraft:pig",
+      "earthmobsmod:zombified_pig",
+      "earthmobsmod:teacup_pig"
+    ],
     "persecond": 10,
     "attempts": 50,
     "amount": {
@@ -998,11 +1002,7 @@
     }
   },
   {
-    "mob": [
-      "monsterplus:glow_skeleton",
-      "monsterplus:spectral_skeleton",
-      "monsterplus:overgrown_skeleton"
-    ],
+    "mob": ["monsterplus:glow_skeleton", "monsterplus:overgrown_skeleton"],
     "persecond": 2,
     "attempts": 15,
     "amount": {
@@ -1112,6 +1112,30 @@
     "amount": {
       "minimum": 1,
       "maximum": 1
+    },
+    "conditions": {
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
+    "mob": [
+      "ars_nouveau:drygmy",
+      "ars_nouveau:whirlisprig",
+      "ars_nouveau:starbuncle"
+    ],
+    "persecond": 2,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 4
     },
     "conditions": {
       "dimension": [
