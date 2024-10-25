@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "enderio:confusing_powder"
+      "item": "sf5_things:rgb_dye"
     },
     "title": {
-      "translate": "advancements.story.enchant_item.title"
+      "translate": "skyfactory_5.advancement.title.all_colors.stage"
     },
     "description": {
       "translate": "skyfactory_5.advancement.all_colors.stage"
