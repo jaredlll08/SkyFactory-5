@@ -1,0 +1,1675 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplehats:tophat"
+    },
+    "title": "Simple hats",
+    "description": {
+      "translate": "skyfactory_5.advancement.pink.stage"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:color_stages/root",
+  "criteria": {
+    "Babyturtle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:babyturtle"] }]
+      }
+    },
+    "Bandana": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bandana"] }]
+      }
+    },
+    "Bandanargb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bandanargb"] }]
+      }
+    },
+    "Baseballeaster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:baseballeaster"] }]
+      }
+    },
+    "Baseballhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:baseballhat"] }]
+      }
+    },
+    "Baseballhatfestive": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:baseballhatfestive"] }]
+      }
+    },
+    "Baseballhatjuly": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:baseballhatjuly"] }]
+      }
+    },
+    "Baseballhatrgb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:baseballhatrgb"] }]
+      }
+    },
+    "Batwinghat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:batwinghat"] }]
+      }
+    },
+    "Beanie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:beanie"] }]
+      }
+    },
+    "Beanieeaster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:beanieeaster"] }]
+      }
+    },
+    "Beaniefestive": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:beaniefestive"] }]
+      }
+    },
+    "Beaniejuly": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:beaniejuly"] }]
+      }
+    },
+    "Beaniergb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:beaniergb"] }]
+      }
+    },
+    "Beaniespooky": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:beaniespooky"] }]
+      }
+    },
+    "Beehat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:beehat"] }]
+      }
+    },
+    "Bicorne": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bicorne"] }]
+      }
+    },
+    "Bigbrain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bigbrain"] }]
+      }
+    },
+    "Bigcrown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bigcrown"] }]
+      }
+    },
+    "Bigeyes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bigeyes"] }]
+      }
+    },
+    "Bigribbon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bigribbon"] }]
+      }
+    },
+    "Bigstevehead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bigstevehead"] }]
+      }
+    },
+    "Bluefireeye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bluefireeye"] }]
+      }
+    },
+    "Bowler": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bowler"] }]
+      }
+    },
+    "Breadhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:breadhat"] }]
+      }
+    },
+    "Brownbrick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:brownbrick"] }]
+      }
+    },
+    "Bunnyhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bunnyhat"] }]
+      }
+    },
+    "Burgerhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:burgerhat"] }]
+      }
+    },
+    "Caddycap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:caddycap"] }]
+      }
+    },
+    "Camera": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:camera"] }]
+      }
+    },
+    "Camerabeard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:camerabeard"] }]
+      }
+    },
+    "Candleonhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:candleonhead"] }]
+      }
+    },
+    "Candycane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:candycane"] }]
+      }
+    },
+    "Carrotonstick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:carrotonstick"] }]
+      }
+    },
+    "Cartoonegg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:cartoonegg"] }]
+      }
+    },
+    "Cheeseslice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:cheeseslice"] }]
+      }
+    },
+    "Chefshat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:chefshat"] }]
+      }
+    },
+    "Chickenhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:chickenhead"] }]
+      }
+    },
+    "Chickenonhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:chickenonhead"] }]
+      }
+    },
+    "Christmascakehat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:christmascakehat"] }]
+      }
+    },
+    "Christmastree": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:christmastree"] }]
+      }
+    },
+    "Clockface": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:clockface"] }]
+      }
+    },
+    "Cowboy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:cowboy"] }]
+      }
+    },
+    "Cowboyrgb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:cowboyrgb"] }]
+      }
+    },
+    "Crabonhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:crabonhead"] }]
+      }
+    },
+    "Crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:crown"] }]
+      }
+    },
+    "Cuphead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:cuphead"] }]
+      }
+    },
+    "Cyclopseye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:cyclopseye"] }]
+      }
+    },
+    "Dairyqueen": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dairyqueen"] }]
+      }
+    },
+    "Dangereqsue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dangereqsue"] }]
+      }
+    },
+    "Dangeresquejuly": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dangeresquejuly"] }]
+      }
+    },
+    "Demoneyes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:demoneyes"] }]
+      }
+    },
+    "Demonhorns": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:demonhorns"] }]
+      }
+    },
+    "Digger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:digger"] }]
+      }
+    },
+    "Dimmahat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dimmahat"] }]
+      }
+    },
+    "Discoball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:discoball"] }]
+      }
+    },
+    "Disguise": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:disguise"] }]
+      }
+    },
+    "Doctorhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:doctorhat"] }]
+      }
+    },
+    "Dorkglassesandteeth": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dorkglassesandteeth"] }]
+      }
+    },
+    "Doubletake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:doubletake"] }]
+      }
+    },
+    "Dragonhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dragonhead"] }]
+      }
+    },
+    "Dragonskull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dragonskull"] }]
+      }
+    },
+    "Dragonskullender": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dragonskullender"] }]
+      }
+    },
+    "Drinkinhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:drinkinhat"] }]
+      }
+    },
+    "Dumhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dumhat"] }]
+      }
+    },
+    "Dwarfminerbeard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dwarfminerbeard"] }]
+      }
+    },
+    "Easterhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:easterhead"] }]
+      }
+    },
+    "Egghead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:egghead"] }]
+      }
+    },
+    "Eggonhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:eggonhead"] }]
+      }
+    },
+    "Elfhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:elfhat"] }]
+      }
+    },
+    "Explorerhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:explorerhat"] }]
+      }
+    },
+    "Eyepatch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:eyepatch"] }]
+      }
+    },
+    "Fakeblight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:fakeblight"] }]
+      }
+    },
+    "Fakefire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:fakefire"] }]
+      }
+    },
+    "Farmerbrim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:farmerbrim"] }]
+      }
+    },
+    "Festiveantlers": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:festiveantlers"] }]
+      }
+    },
+    "Festiveribbon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:festiveribbon"] }]
+      }
+    },
+    "Finnhood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:finnhood"] }]
+      }
+    },
+    "Fireworks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:fireworks"] }]
+      }
+    },
+    "Fishonhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:fishonhead"] }]
+      }
+    },
+    "Flagjuly": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:flagjuly"] }]
+      }
+    },
+    "Flies": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:flies"] }]
+      }
+    },
+    "Floatinghearts": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:floatinghearts"] }]
+      }
+    },
+    "Floatingstar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:floatingstar"] }]
+      }
+    },
+    "Flowercrown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:flowercrown"] }]
+      }
+    },
+    "Floweronhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:floweronhead"] }]
+      }
+    },
+    "Foxhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:foxhat"] }]
+      }
+    },
+    "Fro": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "player": [], "items": [{ "items": ["simplehats:fro"] }] }
+    },
+    "Frozenhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:frozenhead"] }]
+      }
+    },
+    "Fullironhelm": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:fullironhelm"] }]
+      }
+    },
+    "Ghostmask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:ghostmask"] }]
+      }
+    },
+    "Goggles": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:goggles"] }]
+      }
+    },
+    "Grandmadisguise": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:grandmadisguise"] }]
+      }
+    },
+    "Greenbirb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:greenbirb"] }]
+      }
+    },
+    "Grinchhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:grinchhat"] }]
+      }
+    },
+    "Halo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:halo"] }]
+      }
+    },
+    "Headbolts": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:headbolts"] }]
+      }
+    },
+    "Headphonesblue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:headphonesblue"] }]
+      }
+    },
+    "Headshot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:headshot"] }]
+      }
+    },
+    "Hockeymask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:hockeymask"] }]
+      }
+    },
+    "Holyhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:holyhead"] }]
+      }
+    },
+    "Horsemask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:horsemask"] }]
+      }
+    },
+    "Hosthat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:hosthat"] }]
+      }
+    },
+    "Icedragonskull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:icedragonskull"] }]
+      }
+    },
+    "Jackohat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:jackohat"] }]
+      }
+    },
+    "Jesterhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:jesterhat"] }]
+      }
+    },
+    "Julydouble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:julydouble"] }]
+      }
+    },
+    "Kirbymouthful": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:kirbymouthful"] }]
+      }
+    },
+    "Largehorns": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:largehorns"] }]
+      }
+    },
+    "Lilbow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:lilbow"] }]
+      }
+    },
+    "Madscientist": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:madscientist"] }]
+      }
+    },
+    "Magikarp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:magikarp"] }]
+      }
+    },
+    "Megamanhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:megamanhat"] }]
+      }
+    },
+    "Mistletoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:mistletoe"] }]
+      }
+    },
+    "Mohawk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:mohawk"] }]
+      }
+    },
+    "Monkeyking": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:monkeyking"] }]
+      }
+    },
+    "Monocle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:monocle"] }]
+      }
+    },
+    "Moreeyes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:moreeyes"] }]
+      }
+    },
+    "Murdered": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:murdered"] }]
+      }
+    },
+    "Nekoears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:nekoears"] }]
+      }
+    },
+    "Palmtree": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:palmtree"] }]
+      }
+    },
+    "Paperbag": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:paperbag"] }]
+      }
+    },
+    "Partyhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:partyhat"] }]
+      }
+    },
+    "Paypay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:paypay"] }]
+      }
+    },
+    "Penguinbaby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:penguinbaby"] }]
+      }
+    },
+    "Penguinhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:penguinhat"] }]
+      }
+    },
+    "Pighead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:pighead"] }]
+      }
+    },
+    "Pinhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:pinhead"] }]
+      }
+    },
+    "Plaguedoctor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:plaguedoctor"] }]
+      }
+    },
+    "Pog": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "player": [], "items": [{ "items": ["simplehats:pog"] }] }
+    },
+    "Pohatoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:pohatoe"] }]
+      }
+    },
+    "Policebucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:policebucket"] }]
+      }
+    },
+    "Policesiren": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:policesiren"] }]
+      }
+    },
+    "Poofballhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:poofballhat"] }]
+      }
+    },
+    "Poofballrgb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:poofballrgb"] }]
+      }
+    },
+    "Popehat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:popehat"] }]
+      }
+    },
+    "Potionhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:potionhead"] }]
+      }
+    },
+    "Presentsstack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:presentsstack"] }]
+      }
+    },
+    "Propelhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:propelhat"] }]
+      }
+    },
+    "Questbook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:questbook"] }]
+      }
+    },
+    "Rabbitears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rabbitears"] }]
+      }
+    },
+    "Rabbitonhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rabbitonhead"] }]
+      }
+    },
+    "Rainboworbiters": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rainboworbiters"] }]
+      }
+    },
+    "Ranahat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:ranahat"] }]
+      }
+    },
+    "Redeyes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:redeyes"] }]
+      }
+    },
+    "Rednose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rednose"] }]
+      }
+    },
+    "Redstache": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:redstache"] }]
+      }
+    },
+    "Rgbbigribbon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbbigribbon"] }]
+      }
+    },
+    "Rgbbowler": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbbowler"] }]
+      }
+    },
+    "Rgbdragonskull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbdragonskull"] }]
+      }
+    },
+    "Rgbdrinkinhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbdrinkinhat"] }]
+      }
+    },
+    "Rgbeasterhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbeasterhead"] }]
+      }
+    },
+    "Rgbfullhelm": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbfullhelm"] }]
+      }
+    },
+    "Rgbpartyhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbpartyhat"] }]
+      }
+    },
+    "Rgbsmallbowler": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbsmallbowler"] }]
+      }
+    },
+    "Rgbsunglasses": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbsunglasses"] }]
+      }
+    },
+    "Rgbtoptophathat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbtoptophathat"] }]
+      }
+    },
+    "Rgbushanka": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rgbushanka"] }]
+      }
+    },
+    "Rock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rock"] }]
+      }
+    },
+    "Rubbernipple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rubbernipple"] }]
+      }
+    },
+    "Sandcastle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:sandcastle"] }]
+      }
+    },
+    "Santaclaus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:santaclaus"] }]
+      }
+    },
+    "Sausage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:sausage"] }]
+      }
+    },
+    "Seaweedhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:seaweedhat"] }]
+      }
+    },
+    "Shakehat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:shakehat"] }]
+      }
+    },
+    "Sheep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:sheep"] }]
+      }
+    },
+    "Shrekears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:shrekears"] }]
+      }
+    },
+    "Shroomcap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:shroomcap"] }]
+      }
+    },
+    "Simsgem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:simsgem"] }]
+      }
+    },
+    "Smokingpipe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:smokingpipe"] }]
+      }
+    },
+    "Snowmanbaby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:snowmanbaby"] }]
+      }
+    },
+    "Sombrero": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:sombrero"] }]
+      }
+    },
+    "Sonichood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:sonichood"] }]
+      }
+    },
+    "Spadesoldier": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:spadesoldier"] }]
+      }
+    },
+    "Spiderweb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:spiderweb"] }]
+      }
+    },
+    "Springer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:springer"] }]
+      }
+    },
+    "Sprout": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:sprout"] }]
+      }
+    },
+    "Spyzombie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:spyzombie"] }]
+      }
+    },
+    "Stackofeggs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:stackofeggs"] }]
+      }
+    },
+    "Stress": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:stress"] }]
+      }
+    },
+    "Summerhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:summerhat"] }]
+      }
+    },
+    "Sunglasses": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:sunglasses"] }]
+      }
+    },
+    "Sunglassesbig": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:sunglassesbig"] }]
+      }
+    },
+    "Supersandhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:supersandhat"] }]
+      }
+    },
+    "Swimmer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:swimmer"] }]
+      }
+    },
+    "Tinkerhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:tinkerhat"] }]
+      }
+    },
+    "Topcathat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:topcathat"] }]
+      }
+    },
+    "Tophat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:tophat"] }]
+      }
+    },
+    "Toptophathat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:toptophathat"] }]
+      }
+    },
+    "Triangleshades": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:triangleshades"] }]
+      }
+    },
+    "Tricorne": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:tricorne"] }]
+      }
+    },
+    "Tvhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:tvhead"] }]
+      }
+    },
+    "Unicornhorn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:unicornhorn"] }]
+      }
+    },
+    "Ushanka": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:ushanka"] }]
+      }
+    },
+    "Vikinghatbeard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:vikinghatbeard"] }]
+      }
+    },
+    "Villagernose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:villagernose"] }]
+      }
+    },
+    "Winghat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:winghat"] }]
+      }
+    },
+    "Zigzagwitchhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:zigzagwitchhat"] }]
+      }
+    },
+    "Acornhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:acornhat"] }]
+      }
+    },
+    "Aegishat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:aegishat"] }]
+      }
+    },
+    "Alienphil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:alienphil"] }]
+      }
+    },
+    "Amalgalichhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:amalgalichhat"] }]
+      }
+    },
+    "Angrymask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:angrymask"] }]
+      }
+    },
+    "Antlers": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:antlers"] }]
+      }
+    },
+    "Apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:apple"] }]
+      }
+    },
+    "Artsy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:artsy"] }]
+      }
+    },
+    "Babydolphin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:babydolphin"] }]
+      }
+    },
+    "Artsy_Doll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:artsy_doll"] }]
+      }
+    },
+    "Azumanga_Hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:azumanga_hat"] }]
+      }
+    },
+    "Beret_Ribbon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:beret_ribbon"] }]
+      }
+    },
+    "Bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:bucket"] }]
+      }
+    },
+    "Burning_M_Bison": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:burning_m_bison"] }]
+      }
+    },
+    "Chalk_Stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:chalk_stick"] }]
+      }
+    },
+    "Chi_Ears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:chi_ears"] }]
+      }
+    },
+    "Circular_Glasses": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:circular_glasses"] }]
+      }
+    },
+    "Cucumbereyemask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:cucumbereyemask"] }]
+      }
+    },
+    "Dejiko": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dejiko"] }]
+      }
+    },
+    "Fez": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "player": [], "items": [{ "items": ["simplehats:fez"] }] }
+    },
+    "Fishing_Hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:fishing_hat"] }]
+      }
+    },
+    "Lightning_Eyes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:lightning_eyes"] }]
+      }
+    },
+    "Longfoxears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:longfoxears"] }]
+      }
+    },
+    "Milady_Doll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:milady_doll"] }]
+      }
+    },
+    "Nyan_Doll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:nyan_doll"] }]
+      }
+    },
+    "Orange_Hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:orange_hat"] }]
+      }
+    },
+    "Peppino": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:peppino"] }]
+      }
+    },
+    "Pom_Moog": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:pom_moog"] }]
+      }
+    },
+    "Puchiko": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:puchiko"] }]
+      }
+    },
+    "Rabi_En_Rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:rabi_en_rose"] }]
+      }
+    },
+    "Raincloud": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:raincloud"] }]
+      }
+    },
+    "Scouter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:scouter"] }]
+      }
+    },
+    "Sleepeyemask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:sleepeyemask"] }]
+      }
+    },
+    "Sport_Sunglasses": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:sport_sunglasses"] }]
+      }
+    },
+    "Strawberry_Hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:strawberry_hat"] }]
+      }
+    },
+    "Teddy_Bear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:teddy_bear"] }]
+      }
+    },
+    "The_Noise": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:the_noise"] }]
+      }
+    },
+    "Toy_Story_Alien": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:toy_story_alien"] }]
+      }
+    },
+    "Twilight_Doll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:twilight_doll"] }]
+      }
+    },
+    "Worms_Mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:worms_mine"] }]
+      }
+    }
+  }
+}
