@@ -78,25 +78,25 @@ overlayOffsetX = 20
 overlayOffsetY = 0
 # .
 # Enable this to use your custom colors for the Goggle- and Hover- Overlay
-customColorsOverlay = false
+customColorsOverlay = true
 # .
 # The custom background color to use for the Goggle- and Hover- Overlays, if enabled
 # [in Hex: #AaRrGgBb]
 # [@cui:IntDisplay:#]
 # Range: > -2147483648
-customBackgroundOverlay = -267386864
+customBackgroundOverlay = 1426089625
 # .
 # The custom top color of the border gradient to use for the Goggle- and Hover- Overlays, if enabled
 # [in Hex: #AaRrGgBb]
 # [@cui:IntDisplay:#]
 # Range: > -2147483648
-customBorderTopOverlay = 1347420415
+customBorderTopOverlay = -1
 # .
 # The custom bot color of the border gradient to use for the Goggle- and Hover- Overlays, if enabled
 # [in Hex: #AaRrGgBb]
 # [@cui:IntDisplay:#]
 # Range: > -2147483648
-customBorderBotOverlay = 1344798847
+customBorderBotOverlay = -1
 
 # .
 # Settings for the Placement Assist
