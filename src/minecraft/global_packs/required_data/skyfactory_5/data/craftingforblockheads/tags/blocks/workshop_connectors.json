@@ -46,6 +46,8 @@
     "minecraft:cartography_table",
     "minecraft:fletching_table",
     "minecraft:grindstone",
-    "minecraft:smithing_table"
+    "minecraft:smithing_table",
+    "create:andesite_casing",
+    "minecraft:hopper"
   ]
 }

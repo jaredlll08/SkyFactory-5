@@ -56,9 +56,6 @@
           "item": "tintedcampfires:green_campfire"
         },
         {
-          "item": "silentgear:axe_head"
-        },
-        {
           "item": "sophisticatedstorage:chest",
           "nbt": "{accentColor:6710886,mainColor:1466134}"
         },
@@ -67,6 +64,9 @@
         },
         {
           "item": "craftingstation:crafting_station_slab"
+        },
+        {
+          "item": "minecraft:green_bed"
         }
       ],
       "excludes": [

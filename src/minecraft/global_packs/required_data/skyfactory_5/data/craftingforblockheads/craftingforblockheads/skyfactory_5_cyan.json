@@ -61,6 +61,9 @@
         },
         {
           "item": "craftingstation:crafting_station_slab"
+        },
+        {
+          "item": "minecraft:cyan_bed"
         }
       ],
       "excludes": [

@@ -64,6 +64,9 @@
         },
         {
           "item": "craftingstation:crafting_station_slab"
+        },
+        {
+          "item": "minecraft:gray_bed"
         }
       ],
       "excludes": [

@@ -2,62 +2,59 @@
   "modid": "craftingforblockheads",
   "preset": "skyfactory_5",
   "predicates": {
-    "purple_crafting_table_present": {
+    "rainbow_crafting_table_present": {
       "type": "workshop_has",
-      "block": "colouredstuff:crafting_table_purple"
+      "block": "colouredstuff:crafting_table_rainbow"
     },
-    "purple_stage": {
+    "cyan_stage": {
       "type": "has_gamestage",
-      "gamestage": "purple"
+      "gamestage": "cyan"
     }
   },
   "groups": {},
   "filters": {
-    "craftingforblockheads:purple_crafting_table": {
-      "name": "Purple Recipes",
+    "craftingforblockheads:rainbow_cyan_crafting_table": {
+      "name": "Cyan Recipes",
       "icon": {
-        "item": "colouredstuff:crafting_table_purple"
+        "item": "colouredstuff:crafting_table_cyan"
       },
       "includes": [
         {
-          "item": "exnihilocoloratus:purple_crucible"
+          "item": "exnihilocoloratus:cyan_crucible"
         },
         {
-          "item": "exnihilocoloratus:purple_barrel"
+          "item": "exnihilocoloratus:cyan_barrel"
         },
         {
-          "item": "colouredstuff:crafting_table_purple"
+          "item": "colouredstuff:planks_cyan"
         },
         {
-          "item": "colouredstuff:planks_purple"
+          "item": "colouredstuff:slab_planks_cyan"
         },
         {
-          "item": "colouredstuff:slab_planks_purple"
+          "item": "colouredstuff:stairs_planks_cyan"
         },
         {
-          "item": "colouredstuff:stairs_planks_purple"
+          "item": "colouredstuff:wall_planks_cyan"
         },
         {
-          "item": "colouredstuff:wall_planks_purple"
+          "item": "colouredstuff:fence_planks_cyan"
         },
         {
-          "item": "colouredstuff:fence_planks_purple"
-        },
-        {
-          "item": "colouredstuff:gate_planks_purple"
+          "item": "colouredstuff:gate_planks_cyan"
         },
         {
           "item": "minecraft:stick"
         },
         {
-          "item": "tinted_torches:purple_torch"
+          "item": "tinted_torches:cyan_torch"
         },
         {
-          "item": "tintedcampfires:purple_campfire"
+          "item": "tintedcampfires:cyan_campfire"
         },
         {
           "item": "sophisticatedstorage:chest",
-          "nbt": "{accentColor:6710886,mainColor:8192221}"
+          "nbt": "{accentColor:6710886,mainColor:3203513}"
         },
         {
           "item": "craftingstation:crafting_station"
@@ -66,7 +63,7 @@
           "item": "craftingstation:crafting_station_slab"
         },
         {
-          "item": "minecraft:purple_bed"
+          "item": "minecraft:cyan_bed"
         }
       ],
       "excludes": [
@@ -134,8 +131,8 @@
           "recipe": "forcecraft:transmutation/stick_from_stone_axe"
         }
       ],
-      "hard_requirements": ["purple_crafting_table_present"],
-      "priority": 9986
+      "hard_requirements": ["rainbow_crafting_table_present"],
+      "priority": 9995
     }
   }
 }

@@ -2,62 +2,62 @@
   "modid": "craftingforblockheads",
   "preset": "skyfactory_5",
   "predicates": {
-    "purple_crafting_table_present": {
+    "rainbow_crafting_table_present": {
       "type": "workshop_has",
-      "block": "colouredstuff:crafting_table_purple"
+      "block": "colouredstuff:crafting_table_rainbow"
     },
-    "purple_stage": {
+    "green_stage": {
       "type": "has_gamestage",
-      "gamestage": "purple"
+      "gamestage": "green"
     }
   },
   "groups": {},
   "filters": {
-    "craftingforblockheads:purple_crafting_table": {
-      "name": "Purple Recipes",
+    "craftingforblockheads:rainbow_green_crafting_table": {
+      "name": "Green Recipes",
       "icon": {
-        "item": "colouredstuff:crafting_table_purple"
+        "item": "colouredstuff:crafting_table_green"
       },
       "includes": [
         {
-          "item": "exnihilocoloratus:purple_crucible"
+          "item": "exnihilocoloratus:green_crucible"
         },
         {
-          "item": "exnihilocoloratus:purple_barrel"
+          "item": "exnihilocoloratus:green_barrel"
         },
         {
-          "item": "colouredstuff:crafting_table_purple"
+          "item": "colouredstuff:crafting_table_green"
         },
         {
-          "item": "colouredstuff:planks_purple"
+          "item": "colouredstuff:planks_green"
         },
         {
-          "item": "colouredstuff:slab_planks_purple"
+          "item": "colouredstuff:slab_planks_green"
         },
         {
-          "item": "colouredstuff:stairs_planks_purple"
+          "item": "colouredstuff:stairs_planks_green"
         },
         {
-          "item": "colouredstuff:wall_planks_purple"
+          "item": "colouredstuff:wall_planks_green"
         },
         {
-          "item": "colouredstuff:fence_planks_purple"
+          "item": "colouredstuff:fence_planks_green"
         },
         {
-          "item": "colouredstuff:gate_planks_purple"
+          "item": "colouredstuff:gate_planks_green"
         },
         {
           "item": "minecraft:stick"
         },
         {
-          "item": "tinted_torches:purple_torch"
+          "item": "tinted_torches:green_torch"
         },
         {
-          "item": "tintedcampfires:purple_campfire"
+          "item": "tintedcampfires:green_campfire"
         },
         {
           "item": "sophisticatedstorage:chest",
-          "nbt": "{accentColor:6710886,mainColor:8192221}"
+          "nbt": "{accentColor:6710886,mainColor:1466134}"
         },
         {
           "item": "craftingstation:crafting_station"
@@ -66,7 +66,7 @@
           "item": "craftingstation:crafting_station_slab"
         },
         {
-          "item": "minecraft:purple_bed"
+          "item": "minecraft:green_bed"
         }
       ],
       "excludes": [
@@ -134,8 +134,8 @@
           "recipe": "forcecraft:transmutation/stick_from_stone_axe"
         }
       ],
-      "hard_requirements": ["purple_crafting_table_present"],
-      "priority": 9986
+      "hard_requirements": ["rainbow_crafting_table_present"],
+      "priority": 9993
     }
   }
 }

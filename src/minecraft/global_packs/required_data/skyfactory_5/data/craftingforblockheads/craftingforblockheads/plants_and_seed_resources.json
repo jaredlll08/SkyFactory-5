@@ -42,7 +42,8 @@
         { "item": "thermal:onion_seeds" },
         { "item": "thermal:bell_pepper_seeds" },
         { "item": "thermal:eggplant_seeds" },
-        { "item": "thermal:tomato_seeds" }
+        { "item": "thermal:tomato_seeds" },
+        { "item": "thermal:flax_seeds" }
       ],
       "soft_requirements": ["vanilla_composter_present"],
       "priority": 99996

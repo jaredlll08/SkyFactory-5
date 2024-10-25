@@ -2,9 +2,9 @@
   "modid": "craftingforblockheads",
   "preset": "skyfactory_5",
   "predicates": {
-    "purple_crafting_table_present": {
+    "rainbow_crafting_table_present": {
       "type": "workshop_has",
-      "block": "colouredstuff:crafting_table_purple"
+      "block": "colouredstuff:crafting_table_rainbow"
     },
     "purple_stage": {
       "type": "has_gamestage",
@@ -13,7 +13,7 @@
   },
   "groups": {},
   "filters": {
-    "craftingforblockheads:purple_crafting_table": {
+    "craftingforblockheads:rainbow_purple_crafting_table": {
       "name": "Purple Recipes",
       "icon": {
         "item": "colouredstuff:crafting_table_purple"
@@ -134,7 +134,7 @@
           "recipe": "forcecraft:transmutation/stick_from_stone_axe"
         }
       ],
-      "hard_requirements": ["purple_crafting_table_present"],
+      "hard_requirements": ["rainbow_crafting_table_present"],
       "priority": 9986
     }
   }
