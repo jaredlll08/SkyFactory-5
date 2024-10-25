@@ -2,11 +2,12 @@
 
 import crafttweaker.api.data.IData;
 import crafttweaker.api.data.ListData;
+import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import stdlib.List;
 
 public class BotaniaElvenTrade {
-  public static addRecipe(recipeName: string, inputs: IItemStack[], outputs: IItemStack[]): void {
+  public static addRecipe(recipeName: string, inputs: IIngredient[], outputs: IItemStack[]): void {
     val inputsData = new List<IData>();
     for input in inputs {
       inputsData.add(input as IData);
