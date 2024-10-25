@@ -9,6 +9,7 @@ const dyeFoodPairs = {
   "sf5_things:green_apple": "minecraft:green_dye",
   "minecraft:carrot": "minecraft:orange_dye",
   "sf5_things:white_apple": "minecraft:white_dye",
+  "exnihilosequentia:silkworm": "minecraft:white_dye",
 };
 
 ItemEvents.foodEaten((event) => {
