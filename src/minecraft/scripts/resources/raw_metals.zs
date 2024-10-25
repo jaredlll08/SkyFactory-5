@@ -36,6 +36,12 @@ public class MaterialCraftingRecipe {
       this.ingredients,
       this.weight
     );
+
+    BotaniaElvenTrade.addRecipe(
+      "elven_trade_" + this.recipeName,
+      this.ingredients,
+      [this.output, this.output]
+    );
   }
 }
 
