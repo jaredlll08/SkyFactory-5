@@ -68,17 +68,8 @@
           }
         },
         {
-          "condition": "minecraft:entity_properties",
-          "entity": "killer",
-          "predicate": {
-            "type": "minecraft:player",
-            "type_specific": {
-              "type": "player",
-              "advancements": {
-                "skyfactory_5:color_stages/root": true
-              }
-            }
-          }
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
         }
       ]
     }
