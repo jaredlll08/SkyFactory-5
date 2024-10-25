@@ -194,8 +194,8 @@ enabled = true
 trapped_present = true
 
 [functional.flax]
-enabled = true
-wild_flax = true
+enabled = false
+wild_flax = false
 
 [building]
 lapis_bricks = true
@@ -216,7 +216,7 @@ feather_block = true
 statue = true
 flower_box = true
 doormat = true
-flint_block = true
+flint_block = false
 candle_holder = true
 
 [building.blackboard]
