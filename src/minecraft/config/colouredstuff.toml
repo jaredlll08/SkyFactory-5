@@ -12,3 +12,7 @@ vanilla_override = true
 [colouredstuff.water]
 # Is the dyed water an infinite source like regular water where new source blocks get generated
 infinite = false
+
+[colouredstuff.rgb]
+# Add the RGB/rainbow crafting table item.  Setting to false will not register the item
+enabled = true
