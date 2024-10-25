@@ -1,5 +1,5 @@
 #Welcome to SkyFactory 5
-#If you're reading this than I am sorry.
+#If you're reading this then I am sorry.
 #You have been chosen to embark on a very long, tedious, extremely grindy, yet meaningful trek into a beautiful mess of blocks, items, and other weird stuff. This pack is not finished and will probably have lots of bugs, issues, problems, lag, messes, worriment, questionable choices, headaches, heart aches, aches in places you didn't knew existed, obstacles, and dragons.
 ===
 #When will it be out you might ask? That depends, how much money do you have? Just kidding! But seriously, if you have to ask you probably can't afford it. No but really, it's going to be out when it's ready and that depends on how fast MisterWiggly here can work on reporting bugs and other anomalies.
@@ -9,10 +9,7 @@
 #HAVE FUN!
 ===
 #Special Thank You to:
-#FirstNecron
-#MarioLuigi7896
-#Jaredlll08
-#Muddr
+#FirstNecron, MarioLuigi7896, Jaredlll08, Muddr, Lothrazar, GoryMoon, Shadows_of_Fire, MrBysco, BlayTheNinth, KingLemming
 #and more people will be added to this list!
 ===
 Discover §0(§0Black§0)
@@ -33,7 +30,7 @@ Discover §f(§0White§f)
 Discover §e(§0Yellow§e)
 
 ===
-
+Change the color of a Sapling by using Dye on it
 
 # §1--==§0Age of Beginning-ment§1==--
 Use a Barrel to Create Dirt
@@ -72,20 +69,27 @@ Produce 100k RF/t
 Produce 1 million RF/t
 ===
 #§1--==§0Age of Entities§1==--
+Herd all 16 Colorful Villagers
+Obtain all 147 trophies
+Find and pickup a Mob Spawner
+Change a Mob Spawner by Right Clicking on it with a Trophy
+
+#§1--==§0Normal Gateways§1==--
 Obtain a Normal Gateway Pearl
 Complete a Gateway and Receive a Mob Trophy
 Right Click on a Trophy to Activate It
-Herd all 16 Colorful Villagers
 Complete all 147 Normal Gateways (Not Titan)
-Obtain all 147 trophies
-Obtain a Titan Gateway
+Complete the Normal Ender Dragon Gateway
+
+#§1--==§0Titan Gateways§1==--
+Obtain a Titan Gateway Pearl
 Complete Wave 50 of any Titan Gateway
 Complete Wave 100 of any Titan Gateway
 Complete Wave 150 of any Titan Gateway
+
+#§1--==§0Challenge Gateways§1==--
 Complete all 16 Challenge Gateways
-Complete the Normal Ender Dragon Gateway
-Find a Mob Spawner and pickup a mob spawner
-Change a Spawner by clicking on it with a Trophy
+
 #§1--==§0Age of Farming§1==--
 Obtain an Inferium Seed
 Capture a Cow in a jar
@@ -150,6 +154,7 @@ Summon a Demonic Wife/Husband
 Defeat the Warden
 Defeat the Ender Dragon
 Defeat the Wither
+Defeat the Gaia Guardian
 Defeat the Ghast Cow
 Defeat the Chaos Dragon
 ===
@@ -176,7 +181,7 @@ Create a Culinary Construct Sandwich Full of Different Types of Perfect Sushi
 Fill an entire chunk with <insert silly or weird block> block (16x16x448)
 ===
 #§1--==§0Age of I have no idea where these can go yet§1==--
-
+Obtain an EnderIO Grain of Infinity
 Craft a Create Sabers Saber
 Craft a Hammock to sleep to night time
 Fall through the void into a pool of water
@@ -184,7 +189,7 @@ Craft a Silent's Gear Sickle to break leaves faster
 Craft a Silent's Gear Axe to break wood fast!
 Obtain a Hostile Neural Network Faulty Data Model for any mob
 Upgrade a Hostile Neural Network Data Model to Self Aware
-Obtain Energetic Wool and use it to power something
+Shear an Energetic Sheep with Energetic Shears and Use Them to Power Something
 Collect all 16 colors of the Energetic Sheep (or maybe just 16 of the wool colors)
 Grow your head to 150%
 Grow your head to 250%
