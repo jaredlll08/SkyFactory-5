@@ -237,7 +237,7 @@ enabled = false
 [cyclic.blocks]
 # If true, then all potions marked as harmful/negative will be used in addition to the 'anti_beacon.potion_list' for cures and immunities  (used by both sponge and artemisbeacon).
 harmful_potions = true
-#  Allows the dimensional Transfer Nodes to cross dimensions (no chunk loading is done, you have to do that on your own); This affects blocks cyclic:wireless_energy, cyclic:wireless_item, cyclic:wireless_fluid, cyclic:wireless_transmitter; If you change it to false it will only work if the target is in the same dimension.
+#   Allows the dimensional Transfer Nodes to cross dimensions (no chunk loading is done, you have to do that on your own); This affects blocks cyclic:wireless_energy, cyclic:wireless_item, cyclic:wireless_fluid, cyclic:wireless_transmitter; If you change it to false it will only work if the target is in the same dimension.
 wireless_transfer_dimensional = true
 
 [cyclic.blocks.peace_candle]
@@ -273,7 +273,7 @@ frequency = 5
 
 [cyclic.blocks.disenchanter]
 # Power per use disenchanter
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 2500
 # Cost of (or payment for if negative) per enchanted book generated
 # Range: -1000 ~ 16000
@@ -281,12 +281,12 @@ fluid_cost = 100
 
 [cyclic.blocks.anvil]
 # Power per repair anvil
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 250
 
 [cyclic.blocks.dropper]
 # Power per use dropper
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 50
 
 [cyclic.blocks.water_candle]
@@ -294,15 +294,15 @@ energy_cost = 50
 # Range: 1 ~ 64
 radius = 8
 # Tick rate of the candle
-# Range: 1 ~ 2000
+# Range: > 1
 tick_rate = 60
 
 [cyclic.blocks.teleport]
 # Power per use
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 400
 # Power per use while crossing dimensions
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost_xdim = 8000
 
 [cyclic.blocks.sound]
@@ -313,22 +313,25 @@ radius = 8
 # battery settings
 [cyclic.blocks.battery]
 # RF/t charging rate for the battery item slot
-# Range: 1 ~ 6400000
+# Range: > 1
 charge = 8000
+# Maximum storage capacity; default 6400000 [warning: energy contents of items in world may be reset when changing this value]
+# Range: > 1
+capacity = 6400000
 
 [cyclic.blocks.generator_fuel]
 # RF energy per tick generated while burning furnace fuel in this machine.  Burn time in ticks is the same as furnace values, so 1 coal = 1600 ticks
-# Range: 1 ~ 6400
+# Range: > 1
 rf_per_tick = 80
 
 [cyclic.blocks.peat_farm]
 # Power per use peat_farm
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 500
 
 [cyclic.blocks.miner]
 # Power per use miner
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 10
 
 # fisher settings
@@ -342,17 +345,17 @@ radius = 12
 
 [cyclic.blocks.harvester]
 # Power per use harvester
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 250
 
 [cyclic.blocks.forester]
 # Power per use forester
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 50
 
 [cyclic.blocks.crafter]
 # Power per use crafter
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 500
 
 [cyclic.blocks.sponge_lava]
@@ -362,7 +365,7 @@ radius = 8
 
 [cyclic.blocks.anvil_void]
 # Payment per void action, if not zero
-# Range: 0 ~ 16000
+# Range: > 0
 fluid_cost = 25
 
 # Ender Trigger settings
@@ -418,23 +421,23 @@ radius = 6
 # Range: 1 ~ 32
 buffer = 16
 # How many fluid units per tick can flow through these cables each tick (1 bucket = 1000) including normal flow and extraction mode
-# Range: 100 ~ 32000
+# Range: > 100
 flow = 1000
 
 [cyclic.blocks.cables.energy]
 # How much buffer the energy cables hold (must not be smaller than flow)
-# Range: 1 ~ 128000
+# Range: > 1
 buffer = 128000
 # How fast energy flows in these cables (must not be greater than buffer)
-# Range: 100 ~ 32000
+# Range: > 100
 flow = 32000
 
 [cyclic.blocks.generator_food]
 # RF energy per tick generated while burning food in this machine
-# Range: 1 ~ 6400
+# Range: > 1
 rf_per_tick = 60
 # This [factor * (item.food + item.saturation) = ticks] results in the number of ticks food will burn at. IE Bread has (5 + 0.6) with factor 100, will burn for 560 ticks.
-# Range: 1 ~ 6400
+# Range: > 1
 ticks_per_food = 100
 
 [cyclic.blocks.magnet_block]
@@ -444,17 +447,17 @@ radius = 16
 
 [cyclic.blocks.packager]
 # Power per recipe in the packager
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 50
 
 [cyclic.blocks.collector_fluid]
 # Power per use collector_fluid
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 500
 
 [cyclic.blocks.structure]
 # Power per tick while in use
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 10
 
 # Ender shelf settings
@@ -468,15 +471,15 @@ books_per_row = 256
 
 [cyclic.blocks.uncraft]
 # Power per use uncraft
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 1000
 
 [cyclic.blocks.generator_solar]
 # Ticks between power gen interval. Example: 40 ticks is 2 seconds. 0 means every tick it generates
-# Range: 0 ~ 6400
+# Range: > 0
 ticks = 60
 # Base level of solar power generation (affected by weather contitions).
-# Range: 1 ~ 100
+# Range: > 1
 energy = 4
 
 [cyclic.blocks.beacon]
@@ -575,7 +578,7 @@ radius = 16
 
 [cyclic.blocks.user]
 # Power per use user
-# Range: 0 ~ 64000
+# Range: > 0
 energy_cost = 0
 
 # terra_glass settings
@@ -586,6 +589,48 @@ timer = 100
 # growth height below the glass
 # Range: 0 ~ 32
 height = 8
+
+# battery_clay settings
+[cyclic.blocks.battery_clay]
+# Maximum storage capacity; default 16000 [warning: energy contents of items in world may be reset when changing this value]
+# Range: > 1
+capacity = 16000
+
+[cyclic.blocks.facades]
+#
+#  These blocks are not allowed to be used as Facades for blocks because they look weird (used by cables and Glowstone Facade and Soundproofing Facade and others)
+itemsNotAllowed = [
+  "minecraft:ladder",
+  "minecraft:double_plant",
+  "minecraft:waterlily",
+  "minecraft:torch",
+  "minecraft:*_torch",
+  "minecraft:redstone",
+  "minecraft:iron_bars",
+  "minecraft:chest",
+  "minecraft:ender_chest",
+  "minecraft:sculk_vein",
+  "minecraft:string",
+  "minecraft:vine",
+  "minecraft:rail",
+  "minecraft:*_rail",
+  "minecraft:brewing_stand",
+  "minecraft:*_dripleaf",
+  "minecraft:*_pane",
+  "minecraft:*_sapling",
+  "minecraft:*_sign",
+  "minecraft:*_door",
+  "minecraft:*_banner",
+  "minecraft:*_shulker_box",
+  "cyclic:*_pipe",
+  "cyclic:*_bars",
+  "storagenetwork:*"
+]
+
+[cyclic.blocks.facades.cables]
+#
+# Allow cables to have blocks placed in them as facades (sneak-left-click to set; use empty hand to remove).  Set to false to disable facades
+enabled = true
 
 # ####################################################################################
 # Logging related configs
@@ -852,6 +897,22 @@ helm = 4
 # Damage Reduction
 # Range: 1 ~ 99
 leg = 7
+
+[cyclic.items.laser_cannon]
+# Maximum range to hit target
+# Range: 1 ~ 9999
+range = 6000
+# Damage dealt at point blank range
+# Range: > 1
+damage_close = 20
+# Damage dealt when firing at range
+# Range: > 1
+damage_far = 12
+# Energy cost per firing; only drained when living targets are hit
+# Range: > 1
+energy = 10
+# Render the laser beam even when there is no living target (used to be hardcoded as false, so change this back to restore legacy behavior)
+render_misses = true
 
 # ####################################################################################
 # Edit the permissions of all commands added by the mod.  false means anyone can use, true means only OP players can use
