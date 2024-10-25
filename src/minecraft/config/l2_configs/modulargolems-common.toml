@@ -23,6 +23,31 @@ maxWanderRadius = 30.0
 # Speed factor for dog golem when ridden by entities
 # Range: 0.0 ~ 2.0
 riddenSpeedFactor = 0.8
+# Make mobs aggro to iron golem automatically aggro to modular golems
+doEnemyAggro = true
+# When enabled, the following features will be disabled when player holds item in hand:
+# - give item to golem or take items from golem by right click
+# - order dog golem to seat
+strictInteract = false
+# Allow command wand to edit curios of other mobs you own
+allowEditCuriosForOthers = true
+# Target reset time after no movement, in ticks
+# Range: 1 ~ 10000
+targetResetTime = 600
+# Distance considered as no movement
+# Range: 0.0 ~ 10.0
+targetResetNoMovementRange = 0.5
+# Default slots for large golem
+# Range: 0 ~ 100
+largeGolemSlot = 4
+# Default slots for humanoid golem
+# Range: 0 ~ 100
+humanoidGolemSlot = 3
+# Default slots for dog golem
+# Range: 0 ~ 100
+dogGolemSlot = 2
+# Allow golems to enter portal
+allowDimensionChange = false
 
 [modifiers]
 # Percentage damage reflection per level of thorn
@@ -59,6 +84,15 @@ carminiteTime = 20
 # Damage absorbed per level of coating
 # Range: 0.0 ~ 10000.0
 coating = 1.0
+# Speed boost per level of Mechanical Mobility
+# Range: 0.0 ~ 1.0
+mechSpeed = 0.2
+# Attack boost per level of Mechanical Force
+# Range: 0.0 ~ 1.0
+mechAttack = 0.2
+# Maximum number of fuel item that can be added at the same time
+# Range: 1 ~ 364
+mechMaxFuel = 3
 
 ["l2complements compat"]
 # Conduit cooldown
@@ -97,3 +131,32 @@ mendingXpCost = 2
 # Teleport cooldown in ticks for avoiding physical damage
 # Range: 1 ~ 10000
 teleportCooldown = 40
+
+["botania compat"]
+# Mana mending cost per HP
+# Range: 1 ~ 50000
+mendingManaCost = 200
+# Mana mending value per level
+# Range: 0.1 ~ 100.0
+manaMendingVal = 4.0
+# Percentage damage bonus per level of mana boost
+# Range: 0.0 ~ 100.0
+manaBoostingDamage = 0.2
+# Mana boosting cost per level (of 1 hit)
+# Range: 0 ~ 100000
+manaBoostingCost = 500
+# Mana production value per level
+# Range: 0 ~ 100000
+manaProductionVal = 20
+# Damage of magic burst as percentage of attack damage
+# Range: 0.0 ~ 1.0
+manaBurstDamage = 0.25
+# Mana burst cost per level
+# Range: 0 ~ 100000
+manaBurstCost = 2000
+# Probability of summoning a pixie when attacking
+# Range: 0.0 ~ 1.0
+pixieAttackProb = 0.05
+# Probability of summoning a pixie when attacked
+# Range: 0.0 ~ 1.0
+pixiecounterattackProb = 0.25
