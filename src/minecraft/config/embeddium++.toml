@@ -27,7 +27,7 @@ fpsDisplayShadow = false
 [embeddiumplus.quality]
 # Toggle fog feature
 # Fog was a vanilla feature
-fog = false
+fog = true
 # Raise clouds
 # Modify clouds height perfect for a adaptative world experience
 # Range: 0 ~ 512
@@ -38,7 +38,7 @@ cloudsHeight = 192
 chunkFadeSpeed = "SLOW"
 # Clean my skies
 # Blue band was a vanilla feature, toggle off will show sky color directly
-blueBand = false
+blueBand = true
 # Do not show me your name
 # disables nametag rendering for players and entities
 disableNameTagRendering = false
