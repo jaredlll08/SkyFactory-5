@@ -74,7 +74,8 @@ val itemsForDurability as IItemStack[][int] = {
   ],
   2147483647: [
     <item:create:super_glue>,
-    <item:create:sand_paper>
+    <item:create:sand_paper>,
+    <item:minecraft:flint_and_steel>
   ]
 };
 

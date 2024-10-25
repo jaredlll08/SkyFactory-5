@@ -70,7 +70,7 @@ ContentBuilder.factory
     return BracketHandlers.getItem("tintedcampfires:" + color.getResourceName() + "_campfire");
   })
   .registerItem(ColoredItem.ChallengeGateway, (color) => {
-    if color.getName() != ColorName.Red {
+    if color.getName() == ColorName.None {
       return null;
     }
 

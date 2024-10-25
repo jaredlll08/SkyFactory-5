@@ -74,6 +74,7 @@ val itemsToRemove as IItemStack[] = [
   <item:cyclic:mattock>,
   <item:cyclic:mattock_nether>,
   <item:cyclic:mattock_stone>,
+  <item:cyclic:netherite_nugget>,
   <item:pickletweaks:watering_can>,
   <item:pickletweaks:reinforced_watering_can>,
   <item:exnihilosequentia:iron_pieces>,
@@ -313,7 +314,27 @@ val itemsToRemove as IItemStack[] = [
   <item:exnihilosequentia:crushed_dripstone>,
   <item:exnihilosequentia:crushed_end_stone>,
   <item:exnihilosequentia:crushed_granite>,
-  <item:exnihilosequentia:crushed_tuff>
+  <item:exnihilosequentia:crushed_tuff>,
+
+  <item:botania:pebble>,
+  <item:exnihilosequentia:end_cake>,
+
+  <item:theoneprobe:creativeprobe>,
+  <item:theoneprobe:probe>,
+  <item:theoneprobe:diamond_helmet_probe>,
+  <item:theoneprobe:gold_helmet_probe>,
+  <item:theoneprobe:iron_helmet_probe>,
+
+// Create Sifter
+  <item:createsifter:advanced_brass_mesh>,
+  <item:createsifter:andesite_mesh>,
+  <item:createsifter:zinc_mesh>,
+  <item:createsifter:brass_mesh>,
+  <item:createsifter:custom_mesh>,
+  <item:createsifter:advanced_custom_mesh>,
+
+  <item:earthmobsmod:bone_shard>
+
 
 
 ];

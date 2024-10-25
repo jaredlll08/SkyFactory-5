@@ -16,8 +16,14 @@ AITweaks.addLeapTweak(<entitytype:vinery:wandering_winemaker>, 2, 0.3F);
 // Melee
 AITweaks.addMeleeAttackTweak(<entitytype:vinery:mule>, 1, 1.0F, 1.0D, false);
 AITweaks.addMeleeAttackTweak(<entitytype:colourfulllamas:llama>, 1, 1.0F, 1.0D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:minecraft:sniffer>, 1, 1.0F, 21.0D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:minecraft:parrot>, 1, 4.5F, 3.5D, false);
 AITweaks.addLeapTweak(<entitytype:vinery:mule>, 2, 0.3F);
 AITweaks.addLeapTweak(<entitytype:colourfulllamas:llama>, 2, 0.3F);
+AITweaks.addLeapTweak(<entitytype:minecraft:sniffer>, 2, 0.2F);
+AITweaks.addLeapTweak(<entitytype:minecraft:parrot>, 2, 0.3F);
+
+
 
 // Ranged Entities
 // Egg Throw
@@ -28,15 +34,12 @@ AITweaks.addProjectileAttackTweak(<entitytype:earthmobsmod:fancy_chicken>, <enti
 AITweaks.addProjectileAttackTweak(<entitytype:forcecraft:cold_chicken>, <entitytype:minecraft:egg>, "minecraft:entity.egg.throw", 1, 3.0F, 1.0F);
 
 // Llama Spit
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:camel>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:parrot>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:strider>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:panda>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:allay>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:colourfulllamas:llama>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 1.0F);
-
-
-
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:camel>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:parrot>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:strider>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:panda>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:allay>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:colourfulllamas:llama>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
 
 // Trident Throw
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:salmon>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
@@ -97,8 +100,8 @@ val denyList as EntityType<Entity>[] = [
   <entitytype:veincreeper:red>,
   <entitytype:veincreeper:white>,
   <entitytype:veincreeper:yellow>,
-  <entitytype:minecraft:bat>
-
+  <entitytype:minecraft:bat>,
+  <entitytype:minecraft:sniffer>
 ];
 
 for mob in Globals.stagedMobs {
@@ -106,5 +109,5 @@ for mob in Globals.stagedMobs {
     continue;
   }
   AITweaks.addLeapTweak(mob, 2, 0.3F);
-  AITweaks.addMeleeAttackTweak(mob, 1, 1.0F, 0.0D, false);
+  AITweaks.addMeleeAttackTweak(mob, 1, 1.0F, 3.0D, false);
 }

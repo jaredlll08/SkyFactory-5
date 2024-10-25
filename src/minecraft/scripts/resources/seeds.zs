@@ -65,10 +65,68 @@ craftingTable.addShapeless(
 
 // Warped Nylium Spores
 craftingTable.addShapeless(
-  "arped_nylium_from_dye",
+  "warped_nylium_from_dye",
   <item:exnihilosequentia:warped_nylium_spores>,
   [<tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/red>]
 );
+
+// Cucumber Seeds
+craftingTable.addShapeless(
+  "cucumber_seeds_from_dye",
+  <item:sushigocrafting:cucumber_seeds>,
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/lime>]
+);
+
+// Corn Seeds
+craftingTable.addShapeless(
+  "corn_seeds_from_dye",
+  <item:thermal:corn_seeds>,
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/yellow>]
+);
+
+// Hemp Seeds
+craftingTable.addShapeless(
+  "hemp_seeds_from_dye",
+  <item:immersiveengineering:seed>,
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/orange>]
+);
+
+// Onion Seeds
+craftingTable.addShapeless(
+  "onion_seeds_from_dye",
+  <item:thermal:onion_seeds>,
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/black>]
+);
+
+// Bell Pepper Seeds
+craftingTable.addShapeless(
+  "bell_pepper_seeds_from_dye",
+  <item:thermal:bell_pepper_seeds>,
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/red>]
+);
+
+// Eggplant Seeds
+craftingTable.addShapeless(
+  "eggplant_seeds_from_dye",
+  <item:thermal:eggplant_seeds>,
+  [<tag:items:forge:dyes/brown>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/orange>]
+);
+
+// Tomato Seeds
+craftingTable.addShapeless(
+  "tomato_seeds_from_dye",
+  <item:thermal:tomato_seeds>,
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/red>]
+);
+
+// Flax Seeds
+craftingTable.addShapeless(
+  "flax_seeds_from_dye",
+  <item:thermal:flax_seeds>,
+  [<tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/green>]
+);
+
+
 
 
 

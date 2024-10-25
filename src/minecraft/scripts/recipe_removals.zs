@@ -375,7 +375,29 @@ val items as IItemStack[] = [
   <item:handcrafted:vindicator_trophy>,
   <item:handcrafted:witch_trophy>,
 
-  <item:pickletweaks:mesh>
+  <item:pickletweaks:mesh>,
+
+  <item:botania:pebble>,
+  <item:exnihilosequentia:end_cake>,
+
+  <item:theoneprobe:creativeprobe>,
+  <item:theoneprobe:probe>,
+  <item:theoneprobe:diamond_helmet_probe>,
+  <item:theoneprobe:gold_helmet_probe>,
+  <item:theoneprobe:iron_helmet_probe>,
+
+  // Create Sifter
+  <item:createsifter:advanced_brass_mesh>,
+  <item:createsifter:andesite_mesh>,
+  <item:createsifter:zinc_mesh>,
+  <item:createsifter:brass_mesh>,
+  <item:createsifter:custom_mesh>,
+  <item:createsifter:advanced_custom_mesh>,
+
+  <item:earthmobsmod:bone_shard>,
+  <item:cyclic:netherite_nugget>,
+
+  <item:colouredstuff:crafting_table_rainbow>
 
 
 ];
@@ -399,6 +421,7 @@ craftingTable.removeByName("minecraft:ens_end_stone");
 craftingTable.removeByName("minecraft:ens_netherrack");
 craftingTable.removeByName("minecraft:ens_cobblestone");
 craftingTable.removeByName("minecraft:ens_tuff");
+
 
 // Cluttered mod
 craftingTable.removeByName("luphieclutteredmod:luphie_purple_plank_set_stick_recipe");

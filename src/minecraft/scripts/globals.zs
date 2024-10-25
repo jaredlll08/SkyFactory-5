@@ -32,6 +32,9 @@ public class Globals {
     // stagedMobs GENERATOR START
     // !THIS SECTION IS MANAGED BY A SCRIPT. DO NOT MANUALLY EDIT THIS SECTION!
 
+    <entitytype:ars_nouveau:drygmy>: new StagedMob(<entitytype:ars_nouveau:drygmy>, MobStage.DRYGMY),
+    <entitytype:ars_nouveau:starbuncle>: new StagedMob(<entitytype:ars_nouveau:starbuncle>, MobStage.STARBUNCLE),
+    <entitytype:ars_nouveau:whirlisprig>: new StagedMob(<entitytype:ars_nouveau:whirlisprig>, MobStage.WHIRLISPRIG),
     <entitytype:colourfulgoats:goat>: new StagedMob(<entitytype:colourfulgoats:goat>, MobStage.GOAT),
     <entitytype:colourfulllamas:llama>: new StagedMob(<entitytype:colourfulllamas:llama>, MobStage.LLAMA),
     <entitytype:earthmobsmod:albino_cow>: new StagedMob(<entitytype:earthmobsmod:albino_cow>, MobStage.ALBINO_COW),
@@ -155,7 +158,6 @@ public class Globals {
     <entitytype:monsterplus:mother_lava_squid>: new StagedMob(<entitytype:monsterplus:mother_lava_squid>, MobStage.MOTHER_LAVA_SQUID),
     <entitytype:monsterplus:opalescent_eye>: new StagedMob(<entitytype:monsterplus:opalescent_eye>, MobStage.OPALESCENT_EYE),
     <entitytype:monsterplus:overgrown_skeleton>: new StagedMob(<entitytype:monsterplus:overgrown_skeleton>, MobStage.OVERGROWN_SKELETON),
-    <entitytype:monsterplus:spectral_skeleton>: new StagedMob(<entitytype:monsterplus:spectral_skeleton>, MobStage.SPECTRAL_SKELETON),
     <entitytype:monsterplus:swamp_zombie>: new StagedMob(<entitytype:monsterplus:swamp_zombie>, MobStage.SWAMP_ZOMBIE),
     <entitytype:moofluids:fluid_cow>: new StagedMob(<entitytype:moofluids:fluid_cow>, MobStage.FLUID_COW),
     <entitytype:sushigocrafting:shrimp>: new StagedMob(<entitytype:sushigocrafting:shrimp>, MobStage.SHRIMP),

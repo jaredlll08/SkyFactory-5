@@ -1207,3 +1207,14 @@ craftingTable.addShaped(
     [<item:minecraft:grass>, <item:minecraft:grass>, <item:minecraft:grass>]
   ]
 );
+
+// Minecraft Bell
+  craftingTable.addShaped(
+  "shaped_bell_recipe",
+  <item:minecraft:bell> ,
+  [
+    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
+    [<tag:items:forge:nuggets/gold>, <tag:items:forge:ingots/gold>, <tag:items:forge:nuggets/gold>],
+    [<tag:items:forge:ingots/gold>, <tag:items:forge:ingots/gold>, <tag:items:forge:ingots/gold>]
+  ]
+);

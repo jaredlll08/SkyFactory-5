@@ -102,3 +102,24 @@ craftingTable.addShaped(
 // StageHelper.grantStageOnAdvancement("minecraft:story/enter_the_nether", "advancement_example_one");
 
 // OnAdvancement, OnCraft, OnDimension, OnJoin, OnKill, and OnLevel
+
+
+
+// Script used to get entity health data
+// import crafttweaker.api.entity.Entity;
+// import crafttweaker.api.entity.LivingEntity;
+//
+// events.register<crafttweaker.forge.api.event.entity.living.LivingJumpEvent>(event => {
+//    var level = event.entity.level;
+//
+//    for entity in game.getEntityTypes() {
+//        var newEnt = entity.create(level);
+//        if newEnt is LivingEntity {
+//            var liv = newEnt as Entity as LivingEntity;
+//            println(entity.registryName as string);
+//            // println(liv.maxHealth);
+//            println(100 / liv.maxHealth);
+//        }
+//    }
+// });
+//

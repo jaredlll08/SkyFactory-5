@@ -7,7 +7,8 @@ public function getTierForColor(color: Color): int {
     color.getName() == ColorName.Blue ||
     color.getName() == ColorName.Brown ||
     color.getName() == ColorName.Red ||
-    color.getName() == ColorName.White
+    color.getName() == ColorName.White ||
+    color.getName() == ColorName.Yellow
   {
     return 2;
   }
