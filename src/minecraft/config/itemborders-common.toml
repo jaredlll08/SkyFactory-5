@@ -47,6 +47,7 @@ legendary_tooltips_sync = false
 #   Combining selectors - Any number of selectors can be combined by separating them with a plus sign.  Examples: "minecraft:diamond_sword+&Enchantments", "minecraft:stick+~!common+&Damage=0"
 [client.options.manual_borders]
 "#169c9d" = [
+  "obtrophies:trophy+&entity=ars_nouveau:drygmy",
   "obtrophies:trophy+&entity=earthmobsmod:fancy_chicken",
   "obtrophies:trophy+&entity=earthmobsmod:stray_bone_spider",
   "obtrophies:trophy+&entity=earthmobsmod:tropical_slime",
@@ -113,6 +114,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=veincreeper:green"
 ]
 "#80c71f" = [
+  "obtrophies:trophy+&entity=ars_nouveau:whirlisprig",
   "obtrophies:trophy+&entity=forcecraft:creeper_tot",
   "obtrophies:trophy+&entity=minecraft:creeper",
   "obtrophies:trophy+&entity=minecraft:slime",
@@ -161,6 +163,7 @@ legendary_tooltips_sync = false
   "obtrophies:trophy+&entity=vinery:wandering_winemaker"
 ]
 "#c64fbd" = [
+  "obtrophies:trophy+&entity=ars_nouveau:starbuncle",
   "obtrophies:trophy+&entity=monsterplus:crystal_zombie",
   "obtrophies:trophy+&entity=veincreeper:magenta"
 ]
