@@ -90,6 +90,28 @@
           }
         ]
       }
+    },
+    "mangrove_propagule": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:mangrove_propagule"]
+          }
+        ]
+      }
+    },
+    "poisonous_potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:poisonous_potato"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -100,7 +122,9 @@
       "turtle_helmet",
       "seagrass",
       "lime_essence",
-      "lime_essence_seeds"
+      "lime_essence_seeds",
+      "mangrove_propagule",
+      "poisonous_potato"
     ]
   ],
   "rewards": {

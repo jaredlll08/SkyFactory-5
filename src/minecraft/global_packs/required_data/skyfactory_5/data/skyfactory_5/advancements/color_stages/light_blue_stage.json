@@ -57,10 +57,63 @@
           }
         ]
       }
+    },
+    "elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:elytra"]
+          }
+        ]
+      }
+    },
+    "raw_tuna": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sushigocrafting:raw_tuna"]
+          }
+        ]
+      }
+    },
+    "certus_quartz_crystal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["ae2:certus_quartz_crystal"]
+          }
+        ]
+      }
+    },
+    "heart_of_the_sea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:heart_of_the_sea"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
-    ["clay_ball", "clay", "light_blue_essence", "light_blue_essence_seeds"]
+    [
+      "clay_ball",
+      "clay",
+      "light_blue_essence",
+      "light_blue_essence_seeds",
+      "elytra",
+      "raw_tuna",
+      "certus_quartz_crystal",
+      "heart_of_the_sea"
+    ]
   ],
   "rewards": {
     "function": "skyfactory_5:stages/light_blue_stage"

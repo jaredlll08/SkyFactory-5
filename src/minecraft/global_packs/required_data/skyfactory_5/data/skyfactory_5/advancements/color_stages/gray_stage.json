@@ -80,17 +80,6 @@
         ]
       }
     },
-    "phantom_membrane": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "player": [],
-        "items": [
-          {
-            "items": ["minecraft:phantom_membrane"]
-          }
-        ]
-      }
-    },
     "gray_essence_seeds": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -124,13 +113,57 @@
         ]
       }
     },
-    "smooth_stone": {
+    "silicon": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [
           {
-            "items": ["minecraft:smooth_stone"]
+            "items": ["ae2:silicon"]
+          }
+        ]
+      }
+    },
+    "mycelium_spores": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["exnihilosequentia:mycelium_spores"]
+          }
+        ]
+      }
+    },
+    "pile_of_gunpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["forcecraft:pile_of_gunpowder"]
+          }
+        ]
+      }
+    },
+    "claw": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["forcecraft:claw"]
+          }
+        ]
+      }
+    },
+    "graphite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["biggerreactors:graphite_ingot"]
           }
         ]
       }
@@ -144,11 +177,14 @@
       "gunpowder",
       "ash",
       "ghast_tear",
-      "phantom_membrane",
       "gray_essence",
       "gray_essence_seeds",
       "stone",
-      "smooth_stone"
+      "silicon",
+      "mycelium_spores",
+      "pile_of_gunpowder",
+      "claw",
+      "graphite_ingot"
     ]
   ],
   "rewards": {

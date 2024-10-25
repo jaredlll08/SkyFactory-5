@@ -112,6 +112,61 @@
           }
         ]
       }
+    },
+    "tomato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["thermal:tomato"]
+          }
+        ]
+      }
+    },
+    "fermented_spider_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:fermented_spider_eye"]
+          }
+        ]
+      }
+    },
+    "beetroot_soup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:beetroot_soup"]
+          }
+        ]
+      }
+    },
+    "nether_wart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:nether_wart"]
+          }
+        ]
+      }
+    },
+    "red_baubly_heart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["bhc:red_heart"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -124,7 +179,12 @@
       "sweet_berries",
       "poppy",
       "red_essence",
-      "red_essence_seeds"
+      "red_essence_seeds",
+      "tomato",
+      "fermented_spider_eye",
+      "beetroot_soup",
+      "nether_wart",
+      "red_baubly_heart"
     ]
   ],
   "rewards": {

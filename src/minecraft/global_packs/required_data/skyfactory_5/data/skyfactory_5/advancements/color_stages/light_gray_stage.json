@@ -145,6 +145,61 @@
           }
         ]
       }
+    },
+    "phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:phantom_membrane"]
+          }
+        ]
+      }
+    },
+    "smooth_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:smooth_stone"]
+          }
+        ]
+      }
+    },
+    "damaged_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:damaged_anvil"]
+          }
+        ]
+      }
+    },
+    "chipped_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:chipped_anvil"]
+          }
+        ]
+      }
+    },
+    "anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:anvil"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -160,7 +215,12 @@
       "light_gray_essence",
       "light_gray_essence_seeds",
       "andesite",
-      "ghast_tear"
+      "ghast_tear",
+      "phantom_membrane",
+      "smooth_stone",
+      "damaged_anvil",
+      "chipped_anvil",
+      "anvil"
     ]
   ],
   "rewards": {

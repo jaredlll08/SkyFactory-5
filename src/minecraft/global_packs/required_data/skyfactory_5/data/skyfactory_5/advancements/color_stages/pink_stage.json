@@ -145,6 +145,50 @@
           }
         ]
       }
+    },
+    "niter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["thermal:niter"]
+          }
+        ]
+      }
+    },
+    "fertilizer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["immersiveengineering:fertilizer"]
+          }
+        ]
+      }
+    },
+    "fish_fillet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["pizzacraft:fish_fillet"]
+          }
+        ]
+      }
+    },
+    "dragon_breath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:dragon_breath"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -160,7 +204,11 @@
       "cherry_log",
       "pink_essence",
       "pink_essence_seeds",
-      "goat_steak"
+      "goat_steak",
+      "niter",
+      "fertilizer",
+      "fish_fillet",
+      "dragon_breath"
     ]
   ],
   "rewards": {

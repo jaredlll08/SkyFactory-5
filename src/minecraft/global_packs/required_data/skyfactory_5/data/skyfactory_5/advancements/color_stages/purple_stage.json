@@ -277,6 +277,17 @@
           }
         ]
       }
+    },
+    "Eggplant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["thermal:eggplant"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -306,7 +317,8 @@
       "enchanted_item",
       "purple_essence",
       "purple_essence_seeds",
-      "enchanted_book"
+      "enchanted_book",
+      "Eggplant"
     ]
   ],
   "rewards": {

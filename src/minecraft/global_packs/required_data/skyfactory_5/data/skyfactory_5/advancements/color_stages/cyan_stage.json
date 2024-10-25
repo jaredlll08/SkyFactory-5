@@ -101,6 +101,182 @@
           }
         ]
       }
+    },
+    "pitcher_plant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:pitcher_plant"]
+          }
+        ]
+      }
+    },
+    "recovery_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:recovery_compass"]
+          }
+        ]
+      }
+    },
+    "sculk_catalyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:sculk_catalyst"]
+          }
+        ]
+      }
+    },
+    "glow_ink_sac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:glow_ink_sac"]
+          }
+        ]
+      }
+    },
+    "calibrated_sculk_sensor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:calibrated_sculk_sensor"]
+          }
+        ]
+      }
+    },
+    "sculk_sensor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:sculk_sensor"]
+          }
+        ]
+      }
+    },
+    "sculk_shrieker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:sculk_shrieker"]
+          }
+        ]
+      }
+    },
+    "sculk_vein": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:sculk_vein"]
+          }
+        ]
+      }
+    },
+    "sculk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:sculk"]
+          }
+        ]
+      }
+    },
+    "echo_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:echo_shard"]
+          }
+        ]
+      }
+    },
+    "prismarine_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:prismarine_bricks"]
+          }
+        ]
+      }
+    },
+    "prismarine_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:prismarine_brick_stairs"]
+          }
+        ]
+      }
+    },
+    "prismarine_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:prismarine_brick_slab"]
+          }
+        ]
+      }
+    },
+    "prismarine_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:prismarine_shard"]
+          }
+        ]
+      }
+    },
+    "prismarine_crystals": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:prismarine_crystals"]
+          }
+        ]
+      }
+    },
+    "sadiroot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["thermal:sadiroot"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -112,7 +288,23 @@
       "warped_wart_block",
       "ender_pearl",
       "cyan_essence",
-      "cyan_essence_seeds"
+      "cyan_essence_seeds",
+      "pitcher_plant",
+      "recovery_compass",
+      "sculk_catalyst",
+      "glow_ink_sac",
+      "calibrated_sculk_sensor",
+      "sculk_sensor",
+      "sculk_shrieker",
+      "sculk_vein",
+      "sculk",
+      "echo_shard",
+      "prismarine_bricks",
+      "prismarine_brick_stairs",
+      "prismarine_brick_slab",
+      "prismarine_shard",
+      "prismarine_crystals",
+      "sadiroot"
     ]
   ],
   "rewards": {

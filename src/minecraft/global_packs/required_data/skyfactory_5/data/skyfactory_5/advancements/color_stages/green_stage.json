@@ -176,6 +176,83 @@
           }
         ]
       }
+    },
+    "azalea": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:azalea"]
+          }
+        ]
+      }
+    },
+    "big_dripleaf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:big_dripleaf"]
+          }
+        ]
+      }
+    },
+    "fern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:fern"]
+          }
+        ]
+      }
+    },
+    "grass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:grass"]
+          }
+        ]
+      }
+    },
+    "sea_pickle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:sea_pickle"]
+          }
+        ]
+      }
+    },
+    "small_dripleaf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:small_dripleaf"]
+          }
+        ]
+      }
+    },
+    "tall_grass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:tall_grass"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -194,7 +271,14 @@
       "emerald",
       "green_essence",
       "green_essence_seeds",
-      "green_apple"
+      "green_apple",
+      "azalea",
+      "big_dripleaf",
+      "fern",
+      "grass",
+      "sea_pickle",
+      "small_dripleaf",
+      "tall_grass"
     ]
   ],
   "rewards": {

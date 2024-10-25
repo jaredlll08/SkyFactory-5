@@ -57,10 +57,111 @@
           }
         ]
       }
+    },
+    "ancient_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:ancient_debris"]
+          }
+        ]
+      }
+    },
+    "netherite_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:netherite_scrap"]
+          }
+        ]
+      }
+    },
+    "leather_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:leather_boots"]
+          }
+        ]
+      }
+    },
+    "saddle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:saddle"]
+          }
+        ]
+      }
+    },
+    "rabbit_foot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:rabbit_foot"]
+          }
+        ]
+      }
+    },
+    "rabbit_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:rabbit_hide"]
+          }
+        ]
+      }
+    },
+    "potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:potato"]
+          }
+        ]
+      }
+    },
+    "baked_potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:baked_potato"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
-    ["obtain_dirt", "obtain_leather", "brown_essence", "brown_essence_seeds"]
+    [
+      "obtain_dirt",
+      "obtain_leather",
+      "brown_essence",
+      "brown_essence_seeds",
+      "ancient_debris",
+      "netherite_scrap",
+      "leather_boots",
+      "saddle",
+      "rabbit_foot",
+      "rabbit_hide",
+      "potato",
+      "baked_potato"
+    ]
   ],
   "rewards": {
     "function": "skyfactory_5:stages/brown_stage"

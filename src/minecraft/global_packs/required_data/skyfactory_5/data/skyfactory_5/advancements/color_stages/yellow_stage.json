@@ -90,6 +90,28 @@
           }
         ]
       }
+    },
+    "sunflower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:sunflower"]
+          }
+        ]
+      }
+    },
+    "pineapple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["pizzacraft:pineapple"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -100,7 +122,9 @@
       "honey_block",
       "wheat",
       "yellow_essence",
-      "yellow_essence_seeds"
+      "yellow_essence_seeds",
+      "sunflower",
+      "pineapple"
     ]
   ],
   "rewards": {

@@ -68,6 +68,50 @@
           }
         ]
       }
+    },
+    "chalk_white": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["occultism:chalk_white"]
+          }
+        ]
+      }
+    },
+    "chalk_white_impure": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["occultism:chalk_white_impure"]
+          }
+        ]
+      }
+    },
+    "tallow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["occultism:tallow"]
+          }
+        ]
+      }
+    },
+    "rice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["thermal:rice"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -76,7 +120,11 @@
       "obtain_bone",
       "obtain_string",
       "white_essence",
-      "white_essence_seeds"
+      "white_essence_seeds",
+      "chalk_white",
+      "chalk_white_impure",
+      "tallow",
+      "rice"
     ]
   ],
   "rewards": {

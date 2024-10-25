@@ -122,6 +122,94 @@
           }
         ]
       }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:tropical_fish"]
+          }
+        ]
+      }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:pufferfish"]
+          }
+        ]
+      }
+    },
+    "glowstone_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:glowstone_dust"]
+          }
+        ]
+      }
+    },
+    "glowstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:glowstone"]
+          }
+        ]
+      }
+    },
+    "shroomlight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:shroomlight"]
+          }
+        ]
+      }
+    },
+    "glow_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:glow_berries"]
+          }
+        ]
+      }
+    },
+    "magma_cream": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:magma_cream"]
+          }
+        ]
+      }
+    },
+    "cookie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:cookie"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -135,7 +223,15 @@
       "orange_essence_seeds",
       "pumpkin_pie",
       "stand_in_fire",
-      "Use Flint and Steel"
+      "Use Flint and Steel",
+      "tropical_fish",
+      "pufferfish",
+      "glowstone_dust",
+      "glowstone",
+      "shroomlight",
+      "glow_berries",
+      "magma_cream",
+      "cookie"
     ]
   ],
   "rewards": {
