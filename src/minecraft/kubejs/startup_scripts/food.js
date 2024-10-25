@@ -75,6 +75,14 @@ const groupedItemsToModify = [
     alwaysEdible: false,
     onEaten: (e) => e.player.tell("ew"),
   },
+  {
+    ids: ["exnihilosequentia:silkworm"],
+    hunger: 0.5,
+    saturation: 0.25,
+    fastToEat: false,
+    alwaysEdible: true,
+    onEaten: (e) => e.player.tell("ew"),
+  },
 ];
 ItemEvents.modification((event) => {
   groupedItemsToModify.forEach((group) => {
