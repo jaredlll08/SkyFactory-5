@@ -1,0 +1,39 @@
+{
+  "listeners": [
+    {
+      "name": "Chat Triggers Quest",
+      "className": "RaidMeterEvent$Complete",
+      "isServerEvent": true,
+      "staticAccessors": [],
+      "accessors": [
+        {
+          "function": "getRaidMeter()",
+          "nextAccessors": [
+            {
+              "function": "getId()",
+              "argName": "raidmeter_id"
+            }
+          ]
+        }
+      ],
+      "argBasedAccessors": {},
+      "event": {
+        "conditions": [],
+        "outcomes": [
+          {
+            "command": "/say Testing Testing 1 2 3",
+            "executeAsSelf": true,
+            "type": "command",
+            "displayName": "Debug Text"
+          },
+          {
+            "command": "/function bossbar:bossbar/random_quest_selector",
+            "executeAsSelf": true,
+            "type": "command"
+          }
+        ],
+        "allowsOtherEventsToTrigger": true
+      }
+    }
+  ]
+}

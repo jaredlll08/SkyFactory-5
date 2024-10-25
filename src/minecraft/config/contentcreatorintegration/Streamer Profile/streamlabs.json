@@ -1,0 +1,487 @@
+{
+  "configs": [
+    {
+      "types": {
+        "follow": [
+          {
+            "conditions": [],
+            "outcomes": [],
+            "playTime": "20"
+          }
+        ],
+        "host": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just hosted you for up to $amount viewers!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "20"
+          }
+        ],
+        "raid": [
+          {
+            "conditions": [],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $user just raided you with $amount raiders!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ]
+      },
+      "queue": ["host+bits", "follow"],
+      "for": "twitch_account"
+    },
+    {
+      "types": {
+        "donation": [
+          {
+            "name": "Chat Message",
+            "conditions": [
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "message": "Hey $streamer, $viewername just tipped $formatted_amount!",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Add to Raidmeter",
+            "conditions": [
+              {
+                "calc": "x",
+                "value1": "$amount",
+                "value2": "100",
+                "variableName": "tipMathed",
+                "type": "math"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/raidmeter modify quest add $tipMathed",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1.00 Tip",
+            "conditions": [
+              {
+                "amount": 1.0,
+                "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Fake Crash Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1.25 Tip",
+            "conditions": [
+              {
+                "amount": 1.25,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Change Language Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "1.50 Tip",
+            "conditions": [
+              {
+                "amount": 1.5,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Push Player (Multiple)",
+                "type": "constant",
+                "displayName": "Push Player"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "2.00 Tip",
+            "conditions": [
+              {
+                "amount": 2.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Mount Player on Entity",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "4.00 Tip",
+            "conditions": [
+              {
+                "amount": 4.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Chance Cube Surround",
+                "type": "constant",
+                "weight": 10
+              },
+              {
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "events": [
+                          {
+                            "conditions": [],
+                            "outcomes": [
+                              {
+                                "name": "Countdown 5 (Random Color)",
+                                "type": "constant"
+                              }
+                            ],
+                            "allowsOtherEventsToTrigger": true
+                          },
+                          {
+                            "name": "Spawn Entities",
+                            "conditions": [],
+                            "outcomes": [
+                              {
+                                "times": "10",
+                                "outcome": {
+                                  "name": "Spawn Impostore",
+                                  "type": "constant"
+                                },
+                                "type": "repeat"
+                              }
+                            ],
+                            "singleOutcomeOnly": true,
+                            "delay": "120"
+                          }
+                        ],
+                        "type": "event"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true,
+                    "singleOutcomeOnly": true
+                  }
+                ],
+                "type": "event",
+                "weight": 1
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "5.00 Tip",
+            "conditions": [
+              {
+                "amount": 5.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Twitch Subscription (Value 500)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.65 Tip",
+            "conditions": [
+              {
+                "amount": 6.65,
+                "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "10",
+                "outcome": {
+                  "name": "Spawn Straw Golem",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.66 Tip",
+            "conditions": [
+              {
+                "amount": 6.66,
+                "type": "amount"
+              },
+              {
+                "name": "(Global) $viewername",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Adult Polar Bear (Angry)",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.67 Tip",
+            "conditions": [
+              {
+                "amount": 6.67,
+                "type": "amount"
+              },
+              {
+                "name": "Chat Color Full Array",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "events": [
+                  {
+                    "conditions": [],
+                    "outcomes": [
+                      {
+                        "name": "Spawn Ferrous Wroughtnaut",
+                        "type": "constant"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.68 Tip",
+            "conditions": [
+              {
+                "amount": 6.68,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Baby Bear Group",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "6.69 Tip",
+            "conditions": [
+              {
+                "amount": 6.69,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/summon strawgolem:strawnggolem ~ ~ ~ {CustomNameVisible:1b,CustomName: '{\"text\":\"$viwername\"}'}",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "singleOutcomeOnly": true
+          },
+          {
+            "name": "7.77 Tip",
+            "conditions": [
+              {
+                "amount": 7.77,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Random Horizontal Teleport",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "10.00 Tip",
+            "conditions": [
+              {
+                "amount": 10.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "(SwapThings) Inventory Bomb",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "15.00 Tip",
+            "conditions": [
+              {
+                "amount": 15.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Spawn Pillager Patrol",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "18.12 Tip",
+            "conditions": [
+              {
+                "amount": 18.12,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "5",
+                "outcome": {
+                  "name": "Spawn Creeper (Ignited)",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "21.81 Tip",
+            "conditions": [
+              {
+                "amount": 21.81,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "1812 Full Array",
+                "type": "constant"
+              },
+              {
+                "name": "Dirt Creeper Summon Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "25.00 Tip",
+            "conditions": [
+              {
+                "amount": 25.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Change Language Event Array",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "50.00 Tip",
+            "conditions": [
+              {
+                "amount": 50.0,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Countdown to Super Charged Creeper",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "181.20 Tip",
+            "conditions": [
+              {
+                "amount": 181.2,
+                "type": "amount"
+              }
+            ],
+            "outcomes": [
+              {
+                "times": "10",
+                "outcome": {
+                  "name": "Countdown to Super Charged Creeper",
+                  "type": "constant"
+                },
+                "type": "repeat"
+              },
+              {
+                "command": "/chancecubes spawnReward chancecubes:torches_to_creepers ~ ~ ~",
+                "executeAsSelf": true,
+                "type": "command"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ]
+      },
+      "queue": ["donation"],
+      "ignoredTypes": ["streamlabels", "streamlabels.underlying"]
+    }
+  ],
+  "init": [],
+  "type": "streamlabs"
+}

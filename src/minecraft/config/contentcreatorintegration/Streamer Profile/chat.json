@@ -1,0 +1,198 @@
+{
+  "configs": [
+    {
+      "types": {
+        "message": [
+          {
+            "name": "UUID Test",
+            "conditions": [
+              {
+                "username": "darkosto",
+                "type": "user"
+              },
+              {
+                "name": "target_player_name",
+                "type": "constant"
+              }
+            ],
+            "outcomes": [
+              {
+                "name": "Hex Test Outcome",
+                "type": "constant"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true,
+            "playTime": "-1"
+          },
+          {
+            "name": "Listen for Chat Name Colors",
+            "conditions": [],
+            "outcomes": [
+              {
+                "events": [
+                  {
+                    "conditions": [
+                      {
+                        "variableName": "$color",
+                        "variableResult": "stringLengthCompare",
+                        "type": "stringLength"
+                      },
+                      {
+                        "optionalVariableName": "stringLengthCompare",
+                        "amount": 0.0,
+                        "type": "amount"
+                      },
+                      {
+                        "noteName": "$name",
+                        "variableName": "IhaveToPutSomethingHereBecauseIChunSaidSo",
+                        "type": "note",
+                        "inverseMatch": true
+                      },
+                      {
+                        "name": "(Color) Choose Random Hex Color",
+                        "type": "constant"
+                      }
+                    ],
+                    "outcomes": [
+                      {
+                        "noteName": "$name",
+                        "noteContent": "$randomHexColor",
+                        "expiresIn": "24h",
+                        "type": "note"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event",
+                "displayName": "Checks for No Chat Color"
+              },
+              {
+                "events": [
+                  {
+                    "conditions": [
+                      {
+                        "variableName": "$color",
+                        "variableResult": "stringLengthCheck",
+                        "type": "stringLength"
+                      },
+                      {
+                        "optionalVariableName": "stringLengthCheck",
+                        "min": 1.0,
+                        "type": "range"
+                      }
+                    ],
+                    "outcomes": [
+                      {
+                        "noteName": "$name",
+                        "noteContent": "$color",
+                        "type": "note"
+                      }
+                    ],
+                    "allowsOtherEventsToTrigger": true
+                  }
+                ],
+                "type": "event",
+                "displayName": "Check for Viewer with Chat Name Color"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          },
+          {
+            "name": "Chat through luggage",
+            "conditions": [
+              {
+                "noteName": "BubbleTextUsername",
+                "variableName": "BubbleTextUsername",
+                "type": "note",
+                "displayName": "Checks notes for twitch chat username"
+              },
+              {
+                "username": "$BubbleTextUsername",
+                "type": "user",
+                "displayName": "Filters to only username who activated point redemption"
+              },
+              {
+                "source": "$message",
+                "separator": " ",
+                "result": "SplitMessage",
+                "type": "stringSplit",
+                "displayName": "Splits chat message"
+              },
+              {
+                "variableName": "SplitMessage",
+                "variableOutputName": "SplitMessageModified",
+                "type": "arrayExplode",
+                "displayName": "Explodes!"
+              },
+              {
+                "source": "$SplitMessageModified0",
+                "target": ":",
+                "replacement": " ",
+                "result": "ColonBlown",
+                "literal": true,
+                "type": "stringReplace",
+                "displayName": "ColonBlowtm"
+              },
+              {
+                "source": "$ColonBlown",
+                "result": "ColonPreTrim",
+                "type": "stringLower",
+                "displayName": "Blowing the Colon"
+              },
+              {
+                "source": "$ColonPreTrim",
+                "result": "SplitLowercase",
+                "type": "stringTrim",
+                "displayName": "Trims spaces from the string"
+              },
+              {
+                "variableName": "$SplitLowercase",
+                "variableResult": "SplitStringLength",
+                "type": "stringLength",
+                "displayName": "Checks string length"
+              },
+              {
+                "condition": {
+                  "optionalVariableName": "SplitStringLength",
+                  "max": 12.0,
+                  "type": "range"
+                },
+                "passCondition": {
+                  "variableName": "EmoteChat",
+                  "variableInput": ":$SplitLowercase:  ",
+                  "type": "variableInsert"
+                },
+                "failCondition": {
+                  "variableName": "EmoteChat",
+                  "variableInput": ":thonk: :thonk: :thonk: :thonk: :thonk:    ",
+                  "type": "variableInsert"
+                },
+                "type": "conditional"
+              }
+            ],
+            "outcomes": [
+              {
+                "command": "/bubbletext $BubbleTextUsername $EmoteChat",
+                "type": "command"
+              },
+              {
+                "message": "$BubbleTextUsername says: $EmoteChat",
+                "type": "chat"
+              }
+            ],
+            "allowsOtherEventsToTrigger": true
+          }
+        ]
+      },
+      "queue": ["Configuration: twitch"],
+      "for": "twitch"
+    },
+    {
+      "types": {},
+      "for": "youtube"
+    }
+  ],
+  "init": [],
+  "type": "chat"
+}

@@ -1,0 +1,92 @@
+{
+  "conditions": {
+    "(Global) $subbed_months": {
+      "condition": {
+        "variableName": "cumulative_months",
+        "type": "variableExists",
+        "displayName": "Cumulative Months Variable Check"
+      },
+      "passCondition": {
+        "variableName": "subbed_months",
+        "variableInput": "$cumulative_months",
+        "type": "variableInsert"
+      },
+      "failCondition": {
+        "variableName": "subbed_months",
+        "variableInput": "$amount",
+        "type": "variableInsert",
+        "displayName": "On Fail, use $amount"
+      },
+      "type": "conditional",
+      "displayName": "Checks if $cumulative_months Exists"
+    },
+    "(Global) $viewername": {
+      "condition": {
+        "variableName": "redemption_user_display_name",
+        "type": "variableExists",
+        "displayName": "Variable exists: $redemption_user_display_name"
+      },
+      "passCondition": {
+        "variableName": "viewername",
+        "variableInput": "$redemption_user_display_name",
+        "type": "variableInsert",
+        "displayName": "Inserts into variable: $redemption_user_display_name"
+      },
+      "failCondition": {
+        "condition": {
+          "variableName": "recipient_display_name",
+          "type": "variableExists",
+          "displayName": "Variable Exists: $recipient_display_name "
+        },
+        "passCondition": {
+          "variableName": "viewername",
+          "variableInput": "$recipient_display_name",
+          "type": "variableInsert",
+          "displayName": "Inserts into variable: $recipient_display_name"
+        },
+        "failCondition": {
+          "condition": {
+            "variableName": "display_name",
+            "type": "variableExists",
+            "displayName": "Variable Exists: $display_name"
+          },
+          "passCondition": {
+            "variableName": "viewername",
+            "variableInput": "$display_name",
+            "type": "variableInsert",
+            "displayName": "Inserts into variable: $display_name"
+          },
+          "failCondition": {
+            "condition": {
+              "variableName": "user_name",
+              "type": "variableExists",
+              "displayName": "Variable Exists: $user_name"
+            },
+            "passCondition": {
+              "variableName": "viewername",
+              "variableInput": "$user_name",
+              "type": "variableInsert",
+              "displayName": "Inserts into variable: $user_name"
+            },
+            "failCondition": {
+              "variableName": "viewername",
+              "variableInput": "$user",
+              "type": "variableInsert",
+              "displayName": "Inserts $user into Variable"
+            },
+            "type": "conditional",
+            "displayName": "Checks for $user_name"
+          },
+          "type": "conditional",
+          "displayName": "Checks for $display_name"
+        },
+        "type": "conditional",
+        "displayName": "Checks for $recipient_display_name"
+      },
+      "type": "conditional",
+      "displayName": "Checks for variables to insert into $viewername"
+    }
+  },
+  "outcomes": {},
+  "events": {}
+}
