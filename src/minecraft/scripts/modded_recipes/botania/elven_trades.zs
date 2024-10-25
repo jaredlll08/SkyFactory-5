@@ -33,4 +33,5 @@ BotaniaElvenTrade.addRecipe("red_to_dye_et", [<tag:items:skyfactory_5:colors/pro
 BotaniaElvenTrade.addRecipe("white_to_dye_et", [<tag:items:skyfactory_5:colors/processing_items/white>],[<item:minecraft:white_dye>, <item:minecraft:white_dye>]);
 // Yellow Processing Items to Dye
 BotaniaElvenTrade.addRecipe("yellow_to_dye_et", [<tag:items:skyfactory_5:colors/processing_items/yellow>],[<item:minecraft:yellow_dye>, <item:minecraft:yellow_dye>]);
-
+// Minecraft Bread to DarkToasto
+BotaniaElvenTrade.addRecipe("bread_to_toasto", [<item:minecraft:bread>],[<item:sf5_things:darktoasto>]);
