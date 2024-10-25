@@ -161,6 +161,7 @@ public function getGatewaysForColor(color: Color): string[] {
   if color.getName() == ColorName.Cyan {
     return [
       "gateways:normal/cyan_vein_creeper",
+      "gateways:normal/drygmy",
       "gateways:normal/fancy_chicken",
       "gateways:normal/glow_skeleton",
       "gateways:normal/glow_squid",
@@ -168,6 +169,7 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:normal/tropical_slime",
       "gateways:normal/warden",
       "gateways:titan/cyan_vein_creeper",
+      "gateways:titan/drygmy",
       "gateways:titan/fancy_chicken",
       "gateways:titan/glow_skeleton",
       "gateways:titan/glow_squid",
@@ -267,19 +269,23 @@ public function getGatewaysForColor(color: Color): string[] {
       "gateways:normal/lime_vein_creeper",
       "gateways:normal/slime",
       "gateways:normal/turtle",
+      "gateways:normal/whirlisprig",
       "gateways:titan/creeper",
       "gateways:titan/creeper_tot",
       "gateways:titan/lime_vein_creeper",
       "gateways:titan/slime",
-      "gateways:titan/turtle"
+      "gateways:titan/turtle",
+      "gateways:titan/whirlisprig"
     ];
   }
   if color.getName() == ColorName.Magenta {
     return [
       "gateways:normal/crystal_zombie",
       "gateways:normal/magenta_vein_creeper",
+      "gateways:normal/starbuncle",
       "gateways:titan/crystal_zombie",
-      "gateways:titan/magenta_vein_creeper"
+      "gateways:titan/magenta_vein_creeper",
+      "gateways:titan/starbuncle"
     ];
   }
   if color.getName() == ColorName.Orange {

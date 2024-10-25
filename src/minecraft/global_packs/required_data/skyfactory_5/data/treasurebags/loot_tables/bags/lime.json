@@ -112,6 +112,28 @@
               "tag": "{gateway:\"gateways:titan/lime_vein_creeper\"}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/whirlisprig\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/whirlisprig\"}"
+            }
+          ]
         }
       ]
     }

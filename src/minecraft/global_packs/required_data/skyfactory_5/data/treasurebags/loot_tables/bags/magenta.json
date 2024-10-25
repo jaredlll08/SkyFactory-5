@@ -57,6 +57,28 @@
               "tag": "{gateway:\"gateways:titan/magenta_vein_creeper\"}"
             }
           ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:normal/starbuncle\"}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "gateways:gate_pearl",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{gateway:\"gateways:titan/starbuncle\"}"
+            }
+          ]
         }
       ]
     }
