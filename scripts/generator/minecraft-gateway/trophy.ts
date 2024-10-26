@@ -13,7 +13,16 @@ const trophiesBasePath = path.resolve(
 export async function generateTrophies(data: MobData) {
   const files = await glob(`${trophiesBasePath}/*.json`);
 
-  await Promise.all(files.map((filePath) => unlink(filePath)));
+  await Promise.all(
+    files.map((filePath) => {
+      // Keep this custom file around to override its default behavior
+      if (filePath.endsWith("player.json")) {
+        return;
+      }
+
+      unlink(filePath);
+    }),
+  );
 
   await Promise.all(
     data.map((entry) => {
