@@ -16,6 +16,7 @@ import { generateHostileNeuralNetworkEntries } from "./hostile-neural-networks";
 import { generateInControlSpawnConfig } from "./incontrol-spawn";
 import { generateItemBordersConfig } from "./itemborders";
 import { generateLangFile } from "./lang";
+import { createLootModifierGenerators } from "./loot-modifiers";
 import { generateNormalGateways } from "./normal-gateway";
 import {
   generateMobStageEnum,
@@ -216,6 +217,7 @@ const generateUpdatedFilesAction: CustomActionFunction = async (
     generateItemBordersConfig,
     generateTreasureBagLootTables,
     generateHostileNeuralNetworkEntries,
+    ...createLootModifierGenerators(),
   ];
 
   const results = await Promise.allSettled(

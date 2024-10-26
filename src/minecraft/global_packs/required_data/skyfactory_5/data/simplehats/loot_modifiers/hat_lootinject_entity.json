@@ -1,8 +1,21 @@
 {
+  "type": "simplehats:hat_lootinject_entity",
   "conditions": [
     {
       "condition": "minecraft:any_of",
       "terms": [
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "ars_nouveau:entities/drygmy"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "ars_nouveau:entities/starbuncle"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "ars_nouveau:entities/whirlisprig"
+        },
         {
           "condition": "forge:loot_table_id",
           "loot_table_id": "colourfulgoats:entities/goat"
@@ -465,6 +478,10 @@
         },
         {
           "condition": "forge:loot_table_id",
+          "loot_table_id": "monsterplus:entities/crystal_zombie"
+        },
+        {
+          "condition": "forge:loot_table_id",
           "loot_table_id": "monsterplus:entities/glow_skeleton"
         },
         {
@@ -537,6 +554,10 @@
         },
         {
           "condition": "forge:loot_table_id",
+          "loot_table_id": "veincreeper:entities/magenta"
+        },
+        {
+          "condition": "forge:loot_table_id",
           "loot_table_id": "veincreeper:entities/orange"
         },
         {
@@ -570,26 +591,6 @@
         {
           "condition": "forge:loot_table_id",
           "loot_table_id": "waddles:entities/adelie_penguin"
-        },
-        {
-          "condition": "forge:loot_table_id",
-          "loot_table_id": "monsterplus:entities/crystal_zombie"
-        },
-        {
-          "condition": "forge:loot_table_id",
-          "loot_table_id": "veincreeper:entities/magenta"
-        },
-        {
-          "condition": "forge:loot_table_id",
-          "loot_table_id": "ars_nouveau:entities/whirlisprig"
-        },
-        {
-          "condition": "forge:loot_table_id",
-          "loot_table_id": "ars_nouveau:entities/starbuncle"
-        },
-        {
-          "condition": "forge:loot_table_id",
-          "loot_table_id": "ars_nouveau:entities/drygmy"
         }
       ],
       "conditions": [
@@ -598,6 +599,5 @@
         }
       ]
     }
-  ],
-  "type": "simplehats:hat_lootinject_entity"
+  ]
 }
