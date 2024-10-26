@@ -144,3 +144,13 @@ for stack, color in COLOR_MAP {
             sl.server.executeCommand("colorfulskies color @s cloud clear", player, true);
             }
 });
+
+
+
+OnEat.register(<item:minecraft:potion>, (player) => {
+    val level = player.level;
+    val pos = player.blockPosition.below();
+    if level.getBlockState(pos).block == <block:minecraft:snow_block> {
+        level.setBlockAndUpdate(pos, <blockstate:yellow_snow:yellow_snow>);
+    }
+});
