@@ -64,37 +64,37 @@
       ],
       "excludes": [
         {
-          "recipe": "crafttweaker:light_gray_dye_combo"
+          "recipe": "recipestages:light_gray_dye_combo"
         },
         {
-          "recipe": "crafttweaker:light_gray_dye_combo2"
+          "recipe": "recipestages:light_gray_dye_combo2"
         },
         {
-          "recipe": "crafttweaker:gray_dye_combo"
+          "recipe": "recipestages:gray_dye_combo"
         },
         {
-          "recipe": "crafttweaker:orange_dye_combo"
+          "recipe": "recipestages:orange_dye_combo"
         },
         {
-          "recipe": "crafttweaker:purple_dye_combo"
+          "recipe": "recipestages:purple_dye_combo"
         },
         {
-          "recipe": "crafttweaker:magenta_dye_combo"
+          "recipe": "recipestages:magenta_dye_combo"
         },
         {
-          "recipe": "crafttweaker:lime_dye_combo"
+          "recipe": "recipestages:lime_dye_combo"
         },
         {
-          "recipe": "crafttweaker:pink_dye_combo"
+          "recipe": "recipestages:pink_dye_combo"
         },
         {
-          "recipe": "crafttweaker:cyan_dye_combo"
+          "recipe": "recipestages:cyan_dye_combo"
         },
         {
-          "recipe": "crafttweaker:light_blue_dye_combo"
+          "recipe": "recipestages:light_blue_dye_combo"
         },
         {
-          "recipe": "crafttweaker:green_dye_combo"
+          "recipe": "recipestages:green_dye_combo"
         }
       ],
       "priority": 99998
