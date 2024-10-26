@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "obtrophies:trophy",
-      "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:player\"}}"
+      "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:zombie\"}}"
     },
     "title": "Oops! All Trophies!",
     "description": {
