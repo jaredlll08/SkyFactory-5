@@ -397,7 +397,11 @@ val items as IItemStack[] = [
   <item:earthmobsmod:bone_shard>,
   <item:cyclic:netherite_nugget>,
 
-  <item:colouredstuff:crafting_table_rainbow>
+  <item:colouredstuff:crafting_table_rainbow>,
+
+  <item:thermal:basalz_powder>,
+  <item:thermal:basalz_rod>
+
 
 
 ];

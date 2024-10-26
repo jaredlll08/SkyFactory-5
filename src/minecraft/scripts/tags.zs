@@ -333,8 +333,9 @@ val itemsToRemove as IItemStack[] = [
   <item:createsifter:custom_mesh>,
   <item:createsifter:advanced_custom_mesh>,
 
-  <item:earthmobsmod:bone_shard>
-
+  <item:earthmobsmod:bone_shard>,
+  <item:thermal:basalz_powder>,
+  <item:thermal:basalz_rod>
 
 
 ];

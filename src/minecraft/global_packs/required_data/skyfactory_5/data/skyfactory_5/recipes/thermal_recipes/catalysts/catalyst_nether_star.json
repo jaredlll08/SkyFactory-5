@@ -3,8 +3,8 @@
   "ingredient": {
     "item": "minecraft:nether_star"
   },
-  "primary_mod": 25.0,
-  "secondary_mod": 6.66,
+  "primary_mod": 15.0,
+  "secondary_mod": 3.33,
   "energy_mod": 4.0,
   "min_chance": 0.33,
   "use_chance": 0.99
