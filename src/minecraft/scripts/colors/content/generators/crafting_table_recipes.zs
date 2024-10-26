@@ -4,15 +4,13 @@ ContentBuilder.factory
   .addRecipeGenerator("_apple_to_dye", (baseName, args) => {
     val apple = args.getItem(ColoredItem.Apple);
     val dye = args.getItem(ColoredItem.Dye);
-    val stage = getStageForColor(args.color);
     val air = args.getItem(ColoredItem.Dye);
 
-    if apple == null || dye == null || stage == null {
+    if apple == null || dye == null {
       return;
     }
 
-    mods.recipestages.Recipes.addShapeless(
-      stage,
+    craftingTable.addShapeless(
       args.color.getResourceName() + baseName,
       dye,
       [apple]
