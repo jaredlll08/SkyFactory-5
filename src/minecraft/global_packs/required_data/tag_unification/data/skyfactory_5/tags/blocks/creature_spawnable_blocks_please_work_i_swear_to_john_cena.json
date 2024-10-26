@@ -1,14 +1,4 @@
 {
-  "values": [
-    "minecraft:grass_block",
-    "#minecraft:planks",
-    "#minecraft:slabs",
-    "#minecraft:logs",
-    "#minecraft:dirt",
-    "#forge:sand",
-    "#forge:cobblestone",
-    "#skyfactory_5:concrete_blocks",
-    "minecraft:obsidian",
-    "minecraft:end_stone"
-  ]
+  "replace": true,
+  "values": ["#skyfactory_5:spawn_block_unification"]
 }
