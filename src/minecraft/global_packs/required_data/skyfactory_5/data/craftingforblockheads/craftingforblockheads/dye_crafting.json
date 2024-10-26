@@ -62,6 +62,41 @@
           "item": "sf5_things:rgb_dye"
         }
       ],
+      "excludes": [
+        {
+          "recipe": "crafttweaker:light_gray_dye_combo"
+        },
+        {
+          "recipe": "crafttweaker:light_gray_dye_combo2"
+        },
+        {
+          "recipe": "crafttweaker:gray_dye_combo"
+        },
+        {
+          "recipe": "crafttweaker:orange_dye_combo"
+        },
+        {
+          "recipe": "crafttweaker:purple_dye_combo"
+        },
+        {
+          "recipe": "crafttweaker:magenta_dye_combo"
+        },
+        {
+          "recipe": "crafttweaker:lime_dye_combo"
+        },
+        {
+          "recipe": "crafttweaker:pink_dye_combo"
+        },
+        {
+          "recipe": "crafttweaker:cyan_dye_combo"
+        },
+        {
+          "recipe": "crafttweaker:light_blue_dye_combo"
+        },
+        {
+          "recipe": "crafttweaker:green_dye_combo"
+        }
+      ],
       "priority": 99998
     }
   }

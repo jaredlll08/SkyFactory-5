@@ -123,8 +123,7 @@ mods.recipestages.Recipes.addShapeless(
 );
 
 // Bonemeal from Dye
-mods.recipestages.Recipes.addShapeless(
-  Stage.White,
+craftingTable.addShapeless(
   "bonemeal_from_dye",
   <item:minecraft:bone_meal> * 2,
   [<item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
