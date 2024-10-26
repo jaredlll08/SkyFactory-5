@@ -1,0 +1,211 @@
+{
+  "display": {
+    "icon": {
+      "item": "gateways:gate_pearl",
+      "nbt": "{gateway:\"gateways:challenge/challenge_red\"}"
+    },
+    "title": "Challenge Gateways",
+    "description": {
+      "translate": "need_to_do.do_this"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:tracking_advancements/root",
+  "criteria": {
+    "Black Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_black\"}"
+          }
+        ]
+      }
+    },
+    "Blue Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_blue\"}"
+          }
+        ]
+      }
+    },
+    "Brown Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_brown\"}"
+          }
+        ]
+      }
+    },
+    "Cyan Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_cyan\"}"
+          }
+        ]
+      }
+    },
+    "Gray Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_gray\"}"
+          }
+        ]
+      }
+    },
+    "Green Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_green\"}"
+          }
+        ]
+      }
+    },
+    "Light_Blue Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_light_blue\"}"
+          }
+        ]
+      }
+    },
+    "Light_Gray Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_light_gray\"}"
+          }
+        ]
+      }
+    },
+    "Lime Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_lime\"}"
+          }
+        ]
+      }
+    },
+    "Magenta Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_magenta\"}"
+          }
+        ]
+      }
+    },
+    "Orange Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_orange\"}"
+          }
+        ]
+      }
+    },
+    "Pink Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_pink\"}"
+          }
+        ]
+      }
+    },
+    "Purple Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_purple\"}"
+          }
+        ]
+      }
+    },
+    "Red Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_red\"}"
+          }
+        ]
+      }
+    },
+    "White Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_white\"}"
+          }
+        ]
+      }
+    },
+    "Yellow Challenge Gateway": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:challenge/challenge_yellow\"}"
+          }
+        ]
+      }
+    }
+  }
+}

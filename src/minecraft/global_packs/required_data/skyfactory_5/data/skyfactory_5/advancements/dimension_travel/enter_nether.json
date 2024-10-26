@@ -14,7 +14,7 @@
     "announce_to_chat": false,
     "hidden": true
   },
-  "parent": "skyfactory_5:color_stages/root",
+  "parent": "skyfactory_5:dimension_travel/root",
   "criteria": {
     "entered_nether": {
       "trigger": "minecraft:changed_dimension",

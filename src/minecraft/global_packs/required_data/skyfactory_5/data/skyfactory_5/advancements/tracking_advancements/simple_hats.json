@@ -5,14 +5,14 @@
     },
     "title": "Simple hats",
     "description": {
-      "translate": "skyfactory_5.advancement.pink.stage"
+      "translate": "need_to_do.do_this"
     },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:color_stages/root",
+  "parent": "skyfactory_5:tracking_advancements/root",
   "criteria": {
     "Babyturtle": {
       "trigger": "minecraft:inventory_changed",
