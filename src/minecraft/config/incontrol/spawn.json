@@ -11,7 +11,7 @@
   {
     "passive": true,
     "mincount": {
-      "amount": 4,
+      "amount": 7,
       "passive": true,
       "perchunk": true
     },
