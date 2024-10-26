@@ -61,6 +61,7 @@ mods.recipestages.Recipes.addShapeless(
 // Magenta Dye Combination
 // Will need to remember to go back and readd all the flowers to dye recipes
 craftingTable.removeByName("minecraft:magenta_dye_from_blue_red_pink");
+craftingTable.removeByName("minecraft:magenta_dye_from_purple_and_pink");
 craftingTable.removeByName("minecraft:magenta_dye_from_blue_red_white_dye");
 
 mods.recipestages.Recipes.addShapeless(
