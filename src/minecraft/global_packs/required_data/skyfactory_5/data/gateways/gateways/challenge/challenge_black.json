@@ -17,6 +17,12 @@
       "modifiers": [
         {
           "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 1.25
+        },
+        {
+          "type": "gateways:attribute",
           "attribute": "generic.max_health",
           "operation": "multiply_total",
           "value": 12.5
@@ -31,7 +37,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 10.0
         },
         {
           "type": "gateways:attribute",
@@ -71,7 +77,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.5
         },
         {
           "type": "gateways:attribute",
@@ -112,7 +118,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 3.0
         },
         {
           "type": "gateways:attribute",
@@ -153,7 +159,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.5
         },
         {
           "type": "gateways:attribute",
@@ -194,7 +200,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 3.5
         },
         {
           "type": "gateways:attribute",
@@ -235,7 +241,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
@@ -262,6 +268,12 @@
       "modifiers": [
         {
           "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 1.25
+        },
+        {
+          "type": "gateways:attribute",
           "attribute": "generic.max_health",
           "operation": "multiply_total",
           "value": 10.0
@@ -276,7 +288,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
@@ -317,13 +329,13 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
           "attribute": "generic.knockback_resistance",
           "operation": "addition",
-          "value": 0.05
+          "value": 0.75
         }
       ],
       "rewards": [],
@@ -358,7 +370,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 7.5
         },
         {
           "type": "gateways:attribute",
@@ -399,19 +411,19 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 3
+          "value": 5
         },
         {
           "type": "gateways:attribute",
           "attribute": "generic.knockback_resistance",
           "operation": "addition",
-          "value": 0.12
+          "value": 1.0
         },
         {
           "type": "gateways:attribute",
           "attribute": "generic.movement_speed",
           "operation": "multiply_total",
-          "value": 0.18
+          "value": 0.22
         }
       ],
       "rewards": [],
@@ -489,7 +501,7 @@
   ],
   "failures": [],
   "rules": {
-    "allow_discarding": true,
+    "allow_discarding": false,
     "player_damage_only": true,
     "fail_on_out_of_bounds": true,
     "leash_range": 32,

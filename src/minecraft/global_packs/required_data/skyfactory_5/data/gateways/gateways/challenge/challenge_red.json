@@ -17,6 +17,12 @@
       "modifiers": [
         {
           "type": "gateways:attribute",
+          "attribute": "attributeslib:arrow_damage",
+          "operation": "multiply_total",
+          "value": 2.5
+        },
+        {
+          "type": "gateways:attribute",
           "attribute": "generic.max_health",
           "operation": "multiply_total",
           "value": 16.666666
@@ -31,7 +37,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
@@ -57,6 +63,12 @@
       "modifiers": [
         {
           "type": "gateways:attribute",
+          "attribute": "attributeslib:arrow_damage",
+          "operation": "multiply_total",
+          "value": 2.5
+        },
+        {
+          "type": "gateways:attribute",
           "attribute": "generic.max_health",
           "operation": "multiply_total",
           "value": 33.333332
@@ -71,7 +83,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
@@ -112,7 +124,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
@@ -139,6 +151,12 @@
       "modifiers": [
         {
           "type": "gateways:attribute",
+          "attribute": "attributeslib:arrow_damage",
+          "operation": "multiply_total",
+          "value": 2.5
+        },
+        {
+          "type": "gateways:attribute",
           "attribute": "generic.max_health",
           "operation": "multiply_total",
           "value": 5.0
@@ -153,7 +171,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
@@ -180,6 +198,12 @@
       "modifiers": [
         {
           "type": "gateways:attribute",
+          "attribute": "attributeslib:arrow_damage",
+          "operation": "multiply_total",
+          "value": 2.5
+        },
+        {
+          "type": "gateways:attribute",
           "attribute": "generic.max_health",
           "operation": "multiply_total",
           "value": 25.0
@@ -194,7 +218,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
@@ -235,7 +259,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
@@ -264,7 +288,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.max_health",
           "operation": "multiply_total",
-          "value": 5.0
+          "value": 50.0
         },
         {
           "type": "gateways:attribute",
@@ -276,7 +300,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
@@ -317,7 +341,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 2.3
+          "value": 5.0
         },
         {
           "type": "gateways:attribute",
@@ -358,19 +382,19 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 3
+          "value": 5
         },
         {
           "type": "gateways:attribute",
           "attribute": "generic.knockback_resistance",
           "operation": "addition",
-          "value": 0.12
+          "value": 1.0
         },
         {
           "type": "gateways:attribute",
           "attribute": "generic.movement_speed",
           "operation": "multiply_total",
-          "value": 0.18
+          "value": 0.22
         }
       ],
       "rewards": [],
@@ -442,7 +466,7 @@
   ],
   "failures": [],
   "rules": {
-    "allow_discarding": true,
+    "allow_discarding": false,
     "player_damage_only": true,
     "fail_on_out_of_bounds": true,
     "leash_range": 32,
