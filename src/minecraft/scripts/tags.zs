@@ -335,8 +335,9 @@ val itemsToRemove as IItemStack[] = [
 
   <item:earthmobsmod:bone_shard>,
   <item:thermal:basalz_powder>,
-  <item:thermal:basalz_rod>
-
+  <item:thermal:basalz_rod>,
+  <item:cyclic:chorus_flight>,
+  <item:cyclic:chorus_spectral>
 
 ];
 

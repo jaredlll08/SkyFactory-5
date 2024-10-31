@@ -1218,3 +1218,56 @@ craftingTable.addShaped(
     [<tag:items:forge:ingots/gold>, <tag:items:forge:ingots/gold>, <tag:items:forge:ingots/gold>]
   ]
 );
+
+// Turtle Egg
+  craftingTable.addShaped(
+  "turtle_egg_from_egg_and_dye",
+  <item:minecraft:turtle_egg>,
+  [
+    [<item:minecraft:air>, <tag:items:forge:dyes/green>, <item:minecraft:air>],
+    [<tag:items:forge:dyes/green>, <item:minecraft:egg>, <tag:items:forge:dyes/green>],
+    [<item:minecraft:air>, <tag:items:forge:dyes/green>, <item:minecraft:air>]
+  ]
+);
+
+// Baubly Heart Canisters
+  craftingTable.addShaped(
+  "bhc_yellow_heart",
+  <item:bhc:yellow_heart>,
+  [
+    [<item:bhc:red_heart>, <item:bhc:red_heart>, <item:bhc:red_heart>],
+    [<item:bhc:red_heart>, <item:bhc:red_heart>, <item:bhc:red_heart>],
+    [<item:bhc:red_heart>, <item:bhc:red_heart>, <item:bhc:red_heart>]
+  ]
+);
+
+  craftingTable.addShaped(
+  "bhc_green_heart",
+  <item:bhc:green_heart>,
+  [
+    [<item:bhc:yellow_heart>, <item:bhc:yellow_heart>, <item:bhc:yellow_heart>],
+    [<item:bhc:yellow_heart>, <item:bhc:yellow_heart>, <item:bhc:yellow_heart>],
+    [<item:bhc:yellow_heart>, <item:bhc:yellow_heart>, <item:bhc:yellow_heart>]
+  ]
+);
+
+  craftingTable.addShaped(
+  "bhc_blue_heart",
+  <item:bhc:blue_heart>,
+  [
+    [<item:bhc:green_heart>, <item:bhc:green_heart>, <item:bhc:green_heart>],
+    [<item:bhc:green_heart>, <item:bhc:green_heart>, <item:bhc:green_heart>],
+    [<item:bhc:green_heart>, <item:bhc:green_heart>, <item:bhc:green_heart>]
+  ]
+);
+
+// Grass Recipe
+  craftingTable.addShaped(
+  "dye_and_sticks_to_grass",
+  <item:minecraft:grass> * 4,
+  [
+    [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>],
+    [<item:minecraft:stick>, <tag:items:forge:dyes/green>, <item:minecraft:stick>],
+    [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>]
+  ]
+);

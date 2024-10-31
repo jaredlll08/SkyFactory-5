@@ -1,17 +1,9 @@
 // Removes vanilla Crafting Table and Chest recipes so
 // we can implement the color versions
-
 craftingTable.removeByName("minecraft:chest");
 
 // NEED TO FIND RECIPE NAME FOR VANILLA CRAFTING TABLE RECIPE AND ADD
 // craftingTable.removeByName("minecraft:crafting_table");
-
-// Porcelain Clay Recipe
-craftingTable.addShapeless(
-  "porcelain_clay_shapeless",
-  <item:exnihilosequentia:porcelain_clay>,
-  [<item:minecraft:clay_ball>, <item:minecraft:bone_meal>]
-);
 
 import crafttweaker.api.item.IItemStack;
 
@@ -138,9 +130,12 @@ val items as IItemStack[] = [
 <item:cyclic:apple_sprout_diamond>,
 <item:cyclic:apple_sprout_emerald>,
 
-  // Cyclic hearts
+  // Cyclic
 <item:cyclic:heart>,
 <item:cyclic:heart_empty>,
+<item:cyclic:chorus_flight>,
+<item:cyclic:chorus_spectral>,
+
 
 
 // Mystical Agriculture
@@ -400,8 +395,16 @@ val items as IItemStack[] = [
   <item:colouredstuff:crafting_table_rainbow>,
 
   <item:thermal:basalz_powder>,
-  <item:thermal:basalz_rod>
+  <item:thermal:basalz_rod>,
 
+  <item:bhc:red_heart_melted>,
+  <item:bhc:yellow_heart_melted>,
+  <item:bhc:green_heart_melted>,
+  <item:bhc:blue_heart_melted>,
+  <item:bhc:red_heart>,
+  <item:bhc:yellow_heart>,
+  <item:bhc:green_heart>,
+  <item:bhc:blue_heart>
 
 
 ];
@@ -410,7 +413,18 @@ for item in items {
   craftingTable.remove(item);
 }
 
+// Furnace / Smelting Recipe Removals
 furnace.remove(<item:thermal:cured_rubber>);
+furnace.remove(<item:bhc:red_heart_melted>);
+furnace.remove(<item:bhc:yellow_heart_melted>);
+furnace.remove(<item:bhc:green_heart_melted>);
+furnace.remove(<item:bhc:blue_heart_melted>);
+
+// Furnace Remove by Name
+furnace.removeByInput(<item:bhc:red_heart_melted>);
+furnace.removeByInput(<item:bhc:yellow_heart_melted>);
+furnace.removeByInput(<item:bhc:green_heart_melted>);
+furnace.removeByInput(<item:bhc:blue_heart_melted>);
 
 // Removes Ex Nihilo Pebble Recipes
 craftingTable.removeByName("minecraft:ens_andesite");
@@ -430,4 +444,3 @@ craftingTable.removeByName("minecraft:ens_tuff");
 // Cluttered mod
 craftingTable.removeByName("luphieclutteredmod:luphie_purple_plank_set_stick_recipe");
 craftingTable.removeByName("luphieclutteredmod:luphie_glow_wood_set_stick_recipe");
-

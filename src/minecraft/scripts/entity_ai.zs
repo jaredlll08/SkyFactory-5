@@ -4,9 +4,9 @@ import mods.angrymobs.AITweaks;
 // Villagers and Wandering Traders need to be given a lower speed
 // due to 1.0F making them, uniquely way too fast
 AITweaks.addMeleeAttackTweak(<entitytype:minecraft:giant>, 1, 1.0F, 1.0D, false);
-AITweaks.addMeleeAttackTweak(<entitytype:minecraft:villager>, 1, 0.5F, 1.0D, false);
-AITweaks.addMeleeAttackTweak(<entitytype:minecraft:wandering_trader>, 1, 0.5F, 1.0D, false);
-AITweaks.addMeleeAttackTweak(<entitytype:vinery:wandering_winemaker>, 1, 0.5F, 1.0D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:minecraft:villager>, 1, 0.5F, 4.5D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:minecraft:wandering_trader>, 1, 0.5F, 4.5D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:vinery:wandering_winemaker>, 1, 0.5F, 4.5D, false);
 
 
 AITweaks.addLeapTweak(<entitytype:minecraft:villager>, 2, 0.3F);
@@ -14,15 +14,16 @@ AITweaks.addLeapTweak(<entitytype:minecraft:wandering_trader>, 2, 0.3F);
 AITweaks.addLeapTweak(<entitytype:vinery:wandering_winemaker>, 2, 0.3F);
 
 // Melee
-AITweaks.addMeleeAttackTweak(<entitytype:vinery:mule>, 1, 1.0F, 1.0D, false);
-AITweaks.addMeleeAttackTweak(<entitytype:colourfulllamas:llama>, 1, 1.0F, 1.0D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:vinery:mule>, 1, 1.0F, 4.5D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:colourfulllamas:llama>, 1, 1.0F, 4.5D, false);
 AITweaks.addMeleeAttackTweak(<entitytype:minecraft:sniffer>, 1, 1.0F, 21.0D, false);
 AITweaks.addMeleeAttackTweak(<entitytype:minecraft:parrot>, 1, 4.5F, 3.5D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:waddles:adelie_penguin>, 1, 1.0F, 16.0D, false);
 AITweaks.addLeapTweak(<entitytype:vinery:mule>, 2, 0.3F);
 AITweaks.addLeapTweak(<entitytype:colourfulllamas:llama>, 2, 0.3F);
 AITweaks.addLeapTweak(<entitytype:minecraft:sniffer>, 2, 0.2F);
 AITweaks.addLeapTweak(<entitytype:minecraft:parrot>, 2, 0.3F);
-
+AITweaks.addLeapTweak(<entitytype:waddles:adelie_penguin>, 2, 0.3F);
 
 
 // Ranged Entities
@@ -109,5 +110,5 @@ for mob in Globals.stagedMobs {
     continue;
   }
   AITweaks.addLeapTweak(mob, 2, 0.3F);
-  AITweaks.addMeleeAttackTweak(mob, 1, 1.0F, 3.0D, false);
+  AITweaks.addMeleeAttackTweak(mob, 1, 1.0F, 4.5D, false);
 }

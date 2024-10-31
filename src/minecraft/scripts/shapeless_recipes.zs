@@ -258,3 +258,10 @@
     <item:pizzacraft:fish_fillet> * 2,
     [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <tag:items:forge:foods/fish/raw>]
   );
+
+// Porcelain Clay Recipe
+craftingTable.addShapeless(
+  "porcelain_clay_shapeless",
+  <item:exnihilosequentia:porcelain_clay>,
+  [<item:minecraft:clay_ball>, <item:minecraft:bone_meal>]
+);
