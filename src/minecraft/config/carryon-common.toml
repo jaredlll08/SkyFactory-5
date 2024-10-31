@@ -368,7 +368,9 @@ forbiddenEntities = [
   "securitycraft:*",
   "taterzens:npc",
   "easy_npc:*",
-  "bodiesbodies:dead_body"
+  "bodiesbodies:dead_body",
+  "luggage:luggage",
+  "luggage:ender_luggage"
 ]
 # Entities that cannot have other entities stacked on top of them
 forbiddenStacking = ["minecraft:horse"]
