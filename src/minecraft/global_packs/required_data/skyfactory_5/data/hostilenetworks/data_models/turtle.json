@@ -22,6 +22,10 @@
     {
       "item": "minecraft:seagrass",
       "count": 16
+    },
+    {
+      "item": "minecraft:turtle_egg",
+      "count": 4
     }
   ],
   "tier_data": [12, 60, 360, 1260],
