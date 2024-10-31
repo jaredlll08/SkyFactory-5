@@ -170,7 +170,7 @@
       "waddles:adelie_penguin"
     ],
     "spawner": true,
-    "result": "allow"
+    "result": "deny"
   },
   {
     "mob": "ars_nouveau:drygmy",
