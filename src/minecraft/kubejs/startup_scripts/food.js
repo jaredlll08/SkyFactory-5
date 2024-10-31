@@ -60,7 +60,7 @@ const groupedItemsToModify = [
     onEaten: (e) => e.player.tell("you ate"),
   },
   {
-    ids: ["sf5_things:block_of_blue_cheese"],
+    ids: ["sf5_things:block_of_blooming_onion"],
     hunger: 7,
     saturation: 4,
     fastToEat: false,
@@ -81,6 +81,22 @@ const groupedItemsToModify = [
     saturation: 0.25,
     fastToEat: false,
     alwaysEdible: true,
+    onEaten: (e) => e.player.tell("ew"),
+  },
+  {
+    ids: ["cyclic:chorus_flight"],
+    hunger: 0.0,
+    saturation: 0.0,
+    fastToEat: false,
+    alwaysEdible: false,
+    onEaten: (e) => e.player.tell("ew"),
+  },
+  {
+    ids: ["cyclic:chorus_spectral"],
+    hunger: 0.0,
+    saturation: 0.0,
+    fastToEat: false,
+    alwaysEdible: false,
     onEaten: (e) => e.player.tell("ew"),
   },
 ];
