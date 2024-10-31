@@ -69,7 +69,7 @@ Produce 100k RF/t
 Produce 1 million RF/t
 ===
 #§1--==§0Age of Entities§1==--
-Herd all 16 Colorful Villagers
+Herd all 16 Colorful Villagers (Villager Trades will automatically cycle after a short duration of time)
 Obtain all 147 trophies
 Find and pickup a Mob Spawner
 Change a Mob Spawner by Right Clicking on it with a Trophy
