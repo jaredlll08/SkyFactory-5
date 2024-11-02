@@ -7,6 +7,7 @@ import path from "path";
 import { writeJSONFile } from "scripts/utils/file";
 import { mapColorNameToHex } from "scripts/utils/minecraft-colors";
 import { MobData } from "./data-manager";
+import { GatewayOverrides } from "./types";
 import { BaseEntity, getDyeFromColor } from "./utils";
 
 type CreateGatewayFn = (
@@ -14,6 +15,7 @@ type CreateGatewayFn = (
   baseEntity: BaseEntity,
   color: string,
   dye: string,
+  overrides: GatewayOverrides,
 ) => object;
 
 export function generateGatewayGenerator<T extends CreateGatewayFn>(
@@ -60,6 +62,7 @@ export function generateGatewayGenerator<T extends CreateGatewayFn>(
           },
           colorHex,
           dye,
+          entry.gatewayOverrides || {},
         );
 
         return writeJSONFile(

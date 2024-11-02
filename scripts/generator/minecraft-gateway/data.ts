@@ -4,6 +4,7 @@ import { InControlSpawn } from "schemas/minecraft/incontrol/spawn";
 import { OpenBlocksTrophiesTrophy } from "schemas/minecraft/obtrophies/trophy";
 import { ColorName } from "scripts/utils/minecraft-colors";
 import { GatewayType } from "./constants";
+import { GatewayOverrides } from "./types";
 
 interface MobDataBase {
   /** The ID of the mob. */
@@ -38,6 +39,8 @@ interface MobDataAll extends MobDataBase {
   gatewayTypes: GatewayType[];
   /** NBT to apply to the mob in addition to the defaults. */
   additionalGatewayMobNBT?: TagObject;
+  /** Overrides to apply to the gateway generators */
+  gatewayOverrides?: GatewayOverrides;
   /** Additional data to apply to the generated trophy file. */
   trophyData?: Omit<OpenBlocksTrophiesTrophy, "entity">;
   /** Override the default weight value for the mob's gateway drops in the trophy bag loot table. */
@@ -551,6 +554,10 @@ export const mobData: MobData[] = [
     trophyData: {
       scale: 0.4,
     },
+    gatewayOverrides: {
+      spacing: 256,
+      spawnCount: 1,
+    },
   },
   {
     spawnOnly: false,
@@ -734,6 +741,10 @@ export const mobData: MobData[] = [
     maxLightLevel: 7,
     neuralNetworkOverrides: {
       gui_scale: 0.75,
+    },
+    gatewayOverrides: {
+      spacing: 256,
+      spawnCount: 1,
     },
   },
   {
@@ -1205,6 +1216,10 @@ export const mobData: MobData[] = [
     },
     neuralNetworkOverrides: {
       gui_scale: 0.25,
+    },
+    gatewayOverrides: {
+      spacing: 256,
+      spawnCount: 1,
     },
   },
   {
@@ -2334,6 +2349,10 @@ export const mobData: MobData[] = [
       offset: 0,
       scale: 0.75,
     },
+    gatewayOverrides: {
+      spacing: 256,
+      spawnCount: 1,
+    },
   },
   {
     spawnOnly: false,
@@ -2405,6 +2424,10 @@ export const mobData: MobData[] = [
       drop_chance: 0.0075,
       offset: -0.2,
       scale: 0.75,
+    },
+    gatewayOverrides: {
+      spacing: 256,
+      spawnCount: 1,
     },
   },
   {

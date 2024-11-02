@@ -8,6 +8,7 @@ import {
 } from "schemas/minecraft/gateways/gateways-v2";
 import { GatewayType } from "./constants";
 import { generateGatewayGenerator } from "./gateway-utils";
+import { GatewayOverrides } from "./types";
 import { BaseEntity, cleanEntityNBT } from "./utils";
 
 const gatewayBasePath = path.resolve(
@@ -22,10 +23,11 @@ export function createStandardTitanGateway(
   baseEntity: BaseEntity,
   color: string,
   dye: string,
+  overrides: GatewayOverrides,
 ): EndlessGateway {
   const waveEntity: GatewayWaveEntity = cleanEntityNBT({
     type: "gateways:standard",
-    count: 4,
+    count: overrides.spawnCount ?? 4,
     entity: baseEntity.entity,
     nbt: baseEntity.nbt,
     desc: baseEntity.desc,
@@ -114,7 +116,7 @@ export function createStandardTitanGateway(
     ],
     rules: {
       leash_range: 32,
-      spacing: 32,
+      spacing: overrides.spacing ?? 32,
       spawn_range: 2,
     },
     boss_event: {
