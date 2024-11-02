@@ -547,7 +547,7 @@ export const mobData: MobData[] = [
     color: ColorName.Black,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
-    maxLightLevel: 7,
+    maxLightLevel: 15,
     trophyData: {
       scale: 0.4,
     },
