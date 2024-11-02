@@ -9,7 +9,7 @@
   "gui_z_offset": 0,
   "sim_cost": 51200,
   "input": {
-    "item": "hostilenetworks:prediction_matrix"
+    "item": "minecraft:end_crystal"
   },
   "base_drop": {
     "item": "minecraft:black_dye",
@@ -27,6 +27,10 @@
     },
     {
       "item": "minecraft:dragon_egg",
+      "count": 1
+    },
+    {
+      "item": "draconicevolution:dragon_heart",
       "count": 1
     }
   ],
