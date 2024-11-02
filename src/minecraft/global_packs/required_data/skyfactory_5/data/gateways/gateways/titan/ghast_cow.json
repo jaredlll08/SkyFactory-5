@@ -7,7 +7,7 @@
     "entities": [
       {
         "type": "gateways:standard",
-        "count": 4,
+        "count": 1,
         "entity": "ghastcow:ghast_cow",
         "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:reach\":{scale:0.05f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
       }
@@ -164,8 +164,8 @@
     }
   ],
   "rules": {
-    "leash_range": 32,
-    "spacing": 32,
+    "leash_range": 256,
+    "spacing": 256,
     "spawn_range": 2
   },
   "boss_event": {

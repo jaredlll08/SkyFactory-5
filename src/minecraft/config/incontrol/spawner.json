@@ -23,13 +23,17 @@
   {
     "mob": ["minecraft:ender_dragon"],
     "persecond": 1,
-    "attempts": 5,
+    "attempts": 2,
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
     "conditions": {
-      "dimension": ["minecraft:the_end"],
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
       "inwater": false,
       "mindist": 24,
       "maxdist": 96,

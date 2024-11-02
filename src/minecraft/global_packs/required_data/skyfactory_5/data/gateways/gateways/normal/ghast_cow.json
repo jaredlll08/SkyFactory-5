@@ -19,7 +19,7 @@
       "entities": [
         {
           "type": "gateways:standard",
-          "count": 4,
+          "count": 1,
           "entity": "ghastcow:ghast_cow",
           "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
         }
@@ -44,7 +44,7 @@
       "entities": [
         {
           "type": "gateways:standard",
-          "count": 4,
+          "count": 1,
           "entity": "ghastcow:ghast_cow",
           "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
         }
@@ -101,7 +101,7 @@
       "entities": [
         {
           "type": "gateways:standard",
-          "count": 4,
+          "count": 1,
           "entity": "ghastcow:ghast_cow",
           "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},DeathLootTable:\"skyfactory_5:gateway_entities\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
         }
@@ -172,8 +172,8 @@
     }
   ],
   "rules": {
-    "leash_range": 32,
-    "spacing": 32,
+    "leash_range": 256,
+    "spacing": 256,
     "spawn_range": 2
   },
   "boss_event": {
