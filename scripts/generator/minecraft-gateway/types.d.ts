@@ -3,4 +3,6 @@ export interface GatewayOverrides {
   spawnCount?: number;
   /** Overrides the spacing rule for gateways */
   spacing?: number;
+  /** Overrides the leash range rule for gateways */
+  leashRange?: number;
 }

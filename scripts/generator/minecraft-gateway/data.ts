@@ -555,6 +555,7 @@ export const mobData: MobData[] = [
       scale: 0.4,
     },
     gatewayOverrides: {
+      leashRange: 256,
       spacing: 256,
       spawnCount: 1,
     },
@@ -743,6 +744,7 @@ export const mobData: MobData[] = [
       gui_scale: 0.75,
     },
     gatewayOverrides: {
+      leashRange: 256,
       spacing: 256,
       spawnCount: 1,
     },
@@ -1218,6 +1220,7 @@ export const mobData: MobData[] = [
       gui_scale: 0.25,
     },
     gatewayOverrides: {
+      leashRange: 256,
       spacing: 256,
       spawnCount: 1,
     },
@@ -2350,6 +2353,7 @@ export const mobData: MobData[] = [
       scale: 0.75,
     },
     gatewayOverrides: {
+      leashRange: 256,
       spacing: 256,
       spawnCount: 1,
     },
@@ -2426,6 +2430,7 @@ export const mobData: MobData[] = [
       scale: 0.75,
     },
     gatewayOverrides: {
+      leashRange: 256,
       spacing: 256,
       spawnCount: 1,
     },

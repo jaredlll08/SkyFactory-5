@@ -208,7 +208,7 @@ export function createStandardNormalGateway(
       },
     ],
     rules: {
-      leash_range: 32,
+      leash_range: overrides.leashRange ?? 32,
       spacing: overrides.spacing ?? 32,
       spawn_range: 2,
     },
