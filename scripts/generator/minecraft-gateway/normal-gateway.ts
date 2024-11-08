@@ -249,13 +249,16 @@ export function createStandardNormalGateway(
         ? (parseNBT(waveEntity.nbt) as TagObject)
         : (parseNBT(JSON.stringify(waveEntity.nbt)) as TagObject)
       : {};
+
     const appendedEntityNBT: TagObject = parseNBT(
       wave.appendedEntityNBT,
     ) as TagObject;
 
-    Object.entries(appendedEntityNBT).forEach(
-      ([key, val]) => (newNBT[key] = val),
-    );
+    Object.entries(appendedEntityNBT).forEach(([key, val]) => {
+      if (key === "pehkui:scale_data_types" && !overrides.preventScaling) {
+        newNBT[key] = val;
+      }
+    });
 
     newData.waves[wave.waveIndex].entities[0] = {
       ...newData.waves[wave.waveIndex].entities[0],

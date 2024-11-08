@@ -5,4 +5,6 @@ export interface GatewayOverrides {
   spacing?: number;
   /** Overrides the leash range rule for gateways */
   leashRange?: number;
+  /** Prevents the generator from applying scaling modifiers on the entity */
+  preventScaling?: boolean;
 }
