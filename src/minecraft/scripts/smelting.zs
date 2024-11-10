@@ -27,3 +27,16 @@ furnace.addRecipe(
   0.15,
   100
 );
+
+// Flux Networks Flux Dust
+furnace.addRecipe(
+  "redstone_to_flux_dust",
+  <item:fluxnetworks:flux_dust>,
+  <item:minecraft:redstone>,
+  0.15,
+  100
+);
+
+
+// Makes items burnable
+<item:minecraft:black_dye>.burnTime = 400;

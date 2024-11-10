@@ -265,3 +265,67 @@ craftingTable.addShapeless(
   <item:exnihilosequentia:porcelain_clay>,
   [<item:minecraft:clay_ball>, <item:minecraft:bone_meal>]
 );
+
+// Adds missing Immersive Engineering Hammer Ingot to Plate recipes
+// Tin
+craftingTable.addShapeless(
+  "tin_ingot_to_plate_hammer",
+  <item:thermal:tin_plate>,
+  [<item:immersiveengineering:hammer>, <item:thermal:tin_ingot>]
+);
+
+// Rose Gold
+craftingTable.addShapeless(
+  "rose_gold_ingot_to_plate_hammer",
+  <item:thermal:rose_gold_plate>,
+  [<item:immersiveengineering:hammer>, <item:thermal:rose_gold_ingot>]
+);
+
+// Invar
+craftingTable.addShapeless(
+  "invar_ingot_to_plate_hammer",
+  <item:thermal:invar_plate>,
+  [<item:immersiveengineering:hammer>, <item:thermal:invar_ingot>]
+);
+
+// Lumium
+craftingTable.addShapeless(
+  "lumium_ingot_to_plate_hammer",
+  <item:thermal:lumium_plate>,
+  [<item:immersiveengineering:hammer>, <item:thermal:lumium_ingot>]
+);
+
+// Netherite
+craftingTable.addShapeless(
+  "netherite_ingot_to_plate_hammer",
+  <item:thermal:netherite_plate>,
+  [<item:immersiveengineering:hammer>, <item:minecraft:netherite_ingot>]
+);
+
+// Bronze
+craftingTable.addShapeless(
+  "bronze_ingot_to_plate_hammer",
+  <item:thermal:bronze_plate>,
+  [<item:immersiveengineering:hammer>, <item:silentgear:bronze_ingot>]
+);
+
+// Signalum
+craftingTable.addShapeless(
+  "signalum_ingot_to_plate_hammer",
+  <item:thermal:signalum_plate>,
+  [<item:immersiveengineering:hammer>, <item:thermal:signalum_ingot>]
+);
+
+// Enderium
+craftingTable.addShapeless(
+  "enderium_ingot_to_plate_hammer",
+  <item:thermal:enderium_plate>,
+  [<item:immersiveengineering:hammer>, <item:thermal:enderium_ingot>]
+);
+
+// Brass
+craftingTable.addShapeless(
+  "brass_ingot_to_plate_hammer",
+  <item:create:brass_sheet>,
+  [<item:immersiveengineering:hammer>, <item:create:brass_ingot>]
+);

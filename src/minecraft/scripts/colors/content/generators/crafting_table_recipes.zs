@@ -242,6 +242,30 @@ ContentBuilder.factory
       ]
     );
   })
+
+
+  .addRecipeGenerator("_limited_barrel_shaped3", (baseName, args) => {
+    val barrel = args.getItem(ColoredItem.LimitedStorageBarrel3);
+    val plankItem = args.getItem(ColoredItem.Plank);
+    val slabItem = args.getItem(ColoredItem.PlankSlab);
+
+    if barrel == null || plankItem == null || slabItem == null {
+      return;
+    }
+
+    craftingTable.addShaped(
+      args.color.getResourceName() + baseName,
+      barrel,
+      [
+        [plankItem, slabItem, plankItem],
+        [plankItem, <item:minecraft:air>, plankItem],
+        [slabItem, plankItem, slabItem],
+      ]
+    );
+  })
+
+
+
   .addRecipeGenerator("_limited_barrel_shaped4", (baseName, args) => {
     val barrel = args.getItem(ColoredItem.LimitedStorageBarrel4);
     val plankItem = args.getItem(ColoredItem.Plank);

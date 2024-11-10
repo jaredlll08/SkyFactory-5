@@ -315,3 +315,15 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/magenta>
   ]
 ).addRecipes();
+
+// Force Gem
+new MaterialCraftingRecipe(
+  "force_gem_from_dye",
+  <item:forcecraft:force_gem> * 1,
+  [
+    <tag:items:forge:dyes/white>,
+    <tag:items:forge:dyes/yellow>,
+    <tag:items:forge:dyes/yellow>,
+    <tag:items:forge:dyes/yellow>
+  ]
+).addRecipes();

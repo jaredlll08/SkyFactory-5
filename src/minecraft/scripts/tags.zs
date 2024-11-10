@@ -337,7 +337,14 @@ val itemsToRemove as IItemStack[] = [
   <item:thermal:basalz_powder>,
   <item:thermal:basalz_rod>,
   <item:cyclic:chorus_flight>,
-  <item:cyclic:chorus_spectral>
+  <item:cyclic:chorus_spectral>,
+
+  // Mystical Agriculture
+  <item:mysticalagriculture:soulium_block>,
+  <item:mysticalagriculture:soulium_essence>,
+  <item:mysticalagriculture:soulium_seeds>,
+
+
 
 ];
 
@@ -417,3 +424,8 @@ for item in itemsToRemove {
 // Using this as a test for goat spawns not working on this block normally
 <tagmanager:blocks>.addId(<tag:blocks:minecraft:dirt>, <resource:colouredstuff:dirt_none>);
 
+
+// Adding every block to the dragon immune tag
+for block in game.blocks {
+  <tag:blocks:minecraft:dragon_immune>.add(block);
+}
