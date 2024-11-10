@@ -8,6 +8,6 @@
     "item": "silentgear:bracelet"
   },
   "template": {
-    "item": "silentgear:%1%_blueprint"
+    "item": "silentgear:bracelet_blueprint"
   }
 }
