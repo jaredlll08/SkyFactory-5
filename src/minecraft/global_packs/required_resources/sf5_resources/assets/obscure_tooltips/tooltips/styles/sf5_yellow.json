@@ -126,7 +126,11 @@
       "supplementaries:trapped_present_yellow",
       "tinted_torches:yellow_torch",
       "minecraft:sunflower",
-      "pizzacraft:pineapple"
+      "pizzacraft:pineapple",
+      "thermal:barley",
+      "thermal:corn",
+      "thermal:peanut",
+      "thermal:cheese_wedge"
     ]
   }
 }

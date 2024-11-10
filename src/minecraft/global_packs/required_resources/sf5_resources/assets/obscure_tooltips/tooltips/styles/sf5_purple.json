@@ -84,7 +84,12 @@
       "chipped:paved_purple_glazed_terracotta",
       "chipped:shrunken_purple_glazed_terracotta",
       "chipped:starry_purple_glazed_terracotta",
-      "chipped:waved_purple_glazed_terracotta"
+      "chipped:waved_purple_glazed_terracotta",
+      "thermal:eggplant",
+      "vinery:jungle_grapes_red",
+      "vinery:taiga_grapes_red",
+      "vinery:savanna_grapes_red",
+      "vinery:red_grape"
     ]
   }
 }

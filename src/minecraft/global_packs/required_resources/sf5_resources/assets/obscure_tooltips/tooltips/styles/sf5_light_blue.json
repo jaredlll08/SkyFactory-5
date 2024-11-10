@@ -85,7 +85,8 @@
       "minecraft:elytra",
       "sushigocrafting:raw_tuna",
       "ae2:certus_quartz_crystal",
-      "minecraft:heart_of_the_sea"
+      "minecraft:heart_of_the_sea",
+      "thermal:frost_melon_slice"
     ]
   }
 }

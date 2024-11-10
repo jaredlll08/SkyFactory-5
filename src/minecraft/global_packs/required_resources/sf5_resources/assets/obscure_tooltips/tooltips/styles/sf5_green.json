@@ -111,7 +111,12 @@
       "minecraft:grass",
       "minecraft:sea_pickle",
       "minecraft:small_dripleaf",
-      "minecraft:tall_grass"
+      "minecraft:tall_grass",
+      "thermal:spinach",
+      "thermal:green_bean",
+      "thermal:flax",
+      "thermal:hops",
+      "thermal:tea"
     ]
   }
 }

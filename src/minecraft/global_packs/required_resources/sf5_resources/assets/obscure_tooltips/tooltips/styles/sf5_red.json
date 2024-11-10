@@ -101,10 +101,7 @@
       "supplementaries:trapped_present_red",
       "tinted_torches:red_torch",
       "tintedcampfires:red_campfire",
-      "minecraft:fermented_spider_eye",
-      "minecraft:beetroot_soup",
       "minecraft:nether_wart",
-      "minecraft:sweet_berries",
       "chipped:dark_dotted_red_mushroom_block",
       "chipped:dark_dusted_red_mushroom_block",
       "chipped:dark_freckled_red_mushroom_block",
@@ -164,7 +161,15 @@
       "chipped:railed_red_concrete",
       "chipped:reinforced_red_concrete",
       "chipped:rusted_red_concrete",
-      "chipped:warning_red_concrete"
+      "chipped:warning_red_concrete",
+      "vinery:cherry",
+      "vinery:rotten_cherry",
+      "thermal:strawberry",
+      "thermal:amaranth",
+      "thermal:radish",
+      "thermal:bell_pepper",
+      "thermal:tomato",
+      "thermal:coffee"
     ]
   }
 }
