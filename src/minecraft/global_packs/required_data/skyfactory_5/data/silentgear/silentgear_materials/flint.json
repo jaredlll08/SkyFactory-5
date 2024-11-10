@@ -43,13 +43,13 @@
   "traits": {
     "main": [
       {
-        "name": "silentgear:jagged",
+        "name": "silentgear:mighty",
         "level": 3
       }
     ],
     "rod": [
       {
-        "name": "silentgear:jagged",
+        "name": "silentgear:mighty",
         "level": 2
       }
     ]

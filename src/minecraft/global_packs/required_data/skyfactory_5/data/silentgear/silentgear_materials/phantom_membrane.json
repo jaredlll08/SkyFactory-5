@@ -47,7 +47,7 @@
   "traits": {
     "main": [
       {
-        "name": "silentgear:renew",
+        "name": "silentgear:silky",
         "level": 2,
         "conditions": [
           {
@@ -67,10 +67,6 @@
       {
         "name": "silentgear:light",
         "level": 2
-      },
-      {
-        "name": "silentgear:flexible",
-        "level": 3
       }
     ]
   },

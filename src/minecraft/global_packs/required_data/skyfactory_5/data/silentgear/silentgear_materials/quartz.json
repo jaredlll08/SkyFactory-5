@@ -74,23 +74,19 @@
   "traits": {
     "main": [
       {
-        "name": "silentgear:crushing",
+        "name": "silentgear:fireproof",
         "level": 3
-      },
-      {
-        "name": "silentgear:jagged",
-        "level": 2
       }
     ],
     "rod": [
       {
-        "name": "silentgear:brittle",
+        "name": "silentgear:fireproof",
         "level": 3
       }
     ],
     "tip": [
       {
-        "name": "silentgear:jagged",
+        "name": "silentgear:fireproof",
         "level": 3
       }
     ],

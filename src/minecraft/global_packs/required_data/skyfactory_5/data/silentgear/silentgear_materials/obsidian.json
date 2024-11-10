@@ -50,11 +50,11 @@
   "traits": {
     "main": [
       {
-        "name": "silentgear:jagged",
+        "name": "silentgear:heavy",
         "level": 3
       },
       {
-        "name": "silentgear:crushing",
+        "name": "silentgear:flame_ward",
         "level": 2
       }
     ],
