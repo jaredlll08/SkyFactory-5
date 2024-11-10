@@ -55,41 +55,15 @@ burn_time = 2400
 # Changes require a restart!
 [nerfedItems]
 # Enable this feature. If false, the other settings in this category are ignored.
-enabled = true
+enabled = false
 # Multiplies max durability by this value. If the result would be zero, a value of 1 is assigned.
 # Range: 0.0 ~ 1.0
-durabilityMultiplier = 0.05
+durabilityMultiplier = 1.0
 # Multiplies harvest speed by this value.
 # Range: 0.0 ~ 1.0
 harvestSpeedMultiplier = 0.5
 # These items will have reduced durability
-items = [
-  "diamond_axe",
-  "iron_axe",
-  "golden_axe",
-  "stone_axe",
-  "wooden_axe",
-  "diamond_hoe",
-  "iron_hoe",
-  "golden_hoe",
-  "stone_hoe",
-  "wooden_hoe",
-  "diamond_pickaxe",
-  "iron_pickaxe",
-  "golden_pickaxe",
-  "stone_pickaxe",
-  "wooden_pickaxe",
-  "diamond_shovel",
-  "iron_shovel",
-  "golden_shovel",
-  "stone_shovel",
-  "wooden_shovel",
-  "diamond_sword",
-  "iron_sword",
-  "golden_sword",
-  "stone_sword",
-  "wooden_sword"
-]
+items = []
 
 # Settings for sinew drops
 [sinew]

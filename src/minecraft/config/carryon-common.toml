@@ -342,7 +342,15 @@ forbiddenTiles = [
   "twilightforest:moonworm",
   "vc:*",
   "weirdinggadget:*",
-  "xnet:netcable:*"
+  "xnet:netcable:*",
+  "sophisticatedbackpacks:backpack",
+  "sophisticatedbackpacks:copper_backpack",
+  "sophisticatedbackpacks:iron_backpack",
+  "sophisticatedbackpacks:gold_backpack",
+  "sophisticatedbackpacks:diamond_backpack",
+  "sophisticatedbackpacks:netherite_backpack",
+  "wormhole:*",
+  "biggerreactors:*"
 ]
 # Entities that cannot be picked up
 forbiddenEntities = [
@@ -369,8 +377,7 @@ forbiddenEntities = [
   "taterzens:npc",
   "easy_npc:*",
   "bodiesbodies:dead_body",
-  "luggage:luggage",
-  "luggage:ender_luggage"
+  "luggage:*"
 ]
 # Entities that cannot have other entities stacked on top of them
 forbiddenStacking = ["minecraft:horse"]

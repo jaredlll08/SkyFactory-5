@@ -1,25 +1,5 @@
 [
   {
-    "type": "admin",
-    "key": "cheater",
-    "rarity": "common",
-    "create": 0,
-    "maintain": 0,
-    "ticks": 0,
-    "worldgen": false,
-    "dimlet": true
-  },
-  {
-    "type": "admin",
-    "key": "owner",
-    "rarity": "common",
-    "create": 0,
-    "maintain": 0,
-    "ticks": 0,
-    "worldgen": false,
-    "dimlet": true
-  },
-  {
     "type": "digit",
     "key": "0",
     "rarity": "common",
@@ -342,19 +322,6 @@
   },
   {
     "type": "attribute",
-    "key": "cities",
-    "rarity": "uncommon",
-    "create": 50,
-    "maintain": 50,
-    "ticks": 50,
-    "worldgen": true,
-    "dimlet": true,
-    "essence": {
-      "item": "minecraft:bricks"
-    }
-  },
-  {
-    "type": "attribute",
     "key": "nooceans",
     "rarity": "common",
     "create": 10,
@@ -408,7 +375,7 @@
   {
     "type": "terrain",
     "key": "cavern",
-    "rarity": "rare",
+    "rarity": "uncommon",
     "create": 10,
     "maintain": 10,
     "ticks": 10,
@@ -421,7 +388,7 @@
   {
     "type": "terrain",
     "key": "chaotic",
-    "rarity": "rare",
+    "rarity": "uncommon",
     "create": 10,
     "maintain": 10,
     "ticks": 10,
@@ -460,7 +427,7 @@
   {
     "type": "terrain",
     "key": "islands",
-    "rarity": "rare",
+    "rarity": "uncommon",
     "create": 5000,
     "maintain": 10,
     "ticks": 10,
@@ -473,7 +440,7 @@
   {
     "type": "terrain",
     "key": "flat",
-    "rarity": "rare",
+    "rarity": "uncommon",
     "create": 5000,
     "maintain": 100,
     "ticks": 20,
@@ -486,7 +453,7 @@
   {
     "type": "terrain",
     "key": "waves",
-    "rarity": "rare",
+    "rarity": "uncommon",
     "create": 5000,
     "maintain": 10,
     "ticks": 20,
@@ -499,7 +466,7 @@
   {
     "type": "terrain",
     "key": "maze",
-    "rarity": "rare",
+    "rarity": "uncommon",
     "create": 5000,
     "maintain": 100,
     "ticks": 20,
@@ -512,7 +479,7 @@
   {
     "type": "terrain",
     "key": "ravine",
-    "rarity": "rare",
+    "rarity": "uncommon",
     "create": 5000,
     "maintain": 10,
     "ticks": 20,
@@ -525,7 +492,7 @@
   {
     "type": "terrain",
     "key": "normal",
-    "rarity": "rare",
+    "rarity": "uncommon",
     "create": 5000,
     "maintain": 10,
     "ticks": 10,

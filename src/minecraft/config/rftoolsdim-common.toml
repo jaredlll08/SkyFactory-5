@@ -1,9 +1,9 @@
 # Maximum health of the common blob
 # Range: > 0
-commonBlobMaxHealth = 30
+commonBlobMaxHealth = 50
 # Maximum health of the rare blob
 # Range: > 0
-rareBlobMaxHealth = 250
+rareBlobMaxHealth = 500
 # Maximum health of the legendary blob
 # Range: > 0
-legendaryBlobMaxHealth = 5000
+legendaryBlobMaxHealth = 1500

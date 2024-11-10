@@ -24,7 +24,7 @@ rfFormat = "COMPACT"
 # Format for displaying tank contents
 tankFormat = "COMPACT"
 # If true show debug info with creative probe
-showDebugInfo = true
+showDebugInfo = false
 # If true equal stacks will be compacted in the chest contents overlay
 compactEqualStacks = true
 # Color for the RF bar

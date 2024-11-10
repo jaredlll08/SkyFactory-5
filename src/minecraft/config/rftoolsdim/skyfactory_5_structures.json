@@ -74,5 +74,15 @@
     "ticks": 100,
     "worldgen": true,
     "dimlet": true
+  },
+  {
+    "type": "structure",
+    "key": "minecraft:pillager_outpost",
+    "rarity": "uncommon",
+    "create": 2500,
+    "maintain": 500,
+    "ticks": 100,
+    "worldgen": true,
+    "dimlet": true
   }
 ]

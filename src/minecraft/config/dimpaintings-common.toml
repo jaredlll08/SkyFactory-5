@@ -6,7 +6,7 @@ overworldToBed = false
 # [For a vanilla nether it's recommended to keep the value between 10 and 120
 # [51 = Spawn in a bubble at Y 50 if nothing] (Default: 120)
 # Range: -2048 ~ 2048
-netherMaxY = 51
+netherMaxY = 72
 # Amount of seconds between being able to teleport (Default: 4)
 # Range: > 0
 teleportCooldown = 4
