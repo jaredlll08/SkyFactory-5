@@ -8,6 +8,51 @@
   },
   "post": [
     {
+      "type": "execute",
+      "command": "particle dust_color_transition 0.114 0.110 0.129 2 0.0 0.0 0.0 ~ ~ ~ 0.000 .5 0 0.0005 30 normal",
+      "hide": true
+    },
+    {
+      "type": "delay",
+      "s": "2"
+    },
+    {
+      "type": "execute",
+      "command": "particle dust_color_transition 0.114 0.110 0.129 2 0.0 0.0 0.0 ~ ~ ~ 0.000 .5 0 0.0005 30 normal",
+      "hide": true
+    },
+    {
+      "type": "delay",
+      "s": "2"
+    },
+    {
+      "type": "execute",
+      "command": "particle dust_color_transition 0.114 0.110 0.129 2 0.0 0.0 0.0 ~ ~ ~ 0.000 .5 0 0.0005 30 normal",
+      "hide": true
+    },
+    {
+      "type": "delay",
+      "s": "2"
+    },
+    {
+      "type": "execute",
+      "command": "particle dust_color_transition 0.114 0.110 0.129 2 0.0 0.0 0.0 ~ ~ ~ 0.000 .5 0 0.0005 30 normal",
+      "hide": true
+    },
+    {
+      "type": "delay",
+      "s": "2"
+    },
+    {
+      "type": "execute",
+      "command": "particle dust_color_transition 0.114 0.110 0.129 2 0.0 0.0 0.0 ~ ~ ~ 0.000 .5 0 0.0005 30 normal",
+      "hide": true
+    },
+    {
+      "type": "delay",
+      "s": "2"
+    },
+    {
       "type": "place",
       "block": "thermal:crude_oil_fluid"
     }

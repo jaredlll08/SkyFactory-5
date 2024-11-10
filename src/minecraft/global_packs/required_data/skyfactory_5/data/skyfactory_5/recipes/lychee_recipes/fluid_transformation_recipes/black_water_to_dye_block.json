@@ -1,21 +1,18 @@
 {
-  "type": "lychee:block_interacting",
-  "post": [
-    {
-      "type": "prevent_default"
-    },
-    {
-      "type": "drop_item",
-      "item": "minecraft:allium"
-    }
-  ],
+  "type": "lychee:item_inside",
   "item_in": {
-    "item": "minecraft:shears"
+    "item": "minecraft:sand"
   },
   "block_in": {
-    "blocks": ["minecraft:bee_nest"],
+    "blocks": ["colouredstuff:water_black_block"],
     "state": {
-      "honey_level": "5"
+      "level": 0
     }
-  }
+  },
+  "post": [
+    {
+      "type": "place",
+      "block": "sf5_things:block_of_black_dye"
+    }
+  ]
 }
