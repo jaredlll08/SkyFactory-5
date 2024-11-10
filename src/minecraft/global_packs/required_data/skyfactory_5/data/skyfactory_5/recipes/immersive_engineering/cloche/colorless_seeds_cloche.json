@@ -1,8 +1,8 @@
 {
   "type": "immersiveengineering:cloche",
-  "input": { "item": "mysticalagriculture:%1%_crop_seeds" },
-  "render": { "type": "crop", "block": "mysticalagriculture:%1%_crop_crop" },
-  "results": [{ "count": 2, "item": "mysticalagriculture:%1%_crop_essence" }],
+  "input": { "item": "mysticalagriculture:none_crop_seeds" },
+  "render": { "type": "crop", "block": "mysticalagriculture:none_crop_crop" },
+  "results": [{ "count": 2, "item": "mysticalagriculture:none_crop_essence" }],
   "soil": { "item": "minecraft:dirt" },
   "time": 640
 }
