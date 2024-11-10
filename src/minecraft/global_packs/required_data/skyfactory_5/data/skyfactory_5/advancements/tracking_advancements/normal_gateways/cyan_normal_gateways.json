@@ -1,0 +1,107 @@
+{
+  "display": {
+    "icon": {
+      "item": "gateways:gate_pearl",
+      "nbt": "{gateway:\"gateways:normal/cyan_vein_creeper\"}"
+    },
+    "title": "Cyan Normal Gateways!",
+    "description": {
+      "translate": "need_to_do.do_this"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:tracking_advancements/normal_gateways/brown_normal_gateways",
+  "criteria": {
+    "Cyan Vein Creeper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/cyan_vein_creeper\"}"
+          }
+        ]
+      }
+    },
+    "Drygmy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/drygmy\"}"
+          }
+        ]
+      }
+    },
+    "Fancy Chicken": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/fancy_chicken\"}"
+          }
+        ]
+      }
+    },
+    "Glow Skeleton": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/glow_skeleton\"}"
+          }
+        ]
+      }
+    },
+    "Glow Squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/glow_squid\"}"
+          }
+        ]
+      }
+    },
+    "Stray Bone Spider": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/stray_bone_spider\"}"
+          }
+        ]
+      }
+    },
+    "Tropical Slime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/tropical_slime\"}"
+          }
+        ]
+      }
+    },
+    "Warden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/warden\"}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:color_stages/root",
+  "parent": "skyfactory_5:color_stages/gray_stage",
   "criteria": {
     "eat_green_apple": {
       "trigger": "minecraft:consume_item",

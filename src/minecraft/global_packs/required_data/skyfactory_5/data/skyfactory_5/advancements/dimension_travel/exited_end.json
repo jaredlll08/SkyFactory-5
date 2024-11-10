@@ -4,10 +4,10 @@
       "item": "minecraft:flint_and_steel"
     },
     "title": {
-      "translate": "Enter Nether"
+      "translate": "Exited End"
     },
     "description": {
-      "translate": "advancements.story.enter_the_nether.description"
+      "translate": "need_to_do.do_this"
     },
     "frame": "task",
     "show_toast": false,
@@ -16,15 +16,15 @@
   },
   "parent": "skyfactory_5:dimension_travel/root",
   "criteria": {
-    "entered_nether": {
+    "exited_end": {
       "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "to": "minecraft:the_nether"
+        "from": "minecraft:the_end"
       }
     }
   },
-  "requirements": [["entered_nether"]],
+  "requirements": [["exited_end"]],
   "rewards": {
-    "function": "skyfactory_5:enter_nether"
+    "function": "skyfactory_5:exited_end"
   }
 }

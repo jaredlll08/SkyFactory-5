@@ -1,0 +1,155 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplehats:monocle"
+    },
+    "title": "141-160",
+    "description": {
+      "translate": "need_to_do.do_this"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:tracking_advancements/simple_hats/121_140",
+  "criteria": {
+    "Monocle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:monocle"] }]
+      }
+    },
+    "Moreeyes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:moreeyes"] }]
+      }
+    },
+    "Murdered": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:murdered"] }]
+      }
+    },
+    "Nekoears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:nekoears"] }]
+      }
+    },
+    "Nyan_Doll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:nyan_doll"] }]
+      }
+    },
+    "Orange_Hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:orange_hat"] }]
+      }
+    },
+    "Palmtree": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:palmtree"] }]
+      }
+    },
+    "Paperbag": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:paperbag"] }]
+      }
+    },
+    "Partyhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:partyhat"] }]
+      }
+    },
+    "Paypay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:paypay"] }]
+      }
+    },
+    "Penguinbaby": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:penguinbaby"] }]
+      }
+    },
+    "Penguinhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:penguinhat"] }]
+      }
+    },
+    "Peppino": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:peppino"] }]
+      }
+    },
+    "Pighead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:pighead"] }]
+      }
+    },
+    "Pinhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:pinhead"] }]
+      }
+    },
+    "Plaguedoctor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:plaguedoctor"] }]
+      }
+    },
+    "Pog": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "player": [], "items": [{ "items": ["simplehats:pog"] }] }
+    },
+    "Pohatoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:pohatoe"] }]
+      }
+    },
+    "Policebucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:policebucket"] }]
+      }
+    },
+    "Policesiren": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:policesiren"] }]
+      }
+    }
+  }
+}

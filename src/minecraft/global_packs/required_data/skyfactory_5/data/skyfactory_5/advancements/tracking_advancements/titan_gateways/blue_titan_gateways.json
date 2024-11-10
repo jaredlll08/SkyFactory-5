@@ -1,0 +1,129 @@
+{
+  "display": {
+    "icon": {
+      "item": "gateways:gate_pearl",
+      "nbt": "{gateway:\"gateways:normal/blue_vein_creeper\"}"
+    },
+    "title": "Blue Titan Gateways!",
+    "description": {
+      "translate": "need_to_do.do_this"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:tracking_advancements/titan_gateways/black_titan_gateways",
+  "criteria": {
+    "Blue Vein Creeper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/blue_vein_creeper\"}"
+          }
+        ]
+      }
+    },
+    "Blue Chu Chu": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/blue_chu_chu\"}"
+          }
+        ]
+      }
+    },
+    "Bouldering Drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/bouldering_drowned\"}"
+          }
+        ]
+      }
+    },
+    "Drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/drowned\"}"
+          }
+        ]
+      }
+    },
+    "Lobber Drowned": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/lobber_drowned\"}"
+          }
+        ]
+      }
+    },
+    "Phantom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/phantom\"}"
+          }
+        ]
+      }
+    },
+    "Squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/squid\"}"
+          }
+        ]
+      }
+    },
+    "Trader Llama": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/trader_llama\"}"
+          }
+        ]
+      }
+    },
+    "Viler Witch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/viler_witch\"}"
+          }
+        ]
+      }
+    },
+    "Wandering Trader": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/wandering_trader\"}"
+          }
+        ]
+      }
+    }
+  }
+}

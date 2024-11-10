@@ -2,9 +2,9 @@
   "display": {
     "icon": {
       "item": "gateways:gate_pearl",
-      "nbt": "{gateway:\"gateways:challenge/challenge_red\"}"
+      "nbt": "{gateway:\"gateways:normal/white_vein_creeper\"}"
     },
-    "title": "Challenge Gateways",
+    "title": "White Normal Gateways!",
     "description": {
       "translate": "need_to_do.do_this"
     },
@@ -13,196 +13,202 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:tracking_advancements/root",
+  "parent": "skyfactory_5:tracking_advancements/normal_gateways/root",
   "criteria": {
-    "Black Challenge Gateway": {
+    "Albino Cow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_black\"}"
+            "nbt": "{gateway:\"gateways:normal/albino_cow\"}"
           }
         ]
       }
     },
-    "Blue Challenge Gateway": {
+    "Baby Ghast": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_blue\"}"
+            "nbt": "{gateway:\"gateways:normal/baby_ghast\"}"
           }
         ]
       }
     },
-    "Brown Challenge Gateway": {
+    "Chicken": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_brown\"}"
+            "nbt": "{gateway:\"gateways:normal/chicken\"}"
           }
         ]
       }
     },
-    "Cyan Challenge Gateway": {
+    "Energetic Sheep": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_cyan\"}"
+            "nbt": "{gateway:\"gateways:normal/energetic_sheep\"}"
           }
         ]
       }
     },
-    "Gray Challenge Gateway": {
+    "Ghast": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_gray\"}"
+            "nbt": "{gateway:\"gateways:normal/ghast\"}"
           }
         ]
       }
     },
-    "Green Challenge Gateway": {
+    "Goat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_green\"}"
+            "nbt": "{gateway:\"gateways:normal/goat\"}"
           }
         ]
       }
     },
-    "Light_Blue Challenge Gateway": {
+    "Horned Sheep": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_light_blue\"}"
+            "nbt": "{gateway:\"gateways:normal/horned_sheep\"}"
           }
         ]
       }
     },
-    "Light_Gray Challenge Gateway": {
+    "Llama": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_light_gray\"}"
+            "nbt": "{gateway:\"gateways:normal/llama\"}"
           }
         ]
       }
     },
-    "Lime Challenge Gateway": {
+    "Melon Golem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_lime\"}"
+            "nbt": "{gateway:\"gateways:normal/melon_golem\"}"
           }
         ]
       }
     },
-    "Magenta Challenge Gateway": {
+    "Opalescent Eye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_magenta\"}"
+            "nbt": "{gateway:\"gateways:normal/opalescent_eye\"}"
           }
         ]
       }
     },
-    "Orange Challenge Gateway": {
+    "Panda": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_orange\"}"
+            "nbt": "{gateway:\"gateways:normal/panda\"}"
           }
         ]
       }
     },
-    "Pink Challenge Gateway": {
+    "Polar Bear": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_pink\"}"
+            "nbt": "{gateway:\"gateways:normal/polar_bear\"}"
           }
         ]
       }
     },
-    "Purple Challenge Gateway": {
+    "Sheep": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_purple\"}"
+            "nbt": "{gateway:\"gateways:normal/sheep\"}"
           }
         ]
       }
     },
-    "Red Challenge Gateway": {
+    "Skeleton": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_red\"}"
+            "nbt": "{gateway:\"gateways:normal/skeleton\"}"
           }
         ]
       }
     },
-    "White Challenge Gateway": {
+    "Skeleton Horse": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_white\"}"
+            "nbt": "{gateway:\"gateways:normal/skeleton_horse\"}"
           }
         ]
       }
     },
-    "Yellow Challenge Gateway": {
+    "Skeleton Wolf": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:challenge/challenge_yellow\"}"
+            "nbt": "{gateway:\"gateways:normal/skeleton_wolf\"}"
+          }
+        ]
+      }
+    },
+    "Snow Golem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/snow_golem\"}"
+          }
+        ]
+      }
+    },
+    "White Vein Creeper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/white_vein_creeper\"}"
           }
         ]
       }

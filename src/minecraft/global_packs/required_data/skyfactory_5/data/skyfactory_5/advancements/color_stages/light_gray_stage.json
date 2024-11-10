@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:color_stages/purple_stage",
+  "parent": "skyfactory_5:color_stages/light_blue_stage",
   "criteria": {
     "goat_horn": {
       "trigger": "minecraft:inventory_changed",

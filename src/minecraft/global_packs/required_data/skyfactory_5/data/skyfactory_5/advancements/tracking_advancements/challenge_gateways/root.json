@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "gateways:gate_pearl",
+      "nbt": "{gateway:\"gateways:challenge/challenge_yellow\"}"
+    },
+    "title": {
+      "translate": "Oops! All the Challenge Gateways!"
+    },
+    "description": "",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+  },
+  "criteria": {
+    "crafting_table": {
+      "trigger": "minecraft:inventory_changed"
+    },
+    "any_location": {
+      "trigger": "minecraft:location"
+    }
+  },
+  "requirements": [["crafting_table", "any_location"]]
+}

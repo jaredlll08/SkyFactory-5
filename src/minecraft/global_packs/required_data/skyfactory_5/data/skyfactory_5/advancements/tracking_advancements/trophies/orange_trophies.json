@@ -1,0 +1,151 @@
+{
+  "display": {
+    "icon": {
+      "item": "obtrophies:trophy",
+      "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:orange\"}}"
+    },
+    "title": "Orange Trophies!",
+    "description": {
+      "translate": "need_to_do.do_this"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:tracking_advancements/trophies/root",
+  "criteria": {
+    "Blaze": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:blaze\"}}"
+          }
+        ]
+      }
+    },
+    "Fox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:fox\"}}"
+          }
+        ]
+      }
+    },
+    "Hyper Rabbit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:hyper_rabbit\"}}"
+          }
+        ]
+      }
+    },
+    "Lava Monster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"lava_monster:lava_monster\"}}"
+          }
+        ]
+      }
+    },
+    "Lava Squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"monsterplus:lava_squid\"}}"
+          }
+        ]
+      }
+    },
+    "Magma Cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:magma_cow\"}}"
+          }
+        ]
+      }
+    },
+    "Magma Cube": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:magma_cube\"}}"
+          }
+        ]
+      }
+    },
+    "Mother Lava Squid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"monsterplus:mother_lava_squid\"}}"
+          }
+        ]
+      }
+    },
+    "Orange Vein Creeper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:orange\"}}"
+          }
+        ]
+      }
+    },
+    "Pufferfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:pufferfish\"}}"
+          }
+        ]
+      }
+    },
+    "Tropical Fish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:tropical_fish\"}}"
+          }
+        ]
+      }
+    },
+    "Wooly Cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:wooly_cow\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

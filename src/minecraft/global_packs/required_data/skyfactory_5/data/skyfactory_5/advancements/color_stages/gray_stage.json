@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:color_stages/green_stage",
+  "parent": "skyfactory_5:color_stages/root",
   "criteria": {
     "cobblestone": {
       "trigger": "minecraft:inventory_changed",

@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:color_stages/root",
+  "parent": "skyfactory_5:color_stages/purple_stage",
   "criteria": {
     "spider_eye": {
       "trigger": "minecraft:inventory_changed",

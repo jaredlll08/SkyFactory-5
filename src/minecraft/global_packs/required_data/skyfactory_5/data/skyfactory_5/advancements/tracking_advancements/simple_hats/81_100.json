@@ -1,0 +1,155 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplehats:dragonskull"
+    },
+    "title": "81-100",
+    "description": {
+      "translate": "need_to_do.do_this"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:tracking_advancements/simple_hats/root",
+  "criteria": {
+    "Dragonskull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dragonskull"] }]
+      }
+    },
+    "Dragonskullender": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dragonskullender"] }]
+      }
+    },
+    "Drinkinhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:drinkinhat"] }]
+      }
+    },
+    "Dumhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dumhat"] }]
+      }
+    },
+    "Dwarfminerbeard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:dwarfminerbeard"] }]
+      }
+    },
+    "Easterhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:easterhead"] }]
+      }
+    },
+    "Egghead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:egghead"] }]
+      }
+    },
+    "Eggonhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:eggonhead"] }]
+      }
+    },
+    "Elfhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:elfhat"] }]
+      }
+    },
+    "Explorerhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:explorerhat"] }]
+      }
+    },
+    "Eyepatch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:eyepatch"] }]
+      }
+    },
+    "Fakeblight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:fakeblight"] }]
+      }
+    },
+    "Fakefire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:fakefire"] }]
+      }
+    },
+    "Farmerbrim": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:farmerbrim"] }]
+      }
+    },
+    "Festiveantlers": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:festiveantlers"] }]
+      }
+    },
+    "Festiveribbon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:festiveribbon"] }]
+      }
+    },
+    "Fez": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "player": [], "items": [{ "items": ["simplehats:fez"] }] }
+    },
+    "Finnhood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:finnhood"] }]
+      }
+    },
+    "Fireworks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:fireworks"] }]
+      }
+    },
+    "Fishing_Hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:fishing_hat"] }]
+      }
+    }
+  }
+}

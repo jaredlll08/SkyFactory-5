@@ -1,10 +1,11 @@
 {
   "display": {
     "icon": {
-      "item": "sf5_things:block_of_rgb_dye"
+      "item": "gateways:gate_pearl",
+      "nbt": "{gateway:\"gateways:titan/dolphin\"}"
     },
     "title": {
-      "translate": "Oops! All the Things!"
+      "translate": "Oops! All the Titan Gateways!"
     },
     "description": "",
     "frame": "task",
@@ -21,8 +22,5 @@
       "trigger": "minecraft:location"
     }
   },
-  "requirements": [["crafting_table", "any_location"]],
-  "rewards": {
-    "function": "skyfactory_5:stages/colorless_stage"
-  }
+  "requirements": [["crafting_table", "any_location"]]
 }

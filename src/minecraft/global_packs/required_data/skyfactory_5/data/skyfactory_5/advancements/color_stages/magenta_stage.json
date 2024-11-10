@@ -12,7 +12,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "skyfactory_5:color_stages/root",
+  "parent": "skyfactory_5:color_stages/lime_stage",
   "criteria": {
     "allium": {
       "trigger": "minecraft:inventory_changed",

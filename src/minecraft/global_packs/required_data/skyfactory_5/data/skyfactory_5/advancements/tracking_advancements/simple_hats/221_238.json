@@ -1,0 +1,144 @@
+{
+  "display": {
+    "icon": {
+      "item": "simplehats:teddy_bear"
+    },
+    "title": "221-238",
+    "description": {
+      "translate": "need_to_do.do_this"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "skyfactory_5:tracking_advancements/simple_hats/201_220",
+  "criteria": {
+    "Teddy_Bear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:teddy_bear"] }]
+      }
+    },
+    "The_Noise": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:the_noise"] }]
+      }
+    },
+    "Tinkerhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:tinkerhat"] }]
+      }
+    },
+    "Topcathat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:topcathat"] }]
+      }
+    },
+    "Tophat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:tophat"] }]
+      }
+    },
+    "Toptophathat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:toptophathat"] }]
+      }
+    },
+    "Toy_Story_Alien": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:toy_story_alien"] }]
+      }
+    },
+    "Triangleshades": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:triangleshades"] }]
+      }
+    },
+    "Tricorne": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:tricorne"] }]
+      }
+    },
+    "Tvhead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:tvhead"] }]
+      }
+    },
+    "Twilight_Doll": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:twilight_doll"] }]
+      }
+    },
+    "Unicornhorn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:unicornhorn"] }]
+      }
+    },
+    "Ushanka": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:ushanka"] }]
+      }
+    },
+    "Vikinghatbeard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:vikinghatbeard"] }]
+      }
+    },
+    "Villagernose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:villagernose"] }]
+      }
+    },
+    "Winghat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:winghat"] }]
+      }
+    },
+    "Worms_Mine": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:worms_mine"] }]
+      }
+    },
+    "Zigzagwitchhat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [{ "items": ["simplehats:zigzagwitchhat"] }]
+      }
+    }
+  }
+}
