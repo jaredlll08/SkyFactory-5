@@ -558,6 +558,7 @@ export const mobData: MobData[] = [
       leashRange: 256,
       spacing: 256,
       spawnCount: 1,
+      preventScaling: true,
     },
   },
   {
