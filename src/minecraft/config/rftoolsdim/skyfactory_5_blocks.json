@@ -172,9 +172,9 @@
   {
     "type": "block",
     "key": "sf5_things:block_of_rgb_dye",
-    "rarity": "rare",
-    "create": 6900,
-    "maintain": 6900,
+    "rarity": "legendary",
+    "create": 69000,
+    "maintain": 69000,
     "ticks": 100,
     "worldgen": true,
     "dimlet": true
