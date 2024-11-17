@@ -1,3 +1,6 @@
+import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.item.IItemStack;
+
 // Dyeing Crafting Tables
   craftingTable.addShapeless(
   "dyeing_none_crafting_table",
@@ -329,3 +332,37 @@ craftingTable.addShapeless(
   <item:create:brass_sheet>,
   [<item:immersiveengineering:hammer>, <item:create:brass_ingot>]
 );
+
+// Adds recipes to convert existing farmland via crafting recipes
+function createFarmlandConversionRecipes() as void {
+  val essenceFarmlands as IItemStack[IItemStack] = {
+    <item:mysticalagriculture:inferium_essence>: <item:mysticalagriculture:inferium_farmland>,
+    <item:mysticalagriculture:prudentium_essence>: <item:mysticalagriculture:prudentium_farmland>,
+    <item:mysticalagriculture:tertium_essence>: <item:mysticalagriculture:tertium_farmland>,
+    <item:mysticalagriculture:imperium_essence>: <item:mysticalagriculture:imperium_farmland>,
+    <item:mysticalagriculture:supremium_essence>: <item:mysticalagriculture:supremium_farmland>
+  };
+
+  for essence, farmland in essenceFarmlands {
+    <tag:items:skyfactory_5:essence_farmland>.add(farmland);
+
+    craftingTable.addShapeless(
+      essence.registryName.path + "_farmland_conversion",
+      farmland,
+      [essence, <tag:items:skyfactory_5:essence_farmland>]
+    );
+  }
+}
+
+createFarmlandConversionRecipes();
+
+
+
+// Demlou brought this up and now I gotta do work. But, it's gotta be done because it's important
+// and I'm just complaining for the sake of complaining. Demlou is right, I'm just a hater
+craftingTable.addShapeless(
+  "botania_flower_fert",
+  <item:botania:fertilizer> * 3,
+  [<item:minecraft:bone_meal>, <item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>]
+);
+
