@@ -19,6 +19,10 @@ ContentBuilder.factory
     }
 
     leaves.addLootModifier(baseName + args.color.getResourceName(), (drops, ctx) => {
+      if ctx.tool == <item:minecraft:shears> {
+        return drops;
+      }
+
       val realPlayerLooting = isRealPlayerLooting(ctx);
 
       val saplingDropChance = realPlayerLooting ? 10 : 5;
