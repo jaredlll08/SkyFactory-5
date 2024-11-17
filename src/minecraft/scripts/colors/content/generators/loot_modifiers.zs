@@ -68,6 +68,10 @@ ContentBuilder.factory
     }
 
     leaves.addLootModifier(args.color.getResourceName() + baseName, (drops, ctx) => {
+      if ctx.tool == <item:minecraft:shears> {
+        return drops;
+      }
+
       val realPlayerLooting = isRealPlayerLooting(ctx);
 
       if !realPlayerLooting {
@@ -95,6 +99,10 @@ ContentBuilder.factory
     }
 
     leaves.addLootModifier(args.color.getResourceName() + baseName, (drops, ctx) => {
+      if ctx.tool == <item:minecraft:shears> {
+        return drops;
+      }
+
       val realPlayerLooting = isRealPlayerLooting(ctx);
 
       if !realPlayerLooting {
