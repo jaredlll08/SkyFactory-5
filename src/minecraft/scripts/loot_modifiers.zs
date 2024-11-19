@@ -25,7 +25,7 @@ public class BonusBlockDrops {
     val ignoreShears = this.ignoreShears;
 
     this.block.addLootModifier(this.name, (drops, ctx) => {
-      if !ignoreShears && ctx.tool == <item:minecraft:shears> {
+      if ignoreShears && ctx.tool == <item:minecraft:shears> {
         return drops;
       }
 
@@ -34,7 +34,7 @@ public class BonusBlockDrops {
       }
 
       for percentagedItem in bonusDrops {
-        if rollsChance(ctx.random, percentagedItem.percentage) {
+        if rollsChance(ctx.random, percentagedItem.percentage * 100) {
           drops.add(percentagedItem.data);
         }
       }
