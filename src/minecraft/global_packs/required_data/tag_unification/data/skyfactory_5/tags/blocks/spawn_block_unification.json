@@ -10,6 +10,7 @@
     "#skyfactory_5:concrete_blocks",
     "minecraft:obsidian",
     "minecraft:end_stone",
-    "minecraft:stone"
+    "minecraft:stone",
+    "mob_grinding_utils:entity_conveyor"
   ]
 }
