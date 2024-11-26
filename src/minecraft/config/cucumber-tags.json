@@ -25,7 +25,7 @@
   "forge:ingots/platinum": "exnihilosequentia:platinum_ingot",
   "forge:dusts/sulfur": "immersiveengineering:dust_sulfur",
   "forge:ingots/lead": "exnihilosequentia:lead_ingot",
-  "forge:ingots/graphite": "biggerreactors:graphite_ingot",
+  "forge:ingots/graphite": "null",
   "forge:gems/peridot": "null",
   "forge:ingots/uranium": "exnihilosequentia:uranium_ingot",
   "forge:ingots/nickel": "exnihilosequentia:nickel_ingot"

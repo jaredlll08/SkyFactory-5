@@ -42,7 +42,7 @@ secondsToCompost = 10
 [barrel.fluid_transform]
 # Number of seconds to transform fluids (Default: 10)
 # Range: > 1
-secondsToTransformFluid = 10
+secondsToTransformFluid = 5
 
 # Crook Configs
 [crook]

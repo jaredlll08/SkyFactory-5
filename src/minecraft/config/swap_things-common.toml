@@ -166,6 +166,7 @@ SummonMountClass = [
 ]
 # List of entities for SummonMount command to EXCLUDE from possible entities
 SummonMount = [
+  "draconicevolution:draconic_guardian",
   "minecraft:wither",
   "minecraft:ender_dragon",
   "ae2:tiny_tnt_primed",
