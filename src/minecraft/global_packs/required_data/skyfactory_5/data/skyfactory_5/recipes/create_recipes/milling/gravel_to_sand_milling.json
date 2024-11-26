@@ -10,6 +10,11 @@
     {
       "count": 1,
       "item": "minecraft:sand"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:flint",
+      "chance": 0.1
     }
   ]
 }
