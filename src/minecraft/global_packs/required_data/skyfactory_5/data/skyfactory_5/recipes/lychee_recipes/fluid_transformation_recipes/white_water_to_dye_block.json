@@ -4,7 +4,10 @@
     "item": "minecraft:sand"
   },
   "block_in": {
-    "blocks": ["colouredstuff:water_white_block"]
+    "blocks": ["colouredstuff:water_white_block"],
+    "state": {
+      "level": 0
+    }
   },
   "post": [
     {

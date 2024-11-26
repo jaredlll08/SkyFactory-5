@@ -5,7 +5,10 @@
     "nbt": "{BucketContent:\"minecraft:milk\",Fluid:{Amount:1000,FluidName:\"minecraft:milk\"}}"
   },
   "block_in": {
-    "blocks": ["colouredstuff:water_blue_block"]
+    "blocks": ["colouredstuff:water_blue_block"],
+    "state": {
+      "level": 0
+    }
   },
   "post": [
     {
@@ -15,7 +18,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -24,7 +27,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -33,7 +36,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -42,7 +45,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -51,7 +54,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "place",

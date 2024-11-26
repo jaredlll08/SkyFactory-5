@@ -14,7 +14,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -23,7 +23,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -32,7 +32,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -41,7 +41,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -50,7 +50,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "place",

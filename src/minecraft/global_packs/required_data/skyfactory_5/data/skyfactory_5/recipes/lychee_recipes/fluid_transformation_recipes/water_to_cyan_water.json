@@ -4,7 +4,10 @@
     "item": "minecraft:cyan_dye"
   },
   "block_in": {
-    "blocks": ["water"]
+    "blocks": ["water"],
+    "state": {
+      "level": 0
+    }
   },
   "post": [
     {
@@ -14,7 +17,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -23,7 +26,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -32,7 +35,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -41,7 +44,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "execute",
@@ -50,7 +53,7 @@
     },
     {
       "type": "delay",
-      "s": "2"
+      "s": "1"
     },
     {
       "type": "place",
