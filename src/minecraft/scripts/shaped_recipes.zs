@@ -1208,6 +1208,84 @@ craftingTable.addShaped(
   ]
 );
 
+
+
+// limestone
+  craftingTable.addShaped(
+  "limestone_recipe",
+  <item:create:limestone> ,
+  [
+    [<item:minecraft:air>, <tag:items:forge:dyes/lime>, <item:minecraft:air>],
+    [<tag:items:forge:dyes/lime>,<item:minecraft:stone>, <tag:items:forge:dyes/lime>],
+    [<item:minecraft:air>, <tag:items:forge:dyes/lime>, <item:minecraft:air>]
+  ]
+);
+
+// block_of_pocket_lint
+  craftingTable.addShaped(
+  "block_of_pocket_lint_recipe",
+  <item:sf5_things:block_of_pocket_lint> ,
+  [
+    [<item:immersiveengineering:hemp_fiber>, <item:minecraft:string>],
+    [<item:minecraft:paper>, <item:silentgear:pebble>]
+  ]
+);
+
+// block_of_ketchup
+  craftingTable.addShaped(
+  "block_of_ketchup_recipe",
+  <item:sf5_things:block_of_ketchup> ,
+  [
+    [<item:minecraft:sugar>, <item:thermal:tomato>, <item:minecraft:sugar>],
+    [<item:thermal:tomato>, <item:colouredstuff:water_bucket_red>, <item:thermal:tomato>],
+    [<item:refurbished_furniture:sea_salt>, <item:thermal:tomato>, <item:refurbished_furniture:sea_salt>]
+  ]
+);
+
+// block_of_kitty_litter
+  craftingTable.addShaped(
+  "block_of_kitty_litter_recipe",
+  <item:sf5_things:block_of_kitty_litter>  * 4,
+  [
+    [<item:minecraft:air>, <item:minecraft:clay>, <item:minecraft:air>],
+    [<item:minecraft:gravel>, <item:colouredstuff:water_bucket_yellow>, <item:minecraft:sand>],
+    [<item:minecraft:air>, <item:exnihilosequentia:crushed_diorite>, <item:minecraft:air>]
+  ]
+);
+
+// block_of_grape_hi_chew
+  craftingTable.addShaped(
+  "block_of_grape_hi_chew_recipe",
+  <item:sf5_things:block_of_grape_hi_chew> ,
+  [
+    [<item:minecraft:sugar>, <item:minecraft:sugar>, <item:minecraft:sugar>],
+    [<item:minecraft:sugar>, <tag:items:skyfactory_5:purple_grapes>, <item:minecraft:sugar>],
+    [<item:minecraft:sugar>, <item:minecraft:sugar>, <item:minecraft:sugar>]
+  ]
+);
+
+// block_of_pumpkin_spice_latte
+  craftingTable.addShaped(
+  "block_of_pumpkin_spice_latte_recipe",
+  <item:sf5_things:block_of_pumpkin_spice_latte> ,
+  [
+    [<item:pumpkinspice:latte>, <item:pumpkinspice:latte>, <item:pumpkinspice:latte>],
+    [<item:pumpkinspice:latte>, <item:pumpkinspice:latte>, <item:pumpkinspice:latte>],
+    [<item:pumpkinspice:latte>, <item:pumpkinspice:latte>, <item:pumpkinspice:latte>]
+  ]
+);
+
+// block_of_black_olives
+  craftingTable.addShaped(
+  "block_of_black_olives_recipe",
+  <item:sf5_things:block_of_black_olives> ,
+  [
+    [<item:pizzacraft:olive>, <item:pizzacraft:olive>, <item:pizzacraft:olive>],
+    [<item:pizzacraft:olive>, <tag:items:forge:dyes/black>, <item:pizzacraft:olive>],
+    [<item:pizzacraft:olive>, <item:pizzacraft:olive>, <item:pizzacraft:olive>]
+  ]
+);
+
 // Minecraft Bell
   craftingTable.addShaped(
   "shaped_bell_recipe",
@@ -1271,3 +1349,4 @@ craftingTable.addShaped(
     [<item:minecraft:stick>, <item:minecraft:stick>, <item:minecraft:stick>]
   ]
 );
+

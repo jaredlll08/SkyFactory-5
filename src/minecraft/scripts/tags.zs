@@ -343,7 +343,21 @@ val itemsToRemove as IItemStack[] = [
   <item:mysticalagriculture:soulium_block>,
   <item:mysticalagriculture:soulium_essence>,
   <item:mysticalagriculture:soulium_seeds>,
+  <item:mysticalagriculture:air_essence>,
+  <item:mysticalagriculture:earth_essence>,
+  <item:mysticalagriculture:fire_essence>,
+  <item:mysticalagriculture:water_essence>,
 
+  // Mob Grinding Utils
+  <item:mob_grinding_utils:delightful_dirt>,
+  <item:mob_grinding_utils:rotten_egg>,
+  <item:mob_grinding_utils:golden_egg>,
+  <item:mob_grinding_utils:gm_chicken_feed_cursed>,
+  <item:mob_grinding_utils:nutritious_chicken_feed>,
+  <item:mob_grinding_utils:gm_chicken_feed>,
+  <item:mob_grinding_utils:entity_spawner>,
+  <item:mob_grinding_utils:mob_swab_used>,
+  <item:mob_grinding_utils:mob_swab>
 
 
 ];

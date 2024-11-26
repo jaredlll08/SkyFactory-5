@@ -366,3 +366,14 @@ craftingTable.addShapeless(
   [<item:minecraft:bone_meal>, <item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>, <item:sf5_things:rgb_dye>]
 );
 
+craftingTable.addShapeless(
+  "blocks_of_rgb_dye_from_rgb",
+  <item:sf5_things:block_of_rgb_dye> * 3,
+  [<item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_green_dye>, <item:sf5_things:block_of_blue_dye>]
+);
+
+craftingTable.addShapeless(
+  "blocks_of_rgb_dye_from_cmyk",
+  <item:sf5_things:block_of_rgb_dye> * 4,
+  [<item:sf5_things:block_of_cyan_dye>, <item:sf5_things:block_of_magenta_dye>, <item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_black_dye>]
+);

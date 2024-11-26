@@ -123,3 +123,98 @@ Extractinator.addRecipe("extractinator_block_of_grass_clippings", <item:sf5_thin
   new ExtractinatorDrop(<item:minecraft:tall_grass>,0.1,1,1),
 ]);
 
+// Limestone
+Extractinator.addRecipe("extractinator_limestone", <item:create:limestone>, [
+  new ExtractinatorDrop(<item:colouredstuff:sapling_lime>,0.1,1,1),
+  new ExtractinatorDrop(<item:sf5_things:lime_apple>,0.05,1,1),
+  new ExtractinatorDrop(<item:mysticalagriculture:lime_crop_essence>,0.2,1,1),
+  new ExtractinatorDrop(<item:minecraft:lime_dye>,0.25,1,1),
+  new ExtractinatorDrop(<item:minecraft:sugar_cane>, 0.08,1,1),
+  new ExtractinatorDrop(<item:minecraft:kelp>, 0.08,1,1),
+  new ExtractinatorDrop(<item:create:raw_zinc>, 0.04,1,1),
+  new ExtractinatorDrop(<item:minecraft:slime_ball>, 0.1,1,1),
+]);
+
+// block_of_pocket_lint
+Extractinator.addRecipe("extractinator_block_of_pocket_lint", <item:sf5_things:block_of_pocket_lint>, [
+  new ExtractinatorDrop(<item:colouredstuff:sapling_light_gray>,0.1,1,1),
+  new ExtractinatorDrop(<item:sf5_things:light_gray_apple>,0.05,1,1),
+  new ExtractinatorDrop(<item:mysticalagriculture:light_gray_crop_essence>,0.2,1,1),
+  new ExtractinatorDrop(<item:minecraft:light_gray_dye>,0.25,1,1),
+  new ExtractinatorDrop(<item:silentgear:pebble>, 0.1,1,1),
+  new ExtractinatorDrop(<item:minecraft:paper>, 0.08,1,1),
+  new ExtractinatorDrop(<item:immersiveengineering:hemp_fiber>, 0.08,1,1),
+  new ExtractinatorDrop(<item:minecraft:andesite>, 0.06,1,1),
+  new ExtractinatorDrop(<item:minecraft:raw_iron>, 0.04,1,1),
+]);
+// block_of_ketchup
+
+Extractinator.addRecipe("extractinator_block_of_ketchup", <item:sf5_things:block_of_ketchup>, [
+  new ExtractinatorDrop(<item:colouredstuff:sapling_red>,0.1,1,1),
+  new ExtractinatorDrop(<item:minecraft:apple>,0.05,1,1),
+  new ExtractinatorDrop(<item:mysticalagriculture:red_crop_essence>,0.2,1,1),
+  new ExtractinatorDrop(<item:minecraft:red_dye>,0.25,1,1),
+  new ExtractinatorDrop(<item:minecraft:melon_slice>, 0.08,1,1),
+  new ExtractinatorDrop(<item:minecraft:beetroot>, 0.08,1,1),
+  new ExtractinatorDrop(<item:minecraft:spider_eye>, 0.06,1,1),
+  new ExtractinatorDrop(<item:minecraft:redstone>, 0.04,1,1),
+  new ExtractinatorDrop(<item:minecraft:granite>, 0.06,1,1),
+  new ExtractinatorDrop(<item:minecraft:nether_wart>, 0.04,1,1),
+]);
+
+// block_of_kitty_litter
+Extractinator.addRecipe("extractinator_block_of_kitty_litter", <item:sf5_things:block_of_kitty_litter>, [
+  new ExtractinatorDrop(<item:colouredstuff:sapling_gray>,0.1,1,1),
+  new ExtractinatorDrop(<item:sf5_things:gray_apple>,0.05,1,1),
+  new ExtractinatorDrop(<item:mysticalagriculture:gray_crop_essence>,0.2,1,1),
+  new ExtractinatorDrop(<item:minecraft:gray_dye>,0.25,1,1),
+  new ExtractinatorDrop(<item:minecraft:diorite>,0.06,1,1),
+  new ExtractinatorDrop(<item:minecraft:cobblestone>,0.1,1,1),
+  new ExtractinatorDrop(<item:minecraft:gunpowder>,0.06,1,1),
+  new ExtractinatorDrop(<item:minecraft:dried_kelp>,0.08,1,1),
+  new ExtractinatorDrop(<item:exnihilosequentia:mycelium_spores>,0.1,1,1),
+  new ExtractinatorDrop(<item:immersiveengineering:raw_uranium>,0.04,1,1),
+]);
+
+// block_of_grape_hi_chew
+Extractinator.addRecipe("extractinator_block_of_grape_hi_chew", <item:sf5_things:block_of_grape_hi_chew>, [
+  new ExtractinatorDrop(<item:colouredstuff:sapling_purple>,0.1,1,1),
+  new ExtractinatorDrop(<item:sf5_things:purple_apple>,0.05,1,1),
+  new ExtractinatorDrop(<item:mysticalagriculture:purple_crop_essence>,0.2,1,1),
+  new ExtractinatorDrop(<item:minecraft:purple_dye>,0.25,1,1),
+  new ExtractinatorDrop(<item:vinery:red_grape>,0.08,1,1),
+  new ExtractinatorDrop(<item:vinery:savanna_grapes_red>,0.08,1,1),
+  new ExtractinatorDrop(<item:vinery:taiga_grapes_red>,0.08,1,1),
+  new ExtractinatorDrop(<item:vinery:jungle_grapes_red>,0.08,1,1),
+  new ExtractinatorDrop(<item:minecraft:amethyst_shard>,0.04,1,1),
+  new ExtractinatorDrop(<item:thermal:eggplant>,0.08,1,1),
+  new ExtractinatorDrop(<item:draconicevolution:draconium_dust>,0.005,1,1),
+]);
+
+// block_of_pumpkin_spice_latte
+Extractinator.addRecipe("extractinator_block_of_pumpkin_spice_latte", <item:sf5_things:block_of_pumpkin_spice_latte>, [
+  new ExtractinatorDrop(<item:colouredstuff:sapling_orange>,0.1,1,1),
+  new ExtractinatorDrop(<item:sf5_things:orange_apple>,0.05,1,1),
+  new ExtractinatorDrop(<item:mysticalagriculture:orange_crop_essence>,0.2,1,1),
+  new ExtractinatorDrop(<item:minecraft:orange_dye>,0.25,1,1),
+  new ExtractinatorDrop(<item:draconicevolution:awakened_draconium_dust>,0.00001,1,1),
+  new ExtractinatorDrop(<item:minecraft:raw_copper>,0.04,1,1),
+  new ExtractinatorDrop(<item:minecraft:blaze_powder>,0.04,1,1),
+  new ExtractinatorDrop(<item:minecraft:carrot>,0.08,1,1),
+  new ExtractinatorDrop(<item:immersiveengineering:raw_aluminum>,0.04,1,1),
+  new ExtractinatorDrop(<item:minecraft:magma_cream>,0.06,1,1),
+]);
+
+// block_of_black_olives
+Extractinator.addRecipe("extractinator_block_of_black_olives", <item:sf5_things:block_of_black_olives>, [
+  new ExtractinatorDrop(<item:colouredstuff:sapling_black>,0.1,1,1),
+  new ExtractinatorDrop(<item:sf5_things:black_apple>,0.05,1,1),
+  new ExtractinatorDrop(<item:mysticalagriculture:black_crop_essence>,0.2,1,1),
+  new ExtractinatorDrop(<item:minecraft:black_dye>,0.25,1,1),
+  new ExtractinatorDrop(<item:minecraft:wither_rose>,0.02,1,1),
+  new ExtractinatorDrop(<item:minecraft:ink_sac>,0.08,1,1),
+  new ExtractinatorDrop(<item:minecraft:coal>,0.08,1,1),
+  new ExtractinatorDrop(<item:minecraft:wither_skeleton_skull>,0.01,1,1),
+  new ExtractinatorDrop(<item:thermal:netherite_dust>,0.0001,1,1),
+  new ExtractinatorDrop(<item:minecraft:gilded_blackstone>,0.02,1,1),
+]);

@@ -407,7 +407,34 @@ val items as IItemStack[] = [
   <item:bhc:red_heart>,
   <item:bhc:yellow_heart>,
   <item:bhc:green_heart>,
-  <item:bhc:blue_heart>
+  <item:bhc:blue_heart>,
+
+  // Botania
+  <item:botania:fertilizer>,
+
+  // Mystical Agriculture
+  <item:mysticalagriculture:air_agglomeratio>,
+  <item:mysticalagriculture:earth_agglomeratio>,
+  <item:mysticalagriculture:water_agglomeratio>,
+  <item:mysticalagriculture:fire_agglomeratio>,
+  <item:mysticalagriculture:nature_agglomeratio>,
+  <item:mysticalagriculture:dye_agglomeratio>,
+  <item:mysticalagriculture:nether_agglomeratio>,
+  <item:mysticalagriculture:coral_agglomeratio>,
+  <item:mysticalagriculture:honey_agglomeratio>,
+  <item:mysticalagriculture:prismarine_agglomeratio>,
+  <item:mysticalagriculture:end_agglomeratio>,
+
+  // Mob Grinding Utils
+  <item:mob_grinding_utils:delightful_dirt>,
+  <item:mob_grinding_utils:rotten_egg>,
+  <item:mob_grinding_utils:golden_egg>,
+  <item:mob_grinding_utils:gm_chicken_feed_cursed>,
+  <item:mob_grinding_utils:nutritious_chicken_feed>,
+  <item:mob_grinding_utils:gm_chicken_feed>,
+  <item:mob_grinding_utils:entity_spawner>,
+  <item:mob_grinding_utils:mob_swab_used>,
+  <item:mob_grinding_utils:mob_swab>
 
 
 ];

@@ -19,12 +19,13 @@ AITweaks.addMeleeAttackTweak(<entitytype:colourfulllamas:llama>, 1, 1.0F, 4.5D, 
 AITweaks.addMeleeAttackTweak(<entitytype:minecraft:sniffer>, 1, 1.0F, 21.0D, false);
 AITweaks.addMeleeAttackTweak(<entitytype:minecraft:parrot>, 1, 4.5F, 3.5D, false);
 AITweaks.addMeleeAttackTweak(<entitytype:waddles:adelie_penguin>, 1, 1.0F, 16.0D, false);
+AITweaks.addMeleeAttackTweak(<entitytype:earthmobsmod:hyper_rabbit>, 1, 1.0F, 12.0D, false);
 AITweaks.addLeapTweak(<entitytype:vinery:mule>, 2, 0.3F);
 AITweaks.addLeapTweak(<entitytype:colourfulllamas:llama>, 2, 0.3F);
 AITweaks.addLeapTweak(<entitytype:minecraft:sniffer>, 2, 0.2F);
 AITweaks.addLeapTweak(<entitytype:minecraft:parrot>, 2, 0.3F);
 AITweaks.addLeapTweak(<entitytype:waddles:adelie_penguin>, 2, 0.3F);
-
+AITweaks.addLeapTweak(<entitytype:earthmobsmod:hyper_rabbit>, 2, 0.3F);
 
 // Ranged Entities
 // Egg Throw
@@ -41,6 +42,8 @@ AITweaks.addProjectileAttackTweak(<entitytype:minecraft:strider>, <entitytype:mi
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:panda>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:allay>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:colourfulllamas:llama>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:ars_nouveau:whirlisprig>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 8.0F, 6.0F);
+AITweaks.addLeapTweak(<entitytype:ars_nouveau:whirlisprig>, 2, 0.3F);
 
 // Trident Throw
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:salmon>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
@@ -68,6 +71,12 @@ AITweaks.addLeapTweak(<entitytype:sushigocrafting:shrimp>, 2, 0.3F);
 AITweaks.addMeleeAttackTweak(<entitytype:minecraft:bat>, 1, 0.05F, 2.0D, false);
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:bat>, <entitytype:minecraft:ender_pearl>, "minecraft:entity.snowball.throw", 2, 1.0F, 0.75F);
 
+
+// AITweaks.addProjectileAttackTweak(<entitytype:minecraft:zombie>, <entitytype:minecraft:potion>.addTag({Potion: "minecraft:long_weakness"}), "minecraft:entity.snowball.throw", 2, 1.0F, 0.75F);
+
+
+// .withTag({Potion: "minecraft:long_weakness"})
+// <item:minecraft:splash_potion>
 
 // Egg
 // Snowball

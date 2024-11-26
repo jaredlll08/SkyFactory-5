@@ -84,3 +84,49 @@ import crafttweaker.api.text.Component;
 // OB Trophies
  var obtrophies = Component.literal("Click to Toggle Spawning").setStyle(<constant:formatting:yellow>);
  <item:obtrophies:trophy>.addTooltip(obtrophies);
+
+
+// Energetic Sheep
+ var energetic_wool1 = Component.literal("Can be used to power devices by clicking").setStyle(<constant:formatting:yellow>);
+ var energetic_wool2 = Component.literal("compatible machines with the Wool in hand").setStyle(<constant:formatting:yellow>);
+
+ <item:energeticsheep:white_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:orange_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:magenta_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:light_blue_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:yellow_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:lime_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:pink_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:gray_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:light_gray_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:cyan_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:purple_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:blue_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:brown_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:green_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:red_energetic_wool>.addTooltip(energetic_wool1);
+ <item:energeticsheep:black_energetic_wool>.addTooltip(energetic_wool1);
+
+ <item:energeticsheep:white_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:orange_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:magenta_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:light_blue_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:yellow_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:lime_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:pink_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:gray_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:light_gray_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:cyan_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:purple_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:blue_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:brown_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:green_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:red_energetic_wool>.addTooltip(energetic_wool2);
+ <item:energeticsheep:black_energetic_wool>.addTooltip(energetic_wool2);
+
+
+
+  var energetic_shears1 = Component.literal("Can be used to power devices by clicking").setStyle(<constant:formatting:yellow>);
+  var energetic_shears2 = Component.literal("with the Shears in hand or inserting into a compatible machine").setStyle(<constant:formatting:yellow>);
+  <item:energeticsheep:energetic_shears>.addTooltip(energetic_shears1);
+  <item:energeticsheep:energetic_shears>.addTooltip(energetic_shears2);

@@ -37,6 +37,22 @@ furnace.addRecipe(
   100
 );
 
+// Sea Salt
+furnace.addRecipe(
+  "sea_salt_from_wooden_bucket",
+  <item:refurbished_furniture:sea_salt> * 4,
+  <item:woodenbucket:wooden_bucket>.withTag({Fluid: {Amount: 1000, FluidName: "minecraft:water"}}),
+  0.15,
+  100
+);
+
+furnace.addRecipe(
+  "sea_salt_from_water_bottle",
+  <item:refurbished_furniture:sea_salt> * 2,
+  <item:minecraft:potion>.withTag({Potion: "minecraft:water"}),
+  0.15,
+  100
+);
 
 // Makes items burnable
 <item:minecraft:black_dye>.burnTime = 400;
