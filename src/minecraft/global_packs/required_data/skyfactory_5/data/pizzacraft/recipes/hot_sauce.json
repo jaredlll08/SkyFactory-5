@@ -1,7 +1,7 @@
 {
   "type": "pizzacraft:crushing_recipe",
   "input": {
-    "tag": "forge:crops/pepper"
+    "tag": "forge:crops/bell_pepper"
   },
   "inputCount": 4,
   "content": "hot_sauce",
