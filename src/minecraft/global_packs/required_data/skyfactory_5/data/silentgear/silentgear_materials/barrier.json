@@ -5,14 +5,10 @@
     "tier": 5,
     "categories": ["intangible"],
     "visible": false,
-    "gear_blacklist": [],
+    "gear_blacklist": ["all"],
     "can_salvage": false
   },
-  "crafting_items": {
-    "main": {
-      "item": "minecraft:barrier"
-    }
-  },
+  "crafting_items": {},
   "name": {
     "translate": "block.minecraft.barrier"
   },

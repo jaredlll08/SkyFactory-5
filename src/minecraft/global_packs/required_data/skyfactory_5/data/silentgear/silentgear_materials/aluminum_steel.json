@@ -5,7 +5,7 @@
     "tier": 3,
     "categories": ["metal"],
     "visible": true,
-    "gear_blacklist": [],
+    "gear_blacklist": ["all"],
     "can_salvage": true
   },
   "crafting_items": {
@@ -18,26 +18,26 @@
   },
   "stats": {
     "main": {
-      "durability": 660.0,
-      "armor_durability": 18.0,
+      "durability": 660,
+      "armor_durability": 18,
       "repair_value": -0.15,
-      "enchantment_value": 11.0,
-      "harvest_level": 3.0,
-      "harvest_speed": 8.0,
-      "melee_damage": 4.0,
+      "enchantment_value": 11,
+      "harvest_level": 3,
+      "harvest_speed": 8,
+      "melee_damage": 4,
       "magic_damage": 1.5,
       "attack_speed": 0.1,
-      "armor": 18.0,
-      "armor/helmet": 3.0,
-      "armor/chestplate": 7.0,
-      "armor/leggings": 5.0,
-      "armor/boots": 3.0,
-      "armor_toughness": 2.0,
-      "magic_armor": 6.0,
-      "ranged_damage": 2.0,
-      "ranged_speed": 0.0,
-      "rarity": 45.0,
-      "charging_value": 1.0
+      "armor": 18,
+      "armor/helmet": 3,
+      "armor/chestplate": 7,
+      "armor/leggings": 5,
+      "armor/boots": 3,
+      "armor_toughness": 2,
+      "magic_armor": 6,
+      "ranged_damage": 2,
+      "ranged_speed": 0,
+      "rarity": 45,
+      "charging_value": 1
     },
     "rod": {
       "durability": {
@@ -46,7 +46,7 @@
       "harvest_speed": {
         "mul2": 0.1
       },
-      "rarity": 45.0
+      "rarity": 45
     }
   },
   "traits": {
