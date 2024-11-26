@@ -67,6 +67,11 @@ Produce 1,000 RF/t
 Produce 10,000 RF/t
 Produce 100k RF/t
 Produce 1 million RF/t
+
+Craft Energetic Shears and use them to Shear Energetic Sheep to collect energy
+Use Energetic Shears or Energetic Wool to add power to a machine by discharging the shears or right-clicking the Wool in supported machines/batteries
+Collect all 16 colors of the Energetic Sheep
+
 ===
 #§1--==§0Age of Entities§1==--
 Herd all 16 Colorful Villagers (Villager Trades will automatically cycle after a short duration of time)
@@ -191,8 +196,6 @@ Craft a Silent's Gear Sickle to break leaves faster
 Craft a Silent's Gear Axe to break wood fast!
 Obtain a Hostile Neural Network Faulty Data Model for any mob
 Upgrade a Hostile Neural Network Data Model to Self Aware
-Shear an Energetic Sheep with Energetic Shears and Use Them to Power Something
-Collect all 16 colors of the Energetic Sheep (or maybe just 16 of the wool colors)
 Grow your head to 150%
 Grow your head to 250%
 Collect all 6 Limbs of any one mob (Head, Torso, Arms, Legs)
