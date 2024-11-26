@@ -35,6 +35,7 @@ const groupedItemsToModify = [
     alwaysEdible: true,
     onEaten: (e) => e.player.tell("you ate"),
   },
+
   {
     ids: ["sf5_things:block_of_meat"],
     hunger: 3,
@@ -44,7 +45,10 @@ const groupedItemsToModify = [
     onEaten: (e) => e.player.tell("you ate"),
   },
   {
-    ids: ["sf5_things:block_of_jerky"],
+    ids: [
+      "sf5_things:block_of_jerky",
+      "sf5_things:block_of_pumpkin_spice_latte",
+    ],
     hunger: 2,
     saturation: 1,
     fastToEat: false,
@@ -52,7 +56,10 @@ const groupedItemsToModify = [
     onEaten: (e) => e.player.tell("you ate"),
   },
   {
-    ids: ["sf5_things:block_of_blue_cheese"],
+    ids: [
+      "sf5_things:block_of_blue_cheese",
+      "sf5_things:block_of_grape_hi_chew",
+    ],
     hunger: 5,
     saturation: 3,
     fastToEat: false,
@@ -60,7 +67,10 @@ const groupedItemsToModify = [
     onEaten: (e) => e.player.tell("you ate"),
   },
   {
-    ids: ["sf5_things:block_of_blooming_onion"],
+    ids: [
+      "sf5_things:block_of_blooming_onion",
+      "sf5_things:block_of_black_olives",
+    ],
     hunger: 7,
     saturation: 4,
     fastToEat: false,
@@ -68,7 +78,12 @@ const groupedItemsToModify = [
     onEaten: (e) => e.player.tell("you ate"),
   },
   {
-    ids: ["yellow_snow:yellow_snow"],
+    ids: [
+      "yellow_snow:yellow_snow",
+      "sf5_things:block_of_kitty_litter",
+      "sf5_things:block_of_ketchup",
+      "sf5_things:block_of_pocket_lint",
+    ],
     hunger: 1,
     saturation: 1,
     fastToEat: false,

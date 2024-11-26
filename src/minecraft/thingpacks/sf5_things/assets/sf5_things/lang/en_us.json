@@ -52,5 +52,11 @@
   "block.sf5_things.block_of_blooming_onion": "Block of Blooming Onion",
   "block.sf5_things.block_of_grass_clippings": "Block of Grass Clippings",
   "block.sf5_things.glowing_dirtstone": "Glowing Dirtstone",
-  "item.sf5_things.colorless_paintbrush": "Colorless Paintbrush"
+  "item.sf5_things.colorless_paintbrush": "Colorless Paintbrush",
+  "block.sf5_things.block_of_pocket_lint": "Block of Pocket Lint",
+  "block.sf5_things.block_of_ketchup": "Block of Ketchup",
+  "block.sf5_things.block_of_kitty_litter": "Block of Kitty Litter",
+  "block.sf5_things.block_of_grape_hi_chew": "Block of Grape Hi-Chew",
+  "block.sf5_things.block_of_black_olives": "Block of Black Olives",
+  "block.sf5_things.block_of_pumpkin_spice_latte": "Block of Pumpkin Spice Latte"
 }

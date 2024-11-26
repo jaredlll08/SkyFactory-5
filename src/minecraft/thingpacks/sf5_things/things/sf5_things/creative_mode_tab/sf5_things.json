@@ -49,6 +49,12 @@
     { "item": "sf5_things:block_of_jerky" },
     { "item": "sf5_things:block_of_meat" },
     { "item": "sf5_things:block_of_rgb_dye" },
-    { "item": "sf5_things:glowing_dirtstone" }
+    { "item": "sf5_things:glowing_dirtstone" },
+    { "item": "sf5_things:block_of_pocket_lint" },
+    { "item": "sf5_things:block_of_ketchup" },
+    { "item": "sf5_things:block_of_kitty_litter" },
+    { "item": "sf5_things:block_of_grape_hi_chew" },
+    { "item": "sf5_things:block_of_pumpkin_spice_latte" },
+    { "item": "sf5_things:block_of_black_olives" }
   ]
 }
