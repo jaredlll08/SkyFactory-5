@@ -338,7 +338,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "veincreeper:gray",
-          "nbt": "{Glowing:1b,Team:\"sf5_gray_team\",powered:1b,ExplosionRadius:3b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_gray_team\",powered:1b,ExplosionRadius:6b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],

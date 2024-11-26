@@ -144,7 +144,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:strider",
-          "nbt": "{Glowing:1b,Team:\"sf5_red_team\",DyeMobDyeColor: 14,Saddle:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"],Passengers:[{id:\"minecraft:skeleton\",Glowing:1b,Team:\"sf5_red_team\",DyeMobDyeColor: 14,HandItems:[{id:\"minecraft:bow\",Count:1b},{}],HandDropChances:[0.000F,0.085F],ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}]}]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_red_team\",DyeMobDyeColor:14,Saddle:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"],Passengers:[{id:\"minecraft:skeleton\",Glowing:1b,Team:\"sf5_red_team\",DyeMobDyeColor:14,HandItems:[{id:\"minecraft:bow\",Count:1b,tag:{Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:punch\",lvl:5s}]}},{}],HandDropChances:[0.0f,0.085f],ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}]}]}",
           "finalize_spawn": false
         }
       ],
@@ -288,7 +288,19 @@
           "type": "gateways:attribute",
           "attribute": "generic.max_health",
           "operation": "multiply_total",
-          "value": 50.0
+          "value": 400.0
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "minecraft:generic.attack_speed",
+          "operation": "addition",
+          "value": 50
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.attack_knockback",
+          "operation": "addition",
+          "value": 5
         },
         {
           "type": "gateways:attribute",
@@ -320,7 +332,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "veincreeper:red",
-          "nbt": "{Glowing:1b,Team:\"sf5_red_team\",powered:1b,ExplosionRadius:3b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_red_team\",powered:1b,ExplosionRadius:6b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -361,7 +373,7 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "player_mobs:player_mob",
-          "nbt": "{Glowing:1b,Team:\"sf5_red_team\",\"Username\":\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"Red\",\"color\":\"red\"}',ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:11546150}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:11546150}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:11546150}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.85f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_red_team\",\"Username\":\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"Erythrós\",\"color\":\"red\"}',ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:11546150}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:11546150}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:11546150}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.85f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],

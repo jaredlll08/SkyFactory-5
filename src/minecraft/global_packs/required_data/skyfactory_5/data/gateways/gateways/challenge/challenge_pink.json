@@ -508,7 +508,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "veincreeper:pink",
-          "nbt": "{Glowing:1b,Team:\"sf5_pink_team\",powered:1b,ExplosionRadius:3b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_pink_team\",powered:1b,ExplosionRadius:6b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -549,7 +549,7 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "player_mobs:player_mob",
-          "nbt": "{Glowing:1b,Team:\"sf5_pink_team\",Username:\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"Pink\",\"color\":\"#F38BAA\"}',ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:15961002}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:15961002}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:15961002}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.663f},\"pehkui:width\":{scale:3.0f},\"pehkui:height\":{scale:3.0f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_pink_team\",Username:\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"Roz\",\"color\":\"#F38BAA\"}',ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:15961002}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:15961002}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:15961002}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.663f},\"pehkui:width\":{scale:3.0f},\"pehkui:height\":{scale:3.0f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],

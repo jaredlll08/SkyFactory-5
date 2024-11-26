@@ -60,7 +60,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.max_health",
           "operation": "multiply_total",
-          "value": 3.3333333
+          "value": 6
         },
         {
           "type": "gateways:attribute",
@@ -92,7 +92,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "forcecraft:creeper_tot",
-          "nbt": "{Glowing:1b,Team:\"sf5_lime_team\",powered:1b,ExplosionRadius:3b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_lime_team\",powered:1b,ExplosionRadius:6b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -133,7 +133,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:creeper",
-          "nbt": "{Glowing:1b,Team:\"sf5_lime_team\",powered:1b,ExplosionRadius:3b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_lime_team\",powered:1b,ExplosionRadius:6b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -215,7 +215,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "veincreeper:lime",
-          "nbt": "{Glowing:1b,Team:\"sf5_lime_team\",powered:1b,ExplosionRadius:3b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_lime_team\",powered:1b,ExplosionRadius:6b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -256,7 +256,7 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "player_mobs:player_mob",
-          "nbt": "{Glowing:1b,Team:\"sf5_lime_team\",Username:\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"Lime\",\"color\":\"#80C71F\"}',ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:8439583}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:8439583}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:8439583}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.663f},\"pehkui:width\":{scale:3.0f},\"pehkui:height\":{scale:3.0f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_lime_team\",Username:\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"Ásvestos\",\"color\":\"#80C71F\"}',ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:8439583}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:8439583}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:8439583}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.663f},\"pehkui:width\":{scale:3.0f},\"pehkui:height\":{scale:3.0f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],

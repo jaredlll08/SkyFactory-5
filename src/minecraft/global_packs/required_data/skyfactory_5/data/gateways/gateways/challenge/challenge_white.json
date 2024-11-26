@@ -10,7 +10,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:chicken",
-          "nbt": "{Glowing:1b,Team:\"sf5_white_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Passengers:[{id:\"minecraft:skeleton\",HandItems:[{id:\"minecraft:bow\",Count:1b},{}],HandDropChances:[0.0f,0.0f]}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_white_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Passengers:[{id:\"minecraft:skeleton\",HandItems:[{id:\"minecraft:bow\",Count:1b,tag:{Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:punch\",lvl:5s}]}},{}],HandDropChances:[0.0f,0.0f]}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -139,7 +139,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "colourfulllamas:llama",
-          "nbt": "{Glowing:1b,Team:\"sf5_white_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.49f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"],Passengers:[{id:\"minecraft:skeleton\",Glowing:1b,DyeMobDyeColor:0,Team:\"sf5_white_team\",HandItems:[{id:\"minecraft:bow\",Count:1b},{}],HandDropChances:[0.0f,0.0f]}]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_white_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.49f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"],Passengers:[{id:\"minecraft:skeleton\",Glowing:1b,DyeMobDyeColor:0,Team:\"sf5_white_team\",HandItems:[{id:\"minecraft:bow\",Count:1b,tag:{Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:punch\",lvl:5s}]}},{}],HandDropChances:[0.0f,0.0f]}]}",
           "finalize_spawn": false
         }
       ],
@@ -391,7 +391,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:skeleton_horse",
-          "nbt": "{Glowing:1b,Team:\"sf5_white_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.49f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"],Passengers:[{id:\"minecraft:skeleton\",Glowing:1b,DyeMobDyeColor:0,Team:\"sf5_white_team\",HandItems:[{id:\"minecraft:bow\",Count:1b},{}],HandDropChances:[0.0f,0.0f]}]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_white_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.49f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"],Passengers:[{id:\"minecraft:skeleton\",Glowing:1b,DyeMobDyeColor:0,Team:\"sf5_white_team\",HandItems:[{id:\"minecraft:bow\",Count:1b,tag:{Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:punch\",lvl:5s}]}},{}],HandDropChances:[0.0f,0.0f]}]}",
           "finalize_spawn": false
         }
       ],
@@ -743,7 +743,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "veincreeper:white",
-          "nbt": "{Glowing:1b,Team:\"sf5_white_team\",powered:1b,ExplosionRadius:3b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_white_team\",powered:1b,ExplosionRadius:6b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -784,7 +784,7 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "player_mobs:player_mob",
-          "nbt": "{Glowing:1b,Team:\"sf5_white_team\",Username:\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"White\",\"color\":\"#F9FFFE\"}',ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:16383998}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:16383998}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:16383998}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.663f},\"pehkui:width\":{scale:3.0f},\"pehkui:height\":{scale:3.0f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_white_team\",Username:\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"Lefkó\",\"color\":\"#F9FFFE\"}',ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:16383998}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:16383998}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:16383998}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.663f},\"pehkui:width\":{scale:3.0f},\"pehkui:height\":{scale:3.0f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],

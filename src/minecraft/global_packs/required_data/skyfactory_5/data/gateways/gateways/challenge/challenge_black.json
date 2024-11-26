@@ -218,9 +218,16 @@
       "entities": [
         {
           "type": "gateways:standard",
-          "count": 4,
+          "count": 2,
           "entity": "minecraft:wither_skeleton",
-          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],HandItems:[{id:\"minecraft:bow\",Count:1b,tag:{Enchantments:[{id:\"minecraft:power\",lvl:10s},{id:\"minecraft:punch\",lvl:3s},{id:\"minecraft:flame\",lvl:1s},{id:\"minecraft:infinity\",lvl:1s}]}},{}],HandDropChances:[0.0f,0.0f],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"]}",
+          "finalize_spawn": false
+        },
+        {
+          "type": "gateways:standard",
+          "count": 2,
+          "entity": "minecraft:wither_skeleton",
+          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],HandItems:[{id:\"minecraft:diamond_sword\",Count:1b},{}],HandDropChances:[0.0f,0.085f],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -308,7 +315,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "veincreeper:black",
-          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",powered:1b,ExplosionRadius:3b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",powered:1b,ExplosionRadius:6b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -349,7 +356,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "earthmobsmod:wither_skeleton_wolf",
-          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",powered:1b,ExplosionRadius:3b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",powered:1b,ExplosionRadius:6b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -390,7 +397,7 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "player_mobs:player_mob",
-          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",\"Username\":\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"Black\",\"color\":\"black\"}',ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:1908001}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:1908001}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:1908001}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.85f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",\"Username\":\"DarkostoAFK\",CustomNameVisible:1b,CustomName:'{\"text\":\"Mávros\",\"color\":\"black\"}',ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b,tag:{display:{color:1908001}}},{id:\"minecraft:leather_leggings\",Count:1b,tag:{display:{color:1908001}}},{id:\"minecraft:leather_chestplate\",Count:1b,tag:{display:{color:1908001}}},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.85f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
