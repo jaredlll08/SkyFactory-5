@@ -921,5 +921,6 @@
   "skyfactory_5.zombified_pig.entity.loot": "Zombified Pig Loot",
   "skyfactory_5.zombified_piglin.entity.loot": "Zombified Piglin Loot",
   "tooltip.craftingforblockheads.missing_andesite_casing_present": "Requires Adjacent Andesite Casing",
-  "tooltip.craftingforblockheads.missing_vanilla_composter_present": "Requires Adjacent Minecraft Composter"
+  "tooltip.craftingforblockheads.missing_vanilla_composter_present": "Requires Adjacent Minecraft Composter",
+  "tooltip.craftingforblockheads.missing_vanilla_hopper_present": "Requires Adjacent Minecraft Hopper"
 }
