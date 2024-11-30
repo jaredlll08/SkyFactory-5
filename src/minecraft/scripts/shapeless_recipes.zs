@@ -377,3 +377,30 @@ craftingTable.addShapeless(
   <item:sf5_things:block_of_rgb_dye> * 4,
   [<item:sf5_things:block_of_cyan_dye>, <item:sf5_things:block_of_magenta_dye>, <item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_black_dye>]
 );
+
+// Eccentric Tome
+craftingTable.addShapeless(
+  "eccentric_tome_all_books",
+  <item:eccentrictome:tome>.withTag({"eccentrictome:mods": {enderio: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "enderio:guide"}}}, apotheosis: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "apotheosis:apoth_chronicle"}}}, sushigocrafting: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "sushigocrafting:sushigocrafting"}}}, cyclic: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "cyclic:guide_book"}}}, industrialforegoing: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "industrialforegoing:industrial_foregoing"}}}, checklist: {"0": {id: "checklist:task_book", Count: 1}}, sebastrnlib: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"}}}, modulargolems: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "modulargolems:golem_guide"}}}, ars_nouveau: {"0": {id: "ars_nouveau:worn_notebook", Count: 1}}, forcecraft: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "forcecraft:force_and_you"}}}, laserio: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "laserio:laseriobook"}}}, littlelogistics: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "littlelogistics:guide"}}}, thermal: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "thermal:guidebook"}}}, mysticalagriculture: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "mysticalagriculture:guide"}}}, occultism: {"0": {id: "occultism:dictionary_of_spirits", Count: 1, tag: {"modonomicon:book_id": "occultism:dictionary_of_spirits"}}}}}),
+  [<item:minecraft:book>, <tag:items:forge:bookshelves>]
+);
+
+// Belts from belts!
+craftingTable.addShapeless(
+  "create_belt_from_tool_belt",
+  <item:create:belt_connector> * 2,
+  [<item:toolbelt:belt>]
+);
+
+craftingTable.addShapeless(
+  "create_belt_from_mundane_belt",
+  <item:create:belt_connector> * 1,
+  [<item:ars_nouveau:mundane_belt>]
+);
+
+// Chutes from Shoots!
+craftingTable.addShapeless(
+  "create_chute_from_bullets",
+  <item:create:chute> * 1,
+  [<tag:items:skyfactory_5:bullets>, <tag:items:skyfactory_5:bullets>,<tag:items:skyfactory_5:bullets>,<tag:items:skyfactory_5:bullets>,<tag:items:skyfactory_5:bullets>,<tag:items:skyfactory_5:bullets>]
+);

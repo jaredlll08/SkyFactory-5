@@ -434,7 +434,8 @@ val items as IItemStack[] = [
   <item:mob_grinding_utils:gm_chicken_feed>,
   <item:mob_grinding_utils:entity_spawner>,
   <item:mob_grinding_utils:mob_swab_used>,
-  <item:mob_grinding_utils:mob_swab>
+  <item:mob_grinding_utils:mob_swab>,
+  <item:eccentrictome:tome>
 
 
 ];
