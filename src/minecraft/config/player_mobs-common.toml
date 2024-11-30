@@ -103,7 +103,9 @@
 # The names need to be separated by a newline.
 # Names from these links are combined with the named from below
 # As an example you have Twitch subs in the game by using https://whitelist.gorymoon.se
-"Name Links" = ["https://whitelist.gorymoon.se/api/RBaEKlLZbgrX39xp0vmdr/nl"]
+"Name Links" = [
+  "https://whitelist.gorymoon.se/api/RBaEKlLZbgrX39xp0vmdr/minecraft_twitch_nl"
+]
 # The time interval in minutes when to reload the links (approximately, based on TPS)
 # If set to 0 it will only sync once on load.
 # Range: > 0
