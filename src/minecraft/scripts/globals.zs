@@ -7,25 +7,25 @@ public class Globals {
   public static val colors as Color[ColorName] = {
     // Commented colors are being kept for reference
     ColorName.None: new Color(ColorName.None, "Colorless", "none", 9539985), // #919191
-    ColorName.Red: new Color(ColorName.Red, "Red", "red", 16711680), // #ff0000
-    ColorName.Green: new Color(ColorName.Green, "Green", "green", 1466134), // #165F16
-    ColorName.Lime: new Color(ColorName.Lime, "Lime", "lime", 195842), // #02FD02
+    ColorName.Red: new Color(ColorName.Red, "Red", "red", 11546150), // #b02e26
+    ColorName.Green: new Color(ColorName.Green, "Green", "green", 6192150), // #5d7c15
+    ColorName.Lime: new Color(ColorName.Lime, "Lime", "lime", 8439583), // #80c71f
     // ColorName.Blue: new Color(ColorName.Blue, "Blue", "blue", 33023), // #0080ff
-    ColorName.Blue: new Color(ColorName.Blue, "Blue", "blue", 17544), // #004488
-    ColorName.LightBlue: new Color(ColorName.LightBlue, "Light Blue", "light_blue", 9425919), // #8fd3ff
-    ColorName.Gray: new Color(ColorName.Gray, "Gray", "gray", 3355443), // #333333
-    ColorName.LightGray: new Color(ColorName.LightGray, "Light Gray", "light_gray", 13882323), // #D3D3D3
-    ColorName.Yellow: new Color(ColorName.Yellow, "Yellow", "yellow", 16776960), // #ffff00
+    ColorName.Blue: new Color(ColorName.Blue, "Blue", "blue", 3949738), // #3c44a9
+    ColorName.LightBlue: new Color(ColorName.LightBlue, "Light Blue", "light_blue", 3847130), // #3ab3da
+    ColorName.Gray: new Color(ColorName.Gray, "Gray", "gray", 4673362), // #474f52
+    ColorName.LightGray: new Color(ColorName.LightGray, "Light Gray", "light_gray", 10329495), // #9c9d97
+    ColorName.Yellow: new Color(ColorName.Yellow, "Yellow", "yellow", 16701501), // #ffd83d
     // ColorName.Purple: new Color(ColorName.Purple, "Purple", "purple", 8388736), // #800080
-    ColorName.Purple: new Color(ColorName.Purple, "Purple", "purple", 8192221), // #7d00dd
-    ColorName.Magenta: new Color(ColorName.Magenta, "Magenta", "magenta", 16711935), // #FF00FF
-    ColorName.Pink: new Color(ColorName.Pink, "Pink", "pink", 16761035), // #FFC0CB
-    ColorName.White: new Color(ColorName.White, "White", "white", 16777215), // #FFFFFF
-    ColorName.Black: new Color(ColorName.Black, "Black", "black", 0), // #000000
-    ColorName.Brown: new Color(ColorName.Brown, "Brown", "brown", 5847071), // #59381f
+    ColorName.Purple: new Color(ColorName.Purple, "Purple", "purple", 8991416), // #8932b7
+    ColorName.Magenta: new Color(ColorName.Magenta, "Magenta", "magenta", 13061821), // #c64fbd
+    ColorName.Pink: new Color(ColorName.Pink, "Pink", "pink", 15961002), // #f38caa
+    ColorName.White: new Color(ColorName.White, "White", "white", 16383998), // #f9ffff
+    ColorName.Black: new Color(ColorName.Black, "Black", "black", 1908001), // #1d1c21
+    ColorName.Brown: new Color(ColorName.Brown, "Brown", "brown", 8606770), // #825432
     ColorName.LightBrown: new Color(ColorName.LightBrown, "Brown", "brown", 9849600), // #964B00
-    ColorName.Cyan: new Color(ColorName.Cyan, "Cyan", "cyan", 3203513), // #30e1b9
-    ColorName.Orange: new Color(ColorName.Orange, "Orange", "orange", 16476957) // #fb6b1d
+    ColorName.Cyan: new Color(ColorName.Cyan, "Cyan", "cyan", 1481884), // #169c9d
+    ColorName.Orange: new Color(ColorName.Orange, "Orange", "orange", 16351261) // #f9801d
   };
 
   public static val stagedMobs as StagedMob[EntityType<Entity>] = {

@@ -5,7 +5,7 @@
   },
   "lootTable": "treasurebags:bags/magenta",
   "rarity": "common",
-  "bagColor": "#FF00FF",
+  "bagColor": "#C74EBD",
   "bagOverlayColor": "#FFFFFF",
   "bagStringColor": "#FFFFFF",
   "dropsFromGroups": []
