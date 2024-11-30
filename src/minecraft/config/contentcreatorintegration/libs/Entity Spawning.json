@@ -13,7 +13,7 @@
           ],
           "outcomes": [
             {
-              "command": "/summon player_mobs:player_mob $entitySpaceCheck {PersistenceRequired:1b,\"Username\":\"$viewername\",CustomNameVisible:1b,CustomName:'{\"text\":\"$viewername\",\"color\":\"$uColor\"}',\"IsBaby\":false, ForgeData:{ESM_Ignored: 1b}}",
+              "command": "/summon player_mobs:player_mob $entitySpaceCheck {PersistenceRequired:1b,\"Username\":\"$viewername\",CustomNameVisible:1b,CustomName:'{\"text\":\"$viewername\",\"color\":\"$uColor\"}',\"IsBaby\":false}",
               "executeAsSelf": true,
               "type": "command"
             }
