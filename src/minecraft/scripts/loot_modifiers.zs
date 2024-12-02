@@ -14,7 +14,8 @@ public class BonusBlockDrops {
     this.name = name;
     this.block = block;
     this.bonusDrops = bonusDrops;
-    this.ignoreShears = this.ignoreShears;
+    this.requirePlayer = requirePlayer;
+    this.ignoreShears = ignoreShears;
   }
 
   public apply() as void {
@@ -60,8 +61,7 @@ val bonusBlockDrops as BonusBlockDrops[] = [
   new BonusBlockDrops("colorless_essence_seeds_from_none_leaves", <block:colouredstuff:leaves_none>, [<item:mysticalagriculture:none_crop_seeds> % 6], false, true),
   new BonusBlockDrops("colorless_essence_seeds_from_none_leaves2", <block:sf5_things:colorless_leaves>, [<item:mysticalagriculture:none_crop_seeds> % 6], false, true),
 
-  new BonusBlockDrops("temporary_infested_leaves_drops1", <block:exnihilosequentia:infested_leaves>, [<item:minecraft:string>], false, true),
-  new BonusBlockDrops("temporary_infested_leaves_drops2", <block:exnihilosequentia:infested_leaves>, [<item:exnihilosequentia:silkworm> % 25], false, true),
+  new BonusBlockDrops("infested_leaves_drops", <block:exnihilosequentia:infested_leaves>, [<item:minecraft:string>, <item:exnihilosequentia:silkworm> % 25], false, true),
 
   // Adds a Drowned Gateway Pearl to Leaves drops for players only
   // new BonusBlockDrops("bonus_drops_oak", <block:minecraft:oak_leaves>, [<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/drowned"}) % 69], true, true),
