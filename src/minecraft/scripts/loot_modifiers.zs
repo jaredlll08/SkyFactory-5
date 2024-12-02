@@ -64,7 +64,7 @@ val bonusBlockDrops as BonusBlockDrops[] = [
   new BonusBlockDrops("temporary_infested_leaves_drops2", <block:exnihilosequentia:infested_leaves>, [<item:exnihilosequentia:silkworm> % 25], false, true),
 
   // Adds a Drowned Gateway Pearl to Leaves drops for players only
-  new BonusBlockDrops("bonus_drops_oak", <block:minecraft:oak_leaves>, [<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/drowned"}) % 69], true, true),
+  // new BonusBlockDrops("bonus_drops_oak", <block:minecraft:oak_leaves>, [<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/drowned"}) % 69], true, true),
 
   new BonusBlockDrops("first_colorless_leaves", <block:sf5_things:colorless_leaves>, [<item:colouredstuff:sapling_none> % 15, <item:sf5_things:none_apple> % 5, <item:exnihilosequentia:silkworm> % 10], true, true),
 
