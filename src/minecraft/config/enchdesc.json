@@ -5,6 +5,7 @@
   "requireKeybindPress": false,
   "indentSize": 0,
   "style": {
-    "color": "dark_gray"
+    "color": "gold",
+    "italic": true
   }
 }
