@@ -33,10 +33,9 @@
   "item.sf5_things.orange_apple": "Orange Apple",
   "item.sf5_things.pink_apple": "Pink Apple",
   "item.sf5_things.purple_apple": "Purple Apple",
-  "item.sf5_things.treasure_bag_template": "Treasure Bag Template",
+  "item.sf5_things.treasure_bag_template": "Loot Bag Template",
   "item.sf5_things.white_apple": "White Apple",
   "item.sf5_things.yellow_apple": "Yellow Apple",
-  "jade.modname.sf5_things": "SkyFactory 5",
   "block.yellow_snow.yellow_snow": "Yellow Snow",
   "item.sf5_things.rgb_dye": "RGB Dye",
   "item.sf5_things.rainbow_laser_lens": "Rainbow Laser Lens",
@@ -58,5 +57,6 @@
   "block.sf5_things.block_of_kitty_litter": "Block of Kitty Litter",
   "block.sf5_things.block_of_grape_hi_chew": "Block of Grape Hi-Chew",
   "block.sf5_things.block_of_black_olives": "Block of Black Olives",
-  "block.sf5_things.block_of_pumpkin_spice_latte": "Block of Pumpkin Spice Latte"
+  "block.sf5_things.block_of_pumpkin_spice_latte": "Block of Pumpkin Spice Latte",
+  "sf5_things.sf5_things": "SkyFactory 5 Things"
 }

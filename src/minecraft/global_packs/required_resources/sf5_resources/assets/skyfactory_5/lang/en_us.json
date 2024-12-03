@@ -199,6 +199,7 @@
   "biome.skyfactory_5.biome_white": "White Biome",
   "biome.skyfactory_5.biome_yellow": "Yellow Biome",
   "biome.skyfactory_5.scp_1689": "§kPotato §rDimension",
+  "block.draconicevolution.chaos_crystal_part": "Chaos Crystal",
   "entity.minecraft.villager.spacecatcustomprofessions.villager_black": "Black Pearl Trader",
   "entity.minecraft.villager.spacecatcustomprofessions.villager_blue": "Blue Pearl Trader",
   "entity.minecraft.villager.spacecatcustomprofessions.villager_brown": "Brown Pearl Trader",
@@ -707,7 +708,6 @@
   "gateways.titan/zombified_pig": "Titan Zombified Pig Gateway",
   "gateways.titan/zombified_piglin": "Titan Zombified Piglin Gateway",
   "item.ae2.silicon_press": "Inscriber Press",
-  "jade.theme.jade.sf5": "SkyFactory 5 Theme",
   "skyfactory_5.abyssologer.entity.loot": "Abyssologer Loot",
   "skyfactory_5.adelie_penguin.entity.loot": "Adelie Penguin Loot",
   "skyfactory_5.advancement.all_colors.stage": "Discover all of the colors!",
@@ -922,6 +922,7 @@
   "skyfactory_5.zombified_pig.entity.loot": "Zombified Pig Loot",
   "skyfactory_5.zombified_piglin.entity.loot": "Zombified Piglin Loot",
   "tooltip.craftingforblockheads.missing_andesite_casing_present": "Requires Adjacent Andesite Casing",
+  "tooltip.craftingforblockheads.missing_ex_nihilo_barrel_present": "Requires Adjacent Ex Nihilo Barrel",
   "tooltip.craftingforblockheads.missing_vanilla_composter_present": "Requires Adjacent Minecraft Composter",
   "tooltip.craftingforblockheads.missing_vanilla_hopper_present": "Requires Adjacent Minecraft Hopper"
 }
