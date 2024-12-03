@@ -3,6 +3,7 @@
   "values": [
     "checklist:task_table",
     "craftingstation:crafting_station",
+    "create:andesite_casing",
     "exnihilocoloratus:black_barrel",
     "exnihilocoloratus:black_crucible",
     "exnihilocoloratus:blue_barrel",
@@ -37,17 +38,16 @@
     "exnihilocoloratus:white_crucible",
     "exnihilocoloratus:yellow_barrel",
     "exnihilocoloratus:yellow_crucible",
-    "sophisticatedstorage:chest",
-    "minecraft:furnace",
-    "minecraft:crafting_table",
-    "minecraft:composter",
-    "minecraft:smoker",
     "minecraft:blast_furnace",
     "minecraft:cartography_table",
+    "minecraft:composter",
+    "minecraft:crafting_table",
     "minecraft:fletching_table",
+    "minecraft:furnace",
     "minecraft:grindstone",
+    "minecraft:hopper",
     "minecraft:smithing_table",
-    "create:andesite_casing",
-    "minecraft:hopper"
+    "minecraft:smoker",
+    "sophisticatedstorage:chest"
   ]
 }
