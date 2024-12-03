@@ -99,6 +99,11 @@ recipes.addJsonRecipe("rgb_printer_raw_iron5", {
      ingredients: [<item:sf5_things:rgb_dye>],
      result: <item:minecraft:raw_iron>});
 
+recipes.addJsonRecipe("rgb_printer_raw_iron6", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:raw_iron>});
+
 // Raw Lead
 recipes.addJsonRecipe("rgb_printer_raw_lead", {
      type: "forbiddensmoothies:printer",
@@ -140,6 +145,11 @@ recipes.addJsonRecipe("rgb_printer_raw_zinc", {
      ingredients: [<item:sf5_things:rgb_dye>],
      result: <item:create:raw_zinc>});
 
+recipes.addJsonRecipe("rgb_printer_raw_zinc2", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:create:raw_zinc>});
+
 // Redstone
 recipes.addJsonRecipe("rgb_printer_redstone", {
      type: "forbiddensmoothies:printer",
@@ -161,6 +171,11 @@ recipes.addJsonRecipe("rgb_printer_redstone4", {
      ingredients: [<item:sf5_things:rgb_dye>],
      result: <item:minecraft:redstone>});
 
+recipes.addJsonRecipe("rgb_printer_redstone5", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:minecraft:redstone>});
+
 // Skystone Dust
 recipes.addJsonRecipe("rgb_printer_sky_dust", {
      type: "forbiddensmoothies:printer",
@@ -172,30 +187,44 @@ recipes.addJsonRecipe("rgb_printer_andesite_pebble", {
      type: "forbiddensmoothies:printer",
      ingredients: [<item:sf5_things:rgb_dye>],
      result: <item:exnihilosequentia:andesite_pebble>});
+
 // Deepslate Pebble
 recipes.addJsonRecipe("rgb_printer_deepslate_pebble", {
      type: "forbiddensmoothies:printer",
      ingredients: [<item:sf5_things:rgb_dye>],
      result: <item:exnihilosequentia:deepslate_pebble>});
+
 // Diorite Pebble
 recipes.addJsonRecipe("rgb_printer_diorite_pebble", {
      type: "forbiddensmoothies:printer",
      ingredients: [<item:sf5_things:rgb_dye>],
      result: <item:exnihilosequentia:diorite_pebble>});
+
   // Dripstone Pebble
 recipes.addJsonRecipe("rgb_printer_dripstone_pebble", {
      type: "forbiddensmoothies:printer",
      ingredients: [<item:sf5_things:rgb_dye>],
      result: <item:exnihilosequentia:dripstone_pebble>});
+
 // Granite Pebble
 recipes.addJsonRecipe("rgb_printer_granite_pebble", {
      type: "forbiddensmoothies:printer",
      ingredients: [<item:sf5_things:rgb_dye>],
      result: <item:exnihilosequentia:granite_pebble>});
 
+// Draconium Dust
+recipes.addJsonRecipe("rgb_printer_draconium_dust", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:rgb_dye>],
+     result: <item:draconicevolution:draconium_dust>});
+
+
+// // // // // // // // // // // // // // // // // // // // // // // // // // // //
 // //
 // Block of RGB Dye
 // //
+// // // // // // // // // // // // // // // // // // // // // // // // // // // //
+
 // Amethyst Shard
 recipes.addJsonRecipe("rgb_to_amethyst_shard_x9", {
      type: "forbiddensmoothies:printer",
@@ -297,6 +326,11 @@ recipes.addJsonRecipe("rgb_printer_raw_iron5_x9", {
      ingredients: [<item:sf5_things:block_of_rgb_dye>],
      result: <item:minecraft:raw_iron_block>});
 
+recipes.addJsonRecipe("rgb_printer_raw_iron6_x9", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:block_of_rgb_dye>],
+     result: <item:minecraft:raw_iron_block>});
+
 // Raw Lead
 recipes.addJsonRecipe("rgb_printer_raw_lead_x9", {
      type: "forbiddensmoothies:printer",
@@ -338,6 +372,11 @@ recipes.addJsonRecipe("rgb_printer_raw_zinc_x9", {
      ingredients: [<item:sf5_things:block_of_rgb_dye>],
      result: <item:create:raw_zinc_block>});
 
+recipes.addJsonRecipe("rgb_printer_raw_zinc2_x9", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:block_of_rgb_dye>],
+     result: <item:create:raw_zinc_block>});
+
 // Redstone
 recipes.addJsonRecipe("rgb_printer_redstone_x9", {
      type: "forbiddensmoothies:printer",
@@ -359,6 +398,12 @@ recipes.addJsonRecipe("rgb_printer_redstone4_x9", {
      ingredients: [<item:sf5_things:block_of_rgb_dye>],
      result: <item:minecraft:redstone_block>});
 
+recipes.addJsonRecipe("rgb_printer_redstone5_x9", {
+     type: "forbiddensmoothies:printer",
+     ingredients: [<item:sf5_things:block_of_rgb_dye>],
+     result: <item:minecraft:redstone_block>});
+
+
 // Skystone Dust
 recipes.addJsonRecipe("rgb_printer_sky_dust_x9", {
      type: "forbiddensmoothies:printer",
@@ -370,21 +415,25 @@ recipes.addJsonRecipe("rgb_printer_andesite_pebble_x9", {
      type: "forbiddensmoothies:printer",
      ingredients: [<item:sf5_things:block_of_rgb_dye>],
      result: <item:exnihilosequentia:andesite_pebble> * 9});
+
 // Deepslate Pebble
 recipes.addJsonRecipe("rgb_printer_deepslate_pebble_x9", {
      type: "forbiddensmoothies:printer",
      ingredients: [<item:sf5_things:block_of_rgb_dye>],
      result: <item:exnihilosequentia:deepslate_pebble> * 9});
+
 // Diorite Pebble
 recipes.addJsonRecipe("rgb_printer_diorite_pebble_x9", {
      type: "forbiddensmoothies:printer",
      ingredients: [<item:sf5_things:block_of_rgb_dye>],
      result: <item:exnihilosequentia:diorite_pebble> * 9});
+
   // Dripstone Pebble
 recipes.addJsonRecipe("rgb_printer_dripstone_pebble_x9", {
      type: "forbiddensmoothies:printer",
      ingredients: [<item:sf5_things:block_of_rgb_dye>],
      result: <item:exnihilosequentia:dripstone_pebble> * 9});
+
 // Granite Pebble
 recipes.addJsonRecipe("rgb_printer_granite_pebble_x9", {
      type: "forbiddensmoothies:printer",
@@ -392,7 +441,7 @@ recipes.addJsonRecipe("rgb_printer_granite_pebble_x9", {
      result: <item:exnihilosequentia:granite_pebble> * 9});
 
 // Draconium Dust
-recipes.addJsonRecipe("rgb_printer_draconium_dust", {
+recipes.addJsonRecipe("rgb_printer_draconium_dust_x9", {
      type: "forbiddensmoothies:printer",
      ingredients: [<item:sf5_things:rgb_dye>],
      result: <item:draconicevolution:draconium_dust>});
