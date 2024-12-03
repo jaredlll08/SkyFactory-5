@@ -267,6 +267,9 @@
       },
       "includes": [
         {
+          "item": "sf5_things:treasure_bag_template"
+        },
+        {
           "item": "silentgear:rod_template"
         },
         {
