@@ -7,7 +7,7 @@ function addRGBDyeAndBlockPrinterRecipe(baseRecipeName: string, itemOutput: IIte
 
 addRGBDyeAndBlockPrinterRecipe("rgb_printer_amethyst_shard", <item:minecraft:amethyst_shard>, <item:minecraft:amethyst_shard> * 9, 1);
 addRGBDyeAndBlockPrinterRecipe("rgb_printer_certus_quartz_crystal", <item:ae2:certus_quartz_crystal>, <item:ae2:certus_quartz_crystal> * 9, 1);
-addRGBDyeAndBlockPrinterRecipe("rgb_printer_coal", <item:minecraft:coal>, <item:minecraft:coal_block>, 1);
+addRGBDyeAndBlockPrinterRecipe("rgb_printer_coal", <item:minecraft:coal>, <item:minecraft:coal_block>, 4);
 addRGBDyeAndBlockPrinterRecipe("rgb_printer_diamond", <item:minecraft:diamond>, <item:minecraft:diamond_block>, 1);
 addRGBDyeAndBlockPrinterRecipe("rgb_printer_emerald", <item:minecraft:emerald>, <item:minecraft:emerald_block>, 1);
 addRGBDyeAndBlockPrinterRecipe("rgb_printer_lapis_lazuli", <item:minecraft:lapis_lazuli>, <item:minecraft:lapis_block>, 1);

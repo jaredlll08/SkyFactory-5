@@ -41,14 +41,14 @@ AITweaks.addProjectileAttackTweak(<entitytype:minecraft:parrot>, <entitytype:min
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:strider>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:panda>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:allay>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:colourfulllamas:llama>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 4.0F, 4.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:colourfulllamas:llama>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 8.0F, 4.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:ars_nouveau:whirlisprig>, <entitytype:minecraft:llama_spit>, "minecraft:entity.llama.spit", 1, 8.0F, 6.0F);
 AITweaks.addLeapTweak(<entitytype:ars_nouveau:whirlisprig>, 2, 0.3F);
 
 // Trident Throw
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:salmon>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:sushigocrafting:tuna>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
-AITweaks.addProjectileAttackTweak(<entitytype:minecraft:dolphin>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:sushigocrafting:tuna>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 4.0F, 1.0F);
+AITweaks.addProjectileAttackTweak(<entitytype:minecraft:dolphin>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 4.0F, 1.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:cod>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:tadpole>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);
 AITweaks.addProjectileAttackTweak(<entitytype:minecraft:pufferfish>, <entitytype:minecraft:trident>, "minecraft:item.trident.throw", 1, 1.0F, 1.0F);

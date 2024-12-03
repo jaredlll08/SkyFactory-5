@@ -130,3 +130,30 @@ import crafttweaker.api.text.Component;
   var energetic_shears2 = Component.literal("with the Shears in hand or inserting into a compatible machine").setStyle(<constant:formatting:yellow>);
   <item:energeticsheep:energetic_shears>.addTooltip(energetic_shears1);
   <item:energeticsheep:energetic_shears>.addTooltip(energetic_shears2);
+
+// Crafting Station
+  var crafting_station1 = Component.literal("Can be used to craft any shaped ").setStyle(<constant:formatting:yellow>);
+  var crafting_station2 = Component.literal("or shapeless recipes").setStyle(<constant:formatting:yellow>);
+  <item:craftingstation:crafting_station>.addTooltip(crafting_station1);
+  <item:craftingstation:crafting_station>.addTooltip(crafting_station2);
+
+// Draconic Evolution Chaos Shards
+  var chaos_shard1 = Component.literal("Located at the center of a Chaos Island ").setStyle(<constant:formatting:yellow>);
+  var chaos_shard2 = Component.literal("in the End after defeating the").setStyle(<constant:formatting:yellow>);
+  var chaos_shard3 = Component.literal("Chaos Guardian").setStyle(<constant:formatting:yellow>);
+  <item:draconicevolution:chaos_shard>.addTooltip(chaos_shard1);
+  <item:draconicevolution:chaos_shard>.addTooltip(chaos_shard2);
+  <item:draconicevolution:chaos_shard>.addTooltip(chaos_shard3);
+
+// RFTools Dimensions
+  var lost_knowledge1 = Component.literal("Dropped by Endermen, Ender Tots, and Angry Endermen or found in RFTools Dimension Loot Chests").withStyle(style => style.withColor(0xf9ffff));
+  // var lost_knowledge2 = Component.literal("or found in RFTools Dimension Loot Chests").setStyle(<constant:formatting:yellow>);
+  <item:rftoolsdim:common_lost_knowledge>.addTooltip(lost_knowledge1);
+ // <item:rftoolsdim:common_lost_knowledge>.addTooltip(lost_knowledge2);
+  <item:rftoolsdim:uncommon_lost_knowledge>.addTooltip(lost_knowledge1);
+ // <item:rftoolsdim:uncommon_lost_knowledge>.addTooltip(lost_knowledge2);
+  <item:rftoolsdim:rare_lost_knowledge>.addTooltip(lost_knowledge1);
+ // <item:rftoolsdim:rare_lost_knowledge>.addTooltip(lost_knowledge2);
+  <item:rftoolsdim:legendary_lost_knowledge>.addTooltip(lost_knowledge1);
+ // <item:rftoolsdim:legendary_lost_knowledge>.addTooltip(lost_knowledge2);
+

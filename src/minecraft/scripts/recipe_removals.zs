@@ -113,6 +113,9 @@ val items as IItemStack[] = [
 <item:cyclic:shield_bone>,
 <item:cyclic:shears_obsidian>,
 <item:cyclic:shears_flint>,
+<item:cyclic:spawner_seeker>,
+<item:cyclic:ender_eye_reuse>,
+<item:cyclic:spelunker>,
 
 // Cyclic Apples
 <item:cyclic:apple_ender>,
@@ -435,7 +438,12 @@ val items as IItemStack[] = [
   <item:mob_grinding_utils:entity_spawner>,
   <item:mob_grinding_utils:mob_swab_used>,
   <item:mob_grinding_utils:mob_swab>,
-  <item:eccentrictome:tome>
+  <item:eccentrictome:tome>,
+
+  // Draconic Evolution
+  <item:draconicevolution:stabilized_spawner>,
+  <item:draconicevolution:mob_soul>
+
 
 
 ];
@@ -475,3 +483,20 @@ craftingTable.removeByName("minecraft:ens_tuff");
 // Cluttered mod
 craftingTable.removeByName("luphieclutteredmod:luphie_purple_plank_set_stick_recipe");
 craftingTable.removeByName("luphieclutteredmod:luphie_glow_wood_set_stick_recipe");
+
+
+// Attempts to remove Draconic Evolution Spawner Conversion
+events.register<crafttweaker.forge.api.event.interact.RightClickBlockEvent>(event => {
+  val level = event.entity.level;
+  val pos = event.blockPos;
+  val stack = event.itemStack;
+  // If we are on the client, or the item is not from draconic, return
+  if level.isClientSide || stack.registryName.namespace != "draconicevolution" {
+    return;
+  }
+  val state = level.getBlockState(pos);
+  // if the block is a spawner, cancel the event
+  if state.block == <block:minecraft:spawner> {
+    event.cancel();
+  }
+});

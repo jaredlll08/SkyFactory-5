@@ -1350,3 +1350,45 @@ craftingTable.addShaped(
   ]
 );
 
+// Witherproof Glass block
+  craftingTable.addShaped(
+  "mys_ag_witherproof_glass",
+  <item:mysticalagriculture:witherproof_block> * 4,
+  [
+    [<item:minecraft:tinted_glass>, <item:bhc:wither_bone>, <item:minecraft:tinted_glass>],
+    [<item:bhc:wither_bone>, <item:minecraft:tinted_glass>, <item:bhc:wither_bone>],
+    [<item:minecraft:tinted_glass>, <item:bhc:wither_bone>, <item:minecraft:tinted_glass>]
+  ]
+);
+
+// Draconic Evolution Quality of Life recipes
+  craftingTable.addShaped(
+  "de_awakened_core",
+  <item:draconicevolution:awakened_core> * 1,
+  [
+    [<item:draconicevolution:awakened_draconium_ingot>, <item:draconicevolution:wyvern_core>, <item:draconicevolution:awakened_draconium_ingot>],
+    [<item:draconicevolution:wyvern_core>, <item:minecraft:nether_star>, <item:draconicevolution:wyvern_core>],
+    [<item:draconicevolution:awakened_draconium_ingot>, <item:draconicevolution:wyvern_core>, <item:draconicevolution:awakened_draconium_ingot>]
+  ]
+);
+
+  craftingTable.addShaped(
+  "de_chaotic_core",
+  <item:draconicevolution:chaotic_core> * 1,
+  [
+    [<item:draconicevolution:large_chaos_frag>, <item:draconicevolution:awakened_core>, <item:draconicevolution:large_chaos_frag>],
+    [<item:draconicevolution:awakened_core>, <item:minecraft:nether_star>, <item:draconicevolution:awakened_core>],
+    [<item:draconicevolution:large_chaos_frag>, <item:draconicevolution:awakened_core>, <item:draconicevolution:large_chaos_frag>]
+  ]
+);
+
+// Glowing Dirtstone
+  craftingTable.addShaped(
+  "glowing_dirtstone",
+  <item:sf5_things:glowing_dirtstone> * 1,
+  [
+    [<item:minecraft:air>, <item:minecraft:glowstone_dust>, <item:minecraft:air>],
+    [<item:minecraft:glowstone_dust>, <item:minecraft:dirt>, <item:minecraft:glowstone_dust>],
+    [<item:minecraft:air>, <item:minecraft:glowstone_dust>, <item:minecraft:air>]
+  ]
+);
