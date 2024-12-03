@@ -1,6 +1,6 @@
 {
   "icon": {
-    "item": "craftingstation:crafting_station"
+    "item": "colouredstuff:crafting_table_rainbow"
   },
-  "items": [{ "item": "craftingstation:crafting_station" }]
+  "items": [{ "item": "colouredstuff:crafting_table_rainbow" }]
 }
