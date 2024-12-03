@@ -1,116 +1,160 @@
-#Welcome to SkyFactory 5
-#If you're reading this then I am sorry.
-#You have been chosen to embark on a very long, tedious, extremely grindy, yet meaningful trek into a beautiful mess of blocks, items, and other weird stuff. This pack is not finished and will probably have lots of bugs, issues, problems, lag, messes, worriment, questionable choices, headaches, heart aches, aches in places you didn't knew existed, obstacles, and dragons.
+# Welcome to SkyFactory® 5
+#§1============================
+#You probably noticed there's no color! Don't worry, your computer isn't broken. Each of the 16 Minecraft Colors will have to be discovered in a variety of ways: Crafting, in-world actions, etc. If you get stuck, the Advancements should help you out.
 ===
-#When will it be out you might ask? That depends, how much money do you have? Just kidding! But seriously, if you have to ask you probably can't afford it. No but really, it's going to be out when it's ready and that depends on how fast MisterWiggly here can work on reporting bugs and other anomalies.
+# How to Use This Book
+#Use the arrows at the bottom of the pages to navigate the book. You will see challenges separated into ages that represent the general path of progression, although you do not need to do them in order. Simply check the box next to each challenge on completion. Careful though, tasks become increasingly difficult as you progress! Also, don't forget to craft yourself a Task Table to store this book!
+===
+#§1--==§ Mob Spawning§1==--
 
-#TLDR: This pack is currently very sucks and it needs a lot of fixing.
+#In SkyFactory 5, mobs spawn differently than previous modpacks or vanilla. Mobs will not spawn naturally and require you to complete Gateways to obtain a Trophy. You can then place and activate the Trophy to spawn only that mob. Mobs will spawn on most blocks and don't require specific blocks like Grass or Water. You do not need to worry about Biomes, Dimensions, or Y levels as mob spawning is not dependent on these.
 
-#HAVE FUN!
+#Light levels will matter when spawning mobs. Friendly mobs will spawn in light levels 8 to 15 while hostile mobs will need light levels 0 to 7. You can easily find the light level by pressing F7.
+
+#Mobs will spawn from Spawners found in the world. You can then collect the Spawners, upgrade them, and use a Trophy on the Spawner to change what mob it will spawn.
 ===
 #Special Thank You to:
 #FirstNecron, MarioLuigi7896, Jaredlll08, Muddr, Lothrazar, GoryMoon, Shadows_of_Fire, MrBysco, BlayTheNinth, KingLemming
-#and more people will be added to this list!
+#
+#To everyone who has supported the development process
+#
+#And finally, big thanks to the modding community for making this happen!
 ===
-Discover §0(§0Black§0)
-Discover §1(§0Blue§1)
-Discover §6(§0Brown§6)
-Discover §3(§0Cyan§3)
-Discover §8(§0Gray§8)
-Discover §2(§0Green§2)
-Discover §b(§0Light Blue§b)
-Discover §7(§0Light Gray§7)
-Discover §a(§0Lime§a)
-Discover §5(§0Magenta§5)
-Discover §6(§0Orange§6)
-Discover §d(§0Pink§d)
-Discover §5(§0Purple§5)
-Discover §c(§0Red§c)
-Discover §f(§0White§f)
-Discover §e(§0Yellow§e)
+# From the Developer
+
+# Hi! My name is Darkosto and I am the developer of SkyFactory 5
+
+ If you have any questions head on over to §9§n[Twitch](https://twitch.tv/darkosto)§r or the official §9§n[Discord Community](https://discord.gg/darkosto)§r
+
+# Thanks for playing the modpack
 
 ===
-Change the color of a Sapling by using Dye on it
+Discover §0==§0Black§0==
+Discover §1==§0Blue§1==
+Discover §6==§0Brown§6==
+Discover §3==§0Cyan§3==
+Discover §8==§0Gray§8==
+Discover §2==§0Green§2==
+Discover §b==§0Light Blue§b==
+Discover §7==§0Light Gray§7==
+Discover §a==§0Lime§a==
+Discover §5==§0Magenta§5==
+Discover §6==§0Orange§6==
+Discover §d==§0Pink§d==
+Discover §5==§0Purple§5==
+Discover §c==§0Red§c==
+Discover §f==§0White§f==
+Discover §e==§0Yellow§e==
 
-# §1--==§0Age of Beginning-ment§1==--
-Use a Barrel to Create Dirt
+===
+# §1--==§0Age of Discovery§1==--
+Use the Crafting Stick to make a Colorless Crafting Table
+Use a Barrel to create Dirt
 Eat Dirt!
 Use Colored Planks to craft any Color Crafting Table
 Use any Dye and a Stick to make a Color Torch
-Craft a Crafting Station
-Use a Campfire to Obtain Ash and use it to craft Cobblestone
+Change the color of a Sapling by using Dye on it
+Craft a Crafting Station to make recipes not available in the Color Crafting Tables
+Craft a Silent's Gear Sickle to break Leaves faster
+Craft a Silent's Gear Axe to break Wood faster
 Right Click with an Axe on a Log to get a Template Board
-Use a Crucible to melt leaves or saplings to get water (or collect via rain)
+Use a Crucible to melt Leaves or Saplings to get Water (or collect via rain)
 Infest Leaves with a Silkworm to obtain String
+Use a Campfire to obtain Ash and use it to craft Cobblestone
 Use a Hammer from Ex Nihilo or a Millstone to create Sand
 Use Sand on a Barrel filled with Water to make Clay
-Make Lava in a Fired Crucible
-===
-#§1--==§0Age of Automation§1==--
-Use a Stirling or Combustion Generator to make power
-Automate resources
-Craft RGB Dye
-Craft a Blender to Mix Dyes together
-Craft a Printer to automate resource collection
+Craft an Eccentric Tome to get all Guide Books
 ===
 #§1--==§0Stone Age§1==--
+Make Lava in a Fired Crucible
 Obtain Obsidian
 Automate your Cobblestone generation
 Upgrade your Silent's Gear tools with a Stone Material (Cobblestone, Andesite, Diorite, Granite)
+===
+#§1--==§0Chromatic Age§1==--
+Throw Dye into Water to change its color
+Use Color Dyed Water to convert Sand into a Dye Block
+Click on a Color Leaves block with Dye to create Flowers
+Throw a Color Sapling into Water to change its color
+Throw a Color Sapling into Fire or Lava to change its color
+Use Dripstone to convert a Block of Sand into a Dye Block
+Breed 2 Cows in Color Water to get a Fluid Cow
+===
+#§1--==§0Age of Automation§1==--
+Use a Stirling or Combustion Generator to make power
+Craft RGB Dye
+Craft a Blender to Mix Dyes together
+Craft a Printer to automate resource collection
+Obtain an EnderIO Grain of Infinity
+Use a Pulverizer as a Catalyst in a Pulverizer
+Speed up your machines by capturing the Warden with the Industrial Foregoing Souls mod
 ===
 #§1--==§0Age of Power§1==--
 Create a Passively cooled reactor from the Bigger Reactors Mod
 Create an Actively cooled reactor from the Bigger Reactors Mod
 Create the maximum size reactor (32x32x48)
-Create a turbine from the Bigger Reactors Mod
+Create a Turbine from the Bigger Reactors Mod
 Produce 1,000 RF/t
 Produce 10,000 RF/t
 Produce 100k RF/t
 Produce 1 million RF/t
-
-Craft Energetic Shears and use them to Shear Energetic Sheep to collect energy
+Craft Energetic Shears and use them to shear Energetic Sheep to collect energy
 Use Energetic Shears or Energetic Wool to add power to a machine by discharging the shears or right-clicking the Wool in supported machines/batteries
-Collect all 16 colors of the Energetic Sheep
-
+Collect all 16 colors of Energetic Sheep
 ===
-#§1--==§0Age of Entities§1==--
+#§1--==§0Age of Life§1==--
 Herd all 16 Colorful Villagers (Villager Trades will automatically cycle after a short duration of time)
-Obtain all 147 trophies
+Obtain all 147 Trophies
 Find and pickup a Mob Spawner
-Change a Mob Spawner by Right Clicking on it with a Trophy
+Change a Mob Spawner by right-clicking on it with a Trophy
+Use a Mega Torch to block creature spawns
+Build a Modular Golem
+Build a Modular Wolf
+Build a Modular Humanoid
+Modular Golem Gear up with Netherite
+Modular Golem Full Upgrades
 
 #§1--==§0Normal Gateways§1==--
 Obtain a Normal Gateway Pearl
-Complete a Gateway and Receive a Mob Trophy
-Right Click on a Trophy to Activate It
-Complete all 147 Normal Gateways (Not Titan)
+Complete a Gateway and receive a mob Trophy
+Right-click on a Trophy to activate it
+Complete all 147 Normal Gateways (not Titan)
 Complete the Normal Ender Dragon Gateway
 
 #§1--==§0Titan Gateways§1==--
 Obtain a Titan Gateway Pearl
-Complete Wave 50 of any Titan Gateway
-Complete Wave 100 of any Titan Gateway
-Complete Wave 150 of any Titan Gateway
+Complete wave 50 of any Titan Gateway
+Complete wave 100 of any Titan Gateway
+Complete wave 150 of any Titan Gateway
 
 #§1--==§0Challenge Gateways§1==--
 Complete all 16 Challenge Gateways
-
+===
 #§1--==§0Age of Farming§1==--
 Obtain an Inferium Seed
-Capture a Cow in a jar
-Grow a sugar cane from y 1 to max height (y448)
-Obtain all 16 Color Mystical Agriculture Seeds
+Capture a Cow in a Jar
+Grow Sugar Cane from the bottom of the world to max height (y=448)
+Obtain all 16 color Mystical Agriculture Seeds
 Obtain an RGB Essence Seed
 ===
 #§1--==§0Age of Travel§1==--
 Fly
-Craft a Way Back Stone to easily teleport to your Spawn Location from anywhere
+Craft a Wayback Stone to easily teleport to your spawn location from anywhere
+Use a Bubble Blower to place a block in the air
 Travel to the Nether
 Travel to the End
-Use a Bubble Blower to place a block in the air
+===
+#§1--==§0Age of Miscellaneous§1==--
+Craft a Create Sabers Saber
+Craft a Hammock to sleep to night time
+Fall through the void into a pool of water
+Grow your head to 150% by crafting 2 of the same heads together
+Grow your head to 250% by crafting 2 of the same heads together
+Collect all 6 Limbs of any one mob (Head, Torso, Arms, Legs)
+Use an Organic Matter Compressor to transform matter into Loot Bags
 ===
 #§1--==§0Age of Magic§1==--
-#Ars Nouveau
+#§1-=§0Ars Nouveau§1=-
 Make A Source Gem
 Make a Spellbook
 Make a Scribes Table
@@ -119,7 +163,7 @@ Make an Enchanting Apparatus
 Make a Ritual Brazier
 Use a Crush Spell to automate Sand and Gravel
 Use a Ritual of Summon Wilden and Defeat them
-Use a Ritual of Flight to Fly around!
+Use a Ritual of Flight to fly around!
 Summon a Weald Walker by performing an Awakening ritual near an Archwood Tree
 Use Starbuncles to Automate Item Retrieval
 Use Wixies To automate Potion Brewing
@@ -127,23 +171,23 @@ Automate a Farm with a Harvest Ritual
 Make an island using a Conjure Island ritual (either plains or desert)
 Summon and Defeat the Wilden Chimera
 Automate a Farm with Spell Turrets
-Farm Mob Drops With Drygmies
-Summon a Decoy of Yourself
-Capture Every Boss in A Containment Jar (may need to split into seperate tasks)
-Generate Source Using Every Type of Sourcelink
-Fully Upgrade a Set of Ars Nouveu Armor(Tier 3 Fill all thread slots, may be worded better)
-Summon A Familiar
-Use a Scryer's Oculus to Remotely Access a block
+Farm Mob Drops with Drygmies
+Summon a Decoy of yourself
+Capture Every Boss in a Containment Jar (may need to split into seperate tasks)
+Generate Source using every type of Sourcelink
+Fully Upgrade a set of Ars Nouveau Armor (Tier 3 fill all thread slots)
+Summon a Familiar
+Use a Scryer's Oculus to remotely access a block
 Teleport with a Warp Scroll/Portal
 Use a Flask Cannon
 ===
-#Occultism
-Eat Demon's Dream Fruit To get the 3rd eye Effect
+#§1-=§0Occultism§1=-
+Eat Demon's Dream Fruit to get the 3rd Eye Effect
 Make a Spiritfire
 Obtain White Chalk
-Summon A Crusher Spirit to help Automate Resources
+Summon a Crusher Spirit to help automate resources
 Summon a Possessed Endermite and kill it for Endstone
-Use an Ars Nouveau Containment Jar to Capture an Occultism Spirit, letting them work without decaying
+Use an Ars Nouveau Containment Jar to capture an Occultism Spirit, letting them work without decaying
 Capture One of Each Trader Spirit in an Ars Nouveau Containment Jar
 Create A Dimensional Matrix for Mass item storage
 Summon A Djinni Machine Operator To Automate Crafting with the Dimensional Matrix
@@ -156,61 +200,77 @@ Use a Janitor Spirit to Automate Collecting items
 Summon A Familiar and Capture it in a Familiar Ring
 Summon a Demonic Wife/Husband
 ===
-#§1--==§0Bosses§1==--
+#§1-=§0Age of the Botanist§1=-
+Craft a Petal Apothecary
+Create 64 Livingwood and 64 Livingrock with a Pure Daisy
+Craft a tiny potato and name it Direwolf20
+Craft a Mana Pool and a Mana Spreader
+Craft a Wand of the Forest
+Create a portal to Alfheim
+Use the portal to Alfheim to trade for Dye or Resources
+Create an automated flower farm with a Jaded Amaranthus
+#§1-=§0Mastery§1=-
+Automate a Pure Daisy with only Botania and vanilla mechanics
+Craft and fill a Terrasteel Mana Ring
+Complete the Ritual of Gaia
+Complete the Ritual of Gaia II
+===
+#§1--==§0Age of Legends§1==--
 Defeat the Warden
 Defeat the Ender Dragon
 Defeat the Wither
 Defeat the Gaia Guardian
 Defeat the Ghast Cow
-Defeat the Chaos Dragon
 ===
-#§1--==§0Storage§1==--
+#§1--==§0Age of Hoarding§1==--
 Create a 9x9x9 Colossal Chest
 Obtain a Netherite Backpack from Sophisticated Backpacks
 Craft and use the Inception Upgrade in a Sophisticated Backpack to add more backpacks to your backpacks
 Craft and use the Everlasting Upgrade in a Sophisticated Backpack to keep your stuff safe from the void
+Connect your Applied Energistics Storage System across dimensions using the Quantum Link Chamber
 ===
-#§1--==§0RFTools Dimensions§1==--
+#§1--==§0Age of Worlds§1==--
+Acquire and research a Lost Knowledge Pattern
 Create and travel to an RFTools Dimension
-Create a Dimension full of Potatoes
+Create a dimension full of Potatoes
 Infuse your Infuser Machine to 100%
-Acquire and Research a Lost Knowledge Pattern
 Destroy a created dimension by sending a Block of TNT to a dimension with the Dimension Editor
-Create a Dimension of RGB Blocks
+Create a dmension of RGB Blocks
 ===
+#§1--==§0Age of Dragons§1==--
+Craft the Draconic Chestpiece
+Craft the Draconic Tools
+Draconic Pickaxe
+Draconic Axe
+Draconic Shovel
+Draconic Hoe
+Draconic Staff of Power
 ===
-#§1--==§0Age of Craziness§1==--
-Collect all 231 hats
-Obtain 90 Total Hearts of Health
-Craft an Infinity Wand
-Create a Perfect Sushi Roll
-Create a Culinary Construct Sandwich Full of Different Types of Perfect Sushi
-Fill an entire chunk with <insert silly or weird block> block (16x16x448)
+Automate Wither killing
+Defeat the Chaos Dragon
+Build a tier 6 Energy Core or Higher (Max is 8)
+Make a Charm of Dislocation
+Fill a tier 6 Draconic Energy Core
+Make a Draconic Chest
 ===
-#§1--==§0Age of I have no idea where these can go yet§1==--
-Obtain an EnderIO Grain of Infinity
-Craft a Create Sabers Saber
-Craft a Hammock to sleep to night time
-Fall through the void into a pool of water
-Craft a Silent's Gear Sickle to break leaves faster
-Craft a Silent's Gear Axe to break wood fast!
+#§1--==§0Age of Simulation§1==--
 Obtain a Hostile Neural Network Faulty Data Model for any mob
 Upgrade a Hostile Neural Network Data Model to Self Aware
-Grow your head to 150%
-Grow your head to 250%
-Collect all 6 Limbs of any one mob (Head, Torso, Arms, Legs)
-Use a Mega Torch to block creature spawns
-Use Color Dyed Water to convert Sand into a Dye Block
-Build a Modular Golem
-Build a Modular Wolf
-Build a Modular Humanoid
-Modular Golem Gear up with Netherite
-Modular Golem Full Upgrades
-Use an Organic Matter Compressor to Transform Matter into Loot Bags
+Use the Wither Prediction in the Loot Fabricator to create Nether Stars
+Upgrade the Ender Dragon Data Model to Self Aware
+Upgrade the Chaos Guardian Data Model to Self Aware
+===
+#§1--==§0Age of Craziness§1==--
+Collect all 231 Hats
+Obtain 90 total hearts of health
+Craft an Infinity Wand
+Create a Perfect Sushi Roll
+Create a Culinary Construct Sandwich full of different types of Perfect Sushi
+Fill an entire chunk with <insert silly or weird block> block (16x16x448)
 ===
 #§1--==§0Age of Excess§1==--
 #§1--==§0AKA Nobody Is Crazy Enough to Actually Do This§1==--
-Fill the Draconic Energy Storage Ball to Max 9,223,000,000,000,000,000
+Fill the Tier 8 Draconic Energy Core to Max 9,223,000,000,000,000,000op
 Fill an Infinity Tool to max charge
 ===
 ===
