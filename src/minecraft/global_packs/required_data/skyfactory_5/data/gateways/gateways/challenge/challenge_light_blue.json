@@ -57,7 +57,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:dolphin",
-          "nbt": "{Glowing:1b,Team:\"sf5_light_blue_team\",Moistness:50000,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.49f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}"
+          "nbt": "{DyeMobDyeColor: 3, Glowing:1b,Team:\"sf5_light_blue_team\",Moistness:50000,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.49f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}"
         }
       ],
       "modifiers": [
@@ -103,7 +103,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "sushigocrafting:tuna",
-          "nbt": "{Air:-50000,Glowing:1b,Team:\"sf5_light_blue_team\",Saddle:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.85f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{DyeMobDyeColor: 3, Air:-50000,Glowing:1b,Team:\"sf5_light_blue_team\",Saddle:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.85f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -150,7 +150,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:vex",
-          "nbt": "{Glowing:1b,Team:\"sf5_light_blue_team\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{DyeMobDyeColor: 3, Glowing:1b,Team:\"sf5_light_blue_team\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.88f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -171,7 +171,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 5.0
+          "value": 7.5
         },
         {
           "type": "gateways:attribute",

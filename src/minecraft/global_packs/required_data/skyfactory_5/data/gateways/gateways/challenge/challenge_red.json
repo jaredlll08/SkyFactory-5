@@ -144,7 +144,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:strider",
-          "nbt": "{Glowing:1b,Team:\"sf5_red_team\",DyeMobDyeColor:14,Saddle:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"],Passengers:[{id:\"minecraft:skeleton\",Glowing:1b,Team:\"sf5_red_team\",DyeMobDyeColor:14,HandItems:[{id:\"minecraft:bow\",Count:1b,tag:{Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:punch\",lvl:5s}]}},{}],HandDropChances:[0.0f,0.085f],ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}]}]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_red_team\",DyeMobDyeColor:14,Saddle:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"],Passengers:[{id:\"minecraft:skeleton\",Glowing:1b,Team:\"sf5_red_team\",DyeMobDyeColor:14,HandItems:[{id:\"minecraft:bow\",Count:1b,tag:{Enchantments:[{id:\"minecraft:power\",lvl:5s},{id:\"minecraft:punch\",lvl:5s}]}},{}],HandDropChances:[0.0f,0.0f],ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}]}]}",
           "finalize_spawn": false
         }
       ],

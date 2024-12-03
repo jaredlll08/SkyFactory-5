@@ -10,7 +10,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "sushigocrafting:shrimp",
-          "nbt": "{Glowing:1b,Team:\"sf5_pink_team\",Air:-50000,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{DyeMobDyeColor: 6, Glowing:1b,Team:\"sf5_pink_team\",Air:-50000,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -57,7 +57,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "earthmobsmod:teacup_pig",
-          "nbt": "{Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{DyeMobDyeColor: 6, Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -119,7 +119,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 5.0
+          "value": 8.0
         },
         {
           "type": "gateways:attribute",
@@ -139,7 +139,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "earthmobsmod:jumbo_rabbit",
-          "nbt": "{Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{DyeMobDyeColor: 6, Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -152,6 +152,12 @@
         },
         {
           "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 1.6
+        },
+        {
+          "type": "gateways:attribute",
           "attribute": "generic.armor",
           "operation": "addition",
           "value": 2
@@ -160,7 +166,7 @@
           "type": "gateways:attribute",
           "attribute": "generic.attack_damage",
           "operation": "multiply_total",
-          "value": 5.0
+          "value": 7.5
         },
         {
           "type": "gateways:attribute",
@@ -180,7 +186,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:hoglin",
-          "nbt": "{IsImmuneToZombification:1b,Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.49f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{DyeMobDyeColor: 6, IsImmuneToZombification:1b,Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.49f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -234,6 +240,12 @@
         },
         {
           "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 1.25
+        },
+        {
+          "type": "gateways:attribute",
           "attribute": "generic.armor",
           "operation": "addition",
           "value": 2
@@ -263,7 +275,7 @@
           "count": 4,
           "entity": "minecraft:pig",
           "nbt": "{Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
-          "finalize_spawn": false
+          "finalize_spawn": true
         }
       ],
       "modifiers": [
@@ -272,6 +284,12 @@
           "attribute": "generic.max_health",
           "operation": "multiply_total",
           "value": 10.0
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 1.25
         },
         {
           "type": "gateways:attribute",
@@ -303,7 +321,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:piglin",
-          "nbt": "{IsImmuneToZombification:1b,Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{DyeMobDyeColor:6,IsImmuneToZombification:1b,Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"],HandItems:[{id:\"minecraft:diamond_sword\",Count:1b},{}],HandDropChances:[0.0f,0.0f]}",
           "finalize_spawn": false
         }
       ],
@@ -344,7 +362,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:piglin_brute",
-          "nbt": "{IsImmuneToZombification:1b,Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{DyeMobDyeColor:6,IsImmuneToZombification:1b,Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"],HandItems:[{id:\"minecraft:diamond_sword\",Count:1b},{}],HandDropChances:[0.0f,0.0f]}",
           "finalize_spawn": false
         }
       ],
@@ -385,7 +403,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "earthmobsmod:zombified_pig",
-          "nbt": "{Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{DyeMobDyeColor: 6, Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
@@ -395,6 +413,12 @@
           "attribute": "generic.max_health",
           "operation": "multiply_total",
           "value": 5.0
+        },
+        {
+          "type": "gateways:attribute",
+          "attribute": "generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 1.4
         },
         {
           "type": "gateways:attribute",
@@ -426,7 +450,7 @@
           "type": "gateways:standard",
           "count": 4,
           "entity": "minecraft:zombified_piglin",
-          "nbt": "{Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{DyeMobDyeColor:6,Glowing:1b,Team:\"sf5_pink_team\",Variant:0,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"],HandItems:[{id:\"minecraft:diamond_sword\",Count:1b},{}],HandDropChances:[0.0f,0.0f]}",
           "finalize_spawn": false
         }
       ],

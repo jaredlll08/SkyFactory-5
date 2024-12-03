@@ -227,7 +227,7 @@
           "type": "gateways:standard",
           "count": 2,
           "entity": "minecraft:wither_skeleton",
-          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],HandItems:[{id:\"minecraft:diamond_sword\",Count:1b},{}],HandDropChances:[0.0f,0.085f],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"]}",
+          "nbt": "{Glowing:1b,Team:\"sf5_black_team\",ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],HandItems:[{id:\"minecraft:diamond_sword\",Count:1b},{}],HandDropChances:[0.0f,0.0f],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2.0f},\"pehkui:height\":{scale:2.0f}},Tags:[\"gateway_entity\"]}",
           "finalize_spawn": false
         }
       ],
