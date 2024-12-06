@@ -11,18 +11,23 @@
   "source_block": "colouredstuff:water_gray_block",
   "target_block": {
     "blocks": [
-      "exnihilosequentia:acacia_barrel",
-      "exnihilosequentia:bamboo_barrel",
-      "exnihilosequentia:birch_barrel",
-      "exnihilosequentia:cherry_barrel",
-      "exnihilosequentia:dark_oak_barrel",
-      "exnihilosequentia:jungle_barrel",
-      "exnihilosequentia:mangrove_barrel",
-      "exnihilosequentia:oak_barrel",
-      "exnihilosequentia:spruce_barrel",
-      "exnihilosequentia:crimson_barrel",
-      "exnihilosequentia:warped_barrel",
-      "exnihilosequentia:stone_barrel"
+      "exnihilocoloratus:none_barrel",
+      "exnihilocoloratus:white_barrel",
+      "exnihilocoloratus:orange_barrel",
+      "exnihilocoloratus:magenta_barrel",
+      "exnihilocoloratus:light_blue_barrel",
+      "exnihilocoloratus:yellow_barrel",
+      "exnihilocoloratus:lime_barrel",
+      "exnihilocoloratus:pink_barrel",
+      "exnihilocoloratus:gray_barrel",
+      "exnihilocoloratus:light_gray_barrel",
+      "exnihilocoloratus:cyan_barrel",
+      "exnihilocoloratus:purple_barrel",
+      "exnihilocoloratus:blue_barrel",
+      "exnihilocoloratus:brown_barrel",
+      "exnihilocoloratus:green_barrel",
+      "exnihilocoloratus:red_barrel",
+      "exnihilocoloratus:black_barrel"
     ],
     "nbt": "{tank: {FluidName: \"minecraft:empty\", Amount: 0}, barrelMode: \"empty\"}"
   }
