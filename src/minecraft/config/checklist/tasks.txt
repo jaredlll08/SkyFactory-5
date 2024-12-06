@@ -120,7 +120,7 @@ Complete a Gateway and receive a mob Trophy
 Right-click on a Trophy to activate it
 Complete all 147 Normal Gateways (not Titan)
 Complete the Normal Ender Dragon Gateway
-
+===
 #§1--==§0Titan Gateways§1==--
 Obtain a Titan Gateway Pearl
 Complete wave 50 of any Titan Gateway
@@ -235,7 +235,7 @@ Create and travel to an RFTools Dimension
 Create a dimension full of Potatoes
 Infuse your Infuser Machine to 100%
 Destroy a created dimension by sending a Block of TNT to a dimension with the Dimension Editor
-Create a dmension of RGB Blocks
+Create a dimension of RGB Blocks
 ===
 #§1--==§0Age of Dragons§1==--
 Craft the Draconic Chestpiece
