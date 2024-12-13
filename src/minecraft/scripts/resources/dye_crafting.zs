@@ -13,14 +13,14 @@ craftingTable.removeByName("minecraft:light_gray_dye_from_black_white_dye");
 
 mods.recipestages.Recipes.addShapeless(
   Stage.Light_Gray,
-  "light_gray_dye_combo",
+  "light_gray_dye_combo_manual_only",
   <item:minecraft:light_gray_dye> * 2,
   [<item:minecraft:gray_dye>, <item:minecraft:white_dye>]
 );
 
 mods.recipestages.Recipes.addShapeless(
   Stage.Light_Gray,
-  "light_gray_dye_combo2",
+  "light_gray_dye_combo2_manual_only",
   <item:minecraft:light_gray_dye> * 3,
   [<item:minecraft:black_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
 );
@@ -31,7 +31,7 @@ craftingTable.removeByName("minecraft:gray_dye");
 
 mods.recipestages.Recipes.addShapeless(
   Stage.Gray,
-  "gray_dye_combo",
+  "gray_dye_combo_manual_only",
   <item:minecraft:gray_dye> * 2,
   [<item:minecraft:white_dye>, <item:minecraft:black_dye>]
 );
@@ -42,7 +42,7 @@ craftingTable.removeByName("minecraft:orange_dye_from_red_yellow");
 
 mods.recipestages.Recipes.addShapeless(
   Stage.Orange,
-  "orange_dye_combo",
+  "orange_dye_combo_manual_only",
   <item:minecraft:orange_dye> * 2,
   [<item:minecraft:red_dye>, <item:minecraft:yellow_dye>]
 );
@@ -53,7 +53,7 @@ craftingTable.removeByName("minecraft:purple_dye");
 
 mods.recipestages.Recipes.addShapeless(
   Stage.Purple,
-  "purple_dye_combo",
+  "purple_dye_combo_manual_only",
   <item:minecraft:purple_dye> * 2,
   [<item:minecraft:red_dye>, <item:minecraft:blue_dye>]
 );
@@ -66,7 +66,7 @@ craftingTable.removeByName("minecraft:magenta_dye_from_blue_red_white_dye");
 
 mods.recipestages.Recipes.addShapeless(
   Stage.Magenta,
-  "magenta_dye_combo",
+  "magenta_dye_combo_manual_only",
   <item:minecraft:magenta_dye> * 2,
   [<item:minecraft:purple_dye>, <item:minecraft:pink_dye>]
 );
@@ -77,7 +77,7 @@ craftingTable.removeByName("minecraft:lime_dye");
 
 mods.recipestages.Recipes.addShapeless(
   Stage.Lime,
-  "lime_dye_combo",
+  "lime_dye_combo_manual_only",
   <item:minecraft:lime_dye> * 2,
   [<item:minecraft:green_dye>, <item:minecraft:white_dye>]
 );
@@ -88,7 +88,7 @@ craftingTable.removeByName("minecraft:pink_dye_from_red_white_dye");
 
 mods.recipestages.Recipes.addShapeless(
   Stage.Pink,
-  "pink_dye_combo",
+  "pink_dye_combo_manual_only",
   <item:minecraft:pink_dye> * 2,
   [<item:minecraft:white_dye>, <item:minecraft:red_dye>]
 );
@@ -99,7 +99,7 @@ craftingTable.removeByName("minecraft:cyan_dye");
 
 mods.recipestages.Recipes.addShapeless(
   Stage.Cyan,
-  "cyan_dye_combo",
+  "cyan_dye_combo_manual_only",
   <item:minecraft:cyan_dye> * 2,
   [<item:minecraft:blue_dye>, <item:minecraft:green_dye>]
 );
@@ -110,7 +110,7 @@ craftingTable.removeByName("minecraft:light_blue_dye_from_blue_white_dye");
 
 mods.recipestages.Recipes.addShapeless(
   Stage.Light_Blue,
-  "light_blue_dye_combo",
+  "light_blue_dye_combo_manual_only",
   <item:minecraft:light_blue_dye> * 2,
   [<item:minecraft:blue_dye>, <item:minecraft:white_dye>]
 );
@@ -118,7 +118,7 @@ mods.recipestages.Recipes.addShapeless(
 // Green Dye Combination
 mods.recipestages.Recipes.addShapeless(
   Stage.Green,
-  "green_dye_combo",
+  "green_dye_combo_manual_only",
   <item:minecraft:green_dye> * 2,
   [<item:minecraft:blue_dye>, <item:minecraft:yellow_dye>]
 );
