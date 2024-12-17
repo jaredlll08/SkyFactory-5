@@ -1,4 +1,4 @@
 {
-  "values": ["thermal:creosote", "immersiveengineering:creosote"],
+  "values": ["immersiveengineering:creosote"],
   "replace": true
 }
