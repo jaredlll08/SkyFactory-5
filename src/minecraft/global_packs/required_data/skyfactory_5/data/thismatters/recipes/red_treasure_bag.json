@@ -2,7 +2,7 @@
   "type": "thismatters:organic_matter_compression",
   "compressingtime": 900,
   "ingredient": {
-    "item": "minecraft:yellow_dye"
+    "item": "minecraft:red_dye"
   },
   "result": {
     "item": "lootbags:loot_bag",
