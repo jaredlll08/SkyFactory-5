@@ -361,7 +361,41 @@ val itemsToRemove as IItemStack[] = [
 
   // Draconic Evolution
   <item:draconicevolution:stabilized_spawner>,
-  <item:draconicevolution:mob_soul>
+  <item:draconicevolution:mob_soul>,
+
+
+
+  <item:ae2:fluix_axe>,
+  <item:ae2:fluix_hoe>,
+  <item:ae2:fluix_pickaxe>,
+  <item:ae2:fluix_shovel>,
+  <item:ae2:fluix_sword>,
+  <item:ae2:nether_quartz_axe>,
+  <item:ae2:nether_quartz_hoe>,
+  <item:ae2:nether_quartz_pickaxe>,
+  <item:ae2:nether_quartz_shovel>,
+  <item:ae2:nether_quartz_sword>,
+  <item:immersiveengineering:axe_steel>,
+  <item:immersiveengineering:hoe_steel>,
+  <item:immersiveengineering:pickaxe_steel>,
+  <item:immersiveengineering:shovel_steel>,
+  <item:immersiveengineering:sword_steel>,
+  <item:monsterplus:ancient_crystal>,
+  <item:monsterplus:crystal_arrow>,
+  <item:monsterplus:crystal_boots>,
+  <item:monsterplus:crystal_chestplate>,
+  <item:monsterplus:crystal_clump>,
+  <item:monsterplus:crystal_helmet>,
+  <item:monsterplus:crystal_leggings>,
+  <item:monsterplus:crystal_sword>,
+  <item:monsterplus:darkstar>,
+  <item:monsterplus:gnawing_jaw>,
+
+  // Occultism
+  <item:occultism:silver_ore>,
+  <item:occultism:silver_ore_deepslate>,
+  <item:occultism:silver_block>,
+  <item:occultism:raw_silver_block>
 
 ];
 
