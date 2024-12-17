@@ -1,14 +1,14 @@
 {
   "type": "thermal:insolator",
   "ingredient": {
-    "item": "mysticalagriculture:white_crop_seeds"
+    "item": "mysticalagriculture:rgb_crop_seeds"
   },
   "result": [
     {
-      "item": "mysticalagriculture:white_crop_essence"
+      "item": "mysticalagriculture:rgb_crop_essence"
     },
     {
-      "item": "mysticalagriculture:white_crop_seeds"
+      "item": "mysticalagriculture:rgb_crop_seeds"
     }
   ],
   "energy": 100000
