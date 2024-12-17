@@ -18,7 +18,7 @@ craftingTable.addShapeless(
 craftingTable.addShapeless(
   "andesite_from_dye",
   <item:minecraft:andesite>,
-  [<tag:items:forge:dyes/light_gray>, <tag:items:forge:dyes/light_gray>, <tag:items:forge:dyes/light_gray>, <tag:items:forge:dyes/light_gray>]
+  [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/light_gray>, <tag:items:forge:dyes/light_gray>, <tag:items:forge:dyes/light_gray>]
 );
 
 // Sand

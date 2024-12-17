@@ -137,6 +137,12 @@ craftingTable.addShapeless(
   [<item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>, <item:sf5_things:none_apple>]
 );
 
+craftingTable.addShapeless(
+  "block_of_colorless_dye_to_apples",
+  <item:sf5_things:none_apple> * 9,
+  [<item:sf5_things:block_of_colorless_dye>]
+);
+
 // RGB Dye
 craftingTable.addShapeless(
   "rgb_dye_shapeless",

@@ -5,7 +5,7 @@ import crafttweaker.api.item.IItemStack;
   craftingTable.addShapeless(
   "dyeing_none_crafting_table",
   <item:colouredstuff:crafting_table_none>,
-    [<tag:items:skyfactory_5:coloured_crafting_tables>, <item:minecraft:feather>]
+    [<tag:items:skyfactory_5:coloured_crafting_tables>, <tag:items:forge:dyes/none>]
   );
   craftingTable.addShapeless(
   "dyeing_black_crafting_table",
@@ -262,13 +262,6 @@ import crafttweaker.api.item.IItemStack;
     [<tag:items:forge:tools/knives>.asIIngredient().reuse(), <tag:items:forge:foods/fish/raw>]
   );
 
-// Porcelain Clay Recipe
-craftingTable.addShapeless(
-  "porcelain_clay_shapeless",
-  <item:exnihilosequentia:porcelain_clay>,
-  [<item:minecraft:clay_ball>, <item:minecraft:bone_meal>]
-);
-
 // Adds missing Immersive Engineering Hammer Ingot to Plate recipes
 // Tin
 craftingTable.addShapeless(
@@ -381,7 +374,7 @@ craftingTable.addShapeless(
 // Eccentric Tome
 craftingTable.addShapeless(
   "eccentric_tome_all_books",
-  <item:eccentrictome:tome>.withTag({"eccentrictome:mods": {enderio: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "enderio:guide"}}}, apotheosis: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "apotheosis:apoth_chronicle"}}}, sushigocrafting: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "sushigocrafting:sushigocrafting"}}}, cyclic: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "cyclic:guide_book"}}}, industrialforegoing: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "industrialforegoing:industrial_foregoing"}}}, checklist: {"0": {id: "checklist:task_book", Count: 1}}, sebastrnlib: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"}}}, modulargolems: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "modulargolems:golem_guide"}}}, ars_nouveau: {"0": {id: "ars_nouveau:worn_notebook", Count: 1}}, forcecraft: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "forcecraft:force_and_you"}}}, laserio: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "laserio:laseriobook"}}}, littlelogistics: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "littlelogistics:guide"}}}, thermal: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "thermal:guidebook"}}}, mysticalagriculture: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "mysticalagriculture:guide"}}}, occultism: {"0": {id: "occultism:dictionary_of_spirits", Count: 1, tag: {"modonomicon:book_id": "occultism:dictionary_of_spirits"}}}}}),
+  <item:eccentrictome:tome>.withTag({"eccentrictome:mods": {enderio: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "enderio:guide"}, Count: 1}}, cyclic: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "cyclic:guide_book"}, Count: 1}}, sushigocrafting: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "sushigocrafting:sushigocrafting"}, Count: 1}}, apotheosis: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "apotheosis:apoth_chronicle"}, Count: 1}}, checklist: {"0": {id: "checklist:task_book", Count: 1}}, ae2: {"0": {id: "ae2:guide", Count: 1}}, industrialforegoing: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "industrialforegoing:industrial_foregoing"}, Count: 1}}, sebastrnlib: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"}, Count: 1}}, modulargolems: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "modulargolems:golem_guide"}, Count: 1}}, ars_nouveau: {"0": {id: "ars_nouveau:worn_notebook", Count: 1}}, laserio: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "laserio:laseriobook"}, Count: 1}}, forcecraft: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "forcecraft:force_and_you"}, Count: 1}}, immersiveengineering: {"0": {id: "immersiveengineering:manual", Count: 1}}, littlelogistics: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "littlelogistics:guide"}, Count: 1}}, thermal: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "thermal:guidebook"}, Count: 1}}, mysticalagriculture: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "mysticalagriculture:guide"}, Count: 1}}, occultism: {"0": {id: "occultism:dictionary_of_spirits", tag: {"modonomicon:book_id": "occultism:dictionary_of_spirits"}, Count: 1}}}}),
   [<item:minecraft:book>, <tag:items:forge:bookshelves>]
 );
 

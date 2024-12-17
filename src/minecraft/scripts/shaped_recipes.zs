@@ -890,7 +890,7 @@ craftingTable.addShaped(
   <item:colouredstuff:planks_none> * 8,
   [
     [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
-    [<tag:items:minecraft:planks>, <item:minecraft:feather>, <tag:items:minecraft:planks>],
+    [<tag:items:minecraft:planks>, <tag:items:forge:dyes/none>, <tag:items:minecraft:planks>],
     [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
   ]
   );
@@ -1048,7 +1048,7 @@ craftingTable.addShaped(
   <item:colouredstuff:log_none> * 8,
   [
     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
-    [<tag:items:minecraft:logs>, <item:minecraft:feather>, <tag:items:minecraft:logs>],
+    [<tag:items:minecraft:logs>, <tag:items:forge:dyes/none>, <tag:items:minecraft:logs>],
     [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
   ]
   );
