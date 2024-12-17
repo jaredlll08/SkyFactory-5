@@ -26,8 +26,8 @@
   "trivia": "hostilenetworks.trivia.creeper_tot",
   "fabricator_drops": [
     {
-      "item": "forcecraft:pile_of_gunpowder",
-      "count": 32
+      "item": "minecraft:gunpowder",
+      "count": 4
     },
     {
       "item": "minecraft:creeper_head",
