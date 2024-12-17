@@ -5,9 +5,9 @@ generateForceOre = false
 # Enable Force Tree generation [Default: true]
 generateForceTree = false
 # Enable Time Torch [Default: true]
-timeTorchEnabled = true
+timeTorchEnabled = false
 # Print in Log when Time Torch is placed and by who [Default: true]
-timeTorchLogging = true
+timeTorchLogging = false
 # How many ticks in between ticking neighbour blocks [Default: 5]
 # Range: > 0
 timeTorchRate = 5
