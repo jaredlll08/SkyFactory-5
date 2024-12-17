@@ -1,7 +1,7 @@
 {
   "type": "forcecraft:infuser",
   "ingredient": {
-    "item": "minecraft:blue_dye"
+    "item": "sf5_things:rgb_dye"
   },
   "center": {
     "item": "forcecraft:force_shears"
