@@ -95,6 +95,7 @@ Extractinator.addRecipe("extractinator_blue_cheese_block", <item:sf5_things:bloc
   new ExtractinatorDrop(<item:thermal:raw_tin>,0.04,1,1),
   new ExtractinatorDrop(<item:minecraft:clay_ball>,0.12,1,1),
   new ExtractinatorDrop(<item:mysticalagriculture:prosperity_shard>,0.1,1,1),
+  new ExtractinatorDrop(<item:occultism:raw_iesnium>,0.03,1,1),
 ]);
 
 // Blooming Onion Block
