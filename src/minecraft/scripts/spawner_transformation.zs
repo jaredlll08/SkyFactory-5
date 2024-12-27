@@ -1,5 +1,6 @@
 import crafttweaker.forge.api.event.interact.RightClickBlockEvent;
 import crafttweaker.api.block.entity.BlockEntity;
+import crafttweaker.api.data.IData;
 
 events.register<RightClickBlockEvent>((event) => {
     val level = event.entity.level;
@@ -17,13 +18,15 @@ events.register<RightClickBlockEvent>((event) => {
         val toSpawn = heldItem.tag["BlockEntityTag"]["entity"];
 
         val data = blockEntity.data;
-        if !("SpawnData" in data) {
-          data["SpawnData"] = {};
-        }
-        if !("entity" in data["SpawnData"]) {
-          data["SpawnData"]["entity"] = {};
-        }
-        data["SpawnData"]["entity"]["id"] = toSpawn;
+
+        val spawnData = {
+          entity: {
+            id: toSpawn
+          }
+        } as IData;
+        data["SpawnData"] = spawnData;
+        data["SpawnPotentials"] = [];
+        data["SpawnPotentials"].add({data: spawnData});
         blockEntity.updateData(data);
 
         event.cancel();
