@@ -41,3 +41,21 @@ These are additional scripts that are provided for easing development processes.
 
 - `npm run generate` starts a prompt to generate certain project files.
 - `npm run symlink` generates symlinks between the repo and a minecraft instance.
+
+## Release
+
+### Creating A Release
+
+To create a new release:
+
+1. Increment the version in the [mc-package.json](./mc-package.json) file.
+2. Run `npm run release` to generate a client and server zip file in the [.releases directory](./releases/)`.
+
+### Ignoring Files
+
+Files in the repo can be ignored from releases by adding to the respective releaseignore file:
+
+- For client-only ignore entries: [.releaseignore-client](./releaseignore-client)
+- For server-only ignore entries: [.releaseignore-server](./releaseignore-server)
+  - A common use case for this is to ignore client-only mods.
+- For ignore entries that apply to both client and server releases: [.releaseignore-shared](./releaseignore-shared)
