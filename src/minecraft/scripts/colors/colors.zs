@@ -18,7 +18,8 @@ public enum ColorName {
   Brown = "BROWN",
   LightBrown = "LIGHT_BROWN",
   Cyan = "CYAN",
-  Orange = "ORANGE";
+  Orange = "ORANGE",
+  RGB = "RGB";
 }
 
 public class Color {

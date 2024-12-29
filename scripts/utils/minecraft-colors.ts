@@ -16,6 +16,7 @@ export enum ColorName {
   Brown = "Brown",
   Cyan = "Cyan",
   Orange = "Orange",
+  RGB = "RGB",
 }
 
 export function mapHexToColorName(hexCode: string): ColorName | null {
@@ -74,6 +75,8 @@ export function mapHexToColorName(hexCode: string): ColorName | null {
     case "#fb6b1d":
     case "#f9801d":
       return ColorName.Orange;
+    case "#ffaa00":
+      return ColorName.RGB;
   }
 
   return null;
@@ -115,6 +118,8 @@ export function mapColorNameToHex(colorName: ColorName): string | null {
       return "#169c9d";
     case ColorName.Orange:
       return "#f9801d";
+    case ColorName.RGB:
+      return "#ffaa00";
     default:
       return null;
   }
