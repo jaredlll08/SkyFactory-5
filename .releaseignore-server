@@ -1,0 +1,16 @@
+###############################################
+# Ignore entries for server releases.
+###############################################
+
+# Mods
+/minecraft/mods/bridgingmod*
+/minecraft/mods/itemborders*
+/minecraft/mods/jade*
+/minecraft/mods/loadingbackgrounds*
+/minecraft/mods/lootbeams*
+/minecraft/mods/modernui*
+/minecraft/mods/reicustomcommand*
+/minecraft/mods/reiplugincompatibilities*
+/minecraft/mods/rrls*
+/minecraft/mods/seamless-loading-screen*
+/minecraft/mods/zume*

@@ -8,10 +8,11 @@ import path from "path";
 import mcPackage from "mc-package.json";
 import { createDirectories, emptyDirectory } from "scripts/utils/file";
 import {
+  clientReleaseIgnorePath,
   directories,
   releaseDirPath,
-  releaseIgnorePath,
-  serverIgnoredMods,
+  serverReleaseIgnorePath,
+  sharedReleaseIgnorePath,
 } from "./constants";
 
 async function main() {
@@ -32,25 +33,20 @@ async function main() {
     serverFileName += appendedText;
   }
 
-  const denylist = (
-    await globifyGitIgnore(
-      fs.readFileSync(releaseIgnorePath, "utf-8"),
-      process.cwd(),
-    )
-  ).map((entry) => entry.glob);
+  const { clientIgnore, serverIgnore } = await loadIgnoreFiles();
 
   await createZip(
     directories,
     path.join(releaseDirPath, `${clientFileName}.zip`),
     "client",
-    denylist,
+    clientIgnore,
   );
 
   await createZip(
     directories,
     path.join(releaseDirPath, `${serverFileName}.zip`),
     "server",
-    denylist,
+    serverIgnore,
   );
 }
 
@@ -76,6 +72,7 @@ async function createZip(
         const result = await glob(`${source}/**/*`, {
           cwd: process.cwd(),
           ignore: denylist,
+          nocase: true,
         });
 
         const pattern = new RegExp(
@@ -110,13 +107,6 @@ async function createZip(
     archive.pipe(output);
 
     sourceFiles.forEach((file) => {
-      if (file.zipBasePath === "mods" && type === "server") {
-        const pattern = new RegExp(`(${serverIgnoredMods.join("|")})`, "gi");
-        if (pattern.test(file.cwdRelativePath)) {
-          return;
-        }
-      }
-
       archive.file(path.join(process.cwd(), file.cwdRelativePath), {
         name: file.zipPath,
       });
@@ -124,6 +114,30 @@ async function createZip(
 
     archive.finalize();
   });
+}
+
+async function loadIgnoreFiles(): Promise<{
+  clientIgnore: string[];
+  serverIgnore: string[];
+}> {
+  const clientIgnoreData = fs.readFileSync(clientReleaseIgnorePath, "utf-8");
+  const serverIgnoreData = fs.readFileSync(serverReleaseIgnorePath, "utf-8");
+  const sharedIgnoreData = fs.readFileSync(sharedReleaseIgnorePath, "utf-8");
+
+  return {
+    clientIgnore: (
+      await globifyGitIgnore(
+        sharedIgnoreData + "\n" + clientIgnoreData,
+        process.cwd(),
+      )
+    ).map((entry) => entry.glob),
+    serverIgnore: (
+      await globifyGitIgnore(
+        sharedIgnoreData + "\n" + serverIgnoreData,
+        process.cwd(),
+      )
+    ).map((entry) => entry.glob),
+  };
 }
 
 main();

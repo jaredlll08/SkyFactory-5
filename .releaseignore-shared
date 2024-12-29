@@ -1,3 +1,7 @@
+###############################################
+# Shared ignore entries for client and server.
+###############################################
+
 # Minecraft Source Files
 ## Temporary Minecraft textures
 /src/minecraft/thingpacks/sf5_things/assets/sf5_things/textures/**/minecraft_*
@@ -19,3 +23,4 @@
 
 # Mods
 /minecraft/mods/*.disabled
+/minecraft/mods/*.disabled.zip
