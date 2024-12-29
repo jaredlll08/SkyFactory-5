@@ -1,18 +1,21 @@
 # Minecraft Source Files
-## Kubejs
-/src/minecraft/kubejs/.eslintrc.cjs
+## Temporary Minecraft textures
+/src/minecraft/thingpacks/sf5_things/assets/sf5_things/textures/**/minecraft_*
+## Sample data
+/src/minecraft/thingpacks/sandwood
+## Kubejs Generated
 /src/minecraft/kubejs/jsconfig.json
 /src/minecraft/kubejs/probe
-/src/minecraft/kubejs/README.txt
-
 ## Configs
-/src/minecraft/config/contentcreatorintegration
+/src/minecraft/config/contentcreatorintegration/*
+!/src/minecraft/config/contentcreatorintegration/libs
+!/src/minecraft/config/contentcreatorintegration/Streamer Profile
 /src/minecraft/config/roughlyenoughitems/favorites.json5
-
 ## Journeymap
 /src/minecraft/journeymap/data
 /src/minecraft/journeymap/icon
 /src/minecraft/journeymap/server
 /src/minecraft/journeymap/*.log
 
+# Mods
 /minecraft/mods/*.disabled
