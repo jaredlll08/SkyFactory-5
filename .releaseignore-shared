@@ -3,6 +3,8 @@
 ###############################################
 
 # Minecraft Source Files
+## Dev Tools
+/src/minecraft/global_packs/required_data/packdevtools
 ## Temporary Minecraft textures
 /src/minecraft/thingpacks/sf5_things/assets/sf5_things/textures/**/minecraft_*
 ## Sample data
@@ -32,3 +34,4 @@
 # Mods
 /minecraft/mods/*.disabled
 /minecraft/mods/*.disabled.zip
+/minecraft/mods/packdevtools*
