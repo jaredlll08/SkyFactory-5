@@ -28,10 +28,18 @@
 /src/minecraft/kubejs/jsconfig.json
 /src/minecraft/kubejs/probe
 ## Configs
+/src/minecraft/config/brandon3055/contributors.json
+/src/minecraft/config/brandon3055/contributors.json.etag
 /src/minecraft/config/contentcreatorintegration/*
 !/src/minecraft/config/contentcreatorintegration/libs
 !/src/minecraft/config/contentcreatorintegration/Streamer Profile
+/src/minecraft/config/contentcreatorintegration/Streamer Profile/notes.json
+/src/minecraft/config/contentcreatorintegration/Streamer Profile/stats.json
 /src/minecraft/config/roughlyenoughitems/favorites.json5
+/src/minecraft/config/spark/activity.json
+/src/minecraft/config/ccl.cfg
+/src/minecraft/config/embeddium-fingerprint.json
+/src/minecraft/config/mkm
 ## Journeymap
 /src/minecraft/journeymap/data
 /src/minecraft/journeymap/icon
