@@ -11,5 +11,6 @@
   "texHeight": 40,
   "texture": "packmenu:textures/gui/reload.png",
   "action": "RELOAD",
-  "anchor": "MIDDLE_LEFT"
+  "anchor": "MIDDLE_LEFT",
+  "active": false
 }
