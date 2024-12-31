@@ -75,7 +75,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "tinted_torches:green_torch",
+          "name": "colored_torches:green_torch",
           "conditions": [
             {
               "condition": "minecraft:entity_properties",
