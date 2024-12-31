@@ -350,7 +350,8 @@ forbiddenTiles = [
   "sophisticatedbackpacks:diamond_backpack",
   "sophisticatedbackpacks:netherite_backpack",
   "wormhole:*",
-  "biggerreactors:*"
+  "biggerreactors:*",
+  "magic_mirror:*"
 ]
 # Entities that cannot be picked up
 forbiddenEntities = [
