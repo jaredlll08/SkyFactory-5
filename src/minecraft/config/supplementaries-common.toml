@@ -179,7 +179,52 @@ enabled = true
 clean_blacklist = [
   "minecraft:glazed_terracotta",
   "botania:mystical_flower",
-  "pickletweaks:cobblestone"
+  "pickletweaks:cobblestone",
+  "colouredstuff:stone",
+  "colouredstuff:stone_bricks",
+  "colouredstuff:chiseled_stone_bricks",
+  "colouredstuff:dirt",
+  "colouredstuff:path",
+  "colouredstuff:sandstone",
+  "colouredstuff:cut_sandstone",
+  "colouredstuff:pressure_plate_planks",
+  "colouredstuff:button_planks",
+  "colouredstuff:fence_planks",
+  "colouredstuff:wall_brick",
+  "colouredstuff:wall_stone_bricks",
+  "colouredstuff:gate_planks",
+  "colouredstuff:door_planks",
+  "colouredstuff:trapdoor_planks",
+  "colouredstuff:smooth_sandstone",
+  "colouredstuff:slab_brick",
+  "colouredstuff:stairs_brick",
+  "colouredstuff:slab_sandstone",
+  "colouredstuff:slab_stone_bricks",
+  "colouredstuff:wall_stone",
+  "colouredstuff:stairs_stone_bricks",
+  "colouredstuff:stairs_sandstone",
+  "colouredstuff:slab_planks",
+  "colouredstuff:brick",
+  "colouredstuff:stairs_stone",
+  "colouredstuff:stairs_planks",
+  "colouredstuff:wall_cobblestone",
+  "colouredstuff:wall_planks",
+  "colouredstuff:wall_sandstone",
+  "colouredstuff:crafting_table",
+  "colouredstuff:slab_stone",
+  "colouredstuff:slab_cobblestone",
+  "colouredstuff:stairs_cobblestone",
+  "colouredstuff:chiseled_sandstone",
+  "colouredstuff:log",
+  "colouredstuff:planks",
+  "colouredstuff:wood",
+  "colouredstuff:log_stripped",
+  "colouredstuff:wood_stripped",
+  "colouredstuff:leaves",
+  "colouredstuff:sapling",
+  "colouredstuff:cobblestone",
+  "exnihilocoloratus:barrel",
+  "exnihilocoloratus:crucible"
 ]
 
 # This is a map of special blocks that can be cleaned with soap
@@ -188,6 +233,50 @@ clean_blacklist = [
 "quark:dirty_glass" = "minecraft:glass"
 "#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
 "quark:dirty_glass_pane" = "minecraft:glass_pane"
+"#skyfactory_5:coloured_stuff/planks" = "colouredstuff:planks_none"
+"#skyfactory_5:coloured_stuff/logs" = "colouredstuff:log_none"
+"#skyfactory_5:coloured_stuff/wood" = "colouredstuff:wood_none"
+"#skyfactory_5:coloured_stuff/log_stripped" = "colouredstuff:log_stripped_none"
+"#skyfactory_5:coloured_stuff/wood_stripped" = "colouredstuff:wood_stripped_none"
+"#skyfactory_5:coloured_stuff/crafting_tables" = "colouredstuff:crafting_table_none"
+"#skyfactory_5:coloured_stuff/leaves" = "colouredstuff:leaves_none"
+"#skyfactory_5:coloured_stuff/saplings" = "colouredstuff:sapling_none"
+"#skyfactory_5:coloured_stuff/cobblestone" = "colouredstuff:cobblestone_none"
+"#skyfactory_5:coloured_stuff/stone" = "colouredstuff:stone_none"
+"#skyfactory_5:coloured_stuff/stone_bricks" = "colouredstuff:stone_bricks_none"
+"#skyfactory_5:coloured_stuff/chiseled_stone_bricks" = "colouredstuff:chiseled_stone_bricks_none"
+"#skyfactory_5:coloured_stuff/dirt" = "colouredstuff:dirt_none"
+"#skyfactory_5:coloured_stuff/paths" = "colouredstuff:path_none"
+"#skyfactory_5:coloured_stuff/sandstone" = "colouredstuff:sandstone_none"
+"#skyfactory_5:coloured_stuff/cut_sandstone" = "colouredstuff:cut_sandstone_none"
+"#skyfactory_5:coloured_stuff/smooth_sandstone" = "colouredstuff:smooth_sandstone_none"
+"#skyfactory_5:coloured_stuff/chiseled_sandstone" = "colouredstuff:chiseled_sandstone_none"
+"#skyfactory_5:coloured_stuff/bricks" = "colouredstuff:brick_none"
+"#skyfactory_5:coloured_stuff/slab_planks" = "colouredstuff:slab_planks_none"
+"#skyfactory_5:coloured_stuff/slab_cobblestone" = "colouredstuff:slab_cobblestone_none"
+"#skyfactory_5:coloured_stuff/slab_stone" = "colouredstuff:slab_stone_none"
+"#skyfactory_5:coloured_stuff/slab_stone_bricks" = "colouredstuff:slab_stone_bricks_none"
+"#skyfactory_5:coloured_stuff/slab_sandstone" = "colouredstuff:slab_sandstone_none"
+"#skyfactory_5:coloured_stuff/slab_bricks" = "colouredstuff:slab_brick_none"
+"#skyfactory_5:coloured_stuff/stairs_brick" = "colouredstuff:stairs_brick_none"
+"#skyfactory_5:coloured_stuff/stairs_planks" = "colouredstuff:stairs_planks_none"
+"#skyfactory_5:coloured_stuff/stairs_stone" = "colouredstuff:stairs_stone_none"
+"#skyfactory_5:coloured_stuff/stairs_cobblestone" = "colouredstuff:stairs_cobblestone_none"
+"#skyfactory_5:coloured_stuff/stairs_sandstone" = "colouredstuff:stairs_sandstone_none"
+"#skyfactory_5:coloured_stuff/stairs_stone_bricks" = "colouredstuff:stairs_stone_bricks_none"
+"#skyfactory_5:coloured_stuff/wall_stone" = "colouredstuff:wall_stone_none"
+"#skyfactory_5:coloured_stuff/wall_sandstone" = "colouredstuff:wall_sandstone_none"
+"#skyfactory_5:coloured_stuff/wall_planks" = "colouredstuff:wall_planks_none"
+"#skyfactory_5:coloured_stuff/wall_cobblestone" = "colouredstuff:wall_cobblestone_none"
+"#skyfactory_5:coloured_stuff/wall_stone_bricks" = "colouredstuff:wall_stone_bricks_none"
+"#skyfactory_5:coloured_stuff/wall_bricks" = "colouredstuff:wall_brick_none"
+"#skyfactory_5:coloured_stuff/fence_planks" = "colouredstuff:fence_planks_none"
+"#skyfactory_5:coloured_stuff/gate_planks" = "colouredstuff:gate_planks_none"
+"#skyfactory_5:coloured_stuff/button_planks" = "colouredstuff:button_planks_none"
+"#skyfactory_5:coloured_stuff/pressure_plate_planks" = "colouredstuff:pressure_plate_planks_none"
+"#skyfactory_5:coloured_stuff/trapdoor_planks" = "colouredstuff:trapdoor_planks_none"
+"#skyfactory_5:coloured_stuff/door_planks" = "colouredstuff:door_planks_none"
+"#skyfactory_5:color_dye_blocks" = "sf5_things:block_of_colorless_dye"
 
 [functional.present]
 enabled = true

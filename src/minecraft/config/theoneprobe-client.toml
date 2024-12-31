@@ -36,7 +36,7 @@ showMobPotionEffects = "EXTENDED"
 # Show lever/comparator/repeater settings (0 = not, 1 = always, 2 = sneak)
 showLeverSetting = "NORMAL"
 # Show tank setting (0 = not, 1 = always, 2 = sneak)
-showTankSetting = "EXTENDED"
+showTankSetting = "NORMAL"
 # Show brewing stand setting (0 = not, 1 = always, 2 = sneak)
 showBrewStandSetting = "NORMAL"
 # Show mob spawner setting (0 = not, 1 = always, 2 = sneak)
