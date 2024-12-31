@@ -11,9 +11,6 @@ import { ColorName } from "scripts/utils/minecraft-colors";
 const tooltipsBasePath = path.resolve(
   "./src/minecraft/global_packs/required_resources/sf5_resources/assets/obscure_tooltips/tooltips/styles",
 );
-const coloredItemsScriptsBasePath = path.resolve(
-  "./src/minecraft/scripts/colors/items",
-);
 const coloredItemsTagsScriptsBasePath = path.resolve(
   "./src/minecraft/scripts/tags/colors",
 );
@@ -48,16 +45,6 @@ const updateFiles: CustomActionFunction = async (_answers, _config, plop) => {
       }
 
       await writeJSONFile(filePath, data, "json");
-
-      await updateScript(
-        plop,
-        path.join(
-          coloredItemsScriptsBasePath,
-          `${fileName.replace("sf5_", "")}.zs`,
-        ),
-        path.join(__dirname, "item-template.tpl"),
-        data.filter.items,
-      );
 
       await updateScript(
         plop,
