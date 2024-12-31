@@ -6,7 +6,7 @@
     },
     "title": "Black Trophies!",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,

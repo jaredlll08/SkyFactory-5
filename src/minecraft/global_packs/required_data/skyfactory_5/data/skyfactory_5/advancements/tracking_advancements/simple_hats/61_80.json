@@ -5,7 +5,7 @@
     },
     "title": "61-80",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -14,140 +14,140 @@
   },
   "parent": "skyfactory_5:tracking_advancements/simple_hats/41_60",
   "criteria": {
-    "Cowboyrgb": {
+    "cowboyrgb": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:cowboyrgb"] }]
       }
     },
-    "Crabonhead": {
+    "crabonhead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:crabonhead"] }]
       }
     },
-    "Crown": {
+    "crown": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:crown"] }]
       }
     },
-    "Cucumbereyemask": {
+    "cucumbereyemask": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:cucumbereyemask"] }]
       }
     },
-    "Cuphead": {
+    "cuphead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:cuphead"] }]
       }
     },
-    "Cyclopseye": {
+    "cyclopseye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:cyclopseye"] }]
       }
     },
-    "Dairyqueen": {
+    "dairyqueen": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:dairyqueen"] }]
       }
     },
-    "Dangereqsue": {
+    "dangereqsue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:dangereqsue"] }]
       }
     },
-    "Dangeresquejuly": {
+    "dangeresquejuly": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:dangeresquejuly"] }]
       }
     },
-    "Dejiko": {
+    "dejiko": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:dejiko"] }]
       }
     },
-    "Demoneyes": {
+    "demoneyes": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:demoneyes"] }]
       }
     },
-    "Demonhorns": {
+    "demonhorns": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:demonhorns"] }]
       }
     },
-    "Digger": {
+    "digger": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:digger"] }]
       }
     },
-    "Dimmahat": {
+    "dimmahat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:dimmahat"] }]
       }
     },
-    "Discoball": {
+    "discoball": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:discoball"] }]
       }
     },
-    "Disguise": {
+    "disguise": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:disguise"] }]
       }
     },
-    "Doctorhat": {
+    "doctorhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:doctorhat"] }]
       }
     },
-    "Dorkglassesandteeth": {
+    "dorkglassesandteeth": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:dorkglassesandteeth"] }]
       }
     },
-    "Doubletake": {
+    "doubletake": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:doubletake"] }]
       }
     },
-    "Dragonhead": {
+    "dragonhead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

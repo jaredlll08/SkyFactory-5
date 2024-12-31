@@ -5,7 +5,7 @@
     },
     "title": "1-20",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -14,140 +14,140 @@
   },
   "parent": "skyfactory_5:tracking_advancements/simple_hats/root",
   "criteria": {
-    "Acornhat": {
+    "acornhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:acornhat"] }]
       }
     },
-    "Aegishat": {
+    "aegishat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:aegishat"] }]
       }
     },
-    "Alienphil": {
+    "alienphil": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:alienphil"] }]
       }
     },
-    "Amalgalichhat": {
+    "amalgalichhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:amalgalichhat"] }]
       }
     },
-    "Angrymask": {
+    "angrymask": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:angrymask"] }]
       }
     },
-    "Antlers": {
+    "antlers": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:antlers"] }]
       }
     },
-    "Apple": {
+    "apple": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:apple"] }]
       }
     },
-    "Artsy": {
+    "artsy": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:artsy"] }]
       }
     },
-    "Artsy_Doll": {
+    "artsy_doll": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:artsy_doll"] }]
       }
     },
-    "Azumanga_Hat": {
+    "azumanga_hat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:azumanga_hat"] }]
       }
     },
-    "Babydolphin": {
+    "babydolphin": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:babydolphin"] }]
       }
     },
-    "Babyturtle": {
+    "babyturtle": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:babyturtle"] }]
       }
     },
-    "Bandana": {
+    "bandana": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bandana"] }]
       }
     },
-    "Bandanargb": {
+    "bandanargb": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bandanargb"] }]
       }
     },
-    "Baseballeaster": {
+    "baseballeaster": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:baseballeaster"] }]
       }
     },
-    "Baseballhat": {
+    "baseballhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:baseballhat"] }]
       }
     },
-    "Baseballhatfestive": {
+    "baseballhatfestive": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:baseballhatfestive"] }]
       }
     },
-    "Baseballhatjuly": {
+    "baseballhatjuly": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:baseballhatjuly"] }]
       }
     },
-    "Baseballhatrgb": {
+    "baseballhatrgb": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:baseballhatrgb"] }]
       }
     },
-    "Batwinghat": {
+    "batwinghat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

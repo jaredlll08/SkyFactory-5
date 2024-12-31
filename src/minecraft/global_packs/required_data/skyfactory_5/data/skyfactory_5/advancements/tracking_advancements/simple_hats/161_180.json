@@ -5,7 +5,7 @@
     },
     "title": "161-180",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -14,140 +14,140 @@
   },
   "parent": "skyfactory_5:tracking_advancements/simple_hats/root",
   "criteria": {
-    "Pom_Moog": {
+    "pom_moog": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:pom_moog"] }]
       }
     },
-    "Poofballhat": {
+    "poofballhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:poofballhat"] }]
       }
     },
-    "Poofballrgb": {
+    "poofballrgb": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:poofballrgb"] }]
       }
     },
-    "Popehat": {
+    "popehat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:popehat"] }]
       }
     },
-    "Potionhead": {
+    "potionhead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:potionhead"] }]
       }
     },
-    "Presentsstack": {
+    "presentsstack": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:presentsstack"] }]
       }
     },
-    "Propelhat": {
+    "propelhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:propelhat"] }]
       }
     },
-    "Puchiko": {
+    "puchiko": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:puchiko"] }]
       }
     },
-    "Questbook": {
+    "questbook": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:questbook"] }]
       }
     },
-    "Rabbitears": {
+    "rabbitears": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:rabbitears"] }]
       }
     },
-    "Rabbitonhead": {
+    "rabbitonhead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:rabbitonhead"] }]
       }
     },
-    "Rabi_En_Rose": {
+    "rabi_en_rose": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:rabi_en_rose"] }]
       }
     },
-    "Rainboworbiters": {
+    "rainboworbiters": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:rainboworbiters"] }]
       }
     },
-    "Raincloud": {
+    "raincloud": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:raincloud"] }]
       }
     },
-    "Ranahat": {
+    "ranahat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:ranahat"] }]
       }
     },
-    "Redeyes": {
+    "redeyes": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:redeyes"] }]
       }
     },
-    "Rednose": {
+    "rednose": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:rednose"] }]
       }
     },
-    "Redstache": {
+    "redstache": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:redstache"] }]
       }
     },
-    "Rgbbigribbon": {
+    "rgbbigribbon": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:rgbbigribbon"] }]
       }
     },
-    "Rgbbowler": {
+    "rgbbowler": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

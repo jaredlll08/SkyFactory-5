@@ -6,7 +6,7 @@
     },
     "title": "Gray Challenge Gateway",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/challenge_gateways/root",
   "criteria": {
-    "Gray Challenge Gateway": {
+    "gray_challenge_gateway": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

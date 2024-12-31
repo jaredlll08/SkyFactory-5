@@ -6,7 +6,7 @@
     },
     "title": "Lime Normal Gateways!",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/normal_gateways/root",
   "criteria": {
-    "Creeper": {
+    "creeper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -26,7 +26,7 @@
         ]
       }
     },
-    "Creeper Tot": {
+    "creeper_tot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -37,7 +37,7 @@
         ]
       }
     },
-    "Lime Vein Creeper": {
+    "lime_vein_creeper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-    "Slime": {
+    "slime": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -59,7 +59,7 @@
         ]
       }
     },
-    "Turtle": {
+    "turtle": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -70,7 +70,7 @@
         ]
       }
     },
-    "Whirlisprig": {
+    "whirlisprig": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

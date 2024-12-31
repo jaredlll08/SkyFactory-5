@@ -5,7 +5,7 @@
     },
     "title": "201-220",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -14,140 +14,140 @@
   },
   "parent": "skyfactory_5:tracking_advancements/simple_hats/root",
   "criteria": {
-    "Simsgem": {
+    "simsgem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:simsgem"] }]
       }
     },
-    "Sleepeyemask": {
+    "sleepeyemask": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:sleepeyemask"] }]
       }
     },
-    "Smokingpipe": {
+    "smokingpipe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:smokingpipe"] }]
       }
     },
-    "Snowmanbaby": {
+    "snowmanbaby": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:snowmanbaby"] }]
       }
     },
-    "Sombrero": {
+    "sombrero": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:sombrero"] }]
       }
     },
-    "Sonichood": {
+    "sonichood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:sonichood"] }]
       }
     },
-    "Spadesoldier": {
+    "spadesoldier": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:spadesoldier"] }]
       }
     },
-    "Spiderweb": {
+    "spiderweb": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:spiderweb"] }]
       }
     },
-    "Sport_Sunglasses": {
+    "sport_sunglasses": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:sport_sunglasses"] }]
       }
     },
-    "Springer": {
+    "springer": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:springer"] }]
       }
     },
-    "Sprout": {
+    "sprout": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:sprout"] }]
       }
     },
-    "Spyzombie": {
+    "spyzombie": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:spyzombie"] }]
       }
     },
-    "Stackofeggs": {
+    "stackofeggs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:stackofeggs"] }]
       }
     },
-    "Strawberry_Hat": {
+    "strawberry_hat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:strawberry_hat"] }]
       }
     },
-    "Stress": {
+    "stress": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:stress"] }]
       }
     },
-    "Summerhat": {
+    "summerhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:summerhat"] }]
       }
     },
-    "Sunglasses": {
+    "sunglasses": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:sunglasses"] }]
       }
     },
-    "Sunglassesbig": {
+    "sunglassesbig": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:sunglassesbig"] }]
       }
     },
-    "Supersandhat": {
+    "supersandhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:supersandhat"] }]
       }
     },
-    "Swimmer": {
+    "swimmer": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

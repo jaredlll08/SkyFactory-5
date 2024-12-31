@@ -5,7 +5,7 @@
     },
     "title": "141-160",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -14,137 +14,137 @@
   },
   "parent": "skyfactory_5:tracking_advancements/simple_hats/121_140",
   "criteria": {
-    "Monocle": {
+    "monocle": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:monocle"] }]
       }
     },
-    "Moreeyes": {
+    "moreeyes": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:moreeyes"] }]
       }
     },
-    "Murdered": {
+    "murdered": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:murdered"] }]
       }
     },
-    "Nekoears": {
+    "nekoears": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:nekoears"] }]
       }
     },
-    "Nyan_Doll": {
+    "nyan_doll": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:nyan_doll"] }]
       }
     },
-    "Orange_Hat": {
+    "orange_hat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:orange_hat"] }]
       }
     },
-    "Palmtree": {
+    "palmtree": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:palmtree"] }]
       }
     },
-    "Paperbag": {
+    "paperbag": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:paperbag"] }]
       }
     },
-    "Partyhat": {
+    "partyhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:partyhat"] }]
       }
     },
-    "Paypay": {
+    "paypay": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:paypay"] }]
       }
     },
-    "Penguinbaby": {
+    "penguinbaby": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:penguinbaby"] }]
       }
     },
-    "Penguinhat": {
+    "penguinhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:penguinhat"] }]
       }
     },
-    "Peppino": {
+    "peppino": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:peppino"] }]
       }
     },
-    "Pighead": {
+    "pighead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:pighead"] }]
       }
     },
-    "Pinhead": {
+    "pinhead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:pinhead"] }]
       }
     },
-    "Plaguedoctor": {
+    "plaguedoctor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:plaguedoctor"] }]
       }
     },
-    "Pog": {
+    "pog": {
       "trigger": "minecraft:inventory_changed",
       "conditions": { "player": [], "items": [{ "items": ["simplehats:pog"] }] }
     },
-    "Pohatoe": {
+    "pohatoe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:pohatoe"] }]
       }
     },
-    "Policebucket": {
+    "policebucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:policebucket"] }]
       }
     },
-    "Policesiren": {
+    "policesiren": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

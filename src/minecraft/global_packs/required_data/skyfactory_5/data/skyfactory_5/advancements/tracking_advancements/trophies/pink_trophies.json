@@ -6,7 +6,7 @@
     },
     "title": "Pink Trophies!",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -76,7 +76,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:piglin\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0b,entity:\"minecraft:piglin\"}}"
           }
         ]
       }

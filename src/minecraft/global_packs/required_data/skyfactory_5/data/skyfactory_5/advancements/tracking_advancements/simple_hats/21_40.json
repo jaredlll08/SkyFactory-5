@@ -5,7 +5,7 @@
     },
     "title": "21-40",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -14,140 +14,140 @@
   },
   "parent": "skyfactory_5:tracking_advancements/simple_hats/1_20",
   "criteria": {
-    "Beanie": {
+    "beanie": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:beanie"] }]
       }
     },
-    "Beanieeaster": {
+    "beanieeaster": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:beanieeaster"] }]
       }
     },
-    "Beaniefestive": {
+    "beaniefestive": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:beaniefestive"] }]
       }
     },
-    "Beaniejuly": {
+    "beaniejuly": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:beaniejuly"] }]
       }
     },
-    "Beaniergb": {
+    "beaniergb": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:beaniergb"] }]
       }
     },
-    "Beaniespooky": {
+    "beaniespooky": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:beaniespooky"] }]
       }
     },
-    "Beehat": {
+    "beehat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:beehat"] }]
       }
     },
-    "Beret_Ribbon": {
+    "beret_ribbon": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:beret_ribbon"] }]
       }
     },
-    "Bicorne": {
+    "bicorne": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bicorne"] }]
       }
     },
-    "Bigbrain": {
+    "bigbrain": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bigbrain"] }]
       }
     },
-    "Bigcrown": {
+    "bigcrown": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bigcrown"] }]
       }
     },
-    "Bigeyes": {
+    "bigeyes": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bigeyes"] }]
       }
     },
-    "Bigribbon": {
+    "bigribbon": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bigribbon"] }]
       }
     },
-    "Bigstevehead": {
+    "bigstevehead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bigstevehead"] }]
       }
     },
-    "Bluefireeye": {
+    "bluefireeye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bluefireeye"] }]
       }
     },
-    "Bowler": {
+    "bowler": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bowler"] }]
       }
     },
-    "Breadhat": {
+    "breadhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:breadhat"] }]
       }
     },
-    "Brownbrick": {
+    "brownbrick": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:brownbrick"] }]
       }
     },
-    "Bucket": {
+    "bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:bucket"] }]
       }
     },
-    "Bunnyhat": {
+    "bunnyhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

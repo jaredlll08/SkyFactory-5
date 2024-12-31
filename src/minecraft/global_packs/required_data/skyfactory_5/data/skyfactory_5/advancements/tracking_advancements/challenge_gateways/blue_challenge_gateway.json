@@ -6,7 +6,7 @@
     },
     "title": "Blue Challenge Gateway",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/challenge_gateways/black_challenge_gateway",
   "criteria": {
-    "Blue Challenge Gateway": {
+    "blue_challenge_gateway": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

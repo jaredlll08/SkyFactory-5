@@ -6,7 +6,7 @@
     },
     "title": "Pink Challenge Gateway",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/challenge_gateways/orange_challenge_gateway",
   "criteria": {
-    "Pink Challenge Gateway": {
+    "pink_challenge_gateway": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

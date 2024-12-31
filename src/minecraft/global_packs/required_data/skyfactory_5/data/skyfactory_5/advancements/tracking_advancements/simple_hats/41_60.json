@@ -5,7 +5,7 @@
     },
     "title": "41-60",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -14,140 +14,140 @@
   },
   "parent": "skyfactory_5:tracking_advancements/simple_hats/root",
   "criteria": {
-    "Burgerhat": {
+    "burgerhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:burgerhat"] }]
       }
     },
-    "Burning_M_Bison": {
+    "burning_m_bison": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:burning_m_bison"] }]
       }
     },
-    "Caddycap": {
+    "caddycap": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:caddycap"] }]
       }
     },
-    "Camera": {
+    "camera": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:camera"] }]
       }
     },
-    "Camerabeard": {
+    "camerabeard": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:camerabeard"] }]
       }
     },
-    "Candleonhead": {
+    "candleonhead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:candleonhead"] }]
       }
     },
-    "Candycane": {
+    "candycane": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:candycane"] }]
       }
     },
-    "Carrotonstick": {
+    "carrotonstick": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:carrotonstick"] }]
       }
     },
-    "Cartoonegg": {
+    "cartoonegg": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:cartoonegg"] }]
       }
     },
-    "Chalk_Stick": {
+    "chalk_stick": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:chalk_stick"] }]
       }
     },
-    "Cheeseslice": {
+    "cheeseslice": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:cheeseslice"] }]
       }
     },
-    "Chefshat": {
+    "chefshat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:chefshat"] }]
       }
     },
-    "Chi_Ears": {
+    "chi_ears": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:chi_ears"] }]
       }
     },
-    "Chickenhead": {
+    "chickenhead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:chickenhead"] }]
       }
     },
-    "Chickenonhead": {
+    "chickenonhead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:chickenonhead"] }]
       }
     },
-    "Christmascakehat": {
+    "christmascakehat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:christmascakehat"] }]
       }
     },
-    "Christmastree": {
+    "christmastree": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:christmastree"] }]
       }
     },
-    "Circular_Glasses": {
+    "circular_glasses": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:circular_glasses"] }]
       }
     },
-    "Clockface": {
+    "clockface": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:clockface"] }]
       }
     },
-    "Cowboy": {
+    "cowboy": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],

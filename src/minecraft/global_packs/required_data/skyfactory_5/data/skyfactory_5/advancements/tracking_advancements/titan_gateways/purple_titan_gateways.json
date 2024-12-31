@@ -6,7 +6,7 @@
     },
     "title": "Purple Titan Gateways!",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/titan_gateways/root",
   "criteria": {
-    "Bone Spider": {
+    "bone_spider": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -26,7 +26,7 @@
         ]
       }
     },
-    "Endermite": {
+    "endermite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -37,7 +37,7 @@
         ]
       }
     },
-    "Purple Vein Creeper": {
+    "purple_vein_creeper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-    "Shulker": {
+    "shulker": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

@@ -5,7 +5,7 @@
     },
     "title": "81-100",
     "description": {
-      "translate": "need_to_do.do_this"
+      "text": " "
     },
     "frame": "task",
     "show_toast": false,
@@ -14,137 +14,137 @@
   },
   "parent": "skyfactory_5:tracking_advancements/simple_hats/root",
   "criteria": {
-    "Dragonskull": {
+    "dragonskull": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:dragonskull"] }]
       }
     },
-    "Dragonskullender": {
+    "dragonskullender": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:dragonskullender"] }]
       }
     },
-    "Drinkinhat": {
+    "drinkinhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:drinkinhat"] }]
       }
     },
-    "Dumhat": {
+    "dumhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:dumhat"] }]
       }
     },
-    "Dwarfminerbeard": {
+    "dwarfminerbeard": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:dwarfminerbeard"] }]
       }
     },
-    "Easterhead": {
+    "easterhead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:easterhead"] }]
       }
     },
-    "Egghead": {
+    "egghead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:egghead"] }]
       }
     },
-    "Eggonhead": {
+    "eggonhead": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:eggonhead"] }]
       }
     },
-    "Elfhat": {
+    "elfhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:elfhat"] }]
       }
     },
-    "Explorerhat": {
+    "explorerhat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:explorerhat"] }]
       }
     },
-    "Eyepatch": {
+    "eyepatch": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:eyepatch"] }]
       }
     },
-    "Fakeblight": {
+    "fakeblight": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:fakeblight"] }]
       }
     },
-    "Fakefire": {
+    "fakefire": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:fakefire"] }]
       }
     },
-    "Farmerbrim": {
+    "farmerbrim": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:farmerbrim"] }]
       }
     },
-    "Festiveantlers": {
+    "festiveantlers": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:festiveantlers"] }]
       }
     },
-    "Festiveribbon": {
+    "festiveribbon": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:festiveribbon"] }]
       }
     },
-    "Fez": {
+    "fez": {
       "trigger": "minecraft:inventory_changed",
       "conditions": { "player": [], "items": [{ "items": ["simplehats:fez"] }] }
     },
-    "Finnhood": {
+    "finnhood": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:finnhood"] }]
       }
     },
-    "Fireworks": {
+    "fireworks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
         "items": [{ "items": ["simplehats:fireworks"] }]
       }
     },
-    "Fishing_Hat": {
+    "fishing_hat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [],
