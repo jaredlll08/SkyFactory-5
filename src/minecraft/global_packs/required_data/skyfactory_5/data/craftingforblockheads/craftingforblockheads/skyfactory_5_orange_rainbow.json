@@ -50,7 +50,7 @@
           "item": "minecraft:stick"
         },
         {
-          "item": "tinted_torches:orange_torch"
+          "item": "colored_torches:orange_torch"
         },
         {
           "item": "tintedcampfires:orange_campfire"
