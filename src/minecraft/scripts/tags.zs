@@ -423,45 +423,6 @@ for item in itemsToRemove {
 <tagmanager:items>.addId(<tag:items:forge:dusts/ender>, <resource:thermal:ender_pearl_dust>);
 <tagmanager:items>.addId(<tag:items:minecraft:pressure_plates>, <resource:minecraft:stone_pressure_plate>);
 
-// Ex Nihilo Sequentia
-// Crucibles
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:black_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:blue_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:brown_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:cyan_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:gray_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:green_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:light_blue_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:light_gray_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:lime_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:magenta_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:none_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:orange_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:pink_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:purple_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:red_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:white_crucible>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/crucibles>, <resource:exnihilocoloratus:yellow_crucible>);
-
-// Barrels
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:black_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:blue_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:brown_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:cyan_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:gray_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:green_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:light_blue_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:light_gray_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:lime_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:magenta_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:none_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:orange_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:pink_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:purple_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:red_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:white_barrel>);
-<tagmanager:items>.addId(<tag:items:exnihilosequentia/barrels>, <resource:exnihilocoloratus:yellow_barrel>);
-
 // Adds Crafting Tables to forge:workbench tag
 <tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:enderio:painted_crafting_table>);
 <tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_none>);
