@@ -3,6 +3,9 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.item.IItemStack;
 import stdlib.List;
 import crafttweaker.api.world.ServerLevel;
+import crafttweaker.api.food.FoodProperties;
+import crafttweaker.api.ingredient.type.IIngredientList;
+
 
 public class OnEat {
     public static var EATS = new List<OnEat>();
@@ -45,9 +48,49 @@ public class OnEat {
         });
     }
 }
+public class Food {
+
+    public val hunger as int : get;
+    public val saturation as float : get;
+    public val fastToEat as bool : get;
+    public val alwaysEdible as bool : get;
+    public val items = new List<IItemStack>();
+    public val onEaten as function(player as Player) as void;
+
+    public this(hunger as int, saturation as float, fastToEat as bool, alwaysEdible as bool, onEaten as function(player as Player) as void = (player) => {}) {
+        this.hunger = hunger;
+        this.saturation = saturation;
+        this.fastToEat = fastToEat;
+        this.alwaysEdible = alwaysEdible;
+        this.onEaten = onEaten;
+    }
+
+    public apply(item as IItemStack) as Food {
+        this.items.add(item);
+        return this;
+    }
+
+    public register() as void {
+
+        for item in items {
+            item.food = FoodProperties.create(this.hunger, this.saturation).setCanAlwaysEat(this.alwaysEdible).setIsFastFood(this.fastToEat);
+        }
+
+        val ingredients as IIngredient[] = this.items as IItemStack[];
+        OnEat.register(new IIngredientList(ingredients), onEaten);
+    }
+
+}
 
 OnEat.listen();
 OnEat.register(<item:minecraft:potion>.withTag({Potion: "minecraft:water"}), <item:minecraft:blue_dye>);
+OnEat.register(<item:sf5_things:blue_apple>, <item:minecraft:blue_dye>);
+OnEat.register(<item:minecraft:dirt>, <item:minecraft:brown_dye>);
+OnEat.register(<item:sf5_things:green_apple>, <item:minecraft:green_dye>);
+OnEat.register(<item:minecraft:carrot>, <item:minecraft:orange_dye>);
+OnEat.register(<item:sf5_things:white_apple>, <item:minecraft:white_dye>);
+OnEat.register(<item:exnihilosequentia:silkworm>, <item:minecraft:white_dye>);
+
 OnEat.register(<item:minecraft:carrot>, (player) => {
     var effect = new crafttweaker.api.entity.effect.MobEffectInstance(<mobeffect:minecraft:night_vision>, 200, 2);
     player.addEffect(effect);
@@ -154,3 +197,59 @@ OnEat.register(<item:minecraft:potion>, (player) => {
         level.setBlockAndUpdate(pos, <blockstate:yellow_snow:yellow_snow>);
     }
 });
+
+new Food(1, 0.25, false, true)
+    .apply(<item:minecraft:white_dye>)
+    .apply(<item:minecraft:orange_dye>)
+    .apply(<item:minecraft:magenta_dye>)
+    .apply(<item:minecraft:light_blue_dye>)
+    .apply(<item:minecraft:yellow_dye>)
+    .apply(<item:minecraft:lime_dye>)
+    .apply(<item:minecraft:pink_dye>)
+    .apply(<item:minecraft:gray_dye>)
+    .apply(<item:minecraft:light_gray_dye>)
+    .apply(<item:minecraft:cyan_dye>)
+    .apply(<item:minecraft:purple_dye>)
+    .apply(<item:minecraft:blue_dye>)
+    .apply(<item:minecraft:brown_dye>)
+    .apply(<item:minecraft:green_dye>)
+    .apply(<item:minecraft:red_dye>)
+    .apply(<item:minecraft:black_dye>)
+    .apply(<item:minecraft:sunflower>)
+    .apply(<item:minecraft:wither_rose>)
+    .apply(<item:sf5_things:rgb_dye>)
+    .apply(<item:minecraft:feather>)
+    .register();
+new Food(1, 1, false, true, player => player.sendMessage("you ate"))
+    .apply(<item:minecraft:dirt>)
+    .register();
+new Food(3, 2, false, false, player => player.sendMessage("you ate"))
+    .apply(<item:sf5_things:block_of_meat>)
+    .register();
+new Food(2, 1, false, false, player => player.sendMessage("you ate"))
+    .apply(<item:sf5_things:block_of_jerky>)
+    .apply(<item:sf5_things:block_of_pumpkin_spice_latte>)
+    .register();
+new Food(5, 3, false, false, player => player.sendMessage("you ate"))
+    .apply(<item:sf5_things:block_of_blue_cheese>)
+    .apply(<item:sf5_things:block_of_grape_hi_chew>)
+    .register();
+new Food(7, 4, false, false, player => player.sendMessage("you ate"))
+    .apply(<item:sf5_things:block_of_blooming_onion>)
+    .apply(<item:sf5_things:block_of_black_olives>)
+    .register();
+new Food(1, 1, false, false, player => player.sendMessage("ew"))
+    .apply(<item:yellow_snow:yellow_snow>)
+    .apply(<item:sf5_things:block_of_kitty_litter>)
+    .apply(<item:sf5_things:block_of_ketchup>)
+    .apply(<item:sf5_things:block_of_pocket_lint>)
+    .register();
+new Food(1, 0.25, false, true, player => player.sendMessage("ew"))
+    .apply(<item:exnihilosequentia:silkworm>)
+    .register();
+new Food(0, 0, false, false, player => player.sendMessage("ew"))
+    .apply(<item:cyclic:chorus_flight>)
+    .register();
+new Food(0, 0, false, false, player => player.sendMessage("ew"))
+    .apply(<item:cyclic:chorus_spectral>)
+    .register();
