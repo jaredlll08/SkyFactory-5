@@ -14,7 +14,7 @@ events.register<GameStageAdded>((event) => {
       break;
   }
 
-  if message != "" {
+  if !message.empty {
     event.entity.sendMessage(message);
   }
 });
