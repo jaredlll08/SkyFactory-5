@@ -157,7 +157,7 @@ Use an Organic Matter Compressor to transform matter into Loot Bags
 #§1-=§0Ars Nouveau§1=-
 Make A Source Gem
 Make a Spellbook
-Make a Scribes Table
+Make a Scribe's Table
 Generate Source for Machines
 Make an Enchanting Apparatus
 Make a Ritual Brazier
@@ -173,7 +173,7 @@ Summon and Defeat the Wilden Chimera
 Automate a Farm with Spell Turrets
 Farm Mob Drops with Drygmies
 Summon a Decoy of yourself
-Capture Every Boss in a Containment Jar (may need to split into seperate tasks)
+Capture Every Boss in a Containment Jar
 Generate Source using every type of Sourcelink
 Fully Upgrade a set of Ars Nouveau Armor (Tier 3 fill all thread slots)
 Summon a Familiar
@@ -190,13 +190,13 @@ Summon a Possessed Endermite and kill it for Endstone
 Use an Ars Nouveau Containment Jar to capture an Occultism Spirit, letting them work without decaying
 Capture One of Each Trader Spirit in an Ars Nouveau Containment Jar
 Create A Dimensional Matrix for Mass item storage
-Summon A Djinni Machine Operator To Automate Crafting with the Dimensional Matrix
-Use a Dimensional Mineshaft to Automate Resources
-Have a Dimensional Matrix with Max Slots (12416, with one tier 4 on all sides including above and below)
+Summon A Djinni Machine Operator To automate Crafting with the Dimensional Matrix
+Use a Dimensional Mineshaft to automate Resources
+Have a Dimensional Matrix with max slots (12416, with one tier 4 on all sides including above and below)
 Summon an Afrit
 Summon the Wild Hunt and Defeat it
-Use a Transporter Spirit to Automate Item Transport
-Use a Janitor Spirit to Automate Collecting items
+Use a Transporter Spirit to automate Item Transport
+Use a Janitor Spirit to automate collecting items
 Summon A Familiar and Capture it in a Familiar Ring
 Summon a Demonic Wife/Husband
 ===
@@ -266,7 +266,7 @@ Obtain 90 total hearts of health
 Craft an Infinity Wand
 Create a Perfect Sushi Roll
 Create a Culinary Construct Sandwich full of different types of Perfect Sushi
-Fill an entire chunk with <insert silly or weird block> block (16x16x448)
+Fill an entire chunk with Colorless Dye Block (16x16x448)
 ===
 #§1--==§0Age of Excess§1==--
 #§1--==§0AKA Nobody Is Crazy Enough to Actually Do This§1==--
