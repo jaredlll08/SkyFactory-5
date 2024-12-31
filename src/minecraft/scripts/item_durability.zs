@@ -37,7 +37,6 @@ for durability, items in itemsForDurability{
   // //
   // Sets up items to use the Unbreakable tag as this is a much cleaner
   // method for many items rather than setting durability
-  // <tagmanager:items>.addId(<tag:items:datamancy:unbreakable>, <resource:%1%>);
   // //
 
 val itemsForUnbreakable = [
@@ -654,6 +653,4 @@ val itemsForUnbreakable = [
 
 ];
 
-for item in itemsForUnbreakable{
-  <tagmanager:items>.addId(<tag:items:datamancy:unbreakable>, item);
-}
+<tag:items:datamancy:unbreakable>.addId(itemsForUnbreakable);

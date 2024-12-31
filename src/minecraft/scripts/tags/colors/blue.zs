@@ -953,7 +953,5 @@ val items as ResourceLocation[] = [
   // GENERATOR END
 ];
 
-for item in items {
-  <tag:items:skyfactory_5:colored_items>.addId(item);
-  <tag:items:skyfactory_5:colored_items/blue>.addId(item);
-}
+<tag:items:skyfactory_5:colored_items>.addId(items);
+<tag:items:skyfactory_5:colored_items/blue>.addId(items);

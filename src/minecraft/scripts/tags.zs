@@ -1,5 +1,6 @@
 import crafttweaker.api.tag.manager.ITagManager;
 import crafttweaker.api.item.IItemStack;
+import crafttweaker.api.resource.ResourceLocation;
 
 val itemsToRemove as IItemStack[] = [
   <item:forcecraft:force_stick>,
@@ -419,48 +420,6 @@ for item in itemsToRemove {
   }
 }
 
-// Tag additions
-<tagmanager:items>.addId(<tag:items:forge:dusts/ender>, <resource:thermal:ender_pearl_dust>);
-<tagmanager:items>.addId(<tag:items:minecraft:pressure_plates>, <resource:minecraft:stone_pressure_plate>);
-
-// Adds Crafting Tables to forge:workbench tag
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:enderio:painted_crafting_table>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_none>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_black>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_blue>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_brown>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_cyan>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_gray>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_green>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_light_blue>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_light_gray>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_lime>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_magenta>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_orange>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_pink>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_purple>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_red>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_white>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:colouredstuff:crafting_table_yellow>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:minecraft:crafting_table>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:cyclic:workbench>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:craftingstation:crafting_station>);
-<tagmanager:items>.addId(<tag:items:forge:workbench>, <resource:craftingstation:crafting_station_slab>);
-
-// Using this as a test for goat spawns not working on this block normally
-<tagmanager:blocks>.addId(<tag:blocks:minecraft:dirt>, <resource:colouredstuff:dirt_none>);
-
-
-// Adding every block to the dragon immune tag
-for block in game.blocks {
-  <tag:blocks:minecraft:dragon_immune>.add(block);
-}
-
-
-// Tags each set of Coloured Stuff blocks
-
-<tag:blocks:skyfactory_5:coloured_stuff/crafting_tables>.addId(<resource:colouredstuff:crafting_table_rainbow>);
-
 var colors = [
     "black",
     "blue",
@@ -480,49 +439,74 @@ var colors = [
     "yellow"
 ];
 
-for color in colors {
-    <tag:blocks:skyfactory_5:coloured_stuff/logs>.addId(<resource:colouredstuff:log_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/wood>.addId(<resource:colouredstuff:wood_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/planks>.addId(<resource:colouredstuff:planks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/logs>.addId(<resource:colouredstuff:log_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/log_stripped>.addId(<resource:colouredstuff:log_stripped_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/wood_stripped>.addId(<resource:colouredstuff:wood_stripped_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/crafting_tables>.addId(<resource:colouredstuff:crafting_table_rainbow>);
-    <tag:blocks:skyfactory_5:coloured_stuff/leaves>.addId(<resource:colouredstuff:leaves_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/saplings>.addId(<resource:colouredstuff:sapling_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/cobblestone>.addId(<resource:colouredstuff:cobblestone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/stone>.addId(<resource:colouredstuff:stone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/stone_bricks>.addId(<resource:colouredstuff:stone_bricks_blue>);
-    <tag:blocks:skyfactory_5:coloured_stuff/chiseled_stone_bricks>.addId(<resource:colouredstuff:chiseled_stone_bricks_blue>);
-    <tag:blocks:skyfactory_5:coloured_stuff/dirt>.addId(<resource:colouredstuff:dirt_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/paths>.addId(<resource:colouredstuff:path_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/sandstone>.addId(<resource:colouredstuff:sandstone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/cut_sandstone>.addId(<resource:colouredstuff:cut_sandstone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/smooth_sandstone>.addId(<resource:colouredstuff:smooth_sandstone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/chiseled_sandstone>.addId(<resource:colouredstuff:chiseled_sandstone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/bricks>.addId(<resource:colouredstuff:brick_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/slab_planks>.addId(<resource:colouredstuff:slab_planks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/slab_cobblestone>.addId(<resource:colouredstuff:slab_cobblestone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/slab_stone>.addId(<resource:colouredstuff:slab_stone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/slab_stone_bricks>.addId(<resource:colouredstuff:slab_stone_bricks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/slab_sandstone>.addId(<resource:colouredstuff:slab_sandstone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/slab_bricks>.addId(<resource:colouredstuff:slab_brick_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/stairs_brick>.addId(<resource:colouredstuff:stairs_brick_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/stairs_planks>.addId(<resource:colouredstuff:stairs_planks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/stairs_stone>.addId(<resource:colouredstuff:stairs_stone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/stairs_cobblestone>.addId(<resource:colouredstuff:stairs_cobblestone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/stairs_sandstone>.addId(<resource:colouredstuff:stairs_sandstone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/stairs_stone_bricks>.addId(<resource:colouredstuff:stairs_stone_bricks_brown>);
-    <tag:blocks:skyfactory_5:coloured_stuff/wall_stone>.addId(<resource:colouredstuff:wall_stone_magenta>);
-    <tag:blocks:skyfactory_5:coloured_stuff/wall_sandstone>.addId(<resource:colouredstuff:wall_sandstone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/wall_planks>.addId(<resource:colouredstuff:wall_planks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/wall_cobblestone>.addId(<resource:colouredstuff:wall_cobblestone_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/wall_stone_bricks>.addId(<resource:colouredstuff:wall_stone_bricks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/wall_bricks>.addId(<resource:colouredstuff:wall_brick_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/fence_planks>.addId(<resource:colouredstuff:fence_planks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/gate_planks>.addId(<resource:colouredstuff:gate_planks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/button_planks>.addId(<resource:colouredstuff:button_planks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/pressure_plate_planks>.addId(<resource:colouredstuff:pressure_plate_planks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/trapdoor_planks>.addId(<resource:colouredstuff:trapdoor_planks_${color}>);
-    <tag:blocks:skyfactory_5:coloured_stuff/door_planks>.addId(<resource:colouredstuff:door_planks_${color}>);
+// Tag additions
+<tag:items:forge:dusts/ender>.addId(<resource:thermal:ender_pearl_dust>);
+<tag:items:minecraft:pressure_plates>.addId(<resource:minecraft:stone_pressure_plate>);
+
+// Adds Crafting Tables to forge:workbench tag
+<tag:items:forge:workbench>.addId(<resource:enderio:painted_crafting_table>);
+<tag:items:forge:workbench>.addId(<resource:colouredstuff:crafting_table_none>);
+<tag:items:forge:workbench>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:crafting_table_${color}>));
+<tag:items:forge:workbench>.addId(<resource:minecraft:crafting_table>);
+<tag:items:forge:workbench>.addId(<resource:cyclic:workbench>);
+<tag:items:forge:workbench>.addId(<resource:craftingstation:crafting_station>);
+<tag:items:forge:workbench>.addId(<resource:craftingstation:crafting_station_slab>);
+
+// Using this as a test for goat spawns not working on this block normally
+<tag:blocks:minecraft:dirt>.addId(<resource:colouredstuff:dirt_none>);
+
+
+// Adding every block to the dragon immune tag
+for block in game.blocks {
+  <tag:blocks:minecraft:dragon_immune>.add(block);
 }
+
+
+// Tags each set of Coloured Stuff blocks
+
+<tag:blocks:skyfactory_5:coloured_stuff/crafting_tables>.addId(<resource:colouredstuff:crafting_table_rainbow>);
+
+<tag:blocks:skyfactory_5:coloured_stuff/logs>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:log_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/wood>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:wood_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:planks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/logs>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:log_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/log_stripped>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:log_stripped_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/wood_stripped>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:wood_stripped_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/crafting_tables>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:crafting_table_rainbow>));
+<tag:blocks:skyfactory_5:coloured_stuff/leaves>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:leaves_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/saplings>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:sapling_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/cobblestone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:cobblestone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/stone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:stone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/stone_bricks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:stone_bricks_blue>));
+<tag:blocks:skyfactory_5:coloured_stuff/chiseled_stone_bricks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:chiseled_stone_bricks_blue>));
+<tag:blocks:skyfactory_5:coloured_stuff/dirt>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:dirt_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/paths>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:path_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/sandstone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:sandstone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/cut_sandstone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:cut_sandstone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/smooth_sandstone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:smooth_sandstone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/chiseled_sandstone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:chiseled_sandstone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/bricks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:brick_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/slab_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:slab_planks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/slab_cobblestone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:slab_cobblestone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/slab_stone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:slab_stone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/slab_stone_bricks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:slab_stone_bricks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/slab_sandstone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:slab_sandstone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/slab_bricks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:slab_brick_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/stairs_brick>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:stairs_brick_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/stairs_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:stairs_planks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/stairs_stone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:stairs_stone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/stairs_cobblestone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:stairs_cobblestone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/stairs_sandstone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:stairs_sandstone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/stairs_stone_bricks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:stairs_stone_bricks_brown>));
+<tag:blocks:skyfactory_5:coloured_stuff/wall_stone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:wall_stone_magenta>));
+<tag:blocks:skyfactory_5:coloured_stuff/wall_sandstone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:wall_sandstone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/wall_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:wall_planks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/wall_cobblestone>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:wall_cobblestone_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/wall_stone_bricks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:wall_stone_bricks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/wall_bricks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:wall_brick_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/fence_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:fence_planks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/gate_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:gate_planks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/button_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:button_planks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/pressure_plate_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:pressure_plate_planks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/trapdoor_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:trapdoor_planks_${color}>));
+<tag:blocks:skyfactory_5:coloured_stuff/door_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:door_planks_${color}>));
