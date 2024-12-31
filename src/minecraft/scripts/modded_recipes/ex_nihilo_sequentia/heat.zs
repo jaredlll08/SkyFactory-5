@@ -90,39 +90,39 @@ val blazeTrophyProperties = StatePropertiesPredicate.create().property("entity",
 
 
 // Tinted Torches
-<recipetype:exnihilosequentia:heat>.addRecipe("blue_torch_heat",3,<block:tinted_torches:blue_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("gray_torch_heat",3,<block:tinted_torches:gray_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("light_blue_torch_heat",3,<block:tinted_torches:light_blue_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("light_gray_torch_heat",3,<block:tinted_torches:light_gray_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("lime_torch_heat",3,<block:tinted_torches:lime_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("magenta_torch_heat",3,<block:tinted_torches:magenta_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("orange_torch_heat",3,<block:tinted_torches:orange_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("pink_torch_heat",3,<block:tinted_torches:pink_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("white_torch_heat",3,<block:tinted_torches:white_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("yellow_torch_heat",3,<block:tinted_torches:yellow_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("black_torch_heat",3,<block:tinted_torches:black_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("brown_torch_heat",3,<block:tinted_torches:brown_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("cyan_torch_heat",3,<block:tinted_torches:cyan_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("green_torch_heat",3,<block:tinted_torches:green_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("purple_torch_heat",3,<block:tinted_torches:purple_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("red_torch_heat",3,<block:tinted_torches:red_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("blue_torch_heat",3,<block:colored_torches:blue_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("gray_torch_heat",3,<block:colored_torches:gray_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("light_blue_torch_heat",3,<block:colored_torches:light_blue_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("light_gray_torch_heat",3,<block:colored_torches:light_gray_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("lime_torch_heat",3,<block:colored_torches:lime_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("magenta_torch_heat",3,<block:colored_torches:magenta_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("orange_torch_heat",3,<block:colored_torches:orange_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("pink_torch_heat",3,<block:colored_torches:pink_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("white_torch_heat",3,<block:colored_torches:white_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("yellow_torch_heat",3,<block:colored_torches:yellow_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("black_torch_heat",3,<block:colored_torches:black_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("brown_torch_heat",3,<block:colored_torches:brown_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("cyan_torch_heat",3,<block:colored_torches:cyan_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("green_torch_heat",3,<block:colored_torches:green_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("purple_torch_heat",3,<block:colored_torches:purple_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("red_torch_heat",3,<block:colored_torches:red_torch>,any_properties);
 // Tinted Wall Torches
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_blue_torch_heat",3,<block:tinted_torches:wall_blue_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_gray_torch_heat",3,<block:tinted_torches:wall_gray_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_light_blue_torch_heat",3,<block:tinted_torches:wall_light_blue_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_light_gray_torch_heat",3,<block:tinted_torches:wall_light_gray_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_lime_torch_heat",3,<block:tinted_torches:wall_lime_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_magenta_torch_heat",3,<block:tinted_torches:wall_magenta_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_orange_torch_heat",3,<block:tinted_torches:wall_orange_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_pink_torch_heat",3,<block:tinted_torches:wall_pink_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_white_torch_heat",3,<block:tinted_torches:wall_white_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_yellow_torch_heat",3,<block:tinted_torches:wall_yellow_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_black_torch_heat",3,<block:tinted_torches:wall_black_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_brown_torch_heat",3,<block:tinted_torches:wall_brown_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_cyan_torch_heat",3,<block:tinted_torches:wall_cyan_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_green_torch_heat",3,<block:tinted_torches:wall_green_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_purple_torch_heat",3,<block:tinted_torches:wall_purple_torch>,any_properties);
-<recipetype:exnihilosequentia:heat>.addRecipe("wall_red_torch_heat",3,<block:tinted_torches:wall_red_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_blue_torch_heat",3,<block:colored_torches:wall_blue_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_gray_torch_heat",3,<block:colored_torches:wall_gray_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_light_blue_torch_heat",3,<block:colored_torches:wall_light_blue_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_light_gray_torch_heat",3,<block:colored_torches:wall_light_gray_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_lime_torch_heat",3,<block:colored_torches:wall_lime_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_magenta_torch_heat",3,<block:colored_torches:wall_magenta_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_orange_torch_heat",3,<block:colored_torches:wall_orange_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_pink_torch_heat",3,<block:colored_torches:wall_pink_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_white_torch_heat",3,<block:colored_torches:wall_white_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_yellow_torch_heat",3,<block:colored_torches:wall_yellow_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_black_torch_heat",3,<block:colored_torches:wall_black_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_brown_torch_heat",3,<block:colored_torches:wall_brown_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_cyan_torch_heat",3,<block:colored_torches:wall_cyan_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_green_torch_heat",3,<block:colored_torches:wall_green_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_purple_torch_heat",3,<block:colored_torches:wall_purple_torch>,any_properties);
+<recipetype:exnihilosequentia:heat>.addRecipe("wall_red_torch_heat",3,<block:colored_torches:wall_red_torch>,any_properties);
 
 
 

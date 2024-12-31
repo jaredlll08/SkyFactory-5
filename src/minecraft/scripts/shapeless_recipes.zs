@@ -397,3 +397,31 @@ craftingTable.addShapeless(
   <item:create:chute> * 1,
   [<tag:items:skyfactory_5:bullets>, <tag:items:skyfactory_5:bullets>,<tag:items:skyfactory_5:bullets>,<tag:items:skyfactory_5:bullets>,<tag:items:skyfactory_5:bullets>,<tag:items:skyfactory_5:bullets>]
 );
+
+// Soap with Wooden Bucket
+craftingTable.addShapeless(
+  "soap_with_wooden_bucket",
+  <item:supplementaries:soap> * 6,
+  [<item:woodenbucket:wooden_bucket>.withTag({Fluid: {Amount: 1000, FluidName: "minecraft:water"}}), <tag:items:forge:ash>, <tag:items:forge:ash>, <tag:items:forge:ash>, <tag:items:forge:ash>, <item:minecraft:porkchop>]
+);
+
+// Raw Crimson Iron
+craftingTable.addShapeless(
+  "raw_crimson_iron",
+  <item:silentgear:raw_crimson_iron> * 1,
+  [<item:minecraft:pink_dye>, <item:minecraft:pink_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>]
+);
+
+// Raw Azure Silver
+craftingTable.addShapeless(
+  "raw_azure_silver",
+  <item:silentgear:raw_azure_silver> * 1,
+  [<item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
+);
+
+// Colorless Dye Block
+craftingTable.addShapeless(
+  "colorless_dye_block_from_essence",
+  <item:sf5_things:block_of_colorless_dye> * 1,
+  [<item:mysticalagriculture:none_crop_essence>, <item:mysticalagriculture:none_crop_essence>, <item:mysticalagriculture:none_crop_essence>, <item:mysticalagriculture:none_crop_essence>, <item:mysticalagriculture:none_crop_essence>, <item:mysticalagriculture:none_crop_essence>, <item:mysticalagriculture:none_crop_essence>, <item:mysticalagriculture:none_crop_essence>, <item:mysticalagriculture:none_crop_essence>]
+);

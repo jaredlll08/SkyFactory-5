@@ -63,6 +63,7 @@ villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:thermal:tomat
 villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:thermal:eggplant_seeds>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:thermal:eggplant_seeds>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:thermal:flax_seeds>, 4, 8, 0.05);
+villagerTrades.addTrade(<profession:minecraft:farmer>, 3, 4, <item:silentgear:netherwood_sapling>, 4, 8, 0.05);
 
 // // Wandering Trader
 // Removes all Wandering Trader Trades

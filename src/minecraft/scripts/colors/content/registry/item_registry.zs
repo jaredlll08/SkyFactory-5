@@ -140,7 +140,7 @@ ContentBuilder.factory
       return null;
     }
 
-    return BracketHandlers.getItem("tinted_torches:" + color.getResourceName() + "_torch");
+    return BracketHandlers.getItem("colored_torches:" + color.getResourceName() + "_torch");
   })
   .registerItem(ColoredItem.TreasureBag, (color) => {
     if color.getName() == ColorName.None {

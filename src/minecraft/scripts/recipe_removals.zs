@@ -116,6 +116,7 @@ val items as IItemStack[] = [
 <item:cyclic:spawner_seeker>,
 <item:cyclic:ender_eye_reuse>,
 <item:cyclic:spelunker>,
+<item:cyclic:charm_creeper>,
 
 // Cyclic Apples
 <item:cyclic:apple_ender>,
@@ -225,7 +226,6 @@ val items as IItemStack[] = [
 <item:colossalchests:colossal_chest_obsidian>,
 <item:colossalchests:interface_obsidian>,
 
-
 // Silent's Gear Item Cleanup
 <item:silentgear:diamond_shard>,
 <item:silentgear:emerald_shard>,
@@ -234,7 +234,8 @@ val items as IItemStack[] = [
 <item:silentgear:sturdy_repair_kit>,
 <item:silentgear:crimson_repair_kit>,
 <item:silentgear:azure_repair_kit>,
-
+<item:silentgear:bort>,
+<item:silentgear:bort_block>,
 
 // Cyclic
 <item:cyclic:crystal_boots>,
@@ -475,7 +476,10 @@ val items as IItemStack[] = [
   <item:occultism:silver_ore>,
   <item:occultism:silver_ore_deepslate>,
   <item:occultism:silver_block>,
-  <item:occultism:raw_silver_block>
+  <item:occultism:raw_silver_block>,
+
+  // Vein Creepers
+  <item:veincreeper:trap>
 
 ];
 

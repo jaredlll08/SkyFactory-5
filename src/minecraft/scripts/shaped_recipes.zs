@@ -695,26 +695,6 @@ craftingTable.addShaped(
   ]
   );
 
-// Cobblestone Slabs to Block
-  craftingTable.addShaped(
-  "cobblestone_slab_to_block",
-  <item:minecraft:cobblestone> * 1,
-  [
-    [<item:minecraft:cobblestone_slab>],
-    [<item:minecraft:cobblestone_slab>]
-  ]
-  );
-
-// Vinery Cherry Slabs to Block
-  craftingTable.addShaped(
-  "vinery_cherry_slabs_to_planks",
-  <item:vinery:cherry_planks> * 1,
-  [
-    [<item:vinery:cherry_slab>],
-    [<item:vinery:cherry_slab>]
-  ]
-  );
-
 // Applied Energistics 2 Silicon Press
   craftingTable.addShaped(
   "ae2_silicon_press",
@@ -1390,5 +1370,14 @@ craftingTable.addShaped(
     [<item:minecraft:air>, <item:minecraft:glowstone_dust>, <item:minecraft:air>],
     [<item:minecraft:glowstone_dust>, <item:minecraft:dirt>, <item:minecraft:glowstone_dust>],
     [<item:minecraft:air>, <item:minecraft:glowstone_dust>, <item:minecraft:air>]
+  ]
+);
+
+// Netherwood Sapling
+  craftingTable.addShaped(
+  "netherwood_sapling",
+  <item:silentgear:netherwood_sapling> * 1,
+  [
+    [<item:minecraft:red_dye>, <item:minecraft:spruce_sapling>, <item:minecraft:nether_wart>]
   ]
 );

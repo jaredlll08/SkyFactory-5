@@ -17,3 +17,4 @@ import mods.exnihilosequentia.TransitionRecipe;
 <recipetype:exnihilosequentia:transition>.addRecipe("water_and_red_dye_transition", <item:minecraft:red_dye>,<fluid:minecraft:water> * 1000, <fluid:colouredstuff:water_red> * 1000);
 <recipetype:exnihilosequentia:transition>.addRecipe("water_and_white_dye_transition", <item:minecraft:white_dye>,<fluid:minecraft:water> * 1000, <fluid:colouredstuff:water_white> * 1000);
 <recipetype:exnihilosequentia:transition>.addRecipe("water_and_yellow_dye_transition", <item:minecraft:yellow_dye>,<fluid:minecraft:water> * 1000, <fluid:colouredstuff:water_yellow> * 1000);
+<recipetype:exnihilosequentia:transition>.addRecipe("water_and_soap_transition", <item:supplementaries:soap>,<fluid:minecraft:water> * 1000, <fluid:colouredstuff:water_none> * 1000);

@@ -20,7 +20,11 @@ for durability, modIDs in modIDsForDurability {
 val itemsForDurability as IItemStack[][int] = {
   -1: [],
   9999: [],
-  2147483647: []
+  2147483647: [
+    <item:create:super_glue>,
+    <item:sophisticatedstorage:packing_tape>,
+    <item:supplementaries:soap>
+    ]
 };
 
 for durability, items in itemsForDurability{
@@ -44,7 +48,6 @@ val itemsForUnbreakable = [
   <resource:create:netherite_diving_boots>,
   <resource:create:netherite_diving_helmet>,
   <resource:create:sand_paper>,
-  <resource:create:super_glue>,
 
   // Cyclic
   <resource:cyclic:charm_antidote>,
@@ -113,9 +116,6 @@ val itemsForUnbreakable = [
   <resource:cyclic:teleport_wand>,
   <resource:cyclic:torch_launcher>,
   <resource:cyclic:ender_fishing>,
-
-  // Sophisticated Storage
-  <resource:sophisticatedstorage:packing_tape>,
 
   // EnderIO
   <resource:enderio:dark_steel_sword>,
@@ -414,7 +414,6 @@ val itemsForUnbreakable = [
   <resource:silentgear:bracelet>,
 
   // Sophisticated Storage
-  <resource:sophisticatedstorage:packing_tape>,
   <resource:sophisticatedstorage:paintbrush>,
 
   // AE2
@@ -586,7 +585,6 @@ val itemsForUnbreakable = [
 
   // Supplementaries
   <resource:supplementaries:flute>,
-  <resource:supplementaries:soap>,
 
   // Sushi Go Crafting
   <resource:sushigocrafting:cleaver_knife>,
