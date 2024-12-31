@@ -1,4 +1,3 @@
-import crafttweaker.api.bracket.BracketHandlers;
 
 public enum ColoredItem {
   Apple = "apple",
@@ -32,8 +31,7 @@ ContentBuilder.factory
     if color.getName() == ColorName.Red {
       return <item:minecraft:apple>;
     }
-
-    return BracketHandlers.getItem("sf5_things:" + color.getResourceName() + "_apple");
+    return <item:sf5_things:${color.getResourceName()}_apple>;
   })
   .registerItem(ColoredItem.Boat, (color) => {
     if color.getName() == ColorName.Brown {
@@ -68,7 +66,7 @@ ContentBuilder.factory
       return null;
     }
 
-    return BracketHandlers.getItem("tintedcampfires:" + color.getResourceName() + "_campfire");
+    return <item:tintedcampfires:${color.getResourceName()}_campfire>;
   })
   .registerItem(ColoredItem.ChallengeGateway, (color) => {
     if color.getName() == ColorName.None {
@@ -78,14 +76,14 @@ ContentBuilder.factory
     return <item:gateways:gate_pearl>.withTag({gateway:"gateways:challenge/challenge_" + color.getResourceName()});
   })
   .registerItem(ColoredItem.CraftingTable, (color) => {
-    return BracketHandlers.getItem("colouredstuff:crafting_table_" + color.getResourceName());
+    return <item:colouredstuff:crafting_table_${color.getResourceName()}>;
   })
   .registerItem(ColoredItem.Dye, (color) => {
     if color.getName() == ColorName.None {
       return null;
     }
 
-    return BracketHandlers.getItem("minecraft:" + color.getResourceName() + "_dye");
+    return <item:minecraft:${color.getResourceName()}_dye>;
   })
   .registerItem(ColoredItem.DyeBlock, (color) => {
     var resourceName = color.getResourceName();
@@ -93,7 +91,7 @@ ContentBuilder.factory
       resourceName = "colorless";
     }
 
-    return BracketHandlers.getItem("sf5_things:block_of_" + resourceName + "_dye");
+    return <item:sf5_things:block_of_${resourceName}_dye>;
   })
   .registerItem(ColoredItem.Essence, (color) => {
     if color.getName() == ColorName.None {
@@ -103,16 +101,16 @@ ContentBuilder.factory
     return <item:mysticalagriculture:${color.getResourceName()}_crop_essence>;
   })
   .registerItem(ColoredItem.Plank, (color) => {
-    return BracketHandlers.getItem("colouredstuff:planks_" + color.getResourceName());
+    return <item:colouredstuff:planks_${color.getResourceName()}>;
   })
   .registerItem(ColoredItem.PlankSlab, (color) => {
-    return BracketHandlers.getItem("colouredstuff:slab_planks_" + color.getResourceName());
+    return <item:colouredstuff:slab_planks_${color.getResourceName()}>;
   })
   .registerItem(ColoredItem.Sapling, (color) => {
-    return BracketHandlers.getItem("colouredstuff:sapling_" + color.getResourceName());
+    return <item:colouredstuff:sapling_${color.getResourceName()}>;
   })
   .registerItem(ColoredItem.Seed, (color) => {
-    return BracketHandlers.getItem("mysticalagriculture:" + color.getResourceName() + "_crop_seeds");
+    return <item:mysticalagriculture:${color.getResourceName()}_crop_seeds>;
   })
   .registerItem(ColoredItem.StorageChest, (color) => {
     return <item:sophisticatedstorage:chest>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
@@ -133,14 +131,14 @@ ContentBuilder.factory
     return <item:sophisticatedstorage:barrel>.withTag({mainColor: color.asDecimal(), accentColor: 6710886});
   })
   .registerItem(ColoredItem.Log, (color) => {
-    return BracketHandlers.getItem("colouredstuff:log_" + color.getResourceName());
+    return <item:colouredstuff:log_${color.getResourceName()}>;
   })
   .registerItem(ColoredItem.Torch, (color) => {
     if color.getName() == ColorName.None {
       return null;
     }
 
-    return BracketHandlers.getItem("colored_torches:" + color.getResourceName() + "_torch");
+    return <item:colored_torches:${color.getResourceName()}_torch>;
   })
   .registerItem(ColoredItem.TreasureBag, (color) => {
     if color.getName() == ColorName.None {
@@ -163,5 +161,5 @@ ContentBuilder.factory
       return null;
     }
 
-    return BracketHandlers.getItem("minecraft:" + color.getResourceName() + "_wool");
+    return <item:minecraft:${color.getResourceName()}_wool>;
   });

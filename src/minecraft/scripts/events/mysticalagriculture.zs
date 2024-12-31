@@ -1,7 +1,6 @@
 import collections.HashSet;
 import crafttweaker.api.block.Block;
 import crafttweaker.api.block.BlockState;
-import crafttweaker.api.bracket.BracketHandlers;
 import crafttweaker.forge.api.event.interact.RightClickBlockEvent;
 
 val dyeToCropMapping: Block[string] = {};
@@ -11,7 +10,7 @@ for colorName, color in Globals.colors {
     continue;
   }
 
-  dyeToCropMapping["minecraft:" + color.getResourceName() + "_dye"] = BracketHandlers.getBlock("mysticalagriculture:" + color.getResourceName() + "_crop_crop");
+  dyeToCropMapping["minecraft:" + color.getResourceName() + "_dye"] = <block:mysticalagriculture:${color.getResourceName()}_crop_crop>;
 }
 
 val crops = new HashSet<Block>();

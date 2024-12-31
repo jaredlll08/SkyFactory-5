@@ -1,5 +1,4 @@
 import crafttweaker.api.block.entity.BlockEntity;
-import crafttweaker.api.bracket.BracketHandlers;
 import crafttweaker.api.entity.Entity;
 import crafttweaker.api.entity.EntityType;
 import crafttweaker.api.entity.type.player.Player;
@@ -77,7 +76,7 @@ events.register<RightClickBlockEvent>(event => {
 
     if blockEntity != null {
       val data = blockEntity.data;
-      val type = BracketHandlers.getEntityType(data["entity"].getAsString());
+      val type = <entitytype:${data["entity"].getAsString()}>;
 
       if type in Globals.stagedMobs {
         val StagedMob = Globals.stagedMobs[type];

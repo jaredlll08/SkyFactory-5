@@ -1,5 +1,4 @@
 import crafttweaker.api.block.Block;
-import crafttweaker.api.bracket.BracketHandlers;
 import crafttweaker.api.entity.Entity;
 import crafttweaker.api.entity.type.player.Player;
 
@@ -7,7 +6,7 @@ ContentBuilder.factory
   .addLootModifierGenerator("colored_leaves_", (baseName, args) => {
     // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
     // val leaves = args.getBlock(ColoredBlock.Leaves);
-    val leaves = BracketHandlers.getBlock("colouredstuff:leaves_" + args.color.getResourceName()) as Block?;
+    val leaves = <block:colouredstuff:leaves_${args.color.getResourceName()}> as Block?;
 
     val apple = args.getItem(ColoredItem.Apple);
     val dye = args.getItem(ColoredItem.Dye);
@@ -61,7 +60,7 @@ ContentBuilder.factory
 
     // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
     // val leaves = args.getBlock(ColoredBlock.Leaves);
-    val leaves = BracketHandlers.getBlock("colouredstuff:leaves_" + args.color.getResourceName()) as Block?;
+    val leaves = <block:colouredstuff:leaves_${args.color.getResourceName()}> as Block?;
 
     if leaves == null {
       return;
@@ -90,7 +89,7 @@ ContentBuilder.factory
   .addLootModifierGenerator("_colored_leaves_silk_worm", (baseName, args) => {
     // TODO: There is a bug in ZenCode that prevents us from implementing this. See the block_entry.zs file.
     // val leaves = args.getBlock(ColoredBlock.Leaves);
-    val leaves = BracketHandlers.getBlock("colouredstuff:leaves_" + args.color.getResourceName()) as Block?;
+    val leaves = <block:colouredstuff:leaves_${args.color.getResourceName()}> as Block?;
 
     if leaves == null {
       return;

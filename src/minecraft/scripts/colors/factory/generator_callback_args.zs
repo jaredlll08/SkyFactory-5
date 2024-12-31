@@ -1,5 +1,4 @@
 import crafttweaker.api.block.Block;
-import crafttweaker.api.bracket.BracketHandlers;
 import crafttweaker.api.fluid.Fluid;
 import crafttweaker.api.fluid.IFluidStack;
 import crafttweaker.api.item.IItemStack;
