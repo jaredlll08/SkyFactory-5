@@ -1,4 +1,5 @@
 import crafttweaker.api.ingredient.IIngredient;
+import crafttweaker.api.ingredient.type.IIngredientList;
 // This script handles Ore Unification and Cleanup
 
 
@@ -103,8 +104,4 @@ val blocklist = [
 ] as IIngredient[];
 
 
-for item in blocklist {
-  removeAll(item);
-}
-
-
+removeAll(new IIngredientList(blocklist));
