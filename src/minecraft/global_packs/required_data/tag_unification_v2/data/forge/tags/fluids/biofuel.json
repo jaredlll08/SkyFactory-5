@@ -1,8 +1,0 @@
-{
-  "values": [
-    "industrialforegoing:biofuel",
-    "createaddition:flowing_bioethanol",
-    "createaddition:bioethanol"
-  ],
-  "replace": true
-}
